@@ -1,0 +1,2797 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣高中英文 6000 單字互動學習館 (Level 3 Prototype)</title>
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ==========================================================================
+           1. DESIGN SYSTEM & ROOT VARIABLES (PREMIUM BRIGHT THEME)
+           ========================================================================== */
+        :root {
+            --primary: #1F4E78;       /* Deep Steel Blue */
+            --primary-light: #2c5f94;
+            --secondary: #EAF2F8;     /* Crisp Ice Blue background tint */
+            --accent: #1F4E78;        /* Highlight color */
+            --highlight-neon: #0ea5e9; /* Sleek sky blue for active elements */
+            --success: #10b981;       /* Emerald Green */
+            --danger: #ef4444;        /* Coral Red */
+            --dark-bg: #f8fafc;       /* Crisp Bright Slate Background */
+            --panel-bg: rgba(255, 255, 255, 0.92); /* Glassmorphic White */
+            --text-main: #0f172a;     /* Deep Slate 900 */
+            --text-muted: #64748b;    /* Slate 500 */
+            --border-color: rgba(31, 78, 120, 0.12);
+            --font-display: 'Outfit', 'Inter', -apple-system, sans-serif;
+            --font-body: 'Inter', -apple-system, sans-serif;
+            --radius-lg: 16px;
+            --radius-md: 10px;
+            --radius-sm: 6px;
+            --shadow-premium: 0 8px 30px rgba(31, 78, 120, 0.06);
+            --transition-smooth: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            background-image: 
+                radial-gradient(at 10% 10%, rgba(221, 235, 247, 0.6) 0px, transparent 60%),
+                radial-gradient(at 90% 90%, rgba(234, 242, 248, 0.4) 0px, transparent 60%);
+        }
+
+        /* Custom Scrollbar for premium feel */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(248, 250, 252, 0.5);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(31, 78, 120, 0.15);
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(31, 78, 120, 0.3);
+        }
+
+        /* ==========================================================================
+           2. HEADER COMPONENT (WITH TOP BANNER LEVEL SELECTOR)
+           ========================================================================== */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 12px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+            box-shadow: 0 2px 10px rgba(31, 78, 120, 0.02);
+        }
+
+        .header-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-logo svg {
+            width: 32px;
+            height: 32px;
+            fill: var(--primary);
+        }
+
+        .header-logo h1 {
+            font-family: var(--font-display);
+            font-size: 19px;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: -0.3px;
+        }
+
+        .header-level-badge {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 700;
+            background: var(--primary);
+            color: #ffffff;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-left: 10px;
+            vertical-align: middle;
+            box-shadow: 0 2px 6px rgba(31, 78, 120, 0.15);
+        }
+
+        /* Top Banner Level Selector */
+        .header-level-container {
+            display: flex;
+            align-items: center;
+            background: #f1f5f9;
+            padding: 4px;
+            border-radius: 30px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            gap: 2px;
+        }
+
+        .header-level-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-family: var(--font-display);
+            font-size: 13px;
+            font-weight: 600;
+            padding: 6px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .header-level-btn span.num {
+            font-weight: 700;
+        }
+
+        .header-level-btn.active {
+            background: var(--primary);
+            color: #ffffff;
+            box-shadow: 0 3px 10px rgba(31, 78, 120, 0.2);
+        }
+
+        .header-level-btn.disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .header-level-btn:hover:not(.disabled):not(.active) {
+            background: rgba(0, 0, 0, 0.04);
+            color: var(--text-main);
+        }
+
+        .mode-toggle-group {
+            display: flex;
+            background: #f1f5f9;
+            padding: 4px;
+            border-radius: 30px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .mode-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-family: var(--font-display);
+            font-size: 13px;
+            font-weight: 600;
+            padding: 6px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .mode-btn.active {
+            background: var(--primary);
+            color: #ffffff;
+            box-shadow: 0 3px 10px rgba(31, 78, 120, 0.2);
+        }
+
+        /* ==========================================================================
+           3. CONTAINER & CORE NAVIGATION (SIDEBAR)
+           ========================================================================== */
+        .app-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Chapter Sidebar */
+        .chapter-sidebar {
+            width: 320px;
+            min-width: 320px;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(15px);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .chapter-sidebar.collapsed {
+            width: 0 !important;
+            min-width: 0 !important;
+            margin-left: -320px;
+            opacity: 0;
+            overflow: hidden;
+            pointer-events: none;
+            border-right-color: transparent;
+        }
+
+        /* Floating Sidebar Toggle Button */
+        .sidebar-toggle-btn {
+            position: absolute;
+            left: 310px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-left: none;
+            border-radius: 0 10px 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 1000;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 3px 0 10px rgba(0, 0, 0, 0.05);
+            color: var(--primary);
+            padding: 0;
+        }
+
+        .sidebar-toggle-btn:hover {
+            background: var(--primary);
+            color: #ffffff;
+            width: 24px;
+        }
+
+        .sidebar-toggle-btn svg {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* When sidebar is collapsed */
+        .chapter-sidebar.collapsed + .sidebar-toggle-btn {
+            left: 0;
+            border-left: 1px solid var(--border-color);
+            border-radius: 0 10px 10px 0;
+        }
+
+        .chapter-sidebar.collapsed + .sidebar-toggle-btn svg {
+            transform: rotate(180deg);
+        }
+
+        .chapter-sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .chapter-sidebar-header h2 {
+            font-family: var(--font-display);
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--primary);
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chapter-sidebar-header h2 span {
+            font-size: 11px;
+            background: rgba(31, 78, 120, 0.08);
+            padding: 2px 8px;
+            border-radius: 12px;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Chapter Progress Overview */
+        .total-progress-container {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            box-shadow: 0 2px 6px rgba(31, 78, 120, 0.01);
+        }
+
+        .total-progress-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .progress-bar-bg {
+            height: 6px;
+            background: #e2e8f0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--highlight-neon) 100%);
+            width: 0%;
+            border-radius: 10px;
+            transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Chapter Item Row */
+        .chapter-list {
+            list-style: none;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .chapter-item {
+            padding: 12px 16px;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            border: 1px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chapter-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--primary);
+            opacity: 0;
+            transition: var(--transition-smooth);
+        }
+
+        .chapter-item:hover {
+            background: rgba(31, 78, 120, 0.04);
+        }
+
+        .chapter-item.active {
+            background: var(--secondary);
+            border-color: rgba(31, 78, 120, 0.1);
+        }
+
+        .chapter-item.active::before {
+            opacity: 1;
+        }
+
+        .chapter-title-en {
+            font-family: var(--font-display);
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 3px;
+            line-height: 1.3;
+        }
+
+        .chapter-title-zh {
+            font-size: 13.5px;
+            color: var(--text-muted);
+            font-weight: 500;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chapter-title-zh span.word-count {
+            background: rgba(0, 0, 0, 0.04);
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-family: var(--font-display);
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .chapter-item-progress {
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .chapter-item-progress-bar {
+            flex: 1;
+            height: 4px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .chapter-item-progress-fill {
+            height: 100%;
+            background: var(--primary);
+            width: 0%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+
+        .chapter-item-progress-pct {
+            font-family: var(--font-display);
+            font-size: 9.5px;
+            font-weight: 700;
+            color: var(--text-muted);
+            width: 24px;
+            text-align: right;
+        }
+
+        /* ==========================================================================
+           4. WORD LIST VIEW (MASTER PANEL - LARGER WORDS)
+           ========================================================================== */
+        .word-list-panel {
+            width: 320px;
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(15px);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+
+        .search-container {
+            padding: 15px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .search-box {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box input {
+            width: 100%;
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 10px 14px 10px 34px;
+            color: var(--text-main);
+            font-size: 13px;
+            font-family: var(--font-body);
+            transition: var(--transition-smooth);
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 10px rgba(31, 78, 120, 0.1);
+        }
+
+        .search-box svg {
+            position: absolute;
+            left: 12px;
+            width: 14px;
+            height: 14px;
+            fill: var(--text-muted);
+        }
+
+        .pos-filters {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+        }
+
+        .pos-chip {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            white-space: nowrap;
+            transition: var(--transition-smooth);
+        }
+
+        .pos-chip:hover {
+            color: var(--text-main);
+            background: #f1f5f9;
+        }
+
+        .pos-chip.active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: #ffffff;
+        }
+
+        /* Word Item Row - Larger Text */
+        .words-scroll {
+            list-style: none;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        .word-row {
+            padding: 12px 14px;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: var(--transition-smooth);
+            border: 1px solid transparent;
+        }
+
+        .word-row:hover {
+            background: rgba(31, 78, 120, 0.03);
+        }
+
+        .word-row.active {
+            background: #ffffff;
+            border-color: var(--border-color);
+            box-shadow: 0 2px 12px rgba(31, 78, 120, 0.04);
+        }
+
+        .word-row-left {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            overflow: hidden;
+            width: 85%;
+        }
+
+        .word-row-header {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+
+        /* Slightly larger words */
+        .word-row-name {
+            font-family: var(--font-display);
+            font-size: 18.5px;
+            font-weight: 700;
+            color: var(--text-main);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            letter-spacing: -0.2px;
+        }
+
+        .word-row-pos {
+            font-family: var(--font-display);
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--primary-light);
+            text-transform: lowercase;
+            font-style: italic;
+        }
+
+        .word-row-zh {
+            font-size: 13.5px;
+            color: var(--text-muted);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: 500;
+        }
+
+        .word-row-check {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-smooth);
+        }
+
+        .word-row.mastered .word-row-check {
+            background: var(--success);
+            border-color: var(--success);
+        }
+
+        .word-row-check svg {
+            width: 8px;
+            height: 8px;
+            fill: #ffffff;
+            opacity: 0;
+            transition: var(--transition-smooth);
+        }
+
+        .word-row.mastered .word-row-check svg {
+            opacity: 1;
+        }
+
+        /* ==========================================================================
+           5. MAIN CODEX PANEL (THE DETAIL VIEW - BRIGHT LAYOUT)
+           ========================================================================== */
+        .main-display-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        /* Landing Intro View (when no word selected) */
+        .landing-view {
+            padding: 60px 40px;
+            max-width: 800px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+        }
+
+        .landing-card {
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            box-shadow: var(--shadow-premium);
+            backdrop-filter: blur(10px);
+            width: 100%;
+        }
+
+        .landing-icon svg {
+            width: 60px;
+            height: 60px;
+            fill: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .landing-title {
+            font-family: var(--font-display);
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .landing-subtitle {
+            font-size: 14.5px;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+
+        .landing-btn {
+            background: var(--primary);
+            color: #ffffff;
+            border: 1px solid var(--secondary);
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-family: var(--font-display);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            box-shadow: 0 4px 15px rgba(31, 78, 120, 0.15);
+        }
+
+        .landing-btn:hover {
+            background: var(--primary-light);
+            transform: translateY(-2px);
+        }
+
+        /* Collapsible Chapter Banner */
+        .collapsible-chapter-banner {
+            background: var(--secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 16px 40px;
+            transition: var(--transition-smooth);
+            position: relative;
+        }
+
+        .collapsible-chapter-banner-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .collapsible-chapter-banner-title {
+            font-family: var(--font-display);
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .collapsible-chapter-banner-title span {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .collapsible-chapter-banner-toggle-btn {
+            background: rgba(31, 78, 120, 0.08);
+            border: none;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+        }
+
+        .collapsible-chapter-banner-toggle-btn svg {
+            width: 12px;
+            height: 12px;
+            fill: var(--primary);
+            transition: var(--transition-smooth);
+        }
+
+        .collapsible-chapter-banner.collapsed .collapsible-chapter-banner-toggle-btn svg {
+            transform: rotate(-180deg);
+        }
+
+        .collapsible-chapter-banner-desc {
+            font-size: 13.5px;
+            line-height: 1.6;
+            color: var(--text-muted);
+            margin-top: 10px;
+            transition: var(--transition-smooth);
+            max-height: 200px;
+            overflow: hidden;
+        }
+
+        .collapsible-chapter-banner.collapsed .collapsible-chapter-banner-desc {
+            max-height: 0;
+            margin-top: 0;
+            opacity: 0;
+        }
+
+        /* Active Word Codex Details */
+        .codex-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* Word Header Card */
+        .codex-header-card {
+            padding: 25px 40px;
+            background: #ffffff;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .codex-word-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        /* Slightly larger word details text */
+        .codex-word-text {
+            font-family: var(--font-display);
+            font-size: 42px;
+            font-weight: 800;
+            letter-spacing: -0.8px;
+            color: var(--primary);
+        }
+
+        .codex-word-pos-tag {
+            font-family: var(--font-display);
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: lowercase;
+            font-style: italic;
+            border: 1px solid rgba(31, 78, 120, 0.2);
+            padding: 3px 10px;
+            border-radius: 6px;
+            background: var(--secondary);
+        }
+
+        .codex-word-kk {
+            font-family: var(--font-body);
+            font-size: 18px;
+            color: var(--text-muted);
+            margin-top: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+        }
+
+        .pronounce-btn {
+            background: #f1f5f9;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+        }
+
+        .pronounce-btn:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+            transform: scale(1.08);
+        }
+
+        .pronounce-btn svg {
+            width: 14px;
+            height: 14px;
+            fill: var(--text-muted);
+        }
+
+        .pronounce-btn:hover svg {
+            fill: #ffffff;
+        }
+
+        .mastery-card-toggle {
+            background: #f1f5f9;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 30px;
+            padding: 10px 24px;
+            font-family: var(--font-display);
+            font-size: 13.5px;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .mastery-card-toggle:hover {
+            background: #e2e8f0;
+            color: var(--text-main);
+        }
+
+        .mastery-card-toggle.mastered {
+            background: var(--success);
+            border-color: var(--success);
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+        }
+
+        .mastery-card-toggle svg {
+            width: 15px;
+            height: 15px;
+            fill: currentColor;
+        }
+
+        /* Detail Navigation Tabs */
+        .codex-tabs-bar {
+            display: flex;
+            background: #f8fafc;
+            border-bottom: 1px solid var(--border-color);
+            padding: 0 40px;
+        }
+
+        .codex-tab {
+            padding: 15px 24px;
+            font-family: var(--font-display);
+            font-size: 13.5px;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .codex-tab:hover {
+            color: var(--text-main);
+        }
+
+        .codex-tab.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+
+        .codex-tab svg {
+            width: 14px;
+            height: 14px;
+            fill: currentColor;
+        }
+
+        /* Tab Content Display Area */
+        .codex-tab-content-container {
+            flex: 1;
+            padding: 30px 40px;
+            overflow-y: auto;
+            background: #ffffff;
+        }
+
+        .codex-pane {
+            display: none;
+            flex-direction: column;
+            gap: 25px;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .codex-pane.active {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Cards in Codex details */
+        .info-section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .info-section-title {
+            font-family: var(--font-display);
+            font-size: 13.5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .info-section-title svg {
+            width: 14px;
+            height: 14px;
+            fill: var(--primary);
+        }
+
+        .def-display {
+            background: var(--secondary);
+            border: 1px solid var(--border-color);
+            padding: 16px 20px;
+            border-radius: var(--radius-md);
+            font-size: 19px;
+            font-weight: 600;
+            color: var(--primary);
+            line-height: 1.5;
+        }
+
+        /* Collocations tags layout */
+        .colloc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 12px;
+        }
+
+        .colloc-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            padding: 14px 18px;
+            border-radius: var(--radius-md);
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            transition: var(--transition-smooth);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.01);
+        }
+
+        .colloc-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(31, 78, 120, 0.05);
+        }
+
+        .colloc-en {
+            font-family: var(--font-display);
+            font-size: 16.5px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .colloc-zh {
+            font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* Synonyms pills */
+        .synonym-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .synonym-pill {
+            background: var(--secondary);
+            border: 1px solid var(--border-color);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-family: var(--font-display);
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--primary);
+            cursor: pointer;
+            transition: var(--transition-smooth);
+        }
+
+        .synonym-pill:hover {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+            transform: scale(1.05);
+        }
+
+        /* Word Family Box */
+        .wf-container {
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 120px;
+        }
+
+        .wf-text {
+            font-size: 14px;
+            color: var(--text-muted);
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .wf-text strong {
+            color: var(--primary);
+            font-family: var(--font-display);
+            font-size: 16px;
+        }
+
+        .wf-chip-flow {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .wf-node {
+            background: var(--secondary);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-family: var(--font-display);
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .wf-arrow {
+            color: var(--primary-light);
+            font-family: var(--font-display);
+            font-weight: 700;
+        }
+
+        /* Examples view card style */
+        .example-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            position: relative;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.01);
+        }
+
+        .example-en-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 15px;
+        }
+
+        .example-en {
+            font-size: 17.5px;
+            line-height: 1.6;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        .example-en span.highlight {
+            font-weight: 700;
+            color: var(--primary);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 1px;
+        }
+
+        .example-audio-btn {
+            background: #f1f5f9;
+            border: none;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            flex-shrink: 0;
+        }
+
+        .example-audio-btn:hover {
+            background: var(--primary);
+            transform: scale(1.1);
+        }
+
+        .example-audio-btn svg {
+            width: 12px;
+            height: 12px;
+            fill: var(--text-muted);
+        }
+
+        .example-audio-btn:hover svg {
+            fill: #ffffff;
+        }
+
+        .example-zh-btn-container {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .reveal-translation-btn {
+            background: transparent;
+            border: none;
+            color: var(--primary);
+            font-size: 13.5px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: var(--transition-smooth);
+        }
+
+        .reveal-translation-btn:hover {
+            color: var(--primary-light);
+        }
+
+        .reveal-translation-btn svg {
+            width: 14px;
+            height: 14px;
+            fill: currentColor;
+        }
+
+        .example-zh-hidden {
+            font-size: 15.5px;
+            color: var(--text-muted);
+            line-height: 1.5;
+            padding-top: 10px;
+            border-top: 1px dashed var(--border-color);
+            display: none;
+            font-weight: 500;
+        }
+
+        .example-zh-hidden.active {
+            display: block;
+        }
+
+        /* Extra notes cards */
+        .note-card {
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 20px;
+        }
+
+        .note-input-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .note-input-container textarea {
+            width: 100%;
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 12px;
+            color: var(--text-main);
+            font-size: 13.5px;
+            font-family: var(--font-body);
+            resize: vertical;
+            min-height: 80px;
+            transition: var(--transition-smooth);
+        }
+
+        .note-input-container textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 8px rgba(31, 78, 120, 0.08);
+        }
+
+        .save-note-btn {
+            background: var(--primary);
+            border: none;
+            color: #ffffff;
+            padding: 8px 18px;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-display);
+            font-size: 12px;
+            font-weight: 600;
+            align-self: flex-end;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+        }
+
+        .save-note-btn:hover {
+            background: var(--primary-light);
+        }
+
+        /* ==========================================================================
+           6. FLASHCARD ARENA COMPONENT (GAMIFIED VIEW)
+           ========================================================================== */
+        .flashcard-arena {
+            display: none;
+            flex: 1;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            position: relative;
+            overflow-y: auto;
+        }
+
+        .flashcard-arena.active {
+            display: flex;
+        }
+
+        /* Deck Progress Indicator */
+        .arena-progress-header {
+            width: 100%;
+            max-width: 450px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            font-family: var(--font-display);
+            font-size: 14.5px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* Fliping Card Layout */
+        .card-perspective {
+            perspective: 1000px;
+            width: 100%;
+            max-width: 450px;
+            height: 300px;
+            margin-bottom: 35px;
+            cursor: pointer;
+        }
+
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-style: preserve-3d;
+            box-shadow: 0 10px 30px rgba(31, 78, 120, 0.08);
+            border-radius: var(--radius-lg);
+        }
+
+        .card-perspective.flipped .card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            background: #ffffff;
+        }
+
+        .card-front {
+            background: radial-gradient(circle at 50% 50%, var(--secondary) 0%, #ffffff 100%);
+            color: var(--text-main);
+        }
+
+        .card-back {
+            background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.05) 0px, #ffffff 100%);
+            color: var(--text-main);
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-word {
+            font-family: var(--font-display);
+            font-size: 44px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .flashcard-pos-tag {
+            font-family: var(--font-display);
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: lowercase;
+            font-style: italic;
+            border: 1px solid rgba(31, 78, 120, 0.2);
+            padding: 1px 6px;
+            border-radius: 4px;
+            background: var(--secondary);
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .flashcard-kk {
+            font-size: 18px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .flashcard-hint {
+            position: absolute;
+            bottom: 20px;
+            font-size: 12px;
+            font-family: var(--font-display);
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+            font-weight: 500;
+        }
+
+        .flashcard-zh {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .flashcard-ex {
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-muted);
+            text-align: justify;
+            font-weight: 500;
+        }
+
+        .flashcard-ex span.hl {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        /* Controls under Flashcard */
+        .arena-controls {
+            display: flex;
+            gap: 20px;
+            width: 100%;
+            max-width: 450px;
+        }
+
+        .arena-btn {
+            flex: 1;
+            border: none;
+            padding: 14px 20px;
+            border-radius: 30px;
+            font-family: var(--font-display);
+            font-size: 13.5px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .arena-btn-fail {
+            background: rgba(239, 68, 68, 0.08);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            color: var(--danger);
+        }
+
+        .arena-btn-fail:hover {
+            background: var(--danger);
+            color: #ffffff;
+            border-color: var(--secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+        }
+
+        .arena-btn-pass {
+            background: rgba(16, 185, 129, 0.08);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            color: var(--success);
+        }
+
+        .arena-btn-pass:hover {
+            background: var(--success);
+            color: #ffffff;
+            border-color: var(--secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+        }
+
+        .arena-btn svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        /* Complete Success View inside Arena */
+        .arena-completion-view {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 20px;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .arena-completion-view svg {
+            width: 70px;
+            height: 70px;
+            fill: var(--success);
+        }
+
+        /* SVGs definitions helper */
+        .svg-defs {
+            position: absolute;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+        }
+
+        /* ==========================================================================
+           6. MOBILE RESPONSIVENESS AND CELLPHONE OPTIMIZATIONS
+           ========================================================================== */
+        .mobile-back-bar {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                height: 100dvh;
+            }
+
+            header {
+                flex-wrap: wrap !important;
+                gap: 10px !important;
+                justify-content: center !important;
+                padding: 10px !important;
+                height: auto !important;
+            }
+
+            .header-logo {
+                width: 100% !important;
+                justify-content: center !important;
+                margin-bottom: 2px !important;
+            }
+
+            /* Chapter Sidebar Overlay on mobile */
+            .chapter-sidebar {
+                position: absolute !important;
+                left: 0 !important;
+                top: 0 !important;
+                bottom: 0 !important;
+                height: 100% !important;
+                z-index: 2100 !important;
+                width: 280px !important;
+                min-width: 280px !important;
+                box-shadow: 5px 0 25px rgba(0, 0, 0, 0.15) !important;
+                background: rgba(255, 255, 255, 0.98) !important;
+                backdrop-filter: blur(20px) !important;
+                transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+            }
+
+            .chapter-sidebar.collapsed {
+                margin-left: -280px !important;
+                width: 0 !important;
+                min-width: 0 !important;
+            }
+
+            /* Adjust floating sidebar toggle button position */
+            .sidebar-toggle-btn {
+                left: 270px !important;
+                z-index: 2200 !important;
+            }
+
+            .chapter-sidebar.collapsed + .sidebar-toggle-btn {
+                left: 0 !important;
+            }
+
+            /* Word List vs Details Panel toggle logic */
+            .app-container.arena-mode .word-list-panel {
+                display: none !important;
+            }
+            .app-container.arena-mode .main-display-panel {
+                display: flex !important;
+                width: 100% !important;
+            }
+            
+            .app-container:not(.arena-mode):not(.mobile-show-details) .word-list-panel {
+                display: flex !important;
+                width: 100% !important;
+            }
+            .app-container:not(.arena-mode):not(.mobile-show-details) .main-display-panel {
+                display: none !important;
+            }
+            
+            .app-container:not(.arena-mode).mobile-show-details .word-list-panel {
+                display: none !important;
+            }
+            .app-container:not(.arena-mode).mobile-show-details .main-display-panel {
+                display: flex !important;
+                width: 100% !important;
+            }
+
+            /* Header and banners compactness */
+            .collapsible-chapter-banner {
+                padding: 12px 16px !important;
+            }
+
+            .codex-header-card {
+                padding: 16px 20px !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 12px !important;
+            }
+
+            .codex-word-text {
+                font-size: 32px !important;
+            }
+
+            .mastery-card-toggle {
+                width: 100% !important;
+                justify-content: center !important;
+            }
+
+            .codex-tabs-bar {
+                padding: 0 16px !important;
+                overflow-x: auto !important;
+            }
+
+            .codex-tab {
+                padding: 12px 14px !important;
+                font-size: 13px !important;
+                white-space: nowrap !important;
+            }
+
+            .codex-tab-content-container {
+                padding: 16px 16px !important;
+            }
+
+            /* Flashcard mobile view */
+            .flashcard-arena {
+                padding: 16px !important;
+            }
+
+            .card-perspective {
+                margin-bottom: 20px !important;
+                height: 280px !important;
+            }
+
+            .flashcard-word {
+                font-size: 36px !important;
+            }
+
+            .flashcard-zh {
+                font-size: 22px !important;
+            }
+
+            .flashcard-ex {
+                font-size: 14px !important;
+            }
+
+            /* Back Bar at top of Codex details on mobile */
+            .mobile-back-bar {
+                display: flex !important;
+                align-items: center !important;
+                padding: 10px 16px !important;
+                background: #ffffff !important;
+                border-bottom: 1px solid var(--border-color) !important;
+            }
+            
+            .mobile-back-btn {
+                background: transparent !important;
+                border: none !important;
+                color: var(--primary) !important;
+                font-family: var(--font-display) !important;
+                font-size: 14px !important;
+                font-weight: 600 !important;
+                cursor: pointer !important;
+                display: flex !important;
+                align-items: center !important;
+                gap: 8px !important;
+                padding: 4px 8px !important;
+                border-radius: var(--radius-sm) !important;
+                transition: var(--transition-smooth) !important;
+            }
+            
+            .mobile-back-btn:hover {
+                background: rgba(31, 78, 120, 0.05) !important;
+            }
+            
+            .mobile-back-btn svg {
+                width: 18px !important;
+                height: 18px !important;
+                fill: currentColor !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- SVGs Helper definitions -->
+    <svg class="svg-defs">
+        <defs>
+            <g id="icon-book">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/>
+            </g>
+            <g id="icon-search">
+                <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+            </g>
+            <g id="icon-sound">
+                <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+            </g>
+            <g id="icon-colloc">
+                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2zm0-4H7V7h10v2zm0 8H7v-2h10v2z"/>
+            </g>
+            <g id="icon-ex">
+                <path d="M14 17H4v2h10v-2zm6-8H4v2h16V9zM4 15h16v-2H4v2zM4 5v2h16V5H4z"/>
+            </g>
+            <g id="icon-wf">
+                <path d="M16 17.01V10h-2v7.01h-3L15 21l4-3.99h-3zM9 3L5 6.99h3V14h2V6.99h3L9 3z"/>
+            </g>
+        </defs>
+    </svg>
+
+    <!-- ==========================================================================
+       TOP HEADER
+       ========================================================================== -->
+    <header>
+        <div class="header-logo">
+            <!-- Graduation Cap / Book svg -->
+            <svg viewBox="0 0 24 24">
+                <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z M5.18 11.5L12 15.22l6.82-3.72V16.2c-1.92.83-4.22 1.3-6.82 1.3-2.6 0-4.9-.47-6.82-1.3V11.5z"/>
+            </svg>
+            <div>
+                <h1>台灣高中英文 6000 單字互動學習館<span class="header-level-badge" id="header-level-badge-el">Level 3 核心詞彙</span></h1>
+            </div>
+        </div>
+
+        <!-- Collapsible/Delineated Level Selection directly in the Top Banner -->
+        <div class="header-level-container">
+            <button class="header-level-btn active" id="btn-lv-3" onclick="selectLevel(3)" title="Level 3 核心詞彙">
+                <span>Lv</span><span class="num">3</span>
+            </button>
+            <button class="header-level-btn" id="btn-lv-4" onclick="selectLevel(4)" title="Level 4 進階詞彙">
+                <span>Lv</span><span class="num">4</span>
+            </button>
+            <button class="header-level-btn" id="btn-lv-5" onclick="selectLevel(5)" title="Level 5 高階詞彙">
+                <span>Lv</span><span class="num">5</span>
+            </button>
+            <button class="header-level-btn" id="btn-lv-6" onclick="selectLevel(6)" title="Level 6 挑戰詞彙">
+                <span>Lv</span><span class="num">6</span>
+            </button>
+        </div>
+
+        <div class="mode-toggle-group">
+            <button class="mode-btn active" id="mode-codex" onclick="switchMode('codex')">
+                <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; fill: currentColor;"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0-2-.9-2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+                詞彙 Codex
+            </button>
+            <button class="mode-btn" id="mode-arena" onclick="switchMode('arena')">
+                <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; fill: currentColor;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
+                卡牌 Arena
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================================================
+       MAIN APP WORKSPACE
+       ========================================================================== -->
+    <div class="app-container">
+        
+        <!-- 1. Thematic Chapter Selection Navigation -->
+        <div class="chapter-sidebar collapsed" id="chapter-sidebar">
+            <div class="chapter-sidebar-header">
+                <h2 id="sidebar-level-title">Level 3 <span>10 Chapters</span></h2>
+                <div class="total-progress-container">
+                    <div class="total-progress-header">
+                        <span id="sidebar-progress-label">Level 3 學習進度</span>
+                        <span id="total-progress-percentage">0%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="total-progress-bar-fill"></div>
+                    </div>
+                </div>
+            </div>
+            <ul class="chapter-list" id="chapter-list-ul">
+                <!-- Chapters populated dynamically by JS -->
+            </ul>
+        </div>
+
+        <!-- Sidebar Collapsible Toggle Button -->
+        <button class="sidebar-toggle-btn" id="sidebar-toggle-btn" onclick="toggleSidebar()" title="收合/展開章節選單">
+            <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; fill: currentColor;">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+            </svg>
+        </button>
+
+        <!-- 2. Vocabulary Item List (Search & Word Rows) -->
+        <div class="word-list-panel" id="word-list-panel-element">
+            <div class="search-container">
+                <div class="search-box">
+                    <svg viewBox="0 0 24 24"><use href="#icon-search"/></svg>
+                    <input type="text" id="search-input" placeholder="搜尋詞彙、中文意思..." oninput="filterWords()">
+                </div>
+                <div class="pos-filters" id="pos-filters-row">
+                    <span class="pos-chip active" onclick="filterPOS('all', this)">All</span>
+                    <span class="pos-chip" onclick="filterPOS('n.', this)">n.</span>
+                    <span class="pos-chip" onclick="filterPOS('v.', this)">v.</span>
+                    <span class="pos-chip" onclick="filterPOS('adj.', this)">adj.</span>
+                    <span class="pos-chip" onclick="filterPOS('adv.', this)">adv.</span>
+                </div>
+            </div>
+            <ul class="words-scroll" id="words-scroll-ul">
+                <!-- Word list rows populated dynamically by JS -->
+            </ul>
+        </div>
+
+        <!-- 3. Detail View Display (Codex Card with Collapsible Top Banner) -->
+        <div class="main-display-panel" id="main-display-panel-element">
+            
+            <!-- Collapsible Top Chapter Info Banner -->
+            <div class="collapsible-chapter-banner collapsed" id="collapsible-chapter-banner-container" style="display: none;" onclick="toggleChapterBanner()">
+                <div class="collapsible-chapter-banner-header">
+                    <div class="collapsible-chapter-banner-title">
+                        <span id="banner-chapter-name">People and Relationships</span>
+                        <span id="banner-chapter-zh-name">人際關係與交流</span>
+                    </div>
+                    <button class="collapsible-chapter-banner-toggle-btn" title="摺疊主題簡介">
+                        <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                    </button>
+                </div>
+                <div class="collapsible-chapter-banner-desc" id="banner-chapter-desc">
+                    良好的關係是生命的基石。無論是與親人、摯友或是社會群體，深入理解這些單字能幫助你描述細膩的人際互動、親情連結與情感表達。
+                </div>
+            </div>
+
+            <!-- Default Landing State (Empty) -->
+            <div id="landing-view-container" class="landing-view">
+                <div class="landing-card">
+                    <div class="landing-icon">
+                        <svg viewBox="0 0 24 24"><use href="#icon-book"/></svg>
+                    </div>
+                    <h3 class="landing-title" id="landing-chapter-name">選擇主題章節開始學習</h3>
+                    <p class="landing-subtitle" id="landing-chapter-desc">點擊左側主題章節即可解鎖專屬的單字，查看完整的例句、搭配詞以及衍生字型，並利用內置的語音朗讀和卡牌競技場功能來加深記憶！</p>
+                    <button class="landing-btn" id="landing-start-btn" style="display: none;" onclick="startChapterExploring()">開始主題探索</button>
+                </div>
+            </div>
+
+            <div id="codex-detail-view" class="codex-container" style="display: none;">
+                <!-- Mobile Back Navigation Bar -->
+                <div class="mobile-back-bar">
+                    <button onclick="goBackToWordList()" class="mobile-back-btn">
+                        <svg viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+                        <span>返回單字列表</span>
+                    </button>
+                </div>
+                <!-- Word Header Details -->
+                <div class="codex-header-card">
+                    <div>
+                        <div class="codex-word-title">
+                            <span class="codex-word-text" id="codex-word-span">additional</span>
+                            <span class="codex-word-pos-tag" id="codex-pos-span">adj.</span>
+                        </div>
+                        <div class="codex-word-kk">
+                            <span id="codex-kk-span">/əˈdɪʃənəl/</span>
+                            <button class="pronounce-btn" title="聽發音" onclick="speakCurrentWord()">
+                                <svg viewBox="0 0 24 24"><use href="#icon-sound"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <button class="mastery-card-toggle" id="codex-mastery-btn" onclick="toggleCurrentWordMastery()">
+                        <!-- Star SVG -->
+                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <span>標記為已掌握</span>
+                    </button>
+                </div>
+
+                <!-- Card Nav Tabs -->
+                <div class="codex-tabs-bar">
+                    <div class="codex-tab active" data-tab="meaning" onclick="switchTab('meaning')">
+                        <svg viewBox="0 0 24 24"><use href="#icon-colloc"/></svg>
+                        定義與搭配詞
+                    </div>
+                    <div class="codex-tab" data-tab="examples" onclick="switchTab('examples')">
+                        <svg viewBox="0 0 24 24"><use href="#icon-ex"/></svg>
+                        情境與例句
+                    </div>
+                    <div class="codex-tab" data-tab="family" onclick="switchTab('family')">
+                        <svg viewBox="0 0 24 24"><use href="#icon-wf"/></svg>
+                        衍生字家族
+                    </div>
+                </div>
+
+                <!-- Tab Panels Area -->
+                <div class="codex-tab-content-container">
+                    
+                    <!-- Pane 1: Definitions and Collocations -->
+                    <div class="codex-pane active" id="pane-meaning">
+                        <div class="info-section">
+                            <h4 class="info-section-title">
+                                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                                中文核心釋義
+                            </h4>
+                            <div class="def-display" id="codex-chinese-def">額外的；附加的</div>
+                        </div>
+                        
+                        <div class="info-section">
+                            <h4 class="info-section-title">
+                                <svg viewBox="0 0 24 24"><use href="#icon-colloc"/></svg>
+                                關鍵搭配詞 (Collocations)
+                            </h4>
+                            <div class="colloc-grid" id="codex-collocations-grid">
+                                <!-- Collocations chips injected dynamically -->
+                            </div>
+                        </div>
+
+                        <div class="info-section" id="codex-synonyms-section">
+                            <h4 class="info-section-title">
+                                <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.3 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg>
+                                實用同義字詞 (Synonyms)
+                            </h4>
+                            <div class="synonym-row" id="codex-synonyms-row">
+                                <!-- Synonym pills injected dynamically -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pane 2: Real Examples -->
+                    <div class="codex-pane" id="pane-examples">
+                        <div class="info-section">
+                            <h4 class="info-section-title">
+                                <svg viewBox="0 0 24 24"><use href="#icon-ex"/></svg>
+                                雙語情境例句 (Example Sentences)
+                            </h4>
+                            <div style="display: flex; flex-direction: column; gap: 15px;" id="codex-examples-container">
+                                <!-- Example cards injected dynamically -->
+                            </div>
+                        </div>
+
+                        <div class="info-section" id="codex-grammar-section">
+                            <h4 class="info-section-title">
+                                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+                                文法點與筆記 (Grammar Note)
+                            </h4>
+                            <div class="def-display" id="codex-grammar-text" style="font-size: 13.5px; line-height: 1.6; color: var(--primary);">
+                                <!-- Grammar note injected dynamically -->
+                            </div>
+                        </div>
+
+                        <!-- Personal persist notes -->
+                        <div class="info-section">
+                            <h4 class="info-section-title">
+                                <svg viewBox="0 0 24 24"><path d="M14.06 9.02l.92.92L5.92 19H5v-1.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z"/></svg>
+                                我的學習隨手記 (Personal Notes)
+                            </h4>
+                            <div class="note-card">
+                                <span style="font-size: 11.5px; color: var(--text-muted); font-weight: 500;">寫下專屬你的諧音聯想、記憶法，會自動為你儲存在瀏覽器中喔！</span>
+                                <div class="note-input-container">
+                                    <textarea id="personal-note-textarea" placeholder="在此輸入你的個人單字筆記..."></textarea>
+                                    <button class="save-note-btn" onclick="savePersonalNote()">儲存隨記</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pane 3: Word Family Tree -->
+                    <div class="codex-pane" id="pane-family">
+                        <div class="info-section">
+                            <h4 class="info-section-title">
+                                <svg viewBox="0 0 24 24"><use href="#icon-wf"/></svg>
+                                衍生字型派生圖
+                            </h4>
+                            <div class="wf-container" id="codex-wf-container">
+                                <!-- Word family tree structure injected dynamically -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ==========================================================================
+               🃏 FLASHCARD ARENA CARD MODE
+               ========================================================================== -->
+            <div id="flashcard-arena-view" class="flashcard-arena">
+                <!-- Header of Deck progress -->
+                <div class="arena-progress-header">
+                    <span id="arena-chapter-label">章節卡牌</span>
+                    <span id="arena-card-counter">1 / 100 Cards</span>
+                </div>
+
+                <!-- Flashcard -->
+                <div class="card-perspective" id="arena-card" onclick="flipFlashcard()">
+                    <div class="card-inner">
+                        <!-- Card Front -->
+                        <div class="card-front">
+                            <span class="flashcard-pos-tag" id="fc-front-pos">adj.</span>
+                            <h3 class="flashcard-word" id="fc-front-word">additional</h3>
+                            <p class="flashcard-kk" id="fc-front-kk">/əˈdɪʃənəl/</p>
+                            <span class="flashcard-hint">點擊卡牌翻面看定義及例句</span>
+                        </div>
+                        <!-- Card Back -->
+                        <div class="card-back">
+                            <p class="flashcard-zh" id="fc-back-zh">額外的；附加的</p>
+                            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 20px; padding: 0 10px; max-width: 100%;">
+                                <p class="flashcard-ex" id="fc-back-ex">
+                                    "The hotel charged an <span class="hl">additional</span> fee for the late check-out."
+                                </p>
+                                <button class="example-audio-btn" id="fc-back-ex-sound-btn" title="朗讀整句例句" onclick="event.stopPropagation();">
+                                    <svg viewBox="0 0 24 24"><use href="#icon-sound"/></svg>
+                                </button>
+                            </div>
+                            <span class="flashcard-hint" style="bottom: 10px; color: var(--success);">點擊卡牌翻回正面</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arena buttons controls -->
+                <div class="arena-controls" id="arena-controls-panel">
+                    <button class="arena-btn arena-btn-fail" onclick="failFlashcard()">
+                        <svg viewBox="0 0 24 24"><use href="#icon-book"/></svg>
+                        仍需複習
+                    </button>
+                    <button class="arena-btn arena-btn-pass" onclick="passFlashcard()">
+                        <!-- Tick svg -->
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        已掌握！
+                    </button>
+                </div>
+
+                <!-- Final Complete screen inside Arena -->
+                <div class="arena-completion-view" id="arena-completion-card">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    <h3 class="landing-title" style="color: var(--success);">太棒了！完全解鎖本章單字！</h3>
+                    <p class="landing-subtitle" style="max-width: 400px; margin: auto;">你已經複習完了本主題章節的所有詞彙，快點去探索其他章節吧！</p>
+                    <button class="landing-btn" onclick="restartArenaDeck()">再複習一次</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================================================
+       7. DATA AND APPLICATION LOGIC
+       ========================================================================== -->
+    <script src="data_level_3.js"></script>
+    <script src="data_level_4.js"></script>
+    <script src="data_level_5.js"></script>
+    <script src="data_level_6.js"></script>
+    <script>
+        // Canonical Chapter Themes and Descriptions (to show on Landing and Banner)
+        const CHAPTER_INFO = {
+            "People and Relationships": {
+                zh: "人際關係與交流",
+                desc: "良好的關係是生命的基石。無論是與親人、摯友或是社會群體，深入理解這些單字能幫助你描述細膩的人際互動、親情連結與情感表達。"
+            },
+            "School and Learning": {
+                zh: "學校教育與學習",
+                desc: "學校是啟發心智、培養思辨能力的搖籃。這裡的詞彙涵蓋各學科領域、學習方法、考試策略以及個人成長，是高中生活不可或缺的表達工具。"
+            },
+            "Work and Economy": {
+                zh: "職場工作與經濟",
+                desc: "當代社會講求靈活應變與生涯規劃。深入認識職場詞彙、商業模式與宏觀的經濟概念，能為你奠定解讀全球財經新聞、分析就業市場的英語基礎。"
+            },
+            "Society and Communication": {
+                zh: "社會群體與大眾傳播",
+                desc: "語言是人與人傳遞思想的關鍵。本主題探討社會制度、公共政策、媒體傳播、文化碰撞等議題，大幅增進你撰寫學術論述和參與國際評論的廣度。"
+            },
+            "Mind and Emotion": {
+                zh: "心智健康與情緒表達",
+                desc: "認識人類豐富的內心世界與心智狀態。理解這些詞彙能讓你流利且精準地描繪喜怒哀樂、壓力排解、思考特徵以及各種心理現象。"
+            },
+            "Time and Change": {
+                zh: "時間流逝與環境轉變",
+                desc: "時間是不斷向前推移的洪流。本主題幫助你學習探討社會變遷、歷史進程、瞬息萬變的事物特徵以及描述長期或短暫轉移的語彙。"
+            },
+            "Space and Movement": {
+                zh: "空間概念與物理位移",
+                desc: "移動連結了世界各地的思想與文化。掌握與空間定位、旅遊探索、科技運輸和各種動態動作相關的字眼，能使你的敘事細節更加立體、生動。"
+            },
+            "Nature and Environment": {
+                zh: "大自然與生態環境",
+                desc: "地球的生態系統正面臨前所未有的挑戰。本章節詞彙涉及動植物生態、氣候變遷、環境保護及資源維護，是閱讀科普短文及作答環境寫作的必備養分。"
+            },
+            "Body and Health": {
+                zh: "人體結構與健康醫療",
+                desc: "身體健康是享受人生的前提。這些語彙涵蓋了器官構造、疾病防範、醫療診斷與日常作息，幫助你讀懂健康資訊並深入探討各種養身保健議題。"
+            },
+            "Technology and Ideas": {
+                zh: "科技創新與抽象思想",
+                desc: "科技發展一日千里，抽象概念如哲學、邏輯和理論也不斷推陳出新。掌握這類單字可以提升你探究前沿科技（如AI）和深度哲理思考的能力。"
+            }
+        };
+
+        const CHAPTER_ORDER = [
+            "People and Relationships",
+            "School and Learning",
+            "Work and Economy",
+            "Society and Communication",
+            "Mind and Emotion",
+            "Time and Change",
+            "Space and Movement",
+            "Nature and Environment",
+            "Body and Health",
+            "Technology and Ideas"
+        ];
+
+        // Global State Variables
+        let currentLevel = 3;
+        let currentChapter = "";
+        let currentWord = null;
+        let filteredWordsList = [];
+        let activeTab = "meaning";
+        let activePOSFilter = "all";
+        
+        // Flashcard State
+        let arenaDeck = [];
+        let arenaIndex = 0;
+
+        // Dynamic Dataset Accessor
+        function getActiveLevelData() {
+            if (currentLevel === 3) return LEVEL_3_DATA;
+            if (currentLevel === 4) return LEVEL_4_DATA;
+            if (currentLevel === 5) return LEVEL_5_DATA;
+            if (currentLevel === 6) return LEVEL_6_DATA;
+            return LEVEL_3_DATA;
+        }
+
+        // LocalStorage helpers
+        function getMasteredList() {
+            return JSON.parse(localStorage.getItem(`mastered_level_${currentLevel}`) || '[]');
+        }
+        function saveMasteredList(list) {
+            localStorage.setItem(`mastered_level_${currentLevel}`, JSON.stringify(list));
+            updateAllProgressUI();
+        }
+        function getPersonalNotes() {
+            return JSON.parse(localStorage.getItem(`notes_level_${currentLevel}`) || '{}');
+        }
+        function savePersonalNotes(notes) {
+            localStorage.setItem(`notes_level_${currentLevel}`, JSON.stringify(notes));
+        }
+
+        // ==========================================================================
+        // INITIALIZATION AND LEVEL SWITCHER
+        // ==========================================================================
+        window.addEventListener('DOMContentLoaded', () => {
+            // Restore level from localStorage if any, defaulting to 3
+            const storedLevel = parseInt(localStorage.getItem('current_level') || '3');
+            selectLevel(storedLevel);
+            
+            // Restore sidebar collapse state (default to collapsed/true if never set)
+            if (localStorage.getItem('sidebar_collapsed') !== 'false') {
+                document.getElementById('chapter-sidebar').classList.add('collapsed');
+            }
+        });
+
+        function selectLevel(levelNum) {
+            currentLevel = levelNum;
+            localStorage.setItem('current_level', levelNum);
+
+            // Update Level Buttons UI
+            document.querySelectorAll('.header-level-container .header-level-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            const activeBtn = document.getElementById(`btn-lv-${levelNum}`);
+            if (activeBtn) activeBtn.classList.add('active');
+
+            // Update level descriptive headers
+            const levelLabels = {
+                3: "Level 3 核心詞彙",
+                4: "Level 4 進階詞彙",
+                5: "Level 5 高階詞彙",
+                6: "Level 6 挑戰詞彙"
+            };
+            document.getElementById('header-level-badge-el').innerText = levelLabels[levelNum];
+            document.getElementById('sidebar-level-title').innerHTML = `Level ${levelNum} <span>10 Chapters</span>`;
+            document.getElementById('sidebar-progress-label').innerText = `Level ${levelNum} 學習進度`;
+
+            // Initialize level datasets
+            initChapterSidebar();
+            updateAllProgressUI();
+
+            // Reset current selection state
+            currentWord = null;
+            selectChapter(CHAPTER_ORDER[0]);
+        }
+
+        // 1. Populate Chapter Sidebar
+        function initChapterSidebar() {
+            const listUl = document.getElementById('chapter-list-ul');
+            listUl.innerHTML = "";
+            const levelData = getActiveLevelData();
+
+            CHAPTER_ORDER.forEach((chName, idx) => {
+                const info = CHAPTER_INFO[chName];
+                const count = levelData.filter(w => w.chapter === chName).length;
+                
+                const li = document.createElement('li');
+                li.className = 'chapter-item';
+                li.id = `ch-${chName.replace(/\s+/g, '-')}`;
+                li.onclick = () => selectChapter(chName);
+
+                li.innerHTML = `
+                    <div class="chapter-title-en">Chapter ${idx + 1}: ${chName}</div>
+                    <div class="chapter-title-zh">
+                        <span>${info.zh}</span>
+                        <span class="word-count">${count} 字</span>
+                    </div>
+                    <div class="chapter-item-progress">
+                        <div class="chapter-item-progress-bar">
+                            <div class="chapter-item-progress-fill" id="fill-ch-${chName.replace(/\s+/g, '-')}"></div>
+                        </div>
+                        <span class="chapter-item-progress-pct" id="pct-ch-${chName.replace(/\s+/g, '-')}">0%</span>
+                    </div>
+                `;
+                listUl.appendChild(li);
+            });
+        }
+
+        // 2. Select Chapter Event
+        function selectChapter(chName) {
+            currentChapter = chName;
+            
+            // Remove active classes
+            document.querySelectorAll('.chapter-item').forEach(el => el.classList.remove('active'));
+            const activeChLi = document.getElementById(`ch-${chName.replace(/\s+/g, '-')}`);
+            if (activeChLi) activeChLi.classList.add('active');
+
+            // Reset list panels filters
+            activePOSFilter = "all";
+            document.querySelectorAll('.pos-chip').forEach(el => el.classList.remove('active'));
+            document.querySelector('.pos-chip[onclick*="all"]').classList.add('active');
+            document.getElementById('search-input').value = "";
+
+            // Populate specific word rows
+            filterWords();
+
+            // Render Collapsible Chapter Banner and Landing Info
+            const chIdx = CHAPTER_ORDER.indexOf(chName) + 1;
+            document.getElementById('collapsible-chapter-banner-container').style.display = 'block';
+            document.getElementById('collapsible-chapter-banner-container').classList.add('collapsed');
+            document.getElementById('banner-chapter-name').innerText = `Chapter ${chIdx} · ${chName}`;
+            document.getElementById('banner-chapter-zh-name').innerText = CHAPTER_INFO[chName].zh;
+            document.getElementById('banner-chapter-desc').innerText = CHAPTER_INFO[chName].desc;
+
+            // Handle switching modes or auto-selecting first word to keep vocabulary expanded
+            const activeModeBtn = document.querySelector('.mode-btn.active');
+            const activeMode = activeModeBtn ? activeModeBtn.id : 'mode-codex';
+            if (activeMode === 'mode-arena') {
+                startChapterExploring(); // Auto transition inside Arena if already there
+            } else {
+                const isMobile = window.innerWidth <= 768;
+                if (isMobile) {
+                    const appContainer = document.querySelector('.app-container');
+                    if (appContainer) appContainer.classList.remove('mobile-show-details');
+                    
+                    // Collapse sidebar on selection on mobile
+                    document.getElementById('chapter-sidebar').classList.add('collapsed');
+                    
+                    // Reset to landing view on mobile or let them select
+                    document.getElementById('landing-view-container').style.display = 'flex';
+                    document.getElementById('codex-detail-view').style.display = 'none';
+                    document.getElementById('flashcard-arena-view').style.display = 'none';
+                } else {
+                    if (filteredWordsList.length > 0) {
+                        selectWord(filteredWordsList[0]);
+                    } else {
+                        document.getElementById('landing-view-container').style.display = 'flex';
+                        document.getElementById('codex-detail-view').style.display = 'none';
+                        document.getElementById('flashcard-arena-view').style.display = 'none';
+                    }
+                }
+            }
+        }
+
+        // Collapse/Expand Chapter Banner Description paragraph
+        function toggleChapterBanner() {
+            const banner = document.getElementById('collapsible-chapter-banner-container');
+            banner.classList.toggle('collapsed');
+        }
+
+        // Collapse/Expand Left Chapter Sidebar
+        function toggleSidebar() {
+            const sidebar = document.getElementById('chapter-sidebar');
+            sidebar.classList.toggle('collapsed');
+            const isCollapsed = sidebar.classList.contains('collapsed');
+            localStorage.setItem('sidebar_collapsed', isCollapsed);
+        }
+
+        // ==========================================================================
+        // PROGRESS TRACKING SYSTEM
+        // ==========================================================================
+        function updateAllProgressUI() {
+            const mastered = getMasteredList();
+            const levelData = getActiveLevelData();
+            let totalWordsCount = levelData.length;
+            let totalMasteredCount = 0;
+
+            CHAPTER_ORDER.forEach((chName) => {
+                const chWords = levelData.filter(w => w.chapter === chName);
+                const chCount = chWords.length;
+                if (chCount === 0) return;
+
+                const chMasteredCount = chWords.filter(w => mastered.includes(w.word.toLowerCase())).length;
+                totalMasteredCount += chMasteredCount;
+
+                const pct = Math.round((chMasteredCount / chCount) * 100);
+                
+                // Update Sidebar Chapter Specific Bars
+                const fillEl = document.getElementById(`fill-ch-${chName.replace(/\s+/g, '-')}`);
+                const pctEl = document.getElementById(`pct-ch-${chName.replace(/\s+/g, '-')}`);
+                if (fillEl) fillEl.style.width = pct + "%";
+                if (pctEl) pctEl.innerText = pct + "%";
+            });
+
+            // Update Total Level Progress Card
+            const totalPct = totalWordsCount > 0 ? Math.round((totalMasteredCount / totalWordsCount) * 100) : 0;
+            document.getElementById('total-progress-percentage').innerText = totalPct + "%";
+            document.getElementById('total-progress-bar-fill').style.width = totalPct + "%";
+        }
+
+        // ==========================================================================
+        // WORD LIST FILTERING AND POPULATION
+        // ==========================================================================
+        function filterPOS(pos, element) {
+            activePOSFilter = pos;
+            document.querySelectorAll('.pos-chip').forEach(el => el.classList.remove('active'));
+            element.classList.add('active');
+            filterWords();
+        }
+
+        function filterWords() {
+            const query = document.getElementById('search-input').value.toLowerCase().trim();
+            const levelData = getActiveLevelData();
+            const chWords = levelData.filter(w => w.chapter === currentChapter);
+
+            filteredWordsList = chWords.filter((w) => {
+                // Part of Speech Match
+                if (activePOSFilter !== 'all') {
+                    if (!w.pos.toLowerCase().includes(activePOSFilter)) return false;
+                }
+                // Query Text Match
+                if (query) {
+                    const matchWord = w.word.toLowerCase().includes(query);
+                    const matchChinese = w.chinese.includes(query);
+                    return matchWord || matchChinese;
+                }
+                return true;
+            });
+
+            renderWordRows();
+        }
+
+        function renderWordRows() {
+            const scrollUl = document.getElementById('words-scroll-ul');
+            scrollUl.innerHTML = "";
+            const mastered = getMasteredList();
+
+            if (filteredWordsList.length === 0) {
+                scrollUl.innerHTML = `<li style="text-align: center; color: var(--text-muted); font-size: 13px; padding: 20px;">無符合條件之單字</li>`;
+                return;
+            }
+
+            filteredWordsList.forEach((w) => {
+                const li = document.createElement('li');
+                const isMastered = mastered.includes(w.word.toLowerCase());
+                li.className = `word-row ${isMastered ? 'mastered' : ''} ${currentWord && currentWord.word === w.word ? 'active' : ''}`;
+                li.id = `w-row-${w.word.replace(/[^a-zA-Z]/g, '')}`;
+                li.onclick = () => selectWord(w);
+
+                li.innerHTML = `
+                    <div class="word-row-left">
+                        <div class="word-row-header">
+                            <span class="word-row-name">${w.word}</span>
+                            <span class="word-row-pos">${w.pos}</span>
+                        </div>
+                        <span class="word-row-zh">${w.chinese}</span>
+                    </div>
+                    <div class="word-row-check" title="掌握狀態">
+                        <!-- Tick svg icon -->
+                        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                    </div>
+                `;
+                scrollUl.appendChild(li);
+            });
+        }
+
+        // ==========================================================================
+        // WORD DETAIL (CODEX) DISPLAYER
+        // ==========================================================================
+        function selectWord(word) {
+            currentWord = word;
+            
+            // On mobile, show the details view panel
+            const appContainer = document.querySelector('.app-container');
+            if (appContainer) {
+                appContainer.classList.add('mobile-show-details');
+            }
+            
+            // Toggle highlight in list sidebar
+            document.querySelectorAll('.word-row').forEach(el => el.classList.remove('active'));
+            const activeRowLi = document.getElementById(`w-row-${word.word.replace(/[^a-zA-Z]/g, '')}`);
+            if (activeRowLi) activeRowLi.classList.add('active');
+
+            // Switch to Codex View panel
+            document.getElementById('landing-view-container').style.display = 'none';
+            document.getElementById('flashcard-arena-view').style.display = 'none';
+            document.getElementById('codex-detail-view').style.display = 'flex';
+
+            // Fill header values
+            document.getElementById('codex-word-span').innerText = word.word;
+            document.getElementById('codex-pos-span').innerText = word.pos;
+            document.getElementById('codex-kk-span').innerText = word.kk || 'n/a';
+
+            // Mastery status button
+            const mastered = getMasteredList();
+            const mBtn = document.getElementById('codex-mastery-btn');
+            if (mastered.includes(word.word.toLowerCase())) {
+                mBtn.classList.add('mastered');
+                mBtn.querySelector('span').innerText = "已掌握！點擊取消";
+            } else {
+                mBtn.classList.remove('mastered');
+                mBtn.querySelector('span').innerText = "標記為已掌握";
+            }
+
+            // Fill Pane 1 (Meanings & Collocations)
+            document.getElementById('codex-chinese-def').innerText = word.chinese;
+            
+            // Build Collocations Grid
+            const collocGrid = document.getElementById('codex-collocations-grid');
+            collocGrid.innerHTML = "";
+            if (word.collocations && word.collocations.length > 0) {
+                word.collocations.forEach((col) => {
+                    const div = document.createElement('div');
+                    div.className = "colloc-card";
+                    div.innerHTML = `
+                        <span class="colloc-en">${col.en}</span>
+                        <span class="colloc-zh">${col.zh}</span>
+                    `;
+                    collocGrid.appendChild(div);
+                });
+            } else {
+                collocGrid.innerHTML = `<span style="font-size: 13.5px; color: var(--text-muted); grid-column: 1/-1;">無提供關聯搭配詞</span>`;
+            }
+
+            // Build Synonyms Row
+            const synRow = document.getElementById('codex-synonyms-row');
+            synRow.innerHTML = "";
+            const synSec = document.getElementById('codex-synonyms-section');
+            if (word.synonyms && word.synonyms.length > 0) {
+                synSec.style.display = 'flex';
+                word.synonyms.forEach((syn) => {
+                    const span = document.createElement('span');
+                    span.className = "synonym-pill";
+                    span.innerText = syn;
+                    span.onclick = () => lookupAlternativeWord(syn);
+                    synRow.appendChild(span);
+                });
+            } else {
+                synSec.style.display = 'none';
+            }
+
+            // Fill Pane 2 (Examples & Grammar)
+            const examplesContainer = document.getElementById('codex-examples-container');
+            examplesContainer.innerHTML = "";
+            if (word.examples && word.examples.length > 0) {
+                word.examples.forEach((ex, idx) => {
+                    const card = document.createElement('div');
+                    card.className = "example-card";
+                    
+                    // Bold keyword in example sentence
+                    let sentenceHtml = ex.en;
+                    if (ex.target) {
+                        const escapedTarget = ex.target.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+                        const regex = new RegExp(`\\b(${escapedTarget})\\b`, 'i');
+                        sentenceHtml = sentenceHtml.replace(regex, `<span class="highlight">$1</span>`);
+                    } else {
+                        const regex = new RegExp(`\\b(${word.word.replace(/[\(\)]/g, '')})\\b`, 'i');
+                        sentenceHtml = sentenceHtml.replace(regex, `<span class="highlight">$1</span>`);
+                    }
+
+                    // Build example block with sentence speech sound play button
+                    let translation = "";
+                    if (idx === 0 && word.chinese_sentence) {
+                        translation = word.chinese_sentence;
+                    }
+
+                    card.innerHTML = `
+                        <div class="example-en-container">
+                            <p class="example-en" id="ex-sentence-text-${idx}">${sentenceHtml}</p>
+                            <button class="example-audio-btn" title="朗讀整句例句" onclick="speakSentence('${ex.en.replace(/'/g, "\\'")}')">
+                                <svg viewBox="0 0 24 24"><use href="#icon-sound"/></svg>
+                            </button>
+                        </div>
+                        ${translation ? `
+                        <div class="example-zh-btn-container">
+                            <button class="reveal-translation-btn" onclick="toggleTranslation(this)">
+                                <svg viewBox="0 0 24 24"><use href="#icon-ex"/></svg>
+                                <span>顯示中文例句翻譯</span>
+                            </button>
+                        </div>
+                        <p class="example-zh-hidden" id="ex-translation-${idx}">${translation}</p>
+                        ` : ''}
+                    `;
+                    examplesContainer.appendChild(card);
+                });
+            } else {
+                examplesContainer.innerHTML = `<p style="font-size: 13.5px; color: var(--text-muted);">本單字暫無搭配例句</p>`;
+            }
+
+            // Grammar note
+            const grammarSec = document.getElementById('codex-grammar-section');
+            if (word.grammar_note) {
+                grammarSec.style.display = 'flex';
+                document.getElementById('codex-grammar-text').innerText = word.grammar_note;
+            } else {
+                grammarSec.style.display = 'none';
+            }
+
+            // Personal note textarea
+            const notesDb = getPersonalNotes();
+            document.getElementById('personal-note-textarea').value = notesDb[word.word.toLowerCase()] || "";
+
+            // Fill Pane 3 (Word Family)
+            const wfContainer = document.getElementById('codex-wf-container');
+            wfContainer.innerHTML = "";
+            if (word.word_family) {
+                const nodes = word.word_family.split('·').map(s => s.trim());
+                const flowDiv = document.createElement('div');
+                flowDiv.className = "wf-chip-flow";
+                
+                nodes.forEach((node, idx) => {
+                    if (idx > 0) {
+                        const arrow = document.createElement('span');
+                        arrow.className = "wf-arrow";
+                        arrow.innerHTML = "&rarr;";
+                        flowDiv.appendChild(arrow);
+                    }
+                    const chip = document.createElement('div');
+                    chip.className = "wf-node";
+                    chip.innerText = node;
+                    flowDiv.appendChild(chip);
+                });
+                wfContainer.appendChild(flowDiv);
+            } else {
+                wfContainer.innerHTML = `<span style="font-size: 13.5px; color: var(--text-muted);">本單字無關聯衍生字家族資料</span>`;
+            }
+
+            // Load active tab
+            switchTab(activeTab);
+            
+            // Auto collapse the big description banner slightly to give more view space
+            document.getElementById('collapsible-chapter-banner-container').classList.add('collapsed');
+        }
+
+        function lookupAlternativeWord(rawWord) {
+            const wordToSearch = rawWord.split('(')[0].trim().toLowerCase();
+            const levelData = getActiveLevelData();
+            const found = levelData.find(w => w.word.toLowerCase() === wordToSearch);
+            if (found) {
+                selectWord(found);
+            } else {
+                alert(`本單字 "${rawWord}" 屬其他 Level 級別或尚未收錄於 Level ${currentLevel}。`);
+            }
+        }
+
+        // ==========================================================================
+        // HELPERS AND INTERACTIVE ACTION EVENTS
+        // ==========================================================================
+        function toggleTranslation(button) {
+            const card = button.closest('.example-card');
+            const translationPara = card.querySelector('.example-zh-hidden');
+            const labelSpan = button.querySelector('span');
+
+            if (translationPara.classList.contains('active')) {
+                translationPara.classList.remove('active');
+                labelSpan.innerText = "顯示中文例句翻譯";
+            } else {
+                translationPara.classList.add('active');
+                labelSpan.innerText = "隱藏中文例句翻譯";
+            }
+        }
+
+        function switchTab(tabId) {
+            activeTab = tabId;
+            document.querySelectorAll('.codex-tab').forEach((el) => {
+                el.classList.remove('active');
+                if (el.getAttribute('data-tab') === tabId) el.classList.add('active');
+            });
+            document.querySelectorAll('.codex-pane').forEach((el) => {
+                el.classList.remove('active');
+            });
+            const activePane = document.getElementById(`pane-${tabId}`);
+            if (activePane) activePane.classList.add('active');
+        }
+
+        function switchMode(mode) {
+            document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(`mode-${mode}`).classList.add('active');
+
+            const appContainer = document.querySelector('.app-container');
+            if (mode === 'codex') {
+                if (appContainer) appContainer.classList.remove('arena-mode');
+                document.getElementById('word-list-panel-element').style.display = 'flex';
+                document.getElementById('collapsible-chapter-banner-container').style.display = 'block';
+                if (currentWord) {
+                    document.getElementById('landing-view-container').style.display = 'none';
+                    document.getElementById('codex-detail-view').style.display = 'flex';
+                    document.getElementById('flashcard-arena-view').style.display = 'none';
+                    selectWord(currentWord);
+                } else {
+                    selectChapter(currentChapter);
+                }
+            } else {
+                // Arena Game Mode
+                if (appContainer) appContainer.classList.add('arena-mode');
+                document.getElementById('word-list-panel-element').style.display = 'none';
+                document.getElementById('landing-view-container').style.display = 'none';
+                document.getElementById('codex-detail-view').style.display = 'none';
+                document.getElementById('collapsible-chapter-banner-container').style.display = 'none';
+                document.getElementById('flashcard-arena-view').style.display = 'flex';
+                initArenaDeck();
+            }
+        }
+
+        // Pronounce Engine (SpeechSynthesis)
+        function speakCurrentWord() {
+            if (!currentWord) return;
+            speakWord(currentWord.word);
+        }
+
+        function speakWord(text) {
+            const cleanText = text.split('(')[0].trim();
+            speakRawText(cleanText, 0.85);
+        }
+
+        function speakSentence(sentence) {
+            speakRawText(sentence, 0.9);
+        }
+
+        function speakRawText(text, rate) {
+            if ('speechSynthesis' in window) {
+                // cancel any currently playing utterance
+                window.speechSynthesis.cancel();
+                
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.rate = rate; // speed multiplier
+                window.speechSynthesis.speak(utterance);
+            } else {
+                alert("抱歉，您的瀏覽器不支援語音朗讀合成功能。");
+            }
+        }
+
+        function toggleCurrentWordMastery() {
+            if (!currentWord) return;
+            const mastered = getMasteredList();
+            const wKey = currentWord.word.toLowerCase();
+            const idx = mastered.indexOf(wKey);
+
+            if (idx > -1) {
+                mastered.splice(idx, 1);
+            } else {
+                mastered.push(wKey);
+            }
+            saveMasteredList(mastered);
+
+            // Re-render
+            renderWordRows();
+            selectWord(currentWord);
+        }
+
+        function savePersonalNote() {
+            if (!currentWord) return;
+            const noteText = document.getElementById('personal-note-textarea').value.trim();
+            const notes = getPersonalNotes();
+            notes[currentWord.word.toLowerCase()] = noteText;
+            savePersonalNotes(notes);
+            alert("筆記已成功儲存！");
+        }
+
+        function startChapterExploring() {
+            if (filteredWordsList.length === 0) return;
+            selectWord(filteredWordsList[0]);
+        }
+
+        // ==========================================================================
+        // CARD ARENA (GAMIFIED FLASHCARDS DECK)
+        // ==========================================================================
+        function initArenaDeck() {
+            const levelData = getActiveLevelData();
+            const chWords = levelData.filter(w => w.chapter === currentChapter);
+            const mastered = getMasteredList();
+
+            // Populate all words in chapter, placing unmastered words first!
+            const unmastered = chWords.filter(w => !mastered.includes(w.word.toLowerCase()));
+            const masteredWords = chWords.filter(w => mastered.includes(w.word.toLowerCase()));
+
+            arenaDeck = [...unmastered, ...masteredWords];
+            arenaIndex = 0;
+
+            const chIdx = CHAPTER_ORDER.indexOf(currentChapter) + 1;
+            document.getElementById('arena-chapter-label').innerText = `Chapter ${chIdx} · 主題：${CHAPTER_INFO[currentChapter].zh}`;
+            
+            if (arenaDeck.length === 0) {
+                showArenaCompletion();
+                return;
+            }
+
+            showArenaCard();
+        }
+
+        function showArenaCard() {
+            document.getElementById('arena-card').style.display = 'block';
+            document.getElementById('arena-controls-panel').style.display = 'flex';
+            document.getElementById('arena-completion-card').style.display = 'none';
+
+            document.getElementById('arena-card').classList.remove('flipped');
+            document.getElementById('arena-card-counter').innerText = `${arenaIndex + 1} / ${arenaDeck.length} Cards`;
+
+            const word = arenaDeck[arenaIndex];
+
+            // front side
+            document.getElementById('fc-front-word').innerText = word.word;
+            document.getElementById('fc-front-pos').innerText = word.pos;
+            document.getElementById('fc-front-kk').innerText = word.kk || 'n/a';
+
+            // back side
+            document.getElementById('fc-back-zh').innerText = word.chinese;
+            
+            // Build Back Example Sentence with highlight
+            let exHtml = "本單字無搭配例句";
+            let hasExample = false;
+            let rawSentence = "";
+            if (word.examples && word.examples.length > 0) {
+                const ex = word.examples[0];
+                rawSentence = ex.en;
+                hasExample = true;
+                let sentenceHtml = ex.en;
+                if (ex.target) {
+                    const escapedTarget = ex.target.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+                    const regex = new RegExp(`\\b(${escapedTarget})\\b`, 'i');
+                    sentenceHtml = sentenceHtml.replace(regex, `<span class="hl">$1</span>`);
+                } else {
+                    const regex = new RegExp(`\\b(${word.word.replace(/[\(\)]/g, '')})\\b`, 'i');
+                    sentenceHtml = sentenceHtml.replace(regex, `<span class="hl">$1</span>`);
+                }
+                exHtml = `"${sentenceHtml}"`;
+            }
+            document.getElementById('fc-back-ex').innerHTML = exHtml;
+
+            const soundBtn = document.getElementById('fc-back-ex-sound-btn');
+            if (hasExample && soundBtn) {
+                soundBtn.style.display = 'flex';
+                soundBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    speakSentence(rawSentence);
+                };
+            } else if (soundBtn) {
+                soundBtn.style.display = 'none';
+            }
+            
+            // Pronounce word
+            speakWord(word.word);
+        }
+
+        function flipFlashcard() {
+            const card = document.getElementById('arena-card');
+            card.classList.toggle('flipped');
+        }
+
+        // Fail card: push back to end of deck
+        function failFlashcard() {
+            const failedWord = arenaDeck.splice(arenaIndex, 1)[0];
+            arenaDeck.push(failedWord);
+            
+            if (arenaIndex >= arenaDeck.length) {
+                arenaIndex = 0;
+            }
+            showArenaCard();
+        }
+
+        // Pass card: master and remove
+        function passFlashcard() {
+            const word = arenaDeck[arenaIndex];
+            const mastered = getMasteredList();
+            if (!mastered.includes(word.word.toLowerCase())) {
+                mastered.push(word.word.toLowerCase());
+                saveMasteredList(mastered);
+            }
+
+            arenaIndex++;
+            if (arenaIndex >= arenaDeck.length) {
+                showArenaCompletion();
+            } else {
+                showArenaCard();
+            }
+        }
+
+        function showArenaCompletion() {
+            document.getElementById('arena-card').style.display = 'none';
+            document.getElementById('arena-controls-panel').style.display = 'none';
+            document.getElementById('arena-completion-card').style.display = 'flex';
+            document.getElementById('arena-card-counter').innerText = `已全部複習完畢`;
+        }
+
+        function restartArenaDeck() {
+            initArenaDeck();
+        }
+
+        function goBackToWordList() {
+            const appContainer = document.querySelector('.app-container');
+            if (appContainer) {
+                appContainer.classList.remove('mobile-show-details');
+            }
+        }
+    </script>
+</body>
+</html>
