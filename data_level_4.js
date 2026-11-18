@@ -65,7 +65,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "His courage won the admiration of the entire community.",
-        "target": "won"
+        "target": "won the admiration"
       }
     ],
     "synonyms": [
@@ -506,44 +506,6 @@ const LEVEL_4_DATA = [
     "word_family": ""
   },
   {
-    "word": "civilian",
-    "pos": "adj./n.",
-    "chapter": "People and Relationships",
-    "kk": "/səvˈɪljən/",
-    "chinese": "平民；百姓（n.）；民間的（adj.）",
-    "collocations": [
-      {
-        "en": "civilian casualty",
-        "zh": "平民傷亡"
-      },
-      {
-        "en": "civilian life",
-        "zh": "平民生活"
-      },
-      {
-        "en": "protect civilians",
-        "zh": "保護平民"
-      }
-    ],
-    "examples": [
-      {
-        "en": "International law prohibits attacks on civilians during war.",
-        "target": "attacks on civilians"
-      },
-      {
-        "en": "After twenty years in the military, he adjusted to civilian life slowly.",
-        "target": "civilian life"
-      }
-    ],
-    "synonyms": [
-      "citizen",
-      "non-combatant"
-    ],
-    "grammar_note": "civilian (n./adj.) vs. military (adj.);  civilian (非軍事人員)",
-    "chinese_sentence": "國際法明文禁止在戰爭衝突中故意攻擊平民，違者須承擔戰爭罪的法律責任。",
-    "word_family": "civic · civilian · military"
-  },
-  {
     "word": "chorus",
     "pos": "n.",
     "chapter": "People and Relationships",
@@ -609,7 +571,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "The online gaming community has millions of members worldwide.",
-        "target": "online"
+        "target": "online gaming community"
       }
     ],
     "synonyms": [
@@ -644,7 +606,7 @@ const LEVEL_4_DATA = [
     "examples": [
       {
         "en": "She made several thoughtful comments during the group discussion.",
-        "target": "made"
+        "target": "thoughtful comments"
       },
       {
         "en": "The politician refused to comment on the allegations.",
@@ -825,7 +787,7 @@ const LEVEL_4_DATA = [
     "pos": "n./v.",
     "chapter": "People and Relationships",
     "kk": "/krˈæk/",
-    "chinese": "裂縫；破裂（n./v.）；crack（毒品）",
+    "chinese": "裂縫；破裂（n./v.）；說（笑話）；破解（v.）",
     "collocations": [
       {
         "en": "crack under pressure",
@@ -1094,45 +1056,6 @@ const LEVEL_4_DATA = [
     "word_family": ""
   },
   {
-    "word": "demonstration",
-    "pos": "n.",
-    "chapter": "People and Relationships",
-    "kk": "/dˌɛmənstrˈeɪʃən/",
-    "chinese": "示範；示威；展示（n.）",
-    "collocations": [
-      {
-        "en": "public demonstration",
-        "zh": "公開示威"
-      },
-      {
-        "en": "demonstration of skills",
-        "zh": "技能展示"
-      },
-      {
-        "en": "live demonstration",
-        "zh": "現場示範"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Thousands joined the public demonstration against the new law.",
-        "target": "public demonstration"
-      },
-      {
-        "en": "The chef gave a live demonstration of how to prepare the dish.",
-        "target": "live demonstration"
-      }
-    ],
-    "synonyms": [
-      "protest",
-      "display",
-      "exhibit"
-    ],
-    "grammar_note": "demonstrate (v.) → demonstration (n.) → demonstrator (n.)",
-    "chinese_sentence": "數千人聚集參與公開示威遊行，表達對這項新法令的強烈反對和不滿。",
-    "word_family": "demonstrate · demonstration · demonstrative · demonstrator"
-  },
-  {
     "word": "dignity",
     "pos": "n.",
     "chapter": "People and Relationships",
@@ -1159,7 +1082,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "She handled the difficult situation with remarkable dignity.",
-        "target": "with"
+        "target": "with remarkable dignity"
       }
     ],
     "synonyms": [
@@ -1790,7 +1713,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "He played to the gallery with his dramatic speech rather than offering real solutions.",
-        "target": "play"
+        "target": "played to the gallery"
       }
     ],
     "synonyms": [
@@ -2140,7 +2063,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "Good hygiene habits help prevent the spread of infection.",
-        "target": "prevent"
+        "target": "spread of infection"
       }
     ],
     "synonyms": [
@@ -2416,8 +2339,8 @@ const LEVEL_4_DATA = [
         "target": "hard liquor"
       },
       {
-        "en": "The liquor store was closed on holidays.",
-        "target": "liquor store"
+        "en": "In Taiwan, stores are not allowed to sell liquor to anyone under eighteen.",
+        "target": "sell liquor"
       }
     ],
     "synonyms": [
@@ -2456,7 +2379,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "She made her farewell party memorable with a surprise performance.",
-        "target": "made"
+        "target": "party memorable"
       }
     ],
     "synonyms": [
@@ -2530,7 +2453,7 @@ const LEVEL_4_DATA = [
     "examples": [
       {
         "en": "Scientists examined the bacteria under a high-powered microscope.",
-        "target": "under a"
+        "target": "high-powered microscope"
       },
       {
         "en": "Her every action was put under the microscope by the media.",
@@ -2589,19 +2512,19 @@ const LEVEL_4_DATA = [
     "pos": "adj.",
     "chapter": "People and Relationships",
     "kk": "/mɪstˈɪriəs/",
-    "chinese": "神秘的；難以解釋的（adj.）",
+    "chinese": "神祕的；難以解釋的（adj.）",
     "collocations": [
       {
         "en": "mysterious disappearance",
-        "zh": "神秘的失蹤"
+        "zh": "神祕的失蹤"
       },
       {
         "en": "mysterious stranger",
-        "zh": "神秘的陌生人"
+        "zh": "神祕的陌生人"
       },
       {
         "en": "remain mysterious",
-        "zh": "仍然神秘莫測"
+        "zh": "仍然神祕莫測"
       }
     ],
     "examples": [
@@ -2620,7 +2543,7 @@ const LEVEL_4_DATA = [
       "unexplained"
     ],
     "grammar_note": "mystery (n.) → mysterious (adj.) → mysteriously (adv.)",
-    "chinese_sentence": "那幅名畫神秘失蹤的案件至今懸而未破，成為藝術界最著名的謎案之一。",
+    "chinese_sentence": "那幅名畫神祕失蹤的案件至今懸而未破，成為藝術界最著名的謎案之一。",
     "word_family": "mysterious · mysteriously · mystery"
   },
   {
@@ -2650,7 +2573,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "Passengers must declare their nationality at the border checkpoint.",
-        "target": "declare"
+        "target": "declare their nationality"
       }
     ],
     "synonyms": [
@@ -2882,7 +2805,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "Pasta is one of the most popular comfort foods around the world.",
-        "target": "popular comfort food"
+        "target": "Pasta is one of"
       }
     ],
     "synonyms": [
@@ -2893,45 +2816,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "pasta 為義大利語，通常不可數；types include spaghetti, penne, fettuccine, etc.",
     "chinese_sentence": "她每個週日都親手熬製番茄醬，搭配義大利麵為家人準備一頓豐盛的晚餐。",
     "word_family": ""
-  },
-  {
-    "word": "physical",
-    "pos": "adj.",
-    "chapter": "People and Relationships",
-    "kk": "/fˈɪzɪkəl/",
-    "chinese": "身體的；物理的；有形的（adj.）",
-    "collocations": [
-      {
-        "en": "physical exercise",
-        "zh": "體能運動"
-      },
-      {
-        "en": "physical health",
-        "zh": "身體健康"
-      },
-      {
-        "en": "physical education (P.E.)",
-        "zh": "體育"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Regular physical exercise is essential for maintaining good health.",
-        "target": "physical exercise"
-      },
-      {
-        "en": "She completed a physical examination before starting her new job.",
-        "target": "physical examination"
-      }
-    ],
-    "synonyms": [
-      "bodily",
-      "material",
-      "tangible"
-    ],
-    "grammar_note": "physical (adj.) → physically (adv.)；physical education (P.E.) = 體育課",
-    "chinese_sentence": "定期的體能鍛煉不僅有益於身體健康，對維持良好的心理狀態也大有裨益。",
-    "word_family": "physical · physically · physicist · physics"
   },
   {
     "word": "plum",
@@ -2968,7 +2852,7 @@ const LEVEL_4_DATA = [
       "prize (最好的—口語)"
     ],
     "grammar_note": "plum job (口語) = 令人羨慕的好工作；plum (色) = 暗紫紅色",
-    "chinese_sentence": "她成功進入城市最具聲望的法律事務所擔任要職，令同學們羨慕不已。",
+    "chinese_sentence": "奶奶院子裡的李子樹每年春天開滿白花，夏天結出酸甜的果實。",
     "word_family": ""
   },
   {
@@ -3008,45 +2892,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "pregnant (adj.) → pregnancy (n.)；prenatal (adj.) = 產前的；postnatal = 產後的",
     "chinese_sentence": "她在整個懷孕期間非常注重飲食均衡，定期產檢，確保母嬰的健康安全。",
     "word_family": "pregnancy · pregnant · prenatal"
-  },
-  {
-    "word": "preservation",
-    "pos": "n.",
-    "chapter": "People and Relationships",
-    "kk": "/prˌɛzɚvˈeɪʃən/",
-    "chinese": "保存；保護（n.）",
-    "collocations": [
-      {
-        "en": "preservation of nature",
-        "zh": "自然保育"
-      },
-      {
-        "en": "food preservation",
-        "zh": "食物保存"
-      },
-      {
-        "en": "preservation efforts",
-        "zh": "保護努力"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The organization is dedicated to the preservation of endangered species.",
-        "target": "preservation of"
-      },
-      {
-        "en": "Salting and pickling are traditional methods of food preservation.",
-        "target": "food preservation"
-      }
-    ],
-    "synonyms": [
-      "conservation",
-      "protection",
-      "maintenance"
-    ],
-    "grammar_note": "preserve (v.) → preservation (n.) → preservative (n./adj.) = 防腐劑",
-    "chinese_sentence": "這個組織致力於瀕危物種的保育工作，長期在全球各地進行保護行動。",
-    "word_family": "preservation · preservative · preserve"
   },
   {
     "word": "protein",
@@ -3152,7 +2997,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "Please get at least three quotations before choosing a contractor.",
-        "target": "get a"
+        "target": "three quotations"
       }
     ],
     "synonyms": [
@@ -3279,45 +3124,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "regulate (v.) → regulation (n.) → regulatory (adj.) = 監管的",
     "chinese_sentence": "所有員工在任何時候都必須嚴格遵守公司制定的職場安全規定和操作程序。",
     "word_family": "regulate · regulation · regulator · regulatory"
-  },
-  {
-    "word": "representation",
-    "pos": "n.",
-    "chapter": "People and Relationships",
-    "kk": "/rˌɛprəzɛntˈeɪʃən/",
-    "chinese": "代表；表示；描述（n.）",
-    "collocations": [
-      {
-        "en": "legal representation",
-        "zh": "法律代理"
-      },
-      {
-        "en": "fair representation",
-        "zh": "公平代表"
-      },
-      {
-        "en": "artistic representation",
-        "zh": "藝術呈現"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Every citizen has the right to legal representation in court.",
-        "target": "legal representation"
-      },
-      {
-        "en": "Women's representation in government has been increasing in recent years.",
-        "target": "Women's representation"
-      }
-    ],
-    "synonyms": [
-      "depiction",
-      "symbol",
-      "advocacy"
-    ],
-    "grammar_note": "represent (v.) → representative (n./adj.) → representation (n.)",
-    "chinese_sentence": "每位公民在出庭受審時都有權獲得專業律師的法律代理，這是基本的司法保障。",
-    "word_family": "rep · represent · representation · representative"
   },
   {
     "word": "retain",
@@ -3692,8 +3498,8 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The atmosphere in the room became increasingly tense.",
-        "target": "became"
+        "en": "As the two teams waited for the judges' final decision, the atmosphere in the hall grew tense.",
+        "target": "grew tense"
       },
       {
         "en": "Her muscles tensed as she prepared to jump off the diving board.",
@@ -3849,11 +3655,11 @@ const LEVEL_4_DATA = [
     "examples": [
       {
         "en": "The computer was infected by a virus that corrupted all her files.",
-        "target": "computer"
+        "target": "infected by a virus"
       },
       {
         "en": "Health officials are working to contain the spread of the new virus.",
-        "target": "spread of the"
+        "target": "the new virus"
       }
     ],
     "synonyms": [
@@ -3943,6 +3749,82 @@ const LEVEL_4_DATA = [
     "word_family": "eyewitness · testify · testimony · witness"
   },
   {
+    "word": "tragedy",
+    "pos": "n.",
+    "chapter": "People and Relationships",
+    "kk": "/trˈædʒədi/",
+    "chinese": "悲劇；慘事；悲劇性作品",
+    "collocations": [
+      {
+        "en": "personal tragedy",
+        "zh": "個人悲劇"
+      },
+      {
+        "en": "tragic event",
+        "zh": "悲劇事件"
+      },
+      {
+        "en": "Shakespeare's tragedies",
+        "zh": "莎士比亞的悲劇"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The unexpected death of her mentor was a great tragedy for the school.",
+        "target": "tragedy"
+      },
+      {
+        "en": "Shakespeare's tragedies explore themes of love, power, and betrayal.",
+        "target": "tragedies"
+      }
+    ],
+    "synonyms": [
+      "disaster",
+      "catastrophe",
+      "sorrow"
+    ],
+    "grammar_note": "tragic (adj.); tragically (adv.); tragedy ≠ comedy; personal tragedy = 個人悲劇",
+    "chinese_sentence": "恩師的突然離世對整個學校來說是一場沉重的悲劇，讓師生悲慟不已。",
+    "word_family": "tragedy · tragic · tragically"
+  },
+  {
+    "word": "orphan",
+    "pos": "n./v.",
+    "chapter": "People and Relationships",
+    "kk": "/ˈɔrfən/",
+    "chinese": "孤兒；使成孤兒",
+    "collocations": [
+      {
+        "en": "war orphan",
+        "zh": "戰爭孤兒"
+      },
+      {
+        "en": "raise an orphan",
+        "zh": "撫養孤兒"
+      },
+      {
+        "en": "orphan care",
+        "zh": "孤兒照護"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The charity provides housing and education for orphans in need.",
+        "target": "orphans"
+      },
+      {
+        "en": "He was orphaned at age five when both his parents died in an accident.",
+        "target": "orphaned"
+      }
+    ],
+    "synonyms": [
+      "abandoned child"
+    ],
+    "grammar_note": "orphan (n./v.); orphanage (n.) = 孤兒院; orphaned (adj.) = 成為孤兒的",
+    "chinese_sentence": "那個慈善機構為需要幫助的孤兒提供住所、教育和心理輔導。",
+    "word_family": "orphan · orphanage · orphaned"
+  },
+  {
     "word": "adapt",
     "pos": "v.",
     "chapter": "School and Learning",
@@ -3964,11 +3846,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students must **adapt to** different teaching styles in high school.",
+        "en": "Students must adapt to different teaching styles in high school.",
         "target": "adapt to"
       },
       {
-        "en": "The director **adapted** the classic novel into a blockbuster film.",
+        "en": "The director adapted the classic novel into a blockbuster film.",
         "target": "adapted"
       }
     ],
@@ -4003,11 +3885,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher **accused** the student of cheating on the exam.",
+        "en": "The teacher accused the student of cheating on the exam.",
         "target": "accused"
       },
       {
-        "en": "He was **accused of** stealing money from the classroom fund.",
+        "en": "He was accused of stealing money from the classroom fund.",
         "target": "accused of"
       }
     ],
@@ -4042,11 +3924,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her British **accent** made it hard for classmates to understand her at first.",
+        "en": "Her British accent made it hard for classmates to understand her at first.",
         "target": "accent"
       },
       {
-        "en": "In English, the **accent** usually falls on the first syllable of this word.",
+        "en": "In English, the accent usually falls on the first syllable of this word.",
         "target": "accent"
       }
     ],
@@ -4081,11 +3963,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **agent** helped the family find a house within their budget.",
+        "en": "The agent helped the family find a house within their budget.",
         "target": "agent"
       },
       {
-        "en": "She works as a literary **agent**, helping authors sell their manuscripts.",
+        "en": "She works as a literary agent, helping authors sell their manuscripts.",
         "target": "agent"
       }
     ],
@@ -4095,7 +3977,7 @@ const LEVEL_4_DATA = [
       "intermediary"
     ],
     "grammar_note": null,
-    "chinese_sentence": "那位旅遊代理人替我們安排了一趟完美的歐洲旅行。",
+    "chinese_sentence": "那位旅行社的專員替我們安排了一趟完美的歐洲旅行。",
     "word_family": "agency · agent"
   },
   {
@@ -4120,11 +4002,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Teenagers are not allowed to purchase **alcohol** in Taiwan.",
+        "en": "Teenagers are not allowed to purchase alcohol in Taiwan.",
         "target": "alcohol"
       },
       {
-        "en": "The accident was caused by a driver under the influence of **alcohol**.",
+        "en": "The accident was caused by a driver under the influence of alcohol.",
         "target": "alcohol"
       }
     ],
@@ -4159,11 +4041,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Many people **associate** the smell of coffee with morning routines.",
+        "en": "Many people associate the smell of coffee with morning routines.",
         "target": "associate"
       },
       {
-        "en": "He is a close **associate** of the company's founder.",
+        "en": "He is a close associate of the company's founder.",
         "target": "associate"
       }
     ],
@@ -4198,11 +4080,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The lab grew **artificial** skin to help burn victims recover faster.",
+        "en": "The lab grew artificial skin to help burn victims recover faster.",
         "target": "artificial"
       },
       {
-        "en": "Some drinks contain **artificial** colors and flavors that may harm health.",
+        "en": "Some drinks contain artificial colors and flavors that may harm health.",
         "target": "artificial"
       }
     ],
@@ -4237,11 +4119,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The project required **approval** from the school principal before it could begin.",
+        "en": "The project required approval from the school principal before it could begin.",
         "target": "approval"
       },
       {
-        "en": "She always sought her teacher's **approval** and worked hard to impress him.",
+        "en": "She always sought her teacher's approval and worked hard to impress him.",
         "target": "approval"
       }
     ],
@@ -4276,11 +4158,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Fans lined up for hours to get the singer's **autograph**.",
+        "en": "Fans lined up for hours to get the singer's autograph.",
         "target": "autograph"
       },
       {
-        "en": "The athlete **autographed** dozens of posters after the championship game.",
+        "en": "The athlete autographed dozens of posters after the championship game.",
         "target": "autographed"
       }
     ],
@@ -4314,11 +4196,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please throw your trash in the **bin** and keep the classroom clean.",
+        "en": "Please throw your trash in the bin and keep the classroom clean.",
         "target": "bin"
       },
       {
-        "en": "The school placed recycling **bins** on every floor to encourage students.",
+        "en": "The school placed recycling bins on every floor to encourage students.",
         "target": "bins"
       }
     ],
@@ -4353,11 +4235,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The farm **breeds** several types of cattle for dairy production.",
+        "en": "The farm breeds several types of cattle for dairy production.",
         "target": "breeds"
       },
       {
-        "en": "Familiarity **breeds** contempt, as the old saying goes.",
+        "en": "Familiarity breeds contempt, as the old saying goes.",
         "target": "breeds"
       }
     ],
@@ -4392,11 +4274,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The students used a formula to **calculate** the area of the triangle.",
+        "en": "The students used a formula to calculate the area of the triangle.",
         "target": "calculate"
       },
       {
-        "en": "The company carefully **calculated** the risks before launching the new product.",
+        "en": "The company carefully calculated the risks before launching the new product.",
         "target": "calculated"
       }
     ],
@@ -4431,11 +4313,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The elderly man walked slowly with a wooden **cane** for support.",
+        "en": "The elderly man walked slowly with a wooden cane for support.",
         "target": "cane"
       },
       {
-        "en": "Taiwan produces large quantities of sugar **cane** in the southern regions.",
+        "en": "Taiwan produces large quantities of sugar cane in the southern regions.",
         "target": "cane"
       }
     ],
@@ -4470,11 +4352,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Mesopotamia is often called the cradle of **civilization**.",
+        "en": "Mesopotamia is often called the cradle of civilization.",
         "target": "civilization"
       },
       {
-        "en": "The history class covered the rise and fall of great **civilizations**.",
+        "en": "The history class covered the rise and fall of great civilizations.",
         "target": "civilizations"
       }
     ],
@@ -4509,11 +4391,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The hiker stood at the edge of the **cliff** and admired the view below.",
+        "en": "The hiker stood at the edge of the cliff and admired the view below.",
         "target": "cliff"
       },
       {
-        "en": "Erosion has worn away the base of the **cliff** over thousands of years.",
+        "en": "Erosion has worn away the base of the cliff over thousands of years.",
         "target": "cliff"
       }
     ],
@@ -4543,16 +4425,16 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "constant companion",
-        "zh": "形影不離的伙伴"
+        "zh": "形影不離的夥伴"
       }
     ],
     "examples": [
       {
-        "en": "The dog became his loyal **companion** during the long mountain hike.",
+        "en": "The dog became his loyal companion during the long mountain hike.",
         "target": "companion"
       },
       {
-        "en": "Reading has been my closest **companion** during lonely evenings.",
+        "en": "Reading has been my closest companion during lonely evenings.",
         "target": "companion"
       }
     ],
@@ -4587,11 +4469,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The company studied its **competitors** to find ways to improve its products.",
+        "en": "The company studied its competitors to find ways to improve its products.",
         "target": "competitors"
       },
       {
-        "en": "She trained daily to outperform her **competitors** at the national exam.",
+        "en": "She trained daily to outperform her competitors at the national exam.",
         "target": "competitors"
       }
     ],
@@ -4626,11 +4508,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The English teacher asked students to write a **composition** about their summer.",
+        "en": "The English teacher asked students to write a composition about their summer.",
         "target": "composition"
       },
       {
-        "en": "Beethoven's **compositions** continue to move audiences around the world.",
+        "en": "Beethoven's compositions continue to move audiences around the world.",
         "target": "compositions"
       }
     ],
@@ -4665,11 +4547,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The bill was passed by **Congress** after months of debate.",
+        "en": "The bill was passed by Congress after months of debate.",
         "target": "Congress"
       },
       {
-        "en": "Scientists from forty countries attended the international **congress** on climate change.",
+        "en": "Scientists from forty countries attended the international congress on climate change.",
         "target": "congress"
       }
     ],
@@ -4704,11 +4586,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students who cheat must face the **consequences** of their actions.",
+        "en": "Students who cheat must face the consequences of their actions.",
         "target": "consequences"
       },
       {
-        "en": "As a **consequence** of the heavy rain, the sports day was postponed.",
+        "en": "As a consequence of the heavy rain, the sports day was postponed.",
         "target": "consequence"
       }
     ],
@@ -4743,11 +4625,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **consistent** hard work over the year led to excellent exam results.",
+        "en": "Her consistent hard work over the year led to excellent exam results.",
         "target": "consistent"
       },
       {
-        "en": "The new data is **consistent with** our earlier findings.",
+        "en": "The new data is consistent with our earlier findings.",
         "target": "consistent with"
       }
     ],
@@ -4782,11 +4664,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The new app was designed for the **convenience** of students doing homework.",
+        "en": "The new app was designed for the convenience of students doing homework.",
         "target": "convenience"
       },
       {
-        "en": "Taiwan is famous for the **convenience** of its 24-hour stores.",
+        "en": "Taiwan is famous for the convenience of its 24-hour stores.",
         "target": "convenience"
       }
     ],
@@ -4821,11 +4703,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **creation** of the internet changed the way people communicate forever.",
+        "en": "The creation of the internet changed the way people communicate forever.",
         "target": "creation"
       },
       {
-        "en": "Her latest **creation** — a mixed-media painting — won first prize at the art show.",
+        "en": "Her latest creation — a mixed-media painting — won first prize at the art show.",
         "target": "creation"
       }
     ],
@@ -4860,11 +4742,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The computer's power **cord** was too short to reach the wall socket.",
+        "en": "The computer's power cord was too short to reach the wall socket.",
         "target": "cord"
       },
       {
-        "en": "Surgeons must be careful not to damage the **spinal cord** during the operation.",
+        "en": "Surgeons must be careful not to damage the spinal cord during the operation.",
         "target": "spinal cord"
       }
     ],
@@ -4874,7 +4756,7 @@ const LEVEL_4_DATA = [
       "cable"
     ],
     "grammar_note": "cord vs. chord：cord = 繩/線；chord = 和弦",
-    "chinese_sentence": "電腦的電源線不夠長，必須借助延長線才能連接到插座。",
+    "chinese_sentence": "電腦的電源線不夠長，必須藉助延長線才能連接到插座。",
     "word_family": ""
   },
   {
@@ -4899,11 +4781,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She loved the **crunchy** sound of autumn leaves under her feet.",
+        "en": "She loved the crunchy sound of autumn leaves under her feet.",
         "target": "crunchy"
       },
       {
-        "en": "The fried chicken had a perfectly **crunchy** golden crust.",
+        "en": "The fried chicken had a perfectly crunchy golden crust.",
         "target": "crunchy"
       }
     ],
@@ -4933,16 +4815,16 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "intellectual curiosity",
-        "zh": "求知欲"
+        "zh": "求知慾"
       }
     ],
     "examples": [
       {
-        "en": "Out of **curiosity**, she stayed after class to ask the teacher more questions.",
+        "en": "Out of curiosity, she stayed after class to ask the teacher more questions.",
         "target": "curiosity"
       },
       {
-        "en": "A strong **curiosity** about the natural world led him to study biology.",
+        "en": "A strong curiosity about the natural world led him to study biology.",
         "target": "curiosity"
       }
     ],
@@ -4977,11 +4859,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The grass was wet with **dew** when they arrived at the field early in the morning.",
+        "en": "The grass was wet with dew when they arrived at the field early in the morning.",
         "target": "dew"
       },
       {
-        "en": "Tiny **dew** drops sparkled on the spider's web like diamonds.",
+        "en": "Tiny dew drops sparkled on the spider's web like diamonds.",
         "target": "dew"
       }
     ],
@@ -5015,11 +4897,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The explorers struggled to navigate through the **dense** jungle.",
+        "en": "The explorers struggled to navigate through the dense jungle.",
         "target": "dense"
       },
       {
-        "en": "A **dense** fog covered the city, reducing visibility to near zero.",
+        "en": "A dense fog covered the city, reducing visibility to near zero.",
         "target": "dense"
       }
     ],
@@ -5054,11 +4936,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **determination** to pass the exam drove her to study twelve hours a day.",
+        "en": "Her determination to pass the exam drove her to study twelve hours a day.",
         "target": "determination"
       },
       {
-        "en": "Despite many setbacks, he pursued his dream with unwavering **determination**.",
+        "en": "Despite many setbacks, he pursued his dream with unwavering determination.",
         "target": "determination"
       }
     ],
@@ -5093,11 +4975,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school celebrated **diversity** by holding a multicultural food festival.",
+        "en": "The school celebrated diversity by holding a multicultural food festival.",
         "target": "diversity"
       },
       {
-        "en": "The rainforest is famous for its remarkable **diversity** of plant and animal life.",
+        "en": "The rainforest is famous for its remarkable diversity of plant and animal life.",
         "target": "diversity"
       }
     ],
@@ -5132,11 +5014,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The goalkeeper **dodged** left and managed to block the penalty kick.",
-        "target": "dodged"
+        "en": "She dodged to the left just in time to avoid the speeding bicycle.",
+        "target": "dodged to the left"
       },
       {
-        "en": "The politician tried to **dodge** the reporter's difficult questions.",
+        "en": "The politician tried to dodge the reporter's difficult questions.",
         "target": "dodge"
       }
     ],
@@ -5171,11 +5053,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is an **earnest** student who always does her homework carefully.",
+        "en": "She is an earnest student who always does her homework carefully.",
         "target": "earnest"
       },
       {
-        "en": "The team began working in **earnest** after the project deadline was announced.",
+        "en": "The team began working in earnest after the project deadline was announced.",
         "target": "earnest"
       }
     ],
@@ -5210,11 +5092,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The librarian wiped the **dusty** shelves that hadn't been cleaned in months.",
+        "en": "The librarian wiped the dusty shelves that hadn't been cleaned in months.",
         "target": "dusty"
       },
       {
-        "en": "They drove down a **dusty** dirt road toward the mountain village.",
+        "en": "They drove down a dusty dirt road toward the mountain village.",
         "target": "dusty"
       }
     ],
@@ -5249,11 +5131,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The hikers **encountered** a sudden snowstorm on the way down the mountain.",
+        "en": "The hikers encountered a sudden snowstorm on the way down the mountain.",
         "target": "encountered"
       },
       {
-        "en": "Their **encounter** at the library was the beginning of a lifelong friendship.",
+        "en": "Their encounter at the library was the beginning of a lifelong friendship.",
         "target": "encounter"
       }
     ],
@@ -5288,11 +5170,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "We are living in the **era** of artificial intelligence and big data.",
+        "en": "We are living in the era of artificial intelligence and big data.",
         "target": "era"
       },
       {
-        "en": "The Renaissance was an **era** of great artistic and scientific achievement.",
+        "en": "The Renaissance was an era of great artistic and scientific achievement.",
         "target": "era"
       }
     ],
@@ -5327,11 +5209,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The university was **established** over a century ago by a group of educators.",
+        "en": "The university was established over a century ago by a group of educators.",
         "target": "established"
       },
       {
-        "en": "They worked together to **establish** clear rules for classroom behavior.",
+        "en": "They worked together to establish clear rules for classroom behavior.",
         "target": "establish"
       }
     ],
@@ -5366,11 +5248,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **explosion** at the factory was heard for several kilometers.",
+        "en": "The explosion at the factory was heard for several kilometers.",
         "target": "explosion"
       },
       {
-        "en": "There has been an **explosion** of interest in learning programming in recent years.",
+        "en": "There has been an explosion of interest in learning programming in recent years.",
         "target": "explosion"
       }
     ],
@@ -5405,11 +5287,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "It was **evident** from his face that he hadn't slept the night before.",
+        "en": "It was evident from his face that he hadn't slept the night before.",
         "target": "evident"
       },
       {
-        "en": "The teacher's passion for literature is **evident** in every lesson.",
+        "en": "The teacher's passion for literature is evident in every lesson.",
         "target": "evident"
       }
     ],
@@ -5444,11 +5326,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The weather was **favorable** for the school's outdoor sports day.",
+        "en": "The weather was favorable for the school's outdoor sports day.",
         "target": "favorable"
       },
       {
-        "en": "The new policy received a **favorable** response from most students and parents.",
+        "en": "The new policy received a favorable response from most students and parents.",
         "target": "favorable"
       }
     ],
@@ -5483,11 +5365,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The novel takes readers into a rich **fantasy** world full of magic and dragons.",
+        "en": "The novel takes readers into a rich fantasy world full of magic and dragons.",
         "target": "fantasy"
       },
       {
-        "en": "She had a **fantasy** of becoming a world-famous scientist one day.",
+        "en": "She had a fantasy of becoming a world-famous scientist one day.",
         "target": "fantasy"
       }
     ],
@@ -5522,11 +5404,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school **forbids** students from using mobile phones during class.",
+        "en": "The school forbids students from using mobile phones during class.",
         "target": "forbids"
       },
       {
-        "en": "His parents **forbade** him from going out late at night.",
+        "en": "His parents forbade him from going out late at night.",
         "target": "forbade"
       }
     ],
@@ -5561,11 +5443,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The soldiers defended the **fort** against the enemy attack for three days.",
+        "en": "The soldiers defended the fort against the enemy attack for three days.",
         "target": "fort"
       },
       {
-        "en": "Can you hold the **fort** while I go get lunch?",
+        "en": "Can you hold the fort while I go get lunch?",
         "target": "fort"
       }
     ],
@@ -5600,11 +5482,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She slammed her book in **frustration** when she couldn't solve the math problem.",
+        "en": "She slammed her book in frustration when she couldn't solve the math problem.",
         "target": "frustration"
       },
       {
-        "en": "The repeated failures became a source of deep **frustration** for the team.",
+        "en": "The repeated failures became a source of deep frustration for the team.",
         "target": "frustration"
       }
     ],
@@ -5639,11 +5521,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Each **generation** faces its own unique set of challenges and opportunities.",
+        "en": "Each generation faces its own unique set of challenges and opportunities.",
         "target": "generation"
       },
       {
-        "en": "There is often a **generation gap** between parents and their teenage children.",
+        "en": "There is often a generation gap between parents and their teenage children.",
         "target": "generation gap"
       }
     ],
@@ -5678,11 +5560,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Washing hands frequently is the best way to avoid spreading **germs**.",
+        "en": "Washing hands frequently is the best way to avoid spreading germs.",
         "target": "germs"
       },
       {
-        "en": "The **germ** of this brilliant invention came from a simple classroom observation.",
+        "en": "The germ of this brilliant invention came from a simple classroom observation.",
         "target": "germ"
       }
     ],
@@ -5717,11 +5599,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The host was **gracious** and made every guest feel welcome.",
+        "en": "The host was gracious and made every guest feel welcome.",
         "target": "gracious"
       },
       {
-        "en": "She accepted the criticism in a **gracious** manner, thanking them for the feedback.",
+        "en": "She accepted the criticism in a gracious manner, thanking them for the feedback.",
         "target": "gracious"
       }
     ],
@@ -5756,11 +5638,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "I am **grateful for** all the help my teachers have given me this year.",
+        "en": "I am grateful for all the help my teachers have given me this year.",
         "target": "grateful for"
       },
       {
-        "en": "She gave a **grateful** smile when her classmate lent her the notes.",
+        "en": "She gave a grateful smile when her classmate lent her the notes.",
         "target": "grateful"
       }
     ],
@@ -5795,11 +5677,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The judge gave **harsh** criticism to the student's poorly written essay.",
+        "en": "The judge gave harsh criticism to the student's poorly written essay.",
         "target": "harsh"
       },
       {
-        "en": "Polar bears survive in the **harsh** conditions of the Arctic wilderness.",
+        "en": "Polar bears survive in the harsh conditions of the Arctic wilderness.",
         "target": "harsh"
       }
     ],
@@ -5834,11 +5716,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The couple spent their **honeymoon** touring the countryside of France.",
+        "en": "The couple spent their honeymoon touring the countryside of France.",
         "target": "honeymoon"
       },
       {
-        "en": "The new government's **honeymoon period** ended quickly as problems emerged.",
+        "en": "The new government's honeymoon period ended quickly as problems emerged.",
         "target": "honeymoon period"
       }
     ],
@@ -5872,11 +5754,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He shared the **housework** equally with his wife after they both started working.",
+        "en": "He shared the housework equally with his wife after they both started working.",
         "target": "housework"
       },
       {
-        "en": "Students often struggle to balance studying with helping with **housework** at home.",
+        "en": "Students often struggle to balance studying with helping with housework at home.",
         "target": "housework"
       }
     ],
@@ -5911,11 +5793,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Many teenagers have a pop **idol** they look up to and try to imitate.",
+        "en": "Many teenagers have a pop idol they look up to and try to imitate.",
         "target": "idol"
       },
       {
-        "en": "Her **idol** growing up was Marie Curie, the famous scientist.",
+        "en": "Her idol growing up was Marie Curie, the famous scientist.",
         "target": "idol"
       }
     ],
@@ -5950,11 +5832,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The student showed **incredible** dedication by studying 10 hours every day.",
+        "en": "The student showed incredible dedication by studying 10 hours every day.",
         "target": "incredible"
       },
       {
-        "en": "It's **incredible** that she memorized the entire poem in just one evening.",
+        "en": "It's incredible that she memorized the entire poem in just one evening.",
         "target": "incredible"
       }
     ],
@@ -5989,11 +5871,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The lawyer worked hard to prove his client's **innocence** in court.",
+        "en": "The lawyer worked hard to prove his client's innocence in court.",
         "target": "innocence"
       },
       {
-        "en": "There is a special **innocence** in young children that adults often envy.",
+        "en": "There is a special innocence in young children that adults often envy.",
         "target": "innocence"
       }
     ],
@@ -6028,11 +5910,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please **insert** your student ID card to log in to the school system.",
+        "en": "Please insert your student ID card to log in to the school system.",
         "target": "insert"
       },
       {
-        "en": "The editor asked her to **insert** an extra paragraph into the article.",
+        "en": "The editor asked her to insert an extra paragraph into the article.",
         "target": "insert"
       }
     ],
@@ -6067,11 +5949,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She enrolled in an **intermediate** English course after completing the beginner level.",
+        "en": "She enrolled in an intermediate English course after completing the beginner level.",
         "target": "intermediate"
       },
       {
-        "en": "The project is still at an **intermediate** stage and won't be finished for months.",
+        "en": "The project is still at an intermediate stage and won't be finished for months.",
         "target": "intermediate"
       }
     ],
@@ -6080,7 +5962,7 @@ const LEVEL_4_DATA = [
       "mid-level",
       "moderate"
     ],
-    "grammar_note": "intermediate between A and B = 介於A與B之間",
+    "grammar_note": "intermediate between A and B = 介於 A 與 B 之間",
     "chinese_sentence": "完成初級課程後，她報名了一個中級英文寫作班來進一步提升能力。",
     "word_family": ""
   },
@@ -6106,11 +5988,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Three players were **injured** during the basketball game and had to leave.",
+        "en": "Three players were injured during the basketball game and had to leave.",
         "target": "injured"
       },
       {
-        "en": "She **injured** her ankle while practicing gymnastics.",
+        "en": "She injured her ankle while practicing gymnastics.",
         "target": "injured"
       }
     ],
@@ -6145,11 +6027,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The police launched an **investigation** into the source of the leak.",
+        "en": "The police launched an investigation into the source of the leak.",
         "target": "investigation"
       },
       {
-        "en": "The science project required an **investigation** into water quality in the local river.",
+        "en": "The science project required an investigation into water quality in the local river.",
         "target": "investigation"
       }
     ],
@@ -6161,45 +6043,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "investigate (v.); investigator (n.); under investigation = 正在被調查",
     "chinese_sentence": "警方對那起竊盜事件展開調查，目前已鎖定數名嫌疑人。",
     "word_family": "investigate · investigation · investigator"
-  },
-  {
-    "word": "lawful",
-    "pos": "adj.",
-    "chapter": "School and Learning",
-    "kk": "/lˈɔfəl/",
-    "chinese": "合法的；法律許可的",
-    "collocations": [
-      {
-        "en": "lawful activity",
-        "zh": "合法活動"
-      },
-      {
-        "en": "lawful authority",
-        "zh": "合法權力"
-      },
-      {
-        "en": "lawful owner",
-        "zh": "合法持有人"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Voting is a **lawful** right that every citizen should exercise.",
-        "target": "lawful"
-      },
-      {
-        "en": "The court determined that the protest was a **lawful** expression of free speech.",
-        "target": "lawful"
-      }
-    ],
-    "synonyms": [
-      "legal",
-      "legitimate",
-      "authorized"
-    ],
-    "grammar_note": "lawful ≈ legal; lawfully (adv.); unlawful = 非法的",
-    "chinese_sentence": "法院裁定該示威活動屬於合法的言論自由表達，不應被阻止。",
-    "word_family": "lawful · lawfully"
   },
   {
     "word": "librarian",
@@ -6223,11 +6066,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **librarian** helped me find books related to my research topic.",
+        "en": "The librarian helped me find books related to my research topic.",
         "target": "librarian"
       },
       {
-        "en": "Our school **librarian** organizes a monthly reading club for students.",
+        "en": "Our school librarian organizes a monthly reading club for students.",
         "target": "librarian"
       }
     ],
@@ -6261,11 +6104,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "His **loyalty** to his teammates earned him the respect of the whole school.",
+        "en": "His loyalty to his teammates earned him the respect of the whole school.",
         "target": "loyalty"
       },
       {
-        "en": "Companies work hard to build customer **loyalty** through reward programs.",
+        "en": "Companies work hard to build customer loyalty through reward programs.",
         "target": "loyalty"
       }
     ],
@@ -6300,11 +6143,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **loosened** the tight knot in her shoelace before removing her shoe.",
+        "en": "She loosened the tight knot in her shoelace before removing her shoe.",
         "target": "loosened"
       },
       {
-        "en": "The government decided to **loosen** travel restrictions after the pandemic eased.",
+        "en": "The government decided to loosen travel restrictions after the pandemic eased.",
         "target": "loosen"
       }
     ],
@@ -6339,11 +6182,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher asked students to read the **manual** before using the lab equipment.",
+        "en": "The teacher asked students to read the manual before using the lab equipment.",
         "target": "manual"
       },
       {
-        "en": "**Manual** labor requires physical strength and endurance.",
+        "en": "Manual labor requires physical strength and endurance.",
         "target": "Manual"
       }
     ],
@@ -6382,11 +6225,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The judge showed **mercy** and reduced the sentence for the first-time offender.",
+        "en": "The judge showed mercy and reduced the sentence for the first-time offender.",
         "target": "mercy"
       },
       {
-        "en": "The small boat was at the **mercy of** the raging storm.",
+        "en": "The small boat was at the mercy of the raging storm.",
         "target": "mercy of"
       }
     ],
@@ -6421,11 +6264,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Despite many **misfortunes**, he kept a positive attitude and moved forward.",
+        "en": "Despite many misfortunes, he kept a positive attitude and moved forward.",
         "target": "misfortunes"
       },
       {
-        "en": "She had the **misfortune** of losing her wallet on the first day of school.",
+        "en": "She had the misfortune of losing her wallet on the first day of school.",
         "target": "misfortune"
       }
     ],
@@ -6460,11 +6303,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Doctors recommend **moderate** exercise for at least 30 minutes every day.",
+        "en": "Doctors recommend moderate exercise for at least 30 minutes every day.",
         "target": "moderate"
       },
       {
-        "en": "The politician took a **moderate** stance that appealed to voters across the spectrum.",
+        "en": "The politician took a moderate stance that appealed to voters across the spectrum.",
         "target": "moderate"
       }
     ],
@@ -6499,11 +6342,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The charity raised funds to provide school supplies to **needy** children.",
+        "en": "The charity raised funds to provide school supplies to needy children.",
         "target": "needy"
       },
       {
-        "en": "Volunteers delivered hot meals to **needy** families in the community.",
+        "en": "Volunteers delivered hot meals to needy families in the community.",
         "target": "needy"
       }
     ],
@@ -6538,11 +6381,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The detective spent years tracking down the **murderer** responsible for the crimes.",
+        "en": "The detective spent years tracking down the murderer responsible for the crimes.",
         "target": "murderer"
       },
       {
-        "en": "The **murderer** was sentenced to life imprisonment after a lengthy trial.",
+        "en": "The murderer was sentenced to life imprisonment after a lengthy trial.",
         "target": "murderer"
       }
     ],
@@ -6577,11 +6420,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **obedient** puppy sat still while its owner spoke to it.",
+        "en": "The obedient puppy sat still while its owner spoke to it.",
         "target": "obedient"
       },
       {
-        "en": "Being **obedient** doesn't mean never questioning rules — it means following them respectfully.",
+        "en": "Being obedient doesn't mean never questioning rules — it means following them respectfully.",
         "target": "obedient"
       }
     ],
@@ -6591,47 +6434,8 @@ const LEVEL_4_DATA = [
       "well-behaved"
     ],
     "grammar_note": "obey (v.); obedience (n.); obedient to sb./sth.",
-    "chinese_sentence": "那個孩子非常乖巧，從不讓父母擔心，老師也對他讚不絕口。",
+    "chinese_sentence": "那個孩子非常聽話，總是乖乖遵守父母和老師的規定。",
     "word_family": "obedience · obedient · obey"
-  },
-  {
-    "word": "occupation",
-    "pos": "n.",
-    "chapter": "School and Learning",
-    "kk": "/ˌɑkjəpˈeɪʃən/",
-    "chinese": "職業；占領；占用",
-    "collocations": [
-      {
-        "en": "by occupation",
-        "zh": "從事職業為"
-      },
-      {
-        "en": "military occupation",
-        "zh": "軍事占領"
-      },
-      {
-        "en": "occupation of a building",
-        "zh": "占用建築物"
-      }
-    ],
-    "examples": [
-      {
-        "en": "His **occupation** is listed as 'engineer' on the official form.",
-        "target": "occupation"
-      },
-      {
-        "en": "The military **occupation** of the region lasted for nearly a decade.",
-        "target": "occupation"
-      }
-    ],
-    "synonyms": [
-      "profession",
-      "job",
-      "career"
-    ],
-    "grammar_note": "occupy (v.); occupied (adj.) = 忙碌的/被占用的; occupation = 職業（較正式）",
-    "chinese_sentence": "在這份表格的職業欄位，他填寫了「軟體工程師」。",
-    "word_family": "occupation · occupied · occupy"
   },
   {
     "word": "outstanding",
@@ -6655,11 +6459,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She received an award for her **outstanding** performance in the national exam.",
+        "en": "She received an award for her outstanding performance in the national exam.",
         "target": "outstanding"
       },
       {
-        "en": "There are still three **outstanding** issues to be resolved before the project ends.",
+        "en": "There are still three outstanding issues to be resolved before the project ends.",
         "target": "outstanding"
       }
     ],
@@ -6694,12 +6498,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The rebels attempted to **overthrow** the corrupt government through a coup.",
+        "en": "The rebels attempted to overthrow the corrupt government through a coup.",
         "target": "overthrow"
       },
       {
-        "en": "History shows that **overthrown** regimes often face long periods of instability.",
-        "target": "overthrown"
+        "en": "History shows that countries whose governments are overthrown often face long periods of instability.",
+        "target": "are overthrown"
       }
     ],
     "synonyms": [
@@ -6733,11 +6537,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher gave extra credit for **participation** in class discussions.",
+        "en": "The teacher gave extra credit for participation in class discussions.",
         "target": "participation"
       },
       {
-        "en": "Public **participation** in elections is essential for a healthy democracy.",
+        "en": "Public participation in elections is essential for a healthy democracy.",
         "target": "participation"
       }
     ],
@@ -6772,11 +6576,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **persuasive** speech convinced the school board to extend library hours.",
+        "en": "Her persuasive speech convinced the school board to extend library hours.",
         "target": "persuasive"
       },
       {
-        "en": "A **persuasive** essay must include strong evidence and clear reasoning.",
+        "en": "A persuasive essay must include strong evidence and clear reasoning.",
         "target": "persuasive"
       }
     ],
@@ -6811,11 +6615,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Children should be warned not to touch **poisonous** plants they find outdoors.",
+        "en": "Children should be warned not to touch poisonous plants they find outdoors.",
         "target": "poisonous"
       },
       {
-        "en": "The factory was shut down for releasing **poisonous** chemicals into the river.",
+        "en": "The factory was shut down for releasing poisonous chemicals into the river.",
         "target": "poisonous"
       }
     ],
@@ -6850,11 +6654,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They called a **plumber** after the kitchen sink started leaking badly.",
+        "en": "They called a plumber after the kitchen sink started leaking badly.",
         "target": "plumber"
       },
       {
-        "en": "The **plumber** fixed the broken pipe in less than an hour.",
+        "en": "The plumber fixed the broken pipe in less than an hour.",
         "target": "plumber"
       }
     ],
@@ -6888,11 +6692,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She announced that she was three months **pregnant** at the family dinner.",
+        "en": "She announced that she was three months pregnant at the family dinner.",
         "target": "pregnant"
       },
       {
-        "en": "There was a **pregnant** pause before the teacher revealed the exam scores.",
+        "en": "There was a pregnant pause before the teacher revealed the exam scores.",
         "target": "pregnant"
       }
     ],
@@ -6903,45 +6707,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "pregnancy (n.); a pregnant pause = 充滿意味的停頓（比喻）",
     "chinese_sentence": "她在家庭聚餐時宣布自己已懷孕三個月，全家人都歡欣鼓舞。",
     "word_family": "pregnancy · pregnant · prenatal"
-  },
-  {
-    "word": "preserve",
-    "pos": "v.",
-    "chapter": "School and Learning",
-    "kk": "/prəzˈɝv/",
-    "chinese": "保護；保存；維持",
-    "collocations": [
-      {
-        "en": "preserve the environment",
-        "zh": "保護環境"
-      },
-      {
-        "en": "preserve food",
-        "zh": "保存食物"
-      },
-      {
-        "en": "nature preserve",
-        "zh": "自然保護區"
-      }
-    ],
-    "examples": [
-      {
-        "en": "It is our responsibility to **preserve** the natural environment for future generations.",
-        "target": "preserve"
-      },
-      {
-        "en": "Salt was used historically to **preserve** meat during long journeys.",
-        "target": "preserve"
-      }
-    ],
-    "synonyms": [
-      "protect",
-      "maintain",
-      "conserve"
-    ],
-    "grammar_note": "preservation (n.); preservative (n.) = 防腐劑; preserve sth. from sth.",
-    "chinese_sentence": "保護環境、維持生物多樣性是我們對後代子孫最重要的責任之一。",
-    "word_family": "preservation · preservative · preserve"
   },
   {
     "word": "profitable",
@@ -6965,11 +6730,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The new product line turned out to be extremely **profitable** for the company.",
+        "en": "The new product line turned out to be extremely profitable for the company.",
         "target": "profitable"
       },
       {
-        "en": "Reading classic literature can be a **profitable** use of one's free time.",
+        "en": "Reading classic literature can be a profitable use of one's free time.",
         "target": "profitable"
       }
     ],
@@ -7004,11 +6769,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is majoring in **psychology** because she wants to become a counselor.",
+        "en": "She is majoring in psychology because she wants to become a counselor.",
         "target": "psychology"
       },
       {
-        "en": "Understanding the **psychology** of teenagers helps teachers communicate more effectively.",
+        "en": "Understanding the psychology of teenagers helps teachers communicate more effectively.",
         "target": "psychology"
       }
     ],
@@ -7042,11 +6807,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She received a trophy **in recognition of** her outstanding contributions to the school.",
+        "en": "She received a trophy in recognition of her outstanding contributions to the school.",
         "target": "in recognition of"
       },
       {
-        "en": "The technology uses **facial recognition** to identify users automatically.",
+        "en": "The technology uses facial recognition to identify users automatically.",
         "target": "facial recognition"
       }
     ],
@@ -7081,11 +6846,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "After the exam, she took time to **reflect on** her study methods.",
+        "en": "After the exam, she took time to reflect on her study methods.",
         "target": "reflect on"
       },
       {
-        "en": "The lake **reflected** the golden colors of the sunset perfectly.",
+        "en": "The lake reflected the golden colors of the sunset perfectly.",
         "target": "reflected"
       }
     ],
@@ -7120,11 +6885,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "His **refusal** to apologize made the conflict between them worse.",
+        "en": "His refusal to apologize made the conflict between them worse.",
         "target": "refusal"
       },
       {
-        "en": "Her flat **refusal** to take the exam surprised the teacher.",
+        "en": "Her flat refusal to take the exam surprised the teacher.",
         "target": "refusal"
       }
     ],
@@ -7159,11 +6924,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The new rule met with strong **resistance** from students who disliked the policy.",
+        "en": "The new rule met with strong resistance from students who disliked the policy.",
         "target": "resistance"
       },
       {
-        "en": "Overuse of antibiotics can lead to **antibiotic resistance**.",
+        "en": "Overuse of antibiotics can lead to antibiotic resistance.",
         "target": "antibiotic resistance"
       }
     ],
@@ -7198,11 +6963,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please only include **relevant** information in your essay — avoid going off-topic.",
+        "en": "Please only include relevant information in your essay — avoid going off-topic.",
         "target": "relevant"
       },
       {
-        "en": "His experience is directly **relevant to** the position he is applying for.",
+        "en": "His experience is directly relevant to the position he is applying for.",
         "target": "relevant to"
       }
     ],
@@ -7237,11 +7002,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The twins **resemble** each other so closely that even their teachers confuse them.",
+        "en": "The twins resemble each other so closely that even their teachers confuse them.",
         "target": "resemble"
       },
       {
-        "en": "The new building **resembles** a giant glass cube rising above the city.",
+        "en": "The new building resembles a giant glass cube rising above the city.",
         "target": "resembles"
       }
     ],
@@ -7276,11 +7041,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **robber** was caught on security cameras entering the store.",
+        "en": "The robber was caught on security cameras entering the store.",
         "target": "robber"
       },
       {
-        "en": "Police arrested the **robbers** within hours of the bank heist.",
+        "en": "Police arrested the robbers within hours of the bank heist.",
         "target": "robbers"
       }
     ],
@@ -7315,12 +7080,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher started class with a fun **riddle** to wake students up.",
+        "en": "The teacher started class with a fun riddle to wake students up.",
         "target": "riddle"
       },
       {
-        "en": "The old manuscript was **riddled with** errors and hard to interpret.",
-        "target": "riddled with"
+        "en": "Nobody in the class could solve the riddle until the teacher gave a small hint.",
+        "target": "solve the riddle"
       }
     ],
     "synonyms": [
@@ -7354,12 +7119,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The museum displayed ancient **sculptures** from Greek and Roman civilization.",
+        "en": "The museum displayed ancient sculptures from Greek and Roman civilization.",
         "target": "sculptures"
       },
       {
-        "en": "She **sculpted** a clay figure of a tiger for the school art exhibition.",
-        "target": "sculpted"
+        "en": "The students admired a bronze sculpture of a running horse in the city park.",
+        "target": "bronze sculpture"
       }
     ],
     "synonyms": [
@@ -7393,11 +7158,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The students sat in the **shade** of the big tree to eat their lunch.",
+        "en": "The students sat in the shade of the big tree to eat their lunch.",
         "target": "shade"
       },
       {
-        "en": "She chose a lighter **shade** of green for the classroom walls.",
+        "en": "She chose a lighter shade of green for the classroom walls.",
         "target": "shade"
       }
     ],
@@ -7415,7 +7180,7 @@ const LEVEL_4_DATA = [
     "pos": "n.",
     "chapter": "School and Learning",
     "kk": "/sˈɔftwˌɛr/",
-    "chinese": "軟體；軟件",
+    "chinese": "軟體",
     "collocations": [
       {
         "en": "install software",
@@ -7432,11 +7197,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school installed new educational **software** on all classroom computers.",
+        "en": "The school installed new educational software on all classroom computers.",
         "target": "software"
       },
       {
-        "en": "**Software** developers are in high demand in today's technology-driven economy.",
+        "en": "Software developers are in high demand in today's technology-driven economy.",
         "target": "Software"
       }
     ],
@@ -7471,11 +7236,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher's story about space **sparked** a lifelong interest in astronomy.",
+        "en": "The teacher's story about space sparked a lifelong interest in astronomy.",
         "target": "sparked"
       },
       {
-        "en": "A single **spark** can start a forest fire under dry conditions.",
+        "en": "A single spark can start a forest fire under dry conditions.",
         "target": "spark"
       }
     ],
@@ -7510,11 +7275,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He is so **stingy** that he refuses to buy even a cup of coffee for his friends.",
+        "en": "He is so stingy that he refuses to buy even a cup of coffee for his friends.",
         "target": "stingy"
       },
       {
-        "en": "The manager was **stingy with** praise, rarely complimenting employees.",
+        "en": "The manager was stingy with praise, rarely complimenting employees.",
         "target": "stingy with"
       }
     ],
@@ -7549,11 +7314,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The counselor was **sympathetic** to the student's family problems.",
+        "en": "The counselor was sympathetic to the student's family problems.",
         "target": "sympathetic"
       },
       {
-        "en": "Her friends gave a **sympathetic** ear when she needed to talk.",
+        "en": "Her friends gave a sympathetic ear when she needed to talk.",
         "target": "sympathetic"
       }
     ],
@@ -7588,11 +7353,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "There was a lot of **tension** in the classroom before the exam results were announced.",
+        "en": "There was a lot of tension in the classroom before the exam results were announced.",
         "target": "tension"
       },
       {
-        "en": "The two countries worked together to ease the **tension** along their border.",
+        "en": "The two countries worked together to ease the tension along their border.",
         "target": "tension"
       }
     ],
@@ -7601,7 +7366,7 @@ const LEVEL_4_DATA = [
       "strain",
       "anxiety"
     ],
-    "grammar_note": "tense (adj./v.); tension between A and B = A與B之間的緊張關係",
+    "grammar_note": "tense (adj./v.); tension between A and B = A與 B 之間的緊張關係",
     "chinese_sentence": "成績公布前，教室裡的氣氛十分緊張，每個人都屏氣凝神地等待。",
     "word_family": "tense · tensely · tension"
   },
@@ -7627,11 +7392,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher made it clear that bullying would not be **tolerated** in this classroom.",
+        "en": "The teacher made it clear that bullying would not be tolerated in this classroom.",
         "target": "tolerated"
       },
       {
-        "en": "He could barely **tolerate** the noise from the construction site next door.",
+        "en": "He could barely tolerate the noise from the construction site next door.",
         "target": "tolerate"
       }
     ],
@@ -7666,11 +7431,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **translation** of the poem captured both the meaning and the rhythm of the original.",
+        "en": "The translation of the poem captured both the meaning and the rhythm of the original.",
         "target": "translation"
       },
       {
-        "en": "She worked on the **translation** of a Spanish novel into Mandarin for two years.",
+        "en": "She worked on the translation of a Spanish novel into Mandarin for two years.",
         "target": "translation"
       }
     ],
@@ -7705,11 +7470,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The anthropologist studied the **tribal** customs of indigenous communities.",
+        "en": "The anthropologist studied the tribal customs of indigenous communities.",
         "target": "tribal"
       },
       {
-        "en": "**Tribal** leaders gathered to discuss the future of their traditional lands.",
+        "en": "Tribal leaders gathered to discuss the future of their traditional lands.",
         "target": "Tribal"
       }
     ],
@@ -7744,11 +7509,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The surgeon repaired a damaged **blood vessel** during the delicate operation.",
+        "en": "The surgeon repaired a damaged blood vessel during the delicate operation.",
         "target": "blood vessel"
       },
       {
-        "en": "A large cargo **vessel** entered the port carrying goods from overseas.",
+        "en": "A large cargo vessel entered the port carrying goods from overseas.",
         "target": "vessel"
       }
     ],
@@ -7783,11 +7548,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Any student who **violates** the school's code of conduct will face consequences.",
+        "en": "Any student who violates the school's code of conduct will face consequences.",
         "target": "violates"
       },
       {
-        "en": "Recording someone without their consent **violates** their right to privacy.",
+        "en": "Recording someone without their consent violates their right to privacy.",
         "target": "violates"
       }
     ],
@@ -7822,11 +7587,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She tried to **yawn** quietly during the long and tedious lecture.",
+        "en": "She tried to yawn quietly during the long and tedious lecture.",
         "target": "yawn"
       },
       {
-        "en": "The student let out a big **yawn**, signaling that the class was putting him to sleep.",
+        "en": "The student let out a big yawn, signaling that the class was putting him to sleep.",
         "target": "yawn"
       }
     ],
@@ -7838,6 +7603,552 @@ const LEVEL_4_DATA = [
     "grammar_note": "yawn (n./v.); yawning gap = 巨大的差距（比喻）",
     "chinese_sentence": "漫長的演講讓她不住地打哈欠，她努力掩住嘴，不想讓老師發現。",
     "word_family": ""
+  },
+  {
+    "word": "earphone",
+    "pos": "n.",
+    "chapter": "School and Learning",
+    "kk": "/ˈɪrfˌoʊn/",
+    "chinese": "耳機",
+    "collocations": [
+      {
+        "en": "put on earphones",
+        "zh": "戴上耳機"
+      },
+      {
+        "en": "wireless earphones",
+        "zh": "無線耳機"
+      },
+      {
+        "en": "earphone jack",
+        "zh": "耳機插孔"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She put on her earphones to listen to music on the bus ride to school.",
+        "target": "earphones"
+      },
+      {
+        "en": "Students are not allowed to wear earphones during class time.",
+        "target": "earphones"
+      }
+    ],
+    "synonyms": [
+      "headphones",
+      "earbud",
+      "headset"
+    ],
+    "grammar_note": "earphone / earphones / earbud — all refer to audio listening devices",
+    "chinese_sentence": "她在搭公車上學的途中戴上耳機，一邊聽音樂放鬆心情。",
+    "word_family": ""
+  },
+  {
+    "word": "dread",
+    "pos": "n./v.",
+    "chapter": "School and Learning",
+    "kk": "/drˈɛd/",
+    "chinese": "恐懼；害怕；令人恐懼的",
+    "collocations": [
+      {
+        "en": "dread the exam",
+        "zh": "害怕考試"
+      },
+      {
+        "en": "live in dread",
+        "zh": "活在恐懼中"
+      },
+      {
+        "en": "a dreadful mistake",
+        "zh": "可怕的錯誤"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Many students dread the annual standardized exams.",
+        "target": "dread"
+      },
+      {
+        "en": "She lived in dread of failing the final exam all semester.",
+        "target": "dread"
+      }
+    ],
+    "synonyms": [
+      "fear",
+      "terror",
+      "apprehension"
+    ],
+    "grammar_note": "dread (v./n.); dreadful (adj.) = 可怕的; dread + N/V-ing",
+    "chinese_sentence": "許多學生非常害怕一年一度的學測，提早好幾個月就開始感到焦慮。",
+    "word_family": "dread · dreadful · dreadfully"
+  },
+  {
+    "word": "access",
+    "pos": "n./v.",
+    "chapter": "School and Learning",
+    "kk": "/ˈæksˌɛs/",
+    "chinese": "進入；使用；接觸；取得",
+    "collocations": [
+      {
+        "en": "have access to",
+        "zh": "可使用/進入"
+      },
+      {
+        "en": "internet access",
+        "zh": "上網管道"
+      },
+      {
+        "en": "access denied",
+        "zh": "拒絕進入"
+      }
+    ],
+    "examples": [
+      {
+        "en": "All students have access to the school's online library database.",
+        "target": "access to"
+      },
+      {
+        "en": "The new system makes it easier to access your academic records.",
+        "target": "access"
+      }
+    ],
+    "synonyms": [
+      "entry",
+      "approach",
+      "availability"
+    ],
+    "grammar_note": "access (n./v.); have access to = 能使用/進入; accessible (adj.) = 可進入的/易懂的",
+    "chinese_sentence": "所有學生都可以登入學校的線上圖書館資料庫查閱學術資源。",
+    "word_family": "access · accessibility · accessible"
+  },
+  {
+    "word": "drowsy",
+    "pos": "adj.",
+    "chapter": "School and Learning",
+    "kk": "/drˈaʊzi/",
+    "chinese": "昏昏欲睡的；令人想睡的",
+    "collocations": [
+      {
+        "en": "feel drowsy",
+        "zh": "感到昏昏欲睡"
+      },
+      {
+        "en": "drowsy from medication",
+        "zh": "因藥物昏沉"
+      },
+      {
+        "en": "drowsy afternoon",
+        "zh": "令人想打盹的下午"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She felt drowsy after the long morning of studying and needed a break.",
+        "target": "drowsy"
+      },
+      {
+        "en": "The warm classroom made most students feel drowsy after lunch.",
+        "target": "drowsy"
+      }
+    ],
+    "synonyms": [
+      "sleepy",
+      "dozy",
+      "lethargic"
+    ],
+    "grammar_note": "drowsiness (n.); drowsily (adv.); drowsy ≠ asleep",
+    "chinese_sentence": "吃完午飯後，溫暖的教室讓大多數學生都昏昏欲睡，難以集中注意力。",
+    "word_family": "drowsily · drowsiness · drowsy"
+  },
+  {
+    "word": "logic",
+    "pos": "n.",
+    "chapter": "School and Learning",
+    "kk": "/lˈɑdʒɪk/",
+    "chinese": "邏輯；道理；推理",
+    "collocations": [
+      {
+        "en": "follow the logic",
+        "zh": "遵循邏輯"
+      },
+      {
+        "en": "logical argument",
+        "zh": "合乎邏輯的論點"
+      },
+      {
+        "en": "the logic of",
+        "zh": "…的道理"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The teacher praised the student for the clear logic in her essay.",
+        "target": "logic"
+      },
+      {
+        "en": "I don't see the logic in studying all night before a big exam.",
+        "target": "logic"
+      }
+    ],
+    "synonyms": [
+      "reasoning",
+      "sense",
+      "rationality"
+    ],
+    "grammar_note": "logical (adj.); logically (adv.); logic (n.); illogical = 不合邏輯的",
+    "chinese_sentence": "老師稱讚那名學生的文章論述清晰、邏輯嚴謹，是全班最佳作品。",
+    "word_family": "logic · logical · logically"
+  },
+  {
+    "word": "lecturer",
+    "pos": "n.",
+    "chapter": "School and Learning",
+    "kk": "/lˈɛktʃɚɚ/",
+    "chinese": "講師；演講者",
+    "collocations": [
+      {
+        "en": "guest lecturer",
+        "zh": "客座講師"
+      },
+      {
+        "en": "university lecturer",
+        "zh": "大學講師"
+      },
+      {
+        "en": "deliver a lecture",
+        "zh": "發表演講"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The lecturer explained the concept so clearly that all students understood it.",
+        "target": "lecturer"
+      },
+      {
+        "en": "A guest lecturer from NASA visited the school to talk about space exploration.",
+        "target": "lecturer"
+      }
+    ],
+    "synonyms": [
+      "professor",
+      "instructor",
+      "speaker"
+    ],
+    "grammar_note": "lecture (n./v.); lecturer (n.) = 講師; lecture hall = 演講廳",
+    "chinese_sentence": "一位來自 NASA 的客座講師到校分享太空探索的最新研究成果。",
+    "word_family": "lecture · lecturer"
+  },
+  {
+    "word": "scold",
+    "pos": "v./n.",
+    "chapter": "School and Learning",
+    "kk": "/skˈoʊld/",
+    "chinese": "責罵；訓斥",
+    "collocations": [
+      {
+        "en": "scold sb. for",
+        "zh": "因…責罵某人"
+      },
+      {
+        "en": "get scolded",
+        "zh": "被罵"
+      },
+      {
+        "en": "scold harshly",
+        "zh": "嚴厲訓斥"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The teacher scolded the student for talking during the exam.",
+        "target": "scolded"
+      },
+      {
+        "en": "She got scolded for coming home late without calling first.",
+        "target": "scolded"
+      }
+    ],
+    "synonyms": [
+      "reprimand",
+      "rebuke",
+      "lecture"
+    ],
+    "grammar_note": "scold (v.); scold sb. for + N/V-ing = 因某事責罵某人",
+    "chinese_sentence": "那名學生因為在考試中交頭接耳而被老師當場嚴厲訓斥。",
+    "word_family": ""
+  },
+  {
+    "word": "distribution",
+    "pos": "n.",
+    "chapter": "School and Learning",
+    "kk": "/dˌɪstrəbjˈuʃən/",
+    "chinese": "分配；分布；發行",
+    "collocations": [
+      {
+        "en": "distribution of wealth",
+        "zh": "財富分配"
+      },
+      {
+        "en": "food distribution",
+        "zh": "食物發放"
+      },
+      {
+        "en": "income distribution",
+        "zh": "收入分配"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The distribution of textbooks to students began on the first day of school.",
+        "target": "distribution"
+      },
+      {
+        "en": "An uneven distribution of resources can lead to social inequality.",
+        "target": "distribution"
+      }
+    ],
+    "synonyms": [
+      "allocation",
+      "delivery",
+      "spread"
+    ],
+    "grammar_note": "distribute (v.); distribution (n.); distributor (n.) = 分銷商",
+    "chinese_sentence": "資源分配不均往往是導致社會不平等和貧富差距擴大的重要因素。",
+    "word_family": "distribute · distribution · distributor"
+  },
+  {
+    "word": "ambitious",
+    "pos": "adj.",
+    "chapter": "School and Learning",
+    "kk": "/æmbˈɪʃəs/",
+    "chinese": "雄心勃勃的；有抱負的",
+    "collocations": [
+      {
+        "en": "ambitious goal",
+        "zh": "雄心勃勃的目標"
+      },
+      {
+        "en": "ambitious student",
+        "zh": "有抱負的學生"
+      },
+      {
+        "en": "overly ambitious",
+        "zh": "過於雄心勃勃的"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She is an ambitious student who aims to study at a top university.",
+        "target": "ambitious"
+      },
+      {
+        "en": "The school set an ambitious target of a 100% graduation rate within five years.",
+        "target": "an ambitious target"
+      }
+    ],
+    "synonyms": [
+      "driven",
+      "aspiring",
+      "determined"
+    ],
+    "grammar_note": "ambition (n.); ambitiously (adv.); ambitious about/for sth.",
+    "chinese_sentence": "她是一個充滿抱負的學生，目標是考上國內排名第一的頂尖大學。",
+    "word_family": "ambition · ambitious · ambitiously"
+  },
+  {
+    "word": "discipline",
+    "pos": "n./v.",
+    "chapter": "School and Learning",
+    "kk": "/dˈɪsəplən/",
+    "chinese": "紀律；訓練；學科",
+    "collocations": [
+      {
+        "en": "self-discipline",
+        "zh": "自律"
+      },
+      {
+        "en": "strict discipline",
+        "zh": "嚴格紀律"
+      },
+      {
+        "en": "maintain discipline",
+        "zh": "維持秩序"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Self-discipline is essential for achieving long-term academic goals.",
+        "target": "Self-discipline"
+      },
+      {
+        "en": "The teacher maintained strict discipline in the classroom.",
+        "target": "discipline"
+      }
+    ],
+    "synonyms": [
+      "self-control",
+      "order",
+      "subject"
+    ],
+    "grammar_note": "discipline (n./v.); disciplined (adj.) = 有紀律的; self-discipline = 自律",
+    "chinese_sentence": "自律是實現長期學業目標的根本基礎，沒有任何捷徑可以取代它。",
+    "word_family": "disciple · discipleship · disciplinarian · disciplinary · discipline · disciplined"
+  },
+  {
+    "word": "urge",
+    "pos": "n./v.",
+    "chapter": "School and Learning",
+    "kk": "/ˈɝdʒ/",
+    "chinese": "強烈慾望；催促；力勸",
+    "collocations": [
+      {
+        "en": "urge sb. to do",
+        "zh": "力勸某人做"
+      },
+      {
+        "en": "feel an urge",
+        "zh": "感到強烈衝動"
+      },
+      {
+        "en": "resist the urge",
+        "zh": "抗拒衝動"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She urged her students to read widely beyond the textbook.",
+        "target": "urged"
+      },
+      {
+        "en": "He resisted the urge to check his phone during the three-hour exam.",
+        "target": "urge"
+      }
+    ],
+    "synonyms": [
+      "encourage",
+      "impulse",
+      "push"
+    ],
+    "grammar_note": "urge (v./n.); urge sb. to V = 力勸某人做; feel the urge to V = 有衝動做某事",
+    "chinese_sentence": "他在三小時的考試中努力抗拒想拿手機的衝動，最終成功保持了專注。",
+    "word_family": ""
+  },
+  {
+    "word": "digest",
+    "pos": "n./v.",
+    "chapter": "School and Learning",
+    "kk": "/daɪdʒˈɛst/",
+    "chinese": "消化；理解；文摘",
+    "collocations": [
+      {
+        "en": "digest food",
+        "zh": "消化食物"
+      },
+      {
+        "en": "reader's digest",
+        "zh": "讀者文摘"
+      },
+      {
+        "en": "hard to digest",
+        "zh": "難以消化"
+      }
+    ],
+    "examples": [
+      {
+        "en": "It takes time to digest all the new vocabulary learned in class.",
+        "target": "digest"
+      },
+      {
+        "en": "The article was hard to digest due to its complex language.",
+        "target": "digest"
+      }
+    ],
+    "synonyms": [
+      "absorb",
+      "process",
+      "summary"
+    ],
+    "grammar_note": "digest (v./n.); digestion (n.) = 消化; digestive (adj.) = 消化的",
+    "chinese_sentence": "要消化課堂上學到的所有新詞彙需要時間，不能急於求成。",
+    "word_family": "digest · digestion · digestive"
+  },
+  {
+    "word": "philosophy",
+    "pos": "n.",
+    "chapter": "School and Learning",
+    "kk": "/fəlˈɑsəfi/",
+    "chinese": "哲學；人生哲學；思想體系",
+    "collocations": [
+      {
+        "en": "philosophy of life",
+        "zh": "人生哲學"
+      },
+      {
+        "en": "study philosophy",
+        "zh": "學習哲學"
+      },
+      {
+        "en": "educational philosophy",
+        "zh": "教育哲學"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Her philosophy in life is to always treat others with kindness.",
+        "target": "philosophy"
+      },
+      {
+        "en": "He studied philosophy at university and became a high school teacher.",
+        "target": "philosophy"
+      }
+    ],
+    "synonyms": [
+      "worldview",
+      "outlook",
+      "ideology"
+    ],
+    "grammar_note": "philosopher (n.); philosophical (adj.); philosophy (n.); one's philosophy = 某人的人生觀",
+    "chinese_sentence": "她的人生哲學是以善意對待每一個人，無論對方如何對待她。",
+    "word_family": "philosopher · philosophical · philosophically · philosophy"
+  },
+  {
+    "word": "occupation",
+    "pos": "n.",
+    "chapter": "Work and Economy",
+    "kk": "/ˌɑkjəpˈeɪʃən/",
+    "chinese": "職業；佔領；佔用",
+    "collocations": [
+      {
+        "en": "by occupation",
+        "zh": "從事職業為"
+      },
+      {
+        "en": "military occupation",
+        "zh": "軍事佔領"
+      },
+      {
+        "en": "occupation of a building",
+        "zh": "佔用建築物"
+      }
+    ],
+    "examples": [
+      {
+        "en": "His occupation is listed as 'engineer' on the official form.",
+        "target": "occupation"
+      },
+      {
+        "en": "The military occupation of the region lasted for nearly a decade.",
+        "target": "occupation"
+      }
+    ],
+    "synonyms": [
+      "profession",
+      "job",
+      "career"
+    ],
+    "grammar_note": "occupy (v.); occupied (adj.) = 忙碌的/被佔用的; occupation = 職業（較正式）",
+    "chinese_sentence": "在這份表格的職業欄位，他填寫了「軟體工程師」。",
+    "word_family": "occupation · occupied · occupy"
   },
   {
     "word": "abandon",
@@ -7861,11 +8172,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The company decided to **abandon** the project due to lack of funding.",
+        "en": "The company decided to abandon the project due to lack of funding.",
         "target": "abandon"
       },
       {
-        "en": "She **abandoned** her plan to study abroad after her father fell ill.",
+        "en": "She abandoned her plan to study abroad after her father fell ill.",
         "target": "abandoned"
       }
     ],
@@ -7900,11 +8211,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was overjoyed when she received her university **admission** letter.",
+        "en": "She was overjoyed when she received her university admission letter.",
         "target": "admission"
       },
       {
-        "en": "His **admission** that he had cheated shocked the entire class.",
+        "en": "His admission that he had cheated shocked the entire class.",
         "target": "admission"
       }
     ],
@@ -7939,11 +8250,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **acceptance** of diverse opinions is key to a healthy classroom discussion.",
+        "en": "The acceptance of diverse opinions is key to a healthy classroom discussion.",
         "target": "acceptance"
       },
       {
-        "en": "She received three college **acceptance** letters on the same day.",
+        "en": "She received three college acceptance letters on the same day.",
         "target": "acceptance"
       }
     ],
@@ -7978,11 +8289,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "His parents give him a weekly **allowance** for helping with household chores.",
+        "en": "His parents give him a weekly allowance for helping with household chores.",
         "target": "allowance"
       },
       {
-        "en": "The manager made **allowance for** the fact that it was her first week on the job.",
+        "en": "The manager made allowance for the fact that it was her first week on the job.",
         "target": "allowance for"
       }
     ],
@@ -8017,11 +8328,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The nurse gave him an **aspirin** to reduce his fever.",
+        "en": "The nurse gave him an aspirin to reduce his fever.",
         "target": "aspirin"
       },
       {
-        "en": "Doctors sometimes recommend low-dose **aspirin** to prevent heart attacks.",
+        "en": "Doctors sometimes recommend low-dose aspirin to prevent heart attacks.",
         "target": "aspirin"
       }
     ],
@@ -8055,11 +8366,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The two countries agreed to reduce their **arms** as part of a peace treaty.",
+        "en": "The two countries agreed to reduce their arms as part of a peace treaty.",
         "target": "arms"
       },
       {
-        "en": "An **arms** race between superpowers can destabilize the entire world.",
+        "en": "An arms race between superpowers can destabilize the entire world.",
         "target": "arms"
       }
     ],
@@ -8094,11 +8405,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **atmosphere** in the office was tense before the annual performance review.",
+        "en": "The atmosphere in the office was tense before the annual performance review.",
         "target": "atmosphere"
       },
       {
-        "en": "Carbon emissions are gradually destroying the Earth's **atmosphere**.",
+        "en": "Carbon emissions are gradually destroying the Earth's atmosphere.",
         "target": "atmosphere"
       }
     ],
@@ -8133,11 +8444,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher discussed every **aspect** of the essay structure with students.",
+        "en": "The teacher discussed every aspect of the essay structure with students.",
         "target": "aspect"
       },
       {
-        "en": "One positive **aspect** of working from home is saving commute time.",
+        "en": "One positive aspect of working from home is saving commute time.",
         "target": "aspect"
       }
     ],
@@ -8172,11 +8483,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He started going **bald** in his thirties, which made him self-conscious.",
+        "en": "He started going bald in his thirties, which made him self-conscious.",
         "target": "bald"
       },
       {
-        "en": "The **bald** eagle is a national symbol of the United States.",
+        "en": "The bald eagle is a national symbol of the United States.",
         "target": "bald"
       }
     ],
@@ -8211,7 +8522,7 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A **beggar** sat outside the train station asking passersby for spare change.",
+        "en": "A beggar sat outside the train station asking passersby for spare change.",
         "target": "beggar"
       },
       {
@@ -8250,11 +8561,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **groom** looked nervous but happy as he waited at the altar.",
+        "en": "The groom looked nervous but happy as he waited at the altar.",
         "target": "groom"
       },
       {
-        "en": "She always looks **well-groomed** and professional at work.",
+        "en": "She always looks well-groomed and professional at work.",
         "target": "well-groomed"
       }
     ],
@@ -8288,11 +8599,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A simple **calculation** showed that the project would take three months to finish.",
+        "en": "A simple calculation showed that the project would take three months to finish.",
         "target": "calculation"
       },
       {
-        "en": "By my **calculation**, we'll need at least five more staff members.",
+        "en": "By my calculation, we'll need at least five more staff members.",
         "target": "calculation"
       }
     ],
@@ -8327,11 +8638,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They rented a **canoe** and paddled across the calm mountain lake.",
+        "en": "They rented a canoe and paddled across the calm mountain lake.",
         "target": "canoe"
       },
       {
-        "en": "**Canoeing** is a popular activity at the summer camp.",
+        "en": "Canoeing is a popular activity at the summer camp.",
         "target": "Canoeing"
       }
     ],
@@ -8366,11 +8677,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher asked the student to **clarify** what she meant by her answer.",
+        "en": "The teacher asked the student to clarify what she meant by her answer.",
         "target": "clarify"
       },
       {
-        "en": "Could you **clarify** the deadline for this assignment?",
+        "en": "Could you clarify the deadline for this assignment?",
         "target": "clarify"
       }
     ],
@@ -8405,11 +8716,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She excelled in **chemistry** and won first place in the science olympiad.",
+        "en": "She excelled in chemistry and won first place in the science olympiad.",
         "target": "chemistry"
       },
       {
-        "en": "The two teammates had great **chemistry** and worked together seamlessly.",
+        "en": "The two teammates had great chemistry and worked together seamlessly.",
         "target": "chemistry"
       }
     ],
@@ -8444,11 +8755,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He was so **clumsy** that he knocked over his drink twice during dinner.",
+        "en": "He was so clumsy that he knocked over his drink twice during dinner.",
         "target": "clumsy"
       },
       {
-        "en": "Her **clumsy** apology only made the situation worse.",
+        "en": "Her clumsy apology only made the situation worse.",
         "target": "clumsy"
       }
     ],
@@ -8483,11 +8794,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The city's economy depends heavily on **commerce** and tourism.",
+        "en": "The city's economy depends heavily on commerce and tourism.",
         "target": "commerce"
       },
       {
-        "en": "**E-commerce** has transformed the way people shop around the world.",
+        "en": "E-commerce has transformed the way people shop around the world.",
         "target": "E-commerce"
       }
     ],
@@ -8499,84 +8810,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "commercial (adj.); commercially (adv.); commerce = 較正式，trade 較口語",
     "chinese_sentence": "電子商務的興起徹底改變了人們的購物習慣與零售產業的生態。",
     "word_family": "commerce · commercial · commercially"
-  },
-  {
-    "word": "constitution",
-    "pos": "n.",
-    "chapter": "Work and Economy",
-    "kk": "/kˌɑnstətˈuʃən/",
-    "chinese": "憲法；組成；體質",
-    "collocations": [
-      {
-        "en": "the Constitution",
-        "zh": "憲法"
-      },
-      {
-        "en": "constitutional rights",
-        "zh": "憲法權利"
-      },
-      {
-        "en": "physical constitution",
-        "zh": "體質"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Every citizen has rights protected by the **Constitution**.",
-        "target": "Constitution"
-      },
-      {
-        "en": "She has a strong physical **constitution** and rarely gets sick.",
-        "target": "constitution"
-      }
-    ],
-    "synonyms": [
-      "charter",
-      "law",
-      "structure"
-    ],
-    "grammar_note": "constitutional (adj.); constitution = 憲法（大寫）或體質/組成（小寫）",
-    "chinese_sentence": "每位公民的基本權利都受到憲法的明確保障，不得任意剝奪。",
-    "word_family": "constitute · constitution · constitutional · unconstitutional"
-  },
-  {
-    "word": "consumer",
-    "pos": "n.",
-    "chapter": "Work and Economy",
-    "kk": "/kənsˈumɚ/",
-    "chinese": "消費者",
-    "collocations": [
-      {
-        "en": "consumer goods",
-        "zh": "消費品"
-      },
-      {
-        "en": "consumer rights",
-        "zh": "消費者權益"
-      },
-      {
-        "en": "consumer spending",
-        "zh": "消費支出"
-      }
-    ],
-    "examples": [
-      {
-        "en": "**Consumers** today are more aware of product quality than ever before.",
-        "target": "Consumers"
-      },
-      {
-        "en": "The government passed a law to better protect **consumer** rights.",
-        "target": "consumer"
-      }
-    ],
-    "synonyms": [
-      "buyer",
-      "customer",
-      "purchaser"
-    ],
-    "grammar_note": "consume (v.); consumer (n.); consumption (n.); consumer vs. producer",
-    "chinese_sentence": "政府通過了一項新法律，以更好地保護消費者的合法權益。",
-    "word_family": "congress · congressman · congresswoman · consume · consumer · consumption · time-consuming"
   },
   {
     "word": "consequent",
@@ -8600,11 +8833,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The flood and the **consequent** damage to infrastructure took months to repair.",
+        "en": "The flood and the consequent damage to infrastructure took months to repair.",
         "target": "consequent"
       },
       {
-        "en": "Rising costs and the **consequent** price increases upset many customers.",
+        "en": "Rising costs and the consequent price increases upset many customers.",
         "target": "consequent"
       }
     ],
@@ -8639,11 +8872,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The principal held a **conference** with teachers to discuss new exam policies.",
+        "en": "The principal held a conference with teachers to discuss new exam policies.",
         "target": "conference"
       },
       {
-        "en": "She presented her research findings at an international **conference** in Tokyo.",
+        "en": "She presented her research findings at an international conference in Tokyo.",
         "target": "conference"
       }
     ],
@@ -8678,11 +8911,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The students learned traditional **crafts** such as pottery and weaving.",
+        "en": "The students learned traditional crafts such as pottery and weaving.",
         "target": "crafts"
       },
       {
-        "en": "She takes great pride in the **craft** of storytelling.",
+        "en": "She takes great pride in the craft of storytelling.",
         "target": "craft"
       }
     ],
@@ -8717,11 +8950,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She paid for the groceries at the checkout **counter**.",
+        "en": "She paid for the groceries at the checkout counter.",
         "target": "counter"
       },
       {
-        "en": "The lawyer quickly **countered** the opposing argument with new evidence.",
+        "en": "The lawyer quickly countered the opposing argument with new evidence.",
         "target": "countered"
       }
     ],
@@ -8756,11 +8989,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "It is common **courtesy** to say thank you when someone holds the door for you.",
+        "en": "It is common courtesy to say thank you when someone holds the door for you.",
         "target": "courtesy"
       },
       {
-        "en": "The photos were provided by **courtesy of** the National Museum.",
+        "en": "The photos were provided by courtesy of the National Museum.",
         "target": "courtesy of"
       }
     ],
@@ -8795,11 +9028,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She has had a **crush** on her classmate for the entire school year.",
+        "en": "She has had a crush on her classmate for the entire school year.",
         "target": "crush"
       },
       {
-        "en": "The machine **crushed** the empty cans for recycling.",
+        "en": "The machine crushed the empty cans for recycling.",
         "target": "crushed"
       }
     ],
@@ -8834,11 +9067,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The country spent a large portion of its budget on **defense** spending.",
+        "en": "The country spent a large portion of its budget on defense spending.",
         "target": "defense"
       },
       {
-        "en": "The lawyer prepared a strong **defense** for her client.",
+        "en": "The lawyer prepared a strong defense for her client.",
         "target": "defense"
       }
     ],
@@ -8873,11 +9106,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The textbook included a **diagram** showing how the water cycle works.",
+        "en": "The textbook included a diagram showing how the water cycle works.",
         "target": "diagram"
       },
       {
-        "en": "She drew a **diagram** on the board to explain the circuit to the class.",
+        "en": "She drew a diagram on the board to explain the circuit to the class.",
         "target": "diagram"
       }
     ],
@@ -8912,11 +9145,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The two proposals **differ** significantly in terms of cost and time.",
+        "en": "The two proposals differ significantly in terms of cost and time.",
         "target": "differ"
       },
       {
-        "en": "Students may **differ** in their learning styles and preferences.",
+        "en": "Students may differ in their learning styles and preferences.",
         "target": "differ"
       }
     ],
@@ -8951,16 +9184,16 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her success was the result of years of **diligence** and hard work.",
+        "en": "Her success was the result of years of diligence and hard work.",
         "target": "diligence"
       },
       {
-        "en": "The teacher praised the student's **diligence** and positive attitude.",
+        "en": "The teacher praised the student's diligence and positive attitude.",
         "target": "diligence"
       }
     ],
     "synonyms": [
-      "hardwork",
+      "hard work",
       "perseverance",
       "dedication"
     ],
@@ -8990,11 +9223,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The detective entered the building **in disguise** to avoid being recognized.",
+        "en": "The detective entered the building in disguise to avoid being recognized.",
         "target": "in disguise"
       },
       {
-        "en": "Losing that job turned out to be a **blessing in disguise**.",
+        "en": "Losing that job turned out to be a blessing in disguise.",
         "target": "blessing in disguise"
       }
     ],
@@ -9029,11 +9262,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The earthquake was one of the worst **disasters** to hit the region in decades.",
+        "en": "The earthquake was one of the worst disasters to hit the region in decades.",
         "target": "disasters"
       },
       {
-        "en": "The school play was a complete **disaster** — everything that could go wrong did.",
+        "en": "The school play was a complete disaster — everything that could go wrong did.",
         "target": "disaster"
       }
     ],
@@ -9045,123 +9278,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "disastrous (adj.); disastrously (adv.); natural disaster = 天然災害",
     "chinese_sentence": "這次地震是該地區數十年來最嚴重的天然災害，造成大量傷亡。",
     "word_family": "disaster · disastrous · disastrously"
-  },
-  {
-    "word": "earphone",
-    "pos": "n.",
-    "chapter": "Work and Economy",
-    "kk": "/ˈɪrfˌoʊn/",
-    "chinese": "耳機",
-    "collocations": [
-      {
-        "en": "put on earphones",
-        "zh": "戴上耳機"
-      },
-      {
-        "en": "wireless earphones",
-        "zh": "無線耳機"
-      },
-      {
-        "en": "earphone jack",
-        "zh": "耳機插孔"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She put on her **earphones** to listen to music on the bus ride to school.",
-        "target": "earphones"
-      },
-      {
-        "en": "Students are not allowed to wear **earphones** during class time.",
-        "target": "earphones"
-      }
-    ],
-    "synonyms": [
-      "headphones",
-      "earbud",
-      "headset"
-    ],
-    "grammar_note": "earphone / earphones / earbud — all refer to audio listening devices",
-    "chinese_sentence": "她在搭公車上學的途中戴上耳機，一邊聽音樂放鬆心情。",
-    "word_family": ""
-  },
-  {
-    "word": "dread",
-    "pos": "n./v.",
-    "chapter": "Work and Economy",
-    "kk": "/drˈɛd/",
-    "chinese": "恐懼；害怕；令人恐懼的",
-    "collocations": [
-      {
-        "en": "dread the exam",
-        "zh": "害怕考試"
-      },
-      {
-        "en": "live in dread",
-        "zh": "活在恐懼中"
-      },
-      {
-        "en": "a dreadful mistake",
-        "zh": "可怕的錯誤"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Many students **dread** the annual standardized exams.",
-        "target": "dread"
-      },
-      {
-        "en": "She lived in **dread** of failing the final exam all semester.",
-        "target": "dread"
-      }
-    ],
-    "synonyms": [
-      "fear",
-      "terror",
-      "apprehension"
-    ],
-    "grammar_note": "dread (v./n.); dreadful (adj.) = 可怕的; dread + N/V-ing",
-    "chinese_sentence": "許多學生非常害怕一年一度的學測，提早好幾個月就開始感到焦慮。",
-    "word_family": "dread · dreadful · dreadfully"
-  },
-  {
-    "word": "endanger",
-    "pos": "v.",
-    "chapter": "Work and Economy",
-    "kk": "/ɛndˈeɪndʒɚ/",
-    "chinese": "危及；使面臨危險",
-    "collocations": [
-      {
-        "en": "endanger lives",
-        "zh": "危及生命"
-      },
-      {
-        "en": "endangered species",
-        "zh": "瀕危物種"
-      },
-      {
-        "en": "endanger health",
-        "zh": "危害健康"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Illegal logging **endangers** the habitats of countless wildlife species.",
-        "target": "endangers"
-      },
-      {
-        "en": "The **endangered** giant panda is protected by international conservation laws.",
-        "target": "endangered"
-      }
-    ],
-    "synonyms": [
-      "threaten",
-      "jeopardize",
-      "imperil"
-    ],
-    "grammar_note": "endanger (v.); endangered (adj.) = 瀕危的; danger (n.); dangerous (adj.)",
-    "chinese_sentence": "非法砍伐嚴重破壞了野生動物的棲息地，使許多物種瀕臨絕種。",
-    "word_family": "danger · dangerous · endanger · endangered"
   },
   {
     "word": "elsewhere",
@@ -9185,12 +9301,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "If you can't find the book here, try looking **elsewhere**.",
+        "en": "If you can't find the book here, try looking elsewhere.",
         "target": "elsewhere"
       },
       {
-        "en": "The trend started in Europe and gradually spread to **elsewhere** in the world.",
-        "target": "elsewhere"
+        "en": "The trend started in Europe and gradually spread elsewhere in the world, including Asia.",
+        "target": "spread elsewhere"
       }
     ],
     "synonyms": [
@@ -9223,11 +9339,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher placed great **emphasis** on understanding rather than memorization.",
+        "en": "The teacher placed great emphasis on understanding rather than memorization.",
         "target": "emphasis"
       },
       {
-        "en": "The new curriculum shifts the **emphasis** toward critical thinking skills.",
+        "en": "The new curriculum shifts the emphasis toward critical thinking skills.",
         "target": "emphasis"
       }
     ],
@@ -9262,11 +9378,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **explosive** growth of social media has changed how news spreads.",
+        "en": "The explosive growth of social media has changed how news spreads.",
         "target": "explosive"
       },
       {
-        "en": "The bomb squad safely removed the **explosive** device from the building.",
+        "en": "The bomb squad safely removed the explosive device from the building.",
         "target": "explosive"
       }
     ],
@@ -9301,11 +9417,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He tends to **exaggerate** his achievements when talking to others.",
+        "en": "He tends to exaggerate his achievements when talking to others.",
         "target": "exaggerate"
       },
       {
-        "en": "Without **exaggeration**, it was the best meal I have ever had.",
+        "en": "Without exaggeration, it was the best meal I have ever had.",
         "target": "exaggeration"
       }
     ],
@@ -9340,11 +9456,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please **fax** the signed contract to our office by 5 p.m.",
+        "en": "Please fax the signed contract to our office by 5 p.m.",
         "target": "fax"
       },
       {
-        "en": "The office still uses a **fax** machine to send official documents.",
+        "en": "The office still uses a fax machine to send official documents.",
         "target": "fax"
       }
     ],
@@ -9378,11 +9494,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They took a **ferry** across the river to reach the old town.",
+        "en": "They took a ferry across the river to reach the old town.",
         "target": "ferry"
       },
       {
-        "en": "Volunteers **ferried** supplies to the flooded village by boat.",
+        "en": "Volunteers ferried supplies to the flooded village by boat.",
         "target": "ferried"
       }
     ],
@@ -9417,11 +9533,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please handle the package carefully — the contents are **fragile**.",
+        "en": "Please handle the package carefully — the contents are fragile.",
         "target": "fragile"
       },
       {
-        "en": "The ceasefire remains **fragile** and could break down at any moment.",
+        "en": "The ceasefire remains fragile and could break down at any moment.",
         "target": "fragile"
       }
     ],
@@ -9456,11 +9572,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "As a **freshman**, she found the university campus overwhelming at first.",
+        "en": "As a freshman, she found the university campus overwhelming at first.",
         "target": "freshman"
       },
       {
-        "en": "The **freshman** orientation helped new students learn about campus resources.",
+        "en": "The freshman orientation helped new students learn about campus resources.",
         "target": "freshman"
       }
     ],
@@ -9494,11 +9610,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She finally **fulfilled** her dream of becoming a doctor after years of study.",
+        "en": "She finally fulfilled her dream of becoming a doctor after years of study.",
         "target": "fulfilled"
       },
       {
-        "en": "He felt a deep sense of **fulfillment** after finishing the project.",
+        "en": "He felt a deep sense of fulfillment after finishing the project.",
         "target": "fulfillment"
       }
     ],
@@ -9533,11 +9649,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The company has offices **around the globe** in more than 50 countries.",
+        "en": "The company has offices around the globe in more than 50 countries.",
         "target": "around the globe"
       },
       {
-        "en": "She has traveled across the **globe**, visiting over 40 countries.",
+        "en": "She has traveled across the globe, visiting over 40 countries.",
         "target": "globe"
       }
     ],
@@ -9572,11 +9688,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The truck delivered a large shipment of **goods** to the supermarket.",
+        "en": "The truck delivered a large shipment of goods to the supermarket.",
         "target": "goods"
       },
       {
-        "en": "The economy depends on both the production of **goods** and the provision of services.",
+        "en": "The economy depends on both the production of goods and the provision of services.",
         "target": "goods"
       }
     ],
@@ -9611,11 +9727,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The factory **grinds** grain into flour every morning.",
+        "en": "The factory grinds grain into flour every morning.",
         "target": "grinds"
       },
       {
-        "en": "She was exhausted from the daily **grind** of commuting two hours each way.",
+        "en": "She was exhausted from the daily grind of commuting two hours each way.",
         "target": "grind"
       }
     ],
@@ -9650,11 +9766,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She felt **guilt** after lying to her best friend.",
+        "en": "She felt guilt after lying to her best friend.",
         "target": "guilt"
       },
       {
-        "en": "The evidence was strong enough to prove the suspect's **guilt** beyond doubt.",
+        "en": "The evidence was strong enough to prove the suspect's guilt beyond doubt.",
         "target": "guilt"
       }
     ],
@@ -9689,11 +9805,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is a **habitual** early riser who wakes up at 5 a.m. every day.",
+        "en": "She is a habitual early riser who wakes up at 5 a.m. every day.",
         "target": "habitual"
       },
       {
-        "en": "A **habitual** offender may receive a harsher sentence under the law.",
+        "en": "A habitual offender may receive a harsher sentence under the law.",
         "target": "habitual"
       }
     ],
@@ -9728,11 +9844,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Hang your coat on the **hook** by the door.",
+        "en": "Hang your coat on the hook by the door.",
         "target": "hook"
       },
       {
-        "en": "The opening paragraph of the essay should **hook** the reader's attention immediately.",
+        "en": "The opening paragraph of the essay should hook the reader's attention immediately.",
         "target": "hook"
       }
     ],
@@ -9767,11 +9883,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her silence **implied** that she disagreed with the decision.",
+        "en": "Her silence implied that she disagreed with the decision.",
         "target": "implied"
       },
       {
-        "en": "Are you **implying** that I made a mistake?",
+        "en": "Are you implying that I made a mistake?",
         "target": "implying"
       }
     ],
@@ -9806,11 +9922,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Taiwan's summer is known for its intense heat and high **humidity**.",
+        "en": "Taiwan's summer is known for its intense heat and high humidity.",
         "target": "humidity"
       },
       {
-        "en": "The **humidity** in the greenhouse helps the tropical plants thrive.",
+        "en": "The humidity in the greenhouse helps the tropical plants thrive.",
         "target": "humidity"
       }
     ],
@@ -9845,11 +9961,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Young children often **imitate** the behavior of their parents.",
+        "en": "Young children often imitate the behavior of their parents.",
         "target": "imitate"
       },
       {
-        "en": "The comedian is famous for **imitating** the voices of politicians.",
+        "en": "The comedian is famous for imitating the voices of politicians.",
         "target": "imitating"
       }
     ],
@@ -9875,7 +9991,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "intellectual curiosity",
-        "zh": "求知欲"
+        "zh": "求知慾"
       },
       {
         "en": "public intellectual",
@@ -9884,11 +10000,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Reading widely develops **intellectual** abilities and critical thinking.",
+        "en": "Reading widely develops intellectual abilities and critical thinking.",
         "target": "intellectual"
       },
       {
-        "en": "She is known as a leading **intellectual** in the field of economics.",
+        "en": "She is known as a leading intellectual in the field of economics.",
         "target": "intellectual"
       }
     ],
@@ -9923,11 +10039,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He had good **intentions** but his actions caused more harm than good.",
+        "en": "He had good intentions but his actions caused more harm than good.",
         "target": "intentions"
       },
       {
-        "en": "She has no **intention of** giving up her studies despite the challenges.",
+        "en": "She has no intention of giving up her studies despite the challenges.",
         "target": "intention of"
       }
     ],
@@ -9945,7 +10061,7 @@ const LEVEL_4_DATA = [
     "pos": "adj.",
     "chapter": "Work and Economy",
     "kk": "/ɪnfˈɔrmətɪv/",
-    "chinese": "提供信息的；有教育意義的",
+    "chinese": "提供資訊的；有教育意義的",
     "collocations": [
       {
         "en": "informative speech",
@@ -9962,11 +10078,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The documentary was both entertaining and highly **informative**.",
+        "en": "The documentary was both entertaining and highly informative.",
         "target": "informative"
       },
       {
-        "en": "Her presentation was so **informative** that students asked many follow-up questions.",
+        "en": "Her presentation was so informative that students asked many follow-up questions.",
         "target": "informative"
       }
     ],
@@ -10001,11 +10117,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They have been **intimate** friends since they were in primary school.",
+        "en": "They have been intimate friends since they were in primary school.",
         "target": "intimate"
       },
       {
-        "en": "She has an **intimate** knowledge of the local culture from living there for years.",
+        "en": "She has an intimate knowledge of the local culture from living there for years.",
         "target": "intimate"
       }
     ],
@@ -10040,11 +10156,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The project **involves** a lot of research and teamwork.",
+        "en": "The project involves a lot of research and teamwork.",
         "target": "involves"
       },
       {
-        "en": "Parental **involvement** in children's education leads to better outcomes.",
+        "en": "Parental involvement in children's education leads to better outcomes.",
         "target": "involvement"
       }
     ],
@@ -10079,11 +10195,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The construction of the pyramid required enormous amounts of human **labor**.",
+        "en": "The construction of the pyramid required enormous amounts of human labor.",
         "target": "labor"
       },
       {
-        "en": "Workers formed a **labor** union to negotiate better wages and conditions.",
+        "en": "Workers formed a labor union to negotiate better wages and conditions.",
         "target": "labor"
       }
     ],
@@ -10118,11 +10234,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The professor gave an engaging **lecture** on the history of ancient Rome.",
+        "en": "The professor gave an engaging lecture on the history of ancient Rome.",
         "target": "lecture"
       },
       {
-        "en": "Her parents **lectured** her about the importance of finishing her homework.",
+        "en": "Her parents lectured her about the importance of finishing her homework.",
         "target": "lectured"
       }
     ],
@@ -10140,11 +10256,11 @@ const LEVEL_4_DATA = [
     "pos": "n.",
     "chapter": "Work and Economy",
     "kk": "/lˌɪmɪtˈeɪʃən/",
-    "chinese": "限制；局限；不足",
+    "chinese": "限制；侷限；不足",
     "collocations": [
       {
         "en": "have limitations",
-        "zh": "有局限性"
+        "zh": "有侷限性"
       },
       {
         "en": "within limitations",
@@ -10157,11 +10273,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Every person has his or her own **limitations** — accepting this is important.",
+        "en": "Every person has his or her own limitations — accepting this is important.",
         "target": "limitations"
       },
       {
-        "en": "The study's **limitations** include a small sample size and short duration.",
+        "en": "The study's limitations include a small sample size and short duration.",
         "target": "limitations"
       }
     ],
@@ -10171,7 +10287,7 @@ const LEVEL_4_DATA = [
       "shortcoming"
     ],
     "grammar_note": "limit (v./n.); limitation (n.); limited (adj.); know one's limitations = 了解自身不足",
-    "chinese_sentence": "每個人都有自己的局限性，認識並接受這一點是成長的重要一步。",
+    "chinese_sentence": "每個人都有自己的侷限性，認識並接受這一點是成長的重要一步。",
     "word_family": "limit · limitation · limited"
   },
   {
@@ -10196,11 +10312,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The Earth has a **magnetic** field that protects us from solar radiation.",
+        "en": "The Earth has a magnetic field that protects us from solar radiation.",
         "target": "magnetic"
       },
       {
-        "en": "She has a **magnetic** personality that draws people toward her.",
+        "en": "She has a magnetic personality that draws people toward her.",
         "target": "magnetic"
       }
     ],
@@ -10235,11 +10351,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher was impressed by the student's **maturity** in handling the conflict.",
+        "en": "The teacher was impressed by the student's maturity in handling the conflict.",
         "target": "maturity"
       },
       {
-        "en": "Fruit reaches **maturity** faster in warm, sunny climates.",
+        "en": "Fruit reaches maturity faster in warm, sunny climates.",
         "target": "maturity"
       }
     ],
@@ -10274,11 +10390,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She finished the marathon in a **mere** three hours.",
+        "en": "She finished the marathon in a mere three hours.",
         "target": "mere"
       },
       {
-        "en": "It was not a **mere** coincidence — it was clearly planned.",
+        "en": "It was not a mere coincidence — it was clearly planned.",
         "target": "mere"
       }
     ],
@@ -10313,11 +10429,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The advertisement was accused of **misleading** consumers about the product's benefits.",
+        "en": "The advertisement was accused of misleading consumers about the product's benefits.",
         "target": "misleading"
       },
       {
-        "en": "Don't be **misled** by appearances — judge people by their actions.",
+        "en": "Don't be misled by appearances — judge people by their actions.",
         "target": "misled"
       }
     ],
@@ -10352,11 +10468,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The government raised the **minimum** wage to help low-income workers.",
+        "en": "The government raised the minimum wage to help low-income workers.",
         "target": "minimum"
       },
       {
-        "en": "You need a **minimum** of five years of experience to apply for this position.",
+        "en": "You need a minimum of five years of experience to apply for this position.",
         "target": "minimum"
       }
     ],
@@ -10391,11 +10507,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **neglected** to submit her assignment on time and lost ten points.",
+        "en": "She neglected to submit her assignment on time and lost ten points.",
         "target": "neglected"
       },
       {
-        "en": "Years of **neglect** had left the old building in a state of ruin.",
+        "en": "Years of neglect had left the old building in a state of ruin.",
         "target": "neglect"
       }
     ],
@@ -10430,12 +10546,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **murmured** a soft thank you and looked away shyly.",
+        "en": "She murmured a soft thank you and looked away shyly.",
         "target": "murmured"
       },
       {
-        "en": "The doctor detected a slight **murmur** in the patient's heartbeat.",
-        "target": "murmur"
+        "en": "We could hear the gentle murmur of the stream as we walked through the quiet forest.",
+        "target": "murmur of the stream"
       }
     ],
     "synonyms": [
@@ -10469,11 +10585,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Several students raised **objections** to the new exam format.",
+        "en": "Several students raised objections to the new exam format.",
         "target": "objections"
       },
       {
-        "en": "Does anyone have any **objection** to starting the meeting early today?",
+        "en": "Does anyone have any objection to starting the meeting early today?",
         "target": "objection"
       }
     ],
@@ -10491,7 +10607,7 @@ const LEVEL_4_DATA = [
     "pos": "v.",
     "chapter": "Work and Economy",
     "kk": "/ˈɑkjəpˌaɪ/",
-    "chinese": "占據；占用；使忙碌",
+    "chinese": "占據；佔用；使忙碌",
     "collocations": [
       {
         "en": "occupy a seat",
@@ -10503,16 +10619,16 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "occupied territory",
-        "zh": "占領區"
+        "zh": "佔領區"
       }
     ],
     "examples": [
       {
-        "en": "She **occupied** herself with reading while waiting for the bus.",
+        "en": "She occupied herself with reading while waiting for the bus.",
         "target": "occupied"
       },
       {
-        "en": "The protest **occupied** the city square for three days.",
+        "en": "The protest occupied the city square for three days.",
         "target": "occupied"
       }
     ],
@@ -10521,7 +10637,7 @@ const LEVEL_4_DATA = [
       "fill",
       "inhabit"
     ],
-    "grammar_note": "occupy (v.); occupation (n.); occupied (adj.) = 忙碌的/被占用的",
+    "grammar_note": "occupy (v.); occupation (n.); occupied (adj.) = 忙碌的/被佔用的",
     "chinese_sentence": "等公車的時候，她拿出書來閱讀，讓自己有事可做。",
     "word_family": "occupation · occupied · occupy"
   },
@@ -10547,7 +10663,7 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The table in the conference room is **oval** shaped.",
+        "en": "The table in the conference room is oval shaped.",
         "target": "oval"
       },
       {
@@ -10585,11 +10701,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **outcome** of the negotiation surprised everyone in the room.",
+        "en": "The outcome of the negotiation surprised everyone in the room.",
         "target": "outcome"
       },
       {
-        "en": "A positive attitude often leads to a more positive **outcome**.",
+        "en": "A positive attitude often leads to a more positive outcome.",
         "target": "outcome"
       }
     ],
@@ -10624,11 +10740,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was offered a **permanent** position at the company after her internship.",
+        "en": "She was offered a permanent position at the company after her internship.",
         "target": "permanent"
       },
       {
-        "en": "The accident caused **permanent** damage to his hearing.",
+        "en": "The accident caused permanent damage to his hearing.",
         "target": "permanent"
       }
     ],
@@ -10663,11 +10779,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He tends to be **pessimistic** about his chances of passing the exam.",
+        "en": "He tends to be pessimistic about his chances of passing the exam.",
         "target": "pessimistic"
       },
       {
-        "en": "Don't be so **pessimistic** — things often turn out better than expected.",
+        "en": "Don't be so pessimistic — things often turn out better than expected.",
         "target": "pessimistic"
       }
     ],
@@ -10702,11 +10818,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She consulted her family **physician** about the persistent headaches.",
+        "en": "She consulted her family physician about the persistent headaches.",
         "target": "physician"
       },
       {
-        "en": "A licensed **physician** must complete years of training before practicing medicine.",
+        "en": "A licensed physician must complete years of training before practicing medicine.",
         "target": "physician"
       }
     ],
@@ -10741,11 +10857,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She bought a **portable** charger so her phone wouldn't die during long trips.",
+        "en": "She bought a portable charger so her phone wouldn't die during long trips.",
         "target": "portable"
       },
       {
-        "en": "**Portable** computers have made it easier for people to work from anywhere.",
+        "en": "Portable computers have made it easier for people to work from anywhere.",
         "target": "Portable"
       }
     ],
@@ -10763,7 +10879,7 @@ const LEVEL_4_DATA = [
     "pos": "adj./n.",
     "chapter": "Work and Economy",
     "kk": "/prˈaɪm/",
-    "chinese": "最重要的；全盛的；素數",
+    "chinese": "最重要的；全盛的；質數",
     "collocations": [
       {
         "en": "prime minister",
@@ -10780,11 +10896,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **prime** minister addressed the nation in a live broadcast.",
+        "en": "The prime minister addressed the nation in a live broadcast.",
         "target": "prime"
       },
       {
-        "en": "She was in her **prime** as an athlete during her late twenties.",
+        "en": "She was in her prime as an athlete during her late twenties.",
         "target": "prime"
       }
     ],
@@ -10819,11 +10935,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please follow the correct **procedure** when applying for a student visa.",
+        "en": "Please follow the correct procedure when applying for a student visa.",
         "target": "procedure"
       },
       {
-        "en": "The doctor explained the medical **procedure** clearly before the operation.",
+        "en": "The doctor explained the medical procedure clearly before the operation.",
         "target": "procedure"
       }
     ],
@@ -10835,45 +10951,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "procedural (adj.); follow/observe a procedure = 遵循程序",
     "chinese_sentence": "申請學生簽證前，請務必仔細閱讀並遵循正確的申請程序。",
     "word_family": "procedural · procedure · proceed · procession"
-  },
-  {
-    "word": "protest",
-    "pos": "n./v.",
-    "chapter": "Work and Economy",
-    "kk": "/prˈoʊtˌɛst/",
-    "chinese": "抗議；反對；異議",
-    "collocations": [
-      {
-        "en": "stage a protest",
-        "zh": "舉行抗議"
-      },
-      {
-        "en": "protest against",
-        "zh": "反對"
-      },
-      {
-        "en": "under protest",
-        "zh": "表示不滿地"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Students **protested** against the school's decision to cancel the annual trip.",
-        "target": "protested"
-      },
-      {
-        "en": "Thousands of people gathered to **protest** the new government policy.",
-        "target": "protest"
-      }
-    ],
-    "synonyms": [
-      "demonstrate",
-      "object",
-      "complain"
-    ],
-    "grammar_note": "protest (v./n.); protest against/at sth.; protester (n.)",
-    "chinese_sentence": "學生們對學校取消年度旅行的決定提出強烈抗議，要求重新考慮。",
-    "word_family": "protest · protester"
   },
   {
     "word": "quarrel",
@@ -10897,11 +10974,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The two friends had a **quarrel** over who should pay for dinner.",
+        "en": "The two friends had a quarrel over who should pay for dinner.",
         "target": "quarrel"
       },
       {
-        "en": "Don't pick a **quarrel** with your classmates over small things.",
+        "en": "Don't pick a quarrel with your classmates over small things.",
         "target": "quarrel"
       }
     ],
@@ -10936,11 +11013,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The plane disappeared from the **radar** screen suddenly.",
+        "en": "The plane disappeared from the radar screen suddenly.",
         "target": "radar"
       },
       {
-        "en": "The small startup managed to grow under the **radar** without much media attention.",
+        "en": "The small startup managed to grow under the radar without much media attention.",
         "target": "radar"
       }
     ],
@@ -10975,11 +11052,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She saw her **reflection** in the still water of the lake.",
+        "en": "She saw her reflection in the still water of the lake.",
         "target": "reflection"
       },
       {
-        "en": "On **reflection**, he realized he had made the wrong decision.",
+        "en": "On reflection, he realized he had made the wrong decision.",
         "target": "reflection"
       }
     ],
@@ -11014,11 +11091,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She followed her grandmother's **recipe** to bake the traditional cake.",
+        "en": "She followed her grandmother's recipe to bake the traditional cake.",
         "target": "recipe"
       },
       {
-        "en": "Hard work and perseverance are the **recipe for** success.",
+        "en": "Hard work and perseverance are the recipe for success.",
         "target": "recipe for"
       }
     ],
@@ -11053,11 +11130,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She went to the office to **renew** her driver's license before it expired.",
+        "en": "She went to the office to renew her driver's license before it expired.",
         "target": "renew"
       },
       {
-        "en": "The vacation helped him **renew** his energy and enthusiasm for work.",
+        "en": "The vacation helped him renew his energy and enthusiasm for work.",
         "target": "renew"
       }
     ],
@@ -11092,11 +11169,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The museum hired experts to **restore** the ancient painting to its original state.",
+        "en": "The museum hired experts to restore the ancient painting to its original state.",
         "target": "restore"
       },
       {
-        "en": "The government took measures to **restore** public confidence after the scandal.",
+        "en": "The government took measures to restore public confidence after the scandal.",
         "target": "restore"
       }
     ],
@@ -11131,11 +11208,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "After 30 years as a teacher, she finally **retired** last spring.",
+        "en": "After 30 years as a teacher, she finally retired last spring.",
         "target": "retired"
       },
       {
-        "en": "He looked forward to **retirement** so he could travel the world.",
+        "en": "He looked forward to retirement so he could travel the world.",
         "target": "retirement"
       }
     ],
@@ -11170,11 +11247,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The Industrial **Revolution** transformed society through the use of machines.",
+        "en": "The Industrial Revolution transformed society through the use of machines.",
         "target": "Revolution"
       },
       {
-        "en": "Social media has caused a **revolution** in how people communicate.",
+        "en": "Social media has caused a revolution in how people communicate.",
         "target": "revolution"
       }
     ],
@@ -11209,11 +11286,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They planned the most efficient **route** to avoid traffic jams.",
+        "en": "They planned the most efficient route to avoid traffic jams.",
         "target": "route"
       },
       {
-        "en": "The ancient **trade route** connected China to Europe through Central Asia.",
+        "en": "The ancient trade route connected China to Europe through Central Asia.",
         "target": "trade route"
       }
     ],
@@ -11225,45 +11302,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "route (n./v.); en route = 在途中; route to = 通往…的路",
     "chinese_sentence": "他們提前規劃了最有效率的路線，以避開上下班的尖峰塞車時段。",
     "word_family": ""
-  },
-  {
-    "word": "scenery",
-    "pos": "n.",
-    "chapter": "Work and Economy",
-    "kk": "/sˈinɚi/",
-    "chinese": "風景；景色；舞台布景",
-    "collocations": [
-      {
-        "en": "breathtaking scenery",
-        "zh": "壯麗的景色"
-      },
-      {
-        "en": "mountain scenery",
-        "zh": "山地風景"
-      },
-      {
-        "en": "stage scenery",
-        "zh": "舞台布景"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The train ride offered **breathtaking scenery** along the coastline.",
-        "target": "breathtaking scenery"
-      },
-      {
-        "en": "The play's **scenery** was so realistic that it drew applause from the audience.",
-        "target": "scenery"
-      }
-    ],
-    "synonyms": [
-      "landscape",
-      "vista",
-      "backdrop"
-    ],
-    "grammar_note": "uncountable; scenic (adj.) = 風景優美的; scenery ≠ scene (單一場景)",
-    "chinese_sentence": "那趟沿海火車之旅提供了令人嘆為觀止的海岸線壯麗景色。",
-    "word_family": "scenery · scenic · scenically"
   },
   {
     "word": "shady",
@@ -11287,11 +11325,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They rested in a **shady** spot under a large oak tree.",
+        "en": "They rested in a shady spot under a large oak tree.",
         "target": "shady"
       },
       {
-        "en": "The police were investigating the businessman's **shady** financial dealings.",
+        "en": "The police were investigating the businessman's shady financial dealings.",
         "target": "shady"
       }
     ],
@@ -11326,11 +11364,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school installed **solar** panels on the roof to reduce electricity costs.",
+        "en": "The school installed solar panels on the roof to reduce electricity costs.",
         "target": "solar"
       },
       {
-        "en": "Scientists are still exploring the outer edges of our **solar** system.",
+        "en": "Scientists are still exploring the outer edges of our solar system.",
         "target": "solar"
       }
     ],
@@ -11364,11 +11402,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They decided to **split** the cost of the trip equally among five people.",
+        "en": "They decided to split the cost of the trip equally among five people.",
         "target": "split"
       },
       {
-        "en": "The class was **split** into groups of four for the debate activity.",
+        "en": "The class was split into groups of four for the debate activity.",
         "target": "split"
       }
     ],
@@ -11386,7 +11424,7 @@ const LEVEL_4_DATA = [
     "pos": "n.",
     "chapter": "Work and Economy",
     "kk": "/strˈaɪp/",
-    "chinese": "條紋；條文",
+    "chinese": "條紋；條狀花紋",
     "collocations": [
       {
         "en": "a striped shirt",
@@ -11403,11 +11441,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The zebra's black and white **stripes** help it blend into the herd.",
+        "en": "The zebra's black and white stripes help it blend into the herd.",
         "target": "stripes"
       },
       {
-        "en": "She wore a blue and white **striped** blouse to the interview.",
+        "en": "She wore a blue and white striped blouse to the interview.",
         "target": "striped"
       }
     ],
@@ -11442,11 +11480,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The soldiers were ordered to **surrender** after running out of ammunition.",
+        "en": "The soldiers were ordered to surrender after running out of ammunition.",
         "target": "surrender"
       },
       {
-        "en": "She refused to **surrender** her dream despite all the obstacles.",
+        "en": "She refused to surrender her dream despite all the obstacles.",
         "target": "surrender"
       }
     ],
@@ -11481,11 +11519,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The children ran in **terror** when they heard the explosion.",
+        "en": "The children ran in terror when they heard the explosion.",
         "target": "terror"
       },
       {
-        "en": "The government vowed to fight back against **terror** and protect its citizens.",
+        "en": "The government vowed to fight back against terror and protect its citizens.",
         "target": "terror"
       }
     ],
@@ -11520,11 +11558,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Archaeologists discovered an ancient **tomb** filled with gold artifacts.",
+        "en": "Archaeologists discovered an ancient tomb filled with gold artifacts.",
         "target": "tomb"
       },
       {
-        "en": "The **tomb** of the unknown soldier is a symbol of national remembrance.",
+        "en": "The tomb of the unknown soldier is a symbol of national remembrance.",
         "target": "tomb"
       }
     ],
@@ -11559,11 +11597,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **tortoise** moved slowly across the dusty path toward the water.",
+        "en": "The tortoise moved slowly across the dusty path toward the water.",
         "target": "tortoise"
       },
       {
-        "en": "The Galapagos **tortoise** is one of the longest-living animals on Earth.",
+        "en": "The Galapagos tortoise is one of the longest-living animals on Earth.",
         "target": "tortoise"
       }
     ],
@@ -11596,11 +11634,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The birds gathered **twigs** and leaves to build their nest.",
+        "en": "The birds gathered twigs and leaves to build their nest.",
         "target": "twigs"
       },
       {
-        "en": "A dry **twig** snapped under his foot and startled the deer nearby.",
+        "en": "A dry twig snapped under his foot and startled the deer nearby.",
         "target": "twig"
       }
     ],
@@ -11635,11 +11673,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The hotel sign said 'No **Vacancy**', so they had to find another place to stay.",
+        "en": "The hotel sign said 'No Vacancy', so they had to find another place to stay.",
         "target": "Vacancy"
       },
       {
-        "en": "The company has a **vacancy** for a marketing manager.",
+        "en": "The company has a vacancy for a marketing manager.",
         "target": "vacancy"
       }
     ],
@@ -11649,13 +11687,558 @@ const LEVEL_4_DATA = [
       "empty position"
     ],
     "grammar_note": "vacant (adj.) = 空的/空缺的; vacancy (n.); vacate (v.) = 騰空/離開",
-    "chinese_sentence": "旅館前台掛著「客滿」的牌子，他們只好繼續找其他住宿地點。",
+    "chinese_sentence": "旅館門口掛著「已無空房」的牌子，他們只好繼續尋找其他住宿地點。",
     "word_family": "vacancy · vacant · vacate"
+  },
+  {
+    "word": "workout",
+    "pos": "n.",
+    "chapter": "Work and Economy",
+    "kk": "/wˈɝkˌaʊt/",
+    "chinese": "鍛鍊；訓練；運動",
+    "collocations": [
+      {
+        "en": "daily workout",
+        "zh": "每日鍛練"
+      },
+      {
+        "en": "intense workout",
+        "zh": "激烈訓練"
+      },
+      {
+        "en": "work out",
+        "zh": "鍛煉/解決"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She does a 30-minute workout every morning before going to school.",
+        "target": "workout"
+      },
+      {
+        "en": "The gym offers guided workouts for beginners who are just starting out.",
+        "target": "workouts"
+      }
+    ],
+    "synonyms": [
+      "exercise",
+      "training",
+      "drill"
+    ],
+    "grammar_note": "workout (n.); work out (v. phrase) = 鍛煉/算出/解決",
+    "chinese_sentence": "她每天早上上學前都會做三十分鐘的運動鍛鍊，保持體力充沛。",
+    "word_family": ""
+  },
+  {
+    "word": "capitalist",
+    "pos": "n.",
+    "chapter": "Work and Economy",
+    "kk": "/kˈæpətələst/",
+    "chinese": "資本家；資本主義者",
+    "collocations": [
+      {
+        "en": "free-market capitalist",
+        "zh": "自由市場資本家"
+      },
+      {
+        "en": "capitalist economy",
+        "zh": "資本主義經濟"
+      },
+      {
+        "en": "capitalist society",
+        "zh": "資本主義社會"
+      }
+    ],
+    "examples": [
+      {
+        "en": "He is a strong capitalist who believes in free markets and competition.",
+        "target": "capitalist"
+      },
+      {
+        "en": "In a capitalist society, businesses are privately owned and compete for profit.",
+        "target": "capitalist"
+      }
+    ],
+    "synonyms": [
+      "entrepreneur",
+      "investor",
+      "business owner"
+    ],
+    "grammar_note": "capital (n.); capitalism (n.); capitalist (n./adj.); capitalistic (adj.)",
+    "chinese_sentence": "在資本主義社會中，企業由私人擁有，相互競爭以追求最大利潤。",
+    "word_family": "capital · capitalism · capitalist · capitalistic"
+  },
+  {
+    "word": "profession",
+    "pos": "n.",
+    "chapter": "Work and Economy",
+    "kk": "/prəfˈɛʃən/",
+    "chinese": "職業；專業；宣稱",
+    "collocations": [
+      {
+        "en": "by profession",
+        "zh": "以…為業"
+      },
+      {
+        "en": "enter a profession",
+        "zh": "進入某行業"
+      },
+      {
+        "en": "professional profession",
+        "zh": "專業職業"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She chose teaching as her profession because she loves working with children.",
+        "target": "profession"
+      },
+      {
+        "en": "By profession, he is a doctor, but he also writes novels in his spare time.",
+        "target": "profession"
+      }
+    ],
+    "synonyms": [
+      "career",
+      "occupation",
+      "vocation"
+    ],
+    "grammar_note": "professional (adj./n.); profession (n.); professionalism (n.) = 專業精神",
+    "chinese_sentence": "她選擇教學作為終身職業，因為她熱愛和孩子們在一起、看著他們成長。",
+    "word_family": "profession · professional · professionalism · professionally"
+  },
+  {
+    "word": "economics",
+    "pos": "n.",
+    "chapter": "Work and Economy",
+    "kk": "/ˌɛkənˈɑmɪks/",
+    "chinese": "經濟學；經濟因素",
+    "collocations": [
+      {
+        "en": "study economics",
+        "zh": "學習經濟學"
+      },
+      {
+        "en": "home economics",
+        "zh": "家政學"
+      },
+      {
+        "en": "the economics of",
+        "zh": "…的經濟因素"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She chose to major in economics because she wants to work in finance.",
+        "target": "economics"
+      },
+      {
+        "en": "The economics of running a small business are more complicated than expected.",
+        "target": "economics"
+      }
+    ],
+    "synonyms": [
+      "finance",
+      "trade",
+      "commerce"
+    ],
+    "grammar_note": "economic (adj.) = 經濟的; economical (adj.) = 節儉的; economics (n.) = 經濟學（不可數）",
+    "chinese_sentence": "她選擇主修經濟學，希望畢業後能進入金融業工作，發揮所長。",
+    "word_family": "economic · economical · economics · economist · economize · economy"
+  },
+  {
+    "word": "satisfaction",
+    "pos": "n.",
+    "chapter": "Work and Economy",
+    "kk": "/sˌætəsfˈækʃən/",
+    "chinese": "滿足感；滿意；滿足",
+    "collocations": [
+      {
+        "en": "customer satisfaction",
+        "zh": "顧客滿意度"
+      },
+      {
+        "en": "job satisfaction",
+        "zh": "工作滿足感"
+      },
+      {
+        "en": "sense of satisfaction",
+        "zh": "成就感"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She felt great satisfaction after completing the challenging research project.",
+        "target": "satisfaction"
+      },
+      {
+        "en": "Job satisfaction is just as important as salary in choosing a career.",
+        "target": "Job satisfaction"
+      }
+    ],
+    "synonyms": [
+      "fulfillment",
+      "contentment",
+      "pleasure"
+    ],
+    "grammar_note": "satisfy (v.); satisfaction (n.); satisfied (adj.); satisfying (adj.) = 令人滿足的",
+    "chinese_sentence": "完成那個極具挑戰性的研究計畫後，她感受到了前所未有的成就感和滿足感。",
+    "word_family": "satisfaction · satisfactory · satisfied · satisfy · satisfying"
+  },
+  {
+    "word": "prosperous",
+    "pos": "adj.",
+    "chapter": "Work and Economy",
+    "kk": "/prˈɑspɚəs/",
+    "chinese": "繁榮的；興旺的；富裕的",
+    "collocations": [
+      {
+        "en": "prosperous economy",
+        "zh": "繁榮的經濟"
+      },
+      {
+        "en": "prosperous community",
+        "zh": "興旺的社區"
+      },
+      {
+        "en": "prosperous career",
+        "zh": "成功的職業生涯"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She came from a prosperous family and had access to many opportunities.",
+        "target": "prosperous"
+      },
+      {
+        "en": "The city became increasingly prosperous after the tech industry moved in.",
+        "target": "prosperous"
+      }
+    ],
+    "synonyms": [
+      "thriving",
+      "successful",
+      "wealthy"
+    ],
+    "grammar_note": "prosper (v.); prosperity (n.); prosperous (adj.); prosperously (adv.)",
+    "chinese_sentence": "科技產業進駐後，這座城市的經濟迅速繁榮起來，居民的生活水準大幅提升。",
+    "word_family": "prosper · prosperity · prosperous · prosperously"
+  },
+  {
+    "word": "accomplish(ment)",
+    "pos": "v./n.",
+    "chapter": "Work and Economy",
+    "kk": "/əˈkɑmplɪʃ/",
+    "chinese": "完成；達成（v.）；成就；完成（n.）",
+    "collocations": [
+      {
+        "en": "accomplish a goal",
+        "zh": "達成目標"
+      },
+      {
+        "en": "a sense of accomplishment",
+        "zh": "成就感"
+      },
+      {
+        "en": "a remarkable accomplishment",
+        "zh": "了不起的成就"
+      }
+    ],
+    "examples": [
+      {
+        "en": "By studying for an hour every night, she accomplished her goal of passing the GEPT intermediate test.",
+        "target": "accomplished her goal"
+      },
+      {
+        "en": "Finishing a full marathon at the age of sixty was a remarkable accomplishment for my grandfather.",
+        "target": "a remarkable accomplishment"
+      }
+    ],
+    "synonyms": [
+      "achieve",
+      "complete",
+      "fulfill; achievement (n.)"
+    ],
+    "grammar_note": "accomplish 為及物動詞，直接接受詞（accomplish a task）；accomplishment 指「成就」時可數，指「完成」時不可數",
+    "chinese_sentence": "完成這項困難的科展研究後，她感到非常有成就感。",
+    "word_family": "accomplish (v.) · accomplishment (n.) · accomplished (adj.)"
+  },
+  {
+    "word": "civilian",
+    "pos": "adj./n.",
+    "chapter": "Society and Communication",
+    "kk": "/səvˈɪljən/",
+    "chinese": "平民；百姓（n.）；民間的（adj.）",
+    "collocations": [
+      {
+        "en": "civilian casualty",
+        "zh": "平民傷亡"
+      },
+      {
+        "en": "civilian life",
+        "zh": "平民生活"
+      },
+      {
+        "en": "protect civilians",
+        "zh": "保護平民"
+      }
+    ],
+    "examples": [
+      {
+        "en": "International law prohibits attacks on civilians during war.",
+        "target": "attacks on civilians"
+      },
+      {
+        "en": "After twenty years in the military, he adjusted to civilian life slowly.",
+        "target": "civilian life"
+      }
+    ],
+    "synonyms": [
+      "citizen",
+      "non-combatant"
+    ],
+    "grammar_note": "civilian (n./adj.) vs. military (adj.);  civilian (非軍事人員)",
+    "chinese_sentence": "國際法明文禁止在戰爭衝突中故意攻擊平民，違者須承擔戰爭罪的法律責任。",
+    "word_family": "civic · civilian · military"
+  },
+  {
+    "word": "demonstration",
+    "pos": "n.",
+    "chapter": "Society and Communication",
+    "kk": "/dˌɛmənstrˈeɪʃən/",
+    "chinese": "示範；示威；展示（n.）",
+    "collocations": [
+      {
+        "en": "public demonstration",
+        "zh": "公開示威"
+      },
+      {
+        "en": "demonstration of skills",
+        "zh": "技能展示"
+      },
+      {
+        "en": "live demonstration",
+        "zh": "現場示範"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Thousands joined the public demonstration against the new law.",
+        "target": "public demonstration"
+      },
+      {
+        "en": "The chef gave a live demonstration of how to prepare the dish.",
+        "target": "live demonstration"
+      }
+    ],
+    "synonyms": [
+      "protest",
+      "display",
+      "exhibit"
+    ],
+    "grammar_note": "demonstrate (v.) → demonstration (n.) → demonstrator (n.)",
+    "chinese_sentence": "數千人聚集參與公開示威遊行，表達對這項新法令的強烈反對和不滿。",
+    "word_family": "demonstrate · demonstration · demonstrative · demonstrator"
+  },
+  {
+    "word": "representation",
+    "pos": "n.",
+    "chapter": "Society and Communication",
+    "kk": "/rˌɛprəzɛntˈeɪʃən/",
+    "chinese": "代表；表示；描述（n.）",
+    "collocations": [
+      {
+        "en": "legal representation",
+        "zh": "法律代理"
+      },
+      {
+        "en": "fair representation",
+        "zh": "公平代表"
+      },
+      {
+        "en": "artistic representation",
+        "zh": "藝術呈現"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Every citizen has the right to legal representation in court.",
+        "target": "legal representation"
+      },
+      {
+        "en": "Women's representation in government has been increasing in recent years.",
+        "target": "Women's representation"
+      }
+    ],
+    "synonyms": [
+      "depiction",
+      "symbol",
+      "advocacy"
+    ],
+    "grammar_note": "represent (v.) → representative (n./adj.) → representation (n.)",
+    "chinese_sentence": "每位公民在出庭受審時都有權獲得專業律師的法律代理，這是基本的司法保障。",
+    "word_family": "rep · represent · representation · representative"
+  },
+  {
+    "word": "lawful",
+    "pos": "adj.",
+    "chapter": "Society and Communication",
+    "kk": "/lˈɔfəl/",
+    "chinese": "合法的；法律許可的",
+    "collocations": [
+      {
+        "en": "lawful activity",
+        "zh": "合法活動"
+      },
+      {
+        "en": "lawful authority",
+        "zh": "合法權力"
+      },
+      {
+        "en": "lawful owner",
+        "zh": "合法持有人"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Voting is a lawful right that every citizen should exercise.",
+        "target": "lawful"
+      },
+      {
+        "en": "The court determined that the protest was a lawful expression of free speech.",
+        "target": "lawful"
+      }
+    ],
+    "synonyms": [
+      "legal",
+      "legitimate",
+      "authorized"
+    ],
+    "grammar_note": "lawful ≈ legal; lawfully (adv.); unlawful = 非法的",
+    "chinese_sentence": "法院裁定該示威活動屬於合法的言論自由表達，不應被阻止。",
+    "word_family": "lawful · lawfully"
+  },
+  {
+    "word": "constitution",
+    "pos": "n.",
+    "chapter": "Society and Communication",
+    "kk": "/kˌɑnstətˈuʃən/",
+    "chinese": "憲法；組成；體質",
+    "collocations": [
+      {
+        "en": "the Constitution",
+        "zh": "憲法"
+      },
+      {
+        "en": "constitutional rights",
+        "zh": "憲法權利"
+      },
+      {
+        "en": "physical constitution",
+        "zh": "體質"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Every citizen has rights protected by the Constitution.",
+        "target": "Constitution"
+      },
+      {
+        "en": "She has a strong physical constitution and rarely gets sick.",
+        "target": "constitution"
+      }
+    ],
+    "synonyms": [
+      "charter",
+      "law",
+      "structure"
+    ],
+    "grammar_note": "constitutional (adj.); constitution = 憲法（大寫）或體質/組成（小寫）",
+    "chinese_sentence": "每位公民的基本權利都受到憲法的明確保障，不得任意剝奪。",
+    "word_family": "constitute · constitution · constitutional · unconstitutional"
+  },
+  {
+    "word": "consumer",
+    "pos": "n.",
+    "chapter": "Society and Communication",
+    "kk": "/kənsˈumɚ/",
+    "chinese": "消費者",
+    "collocations": [
+      {
+        "en": "consumer goods",
+        "zh": "消費品"
+      },
+      {
+        "en": "consumer rights",
+        "zh": "消費者權益"
+      },
+      {
+        "en": "consumer spending",
+        "zh": "消費支出"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Consumers today are more aware of product quality than ever before.",
+        "target": "Consumers"
+      },
+      {
+        "en": "The government passed a law to better protect consumer rights.",
+        "target": "consumer"
+      }
+    ],
+    "synonyms": [
+      "buyer",
+      "customer",
+      "purchaser"
+    ],
+    "grammar_note": "consume (v.); consumer (n.); consumption (n.); consumer vs. producer",
+    "chinese_sentence": "政府通過了一項新法律，以更好地保護消費者的合法權益。",
+    "word_family": "congress · congressman · congresswoman · consume · consumer · consumption · time-consuming"
+  },
+  {
+    "word": "protest",
+    "pos": "n./v.",
+    "chapter": "Society and Communication",
+    "kk": "/prˈoʊtˌɛst/",
+    "chinese": "抗議；反對；異議",
+    "collocations": [
+      {
+        "en": "stage a protest",
+        "zh": "舉行抗議"
+      },
+      {
+        "en": "protest against",
+        "zh": "反對"
+      },
+      {
+        "en": "under protest",
+        "zh": "表示不滿地"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Students protested against the school's decision to cancel the annual trip.",
+        "target": "protested"
+      },
+      {
+        "en": "Thousands of people gathered to protest the new government policy.",
+        "target": "protest"
+      }
+    ],
+    "synonyms": [
+      "demonstrate",
+      "object",
+      "complain"
+    ],
+    "grammar_note": "protest (v./n.); protest against/at sth.; protester (n.)",
+    "chinese_sentence": "學生們對學校取消年度旅行的決定提出強烈抗議，要求重新考慮。",
+    "word_family": "protest · protester"
   },
   {
     "word": "violation",
     "pos": "n.",
-    "chapter": "Work and Economy",
+    "chapter": "Society and Communication",
     "kk": "/vaɪəlˈeɪʃən/",
     "chinese": "違反；侵犯",
     "collocations": [
@@ -11674,11 +12257,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He received a fine for a **traffic violation** near the school zone.",
+        "en": "He received a fine for a traffic violation near the school zone.",
         "target": "traffic violation"
       },
       {
-        "en": "The new law was seen as a **violation** of citizens' privacy rights.",
+        "en": "The new law was seen as a violation of citizens' privacy rights.",
         "target": "violation"
       }
     ],
@@ -11690,45 +12273,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "violate (v.); violation (n.); in violation of = 違反了; violation of sth.",
     "chinese_sentence": "他在學校附近的限速區超速，因交通違規而被開了一張罰單。",
     "word_family": "violate · violation · violator"
-  },
-  {
-    "word": "workout",
-    "pos": "n.",
-    "chapter": "Work and Economy",
-    "kk": "/wˈɝkˌaʊt/",
-    "chinese": "鍛練；訓練；運動",
-    "collocations": [
-      {
-        "en": "daily workout",
-        "zh": "每日鍛練"
-      },
-      {
-        "en": "intense workout",
-        "zh": "激烈訓練"
-      },
-      {
-        "en": "work out",
-        "zh": "鍛煉/解決"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She does a 30-minute **workout** every morning before going to school.",
-        "target": "workout"
-      },
-      {
-        "en": "The gym offers guided **workouts** for beginners who are just starting out.",
-        "target": "workouts"
-      }
-    ],
-    "synonyms": [
-      "exercise",
-      "training",
-      "drill"
-    ],
-    "grammar_note": "workout (n.); work out (v. phrase) = 鍛煉/算出/解決",
-    "chinese_sentence": "她每天早上上學前都會做三十分鐘的晨間鍛練，保持體力充沛。",
-    "word_family": ""
   },
   {
     "word": "accompany",
@@ -11752,11 +12296,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **accompanied** her younger brother to the doctor's office.",
+        "en": "She accompanied her younger brother to the doctor's office.",
         "target": "accompanied"
       },
       {
-        "en": "The singer was **accompanied by** a live band on stage.",
+        "en": "The singer was accompanied by a live band on stage.",
         "target": "accompanied by"
       }
     ],
@@ -11791,11 +12335,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The judge has **absolute** authority to make the final decision.",
+        "en": "The judge has absolute authority to make the final decision.",
         "target": "absolute"
       },
       {
-        "en": "She said it with **absolute** confidence, leaving no room for doubt.",
+        "en": "She said it with absolute confidence, leaving no room for doubt.",
         "target": "absolute"
       }
     ],
@@ -11807,45 +12351,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "absolutely (adv.); absolute ≠ relative; absolute power = 絕對權力",
     "chinese_sentence": "他以絕對的自信說出那句話，讓在場所有人都信服不疑。",
     "word_family": "absolute · absolutely"
-  },
-  {
-    "word": "access",
-    "pos": "n./v.",
-    "chapter": "Society and Communication",
-    "kk": "/ˈæksˌɛs/",
-    "chinese": "進入；使用；接觸；取得",
-    "collocations": [
-      {
-        "en": "have access to",
-        "zh": "可使用/進入"
-      },
-      {
-        "en": "internet access",
-        "zh": "上網管道"
-      },
-      {
-        "en": "access denied",
-        "zh": "拒絕進入"
-      }
-    ],
-    "examples": [
-      {
-        "en": "All students have **access to** the school's online library database.",
-        "target": "access to"
-      },
-      {
-        "en": "The new system makes it easier to **access** your academic records.",
-        "target": "access"
-      }
-    ],
-    "synonyms": [
-      "entry",
-      "approach",
-      "availability"
-    ],
-    "grammar_note": "access (n./v.); have access to = 能使用/進入; accessible (adj.) = 可進入的/易懂的",
-    "chinese_sentence": "所有學生都可以登入學校的線上圖書館資料庫查閱學術資源。",
-    "word_family": "access · accessibility · accessible"
   },
   {
     "word": "ancestor",
@@ -11869,11 +12374,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "During the Tomb Sweeping Festival, families pay respect to their **ancestors**.",
+        "en": "During the Tomb Sweeping Festival, families pay respect to their ancestors.",
         "target": "ancestors"
       },
       {
-        "en": "Scientists used DNA testing to trace the **ancestors** of the ancient tribe.",
+        "en": "Scientists used DNA testing to trace the ancestors of the ancient tribe.",
         "target": "ancestors"
       }
     ],
@@ -11908,11 +12413,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The class went on a field trip to the city's largest **aquarium**.",
+        "en": "The class went on a field trip to the city's largest aquarium.",
         "target": "aquarium"
       },
       {
-        "en": "She keeps a small **aquarium** with tropical fish in her bedroom.",
+        "en": "She keeps a small aquarium with tropical fish in her bedroom.",
         "target": "aquarium"
       }
     ],
@@ -11946,11 +12451,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She joined the student **association** to help organize school events.",
+        "en": "She joined the student association to help organize school events.",
         "target": "association"
       },
       {
-        "en": "The project was completed **in association with** a local technology firm.",
+        "en": "The project was completed in association with a local technology firm.",
         "target": "in association with"
       }
     ],
@@ -11985,11 +12490,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She made an **appointment** with the counselor for next Tuesday.",
+        "en": "She made an appointment with the counselor for next Tuesday.",
         "target": "appointment"
       },
       {
-        "en": "The president **appointed** her as the new minister of education.",
+        "en": "The president appointed her as the new minister of education.",
         "target": "appointed"
       }
     ],
@@ -12024,11 +12529,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The night market is one of the most popular **attractions** for tourists.",
+        "en": "The night market is one of the most popular attractions for tourists.",
         "target": "attractions"
       },
       {
-        "en": "There is a strong **attraction** between the two scientists who share the same passion.",
+        "en": "There is a strong attraction between the two scientists who share the same passion.",
         "target": "attraction"
       }
     ],
@@ -12063,11 +12568,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She has been taking **ballet** lessons since she was four years old.",
+        "en": "She has been taking ballet lessons since she was four years old.",
         "target": "ballet"
       },
       {
-        "en": "The company staged a stunning performance of Swan Lake, a classic **ballet**.",
+        "en": "The company staged a stunning performance of Swan Lake, a classic ballet.",
         "target": "ballet"
       }
     ],
@@ -12101,11 +12606,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He is always **boasting about** his grades and achievements.",
+        "en": "He is always boasting about his grades and achievements.",
         "target": "boasting about"
       },
       {
-        "en": "The city **boasts** some of the finest museums in the country.",
+        "en": "The city boasts some of the finest museums in the country.",
         "target": "boasts"
       }
     ],
@@ -12140,11 +12645,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The exam schedule was posted on the school **bulletin** board.",
+        "en": "The exam schedule was posted on the school bulletin board.",
         "target": "bulletin"
       },
       {
-        "en": "The principal sent out a **bulletin** about the changes to the school calendar.",
+        "en": "The principal sent out a bulletin about the changes to the school calendar.",
         "target": "bulletin"
       }
     ],
@@ -12179,11 +12684,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The two sides agreed to **cease** hostilities and sign a peace agreement.",
+        "en": "The two sides agreed to cease hostilities and sign a peace agreement.",
         "target": "cease"
       },
       {
-        "en": "The factory **ceased** operations after failing to meet safety standards.",
+        "en": "The factory ceased operations after failing to meet safety standards.",
         "target": "ceased"
       }
     ],
@@ -12218,11 +12723,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The stadium has a **capacity** of 50,000 spectators.",
+        "en": "The stadium has a capacity of 50,000 spectators.",
         "target": "capacity"
       },
       {
-        "en": "She attended the event **in her capacity as** school principal.",
+        "en": "She attended the event in her capacity as school principal.",
         "target": "in her capacity as"
       }
     ],
@@ -12257,11 +12762,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Curiosity is a **characteristic** of most successful scientists.",
+        "en": "Curiosity is a characteristic of most successful scientists.",
         "target": "characteristic"
       },
       {
-        "en": "The **characteristic** smell of the ocean greeted them as they arrived at the beach.",
+        "en": "The characteristic smell of the ocean greeted them as they arrived at the beach.",
         "target": "characteristic"
       }
     ],
@@ -12296,11 +12801,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **cherished** every moment spent with her grandparents.",
+        "en": "She cherished every moment spent with her grandparents.",
         "target": "cherished"
       },
       {
-        "en": "He **cherished** the dream of becoming a concert pianist from a young age.",
+        "en": "He cherished the dream of becoming a concert pianist from a young age.",
         "target": "cherished"
       }
     ],
@@ -12335,11 +12840,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her success was the result of a **combination** of talent and hard work.",
+        "en": "Her success was the result of a combination of talent and hard work.",
         "target": "combination"
       },
       {
-        "en": "The medicine works best **in combination with** regular exercise.",
+        "en": "The medicine works best in combination with regular exercise.",
         "target": "in combination with"
       }
     ],
@@ -12374,11 +12879,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He **committed** himself to improving his English by 30 minutes every day.",
+        "en": "He committed himself to improving his English by 30 minutes every day.",
         "target": "committed"
       },
       {
-        "en": "She was **committed to** finishing the project before the deadline.",
+        "en": "She was committed to finishing the project before the deadline.",
         "target": "committed to"
       }
     ],
@@ -12413,11 +12918,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Workers took two years to **construct** the new bridge.",
+        "en": "Workers took two years to construct the new bridge.",
         "target": "construct"
       },
       {
-        "en": "Students must learn how to **construct** well-organized paragraphs.",
+        "en": "Students must learn how to construct well-organized paragraphs.",
         "target": "construct"
       }
     ],
@@ -12452,11 +12957,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please **concentrate on** what the teacher is saying and put away your phone.",
+        "en": "Please concentrate on what the teacher is saying and put away your phone.",
         "target": "concentrate on"
       },
       {
-        "en": "She found it hard to **concentrate** with so much noise outside.",
+        "en": "She found it hard to concentrate with so much noise outside.",
         "target": "concentrate"
       }
     ],
@@ -12491,11 +12996,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She entered a national writing **contest** and won second place.",
+        "en": "She entered a national writing contest and won second place.",
         "target": "contest"
       },
       {
-        "en": "The losing team **contested** the referee's final decision.",
+        "en": "The losing team contested the referee's final decision.",
         "target": "contested"
       }
     ],
@@ -12530,11 +13035,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He finally **confessed** that he had cheated on the test.",
+        "en": "He finally confessed that he had cheated on the test.",
         "target": "confessed"
       },
       {
-        "en": "She **confessed** her feelings to her best friend over a cup of tea.",
+        "en": "She confessed her feelings to her best friend over a cup of tea.",
         "target": "confessed"
       }
     ],
@@ -12569,11 +13074,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Breaking **convention**, she chose to wear a colorful dress to the formal event.",
+        "en": "Breaking convention, she chose to wear a colorful dress to the formal event.",
         "target": "convention"
       },
       {
-        "en": "The teachers attended the annual educational **convention** in the capital.",
+        "en": "The teachers attended the annual educational convention in the capital.",
         "target": "convention"
       }
     ],
@@ -12608,11 +13113,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Art classes encourage students to express their **creativity** freely.",
+        "en": "Art classes encourage students to express their creativity freely.",
         "target": "creativity"
       },
       {
-        "en": "A relaxed environment often sparks greater **creativity** in the workplace.",
+        "en": "A relaxed environment often sparks greater creativity in the workplace.",
         "target": "creativity"
       }
     ],
@@ -12647,11 +13152,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The book received mixed reviews from **critics** — some loved it, others didn't.",
+        "en": "The book received mixed reviews from critics — some loved it, others didn't.",
         "target": "critics"
       },
       {
-        "en": "She is her own harshest **critic** and always pushes herself to improve.",
+        "en": "She is her own harshest critic and always pushes herself to improve.",
         "target": "critic"
       }
     ],
@@ -12686,11 +13191,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The country **declared** its independence on July 4th.",
-        "target": "declared"
+        "en": "The United States declared its independence from Britain on July 4, 1776.",
+        "target": "declared its independence"
       },
       {
-        "en": "Please **declare** all items you are bringing into the country at customs.",
+        "en": "Please declare all items you are bringing into the country at customs.",
         "target": "declare"
       }
     ],
@@ -12725,11 +13230,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **curled** up on the sofa with a blanket and her favorite book.",
+        "en": "She curled up on the sofa with a blanket and her favorite book.",
         "target": "curled"
       },
       {
-        "en": "The steam from the hot tea **curled** slowly into the air.",
+        "en": "The steam from the hot tea curled slowly into the air.",
         "target": "curled"
       }
     ],
@@ -12764,11 +13269,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She worked so hard that she **deserves** the top prize.",
+        "en": "She worked so hard that she deserves the top prize.",
         "target": "deserves"
       },
       {
-        "en": "Every child **deserves** access to quality education.",
+        "en": "Every child deserves access to quality education.",
         "target": "deserves"
       }
     ],
@@ -12803,11 +13308,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The typhoon caused widespread **destruction** to the coastal villages.",
+        "en": "The typhoon caused widespread destruction to the coastal villages.",
         "target": "destruction"
       },
       {
-        "en": "Deforestation leads to the **destruction** of ecosystems and biodiversity.",
+        "en": "Deforestation leads to the destruction of ecosystems and biodiversity.",
         "target": "destruction"
       }
     ],
@@ -12842,16 +13347,16 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A **diligent** student reviews notes every day rather than just before exams.",
+        "en": "A diligent student reviews notes every day rather than just before exams.",
         "target": "diligent"
       },
       {
-        "en": "Her **diligent** work ethic impressed both her teacher and her peers.",
+        "en": "Her diligent work ethic impressed both her teacher and her peers.",
         "target": "diligent"
       }
     ],
     "synonyms": [
-      "hardworking",
+      "hard working",
       "industrious",
       "dedicated"
     ],
@@ -12881,11 +13386,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She left the meeting **in disgust** after hearing the unfair decision.",
+        "en": "She left the meeting in disgust after hearing the unfair decision.",
         "target": "in disgust"
       },
       {
-        "en": "The smell of the garbage **disgusted** everyone who walked past.",
+        "en": "The smell of the garbage disgusted everyone who walked past.",
         "target": "disgusted"
       }
     ],
@@ -12920,11 +13425,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The two classmates had a **dispute** over who should lead the group project.",
+        "en": "The two classmates had a dispute over who should lead the group project.",
         "target": "dispute"
       },
       {
-        "en": "The scientist's theory was **disputed** by several colleagues.",
+        "en": "The scientist's theory was disputed by several colleagues.",
         "target": "disputed"
       }
     ],
@@ -12936,45 +13441,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "dispute (n./v.); in dispute = 有爭議的; beyond dispute = 毋庸置疑",
     "chinese_sentence": "那兩位同學為了誰來主導小組作業發生了一場爭論，最後由老師調解。",
     "word_family": ""
-  },
-  {
-    "word": "drowsy",
-    "pos": "adj.",
-    "chapter": "Society and Communication",
-    "kk": "/drˈaʊzi/",
-    "chinese": "昏昏欲睡的；令人想睡的",
-    "collocations": [
-      {
-        "en": "feel drowsy",
-        "zh": "感到昏昏欲睡"
-      },
-      {
-        "en": "drowsy from medication",
-        "zh": "因藥物昏沉"
-      },
-      {
-        "en": "drowsy afternoon",
-        "zh": "令人想打盹的下午"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She felt **drowsy** after the long morning of studying and needed a break.",
-        "target": "drowsy"
-      },
-      {
-        "en": "The warm classroom made most students feel **drowsy** after lunch.",
-        "target": "drowsy"
-      }
-    ],
-    "synonyms": [
-      "sleepy",
-      "dozy",
-      "lethargic"
-    ],
-    "grammar_note": "drowsiness (n.); drowsily (adv.); drowsy ≠ asleep",
-    "chinese_sentence": "吃完午飯後，溫暖的教室讓大多數學生都昏昏欲睡，難以集中注意力。",
-    "word_family": "drowsily · drowsiness · drowsy"
   },
   {
     "word": "dye",
@@ -12998,11 +13464,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **dyed** her hair dark brown before the school photo.",
+        "en": "She dyed her hair dark brown before the school photo.",
         "target": "dyed"
       },
       {
-        "en": "The traditional **dye** used in that fabric comes from plants native to the region.",
+        "en": "The traditional dye used in that fabric comes from plants native to the region.",
         "target": "dye"
       }
     ],
@@ -13037,11 +13503,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **electronics** store was packed with people looking for holiday gifts.",
+        "en": "The electronics store was packed with people looking for holiday gifts.",
         "target": "electronics"
       },
       {
-        "en": "Taiwan's **electronics** industry is one of the most competitive in the world.",
+        "en": "Taiwan's electronics industry is one of the most competitive in the world.",
         "target": "electronics"
       }
     ],
@@ -13075,11 +13541,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She majored in **engineering** and specialized in renewable energy systems.",
+        "en": "She majored in engineering and specialized in renewable energy systems.",
         "target": "engineering"
       },
       {
-        "en": "The bridge is a remarkable feat of modern **engineering**.",
+        "en": "The bridge is a remarkable feat of modern engineering.",
         "target": "engineering"
       }
     ],
@@ -13114,11 +13580,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The concert provided hours of wonderful **entertainment** for the audience.",
+        "en": "The concert provided hours of wonderful entertainment for the audience.",
         "target": "entertainment"
       },
       {
-        "en": "She **entertained** the idea of studying abroad for a semester.",
+        "en": "She entertained the idea of studying abroad for a semester.",
         "target": "entertained"
       }
     ],
@@ -13153,11 +13619,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students should be **exposed to** different cultures to broaden their worldview.",
+        "en": "Students should be exposed to different cultures to broaden their worldview.",
         "target": "exposed to"
       },
       {
-        "en": "The journalist **exposed** the corruption within the local government.",
+        "en": "The journalist exposed the corruption within the local government.",
         "target": "exposed"
       }
     ],
@@ -13192,11 +13658,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school plans to **expand** its library collection next year.",
+        "en": "The school plans to expand its library collection next year.",
         "target": "expand"
       },
       {
-        "en": "Could you **expand on** your earlier point about the causes of the conflict?",
+        "en": "Could you expand on your earlier point about the causes of the conflict?",
         "target": "expand on"
       }
     ],
@@ -13231,11 +13697,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He studies **finance** to learn how to manage money effectively.",
+        "en": "He studies finance to learn how to manage money effectively.",
         "target": "finance"
       },
       {
-        "en": "The new school building was **financed** by donations from alumni.",
+        "en": "The new school building was financed by donations from alumni.",
         "target": "financed"
       }
     ],
@@ -13247,45 +13713,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "finance (n./v.); financial (adj.); financially (adv.); finances (n. pl.) = 財務狀況",
     "chinese_sentence": "那棟新校舍的建設費用全部來自校友的慷慨捐款，不動用公費。",
     "word_family": "finance · financial · financially"
-  },
-  {
-    "word": "fertile",
-    "pos": "adj.",
-    "chapter": "Society and Communication",
-    "kk": "/fˈɝtəl/",
-    "chinese": "肥沃的；多產的；富創意的",
-    "collocations": [
-      {
-        "en": "fertile soil",
-        "zh": "肥沃的土壤"
-      },
-      {
-        "en": "fertile imagination",
-        "zh": "豐富的想象力"
-      },
-      {
-        "en": "fertile land",
-        "zh": "肥沃的土地"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The Nile River delta has some of the most **fertile** farmland in Africa.",
-        "target": "fertile"
-      },
-      {
-        "en": "A curious mind is a **fertile** ground for new ideas.",
-        "target": "fertile"
-      }
-    ],
-    "synonyms": [
-      "productive",
-      "fruitful",
-      "rich"
-    ],
-    "grammar_note": "fertility (n.); fertilize (v.); fertilizer (n.) = 肥料; fertile ↔ barren (貧瘠的)",
-    "chinese_sentence": "尼羅河三角洲擁有非洲最肥沃的農業土地，養活了數以百萬計的人口。",
-    "word_family": "fertile · fertility · fertilize · fertilizer · infertile"
   },
   {
     "word": "forecast",
@@ -13309,11 +13736,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **weather forecast** predicted heavy rain for the entire weekend.",
+        "en": "The weather forecast predicted heavy rain for the entire weekend.",
         "target": "weather forecast"
       },
       {
-        "en": "Analysts **forecast** a significant increase in online sales this year.",
+        "en": "Analysts forecast a significant increase in online sales this year.",
         "target": "forecast"
       }
     ],
@@ -13348,11 +13775,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The cappuccino was topped with a thick layer of milk **foam**.",
+        "en": "The cappuccino was topped with a thick layer of milk foam.",
         "target": "foam"
       },
       {
-        "en": "The waves **foamed** as they crashed against the rocky shore.",
+        "en": "The waves foamed as they crashed against the rocky shore.",
         "target": "foamed"
       }
     ],
@@ -13387,11 +13814,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **gazed** at the stars for a long time without saying a word.",
+        "en": "She gazed at the stars for a long time without saying a word.",
         "target": "gazed"
       },
       {
-        "en": "His **gaze** met hers across the crowded cafeteria.",
+        "en": "His gaze met hers across the crowded cafeteria.",
         "target": "gaze"
       }
     ],
@@ -13426,11 +13853,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was **furious** when she discovered that someone had taken her notes.",
+        "en": "She was furious when she discovered that someone had taken her notes.",
         "target": "furious"
       },
       {
-        "en": "The committee held a **furious** debate over the new school policy.",
+        "en": "The committee held a furious debate over the new school policy.",
         "target": "furious"
       }
     ],
@@ -13465,11 +13892,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is a **gifted** painter whose work has been exhibited internationally.",
+        "en": "She is a gifted painter whose work has been exhibited internationally.",
         "target": "gifted"
       },
       {
-        "en": "The school has a special program for **gifted** students with exceptional abilities.",
+        "en": "The school has a special program for gifted students with exceptional abilities.",
         "target": "gifted"
       }
     ],
@@ -13504,11 +13931,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The train came to a sudden **halt** due to a signal failure.",
+        "en": "The train came to a sudden halt due to a signal failure.",
         "target": "halt"
       },
       {
-        "en": "The manager called a **halt** to the meeting when the fire alarm went off.",
+        "en": "The manager called a halt to the meeting when the fire alarm went off.",
         "target": "halt"
       }
     ],
@@ -13543,11 +13970,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She wrote a letter of **gratitude** to her mentor who had supported her for years.",
+        "en": "She wrote a letter of gratitude to her mentor who had supported her for years.",
         "target": "gratitude"
       },
       {
-        "en": "He expressed **deep gratitude** to everyone who helped him during his illness.",
+        "en": "He expressed deep gratitude to everyone who helped him during his illness.",
         "target": "deep gratitude"
       }
     ],
@@ -13582,11 +14009,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She left in such **haste** that she forgot her notebook on the desk.",
+        "en": "She left in such haste that she forgot her notebook on the desk.",
         "target": "haste"
       },
       {
-        "en": "Remember: **haste** makes waste — take time to review your work.",
+        "en": "Remember: haste makes waste — take time to review your work.",
         "target": "haste"
       }
     ],
@@ -13621,11 +14048,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The sun slowly sank below the **horizon** as evening approached.",
+        "en": "The sun slowly sank below the horizon as evening approached.",
         "target": "horizon"
       },
       {
-        "en": "Studying abroad can help broaden your **horizons** and expand your worldview.",
+        "en": "Studying abroad can help broaden your horizons and expand your worldview.",
         "target": "horizons"
       }
     ],
@@ -13660,11 +14087,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The two sisters are **identical** twins and even their parents sometimes mix them up.",
+        "en": "The two sisters are identical twins and even their parents sometimes mix them up.",
         "target": "identical"
       },
       {
-        "en": "Her answer was **identical to** mine, word for word.",
+        "en": "Her answer was identical to mine, word for word.",
         "target": "identical to"
       }
     ],
@@ -13699,11 +14126,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**Ignorance** of the rules is not a valid excuse for breaking them.",
+        "en": "Ignorance of the rules is not a valid excuse for breaking them.",
         "target": "Ignorance"
       },
       {
-        "en": "She lived in **blissful ignorance** of the dangers around her.",
+        "en": "She lived in blissful ignorance of the dangers around her.",
         "target": "blissful ignorance"
       }
     ],
@@ -13738,11 +14165,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A **hush** fell over the audience as the performer walked onto the stage.",
+        "en": "A hush fell over the audience as the performer walked onto the stage.",
         "target": "hush"
       },
       {
-        "en": "The mother **hushed** her crying baby gently.",
+        "en": "The mother hushed her crying baby gently.",
         "target": "hushed"
       }
     ],
@@ -13777,11 +14204,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Emotional **intelligence** is just as important as academic ability in leadership.",
+        "en": "Emotional intelligence is just as important as academic ability in leadership.",
         "target": "intelligence"
       },
       {
-        "en": "The spy agency gathered **intelligence** on the enemy's movements.",
+        "en": "The spy agency gathered intelligence on the enemy's movements.",
         "target": "intelligence"
       }
     ],
@@ -13816,11 +14243,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students are encouraged to **interact with** each other during group discussions.",
+        "en": "Students are encouraged to interact with each other during group discussions.",
         "target": "interact with"
       },
       {
-        "en": "The two chemicals **interact** in a way that produces heat.",
+        "en": "The two chemicals interact in a way that produces heat.",
         "target": "interact"
       }
     ],
@@ -13855,11 +14282,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The technician came to **install** the new air conditioning unit.",
+        "en": "The technician came to install the new air conditioning unit.",
         "target": "install"
       },
       {
-        "en": "She **installed** a new app on her phone to help her study vocabulary.",
+        "en": "She installed a new app on her phone to help her study vocabulary.",
         "target": "installed"
       }
     ],
@@ -13894,11 +14321,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She trusted her **intuition** and decided not to board the flight.",
+        "en": "She trusted her intuition and decided not to board the flight.",
         "target": "intuition"
       },
       {
-        "en": "Good teachers develop an **intuition** for when students are struggling.",
+        "en": "Good teachers develop an intuition for when students are struggling.",
         "target": "intuition"
       }
     ],
@@ -13933,11 +14360,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The sick student was **isolated** from classmates to prevent the spread of infection.",
+        "en": "The sick student was isolated from classmates to prevent the spread of infection.",
         "target": "isolated"
       },
       {
-        "en": "Living alone in a foreign country can make people feel **isolated**.",
+        "en": "Living alone in a foreign country can make people feel isolated.",
         "target": "isolated"
       }
     ],
@@ -13972,11 +14399,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She asked the tailor to **lengthen** the skirt by a few centimeters.",
+        "en": "She asked the tailor to lengthen the skirt by a few centimeters.",
         "target": "lengthen"
       },
       {
-        "en": "As summer approaches, the days gradually **lengthen**.",
+        "en": "As summer approaches, the days gradually lengthen.",
         "target": "lengthen"
       }
     ],
@@ -14011,11 +14438,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her success was **largely due to** her consistent effort and positive attitude.",
+        "en": "Her success was largely due to her consistent effort and positive attitude.",
         "target": "largely due to"
       },
       {
-        "en": "The policy was **largely** ignored by the public when it was first introduced.",
+        "en": "The policy was largely ignored by the public when it was first introduced.",
         "target": "largely"
       }
     ],
@@ -14027,45 +14454,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "largely (adv.); large (adj.); largely = 在很大程度上",
     "chinese_sentence": "她的成功主要歸功於長期持續的努力以及面對挫折時的積極心態。",
     "word_family": "large · largely"
-  },
-  {
-    "word": "logic",
-    "pos": "n.",
-    "chapter": "Society and Communication",
-    "kk": "/lˈɑdʒɪk/",
-    "chinese": "邏輯；道理；推理",
-    "collocations": [
-      {
-        "en": "follow the logic",
-        "zh": "遵循邏輯"
-      },
-      {
-        "en": "logical argument",
-        "zh": "合乎邏輯的論點"
-      },
-      {
-        "en": "the logic of",
-        "zh": "…的道理"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The teacher praised the student for the clear **logic** in her essay.",
-        "target": "logic"
-      },
-      {
-        "en": "I don't see the **logic** in studying all night before a big exam.",
-        "target": "logic"
-      }
-    ],
-    "synonyms": [
-      "reasoning",
-      "sense",
-      "rationality"
-    ],
-    "grammar_note": "logical (adj.); logically (adv.); logic (n.); illogical = 不合邏輯的",
-    "chinese_sentence": "老師稱讚那名學生的文章論述清晰、邏輯嚴謹，是全班最佳作品。",
-    "word_family": "logic · logical · logically"
   },
   {
     "word": "literary",
@@ -14089,11 +14477,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She has a deep appreciation for **literary** works from the Victorian era.",
+        "en": "She has a deep appreciation for literary works from the Victorian era.",
         "target": "literary"
       },
       {
-        "en": "The writing contest focuses on **literary** quality rather than just content.",
+        "en": "The writing contest focuses on literary quality rather than just content.",
         "target": "literary"
       }
     ],
@@ -14128,11 +14516,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A **memorial** service was held to honor the victims of the earthquake.",
+        "en": "A memorial service was held to honor the victims of the earthquake.",
         "target": "memorial"
       },
       {
-        "en": "The school built a small **memorial** garden to remember a beloved teacher.",
+        "en": "The school built a small memorial garden to remember a beloved teacher.",
         "target": "memorial"
       }
     ],
@@ -14167,11 +14555,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She set **measurable** goals for herself to track her vocabulary improvement.",
+        "en": "She set measurable goals for herself to track her vocabulary improvement.",
         "target": "measurable"
       },
       {
-        "en": "The new policy has had a **measurable** impact on student attendance rates.",
+        "en": "The new policy has had a measurable impact on student attendance rates.",
         "target": "measurable"
       }
     ],
@@ -14206,11 +14594,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The Eiffel Tower is one of France's most recognizable **monuments**.",
+        "en": "The Eiffel Tower is one of France's most recognizable monuments.",
         "target": "monuments"
       },
       {
-        "en": "Her life's work stands as a **monument to** dedication and perseverance.",
+        "en": "Her life's work stands as a monument to dedication and perseverance.",
         "target": "monument to"
       }
     ],
@@ -14220,7 +14608,7 @@ const LEVEL_4_DATA = [
       "tribute"
     ],
     "grammar_note": "monumental (adj.) = 紀念性的/巨大的; monument to sth. = 某事的豐碑",
-    "chinese_sentence": "艾菲爾鐵塔是法國最具代表性的地標之一，每年吸引數百萬遊客前往。",
+    "chinese_sentence": "艾菲爾鐵塔是法國最具代表性的紀念建築之一，每年吸引數百萬遊客前往。",
     "word_family": "monument · monumental"
   },
   {
@@ -14245,11 +14633,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Despite his brilliant performance, he remained **modest** and gracious.",
+        "en": "Despite his brilliant performance, he remained modest and gracious.",
         "target": "modest"
       },
       {
-        "en": "They lived on a **modest** income but were happy.",
+        "en": "They lived on a modest income but were happy.",
         "target": "modest"
       }
     ],
@@ -14284,11 +14672,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The two countries began to **negotiate** a trade agreement.",
+        "en": "The two countries began to negotiate a trade agreement.",
         "target": "negotiate"
       },
       {
-        "en": "She skillfully **negotiated** a higher salary for her new position.",
+        "en": "She skillfully negotiated a higher salary for her new position.",
         "target": "negotiated"
       }
     ],
@@ -14323,11 +14711,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She had a **nightmare** about failing the exam and woke up in a cold sweat.",
+        "en": "She had a nightmare about failing the exam and woke up in a cold sweat.",
         "target": "nightmare"
       },
       {
-        "en": "The traffic jam turned the short trip into a **nightmare**.",
+        "en": "The traffic jam turned the short trip into a nightmare.",
         "target": "nightmare"
       }
     ],
@@ -14362,11 +14750,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher outlined the **objectives** for the unit at the start of class.",
+        "en": "The teacher outlined the objectives for the unit at the start of class.",
         "target": "objectives"
       },
       {
-        "en": "Try to be **objective** when evaluating your own work.",
+        "en": "Try to be objective when evaluating your own work.",
         "target": "objective"
       }
     ],
@@ -14401,11 +14789,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Many parents **opposed** the school's decision to cancel the arts program.",
+        "en": "Many parents opposed the school's decision to cancel the arts program.",
         "target": "opposed"
       },
       {
-        "en": "She is strongly **opposed to** any form of bullying in the classroom.",
+        "en": "She is strongly opposed to any form of bullying in the classroom.",
         "target": "opposed to"
       }
     ],
@@ -14417,45 +14805,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "oppose (v.); opposition (n.); opposite (adj./n.); be opposed to = 反對",
     "chinese_sentence": "許多家長強烈反對學校取消藝術課程的決定，聯名要求重新考量。",
     "word_family": "opponent · oppose · opposite · opposition"
-  },
-  {
-    "word": "orientation",
-    "pos": "n.",
-    "chapter": "Society and Communication",
-    "kk": "/ˌɔriɛntˈeɪʃən/",
-    "chinese": "方向；定向；新生訓練；性取向",
-    "collocations": [
-      {
-        "en": "freshman orientation",
-        "zh": "新生訓練"
-      },
-      {
-        "en": "sexual orientation",
-        "zh": "性取向"
-      },
-      {
-        "en": "orientation program",
-        "zh": "定向課程"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **orientation** program helped new students learn about campus resources.",
-        "target": "orientation"
-      },
-      {
-        "en": "The map showed the **orientation** of the building relative to the main road.",
-        "target": "orientation"
-      }
-    ],
-    "synonyms": [
-      "direction",
-      "guidance",
-      "introduction"
-    ],
-    "grammar_note": "orient (v.); orientation (n.); orientation = 入門介紹或方向",
-    "chinese_sentence": "新生訓練課程幫助入學新生了解校園資源和學校生活的各項規定。",
-    "word_family": "orient · oriental · orientation · oriented"
   },
   {
     "word": "parachute",
@@ -14479,11 +14828,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The pilot ejected from the plane and opened his **parachute** safely.",
+        "en": "The pilot ejected from the plane and opened his parachute safely.",
         "target": "parachute"
       },
       {
-        "en": "She went **parachuting** for the first time on her eighteenth birthday.",
+        "en": "She went parachuting for the first time on her eighteenth birthday.",
         "target": "parachuting"
       }
     ],
@@ -14517,11 +14866,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The two companies formed a **partnership** to develop new technology.",
+        "en": "The two companies formed a partnership to develop new technology.",
         "target": "partnership"
       },
       {
-        "en": "The school works **in partnership with** local businesses to provide internships.",
+        "en": "The school works in partnership with local businesses to provide internships.",
         "target": "in partnership with"
       }
     ],
@@ -14556,11 +14905,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Farmers use various methods for **pest** control to protect their crops.",
+        "en": "Farmers use various methods for pest control to protect their crops.",
         "target": "pest"
       },
       {
-        "en": "Her little brother was being a real **pest**, following her everywhere.",
+        "en": "Her little brother was being a real pest, following her everywhere.",
         "target": "pest"
       }
     ],
@@ -14595,11 +14944,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Albert Einstein was one of the greatest **physicists** in history.",
+        "en": "Albert Einstein was one of the greatest physicists in history.",
         "target": "physicists"
       },
       {
-        "en": "She aspires to become a **physicist** specializing in quantum mechanics.",
+        "en": "She aspires to become a physicist specializing in quantum mechanics.",
         "target": "physicist"
       }
     ],
@@ -14633,11 +14982,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The surgeon made a **precise** incision to minimize recovery time.",
+        "en": "The surgeon made a precise incision to minimize recovery time.",
         "target": "precise"
       },
       {
-        "en": "To be **precise**, the meeting starts at 9:15, not 9:00.",
+        "en": "To be precise, the meeting starts at 9:15, not 9:00.",
         "target": "precise"
       }
     ],
@@ -14672,11 +15021,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The cave paintings show the artistic ability of **primitive** humans.",
+        "en": "The cave paintings show the artistic ability of primitive humans.",
         "target": "primitive"
       },
       {
-        "en": "The camping facilities were quite **primitive** — just a tent and a campfire.",
+        "en": "The camping facilities were quite primitive — just a tent and a campfire.",
         "target": "primitive"
       }
     ],
@@ -14711,11 +15060,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please **proceed** to the examination hall as soon as the bell rings.",
+        "en": "Please proceed to the examination hall as soon as the bell rings.",
         "target": "proceed"
       },
       {
-        "en": "The meeting **proceeded** as planned despite the bad weather.",
+        "en": "The meeting proceeded as planned despite the bad weather.",
         "target": "proceeded"
       }
     ],
@@ -14750,11 +15099,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She decided to **pursue** a career in medicine despite the challenges.",
+        "en": "She decided to pursue a career in medicine despite the challenges.",
         "target": "pursue"
       },
       {
-        "en": "He **pursued** his dream of becoming a writer for over ten years.",
+        "en": "He pursued his dream of becoming a writer for over ten years.",
         "target": "pursued"
       }
     ],
@@ -14789,11 +15138,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher corrected her **pronunciation** of the word 'thorough'.",
+        "en": "The teacher corrected her pronunciation of the word 'thorough'.",
         "target": "pronunciation"
       },
       {
-        "en": "Regular speaking practice is the best way to improve your **pronunciation**.",
+        "en": "Regular speaking practice is the best way to improve your pronunciation.",
         "target": "pronunciation"
       }
     ],
@@ -14828,11 +15177,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She made a **full recovery** after her surgery and returned to school in a month.",
+        "en": "She made a full recovery after her surgery and returned to school in a month.",
         "target": "full recovery"
       },
       {
-        "en": "The government announced a plan to speed up the country's economic **recovery**.",
+        "en": "The government announced a plan to speed up the country's economic recovery.",
         "target": "recovery"
       }
     ],
@@ -14844,45 +15193,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "recover (v.); recovery (n.); make a recovery = 康復; recovery from sth.",
     "chinese_sentence": "手術後她完全康復，一個月後便重返學校，繼續她的學業。",
     "word_family": "recover · recovery"
-  },
-  {
-    "word": "rainfall",
-    "pos": "n.",
-    "chapter": "Society and Communication",
-    "kk": "/rˈeɪnfˌɔl/",
-    "chinese": "降雨量；降雨",
-    "collocations": [
-      {
-        "en": "annual rainfall",
-        "zh": "年降雨量"
-      },
-      {
-        "en": "heavy rainfall",
-        "zh": "大量降雨"
-      },
-      {
-        "en": "rainfall pattern",
-        "zh": "降雨型態"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The region experienced below-average **rainfall** this year, causing drought.",
-        "target": "rainfall"
-      },
-      {
-        "en": "High **rainfall** in the mountains can lead to flash floods downstream.",
-        "target": "rainfall"
-      }
-    ],
-    "synonyms": [
-      "precipitation",
-      "rain",
-      "downpour"
-    ],
-    "grammar_note": "rainfall (n.); uncountable 或 singular; rainfall = 測量用的降水量",
-    "chinese_sentence": "今年該地區降雨量遠低於平均值，農業生產受到嚴重的乾旱衝擊。",
-    "word_family": ""
   },
   {
     "word": "regarding",
@@ -14906,11 +15216,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "I am writing **regarding** the scholarship application deadline.",
+        "en": "I am writing regarding the scholarship application deadline.",
         "target": "regarding"
       },
       {
-        "en": "**Regarding** your question about the exam, results will be posted next Friday.",
+        "en": "Regarding your question about the exam, results will be posted next Friday.",
         "target": "Regarding"
       }
     ],
@@ -14945,11 +15255,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The student's progress in one year was truly **remarkable**.",
+        "en": "The student's progress in one year was truly remarkable.",
         "target": "remarkable"
       },
       {
-        "en": "She has a **remarkable** ability to stay calm under pressure.",
+        "en": "She has a remarkable ability to stay calm under pressure.",
         "target": "remarkable"
       }
     ],
@@ -14967,7 +15277,7 @@ const LEVEL_4_DATA = [
     "pos": "n.",
     "chapter": "Society and Communication",
     "kk": "/rˌɛzəlˈuʃən/",
-    "chinese": "決心；解決；分辨率；決議",
+    "chinese": "決心；解決；解析度；決議",
     "collocations": [
       {
         "en": "New Year's resolution",
@@ -14984,11 +15294,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **resolution** to improve her grades motivated her to study harder.",
+        "en": "Her resolution to improve her grades motivated her to study harder.",
         "target": "resolution"
       },
       {
-        "en": "The United Nations passed a **resolution** calling for an immediate ceasefire.",
+        "en": "The United Nations passed a resolution calling for an immediate ceasefire.",
         "target": "resolution"
       }
     ],
@@ -15023,12 +15333,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school has an excellent **reputation** for academic achievement.",
+        "en": "The school has an excellent reputation for academic achievement.",
         "target": "reputation"
       },
       {
-        "en": "One mistake can damage a lifetime of **reputation** built through hard work.",
-        "target": "reputation"
+        "en": "One careless mistake can damage a reputation that took years to build.",
+        "target": "damage a reputation"
       }
     ],
     "synonyms": [
@@ -15062,11 +15372,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She made a **reservation** at the restaurant for their anniversary dinner.",
+        "en": "She made a reservation at the restaurant for their anniversary dinner.",
         "target": "reservation"
       },
       {
-        "en": "I have serious **reservations about** this plan — it seems too risky.",
+        "en": "I have serious reservations about this plan — it seems too risky.",
         "target": "reservations about"
       }
     ],
@@ -15101,11 +15411,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The smartphone was a **revolutionary** invention that changed daily life forever.",
+        "en": "The smartphone was a revolutionary invention that changed daily life forever.",
         "target": "revolutionary"
       },
       {
-        "en": "The **revolutionary** fought for freedom and equality in his country.",
+        "en": "The revolutionary fought for freedom and equality in his country.",
         "target": "revolutionary"
       }
     ],
@@ -15140,11 +15450,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She finally felt **secure** enough to share her feelings with her best friend.",
+        "en": "She finally felt secure enough to share her feelings with her best friend.",
         "target": "secure"
       },
       {
-        "en": "He worked hard to **secure** a place at a top university.",
+        "en": "He worked hard to secure a place at a top university.",
         "target": "secure"
       }
     ],
@@ -15179,11 +15489,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They ran under a tree to take **shelter** from the sudden downpour.",
+        "en": "They ran under a tree to take shelter from the sudden downpour.",
         "target": "shelter"
       },
       {
-        "en": "The organization provides **shelter** and food for homeless people.",
+        "en": "The organization provides shelter and food for homeless people.",
         "target": "shelter"
       }
     ],
@@ -15218,11 +15528,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Bullying others is a **shameful** act that should never be tolerated.",
+        "en": "Bullying others is a shameful act that should never be tolerated.",
         "target": "shameful"
       },
       {
-        "en": "It's **shameful** to waste food when so many people are going hungry.",
+        "en": "It's shameful to waste food when so many people are going hungry.",
         "target": "shameful"
       }
     ],
@@ -15257,11 +15567,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The city skyline is dominated by tall **skyscrapers** made of glass and steel.",
+        "en": "The city skyline is dominated by tall skyscrapers made of glass and steel.",
         "target": "skyscrapers"
       },
       {
-        "en": "Taipei 101 was once the world's tallest **skyscraper**.",
+        "en": "Taipei 101 was once the world's tallest skyscraper.",
         "target": "skyscraper"
       }
     ],
@@ -15296,11 +15606,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Ancient hunters used **spears** to catch fish and hunt animals.",
+        "en": "Ancient hunters used spears to catch fish and hunt animals.",
         "target": "spears"
       },
       {
-        "en": "The diver **speared** a fish with a sharp metal rod.",
+        "en": "The diver speared a fish with a sharp metal rod.",
         "target": "speared"
       }
     ],
@@ -15335,11 +15645,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She wore black **stockings** under her formal dress at the ceremony.",
+        "en": "She wore black stockings under her formal dress at the ceremony.",
         "target": "stockings"
       },
       {
-        "en": "Children hang **stockings** by the fireplace for Santa to fill with gifts.",
+        "en": "Children hang stockings by the fireplace for Santa to fill with gifts.",
         "target": "stockings"
       }
     ],
@@ -15373,11 +15683,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She expressed deep **sympathy** for the families who lost their homes in the flood.",
+        "en": "She expressed deep sympathy for the families who lost their homes in the flood.",
         "target": "sympathy"
       },
       {
-        "en": "I have great **sympathy for** students who struggle with exam anxiety.",
+        "en": "I have great sympathy for students who struggle with exam anxiety.",
         "target": "sympathy for"
       }
     ],
@@ -15412,11 +15722,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **technician** fixed the projector before the class began.",
+        "en": "The technician fixed the projector before the class began.",
         "target": "technician"
       },
       {
-        "en": "Lab **technicians** play a crucial role in scientific research.",
+        "en": "Lab technicians play a crucial role in scientific research.",
         "target": "technicians"
       }
     ],
@@ -15451,11 +15761,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **tickled** her little sister until she couldn't stop laughing.",
+        "en": "She tickled her little sister until she couldn't stop laughing.",
         "target": "tickled"
       },
       {
-        "en": "The quirky story really **tickled** her fancy.",
+        "en": "The quirky story really tickled her fancy.",
         "target": "tickled"
       }
     ],
@@ -15490,11 +15800,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She works as a freelance **translator** for international business documents.",
+        "en": "She works as a freelance translator for international business documents.",
         "target": "translator"
       },
       {
-        "en": "The **translator** converted the speech from English to Mandarin in real time.",
+        "en": "The translator converted the speech from English to Mandarin in real time.",
         "target": "translator"
       }
     ],
@@ -15528,11 +15838,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Music is often called a **universal** language that crosses all cultural boundaries.",
+        "en": "Music is often called a universal language that crosses all cultural boundaries.",
         "target": "universal"
       },
       {
-        "en": "Access to clean water should be a **universal** right for all people.",
+        "en": "Access to clean water should be a universal right for all people.",
         "target": "universal"
       }
     ],
@@ -15567,11 +15877,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher used charts and graphs as **visual** aids to explain the data.",
+        "en": "The teacher used charts and graphs as visual aids to explain the data.",
         "target": "visual"
       },
       {
-        "en": "She is a **visual** learner who understands information better through diagrams.",
+        "en": "She is a visual learner who understands information better through diagrams.",
         "target": "visual"
       }
     ],
@@ -15606,12 +15916,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was **wakened** by the sound of thunder in the middle of the night.",
+        "en": "She was wakened by the sound of thunder in the middle of the night.",
         "target": "wakened"
       },
       {
-        "en": "The experience **wakened** him to the importance of protecting the environment.",
-        "target": "wakened"
+        "en": "She was wakened by her alarm clock at six and hurried to catch the early train.",
+        "target": "was wakened by"
       }
     ],
     "synonyms": [
@@ -15645,11 +15955,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A positive **workplace** culture increases productivity and job satisfaction.",
+        "en": "A positive workplace culture increases productivity and job satisfaction.",
         "target": "workplace"
       },
       {
-        "en": "Harassment in the **workplace** is illegal and must be reported.",
+        "en": "Harassment in the workplace is illegal and must be reported.",
         "target": "workplace"
       }
     ],
@@ -15663,1216 +15973,9 @@ const LEVEL_4_DATA = [
     "word_family": ""
   },
   {
-    "word": "addict",
-    "pos": "n./v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/ədˈɪkt/",
-    "chinese": "上癮者；使成癮",
-    "collocations": [
-      {
-        "en": "drug addict",
-        "zh": "毒品上癮者"
-      },
-      {
-        "en": "be addicted to",
-        "zh": "對…上癮"
-      },
-      {
-        "en": "social media addict",
-        "zh": "社群媒體成癮者"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She became **addicted to** mobile games and couldn't focus on studying.",
-        "target": "addicted to"
-      },
-      {
-        "en": "A **drug addict** needs professional help to overcome dependence.",
-        "target": "drug addict"
-      }
-    ],
-    "synonyms": [
-      "dependent",
-      "hooked"
-    ],
-    "grammar_note": "addict (n./v.); addiction (n.); addicted (adj.); addictive (adj.) = 令人上癮的",
-    "chinese_sentence": "她對手機遊戲上癮後，開始無法集中精神讀書，成績也大幅下滑。",
-    "word_family": "accomplish · accomplishment · addict · addicted · addiction · addictive"
-  },
-  {
-    "word": "absorb",
-    "pos": "v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/əbzˈɔrb/",
-    "chinese": "吸收；專注；理解",
-    "collocations": [
-      {
-        "en": "absorb information",
-        "zh": "吸收資訊"
-      },
-      {
-        "en": "be absorbed in",
-        "zh": "全神貫注於"
-      },
-      {
-        "en": "absorb shock",
-        "zh": "吸收衝擊"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She was so **absorbed in** her book that she didn't hear the bell ring.",
-        "target": "absorbed in"
-      },
-      {
-        "en": "The sponge **absorbed** all the water from the floor.",
-        "target": "absorbed"
-      }
-    ],
-    "synonyms": [
-      "soak up",
-      "take in",
-      "engross"
-    ],
-    "grammar_note": "absorb (v.); absorption (n.); absorbed in = 全神貫注於; absorbent (adj.) = 吸水的",
-    "chinese_sentence": "她看書看得太入神，沒有聽到下課鈴響，同學叫她好幾聲才回神。",
-    "word_family": "absorb · absorbent · absorption"
-  },
-  {
-    "word": "alert",
-    "pos": "adj./v./n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/əlˈɝt/",
-    "chinese": "警覺的；提醒；警報",
-    "collocations": [
-      {
-        "en": "be on the alert",
-        "zh": "保持警戒"
-      },
-      {
-        "en": "alert sb. to a danger",
-        "zh": "警告某人危險"
-      },
-      {
-        "en": "weather alert",
-        "zh": "天氣警報"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Drivers must stay **alert** especially during long night drives.",
-        "target": "alert"
-      },
-      {
-        "en": "The teacher **alerted** students to the upcoming exam schedule changes.",
-        "target": "alerted"
-      }
-    ],
-    "synonyms": [
-      "watchful",
-      "warn",
-      "cautious"
-    ],
-    "grammar_note": "alert (adj./v./n.); alert sb. to sth. = 提醒某人某事; on alert = 處於戒備狀態",
-    "chinese_sentence": "司機在長途夜間行駛時尤其需要保持高度警覺，避免疲勞駕駛。",
-    "word_family": ""
-  },
-  {
-    "word": "aggressive",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/əɡrˈɛsɪv/",
-    "chinese": "侵略的；積極進取的；攻擊性的",
-    "collocations": [
-      {
-        "en": "aggressive behavior",
-        "zh": "攻擊行為"
-      },
-      {
-        "en": "aggressive marketing",
-        "zh": "積極的行銷"
-      },
-      {
-        "en": "be aggressive toward",
-        "zh": "對…具攻擊性"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The dog became **aggressive** when strangers approached its owner.",
-        "target": "aggressive"
-      },
-      {
-        "en": "The company took an **aggressive** approach to capturing new markets.",
-        "target": "aggressive"
-      }
-    ],
-    "synonyms": [
-      "hostile",
-      "assertive",
-      "forceful"
-    ],
-    "grammar_note": "aggression (n.); aggressively (adv.); aggressive ≠ passive",
-    "chinese_sentence": "那家公司採取了積極進取的策略大力開拓新市場，很快就超越了對手。",
-    "word_family": "aggression · aggressive · aggressively · aggressor"
-  },
-  {
-    "word": "anxiety",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/æŋzˈaɪəti/",
-    "chinese": "焦慮；擔憂；渴望",
-    "collocations": [
-      {
-        "en": "exam anxiety",
-        "zh": "考試焦慮"
-      },
-      {
-        "en": "suffer from anxiety",
-        "zh": "飽受焦慮之苦"
-      },
-      {
-        "en": "anxiety disorder",
-        "zh": "焦慮症"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Many students suffer from **anxiety** before major exams.",
-        "target": "anxiety"
-      },
-      {
-        "en": "Her **anxiety** about the interview kept her awake the night before.",
-        "target": "anxiety"
-      }
-    ],
-    "synonyms": [
-      "worry",
-      "nervousness",
-      "unease"
-    ],
-    "grammar_note": "anxious (adj.); anxiously (adv.); anxiety about/over sth.",
-    "chinese_sentence": "許多學生在重大考試前都會出現焦慮的症狀，影響到睡眠和表現。",
-    "word_family": "anxiety · anxious · anxiously"
-  },
-  {
-    "word": "apology",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/əpˈɑlədʒi/",
-    "chinese": "道歉；認錯",
-    "collocations": [
-      {
-        "en": "make an apology",
-        "zh": "道歉"
-      },
-      {
-        "en": "offer an apology",
-        "zh": "致歉"
-      },
-      {
-        "en": "sincere apology",
-        "zh": "誠摯的道歉"
-      }
-    ],
-    "examples": [
-      {
-        "en": "He sent a sincere **apology** to his teacher for missing the class.",
-        "target": "apology"
-      },
-      {
-        "en": "She accepted his **apology** and agreed to let the matter go.",
-        "target": "apology"
-      }
-    ],
-    "synonyms": [
-      "sorry",
-      "excuse",
-      "regret"
-    ],
-    "grammar_note": "apologize (v.); apology (n.); apology for/to sb.; apologize to sb. for sth.",
-    "chinese_sentence": "他寫了一封誠摯的道歉信給老師，解釋自己缺課的原因並表示歉意。",
-    "word_family": "apologize · apology"
-  },
-  {
-    "word": "artistic",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/ɑrtˈɪstɪk/",
-    "chinese": "藝術的；有藝術才能的",
-    "collocations": [
-      {
-        "en": "artistic talent",
-        "zh": "藝術才華"
-      },
-      {
-        "en": "artistic expression",
-        "zh": "藝術表達"
-      },
-      {
-        "en": "artistic style",
-        "zh": "藝術風格"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She has a remarkable **artistic** talent for painting detailed landscapes.",
-        "target": "artistic"
-      },
-      {
-        "en": "The **artistic** design of the building draws thousands of visitors each year.",
-        "target": "artistic"
-      }
-    ],
-    "synonyms": [
-      "creative",
-      "aesthetic",
-      "talented"
-    ],
-    "grammar_note": "art (n.); artist (n.); artistic (adj.); artistically (adv.)",
-    "chinese_sentence": "她在繪畫方面展現出非凡的藝術才華，每幅作品都細膩而生動。",
-    "word_family": "art · artist · artistic · artistically"
-  },
-  {
-    "word": "bargain",
-    "pos": "n./v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/bˈɑrɡən/",
-    "chinese": "交易；討價還價；便宜貨",
-    "collocations": [
-      {
-        "en": "strike a bargain",
-        "zh": "達成交易"
-      },
-      {
-        "en": "a good bargain",
-        "zh": "划算的交易"
-      },
-      {
-        "en": "bargain hunter",
-        "zh": "尋找特價的人"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She found a great **bargain** at the market — a winter coat for only NT$300.",
-        "target": "bargain"
-      },
-      {
-        "en": "They **bargained** with the seller for a lower price.",
-        "target": "bargained"
-      }
-    ],
-    "synonyms": [
-      "deal",
-      "negotiate",
-      "discount"
-    ],
-    "grammar_note": "bargain (n./v.); bargain for = 預料到; a good bargain = 划算的買賣",
-    "chinese_sentence": "她在市場上撿到一件超划算的冬季外套，只花了三百元新台幣。",
-    "word_family": ""
-  },
-  {
-    "word": "battery",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/bˈætɚi/",
-    "chinese": "電池；一組；毆打",
-    "collocations": [
-      {
-        "en": "battery life",
-        "zh": "電池壽命"
-      },
-      {
-        "en": "recharge a battery",
-        "zh": "充電"
-      },
-      {
-        "en": "assault and battery",
-        "zh": "毆打傷害"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Her phone's **battery** died in the middle of an important call.",
-        "target": "battery"
-      },
-      {
-        "en": "The electric car can run for 500 km on a single **battery** charge.",
-        "target": "battery"
-      }
-    ],
-    "synonyms": [
-      "cell",
-      "accumulator"
-    ],
-    "grammar_note": "battery (n.); recharge a battery = 充電; battery life = 電池壽命",
-    "chinese_sentence": "她的手機在一通重要的電話打到一半突然沒電了，讓她十分懊惱。",
-    "word_family": ""
-  },
-  {
-    "word": "biography",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/baɪˈɑɡrəfi/",
-    "chinese": "傳記；生平",
-    "collocations": [
-      {
-        "en": "write a biography",
-        "zh": "撰寫傳記"
-      },
-      {
-        "en": "read a biography",
-        "zh": "閱讀傳記"
-      },
-      {
-        "en": "authorized biography",
-        "zh": "官方授權傳記"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She read a fascinating **biography** of Marie Curie over the summer.",
-        "target": "biography"
-      },
-      {
-        "en": "The author spent five years writing an **authorized biography** of the president.",
-        "target": "biography"
-      }
-    ],
-    "synonyms": [
-      "life story",
-      "memoir",
-      "profile"
-    ],
-    "grammar_note": "biography (n.); biographer (n.); biographical (adj.); autobiography = 自傳",
-    "chinese_sentence": "她在暑假期間讀了一本引人入勝的居禮夫人傳記，深受啟發。",
-    "word_family": "biographer · biographical · biography"
-  },
-  {
-    "word": "bounce",
-    "pos": "v./n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/bˈaʊns/",
-    "chinese": "彈跳；彈回；精力充沛地走",
-    "collocations": [
-      {
-        "en": "bounce a ball",
-        "zh": "使球彈跳"
-      },
-      {
-        "en": "bounce back",
-        "zh": "反彈/恢復"
-      },
-      {
-        "en": "bounce ideas off",
-        "zh": "互相交流想法"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The ball **bounced** off the wall and hit the window.",
-        "target": "bounced"
-      },
-      {
-        "en": "She **bounced back** quickly from her setback and tried again.",
-        "target": "bounced back"
-      }
-    ],
-    "synonyms": [
-      "rebound",
-      "spring",
-      "recover"
-    ],
-    "grammar_note": "bounce (v./n.); bouncy (adj.) = 有彈力的; bounce back = 恢復/反彈",
-    "chinese_sentence": "經歷了一次挫折之後，她很快就重新振作，重新出發，令大家佩服。",
-    "word_family": "bounce · bouncy"
-  },
-  {
-    "word": "celebration",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/sˌɛləbrˈeɪʃən/",
-    "chinese": "慶祝；慶典",
-    "collocations": [
-      {
-        "en": "hold a celebration",
-        "zh": "舉行慶祝"
-      },
-      {
-        "en": "in celebration of",
-        "zh": "慶祝…"
-      },
-      {
-        "en": "birthday celebration",
-        "zh": "生日慶典"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The school held a **celebration** for students who excelled in the national exam.",
-        "target": "celebration"
-      },
-      {
-        "en": "Fireworks lit the sky **in celebration of** the New Year.",
-        "target": "in celebration of"
-      }
-    ],
-    "synonyms": [
-      "party",
-      "festivity",
-      "commemoration"
-    ],
-    "grammar_note": "celebrate (v.); celebration (n.); in celebration of = 為慶祝…",
-    "chinese_sentence": "學校為在全國考試中表現優異的學生舉辦了一場盛大的表揚慶典。",
-    "word_family": "celebrate · celebration"
-  },
-  {
-    "word": "catalogue",
-    "pos": "n./v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/kˈætəlˌɔɡ/",
-    "chinese": "目錄；型錄；列出",
-    "collocations": [
-      {
-        "en": "library catalogue",
-        "zh": "圖書館目錄"
-      },
-      {
-        "en": "product catalogue",
-        "zh": "產品目錄"
-      },
-      {
-        "en": "catalogue errors",
-        "zh": "列出錯誤"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She searched the library **catalogue** to find books on climate change.",
-        "target": "catalogue"
-      },
-      {
-        "en": "The report **catalogued** all the violations found during the inspection.",
-        "target": "catalogued"
-      }
-    ],
-    "synonyms": [
-      "list",
-      "directory",
-      "index"
-    ],
-    "grammar_note": "catalogue/catalog (n./v.); catalogue = 系統性的列表",
-    "chinese_sentence": "她在圖書館線上目錄中搜尋氣候變遷相關書籍，找到了十幾本參考資料。",
-    "word_family": "catalog · catalogue"
-  },
-  {
-    "word": "clash",
-    "pos": "n./v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/klˈæʃ/",
-    "chinese": "衝突；碰撞；格格不入",
-    "collocations": [
-      {
-        "en": "clash of cultures",
-        "zh": "文化衝突"
-      },
-      {
-        "en": "clash with",
-        "zh": "與…衝突"
-      },
-      {
-        "en": "color clash",
-        "zh": "顏色不協調"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The two students had a **clash** of opinions during the debate.",
-        "target": "clash"
-      },
-      {
-        "en": "Her schedule **clashed with** the exam date, causing her a lot of stress.",
-        "target": "clashed with"
-      }
-    ],
-    "synonyms": [
-      "conflict",
-      "collision",
-      "disagree"
-    ],
-    "grammar_note": "clash (n./v.); clash with sb./sth. = 與某人/事衝突或時間衝突",
-    "chinese_sentence": "她的行程與考試日期衝突，讓她陷入進退兩難的困境。",
-    "word_family": ""
-  },
-  {
-    "word": "circular",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/sˈɝkjəlɚ/",
-    "chinese": "圓形的；循環的；通告",
-    "collocations": [
-      {
-        "en": "circular motion",
-        "zh": "圓周運動"
-      },
-      {
-        "en": "circular argument",
-        "zh": "循環論證"
-      },
-      {
-        "en": "send a circular",
-        "zh": "發通告"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The planets move in **circular** orbits around the Sun.",
-        "target": "circular"
-      },
-      {
-        "en": "His argument was **circular** — he kept repeating the same point without evidence.",
-        "target": "circular"
-      }
-    ],
-    "synonyms": [
-      "round",
-      "cyclic",
-      "newsletter"
-    ],
-    "grammar_note": "circle (n.); circular (adj./n.); a circular argument = 循環論證（無說服力）",
-    "chinese_sentence": "他的論點是一個典型的循環論證，反覆引用自己的主張作為佐證。",
-    "word_family": "circle · circuit · circular"
-  },
-  {
-    "word": "coarse",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/kˈɔrs/",
-    "chinese": "粗糙的；粗俗的；粗粒的",
-    "collocations": [
-      {
-        "en": "coarse fabric",
-        "zh": "粗糙的布料"
-      },
-      {
-        "en": "coarse language",
-        "zh": "粗魯的語言"
-      },
-      {
-        "en": "coarse texture",
-        "zh": "粗粒質地"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **coarse** surface of the sandpaper scraped her fingers.",
-        "target": "coarse"
-      },
-      {
-        "en": "His **coarse** jokes made everyone in the room uncomfortable.",
-        "target": "coarse"
-      }
-    ],
-    "synonyms": [
-      "rough",
-      "crude",
-      "vulgar"
-    ],
-    "grammar_note": "coarse (adj.) ↔ fine/smooth; coarsely (adv.); coarseness (n.); coarse ≠ course",
-    "chinese_sentence": "他在會議中說的粗俗笑話讓現場所有人都感到非常尷尬和不適。",
-    "word_family": "coarse · coarsely · coarseness"
-  },
-  {
-    "word": "collapse",
-    "pos": "n./v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/kəlˈæps/",
-    "chinese": "倒塌；崩潰；暈倒",
-    "collocations": [
-      {
-        "en": "economic collapse",
-        "zh": "經濟崩潰"
-      },
-      {
-        "en": "collapse under pressure",
-        "zh": "在壓力下崩潰"
-      },
-      {
-        "en": "building collapse",
-        "zh": "建築物倒塌"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The old bridge **collapsed** during the earthquake.",
-        "target": "collapsed"
-      },
-      {
-        "en": "She nearly **collapsed** from exhaustion after the marathon.",
-        "target": "collapsed"
-      }
-    ],
-    "synonyms": [
-      "fall apart",
-      "break down",
-      "cave in"
-    ],
-    "grammar_note": "collapse (v./n.); collapsible (adj.) = 可折疊的; collapse under = 在…下崩潰",
-    "chinese_sentence": "她在馬拉松終點衝線後幾乎因精力耗盡而昏倒，被志工緊急攙扶。",
-    "word_family": "collapse · collapsible"
-  },
-  {
-    "word": "construction",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/kənstrˈahkʃən/",
-    "chinese": "建設；建造；建築物",
-    "collocations": [
-      {
-        "en": "under construction",
-        "zh": "施工中"
-      },
-      {
-        "en": "construction site",
-        "zh": "工地"
-      },
-      {
-        "en": "construction worker",
-        "zh": "建築工人"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The new library is **under construction** and will open next year.",
-        "target": "under construction"
-      },
-      {
-        "en": "The noise from the **construction** site made it hard to concentrate.",
-        "target": "construction"
-      }
-    ],
-    "synonyms": [
-      "building",
-      "assembly",
-      "development"
-    ],
-    "grammar_note": "construct (v.); construction (n.); under construction = 正在施工中",
-    "chinese_sentence": "新圖書館正在興建中，預計明年開放，館藏將大幅增加。",
-    "word_family": "construct · construction · constructive · constructively"
-  },
-  {
-    "word": "conquer",
-    "pos": "v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/kˈɑŋkɚ/",
-    "chinese": "征服；攻克；克服",
-    "collocations": [
-      {
-        "en": "conquer a fear",
-        "zh": "克服恐懼"
-      },
-      {
-        "en": "conquer the market",
-        "zh": "征服市場"
-      },
-      {
-        "en": "divide and conquer",
-        "zh": "分而治之"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She **conquered** her fear of public speaking through practice.",
-        "target": "conquered"
-      },
-      {
-        "en": "The athlete **conquered** every obstacle on his road to the championship.",
-        "target": "conquered"
-      }
-    ],
-    "synonyms": [
-      "overcome",
-      "defeat",
-      "master"
-    ],
-    "grammar_note": "conquer (v.); conqueror (n.); conquest (n.); conquer sth. = 克服/征服某事",
-    "chinese_sentence": "她透過不斷練習和自我挑戰，終於克服了對公開演講的恐懼。",
-    "word_family": "conquer · conqueror · conquest"
-  },
-  {
-    "word": "concrete",
-    "pos": "adj./n./v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/kənkrˈit/",
-    "chinese": "混凝土；具體的；確實的",
-    "collocations": [
-      {
-        "en": "concrete evidence",
-        "zh": "確切證據"
-      },
-      {
-        "en": "concrete plan",
-        "zh": "具體計畫"
-      },
-      {
-        "en": "poured concrete",
-        "zh": "澆灌混凝土"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The teacher asked for **concrete** examples to support the argument.",
-        "target": "concrete"
-      },
-      {
-        "en": "The building was made of steel and **concrete**.",
-        "target": "concrete"
-      }
-    ],
-    "synonyms": [
-      "specific",
-      "definite",
-      "tangible"
-    ],
-    "grammar_note": "concrete (adj./n.); concretely (adv.); abstract ↔ concrete; concrete = 混凝土（名詞）",
-    "chinese_sentence": "老師要求學生在論文中提供具體的例子來支撐自己的論點。",
-    "word_family": "concrete · concretely"
-  },
-  {
-    "word": "contrary",
-    "pos": "n./adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/kˈɑntrɛri/",
-    "chinese": "相反的；對立的；反面",
-    "collocations": [
-      {
-        "en": "on the contrary",
-        "zh": "相反地"
-      },
-      {
-        "en": "contrary to",
-        "zh": "與…相反"
-      },
-      {
-        "en": "to the contrary",
-        "zh": "相反的"
-      }
-    ],
-    "examples": [
-      {
-        "en": "**On the contrary**, I enjoyed the exam — it tested my real understanding.",
-        "target": "On the contrary"
-      },
-      {
-        "en": "**Contrary to** popular belief, goldfish have good memories.",
-        "target": "Contrary to"
-      }
-    ],
-    "synonyms": [
-      "opposite",
-      "opposing",
-      "conflicting"
-    ],
-    "grammar_note": "contrary to sth. = 與某事相反; on the contrary = 相反地（反駁上文）",
-    "chinese_sentence": "與一般人的認知相反，金魚的記憶力其實相當不錯。",
-    "word_family": ""
-  },
-  {
-    "word": "conventional",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/kənvˈɛnʃənəl/",
-    "chinese": "傳統的；習俗的；慣例的",
-    "collocations": [
-      {
-        "en": "conventional wisdom",
-        "zh": "傳統智慧"
-      },
-      {
-        "en": "conventional method",
-        "zh": "傳統方法"
-      },
-      {
-        "en": "non-conventional",
-        "zh": "非傳統的"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **conventional** view is that hard work always leads to success.",
-        "target": "conventional"
-      },
-      {
-        "en": "She challenged **conventional** thinking with her innovative approach.",
-        "target": "conventional"
-      }
-    ],
-    "synonyms": [
-      "traditional",
-      "standard",
-      "customary"
-    ],
-    "grammar_note": "convention (n.); conventional (adj.); conventionally (adv.); unconventional = 非傳統的",
-    "chinese_sentence": "她以創新的方式挑戰傳統思維，提出了許多令人耳目一新的觀點。",
-    "word_family": "convene · convention · conventional · conventionally"
-  },
-  {
-    "word": "cooperate",
-    "pos": "v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/koʊˈɑpɚˌeɪt/",
-    "chinese": "合作；協作；配合",
-    "collocations": [
-      {
-        "en": "cooperate with",
-        "zh": "與…合作"
-      },
-      {
-        "en": "cooperate on a project",
-        "zh": "在專案上合作"
-      },
-      {
-        "en": "refuse to cooperate",
-        "zh": "拒絕合作"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Students must learn to **cooperate** with others to succeed in group work.",
-        "target": "cooperate"
-      },
-      {
-        "en": "The suspect refused to **cooperate** with the police investigation.",
-        "target": "cooperate"
-      }
-    ],
-    "synonyms": [
-      "collaborate",
-      "work together",
-      "assist"
-    ],
-    "grammar_note": "cooperate (v.); cooperation (n.); cooperative (adj.); cooperate with sb. on sth.",
-    "chinese_sentence": "學生在小組作業中必須學會與他人合作，這是非常重要的社交能力。",
-    "word_family": "cooperate · cooperation · cooperative · cooperatively"
-  },
-  {
-    "word": "critical",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/krˈɪtɪkəl/",
-    "chinese": "批評的；關鍵的；危急的",
-    "collocations": [
-      {
-        "en": "critical thinking",
-        "zh": "批判性思考"
-      },
-      {
-        "en": "critical condition",
-        "zh": "危急狀況"
-      },
-      {
-        "en": "be critical of",
-        "zh": "批評…"
-      }
-    ],
-    "examples": [
-      {
-        "en": "**Critical thinking** is one of the most valuable skills students can develop.",
-        "target": "Critical thinking"
-      },
-      {
-        "en": "She was **critical of** the way the school handled the situation.",
-        "target": "critical of"
-      }
-    ],
-    "synonyms": [
-      "analytical",
-      "crucial",
-      "fault-finding"
-    ],
-    "grammar_note": "criticize (v.); critic (n.); critically (adv.); critical = 批判的/危急的/關鍵的（多義）",
-    "chinese_sentence": "批判性思考是學生在學校最應該培養的核心能力之一。",
-    "word_family": "critic · critical · critically · criticism · criticize"
-  },
-  {
-    "word": "damp",
-    "pos": "adj./n./v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/dˈæmp/",
-    "chinese": "潮濕的；使潮濕；抑制",
-    "collocations": [
-      {
-        "en": "damp weather",
-        "zh": "潮濕的天氣"
-      },
-      {
-        "en": "damp cloth",
-        "zh": "濕布"
-      },
-      {
-        "en": "damp spirits",
-        "zh": "掃興/壓抑情緒"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **damp** weather in spring makes it hard to dry laundry.",
-        "target": "damp"
-      },
-      {
-        "en": "The bad news **dampened** everyone's excitement about the trip.",
-        "target": "dampened"
-      }
-    ],
-    "synonyms": [
-      "moist",
-      "humid",
-      "wet"
-    ],
-    "grammar_note": "damp (adj./v./n.); dampen (v.) = 使潮濕/抑制; damp ≠ soaking wet",
-    "chinese_sentence": "壞消息傳來，澆滅了所有人對這趟旅行原本充滿的興奮期待。",
-    "word_family": "damp · dampen"
-  },
-  {
-    "word": "defensible",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/dɪfˈɛnsəbəl/",
-    "chinese": "可辯護的；站得住腳的；可防守的",
-    "collocations": [
-      {
-        "en": "morally defensible",
-        "zh": "道德上說得通的"
-      },
-      {
-        "en": "defensible position",
-        "zh": "可辯護的立場"
-      },
-      {
-        "en": "barely defensible",
-        "zh": "勉強站得住腳的"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Her argument was **defensible** but lacked strong supporting evidence.",
-        "target": "defensible"
-      },
-      {
-        "en": "The general chose a **defensible** hill for the army's camp.",
-        "target": "defensible"
-      }
-    ],
-    "synonyms": [
-      "justifiable",
-      "tenable",
-      "reasonable"
-    ],
-    "grammar_note": "defend (v.); defensible (adj.) = 可辯護/可防守的; indefensible = 無法辯護的",
-    "chinese_sentence": "她的論點雖然站得住腳，但缺乏強而有力的佐證，說服力不足。",
-    "word_family": "defence · defend · defendant · defense · defensible · defensive · defensively"
-  },
-  {
-    "word": "delicate",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/dˈɛləkət/",
-    "chinese": "精緻的；微妙的；脆弱的；細膩的",
-    "collocations": [
-      {
-        "en": "delicate situation",
-        "zh": "微妙的情況"
-      },
-      {
-        "en": "delicate balance",
-        "zh": "微妙的平衡"
-      },
-      {
-        "en": "delicate flower",
-        "zh": "嬌嫩的花朵"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The negotiations required a **delicate** balance of firmness and flexibility.",
-        "target": "delicate"
-      },
-      {
-        "en": "She handled the **delicate** porcelain vase with extreme care.",
-        "target": "delicate"
-      }
-    ],
-    "synonyms": [
-      "fragile",
-      "subtle",
-      "refined"
-    ],
-    "grammar_note": "delicately (adv.); delicacy (n.) = 精緻/珍饈; delicate ≠ robust",
-    "chinese_sentence": "這場談判需要在堅定立場與靈活讓步之間保持微妙的平衡。",
-    "word_family": "delicacy · delicate · delicately"
-  },
-  {
-    "word": "depart",
-    "pos": "v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/dɪpˈɑrt/",
-    "chinese": "出發；離開；背離",
-    "collocations": [
-      {
-        "en": "depart from",
-        "zh": "從…出發/偏離"
-      },
-      {
-        "en": "depart for",
-        "zh": "前往…出發"
-      },
-      {
-        "en": "departure time",
-        "zh": "出發時間"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The train **departs** from Platform 3 at exactly 8:00 a.m.",
-        "target": "departs"
-      },
-      {
-        "en": "This new policy **departs from** traditional educational approaches.",
-        "target": "departs from"
-      }
-    ],
-    "synonyms": [
-      "leave",
-      "set off",
-      "deviate"
-    ],
-    "grammar_note": "depart (v.); departure (n.); depart from = 從…離開/偏離某事",
-    "chinese_sentence": "那班火車從第三月台準點出發，乘客請提早到達確保順利登車。",
-    "word_family": "depart · departure"
-  },
-  {
-    "word": "device",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/dɪvˈaɪs/",
-    "chinese": "設備；裝置；手段",
-    "collocations": [
-      {
-        "en": "electronic device",
-        "zh": "電子設備"
-      },
-      {
-        "en": "mobile device",
-        "zh": "行動裝置"
-      },
-      {
-        "en": "literary device",
-        "zh": "文學手法"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Students are not permitted to use electronic **devices** during the exam.",
-        "target": "devices"
-      },
-      {
-        "en": "The story used flashbacks as a narrative **device** to reveal the mystery.",
-        "target": "device"
-      }
-    ],
-    "synonyms": [
-      "gadget",
-      "tool",
-      "instrument"
-    ],
-    "grammar_note": "device (n.) = 設備/手段; devise (v.) = 設計/想出; do not confuse",
-    "chinese_sentence": "考試期間，學生不得攜帶或使用任何電子設備，違者取消考試資格。",
-    "word_family": "device · devise · deviser"
-  },
-  {
-    "word": "divine",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/dɪvˈaɪn/",
-    "chinese": "神聖的；神的；極好的",
-    "collocations": [
-      {
-        "en": "divine power",
-        "zh": "神聖力量"
-      },
-      {
-        "en": "divine intervention",
-        "zh": "神的干預"
-      },
-      {
-        "en": "divine food",
-        "zh": "美妙的食物"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Many ancient cultures believed that floods were a sign of **divine** anger.",
-        "target": "divine"
-      },
-      {
-        "en": "The chocolate cake was absolutely **divine**!",
-        "target": "divine"
-      }
-    ],
-    "synonyms": [
-      "holy",
-      "sacred",
-      "heavenly"
-    ],
-    "grammar_note": "divinity (n.); divinely (adv.); divine (adj.) = 神聖的（正式）或美極了（口語）",
-    "chinese_sentence": "許多古代文明認為洪水和地震是神明憤怒的徵兆，予以膜拜祈求。",
-    "word_family": "divine · divinely · divinity"
-  },
-  {
-    "word": "distinct",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/dɪstˈɪŋkt/",
-    "chinese": "明顯的；截然不同的；清楚的",
-    "collocations": [
-      {
-        "en": "distinct difference",
-        "zh": "明顯的差異"
-      },
-      {
-        "en": "distinctly different",
-        "zh": "截然不同"
-      },
-      {
-        "en": "distinct advantage",
-        "zh": "明顯優勢"
-      }
-    ],
-    "examples": [
-      {
-        "en": "There is a **distinct** difference between confidence and arrogance.",
-        "target": "distinct"
-      },
-      {
-        "en": "The two dialects are quite **distinct** from each other.",
-        "target": "distinct"
-      }
-    ],
-    "synonyms": [
-      "clear",
-      "different",
-      "separate"
-    ],
-    "grammar_note": "distinct (adj.); distinction (n.); distinctive (adj.) = 獨特顯著的; distinctly (adv.)",
-    "chinese_sentence": "自信與自大之間有著非常明顯的差別，值得每個人仔細思考。",
-    "word_family": "distinct · distinction · distinctive · distinctively · distinctly"
-  },
-  {
     "word": "economic",
     "pos": "adj.",
-    "chapter": "Mind and Emotion",
+    "chapter": "Society and Communication",
     "kk": "/ˌɛkənˈɑmɪk/",
     "chinese": "經濟的；經濟上的",
     "collocations": [
@@ -16891,11 +15994,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The country experienced rapid **economic** growth over the past decade.",
+        "en": "The country experienced rapid economic growth over the past decade.",
         "target": "economic"
       },
       {
-        "en": "The government introduced several **economic** reforms to reduce unemployment.",
+        "en": "The government introduced several economic reforms to reduce unemployment.",
         "target": "economic"
       }
     ],
@@ -16909,669 +16012,9 @@ const LEVEL_4_DATA = [
     "word_family": "economic · economical · economics · economist · economize · economy"
   },
   {
-    "word": "dynamic",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/daɪnˈæmɪk/",
-    "chinese": "充滿活力的；動態的；動力",
-    "collocations": [
-      {
-        "en": "dynamic personality",
-        "zh": "充滿活力的個性"
-      },
-      {
-        "en": "dynamic change",
-        "zh": "動態變化"
-      },
-      {
-        "en": "team dynamics",
-        "zh": "團隊動力"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She is a **dynamic** speaker who keeps the audience engaged.",
-        "target": "dynamic"
-      },
-      {
-        "en": "The **dynamics** of the team changed after the new member joined.",
-        "target": "dynamics"
-      }
-    ],
-    "synonyms": [
-      "energetic",
-      "lively",
-      "vibrant"
-    ],
-    "grammar_note": "dynamic (adj./n.); dynamics (n. pl.) = 力學/動態關係; dynamically (adv.)",
-    "chinese_sentence": "她是一位充滿活力的演講者，總是能牢牢抓住聽眾的注意力。",
-    "word_family": "dynamic · dynamically"
-  },
-  {
-    "word": "elegant",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/ˈɛləɡənt/",
-    "chinese": "優雅的；雅致的",
-    "collocations": [
-      {
-        "en": "elegant style",
-        "zh": "優雅的風格"
-      },
-      {
-        "en": "elegant solution",
-        "zh": "簡潔優雅的解法"
-      },
-      {
-        "en": "an elegant dress",
-        "zh": "一件優雅的禮服"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She wore an **elegant** gown to the graduation ceremony.",
-        "target": "elegant"
-      },
-      {
-        "en": "The mathematician found an **elegant** proof for the theorem.",
-        "target": "elegant"
-      }
-    ],
-    "synonyms": [
-      "graceful",
-      "refined",
-      "sophisticated"
-    ],
-    "grammar_note": "elegance (n.); elegantly (adv.); elegant solution = 簡潔有力的解法（數學/工程）",
-    "chinese_sentence": "她在畢業典禮上穿著一件優雅的禮服，氣質出眾，令眾人印象深刻。",
-    "word_family": "elegance · elegant · elegantly"
-  },
-  {
-    "word": "embarrass(ment)",
-    "pos": "v./n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/ɪmbˈɛrəs/",
-    "chinese": "使尷尬；難為情；困窘",
-    "collocations": [
-      {
-        "en": "feel embarrassed",
-        "zh": "感到尷尬"
-      },
-      {
-        "en": "to sb.'s embarrassment",
-        "zh": "令某人難堪地"
-      },
-      {
-        "en": "cause embarrassment",
-        "zh": "造成困窘"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She felt **embarrassed** when she mispronounced the teacher's name.",
-        "target": "embarrassed"
-      },
-      {
-        "en": "To his great **embarrassment**, he tripped in front of the whole class.",
-        "target": "embarrassment"
-      }
-    ],
-    "synonyms": [
-      "ashamed",
-      "awkward",
-      "humiliated"
-    ],
-    "grammar_note": "embarrass (v.); embarrassing (adj.) = 令人尷尬的; embarrassed (adj.) = 感到尷尬的",
-    "chinese_sentence": "她在全班面前唸錯老師的名字，當場窘到臉紅耳赤。",
-    "word_family": "embarrass · embarrassed · embarrassing"
-  },
-  {
-    "word": "enthusiasm",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/ɪnθˈuziˌæzəm/",
-    "chinese": "熱情；熱忱；積極性",
-    "collocations": [
-      {
-        "en": "great enthusiasm",
-        "zh": "極大的熱情"
-      },
-      {
-        "en": "enthusiasm for",
-        "zh": "對…的熱忱"
-      },
-      {
-        "en": "show enthusiasm",
-        "zh": "展現熱情"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Her **enthusiasm** for learning new languages motivated the whole class.",
-        "target": "enthusiasm"
-      },
-      {
-        "en": "He approached every task with great **enthusiasm** and positivity.",
-        "target": "enthusiasm"
-      }
-    ],
-    "synonyms": [
-      "passion",
-      "eagerness",
-      "excitement"
-    ],
-    "grammar_note": "enthusiastic (adj.); enthusiastically (adv.); enthusiasm for sth.",
-    "chinese_sentence": "她對學習新語言的熱情感染了整個班級，大家也開始積極練習口說。",
-    "word_family": "enthusiasm · enthusiastic · enthusiastically"
-  },
-  {
-    "word": "eventual",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/əvˈɛntʃuəl/",
-    "chinese": "最終的；結果的",
-    "collocations": [
-      {
-        "en": "eventual success",
-        "zh": "最終成功"
-      },
-      {
-        "en": "eventual outcome",
-        "zh": "最終結果"
-      },
-      {
-        "en": "eventual winner",
-        "zh": "最終勝利者"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Her hard work led to her **eventual** success in the national competition.",
-        "target": "eventual"
-      },
-      {
-        "en": "The **eventual** outcome of the negotiation surprised both parties.",
-        "target": "eventual"
-      }
-    ],
-    "synonyms": [
-      "final",
-      "ultimate",
-      "resulting"
-    ],
-    "grammar_note": "eventually (adv.) = 最終地; eventual (adj.) = 最終的; do not confuse with 'eventful'",
-    "chinese_sentence": "她的努力最終換來了在全國比賽中脫穎而出的成功，令人振奮。",
-    "word_family": "eventual · eventually"
-  },
-  {
-    "word": "expansion",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/ɪkspˈænʃən/",
-    "chinese": "擴張；擴展；膨脹",
-    "collocations": [
-      {
-        "en": "business expansion",
-        "zh": "業務擴張"
-      },
-      {
-        "en": "rapid expansion",
-        "zh": "快速擴張"
-      },
-      {
-        "en": "expansion plan",
-        "zh": "擴張計畫"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The school approved a major **expansion** plan to add four new classrooms.",
-        "target": "expansion"
-      },
-      {
-        "en": "The **expansion** of the internet has connected billions of people worldwide.",
-        "target": "expansion"
-      }
-    ],
-    "synonyms": [
-      "growth",
-      "extension",
-      "enlargement"
-    ],
-    "grammar_note": "expand (v.); expansion (n.); expansive (adj.) = 廣闊的/健談的",
-    "chinese_sentence": "學校批准了一項重大擴建計畫，新增四間教室以應對持續增加的學生人數。",
-    "word_family": "expand · expansion · expansive"
-  },
-  {
-    "word": "financial",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/fənˈænʃəl/",
-    "chinese": "財務的；金融的",
-    "collocations": [
-      {
-        "en": "financial support",
-        "zh": "財務支援"
-      },
-      {
-        "en": "financial crisis",
-        "zh": "金融危機"
-      },
-      {
-        "en": "financial aid",
-        "zh": "助學金"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She received **financial** aid from the school to continue her studies.",
-        "target": "financial"
-      },
-      {
-        "en": "The country faced a severe **financial** crisis in the early 2000s.",
-        "target": "financial"
-      }
-    ],
-    "synonyms": [
-      "monetary",
-      "economic",
-      "fiscal"
-    ],
-    "grammar_note": "finance (n.); financially (adv.); financial (adj.); financial year = 會計年度",
-    "chinese_sentence": "她獲得學校的助學金補助，得以繼續完成她的高中學業。",
-    "word_family": "finance · financial · financially"
-  },
-  {
-    "word": "farewell",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/fˌɛrwˈɛl/",
-    "chinese": "再見；告別；告別的",
-    "collocations": [
-      {
-        "en": "farewell party",
-        "zh": "告別派對"
-      },
-      {
-        "en": "bid farewell",
-        "zh": "道別"
-      },
-      {
-        "en": "farewell speech",
-        "zh": "告別演說"
-      }
-    ],
-    "examples": [
-      {
-        "en": "They held a **farewell** party for the exchange student leaving for home.",
-        "target": "farewell"
-      },
-      {
-        "en": "She **bid farewell** to her hometown and moved to the city for university.",
-        "target": "bid farewell"
-      }
-    ],
-    "synonyms": [
-      "goodbye",
-      "send-off",
-      "parting"
-    ],
-    "grammar_note": "farewell (n./int.); bid farewell to = 告別; farewell party = 送別會",
-    "chinese_sentence": "朋友們為即將返回家鄉的交換生舉辦了一場溫馨的告別派對。",
-    "word_family": ""
-  },
-  {
-    "word": "flexible",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/flˈɛksəbəl/",
-    "chinese": "有彈性的；靈活的；可彎曲的",
-    "collocations": [
-      {
-        "en": "flexible schedule",
-        "zh": "彈性時間"
-      },
-      {
-        "en": "flexible approach",
-        "zh": "靈活的方法"
-      },
-      {
-        "en": "flexible thinking",
-        "zh": "靈活的思維"
-      }
-    ],
-    "examples": [
-      {
-        "en": "A **flexible** schedule allows students to manage their study and rest time.",
-        "target": "flexible"
-      },
-      {
-        "en": "The company offers **flexible** working hours to improve employee satisfaction.",
-        "target": "flexible"
-      }
-    ],
-    "synonyms": [
-      "adaptable",
-      "adjustable",
-      "pliable"
-    ],
-    "grammar_note": "flexibility (n.); inflexible ↔ flexible; flexibly (adv.)",
-    "chinese_sentence": "彈性的工作時間讓員工能夠更好地平衡工作與個人生活。",
-    "word_family": "flexibility · flexible · flexibly · inflexible"
-  },
-  {
-    "word": "fortunate",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/fˈɔrtʃənət/",
-    "chinese": "幸運的；幸福的",
-    "collocations": [
-      {
-        "en": "be fortunate to",
-        "zh": "幸運地能"
-      },
-      {
-        "en": "fortunate circumstance",
-        "zh": "幸運的情況"
-      },
-      {
-        "en": "less fortunate",
-        "zh": "較不幸的人"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She was **fortunate** to receive a full scholarship to study abroad.",
-        "target": "fortunate"
-      },
-      {
-        "en": "We should help those who are less **fortunate** than ourselves.",
-        "target": "fortunate"
-      }
-    ],
-    "synonyms": [
-      "lucky",
-      "blessed",
-      "privileged"
-    ],
-    "grammar_note": "fortunately (adv.); fortune (n.); fortunate ↔ unfortunate",
-    "chinese_sentence": "她非常幸運地獲得了一份全額獎學金，得以出國留學深造。",
-    "word_family": "fortunate · fortunately · fortune · misfortune"
-  },
-  {
-    "word": "functional",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/fˈahŋkʃənəl/",
-    "chinese": "功能性的；實用的；運作正常的",
-    "collocations": [
-      {
-        "en": "fully functional",
-        "zh": "完全正常運作"
-      },
-      {
-        "en": "functional design",
-        "zh": "功能性設計"
-      },
-      {
-        "en": "functional skills",
-        "zh": "實用技能"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The new school website is now **fully functional** and easy to navigate.",
-        "target": "fully functional"
-      },
-      {
-        "en": "A good essay should be both **functional** and creative.",
-        "target": "functional"
-      }
-    ],
-    "synonyms": [
-      "practical",
-      "operational",
-      "working"
-    ],
-    "grammar_note": "function (n./v.); functional (adj.); functionally (adv.)",
-    "chinese_sentence": "新的學校官網已經完全正常運作，介面簡潔清晰，方便師生使用。",
-    "word_family": "function · functional · functionally"
-  },
-  {
-    "word": "furnish",
-    "pos": "v.",
-    "chapter": "Mind and Emotion",
-    "kk": "/fˈɝnɪʃ/",
-    "chinese": "提供；裝設家具；配備",
-    "collocations": [
-      {
-        "en": "furnish a room",
-        "zh": "為房間配置家具"
-      },
-      {
-        "en": "furnish sb. with",
-        "zh": "提供某人…"
-      },
-      {
-        "en": "well-furnished",
-        "zh": "家具齊全的"
-      }
-    ],
-    "examples": [
-      {
-        "en": "They **furnished** the new apartment with simple but modern furniture.",
-        "target": "furnished"
-      },
-      {
-        "en": "The librarian **furnished** students with a list of recommended readings.",
-        "target": "furnished"
-      }
-    ],
-    "synonyms": [
-      "equip",
-      "supply",
-      "provide"
-    ],
-    "grammar_note": "furnish (v.); furniture (n.) = 家具（不可數）; furnished (adj.) = 有家具的",
-    "chinese_sentence": "他們用簡約而現代的家具裝設了新公寓，讓空間看起來乾淨舒適。",
-    "word_family": "furnish · furnished · furniture"
-  },
-  {
-    "word": "gigantic",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/dʒaɪɡˈæntɪk/",
-    "chinese": "巨大的；龐大的",
-    "collocations": [
-      {
-        "en": "gigantic size",
-        "zh": "龐大的尺寸"
-      },
-      {
-        "en": "gigantic effort",
-        "zh": "巨大的努力"
-      },
-      {
-        "en": "gigantic wave",
-        "zh": "巨浪"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The new shopping mall is **gigantic** — it has over 500 stores.",
-        "target": "gigantic"
-      },
-      {
-        "en": "She put in a **gigantic** effort to prepare for the international debate.",
-        "target": "gigantic"
-      }
-    ],
-    "synonyms": [
-      "enormous",
-      "huge",
-      "massive"
-    ],
-    "grammar_note": "gigantically (adv.); gigantic ≈ enormous ≈ massive; gigantic 語氣更強烈",
-    "chinese_sentence": "那座新購物中心規模龐大，擁有五百多家商店，是目前全國最大的。",
-    "word_family": "gigantic · gigantically"
-  },
-  {
-    "word": "graduation",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/ɡrˌædʒuˈeɪʃən/",
-    "chinese": "畢業；畢業典禮",
-    "collocations": [
-      {
-        "en": "graduation ceremony",
-        "zh": "畢業典禮"
-      },
-      {
-        "en": "graduation day",
-        "zh": "畢業日"
-      },
-      {
-        "en": "upon graduation",
-        "zh": "畢業後"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Her parents flew in from overseas to attend her **graduation** ceremony.",
-        "target": "graduation"
-      },
-      {
-        "en": "**Upon graduation**, she plans to apply for a master's degree program.",
-        "target": "Upon graduation"
-      }
-    ],
-    "synonyms": [
-      "commencement",
-      "completion"
-    ],
-    "grammar_note": "graduate (v./n.); graduation (n.); graduate from = 從…畢業",
-    "chinese_sentence": "她的父母特地從海外飛回來，參加她人生中最重要的畢業典禮。",
-    "word_family": "graduate · graduation"
-  },
-  {
-    "word": "guilty",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/ɡˈɪlti/",
-    "chinese": "有罪的；感到內疚的",
-    "collocations": [
-      {
-        "en": "feel guilty",
-        "zh": "感到內疚"
-      },
-      {
-        "en": "plead guilty",
-        "zh": "認罪"
-      },
-      {
-        "en": "guilty conscience",
-        "zh": "內疚的良心"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She felt **guilty** about missing her friend's birthday party.",
-        "target": "guilty"
-      },
-      {
-        "en": "The defendant **pleaded guilty** to the charges in court.",
-        "target": "guilty"
-      }
-    ],
-    "synonyms": [
-      "remorseful",
-      "culpable",
-      "ashamed"
-    ],
-    "grammar_note": "guilty of sth. = 犯了某罪; feel guilty about = 對…感到內疚; guilt (n.)",
-    "chinese_sentence": "她因為缺席了摯友的生日派對而感到非常內疚，決定送上特別的補償禮物。",
-    "word_family": "guilt · guilty"
-  },
-  {
-    "word": "greeting(s)",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/ɡrˈitɪŋ/",
-    "chinese": "問候；打招呼；祝賀",
-    "collocations": [
-      {
-        "en": "warm greetings",
-        "zh": "熱情的問候"
-      },
-      {
-        "en": "exchange greetings",
-        "zh": "互相打招呼"
-      },
-      {
-        "en": "season's greetings",
-        "zh": "節慶問候"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She exchanged **greetings** with her classmates before class started.",
-        "target": "greetings"
-      },
-      {
-        "en": "Please send my **greetings** to your family.",
-        "target": "greetings"
-      }
-    ],
-    "synonyms": [
-      "hello",
-      "salutation",
-      "welcome"
-    ],
-    "grammar_note": "greet (v.); greeting (n.); season's greetings = 節慶問候（常用於賀卡）",
-    "chinese_sentence": "上課前，她與班上同學熱情地打招呼，教室裡充滿了歡笑聲。",
-    "word_family": "greet · greeting"
-  },
-  {
-    "word": "hippopotamus/hippo",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "",
-    "chinese": "河馬",
-    "collocations": [
-      {
-        "en": "river hippo",
-        "zh": "河馬"
-      },
-      {
-        "en": "pygmy hippo",
-        "zh": "侏儒河馬"
-      },
-      {
-        "en": "hippo attack",
-        "zh": "河馬攻擊"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **hippo** spent most of the day cooling off in the muddy river.",
-        "target": "hippo"
-      },
-      {
-        "en": "Despite their size, **hippos** are considered one of the most dangerous animals in Africa.",
-        "target": "hippos"
-      }
-    ],
-    "synonyms": [
-      "large semi-aquatic mammal"
-    ],
-    "grammar_note": "hippo = 河馬的縮寫; plural: hippopotamuses or hippopotami",
-    "chinese_sentence": "河馬雖然看起來笨重遲緩，卻被公認為非洲最危險的動物之一。",
-    "word_family": ""
-  },
-  {
     "word": "horrify",
     "pos": "v.",
-    "chapter": "Mind and Emotion",
+    "chapter": "Society and Communication",
     "kk": "/hˈɔrəfˌaɪ/",
     "chinese": "使恐懼；使驚嚇；使震驚",
     "collocations": [
@@ -17612,6 +16055,1797 @@ const LEVEL_4_DATA = [
     "word_family": "horrible · horrified · horrify · horrifying · horror"
   },
   {
+    "word": "sue",
+    "pos": "v.",
+    "chapter": "Society and Communication",
+    "kk": "/sˈu/",
+    "chinese": "起訴；提告；控告",
+    "collocations": [
+      {
+        "en": "sue for damages",
+        "zh": "索賠提告"
+      },
+      {
+        "en": "threaten to sue",
+        "zh": "威脅提告"
+      },
+      {
+        "en": "sue a company",
+        "zh": "控告公司"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The consumer decided to sue the company for selling a defective product.",
+        "target": "sue"
+      },
+      {
+        "en": "He threatened to sue the newspaper for publishing false information about him.",
+        "target": "sue"
+      }
+    ],
+    "synonyms": [
+      "litigate",
+      "take to court",
+      "prosecute"
+    ],
+    "grammar_note": "sue (v.); lawsuit (n.) = 訴訟; sue sb. for sth. = 因某事控告某人",
+    "chinese_sentence": "那名消費者決定控告公司，因為該公司販售了有嚴重瑕疵的商品。",
+    "word_family": "lawsuit · sue"
+  },
+  {
+    "word": "addict",
+    "pos": "n./v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ədˈɪkt/",
+    "chinese": "上癮者；使成癮",
+    "collocations": [
+      {
+        "en": "drug addict",
+        "zh": "毒品上癮者"
+      },
+      {
+        "en": "be addicted to",
+        "zh": "對…上癮"
+      },
+      {
+        "en": "social media addict",
+        "zh": "社群媒體成癮者"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She became addicted to mobile games and couldn't focus on studying.",
+        "target": "addicted to"
+      },
+      {
+        "en": "A drug addict needs professional help to overcome dependence.",
+        "target": "drug addict"
+      }
+    ],
+    "synonyms": [
+      "dependent",
+      "hooked"
+    ],
+    "grammar_note": "addict (n./v.); addiction (n.); addicted (adj.); addictive (adj.) = 令人上癮的",
+    "chinese_sentence": "她對手機遊戲上癮後，開始無法集中精神讀書，成績也大幅下滑。",
+    "word_family": "accomplish · accomplishment · addict · addicted · addiction · addictive"
+  },
+  {
+    "word": "absorb",
+    "pos": "v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/əbzˈɔrb/",
+    "chinese": "吸收；專注；理解",
+    "collocations": [
+      {
+        "en": "absorb information",
+        "zh": "吸收資訊"
+      },
+      {
+        "en": "be absorbed in",
+        "zh": "全神貫注於"
+      },
+      {
+        "en": "absorb shock",
+        "zh": "吸收衝擊"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She was so absorbed in her book that she didn't hear the bell ring.",
+        "target": "absorbed in"
+      },
+      {
+        "en": "The sponge absorbed all the water from the floor.",
+        "target": "absorbed"
+      }
+    ],
+    "synonyms": [
+      "soak up",
+      "take in",
+      "engross"
+    ],
+    "grammar_note": "absorb (v.); absorption (n.); absorbed in = 全神貫注於; absorbent (adj.) = 吸水的",
+    "chinese_sentence": "她看書看得太入神，沒有聽到下課鈴響，同學叫她好幾聲才回神。",
+    "word_family": "absorb · absorbent · absorption"
+  },
+  {
+    "word": "alert",
+    "pos": "adj./v./n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/əlˈɝt/",
+    "chinese": "警覺的；提醒；警報",
+    "collocations": [
+      {
+        "en": "be on the alert",
+        "zh": "保持警戒"
+      },
+      {
+        "en": "alert sb. to a danger",
+        "zh": "警告某人危險"
+      },
+      {
+        "en": "weather alert",
+        "zh": "天氣警報"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Drivers must stay alert especially during long night drives.",
+        "target": "alert"
+      },
+      {
+        "en": "The teacher alerted students to the upcoming exam schedule changes.",
+        "target": "alerted"
+      }
+    ],
+    "synonyms": [
+      "watchful",
+      "warn",
+      "cautious"
+    ],
+    "grammar_note": "alert (adj./v./n.); alert sb. to sth. = 提醒某人某事; on alert = 處於戒備狀態",
+    "chinese_sentence": "司機在長途夜間行駛時尤其需要保持高度警覺，避免疲勞駕駛。",
+    "word_family": ""
+  },
+  {
+    "word": "aggressive",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/əɡrˈɛsɪv/",
+    "chinese": "侵略的；積極進取的；攻擊性的",
+    "collocations": [
+      {
+        "en": "aggressive behavior",
+        "zh": "攻擊行為"
+      },
+      {
+        "en": "aggressive marketing",
+        "zh": "積極的行銷"
+      },
+      {
+        "en": "be aggressive toward",
+        "zh": "對…具攻擊性"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The dog became aggressive when strangers approached its owner.",
+        "target": "aggressive"
+      },
+      {
+        "en": "The company took an aggressive approach to capturing new markets.",
+        "target": "aggressive"
+      }
+    ],
+    "synonyms": [
+      "hostile",
+      "assertive",
+      "forceful"
+    ],
+    "grammar_note": "aggression (n.); aggressively (adv.); aggressive ≠ passive",
+    "chinese_sentence": "那家公司採取了積極進取的策略大力開拓新市場，很快就超越了對手。",
+    "word_family": "aggression · aggressive · aggressively · aggressor"
+  },
+  {
+    "word": "anxiety",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/æŋzˈaɪəti/",
+    "chinese": "焦慮；擔憂；渴望",
+    "collocations": [
+      {
+        "en": "exam anxiety",
+        "zh": "考試焦慮"
+      },
+      {
+        "en": "suffer from anxiety",
+        "zh": "飽受焦慮之苦"
+      },
+      {
+        "en": "anxiety disorder",
+        "zh": "焦慮症"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Many students suffer from anxiety before major exams.",
+        "target": "anxiety"
+      },
+      {
+        "en": "Her anxiety about the interview kept her awake the night before.",
+        "target": "anxiety"
+      }
+    ],
+    "synonyms": [
+      "worry",
+      "nervousness",
+      "unease"
+    ],
+    "grammar_note": "anxious (adj.); anxiously (adv.); anxiety about/over sth.",
+    "chinese_sentence": "許多學生在重大考試前都會出現焦慮的症狀，影響到睡眠和表現。",
+    "word_family": "anxiety · anxious · anxiously"
+  },
+  {
+    "word": "apology",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/əpˈɑlədʒi/",
+    "chinese": "道歉；認錯",
+    "collocations": [
+      {
+        "en": "make an apology",
+        "zh": "道歉"
+      },
+      {
+        "en": "offer an apology",
+        "zh": "致歉"
+      },
+      {
+        "en": "sincere apology",
+        "zh": "誠摯的道歉"
+      }
+    ],
+    "examples": [
+      {
+        "en": "He sent a sincere apology to his teacher for missing the class.",
+        "target": "apology"
+      },
+      {
+        "en": "She accepted his apology and agreed to let the matter go.",
+        "target": "apology"
+      }
+    ],
+    "synonyms": [
+      "sorry",
+      "excuse",
+      "regret"
+    ],
+    "grammar_note": "apologize (v.); apology (n.); apology for/to sb.; apologize to sb. for sth.",
+    "chinese_sentence": "他寫了一封誠摯的道歉信給老師，解釋自己缺課的原因並表示歉意。",
+    "word_family": "apologize · apology"
+  },
+  {
+    "word": "artistic",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ɑrtˈɪstɪk/",
+    "chinese": "藝術的；有藝術才能的",
+    "collocations": [
+      {
+        "en": "artistic talent",
+        "zh": "藝術才華"
+      },
+      {
+        "en": "artistic expression",
+        "zh": "藝術表達"
+      },
+      {
+        "en": "artistic style",
+        "zh": "藝術風格"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She has a remarkable artistic talent for painting detailed landscapes.",
+        "target": "artistic"
+      },
+      {
+        "en": "The artistic design of the building draws thousands of visitors each year.",
+        "target": "artistic"
+      }
+    ],
+    "synonyms": [
+      "creative",
+      "aesthetic",
+      "talented"
+    ],
+    "grammar_note": "art (n.); artist (n.); artistic (adj.); artistically (adv.)",
+    "chinese_sentence": "她在繪畫方面展現出非凡的藝術才華，每幅作品都細膩而生動。",
+    "word_family": "art · artist · artistic · artistically"
+  },
+  {
+    "word": "bargain",
+    "pos": "n./v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/bˈɑrɡən/",
+    "chinese": "交易；討價還價；便宜貨",
+    "collocations": [
+      {
+        "en": "strike a bargain",
+        "zh": "達成交易"
+      },
+      {
+        "en": "a good bargain",
+        "zh": "划算的交易"
+      },
+      {
+        "en": "bargain hunter",
+        "zh": "尋找特價的人"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She found a great bargain at the market — a winter coat for only NT$300.",
+        "target": "bargain"
+      },
+      {
+        "en": "They bargained with the seller for a lower price.",
+        "target": "bargained"
+      }
+    ],
+    "synonyms": [
+      "deal",
+      "negotiate",
+      "discount"
+    ],
+    "grammar_note": "bargain (n./v.); bargain for = 預料到; a good bargain = 划算的買賣",
+    "chinese_sentence": "她在市場上撿到一件超划算的冬季外套，只花了三百元新台幣。",
+    "word_family": ""
+  },
+  {
+    "word": "battery",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/bˈætɚi/",
+    "chinese": "電池；一組；毆打",
+    "collocations": [
+      {
+        "en": "battery life",
+        "zh": "電池壽命"
+      },
+      {
+        "en": "recharge a battery",
+        "zh": "充電"
+      },
+      {
+        "en": "assault and battery",
+        "zh": "毆打傷害"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Her phone's battery died in the middle of an important call.",
+        "target": "battery"
+      },
+      {
+        "en": "The electric car can run for 500 km on a single battery charge.",
+        "target": "battery"
+      }
+    ],
+    "synonyms": [
+      "cell",
+      "accumulator"
+    ],
+    "grammar_note": "battery (n.); recharge a battery = 充電; battery life = 電池壽命",
+    "chinese_sentence": "她的手機在一通重要的電話打到一半突然沒電了，讓她十分懊惱。",
+    "word_family": ""
+  },
+  {
+    "word": "biography",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/baɪˈɑɡrəfi/",
+    "chinese": "傳記；生平",
+    "collocations": [
+      {
+        "en": "write a biography",
+        "zh": "撰寫傳記"
+      },
+      {
+        "en": "read a biography",
+        "zh": "閱讀傳記"
+      },
+      {
+        "en": "authorized biography",
+        "zh": "官方授權傳記"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She read a fascinating biography of Marie Curie over the summer.",
+        "target": "biography"
+      },
+      {
+        "en": "The author spent five years writing an authorized biography of the president.",
+        "target": "authorized biography"
+      }
+    ],
+    "synonyms": [
+      "life story",
+      "memoir",
+      "profile"
+    ],
+    "grammar_note": "biography (n.); biographer (n.); biographical (adj.); autobiography = 自傳",
+    "chinese_sentence": "她在暑假期間讀了一本引人入勝的居禮夫人傳記，深受啟發。",
+    "word_family": "biographer · biographical · biography"
+  },
+  {
+    "word": "bounce",
+    "pos": "v./n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/bˈaʊns/",
+    "chinese": "彈跳；彈回；精力充沛地走",
+    "collocations": [
+      {
+        "en": "bounce a ball",
+        "zh": "使球彈跳"
+      },
+      {
+        "en": "bounce back",
+        "zh": "反彈/恢復"
+      },
+      {
+        "en": "bounce ideas off",
+        "zh": "互相交流想法"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The ball bounced off the wall and hit the window.",
+        "target": "bounced"
+      },
+      {
+        "en": "She bounced back quickly from her setback and tried again.",
+        "target": "bounced back"
+      }
+    ],
+    "synonyms": [
+      "rebound",
+      "spring",
+      "recover"
+    ],
+    "grammar_note": "bounce (v./n.); bouncy (adj.) = 有彈力的; bounce back = 恢復/反彈",
+    "chinese_sentence": "經歷了一次挫折之後，她很快就重新振作，重新出發，令大家佩服。",
+    "word_family": "bounce · bouncy"
+  },
+  {
+    "word": "celebration",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/sˌɛləbrˈeɪʃən/",
+    "chinese": "慶祝；慶典",
+    "collocations": [
+      {
+        "en": "hold a celebration",
+        "zh": "舉行慶祝"
+      },
+      {
+        "en": "in celebration of",
+        "zh": "慶祝…"
+      },
+      {
+        "en": "birthday celebration",
+        "zh": "生日慶典"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The school held a celebration for students who excelled in the national exam.",
+        "target": "celebration"
+      },
+      {
+        "en": "Fireworks lit the sky in celebration of the New Year.",
+        "target": "in celebration of"
+      }
+    ],
+    "synonyms": [
+      "party",
+      "festivity",
+      "commemoration"
+    ],
+    "grammar_note": "celebrate (v.); celebration (n.); in celebration of = 為慶祝…",
+    "chinese_sentence": "學校為在全國考試中表現優異的學生舉辦了一場盛大的表揚慶典。",
+    "word_family": "celebrate · celebration"
+  },
+  {
+    "word": "catalogue",
+    "pos": "n./v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/kˈætəlˌɔɡ/",
+    "chinese": "目錄；型錄；列出",
+    "collocations": [
+      {
+        "en": "library catalogue",
+        "zh": "圖書館目錄"
+      },
+      {
+        "en": "product catalogue",
+        "zh": "產品目錄"
+      },
+      {
+        "en": "catalogue errors",
+        "zh": "列出錯誤"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She searched the library catalogue to find books on climate change.",
+        "target": "catalogue"
+      },
+      {
+        "en": "The report catalogued all the violations found during the inspection.",
+        "target": "catalogued"
+      }
+    ],
+    "synonyms": [
+      "list",
+      "directory",
+      "index"
+    ],
+    "grammar_note": "catalogue/catalog (n./v.); catalogue = 系統性的列表",
+    "chinese_sentence": "她在圖書館線上目錄中搜尋氣候變遷相關書籍，找到了十幾本參考資料。",
+    "word_family": "catalog · catalogue"
+  },
+  {
+    "word": "clash",
+    "pos": "n./v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/klˈæʃ/",
+    "chinese": "衝突；碰撞；格格不入",
+    "collocations": [
+      {
+        "en": "clash of cultures",
+        "zh": "文化衝突"
+      },
+      {
+        "en": "clash with",
+        "zh": "與…衝突"
+      },
+      {
+        "en": "color clash",
+        "zh": "顏色不協調"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The two students had a clash of opinions during the debate.",
+        "target": "clash"
+      },
+      {
+        "en": "Her schedule clashed with the exam date, causing her a lot of stress.",
+        "target": "clashed with"
+      }
+    ],
+    "synonyms": [
+      "conflict",
+      "collision",
+      "disagree"
+    ],
+    "grammar_note": "clash (n./v.); clash with sb./sth. = 與某人/事衝突或時間衝突",
+    "chinese_sentence": "她的行程與考試日期衝突，讓她陷入進退兩難的困境。",
+    "word_family": ""
+  },
+  {
+    "word": "circular",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/sˈɝkjəlɚ/",
+    "chinese": "圓形的；循環的；通告",
+    "collocations": [
+      {
+        "en": "circular motion",
+        "zh": "圓周運動"
+      },
+      {
+        "en": "circular argument",
+        "zh": "循環論證"
+      },
+      {
+        "en": "send a circular",
+        "zh": "發通告"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The Ferris wheel carried riders along a slow circular path high above the city.",
+        "target": "circular path"
+      },
+      {
+        "en": "His argument was circular — he kept repeating the same point without evidence.",
+        "target": "circular"
+      }
+    ],
+    "synonyms": [
+      "round",
+      "cyclic",
+      "newsletter"
+    ],
+    "grammar_note": "circle (n.); circular (adj./n.); a circular argument = 循環論證（無說服力）",
+    "chinese_sentence": "他的論點是一個典型的循環論證，反覆引用自己的主張作為佐證。",
+    "word_family": "circle · circuit · circular"
+  },
+  {
+    "word": "coarse",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/kˈɔrs/",
+    "chinese": "粗糙的；粗俗的；粗粒的",
+    "collocations": [
+      {
+        "en": "coarse fabric",
+        "zh": "粗糙的布料"
+      },
+      {
+        "en": "coarse language",
+        "zh": "粗魯的語言"
+      },
+      {
+        "en": "coarse texture",
+        "zh": "粗粒質地"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The coarse surface of the sandpaper scraped her fingers.",
+        "target": "coarse"
+      },
+      {
+        "en": "His coarse jokes made everyone in the room uncomfortable.",
+        "target": "coarse"
+      }
+    ],
+    "synonyms": [
+      "rough",
+      "crude",
+      "vulgar"
+    ],
+    "grammar_note": "coarse (adj.) ↔ fine/smooth; coarsely (adv.); coarseness (n.); coarse ≠ course",
+    "chinese_sentence": "他在會議中說的粗俗笑話讓現場所有人都感到非常尷尬和不適。",
+    "word_family": "coarse · coarsely · coarseness"
+  },
+  {
+    "word": "collapse",
+    "pos": "n./v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/kəlˈæps/",
+    "chinese": "倒塌；崩潰；暈倒",
+    "collocations": [
+      {
+        "en": "economic collapse",
+        "zh": "經濟崩潰"
+      },
+      {
+        "en": "collapse under pressure",
+        "zh": "在壓力下崩潰"
+      },
+      {
+        "en": "building collapse",
+        "zh": "建築物倒塌"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The old bridge collapsed during the earthquake.",
+        "target": "collapsed"
+      },
+      {
+        "en": "She nearly collapsed from exhaustion after the marathon.",
+        "target": "collapsed"
+      }
+    ],
+    "synonyms": [
+      "fall apart",
+      "break down",
+      "cave in"
+    ],
+    "grammar_note": "collapse (v./n.); collapsible (adj.) = 可折疊的; collapse under = 在…下崩潰",
+    "chinese_sentence": "她在馬拉松終點衝線後幾乎因精力耗盡而昏倒，被志工緊急攙扶。",
+    "word_family": "collapse · collapsible"
+  },
+  {
+    "word": "construction",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/kənstrˈahkʃən/",
+    "chinese": "建設；建造；建築物",
+    "collocations": [
+      {
+        "en": "under construction",
+        "zh": "施工中"
+      },
+      {
+        "en": "construction site",
+        "zh": "工地"
+      },
+      {
+        "en": "construction worker",
+        "zh": "建築工人"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The new library is under construction and will open next year.",
+        "target": "under construction"
+      },
+      {
+        "en": "The noise from the construction site made it hard to concentrate.",
+        "target": "construction"
+      }
+    ],
+    "synonyms": [
+      "building",
+      "assembly",
+      "development"
+    ],
+    "grammar_note": "construct (v.); construction (n.); under construction = 正在施工中",
+    "chinese_sentence": "新圖書館正在興建中，預計明年開放，館藏將大幅增加。",
+    "word_family": "construct · construction · constructive · constructively"
+  },
+  {
+    "word": "conquer",
+    "pos": "v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/kˈɑŋkɚ/",
+    "chinese": "征服；攻克；克服",
+    "collocations": [
+      {
+        "en": "conquer a fear",
+        "zh": "克服恐懼"
+      },
+      {
+        "en": "conquer the market",
+        "zh": "征服市場"
+      },
+      {
+        "en": "divide and conquer",
+        "zh": "分而治之"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She conquered her fear of public speaking through practice.",
+        "target": "conquered"
+      },
+      {
+        "en": "The athlete conquered every obstacle on his road to the championship.",
+        "target": "conquered"
+      }
+    ],
+    "synonyms": [
+      "overcome",
+      "defeat",
+      "master"
+    ],
+    "grammar_note": "conquer (v.); conqueror (n.); conquest (n.); conquer sth. = 克服/征服某事",
+    "chinese_sentence": "她透過不斷練習和自我挑戰，終於克服了對公開演講的恐懼。",
+    "word_family": "conquer · conqueror · conquest"
+  },
+  {
+    "word": "concrete",
+    "pos": "adj./n./v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/kənkrˈit/",
+    "chinese": "混凝土；具體的；確實的",
+    "collocations": [
+      {
+        "en": "concrete evidence",
+        "zh": "確切證據"
+      },
+      {
+        "en": "concrete plan",
+        "zh": "具體計畫"
+      },
+      {
+        "en": "poured concrete",
+        "zh": "澆灌混凝土"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The teacher asked for concrete examples to support the argument.",
+        "target": "concrete"
+      },
+      {
+        "en": "The building was made of steel and concrete.",
+        "target": "concrete"
+      }
+    ],
+    "synonyms": [
+      "specific",
+      "definite",
+      "tangible"
+    ],
+    "grammar_note": "concrete (adj./n.); concretely (adv.); abstract ↔ concrete; concrete = 混凝土（名詞）",
+    "chinese_sentence": "老師要求學生在論文中提供具體的例子來支撐自己的論點。",
+    "word_family": "concrete · concretely"
+  },
+  {
+    "word": "contrary",
+    "pos": "n./adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/kˈɑntrɛri/",
+    "chinese": "相反的；對立的；反面",
+    "collocations": [
+      {
+        "en": "on the contrary",
+        "zh": "相反地"
+      },
+      {
+        "en": "contrary to",
+        "zh": "與…相反"
+      },
+      {
+        "en": "to the contrary",
+        "zh": "相反的"
+      }
+    ],
+    "examples": [
+      {
+        "en": "You think I hated the exam? On the contrary, I enjoyed it because it tested my real understanding.",
+        "target": "On the contrary"
+      },
+      {
+        "en": "Contrary to popular belief, goldfish have good memories.",
+        "target": "Contrary to"
+      }
+    ],
+    "synonyms": [
+      "opposite",
+      "opposing",
+      "conflicting"
+    ],
+    "grammar_note": "contrary to sth. = 與某事相反; on the contrary = 相反地（反駁上文）",
+    "chinese_sentence": "與一般人的認知相反，金魚的記憶力其實相當不錯。",
+    "word_family": ""
+  },
+  {
+    "word": "conventional",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/kənvˈɛnʃənəl/",
+    "chinese": "傳統的；習俗的；慣例的",
+    "collocations": [
+      {
+        "en": "conventional wisdom",
+        "zh": "傳統智慧"
+      },
+      {
+        "en": "conventional method",
+        "zh": "傳統方法"
+      },
+      {
+        "en": "non-conventional",
+        "zh": "非傳統的"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The conventional view is that hard work always leads to success.",
+        "target": "conventional"
+      },
+      {
+        "en": "She challenged conventional thinking with her innovative approach.",
+        "target": "conventional"
+      }
+    ],
+    "synonyms": [
+      "traditional",
+      "standard",
+      "customary"
+    ],
+    "grammar_note": "convention (n.); conventional (adj.); conventionally (adv.); unconventional = 非傳統的",
+    "chinese_sentence": "她以創新的方式挑戰傳統思維，提出了許多令人耳目一新的觀點。",
+    "word_family": "convene · convention · conventional · conventionally"
+  },
+  {
+    "word": "cooperate",
+    "pos": "v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/koʊˈɑpɚˌeɪt/",
+    "chinese": "合作；協作；配合",
+    "collocations": [
+      {
+        "en": "cooperate with",
+        "zh": "與…合作"
+      },
+      {
+        "en": "cooperate on a project",
+        "zh": "在專案上合作"
+      },
+      {
+        "en": "refuse to cooperate",
+        "zh": "拒絕合作"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Students must learn to cooperate with others to succeed in group work.",
+        "target": "cooperate"
+      },
+      {
+        "en": "The suspect refused to cooperate with the police investigation.",
+        "target": "cooperate"
+      }
+    ],
+    "synonyms": [
+      "collaborate",
+      "work together",
+      "assist"
+    ],
+    "grammar_note": "cooperate (v.); cooperation (n.); cooperative (adj.); cooperate with sb. on sth.",
+    "chinese_sentence": "學生在小組作業中必須學會與他人合作，這是非常重要的社交能力。",
+    "word_family": "cooperate · cooperation · cooperative · cooperatively"
+  },
+  {
+    "word": "critical",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/krˈɪtɪkəl/",
+    "chinese": "批評的；關鍵的；危急的",
+    "collocations": [
+      {
+        "en": "critical thinking",
+        "zh": "批判性思考"
+      },
+      {
+        "en": "critical condition",
+        "zh": "危急狀況"
+      },
+      {
+        "en": "be critical of",
+        "zh": "批評…"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Critical thinking is one of the most valuable skills students can develop.",
+        "target": "Critical thinking"
+      },
+      {
+        "en": "She was critical of the way the school handled the situation.",
+        "target": "critical of"
+      }
+    ],
+    "synonyms": [
+      "analytical",
+      "crucial",
+      "fault-finding"
+    ],
+    "grammar_note": "criticize (v.); critic (n.); critically (adv.); critical = 批判的/危急的/關鍵的（多義）",
+    "chinese_sentence": "批判性思考是學生在學校最應該培養的核心能力之一。",
+    "word_family": "critic · critical · critically · criticism · criticize"
+  },
+  {
+    "word": "damp",
+    "pos": "adj./n./v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/dˈæmp/",
+    "chinese": "潮濕的；使潮濕；抑制",
+    "collocations": [
+      {
+        "en": "damp weather",
+        "zh": "潮濕的天氣"
+      },
+      {
+        "en": "damp cloth",
+        "zh": "濕布"
+      },
+      {
+        "en": "damp spirits",
+        "zh": "掃興/壓抑情緒"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The damp weather in spring makes it hard to dry laundry.",
+        "target": "damp"
+      },
+      {
+        "en": "The bad news dampened everyone's excitement about the trip.",
+        "target": "dampened"
+      }
+    ],
+    "synonyms": [
+      "moist",
+      "humid",
+      "wet"
+    ],
+    "grammar_note": "damp (adj./v./n.); dampen (v.) = 使潮濕/抑制; damp ≠ soaking wet",
+    "chinese_sentence": "壞消息傳來，澆滅了所有人對這趟旅行原本充滿的興奮期待。",
+    "word_family": "damp · dampen"
+  },
+  {
+    "word": "defensible",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/dɪfˈɛnsəbəl/",
+    "chinese": "可辯護的；站得住腳的；可防守的",
+    "collocations": [
+      {
+        "en": "morally defensible",
+        "zh": "道德上說得通的"
+      },
+      {
+        "en": "defensible position",
+        "zh": "可辯護的立場"
+      },
+      {
+        "en": "barely defensible",
+        "zh": "勉強站得住腳的"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Her argument was defensible but lacked strong supporting evidence.",
+        "target": "defensible"
+      },
+      {
+        "en": "The general chose a defensible hill for the army's camp.",
+        "target": "defensible"
+      }
+    ],
+    "synonyms": [
+      "justifiable",
+      "tenable",
+      "reasonable"
+    ],
+    "grammar_note": "defend (v.); defensible (adj.) = 可辯護/可防守的; indefensible = 無法辯護的",
+    "chinese_sentence": "她的論點雖然站得住腳，但缺乏強而有力的佐證，說服力不足。",
+    "word_family": "defence · defend · defendant · defense · defensible · defensive · defensively"
+  },
+  {
+    "word": "delicate",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/dˈɛləkət/",
+    "chinese": "精緻的；微妙的；脆弱的；細膩的",
+    "collocations": [
+      {
+        "en": "delicate situation",
+        "zh": "微妙的情況"
+      },
+      {
+        "en": "delicate balance",
+        "zh": "微妙的平衡"
+      },
+      {
+        "en": "delicate flower",
+        "zh": "嬌嫩的花朵"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The negotiations required a delicate balance of firmness and flexibility.",
+        "target": "delicate"
+      },
+      {
+        "en": "She handled the delicate porcelain vase with extreme care.",
+        "target": "delicate"
+      }
+    ],
+    "synonyms": [
+      "fragile",
+      "subtle",
+      "refined"
+    ],
+    "grammar_note": "delicately (adv.); delicacy (n.) = 精緻/珍饈; delicate ≠ robust",
+    "chinese_sentence": "這場談判需要在堅定立場與靈活讓步之間保持微妙的平衡。",
+    "word_family": "delicacy · delicate · delicately"
+  },
+  {
+    "word": "depart",
+    "pos": "v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/dɪpˈɑrt/",
+    "chinese": "出發；離開；背離",
+    "collocations": [
+      {
+        "en": "depart from",
+        "zh": "從…出發/偏離"
+      },
+      {
+        "en": "depart for",
+        "zh": "前往…出發"
+      },
+      {
+        "en": "departure time",
+        "zh": "出發時間"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The train departs from Platform 3 at exactly 8:00 a.m.",
+        "target": "departs"
+      },
+      {
+        "en": "This new policy departs from traditional educational approaches.",
+        "target": "departs from"
+      }
+    ],
+    "synonyms": [
+      "leave",
+      "set off",
+      "deviate"
+    ],
+    "grammar_note": "depart (v.); departure (n.); depart from = 從…離開/偏離某事",
+    "chinese_sentence": "那班火車從第三月台準點出發，乘客請提早到達確保順利登車。",
+    "word_family": "depart · departure"
+  },
+  {
+    "word": "divine",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/dɪvˈaɪn/",
+    "chinese": "神聖的；神的；極好的",
+    "collocations": [
+      {
+        "en": "divine power",
+        "zh": "神聖力量"
+      },
+      {
+        "en": "divine intervention",
+        "zh": "神的干預"
+      },
+      {
+        "en": "divine food",
+        "zh": "美妙的食物"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Many ancient cultures believed that floods were a sign of divine anger.",
+        "target": "divine"
+      },
+      {
+        "en": "The chocolate cake was absolutely divine!",
+        "target": "divine"
+      }
+    ],
+    "synonyms": [
+      "holy",
+      "sacred",
+      "heavenly"
+    ],
+    "grammar_note": "divinity (n.); divinely (adv.); divine (adj.) = 神聖的（正式）或美極了（口語）",
+    "chinese_sentence": "許多古代文明認為洪水和地震是神明憤怒的徵兆，予以膜拜祈求。",
+    "word_family": "divine · divinely · divinity"
+  },
+  {
+    "word": "distinct",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/dɪstˈɪŋkt/",
+    "chinese": "明顯的；截然不同的；清楚的",
+    "collocations": [
+      {
+        "en": "distinct difference",
+        "zh": "明顯的差異"
+      },
+      {
+        "en": "distinctly different",
+        "zh": "截然不同"
+      },
+      {
+        "en": "distinct advantage",
+        "zh": "明顯優勢"
+      }
+    ],
+    "examples": [
+      {
+        "en": "There is a distinct difference between confidence and arrogance.",
+        "target": "distinct"
+      },
+      {
+        "en": "The two dialects are quite distinct from each other.",
+        "target": "distinct"
+      }
+    ],
+    "synonyms": [
+      "clear",
+      "different",
+      "separate"
+    ],
+    "grammar_note": "distinct (adj.); distinction (n.); distinctive (adj.) = 獨特顯著的; distinctly (adv.)",
+    "chinese_sentence": "自信與自大之間有著非常明顯的差別，值得每個人仔細思考。",
+    "word_family": "distinct · distinction · distinctive · distinctively · distinctly"
+  },
+  {
+    "word": "dynamic",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/daɪnˈæmɪk/",
+    "chinese": "充滿活力的；動態的；動力",
+    "collocations": [
+      {
+        "en": "dynamic personality",
+        "zh": "充滿活力的個性"
+      },
+      {
+        "en": "dynamic change",
+        "zh": "動態變化"
+      },
+      {
+        "en": "team dynamics",
+        "zh": "團隊動力"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She is a dynamic speaker who keeps the audience engaged.",
+        "target": "dynamic"
+      },
+      {
+        "en": "The dynamics of the team changed after the new member joined.",
+        "target": "dynamics"
+      }
+    ],
+    "synonyms": [
+      "energetic",
+      "lively",
+      "vibrant"
+    ],
+    "grammar_note": "dynamic (adj./n.); dynamics (n. pl.) = 力學/動態關係; dynamically (adv.)",
+    "chinese_sentence": "她是一位充滿活力的演講者，總是能牢牢抓住聽眾的注意力。",
+    "word_family": "dynamic · dynamically"
+  },
+  {
+    "word": "elegant",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ˈɛləɡənt/",
+    "chinese": "優雅的；雅致的",
+    "collocations": [
+      {
+        "en": "elegant style",
+        "zh": "優雅的風格"
+      },
+      {
+        "en": "elegant solution",
+        "zh": "簡潔優雅的解法"
+      },
+      {
+        "en": "an elegant dress",
+        "zh": "一件優雅的禮服"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She wore an elegant gown to the graduation ceremony.",
+        "target": "elegant"
+      },
+      {
+        "en": "The mathematician found an elegant proof for the theorem.",
+        "target": "elegant"
+      }
+    ],
+    "synonyms": [
+      "graceful",
+      "refined",
+      "sophisticated"
+    ],
+    "grammar_note": "elegance (n.); elegantly (adv.); elegant solution = 簡潔有力的解法（數學/工程）",
+    "chinese_sentence": "她在畢業典禮上穿著一件優雅的禮服，氣質出眾，令眾人印象深刻。",
+    "word_family": "elegance · elegant · elegantly"
+  },
+  {
+    "word": "embarrass(ment)",
+    "pos": "v./n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ɪmbˈɛrəs/",
+    "chinese": "使尷尬；難為情；困窘",
+    "collocations": [
+      {
+        "en": "feel embarrassed",
+        "zh": "感到尷尬"
+      },
+      {
+        "en": "to sb.'s embarrassment",
+        "zh": "令某人難堪地"
+      },
+      {
+        "en": "cause embarrassment",
+        "zh": "造成困窘"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She felt embarrassed when she mispronounced the teacher's name.",
+        "target": "embarrassed"
+      },
+      {
+        "en": "To his great embarrassment, he tripped in front of the whole class.",
+        "target": "embarrassment"
+      }
+    ],
+    "synonyms": [
+      "ashamed",
+      "awkward",
+      "humiliated"
+    ],
+    "grammar_note": "embarrass (v.); embarrassing (adj.) = 令人尷尬的; embarrassed (adj.) = 感到尷尬的",
+    "chinese_sentence": "她在全班面前唸錯老師的名字，當場窘到臉紅耳赤。",
+    "word_family": "embarrass · embarrassed · embarrassing"
+  },
+  {
+    "word": "enthusiasm",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ɪnθˈuziˌæzəm/",
+    "chinese": "熱情；熱忱；積極性",
+    "collocations": [
+      {
+        "en": "great enthusiasm",
+        "zh": "極大的熱情"
+      },
+      {
+        "en": "enthusiasm for",
+        "zh": "對…的熱忱"
+      },
+      {
+        "en": "show enthusiasm",
+        "zh": "展現熱情"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Her enthusiasm for learning new languages motivated the whole class.",
+        "target": "enthusiasm"
+      },
+      {
+        "en": "He approached every task with great enthusiasm and positivity.",
+        "target": "enthusiasm"
+      }
+    ],
+    "synonyms": [
+      "passion",
+      "eagerness",
+      "excitement"
+    ],
+    "grammar_note": "enthusiastic (adj.); enthusiastically (adv.); enthusiasm for sth.",
+    "chinese_sentence": "她對學習新語言的熱情感染了整個班級，大家也開始積極練習口說。",
+    "word_family": "enthusiasm · enthusiastic · enthusiastically"
+  },
+  {
+    "word": "eventual",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/əvˈɛntʃuəl/",
+    "chinese": "最終的；結果的",
+    "collocations": [
+      {
+        "en": "eventual success",
+        "zh": "最終成功"
+      },
+      {
+        "en": "eventual outcome",
+        "zh": "最終結果"
+      },
+      {
+        "en": "eventual winner",
+        "zh": "最終勝利者"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Her hard work led to her eventual success in the national competition.",
+        "target": "eventual"
+      },
+      {
+        "en": "The eventual outcome of the negotiation surprised both parties.",
+        "target": "eventual"
+      }
+    ],
+    "synonyms": [
+      "final",
+      "ultimate",
+      "resulting"
+    ],
+    "grammar_note": "eventually (adv.) = 最終地; eventual (adj.) = 最終的; do not confuse with 'eventful'",
+    "chinese_sentence": "她的努力最終換來了在全國比賽中脫穎而出的成功，令人振奮。",
+    "word_family": "eventual · eventually"
+  },
+  {
+    "word": "expansion",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ɪkspˈænʃən/",
+    "chinese": "擴張；擴展；膨脹",
+    "collocations": [
+      {
+        "en": "business expansion",
+        "zh": "業務擴張"
+      },
+      {
+        "en": "rapid expansion",
+        "zh": "快速擴張"
+      },
+      {
+        "en": "expansion plan",
+        "zh": "擴張計畫"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The school approved a major expansion plan to add four new classrooms.",
+        "target": "expansion"
+      },
+      {
+        "en": "The expansion of the internet has connected billions of people worldwide.",
+        "target": "expansion"
+      }
+    ],
+    "synonyms": [
+      "growth",
+      "extension",
+      "enlargement"
+    ],
+    "grammar_note": "expand (v.); expansion (n.); expansive (adj.) = 廣闊的/健談的",
+    "chinese_sentence": "學校批准了一項重大擴建計畫，新增四間教室以應對持續增加的學生人數。",
+    "word_family": "expand · expansion · expansive"
+  },
+  {
+    "word": "financial",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/fənˈænʃəl/",
+    "chinese": "財務的；金融的",
+    "collocations": [
+      {
+        "en": "financial support",
+        "zh": "財務支援"
+      },
+      {
+        "en": "financial crisis",
+        "zh": "金融危機"
+      },
+      {
+        "en": "financial aid",
+        "zh": "助學金"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She received financial aid from the school to continue her studies.",
+        "target": "financial"
+      },
+      {
+        "en": "The country faced a severe financial crisis in the early 2000s.",
+        "target": "financial"
+      }
+    ],
+    "synonyms": [
+      "monetary",
+      "economic",
+      "fiscal"
+    ],
+    "grammar_note": "finance (n.); financially (adv.); financial (adj.); financial year = 會計年度",
+    "chinese_sentence": "她獲得學校的助學金補助，得以繼續完成她的高中學業。",
+    "word_family": "finance · financial · financially"
+  },
+  {
+    "word": "farewell",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/fˌɛrwˈɛl/",
+    "chinese": "再見；告別；告別的",
+    "collocations": [
+      {
+        "en": "farewell party",
+        "zh": "告別派對"
+      },
+      {
+        "en": "bid farewell",
+        "zh": "道別"
+      },
+      {
+        "en": "farewell speech",
+        "zh": "告別演說"
+      }
+    ],
+    "examples": [
+      {
+        "en": "They held a farewell party for the exchange student leaving for home.",
+        "target": "farewell"
+      },
+      {
+        "en": "She bid farewell to her hometown and moved to the city for university.",
+        "target": "bid farewell"
+      }
+    ],
+    "synonyms": [
+      "goodbye",
+      "send-off",
+      "parting"
+    ],
+    "grammar_note": "farewell (n./int.); bid farewell to = 告別; farewell party = 送別會",
+    "chinese_sentence": "朋友們為即將返回家鄉的交換生舉辦了一場溫馨的告別派對。",
+    "word_family": ""
+  },
+  {
+    "word": "flexible",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/flˈɛksəbəl/",
+    "chinese": "有彈性的；靈活的；可彎曲的",
+    "collocations": [
+      {
+        "en": "flexible schedule",
+        "zh": "彈性時間"
+      },
+      {
+        "en": "flexible approach",
+        "zh": "靈活的方法"
+      },
+      {
+        "en": "flexible thinking",
+        "zh": "靈活的思維"
+      }
+    ],
+    "examples": [
+      {
+        "en": "A flexible schedule allows students to manage their study and rest time.",
+        "target": "flexible"
+      },
+      {
+        "en": "The company offers flexible working hours to improve employee satisfaction.",
+        "target": "flexible"
+      }
+    ],
+    "synonyms": [
+      "adaptable",
+      "adjustable",
+      "pliable"
+    ],
+    "grammar_note": "flexibility (n.); inflexible ↔ flexible; flexibly (adv.)",
+    "chinese_sentence": "彈性的工作時間讓員工能夠更好地平衡工作與個人生活。",
+    "word_family": "flexibility · flexible · flexibly · inflexible"
+  },
+  {
+    "word": "functional",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/fˈahŋkʃənəl/",
+    "chinese": "功能性的；實用的；運作正常的",
+    "collocations": [
+      {
+        "en": "fully functional",
+        "zh": "完全正常運作"
+      },
+      {
+        "en": "functional design",
+        "zh": "功能性設計"
+      },
+      {
+        "en": "functional skills",
+        "zh": "實用技能"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The new school website is now fully functional and easy to navigate.",
+        "target": "fully functional"
+      },
+      {
+        "en": "A good essay should be both functional and creative.",
+        "target": "functional"
+      }
+    ],
+    "synonyms": [
+      "practical",
+      "operational",
+      "working"
+    ],
+    "grammar_note": "function (n./v.); functional (adj.); functionally (adv.)",
+    "chinese_sentence": "新的學校官網已經完全正常運作，介面簡潔清晰，方便師生使用。",
+    "word_family": "function · functional · functionally"
+  },
+  {
+    "word": "furnish",
+    "pos": "v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/fˈɝnɪʃ/",
+    "chinese": "提供；裝設家具；配備",
+    "collocations": [
+      {
+        "en": "furnish a room",
+        "zh": "為房間配置家具"
+      },
+      {
+        "en": "furnish sb. with",
+        "zh": "提供某人…"
+      },
+      {
+        "en": "well-furnished",
+        "zh": "家具齊全的"
+      }
+    ],
+    "examples": [
+      {
+        "en": "They furnished the new apartment with simple but modern furniture.",
+        "target": "furnished"
+      },
+      {
+        "en": "The librarian furnished students with a list of recommended readings.",
+        "target": "furnished"
+      }
+    ],
+    "synonyms": [
+      "equip",
+      "supply",
+      "provide"
+    ],
+    "grammar_note": "furnish (v.); furniture (n.) = 家具（不可數）; furnished (adj.) = 有家具的",
+    "chinese_sentence": "他們用簡約而現代的家具裝設了新公寓，讓空間看起來乾淨舒適。",
+    "word_family": "furnish · furnished · furniture"
+  },
+  {
+    "word": "gigantic",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/dʒaɪɡˈæntɪk/",
+    "chinese": "巨大的；龐大的",
+    "collocations": [
+      {
+        "en": "gigantic size",
+        "zh": "龐大的尺寸"
+      },
+      {
+        "en": "gigantic effort",
+        "zh": "巨大的努力"
+      },
+      {
+        "en": "gigantic wave",
+        "zh": "巨浪"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The new shopping mall is gigantic — it has over 500 stores.",
+        "target": "gigantic"
+      },
+      {
+        "en": "She put in a gigantic effort to prepare for the international debate.",
+        "target": "gigantic"
+      }
+    ],
+    "synonyms": [
+      "enormous",
+      "huge",
+      "massive"
+    ],
+    "grammar_note": "gigantically (adv.); gigantic ≈ enormous ≈ massive; gigantic 語氣更強烈",
+    "chinese_sentence": "那座新購物中心規模龐大，擁有五百多家商店，是目前全國最大的。",
+    "word_family": "gigantic · gigantically"
+  },
+  {
+    "word": "graduation",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ɡrˌædʒuˈeɪʃən/",
+    "chinese": "畢業；畢業典禮",
+    "collocations": [
+      {
+        "en": "graduation ceremony",
+        "zh": "畢業典禮"
+      },
+      {
+        "en": "graduation day",
+        "zh": "畢業日"
+      },
+      {
+        "en": "upon graduation",
+        "zh": "畢業後"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Her parents flew in from overseas to attend her graduation ceremony.",
+        "target": "graduation"
+      },
+      {
+        "en": "Upon graduation, she plans to apply for a master's degree program.",
+        "target": "Upon graduation"
+      }
+    ],
+    "synonyms": [
+      "commencement",
+      "completion"
+    ],
+    "grammar_note": "graduate (v./n.); graduation (n.); graduate from = 從…畢業",
+    "chinese_sentence": "她的父母特地從海外飛回來，參加她人生中最重要的畢業典禮。",
+    "word_family": "graduate · graduation"
+  },
+  {
+    "word": "guilty",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ɡˈɪlti/",
+    "chinese": "有罪的；感到內疚的",
+    "collocations": [
+      {
+        "en": "feel guilty",
+        "zh": "感到內疚"
+      },
+      {
+        "en": "plead guilty",
+        "zh": "認罪"
+      },
+      {
+        "en": "guilty conscience",
+        "zh": "內疚的良心"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She felt guilty about missing her friend's birthday party.",
+        "target": "guilty"
+      },
+      {
+        "en": "The defendant pleaded guilty to the charges in court.",
+        "target": "pleaded guilty"
+      }
+    ],
+    "synonyms": [
+      "remorseful",
+      "culpable",
+      "ashamed"
+    ],
+    "grammar_note": "guilty of sth. = 犯了某罪; feel guilty about = 對…感到內疚; guilt (n.)",
+    "chinese_sentence": "她因為缺席了摯友的生日派對而感到非常內疚，決定送上特別的補償禮物。",
+    "word_family": "guilt · guilty"
+  },
+  {
+    "word": "greeting(s)",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ɡrˈitɪŋ/",
+    "chinese": "問候；打招呼；祝賀",
+    "collocations": [
+      {
+        "en": "warm greetings",
+        "zh": "熱情的問候"
+      },
+      {
+        "en": "exchange greetings",
+        "zh": "互相打招呼"
+      },
+      {
+        "en": "season's greetings",
+        "zh": "節慶問候"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She exchanged greetings with her classmates before class started.",
+        "target": "greetings"
+      },
+      {
+        "en": "Please send my greetings to your family.",
+        "target": "greetings"
+      }
+    ],
+    "synonyms": [
+      "hello",
+      "salutation",
+      "welcome"
+    ],
+    "grammar_note": "greet (v.); greeting (n.); season's greetings = 節慶問候（常用於賀卡）",
+    "chinese_sentence": "上課前，她與班上同學熱情地打招呼，教室裡充滿了歡笑聲。",
+    "word_family": "greet · greeting"
+  },
+  {
     "word": "identification",
     "pos": "n.",
     "chapter": "Mind and Emotion",
@@ -17633,11 +17867,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please bring a valid form of **identification** to the examination hall.",
+        "en": "Please bring a valid form of identification to the examination hall.",
         "target": "identification"
       },
       {
-        "en": "The police used fingerprints for **identification** of the suspect.",
+        "en": "The police used fingerprints for identification of the suspect.",
         "target": "identification"
       }
     ],
@@ -17672,11 +17906,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was **ignorant of** the local customs when she first arrived abroad.",
+        "en": "She was ignorant of the local customs when she first arrived abroad.",
         "target": "ignorant of"
       },
       {
-        "en": "It's dangerous to remain **ignorant** about important health issues.",
+        "en": "It's dangerous to remain ignorant about important health issues.",
         "target": "ignorant"
       }
     ],
@@ -17711,12 +17945,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The comedian's **imitation** of the president had the audience in stitches.",
+        "en": "The comedian's imitation of the president had the audience in stitches.",
         "target": "imitation"
       },
       {
-        "en": "Flattery is said to be the sincerest form of **imitation**.",
-        "target": "imitation"
+        "en": "Imitation is said to be the sincerest form of flattery, so she was pleased when others copied her style.",
+        "target": "Imitation"
       }
     ],
     "synonyms": [
@@ -17750,11 +17984,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **intends** to apply for a scholarship to study in the UK.",
+        "en": "She intends to apply for a scholarship to study in the UK.",
         "target": "intends"
       },
       {
-        "en": "The message was not **intended for** you — it was sent to the wrong person.",
+        "en": "The message was not intended for you — it was sent to the wrong person.",
         "target": "intended for"
       }
     ],
@@ -17789,11 +18023,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Positive **interaction** between teachers and students improves learning.",
+        "en": "Positive interaction between teachers and students improves learning.",
         "target": "interaction"
       },
       {
-        "en": "**Social interaction** is important for children's emotional development.",
+        "en": "Social interaction is important for children's emotional development.",
         "target": "Social interaction"
       }
     ],
@@ -17819,7 +18053,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "secret ingredient",
-        "zh": "秘密成分"
+        "zh": "祕密成分"
       },
       {
         "en": "the ingredients of success",
@@ -17828,11 +18062,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She carefully mixed all the **ingredients** before pouring the batter into the pan.",
+        "en": "She carefully mixed all the ingredients before pouring the batter into the pan.",
         "target": "ingredients"
       },
       {
-        "en": "Hard work is a key **ingredient** in achieving any worthwhile goal.",
+        "en": "Hard work is a key ingredient in achieving any worthwhile goal.",
         "target": "ingredient"
       }
     ],
@@ -17867,11 +18101,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The army **invaded** the neighboring country at dawn.",
+        "en": "The army invaded the neighboring country at dawn.",
         "target": "invaded"
       },
       {
-        "en": "She felt her personal space was being **invaded** when strangers got too close.",
+        "en": "She felt her personal space was being invaded when strangers got too close.",
         "target": "invaded"
       }
     ],
@@ -17906,11 +18140,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Studying in **isolation** without classmates can feel lonely and unmotivating.",
+        "en": "Studying in isolation without classmates can feel lonely and unmotivating.",
         "target": "isolation"
       },
       {
-        "en": "Long periods of **social isolation** can negatively affect mental health.",
+        "en": "Long periods of social isolation can negatively affect mental health.",
         "target": "social isolation"
       }
     ],
@@ -17945,11 +18179,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students conducted experiments in the school **laboratory** every Friday afternoon.",
+        "en": "Students conducted experiments in the school laboratory every Friday afternoon.",
         "target": "laboratory"
       },
       {
-        "en": "The **lab** results confirmed the scientist's hypothesis.",
+        "en": "The lab results confirmed the scientist's hypothesis.",
         "target": "lab"
       }
     ],
@@ -17960,45 +18194,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "laboratory (n.); lab = 縮寫; laboratory = 實驗室（正式）",
     "chinese_sentence": "學生們每週五下午在學校實驗室進行科學實驗，加深對理論的理解。",
     "word_family": ""
-  },
-  {
-    "word": "lecturer",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/lˈɛktʃɚɚ/",
-    "chinese": "講師；演講者",
-    "collocations": [
-      {
-        "en": "guest lecturer",
-        "zh": "客座講師"
-      },
-      {
-        "en": "university lecturer",
-        "zh": "大學講師"
-      },
-      {
-        "en": "deliver a lecture",
-        "zh": "發表演講"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **lecturer** explained the concept so clearly that all students understood it.",
-        "target": "lecturer"
-      },
-      {
-        "en": "A guest **lecturer** from NASA visited the school to talk about space exploration.",
-        "target": "lecturer"
-      }
-    ],
-    "synonyms": [
-      "professor",
-      "instructor",
-      "speaker"
-    ],
-    "grammar_note": "lecture (n./v.); lecturer (n.) = 講師; lecture hall = 演講廳",
-    "chinese_sentence": "一位來自NASA的客座講師到校分享太空探索的最新研究成果。",
-    "word_family": "lecture · lecturer"
   },
   {
     "word": "linen",
@@ -18022,11 +18217,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She prefers wearing **linen** shirts in summer because they are cool and breathable.",
+        "en": "She prefers wearing linen shirts in summer because they are cool and breathable.",
         "target": "linen"
       },
       {
-        "en": "The hotel provides fresh **linen** for guests every day.",
+        "en": "The hotel provides fresh linen for guests every day.",
         "target": "linen"
       }
     ],
@@ -18061,12 +18256,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The sunset over the ocean was absolutely **magnificent**.",
+        "en": "The sunset over the ocean was absolutely magnificent.",
         "target": "magnificent"
       },
       {
-        "en": "The audience gave a **magnificent** performance at the school concert.",
-        "target": "magnificent"
+        "en": "The orchestra gave a magnificent performance, and the audience stood up to applaud for five minutes.",
+        "target": "magnificent performance"
       }
     ],
     "synonyms": [
@@ -18100,11 +18295,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The factory **manufactures** over 10,000 units of the product every day.",
+        "en": "The factory manufactures over 10,000 units of the product every day.",
         "target": "manufactures"
       },
       {
-        "en": "Taiwan's **manufacturing** industry is world-renowned for its precision.",
+        "en": "Taiwan's manufacturing industry is world-renowned for its precision.",
         "target": "manufacturing"
       }
     ],
@@ -18139,11 +18334,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students are selected for the program based entirely on **merit**.",
+        "en": "Students are selected for the program based entirely on merit.",
         "target": "merit"
       },
       {
-        "en": "We should judge each idea on its own **merits** rather than who suggested it.",
+        "en": "We should judge each idea on its own merits rather than who suggested it.",
         "target": "merits"
       }
     ],
@@ -18178,11 +18373,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The patient had only a **mild** fever and was able to rest at home.",
+        "en": "The patient had only a mild fever and was able to rest at home.",
         "target": "mild"
       },
       {
-        "en": "Spring in Taiwan is usually **mild** and pleasant.",
+        "en": "Spring in Taiwan is usually mild and pleasant.",
         "target": "mild"
       }
     ],
@@ -18217,11 +18412,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **minister** of education announced a new curriculum reform this morning.",
+        "en": "The minister of education announced a new curriculum reform this morning.",
         "target": "minister"
       },
       {
-        "en": "The prime **minister** gave a speech addressing the economic challenges ahead.",
+        "en": "The prime minister gave a speech addressing the economic challenges ahead.",
         "target": "minister"
       }
     ],
@@ -18233,45 +18428,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "minister (n.); ministry (n.) = 部會; ministerial (adj.); prime minister = 首相/總理",
     "chinese_sentence": "教育部長今天宣布了一項全面的新課程改革方案，引發各界廣泛討論。",
     "word_family": "minister · ministerial · ministry"
-  },
-  {
-    "word": "mountainous",
-    "pos": "adj.",
-    "chapter": "Mind and Emotion",
-    "kk": "/mˈaʊntənəs/",
-    "chinese": "多山的；山嶽般的；巨大的",
-    "collocations": [
-      {
-        "en": "mountainous region",
-        "zh": "山地地區"
-      },
-      {
-        "en": "mountainous terrain",
-        "zh": "多山的地形"
-      },
-      {
-        "en": "mountainous waves",
-        "zh": "巨浪"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Taiwan is a **mountainous** island with many peaks over 3,000 meters.",
-        "target": "mountainous"
-      },
-      {
-        "en": "The hikers faced **mountainous** challenges on their way to the summit.",
-        "target": "mountainous"
-      }
-    ],
-    "synonyms": [
-      "hilly",
-      "rugged",
-      "steep"
-    ],
-    "grammar_note": "mountain (n.); mountainous (adj.) = 多山的/龐大的; mountaineer (n.) = 登山者",
-    "chinese_sentence": "台灣是一個多山的島嶼，擁有超過兩百座海拔三千公尺以上的高山。",
-    "word_family": "mountain · mountaineer · mountainous"
   },
   {
     "word": "noble",
@@ -18295,11 +18451,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Volunteering to help others is a **noble** act that everyone can do.",
+        "en": "Volunteering to help others is a noble act that everyone can do.",
         "target": "noble"
       },
       {
-        "en": "She came from a long line of European **nobles**.",
+        "en": "She came from a long line of European nobles.",
         "target": "nobles"
       }
     ],
@@ -18334,11 +18490,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The patient is being kept **under observation** for the next 24 hours.",
+        "en": "The patient is being kept under observation for the next 24 hours.",
         "target": "under observation"
       },
       {
-        "en": "She made an insightful **observation** about human behavior during the discussion.",
+        "en": "She made an insightful observation about human behavior during the discussion.",
         "target": "observation"
       }
     ],
@@ -18373,11 +18529,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He has won **numerous** awards for his academic achievements.",
+        "en": "He has won numerous awards for his academic achievements.",
         "target": "numerous"
       },
       {
-        "en": "There are **numerous** ways to improve your English vocabulary.",
+        "en": "There are numerous ways to improve your English vocabulary.",
         "target": "numerous"
       }
     ],
@@ -18412,11 +18568,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She put on her **overcoat** before stepping out into the cold winter morning.",
+        "en": "She put on her overcoat before stepping out into the cold winter morning.",
         "target": "overcoat"
       },
       {
-        "en": "He bought a classic navy blue **overcoat** for the formal event.",
+        "en": "He bought a classic navy blue overcoat for the formal event.",
         "target": "overcoat"
       }
     ],
@@ -18451,11 +18607,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Each **paragraph** should focus on one main idea and support it with details.",
+        "en": "Each paragraph should focus on one main idea and support it with details.",
         "target": "paragraph"
       },
       {
-        "en": "The **opening paragraph** of an essay should grab the reader's attention.",
+        "en": "The opening paragraph of an essay should grab the reader's attention.",
         "target": "opening paragraph"
       }
     ],
@@ -18490,11 +18646,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "There was a **peculiar** smell in the laboratory that no one could identify.",
+        "en": "There was a peculiar smell in the laboratory that no one could identify.",
         "target": "peculiar"
       },
       {
-        "en": "This custom is **peculiar to** the mountain tribes of this region.",
+        "en": "This custom is peculiar to the mountain tribes of this region.",
         "target": "peculiar to"
       }
     ],
@@ -18529,11 +18685,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Marie Curie was a **pioneer** in the field of radioactivity research.",
+        "en": "Marie Curie was a pioneer in the field of radioactivity research.",
         "target": "pioneer"
       },
       {
-        "en": "The company **pioneered** the use of solar energy in commercial buildings.",
+        "en": "The company pioneered the use of solar energy in commercial buildings.",
         "target": "pioneered"
       }
     ],
@@ -18568,11 +18724,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She struggled with **physics** at first but improved after extra tutoring.",
+        "en": "She struggled with physics at first but improved after extra tutoring.",
         "target": "physics"
       },
       {
-        "en": "**Quantum physics** challenges our basic understanding of how the universe works.",
+        "en": "Quantum physics challenges our basic understanding of how the universe works.",
         "target": "Quantum physics"
       }
     ],
@@ -18606,11 +18762,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Hand washing is one of the most effective methods of **disease prevention**.",
+        "en": "Hand washing is one of the most effective methods of disease prevention.",
         "target": "disease prevention"
       },
       {
-        "en": "**Prevention** is better than cure — developing good habits early saves future trouble.",
+        "en": "Prevention is better than cure — developing good habits early saves future trouble.",
         "target": "Prevention"
       }
     ],
@@ -18645,11 +18801,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She needed an extra stamp because the **postage** for the large envelope was higher.",
+        "en": "She needed an extra stamp because the postage for the large envelope was higher.",
         "target": "postage"
       },
       {
-        "en": "**Postage** rates increased again this year due to rising costs.",
+        "en": "Postage rates increased again this year due to rising costs.",
         "target": "Postage"
       }
     ],
@@ -18683,11 +18839,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She had a very **productive** study session and finished three chapters.",
+        "en": "She had a very productive study session and finished three chapters.",
         "target": "productive"
       },
       {
-        "en": "The team held a **productive** meeting and resolved all outstanding issues.",
+        "en": "The team held a productive meeting and resolved all outstanding issues.",
         "target": "productive"
       }
     ],
@@ -18722,11 +18878,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She moved abroad **in pursuit of** new career opportunities.",
+        "en": "She moved abroad in pursuit of new career opportunities.",
         "target": "in pursuit of"
       },
       {
-        "en": "The police gave chase **in hot pursuit** of the speeding car.",
+        "en": "The police gave chase in hot pursuit of the speeding car.",
         "target": "in hot pursuit"
       }
     ],
@@ -18761,11 +18917,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The scientist submitted her research for **publication** in a top journal.",
+        "en": "The scientist submitted her research for publication in a top journal.",
         "target": "publication"
       },
       {
-        "en": "The book's **publication** date was moved to December due to editing delays.",
+        "en": "The book's publication date was moved to December due to editing delays.",
         "target": "publication"
       }
     ],
@@ -18800,11 +18956,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Swimming and cycling are her favorite forms of **recreation**.",
+        "en": "Swimming and cycling are her favorite forms of recreation.",
         "target": "recreation"
       },
       {
-        "en": "The community center offers a variety of **recreational** activities for all ages.",
+        "en": "The community center offers a variety of recreational activities for all ages.",
         "target": "recreational"
       }
     ],
@@ -18839,11 +18995,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **rebelled against** the strict school rules and often got into trouble.",
+        "en": "She rebelled against the strict school rules and often got into trouble.",
         "target": "rebelled against"
       },
       {
-        "en": "The young **rebel** refused to follow the traditions his family expected.",
+        "en": "The young rebel refused to follow the traditions his family expected.",
         "target": "rebel"
       }
     ],
@@ -18878,11 +19034,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Honey and lemon tea is a traditional **remedy** for sore throats.",
+        "en": "Honey and lemon tea is a traditional remedy for sore throats.",
         "target": "remedy"
       },
       {
-        "en": "The teacher suggested several ways to **remedy** the student's grammar mistakes.",
+        "en": "The teacher suggested several ways to remedy the student's grammar mistakes.",
         "target": "remedy"
       }
     ],
@@ -18917,11 +19073,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The counselor helped the students **resolve** their disagreement peacefully.",
+        "en": "The counselor helped the students resolve their disagreement peacefully.",
         "target": "resolve"
       },
       {
-        "en": "She **resolved** to improve her study habits after failing the midterm.",
+        "en": "She resolved to improve her study habits after failing the midterm.",
         "target": "resolved"
       }
     ],
@@ -18956,11 +19112,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Travel **restrictions** were lifted after the pandemic was brought under control.",
+        "en": "Travel restrictions were lifted after the pandemic was brought under control.",
         "target": "restrictions"
       },
       {
-        "en": "The school imposed **restrictions** on the use of mobile phones during lessons.",
+        "en": "The school imposed restrictions on the use of mobile phones during lessons.",
         "target": "restrictions"
       }
     ],
@@ -18995,11 +19151,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The army was forced to **retreat** after suffering heavy losses.",
+        "en": "The army was forced to retreat after suffering heavy losses.",
         "target": "retreat"
       },
       {
-        "en": "She went on a weekend **retreat** to clear her mind before finals.",
+        "en": "She went on a weekend retreat to clear her mind before finals.",
         "target": "retreat"
       }
     ],
@@ -19034,11 +19190,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She grew up in a **rural** village and later moved to the city for university.",
+        "en": "She grew up in a rural village and later moved to the city for university.",
         "target": "rural"
       },
       {
-        "en": "There are fewer educational resources in **rural** areas compared to cities.",
+        "en": "There are fewer educational resources in rural areas compared to cities.",
         "target": "rural"
       }
     ],
@@ -19049,45 +19205,6 @@ const LEVEL_4_DATA = [
     ],
     "grammar_note": "rural (adj.) ↔ urban; rural area = 農村地區",
     "chinese_sentence": "她在農村長大，高中畢業後才第一次到大城市求學，一切都新鮮又陌生。",
-    "word_family": ""
-  },
-  {
-    "word": "scold",
-    "pos": "v./n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/skˈoʊld/",
-    "chinese": "責罵；訓斥",
-    "collocations": [
-      {
-        "en": "scold sb. for",
-        "zh": "因…責罵某人"
-      },
-      {
-        "en": "get scolded",
-        "zh": "被罵"
-      },
-      {
-        "en": "scold harshly",
-        "zh": "嚴厲訓斥"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The teacher **scolded** the student for talking during the exam.",
-        "target": "scolded"
-      },
-      {
-        "en": "She got **scolded** for coming home late without calling first.",
-        "target": "scolded"
-      }
-    ],
-    "synonyms": [
-      "reprimand",
-      "rebuke",
-      "lecture"
-    ],
-    "grammar_note": "scold (v.); scold sb. for + N/V-ing = 因某事責罵某人",
-    "chinese_sentence": "那名學生因為在考試中交頭接耳而被老師當場嚴厲訓斥。",
     "word_family": ""
   },
   {
@@ -19112,11 +19229,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The conversation **shifted** from grades to future career plans.",
+        "en": "The conversation shifted from grades to future career plans.",
         "target": "shifted"
       },
       {
-        "en": "Her dad works the **night shift** at the factory and sleeps during the day.",
+        "en": "Her dad works the night shift at the factory and sleeps during the day.",
         "target": "night shift"
       }
     ],
@@ -19151,11 +19268,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her apology was received warmly because everyone felt its **sincerity**.",
+        "en": "Her apology was received warmly because everyone felt its sincerity.",
         "target": "sincerity"
       },
       {
-        "en": "He spoke with such **sincerity** that no one doubted his intentions.",
+        "en": "He spoke with such sincerity that no one doubted his intentions.",
         "target": "sincerity"
       }
     ],
@@ -19190,11 +19307,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "There was a **slight** improvement in her grades after she changed her study method.",
+        "en": "There was a slight improvement in her grades after she changed her study method.",
         "target": "slight"
       },
       {
-        "en": "She was not in the **slightest** interested in the subject.",
+        "en": "She was not in the slightest interested in the subject.",
         "target": "slightest"
       }
     ],
@@ -19229,11 +19346,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Scientists discovered a new **species** of deep-sea fish off the coast of Taiwan.",
+        "en": "Scientists discovered a new species of deep-sea fish off the coast of Taiwan.",
         "target": "species"
       },
       {
-        "en": "Many **species** of birds are threatened by deforestation.",
+        "en": "Many species of birds are threatened by deforestation.",
         "target": "species"
       }
     ],
@@ -19268,11 +19385,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students should **strive for** excellence in everything they do.",
+        "en": "Students should strive for excellence in everything they do.",
         "target": "strive for"
       },
       {
-        "en": "She **strives** to improve herself every single day without exception.",
+        "en": "She strives to improve herself every single day without exception.",
         "target": "strives"
       }
     ],
@@ -19307,11 +19424,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher asked students to **summarize** each chapter in two sentences.",
+        "en": "The teacher asked students to summarize each chapter in two sentences.",
         "target": "summarize"
       },
       {
-        "en": "She **summarized** the key points of the lecture in her notebook.",
+        "en": "She summarized the key points of the lecture in her notebook.",
         "target": "summarized"
       }
     ],
@@ -19346,11 +19463,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She did a **thorough** review of all her notes before the final exam.",
+        "en": "She did a thorough review of all her notes before the final exam.",
         "target": "thorough"
       },
       {
-        "en": "The doctor conducted a **thorough** physical examination before surgery.",
+        "en": "The doctor conducted a thorough physical examination before surgery.",
         "target": "thorough"
       }
     ],
@@ -19362,45 +19479,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "thoroughly (adv.); thoroughness (n.); thorough ≠ though/through（注意拼寫）",
     "chinese_sentence": "她在期末考前對所有的筆記進行了徹底且全面的複習，沒有漏掉任何重點。",
     "word_family": "thorough · thoroughly · thoroughness"
-  },
-  {
-    "word": "tragedy",
-    "pos": "n.",
-    "chapter": "Mind and Emotion",
-    "kk": "/trˈædʒədi/",
-    "chinese": "悲劇；慘事；悲劇性作品",
-    "collocations": [
-      {
-        "en": "personal tragedy",
-        "zh": "個人悲劇"
-      },
-      {
-        "en": "tragic event",
-        "zh": "悲劇事件"
-      },
-      {
-        "en": "Shakespeare's tragedies",
-        "zh": "莎士比亞的悲劇"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The unexpected death of her mentor was a great **tragedy** for the school.",
-        "target": "tragedy"
-      },
-      {
-        "en": "Shakespeare's **tragedies** explore themes of love, power, and betrayal.",
-        "target": "tragedies"
-      }
-    ],
-    "synonyms": [
-      "disaster",
-      "catastrophe",
-      "sorrow"
-    ],
-    "grammar_note": "tragic (adj.); tragically (adv.); tragedy ≠ comedy; personal tragedy = 個人悲劇",
-    "chinese_sentence": "恩師的突然離世對整個學校來說是一場沉重的悲劇，讓師生悲慟不已。",
-    "word_family": "tragedy · tragic · tragically"
   },
   {
     "word": "torture",
@@ -19424,11 +19502,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Sitting through a three-hour lecture without a break was pure **torture** for her.",
+        "en": "Sitting through a three-hour lecture without a break was pure torture for her.",
         "target": "torture"
       },
       {
-        "en": "The use of **torture** is forbidden under international law.",
+        "en": "The use of torture is forbidden under international law.",
         "target": "torture"
       }
     ],
@@ -19463,11 +19541,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her hard work and dedication led to a **triumph** at the national competition.",
+        "en": "Her hard work and dedication led to a triumph at the national competition.",
         "target": "triumph"
       },
       {
-        "en": "She **triumphed over** her fears and delivered a confident speech.",
+        "en": "She triumphed over her fears and delivered a confident speech.",
         "target": "triumphed over"
       }
     ],
@@ -19502,11 +19580,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "It is **vital** that students review their notes after each class.",
+        "en": "It is vital that students review their notes after each class.",
         "target": "vital"
       },
       {
-        "en": "The doctor checked the patient's **vital signs** every hour.",
+        "en": "The doctor checked the patient's vital signs every hour.",
         "target": "vital signs"
       }
     ],
@@ -19541,11 +19619,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Check the school's official **website** for the latest exam schedule updates.",
+        "en": "Check the school's official website for the latest exam schedule updates.",
         "target": "website"
       },
       {
-        "en": "She built her own **website** to showcase her photography portfolio.",
+        "en": "She built her own website to showcase her photography portfolio.",
         "target": "website"
       }
     ],
@@ -19580,11 +19658,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Despite being in her sixties, she maintains a **youthful** spirit and enthusiasm.",
+        "en": "Despite being in her sixties, she maintains a youthful spirit and enthusiasm.",
         "target": "youthful"
       },
       {
-        "en": "The classroom was filled with the **youthful** energy of the new students.",
+        "en": "The classroom was filled with the youthful energy of the new students.",
         "target": "youthful"
       }
     ],
@@ -19596,6 +19674,201 @@ const LEVEL_4_DATA = [
     "grammar_note": "youth (n.); youthful (adj.) = 像年輕人/充滿活力; youthfully (adv.)",
     "chinese_sentence": "儘管已年過六十，她依然保持著充滿活力的青春心態，令人欽佩。",
     "word_family": "youth · youthful · youthfully"
+  },
+  {
+    "word": "overcome",
+    "pos": "v.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ˈoʊvɚkˌahm/",
+    "chinese": "克服；戰勝；壓倒",
+    "collocations": [
+      {
+        "en": "overcome fear",
+        "zh": "克服恐懼"
+      },
+      {
+        "en": "overcome difficulties",
+        "zh": "克服困難"
+      },
+      {
+        "en": "be overcome by",
+        "zh": "被…壓倒"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She overcame her shyness and gave a confident presentation.",
+        "target": "overcame"
+      },
+      {
+        "en": "He was overcome by emotion when he received the award.",
+        "target": "overcome by"
+      }
+    ],
+    "synonyms": [
+      "conquer",
+      "defeat",
+      "surmount"
+    ],
+    "grammar_note": "overcome–overcame–overcome; overcome sth. = 克服某事; overcome by = 被…所壓倒/佔據",
+    "chinese_sentence": "她克服了內心的羞澀，在全班面前自信地完成了她的期末口頭報告。",
+    "word_family": ""
+  },
+  {
+    "word": "psychological",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/sˌaɪkəlˈɑdʒɪkəl/",
+    "chinese": "心理的；心理學的",
+    "collocations": [
+      {
+        "en": "psychological impact",
+        "zh": "心理影響"
+      },
+      {
+        "en": "psychological support",
+        "zh": "心理支持"
+      },
+      {
+        "en": "psychological disorder",
+        "zh": "心理疾病"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Bullying can have serious psychological effects on its victims.",
+        "target": "psychological"
+      },
+      {
+        "en": "She sought psychological counseling to help manage her anxiety.",
+        "target": "psychological"
+      }
+    ],
+    "synonyms": [
+      "mental",
+      "emotional",
+      "behavioral"
+    ],
+    "grammar_note": "psychology (n.); psychologist (n.); psychological (adj.); psychologically (adv.)",
+    "chinese_sentence": "霸凌對受害者可能造成嚴重且長期的心理傷害，需要專業輔導介入。",
+    "word_family": "psychic · psychological · psychologically · psychologist · psychology · psychotherapist · psychotherapy"
+  },
+  {
+    "word": "grief",
+    "pos": "n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/ɡrˈif/",
+    "chinese": "悲傷；悲痛；悲歎",
+    "collocations": [
+      {
+        "en": "deep grief",
+        "zh": "深切的悲痛"
+      },
+      {
+        "en": "grief over loss",
+        "zh": "因失去而悲痛"
+      },
+      {
+        "en": "come to grief",
+        "zh": "遭遇不幸"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She was overcome with grief when she heard about her teacher's passing.",
+        "target": "grief"
+      },
+      {
+        "en": "Years after the accident, she still felt deep grief whenever she looked at old family photos.",
+        "target": "deep grief"
+      }
+    ],
+    "synonyms": [
+      "sorrow",
+      "anguish",
+      "sadness"
+    ],
+    "grammar_note": "grieve (v.); grief (n.); grieving (adj.) = 哀痛中的; come to grief = 遭遇失敗/不幸",
+    "chinese_sentence": "當她得知恩師去世的消息時，悲傷的情緒讓她無法抑制眼淚。",
+    "word_family": "grief · grieve · grieving"
+  },
+  {
+    "word": "timid",
+    "pos": "adj.",
+    "chapter": "Mind and Emotion",
+    "kk": "/tˈɪmɪd/",
+    "chinese": "膽小的；羞怯的；怕羞的",
+    "collocations": [
+      {
+        "en": "timid personality",
+        "zh": "膽怯的個性"
+      },
+      {
+        "en": "timid response",
+        "zh": "怯懦的回應"
+      },
+      {
+        "en": "feel timid",
+        "zh": "感到膽怯"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She was too timid to raise her hand in class, even when she knew the answer.",
+        "target": "timid"
+      },
+      {
+        "en": "The timid kitten hid behind the sofa when strangers came to visit.",
+        "target": "timid"
+      }
+    ],
+    "synonyms": [
+      "shy",
+      "fearful",
+      "meek"
+    ],
+    "grammar_note": "timidly (adv.); timidity (n.); timid ≠ humble（timid 暗示過度謙縮）",
+    "chinese_sentence": "她太過羞怯，即使知道答案也不敢舉手，後來在老師的鼓勵下才慢慢改善。",
+    "word_family": "timid · timidity · timidly"
+  },
+  {
+    "word": "discourage(ment)",
+    "pos": "v./n.",
+    "chapter": "Mind and Emotion",
+    "kk": "/dɪsˈkɝɪdʒ/",
+    "chinese": "使氣餒；勸阻（v.）；氣餒；阻礙（n.）",
+    "collocations": [
+      {
+        "en": "discourage sb. from V-ing",
+        "zh": "勸阻某人做某事"
+      },
+      {
+        "en": "feel discouraged",
+        "zh": "感到氣餒"
+      },
+      {
+        "en": "a feeling of discouragement",
+        "zh": "挫折感"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Don't let one low mock-exam score discourage you; keep reviewing, and your grades will improve.",
+        "target": "discourage you"
+      },
+      {
+        "en": "High parking fees are meant to discourage people from driving into the city center.",
+        "target": "discourage people from driving"
+      }
+    ],
+    "synonyms": [
+      "dishearten",
+      "deter",
+      "dissuade"
+    ],
+    "grammar_note": "discourage sb. from + V-ing（✗ discourage sb. to V）；對比 encourage sb. to + V",
+    "chinese_sentence": "爸媽勸他颱風天不要去海邊衝浪，以免發生危險。",
+    "word_family": "courage (n.) · encourage (v.) · discourage (v.) · discouragement (n.) · discouraged (adj.) · discouraging (adj.)"
   },
   {
     "word": "adequate",
@@ -19619,11 +19892,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her preparation was **adequate** for the exam, but she hoped for more time.",
+        "en": "Her preparation was adequate for the exam, but she hoped for more time.",
         "target": "adequate"
       },
       {
-        "en": "Make sure you get **adequate** sleep before the big test.",
+        "en": "Make sure you get adequate sleep before the big test.",
         "target": "adequate"
       }
     ],
@@ -19658,11 +19931,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**Acid rain** damages forests, lakes, and buildings in industrial areas.",
+        "en": "Acid rain damages forests, lakes, and buildings in industrial areas.",
         "target": "Acid rain"
       },
       {
-        "en": "The battery contains **acid**, which can be dangerous if spilled.",
+        "en": "The battery contains acid, which can be dangerous if spilled.",
         "target": "acid"
       }
     ],
@@ -19697,11 +19970,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "His answer was **ambiguous** — we couldn't tell if he agreed or disagreed.",
+        "en": "His answer was ambiguous — we couldn't tell if he agreed or disagreed.",
         "target": "ambiguous"
       },
       {
-        "en": "The instructions were so **ambiguous** that students interpreted them differently.",
+        "en": "The instructions were so ambiguous that students interpreted them differently.",
         "target": "ambiguous"
       }
     ],
@@ -19736,11 +20009,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The spring weather was **agreeable** — warm but not too hot.",
+        "en": "The spring weather was agreeable — warm but not too hot.",
         "target": "agreeable"
       },
       {
-        "en": "She was **agreeable to** the new proposal and signed the form.",
+        "en": "She was agreeable to the new proposal and signed the form.",
         "target": "agreeable to"
       }
     ],
@@ -19775,11 +20048,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The old city gate featured a beautiful stone **arch** at its entrance.",
+        "en": "The old city gate featured a beautiful stone arch at its entrance.",
         "target": "arch"
       },
       {
-        "en": "She **arched** her back and stretched after sitting for hours.",
+        "en": "She arched her back and stretched after sitting for hours.",
         "target": "arched"
       }
     ],
@@ -19814,11 +20087,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "It was **apparent** from his expression that he was upset.",
+        "en": "It was apparent from his expression that he was upset.",
         "target": "apparent"
       },
       {
-        "en": "She left the room for no **apparent** reason during the meeting.",
+        "en": "She left the room for no apparent reason during the meeting.",
         "target": "apparent"
       }
     ],
@@ -19853,12 +20126,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Every element is made up of **atoms** that are too small to see.",
+        "en": "Every element is made up of atoms that are too small to see.",
         "target": "atoms"
       },
       {
-        "en": "The **atom** bomb dropped on Hiroshima changed the course of World War II.",
-        "target": "atom"
+        "en": "A water molecule is made up of two hydrogen atoms and one oxygen atom.",
+        "target": "one oxygen atom"
       }
     ],
     "synonyms": [
@@ -19892,11 +20165,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The museum provides **audio** guides for visitors in several languages.",
+        "en": "The museum provides audio guides for visitors in several languages.",
         "target": "audio"
       },
       {
-        "en": "She downloaded the **audio** version of the novel to listen to during commutes.",
+        "en": "She downloaded the audio version of the novel to listen to during commutes.",
         "target": "audio"
       }
     ],
@@ -19930,11 +20203,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **awaited** the exam results with a mixture of hope and anxiety.",
+        "en": "She awaited the exam results with a mixture of hope and anxiety.",
         "target": "awaited"
       },
       {
-        "en": "A warm welcome **awaits** all new students on their first day.",
+        "en": "A warm welcome awaits all new students on their first day.",
         "target": "awaits"
       }
     ],
@@ -19969,11 +20242,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She chose **biology** as her major because she loves the study of living things.",
+        "en": "She chose biology as her major because she loves the study of living things.",
         "target": "biology"
       },
       {
-        "en": "The **biology** experiment involved observing plant cells under a microscope.",
+        "en": "The biology experiment involved observing plant cells under a microscope.",
         "target": "biology"
       }
     ],
@@ -20007,11 +20280,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **burglar** alarm went off when the thief broke the window.",
+        "en": "The burglar alarm went off when the thief broke the window.",
         "target": "burglar"
       },
       {
-        "en": "A **burglar** entered through the back door while the family was away.",
+        "en": "A burglar entered through the back door while the family was away.",
         "target": "burglar"
       }
     ],
@@ -20046,11 +20319,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Running for 30 minutes can help you burn around 300 **calories**.",
+        "en": "Running for 30 minutes can help you burn around 300 calories.",
         "target": "calories"
       },
       {
-        "en": "She tracks her daily **calorie** intake to maintain a healthy weight.",
+        "en": "She tracks her daily calorie intake to maintain a healthy weight.",
         "target": "calorie"
       }
     ],
@@ -20084,11 +20357,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **capital** of Taiwan is Taipei, a vibrant and modern city.",
-        "target": "capital"
+        "en": "He needed more capital to open a second coffee shop, so he applied for a bank loan.",
+        "target": "more capital"
       },
       {
-        "en": "**Capitalism** encourages competition and private ownership of businesses.",
+        "en": "Capitalism encourages competition and private ownership of businesses.",
         "target": "Capitalism"
       }
     ],
@@ -20123,11 +20396,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She donates a portion of her allowance to **charity** every month.",
+        "en": "She donates a portion of her allowance to charity every month.",
         "target": "charity"
       },
       {
-        "en": "The school held a **charity** bake sale to raise funds for earthquake victims.",
+        "en": "The school held a charity bake sale to raise funds for earthquake victims.",
         "target": "charity"
       }
     ],
@@ -20162,11 +20435,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Rumors about the exam changes began to **circulate** among students.",
+        "en": "Rumors about the exam changes began to circulate among students.",
         "target": "circulate"
       },
       {
-        "en": "The teacher **circulated** the handout to all students before the lesson.",
+        "en": "The teacher circulated the handout to all students before the lesson.",
         "target": "circulated"
       }
     ],
@@ -20201,11 +20474,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She prefers watching **comedies** because they help her relax after a long day.",
+        "en": "She prefers watching comedies because they help her relax after a long day.",
         "target": "comedies"
       },
       {
-        "en": "The school drama club performed a **comedy** that made the audience laugh throughout.",
+        "en": "The school drama club performed a comedy that made the audience laugh throughout.",
         "target": "comedy"
       }
     ],
@@ -20240,11 +20513,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "His sudden change of plan **complicated** the whole group project.",
+        "en": "His sudden change of plan complicated the whole group project.",
         "target": "complicated"
       },
       {
-        "en": "Don't **complicate** things — just be honest about what happened.",
+        "en": "Don't complicate things — just be honest about what happened.",
         "target": "complicate"
       }
     ],
@@ -20279,11 +20552,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher gave **constructive** feedback that helped the student improve.",
+        "en": "The teacher gave constructive feedback that helped the student improve.",
         "target": "constructive"
       },
       {
-        "en": "Please offer **constructive** suggestions instead of just pointing out problems.",
+        "en": "Please offer constructive suggestions instead of just pointing out problems.",
         "target": "constructive"
       }
     ],
@@ -20318,11 +20591,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She packed her lunch in an airtight **container** to keep it fresh.",
+        "en": "She packed her lunch in an airtight container to keep it fresh.",
         "target": "container"
       },
       {
-        "en": "The port handles hundreds of **container** ships every month.",
+        "en": "The port handles hundreds of container ships every month.",
         "target": "container"
       }
     ],
@@ -20357,11 +20630,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She has **conservative** views on social issues, preferring traditional values.",
+        "en": "She has conservative views on social issues, preferring traditional values.",
         "target": "conservative"
       },
       {
-        "en": "By a **conservative** estimate, it will take at least two years to finish.",
+        "en": "By a conservative estimate, it will take at least two years to finish.",
         "target": "conservative"
       }
     ],
@@ -20396,11 +20669,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**In contrast to** her older sister, she prefers studying science over arts.",
+        "en": "In contrast to her older sister, she prefers studying science over arts.",
         "target": "In contrast to"
       },
       {
-        "en": "The bright red dress created a striking **contrast** with the white background.",
+        "en": "The bright red dress created a striking contrast with the white background.",
         "target": "contrast"
       }
     ],
@@ -20435,11 +20708,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She spent hours making her own Halloween **costume** from recycled materials.",
+        "en": "She spent hours making her own Halloween costume from recycled materials.",
         "target": "costume"
       },
       {
-        "en": "The performers wore colorful **costumes** representing different cultural traditions.",
+        "en": "The performers wore colorful costumes representing different cultural traditions.",
         "target": "costumes"
       }
     ],
@@ -20474,11 +20747,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The project succeeded thanks to the excellent **cooperation** among team members.",
+        "en": "The project succeeded thanks to the excellent cooperation among team members.",
         "target": "cooperation"
       },
       {
-        "en": "**International cooperation** is essential for solving global climate change.",
+        "en": "International cooperation is essential for solving global climate change.",
         "target": "International cooperation"
       }
     ],
@@ -20513,11 +20786,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She faced a lot of **criticism** for her controversial decision.",
+        "en": "She faced a lot of criticism for her controversial decision.",
         "target": "criticism"
       },
       {
-        "en": "Learning to accept **criticism** gracefully is an important life skill.",
+        "en": "Learning to accept criticism gracefully is an important life skill.",
         "target": "criticism"
       }
     ],
@@ -20552,11 +20825,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She added two **ice cubes** to her glass of water.",
+        "en": "She added two ice cubes to her glass of water.",
         "target": "ice cubes"
       },
       {
-        "en": "The math problem asked students to find the **cube** root of 125.",
+        "en": "The math problem asked students to find the cube root of 125.",
         "target": "cube"
       }
     ],
@@ -20591,11 +20864,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She worked overnight to **meet the deadline** for submitting her report.",
+        "en": "She worked overnight to meet the deadline for submitting her report.",
         "target": "meet the deadline"
       },
       {
-        "en": "Missing the application **deadline** meant she had to wait another year.",
+        "en": "Missing the application deadline meant she had to wait another year.",
         "target": "deadline"
       }
     ],
@@ -20630,11 +20903,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "To everyone's **delight**, the teacher announced a surprise field trip.",
+        "en": "To everyone's delight, the teacher announced a surprise field trip.",
         "target": "delight"
       },
       {
-        "en": "She **delighted** in helping younger students with their homework.",
+        "en": "She delighted in helping younger students with their homework.",
         "target": "delighted"
       }
     ],
@@ -20669,11 +20942,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **departure** time for the flight has been changed to 9:00 a.m.",
+        "en": "The departure time for the flight has been changed to 9:00 a.m.",
         "target": "departure"
       },
       {
-        "en": "This new teaching style is a **departure from** the traditional approach.",
+        "en": "This new teaching style is a departure from the traditional approach.",
         "target": "departure from"
       }
     ],
@@ -20685,45 +20958,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "depart (v.); departure (n.); departure from sth. = 背離某事物",
     "chinese_sentence": "那班飛機的出發時間已更改為早上九點，乘客請留意最新通知。",
     "word_family": "depart · departure"
-  },
-  {
-    "word": "distribution",
-    "pos": "n.",
-    "chapter": "Time and Change",
-    "kk": "/dˌɪstrəbjˈuʃən/",
-    "chinese": "分配；分布；發行",
-    "collocations": [
-      {
-        "en": "distribution of wealth",
-        "zh": "財富分配"
-      },
-      {
-        "en": "food distribution",
-        "zh": "食物發放"
-      },
-      {
-        "en": "income distribution",
-        "zh": "收入分配"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **distribution** of textbooks to students began on the first day of school.",
-        "target": "distribution"
-      },
-      {
-        "en": "An uneven **distribution** of resources can lead to social inequality.",
-        "target": "distribution"
-      }
-    ],
-    "synonyms": [
-      "allocation",
-      "delivery",
-      "spread"
-    ],
-    "grammar_note": "distribute (v.); distribution (n.); distributor (n.) = 分銷商",
-    "chinese_sentence": "資源分配不均往往是導致社會不平等和貧富差距擴大的重要因素。",
-    "word_family": "distribute · distribution · distributor"
   },
   {
     "word": "divorce",
@@ -20747,11 +20981,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "After ten years, the couple decided to **divorce** by mutual agreement.",
+        "en": "After ten years, the couple decided to divorce by mutual agreement.",
         "target": "divorce"
       },
       {
-        "en": "The rising **divorce rate** is a social issue that many countries face today.",
+        "en": "The rising divorce rate is a social issue that many countries face today.",
         "target": "divorce rate"
       }
     ],
@@ -20786,11 +21020,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "English has become the **dominant** language in global business and science.",
+        "en": "English has become the dominant language in global business and science.",
         "target": "dominant"
       },
       {
-        "en": "The **dominant** theme in the novel is the conflict between tradition and change.",
+        "en": "The dominant theme in the novel is the conflict between tradition and change.",
         "target": "dominant"
       }
     ],
@@ -20825,11 +21059,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Riding a bicycle is an **economical** and eco-friendly way to commute.",
+        "en": "Riding a bicycle is an economical and eco-friendly way to commute.",
         "target": "economical"
       },
       {
-        "en": "She learned to be **economical with** her allowance to save for a new laptop.",
+        "en": "She learned to be economical with her allowance to save for a new laptop.",
         "target": "economical with"
       }
     ],
@@ -20864,11 +21098,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The Tang **Dynasty** is considered one of China's greatest golden ages.",
+        "en": "The Tang Dynasty is considered one of China's greatest golden ages.",
         "target": "Dynasty"
       },
       {
-        "en": "The basketball team has built a **dynasty** by winning five championships in a row.",
+        "en": "The basketball team has built a dynasty by winning five championships in a row.",
         "target": "dynasty"
       }
     ],
@@ -20903,11 +21137,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **elementary** school near our house has over 800 students.",
+        "en": "The elementary school near our house has over 800 students.",
         "target": "elementary"
       },
       {
-        "en": "She found the math problem surprisingly **elementary** after all her practice.",
+        "en": "She found the math problem surprisingly elementary after all her practice.",
         "target": "elementary"
       }
     ],
@@ -20942,11 +21176,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She visited the **embassy** to apply for a student visa.",
+        "en": "She visited the embassy to apply for a student visa.",
         "target": "embassy"
       },
       {
-        "en": "In an emergency, contact your country's **embassy** for assistance.",
+        "en": "In an emergency, contact your country's embassy for assistance.",
         "target": "embassy"
       }
     ],
@@ -20980,11 +21214,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The Roman **Empire** once stretched across most of Europe and North Africa.",
+        "en": "The Roman Empire once stretched across most of Europe and North Africa.",
         "target": "Empire"
       },
       {
-        "en": "He built a business **empire** from a small family bakery.",
+        "en": "He built a business empire from a small family bakery.",
         "target": "empire"
       }
     ],
@@ -21019,11 +21253,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Long **exposure** to sunlight without protection can cause skin damage.",
+        "en": "Long exposure to sunlight without protection can cause skin damage.",
         "target": "exposure"
       },
       {
-        "en": "Early **exposure** to foreign languages helps children develop better pronunciation.",
+        "en": "Early exposure to foreign languages helps children develop better pronunciation.",
         "target": "exposure"
       }
     ],
@@ -21058,11 +21292,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school piloted an **experimental** curriculum based on project-based learning.",
+        "en": "The school piloted an experimental curriculum based on project-based learning.",
         "target": "experimental"
       },
       {
-        "en": "The new treatment is still **experimental** and has not yet been approved.",
+        "en": "The new treatment is still experimental and has not yet been approved.",
         "target": "experimental"
       }
     ],
@@ -21097,11 +21331,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The dog was a **faithful** companion who never left his side.",
+        "en": "The dog was a faithful companion who never left his side.",
         "target": "faithful"
       },
       {
-        "en": "She remained **faithful to** her goals despite many distractions.",
+        "en": "She remained faithful to her goals despite many distractions.",
         "target": "faithful to"
       }
     ],
@@ -21136,11 +21370,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She went to **fetch** her bag from the locker before the exam.",
+        "en": "She went to fetch her bag from the locker before the exam.",
         "target": "fetch"
       },
       {
-        "en": "The rare painting **fetched** over a million dollars at the auction.",
+        "en": "The rare painting fetched over a million dollars at the auction.",
         "target": "fetched"
       }
     ],
@@ -21175,11 +21409,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She put her graduation photo in a beautiful wooden **frame**.",
+        "en": "She put her graduation photo in a beautiful wooden frame.",
         "target": "frame"
       },
       {
-        "en": "I'm not in the right **frame of mind** to make such an important decision today.",
+        "en": "I'm not in the right frame of mind to make such an important decision today.",
         "target": "frame of mind"
       }
     ],
@@ -21214,11 +21448,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Scientists found a **fossil** of a dinosaur estimated to be 65 million years old.",
+        "en": "Scientists found a fossil of a dinosaur estimated to be 65 million years old.",
         "target": "fossil"
       },
       {
-        "en": "Burning **fossil fuels** is a major contributor to global warming.",
+        "en": "Burning fossil fuels is a major contributor to global warming.",
         "target": "fossil fuels"
       }
     ],
@@ -21252,12 +21486,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She bought all the necessary **gear** for her first camping trip.",
+        "en": "She bought all the necessary gear for her first camping trip.",
         "target": "gear"
       },
       {
-        "en": "The cyclist **shifted** into a higher **gear** to climb the steep hill.",
-        "target": "gear"
+        "en": "The cyclist shifted into a lower gear to climb the steep hill.",
+        "target": "a lower gear"
       }
     ],
     "synonyms": [
@@ -21291,11 +21525,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **generosity** in donating her prize money to charity touched everyone.",
+        "en": "Her generosity in donating her prize money to charity touched everyone.",
         "target": "generosity"
       },
       {
-        "en": "He was known for his **generosity** in sharing his knowledge with others.",
+        "en": "He was known for his generosity in sharing his knowledge with others.",
         "target": "generosity"
       }
     ],
@@ -21330,11 +21564,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The students **giggled** when the teacher accidentally wrote the wrong answer.",
+        "en": "The students giggled when the teacher accidentally wrote the wrong answer.",
         "target": "giggled"
       },
       {
-        "en": "She couldn't stop **giggling** when she saw the silly costume.",
+        "en": "She couldn't stop giggling when she saw the silly costume.",
         "target": "giggling"
       }
     ],
@@ -21369,11 +21603,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She studies **grammar** rules carefully to avoid errors in her writing.",
+        "en": "She studies grammar rules carefully to avoid errors in her writing.",
         "target": "grammar"
       },
       {
-        "en": "The essay had excellent ideas but was marked down for **grammar** mistakes.",
+        "en": "The essay had excellent ideas but was marked down for grammar mistakes.",
         "target": "grammar"
       }
     ],
@@ -21408,11 +21642,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The doctor had a **grave** expression when he delivered the news.",
+        "en": "The doctor had a grave expression when he delivered the news.",
         "target": "grave"
       },
       {
-        "en": "She placed flowers on her grandfather's **grave** on his birthday.",
+        "en": "She placed flowers on her grandfather's grave on his birthday.",
         "target": "grave"
       }
     ],
@@ -21447,11 +21681,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **hastened** to finish her homework before her parents came home.",
+        "en": "She hastened to finish her homework before her parents came home.",
         "target": "hastened"
       },
       {
-        "en": "The bad news **hastened** his decision to leave the company.",
+        "en": "The bad news hastened his decision to leave the company.",
         "target": "hastened"
       }
     ],
@@ -21486,11 +21720,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He used a **garden hose** to water the plants on hot days.",
+        "en": "He used a garden hose to water the plants on hot days.",
         "target": "garden hose"
       },
       {
-        "en": "The firefighters used a powerful **hose** to put out the flames.",
+        "en": "The firefighters used a powerful hose to put out the flames.",
         "target": "hose"
       }
     ],
@@ -21525,11 +21759,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The police were able to **identify** the suspect using fingerprint evidence.",
+        "en": "The police were able to identify the suspect using fingerprint evidence.",
         "target": "identify"
       },
       {
-        "en": "She **identified with** the character in the novel who also felt misunderstood.",
+        "en": "She identified with the character in the novel who also felt misunderstood.",
         "target": "identified with"
       }
     ],
@@ -21564,11 +21798,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher reported the **incident** of bullying to the school principal.",
+        "en": "The teacher reported the incident of bullying to the school principal.",
         "target": "incident"
       },
       {
-        "en": "The field trip passed **without incident**, and all students returned safely.",
+        "en": "The field trip passed without incident, and all students returned safely.",
         "target": "without incident"
       }
     ],
@@ -21603,11 +21837,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**Hydrogen** is the lightest and most abundant element in the universe.",
+        "en": "Hydrogen is the lightest and most abundant element in the universe.",
         "target": "Hydrogen"
       },
       {
-        "en": "Scientists are exploring the use of **hydrogen** as a clean energy source.",
+        "en": "Scientists are exploring the use of hydrogen as a clean energy source.",
         "target": "hydrogen"
       }
     ],
@@ -21641,11 +21875,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Your **input** during the group discussion was very valuable.",
+        "en": "Your input during the group discussion was very valuable.",
         "target": "input"
       },
       {
-        "en": "She **input** all the survey data into the spreadsheet.",
+        "en": "She input all the survey data into the spreadsheet.",
         "target": "input"
       }
     ],
@@ -21680,11 +21914,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "High **inflation** means that the same amount of money buys less than before.",
+        "en": "High inflation means that the same amount of money buys less than before.",
         "target": "inflation"
       },
       {
-        "en": "The government is taking steps to control the rising **inflation** rate.",
+        "en": "The government is taking steps to control the rising inflation rate.",
         "target": "inflation"
       }
     ],
@@ -21719,11 +21953,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Different readers may **interpret** the poem's meaning differently.",
+        "en": "Different readers may interpret the poem's meaning differently.",
         "target": "interpret"
       },
       {
-        "en": "She was asked to **interpret** for the foreign guests at the conference.",
+        "en": "She was asked to interpret for the foreign guests at the conference.",
         "target": "interpret"
       }
     ],
@@ -21758,11 +21992,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her remarkable success stirred up **jealousy** among some of her classmates.",
+        "en": "Her remarkable success stirred up jealousy among some of her classmates.",
         "target": "jealousy"
       },
       {
-        "en": "**Jealousy** can destroy friendships if it is not kept in check.",
+        "en": "Jealousy can destroy friendships if it is not kept in check.",
         "target": "Jealousy"
       }
     ],
@@ -21797,11 +22031,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Bullying is a serious **issue** that all schools need to address.",
+        "en": "Bullying is a serious issue that all schools need to address.",
         "target": "issue"
       },
       {
-        "en": "The school **issued** a statement about the new attendance policy.",
+        "en": "The school issued a statement about the new attendance policy.",
         "target": "issued"
       }
     ],
@@ -21836,11 +22070,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She suffered from **jet lag** for three days after flying back from Europe.",
+        "en": "She suffered from jet lag for three days after flying back from Europe.",
         "target": "jet lag"
       },
       {
-        "en": "Some students **lag behind** in class because of frequent absences.",
+        "en": "Some students lag behind in class because of frequent absences.",
         "target": "lag behind"
       }
     ],
@@ -21875,11 +22109,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "You must have a valid **driver's license** to operate a motor vehicle.",
+        "en": "You must have a valid driver's license to operate a motor vehicle.",
         "target": "driver's license"
       },
       {
-        "en": "The company was granted a **license** to produce the new medicine.",
+        "en": "The company was granted a license to produce the new medicine.",
         "target": "license"
       }
     ],
@@ -21914,11 +22148,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "His argument was clear and **logical**, making it easy to follow.",
+        "en": "His argument was clear and logical, making it easy to follow.",
         "target": "logical"
       },
       {
-        "en": "It is **logical** to review notes shortly after class while the information is fresh.",
+        "en": "It is logical to review notes shortly after class while the information is fresh.",
         "target": "logical"
       }
     ],
@@ -21953,11 +22187,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Reading **literature** broadens one's understanding of human experience.",
+        "en": "Reading literature broadens one's understanding of human experience.",
         "target": "literature"
       },
       {
-        "en": "The professor recommended several key pieces of **literature** on the topic.",
+        "en": "The professor recommended several key pieces of literature on the topic.",
         "target": "literature"
       }
     ],
@@ -21992,12 +22226,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The speed limit on this highway is a **maximum** of 110 kilometers per hour.",
+        "en": "The speed limit on this highway is a maximum of 110 kilometers per hour.",
         "target": "maximum"
       },
       {
-        "en": "She studied to the **maximum** of her ability before the exam.",
-        "target": "maximum"
+        "en": "Each student may borrow a maximum of five books from the library at one time.",
+        "target": "a maximum of five"
       }
     ],
     "synonyms": [
@@ -22031,11 +22265,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **messenger** arrived at dawn with an urgent letter from the king.",
+        "en": "The messenger arrived at dawn with an urgent letter from the king.",
         "target": "messenger"
       },
       {
-        "en": "Don't shoot the **messenger** — she is just delivering the bad news.",
+        "en": "Don't shoot the messenger — she is just delivering the bad news.",
         "target": "messenger"
       }
     ],
@@ -22070,11 +22304,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was often **misunderstood** because she had difficulty expressing her feelings.",
+        "en": "She was often misunderstood because she had difficulty expressing her feelings.",
         "target": "misunderstood"
       },
       {
-        "en": "He **misunderstood** the homework instructions and did the wrong exercise.",
+        "en": "He misunderstood the homework instructions and did the wrong exercise.",
         "target": "misunderstood"
       }
     ],
@@ -22109,11 +22343,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **modesty** prevented her from boasting about her academic achievements.",
+        "en": "Her modesty prevented her from boasting about her academic achievements.",
         "target": "modesty"
       },
       {
-        "en": "False **modesty** can be just as off-putting as arrogance.",
+        "en": "False modesty can be just as off-putting as arrogance.",
         "target": "modesty"
       }
     ],
@@ -22148,11 +22382,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She had one goal, **namely**, to score above 90% on every subject.",
+        "en": "She had one goal, namely, to score above 90% on every subject.",
         "target": "namely"
       },
       {
-        "en": "There are two solutions, **namely**, compromise or compete.",
+        "en": "There are two solutions, namely, compromise or compete.",
         "target": "namely"
       }
     ],
@@ -22187,11 +22421,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She didn't mean to **offend** anyone with her comment.",
+        "en": "She didn't mean to offend anyone with her comment.",
         "target": "offend"
       },
       {
-        "en": "His rude remark deeply **offended** many of his classmates.",
+        "en": "His rude remark deeply offended many of his classmates.",
         "target": "offended"
       }
     ],
@@ -22226,11 +22460,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She overcame every **obstacle** on her path to becoming a doctor.",
+        "en": "She overcame every obstacle on her path to becoming a doctor.",
         "target": "obstacle"
       },
       {
-        "en": "Language is often an **obstacle** for international students.",
+        "en": "Language is often an obstacle for international students.",
         "target": "obstacle"
       }
     ],
@@ -22265,11 +22499,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The children at the **nursery school** learn through play and storytelling.",
+        "en": "The children at the nursery school learn through play and storytelling.",
         "target": "nursery school"
       },
       {
-        "en": "She bought seedlings from the plant **nursery** to start her garden.",
+        "en": "She bought seedlings from the plant nursery to start her garden.",
         "target": "nursery"
       }
     ],
@@ -22279,47 +22513,8 @@ const LEVEL_4_DATA = [
       "garden center"
     ],
     "grammar_note": "nursery (n.); nurse (n./v.); nursery school = 幼兒園; nursery rhyme = 童謠",
-    "chinese_sentence": "幼兒園裡的孩子們透過遊戲和故事學習各種基本生活技能和社交能力。",
+    "chinese_sentence": "托兒所裡的孩子們透過遊戲和故事學習各種基本生活技能和社交能力。",
     "word_family": "nurse · nursery"
-  },
-  {
-    "word": "overcome",
-    "pos": "v.",
-    "chapter": "Time and Change",
-    "kk": "/ˈoʊvɚkˌahm/",
-    "chinese": "克服；戰勝；壓倒",
-    "collocations": [
-      {
-        "en": "overcome fear",
-        "zh": "克服恐懼"
-      },
-      {
-        "en": "overcome difficulties",
-        "zh": "克服困難"
-      },
-      {
-        "en": "be overcome by",
-        "zh": "被…壓倒"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She **overcame** her shyness and gave a confident presentation.",
-        "target": "overcame"
-      },
-      {
-        "en": "He was **overcome by** emotion when he received the award.",
-        "target": "overcome by"
-      }
-    ],
-    "synonyms": [
-      "conquer",
-      "defeat",
-      "surmount"
-    ],
-    "grammar_note": "overcome–overcame–overcome; overcome sth. = 克服某事; overcome by = 被…所壓倒/佔據",
-    "chinese_sentence": "她克服了內心的羞澀，在全班面前自信地完成了她的期末口頭報告。",
-    "word_family": ""
   },
   {
     "word": "percent",
@@ -22343,11 +22538,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Only 60 **percent** of students passed the math exam this semester.",
+        "en": "Only 60 percent of students passed the math exam this semester.",
         "target": "percent"
       },
       {
-        "en": "She scored 95 **percent** in her English test, the highest in the class.",
+        "en": "She scored 95 percent in her English test, the highest in the class.",
         "target": "percent"
       }
     ],
@@ -22382,11 +22577,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A **passive** learner waits to be told everything rather than asking questions.",
+        "en": "A passive learner waits to be told everything rather than asking questions.",
         "target": "passive"
       },
       {
-        "en": "In English, sentences can be written in the active or **passive** voice.",
+        "en": "In English, sentences can be written in the active or passive voice.",
         "target": "passive"
       }
     ],
@@ -22421,11 +22616,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The Northern Lights are a breathtaking natural **phenomenon**.",
+        "en": "The Northern Lights are a breathtaking natural phenomenon.",
         "target": "phenomenon"
       },
       {
-        "en": "Social media addiction has become a widespread **phenomenon** among teenagers.",
+        "en": "Social media addiction has become a widespread phenomenon among teenagers.",
         "target": "phenomenon"
       }
     ],
@@ -22460,11 +22655,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was in a real **pickle** when she forgot both her homework and her bus pass.",
+        "en": "She was in a real pickle when she forgot both her homework and her bus pass.",
         "target": "pickle"
       },
       {
-        "en": "He eats **pickled** cabbage with rice almost every day.",
+        "en": "He eats pickled cabbage with rice almost every day.",
         "target": "pickled"
       }
     ],
@@ -22499,11 +22694,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The novel **portrays** the harsh reality of life during wartime.",
+        "en": "The novel portrays the harsh reality of life during wartime.",
         "target": "portrays"
       },
       {
-        "en": "Women in older films were often **portrayed as** passive and helpless.",
+        "en": "Women in older films were often portrayed as passive and helpless.",
         "target": "portrayed as"
       }
     ],
@@ -22538,11 +22733,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her top **priority** this semester is improving her English writing skills.",
+        "en": "Her top priority this semester is improving her English writing skills.",
         "target": "priority"
       },
       {
-        "en": "Safety is always the highest **priority** on any school trip.",
+        "en": "Safety is always the highest priority on any school trip.",
         "target": "priority"
       }
     ],
@@ -22577,11 +22772,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Small businesses began to **prosper** after the economic restrictions were lifted.",
+        "en": "Small businesses began to prosper after the economic restrictions were lifted.",
         "target": "prosper"
       },
       {
-        "en": "She worked diligently and **prospered** in her career over the years.",
+        "en": "She worked diligently and prospered in her career over the years.",
         "target": "prospered"
       }
     ],
@@ -22616,11 +22811,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is a **prominent** figure in the local environmental movement.",
+        "en": "She is a prominent figure in the local environmental movement.",
         "target": "prominent"
       },
       {
-        "en": "The school's **prominent** location in the center of town makes it easy to find.",
+        "en": "The school's prominent location in the center of town makes it easy to find.",
         "target": "prominent"
       }
     ],
@@ -22655,11 +22850,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school's charity event received positive **publicity** in the local newspaper.",
+        "en": "The school's charity event received positive publicity in the local newspaper.",
         "target": "publicity"
       },
       {
-        "en": "The company suffered from bad **publicity** after the scandal broke out.",
+        "en": "The company suffered from bad publicity after the scandal broke out.",
         "target": "publicity"
       }
     ],
@@ -22694,11 +22889,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students are encouraged to **recycle** paper, plastic, and metal at school.",
+        "en": "Students are encouraged to recycle paper, plastic, and metal at school.",
         "target": "recycle"
       },
       {
-        "en": "**Recycling** helps reduce waste and conserve natural resources.",
+        "en": "Recycling helps reduce waste and conserve natural resources.",
         "target": "Recycling"
       }
     ],
@@ -22733,11 +22928,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The government proposed major **reforms** to the national health care system.",
+        "en": "The government proposed major reforms to the national health care system.",
         "target": "reforms"
       },
       {
-        "en": "The school underwent curriculum **reform** to better prepare students for the future.",
+        "en": "The school underwent curriculum reform to better prepare students for the future.",
         "target": "reform"
       }
     ],
@@ -22772,11 +22967,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students must **register** for elective courses before the deadline.",
+        "en": "Students must register for elective courses before the deadline.",
         "target": "register"
       },
       {
-        "en": "Her face **registered** surprise when she saw the unexpected gift.",
+        "en": "Her face registered surprise when she saw the unexpected gift.",
         "target": "registered"
       }
     ],
@@ -22811,11 +23006,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She received a **rejection** letter from her first-choice university.",
+        "en": "She received a rejection letter from her first-choice university.",
         "target": "rejection"
       },
       {
-        "en": "Dealing with **rejection** gracefully is an important life skill.",
+        "en": "Dealing with rejection gracefully is an important life skill.",
         "target": "rejection"
       }
     ],
@@ -22850,11 +23045,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Exercise is one of the best ways to **relieve** stress after a long day of study.",
+        "en": "Exercise is one of the best ways to relieve stress after a long day of study.",
         "target": "relieve"
       },
       {
-        "en": "She was **relieved** to hear that her friend had passed the exam.",
+        "en": "She was relieved to hear that her friend had passed the exam.",
         "target": "relieved"
       }
     ],
@@ -22889,11 +23084,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **remark** about the school policy sparked a heated class discussion.",
+        "en": "Her remark about the school policy sparked a heated class discussion.",
         "target": "remark"
       },
       {
-        "en": "He **remarked** that the exam questions were surprisingly difficult.",
+        "en": "He remarked that the exam questions were surprisingly difficult.",
         "target": "remarked"
       }
     ],
@@ -22928,11 +23123,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher **rewarded** the class with free time for completing the project.",
+        "en": "The teacher rewarded the class with free time for completing the project.",
         "target": "rewarded"
       },
       {
-        "en": "Hard work brings its own **reward** — satisfaction and growth.",
+        "en": "Hard work brings its own reward — satisfaction and growth.",
         "target": "reward"
       }
     ],
@@ -22967,11 +23162,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She ordered two **scoops** of strawberry ice cream.",
+        "en": "She ordered two scoops of strawberry ice cream.",
         "target": "scoops"
       },
       {
-        "en": "The journalist got the **scoop** on the politician's scandal before anyone else.",
+        "en": "The journalist got the scoop on the politician's scandal before anyone else.",
         "target": "scoop"
       }
     ],
@@ -23006,11 +23201,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Early **settlers** arrived in the region seeking land and new opportunities.",
+        "en": "Early settlers arrived in the region seeking land and new opportunities.",
         "target": "settlers"
       },
       {
-        "en": "The **settlers** built their homes along the river for easy access to water.",
+        "en": "The settlers built their homes along the river for easy access to water.",
         "target": "settlers"
       }
     ],
@@ -23045,11 +23240,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He **shaved** his beard before the job interview to look more professional.",
+        "en": "He shaved his beard before the job interview to look more professional.",
         "target": "shaved"
       },
       {
-        "en": "It was a **close shave** — she almost missed the bus to the exam.",
+        "en": "It was a close shave — she almost missed the bus to the exam.",
         "target": "close shave"
       }
     ],
@@ -23084,11 +23279,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **sprinkled** sesame seeds over the salad before serving.",
+        "en": "She sprinkled sesame seeds over the salad before serving.",
         "target": "sprinkled"
       },
       {
-        "en": "A light **sprinkle** of rain fell on the morning of the outdoor ceremony.",
+        "en": "A light sprinkle of rain fell on the morning of the outdoor ceremony.",
         "target": "sprinkle"
       }
     ],
@@ -23123,11 +23318,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**Statistics** show that early readers tend to perform better academically.",
+        "en": "Statistics show that early readers tend to perform better academically.",
         "target": "Statistics"
       },
       {
-        "en": "The **statistic** that surprised everyone was the dropout rate.",
+        "en": "The statistic that surprised everyone was the dropout rate.",
         "target": "statistic"
       }
     ],
@@ -23162,11 +23357,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "With a few confident **strokes**, the artist captured the scene perfectly.",
+        "en": "With a few confident strokes, the artist captured the scene perfectly.",
         "target": "strokes"
       },
       {
-        "en": "He suffered a **stroke** and needed months of rehabilitation.",
+        "en": "He suffered a stroke and needed months of rehabilitation.",
         "target": "stroke"
       }
     ],
@@ -23201,11 +23396,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She felt at ease in her familiar **surroundings** at home.",
+        "en": "She felt at ease in her familiar surroundings at home.",
         "target": "surroundings"
       },
       {
-        "en": "It took him a few weeks to adjust to his new **surroundings** abroad.",
+        "en": "It took him a few weeks to adjust to his new surroundings abroad.",
         "target": "surroundings"
       }
     ],
@@ -23240,11 +23435,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The rapid pace of **technological** advancement makes it hard to keep up.",
+        "en": "The rapid pace of technological advancement makes it hard to keep up.",
         "target": "technological"
       },
       {
-        "en": "**Technological** innovation has transformed the way education is delivered.",
+        "en": "Technological innovation has transformed the way education is delivered.",
         "target": "Technological"
       }
     ],
@@ -23279,11 +23474,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **tragic** accident claimed the lives of three students.",
+        "en": "The tragic accident claimed the lives of three students.",
         "target": "tragic"
       },
       {
-        "en": "The play ends on a **tragic** note, leaving the audience in silence.",
+        "en": "The play ends on a tragic note, leaving the audience in silence.",
         "target": "tragic"
       }
     ],
@@ -23318,11 +23513,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Taiwan's **public transportation** system is one of the best in Asia.",
+        "en": "Taiwan's public transportation system is one of the best in Asia.",
         "target": "public transportation"
       },
       {
-        "en": "The **transportation** of goods by sea is cheaper than by air.",
+        "en": "The transportation of goods by sea is cheaper than by air.",
         "target": "transportation"
       }
     ],
@@ -23357,11 +23552,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The recurring error was **troublesome** and took days to fix.",
+        "en": "The recurring error was troublesome and took days to fix.",
         "target": "troublesome"
       },
       {
-        "en": "She found the math problem particularly **troublesome** but refused to give up.",
+        "en": "She found the math problem particularly troublesome but refused to give up.",
         "target": "troublesome"
       }
     ],
@@ -23396,12 +23591,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She tried **in vain** to contact her friend but got no response.",
+        "en": "She tried in vain to contact her friend but got no response.",
         "target": "in vain"
       },
       {
-        "en": "All his **vain** efforts to win the competition came to nothing.",
-        "target": "vain"
+        "en": "He made a vain attempt to catch the last bus, but it pulled away just as he reached the stop.",
+        "target": "a vain attempt"
       }
     ],
     "synonyms": [
@@ -23435,11 +23630,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The government spends a large portion of its budget on social **welfare**.",
+        "en": "The government spends a large portion of its budget on social welfare.",
         "target": "welfare"
       },
       {
-        "en": "Animal **welfare** laws are designed to prevent unnecessary cruelty to animals.",
+        "en": "Animal welfare laws are designed to prevent unnecessary cruelty to animals.",
         "target": "welfare"
       }
     ],
@@ -23474,11 +23669,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The storm left the boat as a **wreck** on the beach.",
+        "en": "The storm left the boat as a wreck on the beach.",
         "target": "wreck"
       },
       {
-        "en": "She was a complete **nervous wreck** before giving her speech.",
+        "en": "She was a complete nervous wreck before giving her speech.",
         "target": "nervous wreck"
       }
     ],
@@ -23488,8 +23683,86 @@ const LEVEL_4_DATA = [
       "destroy"
     ],
     "grammar_note": "wreck (n./v.); wreckage (n.) = 殘骸; a nervous wreck = 精神緊張到崩潰的人",
-    "chinese_sentence": "上台演講前她緊張得不得了，簡直就是個精神崩潰的人。",
+    "chinese_sentence": "上台演講前她緊張得不得了，整個人幾乎快崩潰了。",
     "word_family": "wreck · wreckage"
+  },
+  {
+    "word": "orientation",
+    "pos": "n.",
+    "chapter": "Space and Movement",
+    "kk": "/ˌɔriɛntˈeɪʃən/",
+    "chinese": "方向；定向；新生訓練；性取向",
+    "collocations": [
+      {
+        "en": "freshman orientation",
+        "zh": "新生訓練"
+      },
+      {
+        "en": "sexual orientation",
+        "zh": "性取向"
+      },
+      {
+        "en": "orientation program",
+        "zh": "定向課程"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The orientation program helped new students learn about campus resources.",
+        "target": "orientation"
+      },
+      {
+        "en": "The map showed the orientation of the building relative to the main road.",
+        "target": "orientation"
+      }
+    ],
+    "synonyms": [
+      "direction",
+      "guidance",
+      "introduction"
+    ],
+    "grammar_note": "orient (v.); orientation (n.); orientation = 入門介紹或方向",
+    "chinese_sentence": "新生訓練課程幫助入學新生了解校園資源和學校生活的各項規定。",
+    "word_family": "orient · oriental · orientation · oriented"
+  },
+  {
+    "word": "fortunate",
+    "pos": "adj.",
+    "chapter": "Space and Movement",
+    "kk": "/fˈɔrtʃənət/",
+    "chinese": "幸運的；幸福的",
+    "collocations": [
+      {
+        "en": "be fortunate to",
+        "zh": "幸運地能"
+      },
+      {
+        "en": "fortunate circumstance",
+        "zh": "幸運的情況"
+      },
+      {
+        "en": "less fortunate",
+        "zh": "較不幸的人"
+      }
+    ],
+    "examples": [
+      {
+        "en": "She was fortunate to receive a full scholarship to study abroad.",
+        "target": "fortunate"
+      },
+      {
+        "en": "We should help those who are less fortunate than ourselves.",
+        "target": "fortunate"
+      }
+    ],
+    "synonyms": [
+      "lucky",
+      "blessed",
+      "privileged"
+    ],
+    "grammar_note": "fortunately (adv.); fortune (n.); fortunate ↔ unfortunate",
+    "chinese_sentence": "她非常幸運地獲得了一份全額獎學金，得以出國留學深造。",
+    "word_family": "fortunate · fortunately · fortune · misfortune"
   },
   {
     "word": "adjust(ment)",
@@ -23513,11 +23786,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "It took her a few weeks to **adjust to** her new school environment.",
+        "en": "It took her a few weeks to adjust to her new school environment.",
         "target": "adjust to"
       },
       {
-        "en": "She made several **adjustments** to her study schedule after the first test.",
+        "en": "She made several adjustments to her study schedule after the first test.",
         "target": "adjustments"
       }
     ],
@@ -23529,84 +23802,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "adjust (v.); adjustment (n.); adjustable (adj.) = 可調節的; adjust to = 適應",
     "chinese_sentence": "她花了幾個星期才完全適應新學校的環境和截然不同的教學方式。",
     "word_family": "adjust · adjustable · adjustment"
-  },
-  {
-    "word": "abstract",
-    "pos": "adj.",
-    "chapter": "Space and Movement",
-    "kk": "/æbstrˈækt/",
-    "chinese": "抽象的；摘要；抽象畫",
-    "collocations": [
-      {
-        "en": "abstract concept",
-        "zh": "抽象概念"
-      },
-      {
-        "en": "abstract art",
-        "zh": "抽象藝術"
-      },
-      {
-        "en": "in the abstract",
-        "zh": "抽象地說"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Freedom is an **abstract** concept that different people define differently.",
-        "target": "abstract"
-      },
-      {
-        "en": "She wrote an **abstract** summarizing the key points of her research paper.",
-        "target": "abstract"
-      }
-    ],
-    "synonyms": [
-      "theoretical",
-      "conceptual",
-      "summary"
-    ],
-    "grammar_note": "abstract (adj./n./v.); abstract ↔ concrete; abstract (n.) = 論文摘要",
-    "chinese_sentence": "自由是一個抽象的概念，不同的人對它有著截然不同的定義和詮釋。",
-    "word_family": "abstract · abstraction"
-  },
-  {
-    "word": "ambitious",
-    "pos": "adj.",
-    "chapter": "Space and Movement",
-    "kk": "/æmbˈɪʃəs/",
-    "chinese": "雄心勃勃的；有抱負的",
-    "collocations": [
-      {
-        "en": "ambitious goal",
-        "zh": "雄心勃勃的目標"
-      },
-      {
-        "en": "ambitious student",
-        "zh": "有抱負的學生"
-      },
-      {
-        "en": "overly ambitious",
-        "zh": "過於雄心勃勃的"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She is an **ambitious** student who aims to study at a top university.",
-        "target": "ambitious"
-      },
-      {
-        "en": "The school set an **ambitious** target of 100% graduation rate.",
-        "target": "ambitious"
-      }
-    ],
-    "synonyms": [
-      "driven",
-      "aspiring",
-      "determined"
-    ],
-    "grammar_note": "ambition (n.); ambitiously (adv.); ambitious about/for sth.",
-    "chinese_sentence": "她是一個充滿抱負的學生，目標是考上國內排名第一的頂尖大學。",
-    "word_family": "ambition · ambitious · ambitiously"
   },
   {
     "word": "anniversary",
@@ -23630,11 +23825,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They celebrated their tenth **anniversary** with a trip to Japan.",
+        "en": "They celebrated their tenth anniversary with a trip to Japan.",
         "target": "anniversary"
       },
       {
-        "en": "The school's 50th **anniversary** will be marked with a large celebration.",
+        "en": "The school's 50th anniversary will be marked with a large celebration.",
         "target": "anniversary"
       }
     ],
@@ -23668,11 +23863,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students were asked to **assemble** in the gym for the morning announcement.",
+        "en": "Students were asked to assemble in the gym for the morning announcement.",
         "target": "assemble"
       },
       {
-        "en": "She carefully **assembled** the model airplane from hundreds of tiny parts.",
+        "en": "She carefully assembled the model airplane from hundreds of tiny parts.",
         "target": "assembled"
       }
     ],
@@ -23707,11 +23902,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She gave her parents an **assurance** that she would study hard.",
+        "en": "She gave her parents an assurance that she would study hard.",
         "target": "assurance"
       },
       {
-        "en": "He spoke with **assurance**, leaving no one in doubt about his confidence.",
+        "en": "He spoke with assurance, leaving no one in doubt about his confidence.",
         "target": "assurance"
       }
     ],
@@ -23746,11 +23941,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **atomic** bomb dropped on Japan ended World War II.",
-        "target": "atomic"
+        "en": "An atomic clock is so accurate that it loses less than one second in millions of years.",
+        "target": "An atomic clock"
       },
       {
-        "en": "**Atomic** energy can be used to generate clean electricity if managed safely.",
+        "en": "Atomic energy can be used to generate clean electricity if managed safely.",
         "target": "Atomic"
       }
     ],
@@ -23784,11 +23979,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **language barrier** made communication difficult for new immigrant students.",
+        "en": "The language barrier made communication difficult for new immigrant students.",
         "target": "language barrier"
       },
       {
-        "en": "Music can break down **barriers** and bring people of all backgrounds together.",
+        "en": "Music can break down barriers and bring people of all backgrounds together.",
         "target": "barriers"
       }
     ],
@@ -23823,11 +24018,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The nurse **bandaged** his injured arm carefully after cleaning the wound.",
+        "en": "The nurse bandaged his injured arm carefully after cleaning the wound.",
         "target": "bandaged"
       },
       {
-        "en": "She put a **bandage** on her knee after falling off her bicycle.",
+        "en": "She put a bandage on her knee after falling off her bicycle.",
         "target": "bandage"
       }
     ],
@@ -23862,11 +24057,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher praised the student's good **behavior** during the field trip.",
+        "en": "The teacher praised the student's good behavior during the field trip.",
         "target": "behavior"
       },
       {
-        "en": "Understanding human **behavior** is a major focus of psychology.",
+        "en": "Understanding human behavior is a major focus of psychology.",
         "target": "behavior"
       }
     ],
@@ -23901,11 +24096,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "After spending all his money on games, he was completely **broke**.",
+        "en": "After spending all his money on games, he was completely broke.",
         "target": "broke"
       },
       {
-        "en": "The company went **broke** during the economic downturn.",
+        "en": "The company went broke during the economic downturn.",
         "target": "broke"
       }
     ],
@@ -23940,11 +24135,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **cargo** ship carried containers of electronics across the Pacific.",
+        "en": "The cargo ship carried containers of electronics across the Pacific.",
         "target": "cargo"
       },
       {
-        "en": "Customs officials inspected the **cargo** before allowing it to enter the country.",
+        "en": "Customs officials inspected the cargo before allowing it to enter the country.",
         "target": "cargo"
       }
     ],
@@ -23956,45 +24151,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "cargo (n.); plural: cargoes or cargos; cargo ≠ luggage (luggage = 行李)",
     "chinese_sentence": "那艘貨輪橫越太平洋，運送了大批電子產品前往美國西岸港口。",
     "word_family": ""
-  },
-  {
-    "word": "capitalist",
-    "pos": "n.",
-    "chapter": "Space and Movement",
-    "kk": "/kˈæpətələst/",
-    "chinese": "資本家；資本主義者",
-    "collocations": [
-      {
-        "en": "free-market capitalist",
-        "zh": "自由市場資本家"
-      },
-      {
-        "en": "capitalist economy",
-        "zh": "資本主義經濟"
-      },
-      {
-        "en": "capitalist society",
-        "zh": "資本主義社會"
-      }
-    ],
-    "examples": [
-      {
-        "en": "He is a strong **capitalist** who believes in free markets and competition.",
-        "target": "capitalist"
-      },
-      {
-        "en": "In a **capitalist** society, businesses are privately owned and compete for profit.",
-        "target": "capitalist"
-      }
-    ],
-    "synonyms": [
-      "entrepreneur",
-      "investor",
-      "business owner"
-    ],
-    "grammar_note": "capital (n.); capitalism (n.); capitalist (n./adj.); capitalistic (adj.)",
-    "chinese_sentence": "在資本主義社會中，企業由私人擁有，相互競爭以追求最大利潤。",
-    "word_family": "capital · capitalism · capitalist · capitalistic"
   },
   {
     "word": "choke",
@@ -24018,11 +24174,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She nearly **choked** on a piece of food at dinner.",
+        "en": "She nearly choked on a piece of food at dinner.",
         "target": "choked"
       },
       {
-        "en": "He **choked up** when trying to thank his parents at the graduation ceremony.",
+        "en": "He choked up when trying to thank his parents at the graduation ceremony.",
         "target": "choked up"
       }
     ],
@@ -24057,11 +24213,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Regular exercise improves **blood circulation** throughout the body.",
+        "en": "Regular exercise improves blood circulation throughout the body.",
         "target": "blood circulation"
       },
       {
-        "en": "The old coin was taken out of **circulation** and replaced with a new design.",
+        "en": "The old coin was taken out of circulation and replaced with a new design.",
         "target": "circulation"
       }
     ],
@@ -24096,11 +24252,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **competition** for top university spots is extremely fierce in Taiwan.",
+        "en": "The competition for top university spots is extremely fierce in Taiwan.",
         "target": "competition"
       },
       {
-        "en": "She entered a national essay **competition** and won first prize.",
+        "en": "She entered a national essay competition and won first prize.",
         "target": "competition"
       }
     ],
@@ -24135,11 +24291,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She gets along very well with her **colleagues** at the language center.",
+        "en": "She gets along very well with her colleagues at the language center.",
         "target": "colleagues"
       },
       {
-        "en": "He consulted a **colleague** for advice before making the difficult decision.",
+        "en": "He consulted a colleague for advice before making the difficult decision.",
         "target": "colleague"
       }
     ],
@@ -24174,11 +24330,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "You should **consult** a doctor before taking any new medication.",
+        "en": "You should consult a doctor before taking any new medication.",
         "target": "consult"
       },
       {
-        "en": "She **consulted** the dictionary for the meaning of the unfamiliar word.",
+        "en": "She consulted the dictionary for the meaning of the unfamiliar word.",
         "target": "consulted"
       }
     ],
@@ -24213,11 +24369,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She lost her **concentration** during the exam because of the noise outside.",
+        "en": "She lost her concentration during the exam because of the noise outside.",
         "target": "concentration"
       },
       {
-        "en": "The solution has a high **concentration** of salt.",
+        "en": "The solution has a high concentration of salt.",
         "target": "concentration"
       }
     ],
@@ -24252,11 +24408,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Always read a new word **in context** to understand its full meaning.",
+        "en": "Always read a new word in context to understand its full meaning.",
         "target": "in context"
       },
       {
-        "en": "His words were taken **out of context** and misrepresented in the article.",
+        "en": "His words were taken out of context and misrepresented in the article.",
         "target": "out of context"
       }
     ],
@@ -24291,11 +24447,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He was called a **coward** for refusing to speak up against the injustice.",
+        "en": "He was called a coward for refusing to speak up against the injustice.",
         "target": "coward"
       },
       {
-        "en": "She told herself she was not a **coward** and forced herself to face the challenge.",
+        "en": "She told herself she was not a coward and forced herself to face the challenge.",
         "target": "coward"
       }
     ],
@@ -24330,12 +24486,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She enjoyed **conversing with** people from different cultural backgrounds.",
+        "en": "She enjoyed conversing with people from different cultural backgrounds.",
         "target": "conversing with"
       },
       {
-        "en": "He studied hard and succeeded; the **converse** — not studying — leads to failure.",
-        "target": "converse"
+        "en": "Hard work usually leads to success, but the converse is not always true: some successful people were simply lucky.",
+        "target": "the converse"
       }
     ],
     "synonyms": [
@@ -24369,11 +24525,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The students were very **cooperative** during the group assignment.",
+        "en": "The students were very cooperative during the group assignment.",
         "target": "cooperative"
       },
       {
-        "en": "A **cooperative** approach to problem-solving leads to better outcomes.",
+        "en": "A cooperative approach to problem-solving leads to better outcomes.",
         "target": "cooperative"
       }
     ],
@@ -24408,11 +24564,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher **criticized** the student's essay for lacking specific examples.",
+        "en": "The teacher criticized the student's essay for lacking specific examples.",
         "target": "criticized"
       },
       {
-        "en": "She was harshly **criticized** for her decision to miss the final exam.",
+        "en": "She was harshly criticized for her decision to miss the final exam.",
         "target": "criticized"
       }
     ],
@@ -24447,11 +24603,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The classroom was filled with colorful **decorations** for the holiday party.",
+        "en": "The classroom was filled with colorful decorations for the holiday party.",
         "target": "decorations"
       },
       {
-        "en": "She studied **interior decoration** to pursue a career in design.",
+        "en": "She studied interior decoration to pursue a career in design.",
         "target": "interior decoration"
       }
     ],
@@ -24486,11 +24642,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He got very **defensive** when his work was criticized.",
+        "en": "He got very defensive when his work was criticized.",
         "target": "defensive"
       },
       {
-        "en": "The team adopted a **defensive** strategy to protect their lead in the match.",
+        "en": "The team adopted a defensive strategy to protect their lead in the match.",
         "target": "defensive"
       }
     ],
@@ -24525,11 +24681,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The field trip to the botanical garden was a truly **delightful** experience.",
+        "en": "The field trip to the botanical garden was a truly delightful experience.",
         "target": "delightful"
       },
       {
-        "en": "She has such a **delightful** sense of humor that everyone loves her.",
+        "en": "She has such a delightful sense of humor that everyone loves her.",
         "target": "delightful"
       }
     ],
@@ -24564,11 +24720,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **detective** solved the mystery by carefully analyzing the clues.",
+        "en": "The detective solved the mystery by carefully analyzing the clues.",
         "target": "detective"
       },
       {
-        "en": "She loves reading **detective** novels before bed.",
+        "en": "She loves reading detective novels before bed.",
         "target": "detective"
       }
     ],
@@ -24603,11 +24759,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She lives in the same school **district** as her best friend.",
+        "en": "She lives in the same school district as her best friend.",
         "target": "district"
       },
       {
-        "en": "The old town's historical **district** attracts thousands of tourists each year.",
+        "en": "The old town's historical district attracts thousands of tourists each year.",
         "target": "district"
       }
     ],
@@ -24642,11 +24798,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher **dismissed** the class early because of the fire drill.",
+        "en": "The teacher dismissed the class early because of the fire drill.",
         "target": "dismissed"
       },
       {
-        "en": "The court **dismissed** the case due to lack of evidence.",
+        "en": "The court dismissed the case due to lack of evidence.",
         "target": "dismissed"
       }
     ],
@@ -24658,45 +24814,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "dismiss (v.); dismissal (n.); dismissive (adj.) = 不屑一顧的; dismiss sth. = 不加考慮地拒絕",
     "chinese_sentence": "因為消防演習，老師提前解散了班級，讓學生們得以早點離校。",
     "word_family": "dismiss · dismissal · dismissive"
-  },
-  {
-    "word": "discipline",
-    "pos": "n./v.",
-    "chapter": "Space and Movement",
-    "kk": "/dˈɪsəplən/",
-    "chinese": "紀律；訓練；學科",
-    "collocations": [
-      {
-        "en": "self-discipline",
-        "zh": "自律"
-      },
-      {
-        "en": "strict discipline",
-        "zh": "嚴格紀律"
-      },
-      {
-        "en": "maintain discipline",
-        "zh": "維持秩序"
-      }
-    ],
-    "examples": [
-      {
-        "en": "**Self-discipline** is essential for achieving long-term academic goals.",
-        "target": "Self-discipline"
-      },
-      {
-        "en": "The teacher maintained strict **discipline** in the classroom.",
-        "target": "discipline"
-      }
-    ],
-    "synonyms": [
-      "self-control",
-      "order",
-      "subject"
-    ],
-    "grammar_note": "discipline (n./v.); disciplined (adj.) = 有紀律的; self-discipline = 自律",
-    "chinese_sentence": "自律是實現長期學業目標的根本基礎，沒有任何捷徑可以取代它。",
-    "word_family": "disciple · discipleship · disciplinarian · disciplinary · discipline · disciplined"
   },
   {
     "word": "draft",
@@ -24720,11 +24837,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She spent three hours writing the first **draft** of her essay.",
+        "en": "She spent three hours writing the first draft of her essay.",
         "target": "draft"
       },
       {
-        "en": "The committee **drafted** a new policy on student attendance.",
+        "en": "The committee drafted a new policy on student attendance.",
         "target": "drafted"
       }
     ],
@@ -24759,11 +24876,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She improved her study **efficiency** by eliminating distractions.",
+        "en": "She improved her study efficiency by eliminating distractions.",
         "target": "efficiency"
       },
       {
-        "en": "The new machine doubled the factory's production **efficiency**.",
+        "en": "The new machine doubled the factory's production efficiency.",
         "target": "efficiency"
       }
     ],
@@ -24798,11 +24915,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**Gender equality** is a fundamental human right recognized worldwide.",
+        "en": "Gender equality is a fundamental human right recognized worldwide.",
         "target": "Gender equality"
       },
       {
-        "en": "The school promotes **equality** and respect for all students regardless of background.",
+        "en": "The school promotes equality and respect for all students regardless of background.",
         "target": "equality"
       }
     ],
@@ -24837,11 +24954,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **emerged** from the library looking tired but satisfied.",
+        "en": "She emerged from the library looking tired but satisfied.",
         "target": "emerged"
       },
       {
-        "en": "He **emerged** as the top candidate after the final interviews.",
+        "en": "He emerged as the top candidate after the final interviews.",
         "target": "emerged"
       }
     ],
@@ -24876,11 +24993,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher's **estimate** of the test difficulty proved accurate.",
+        "en": "The teacher's estimate of the test difficulty proved accurate.",
         "target": "estimate"
       },
       {
-        "en": "By a rough **estimate**, the project will take six months to complete.",
+        "en": "By a rough estimate, the project will take six months to complete.",
         "target": "estimate"
       }
     ],
@@ -24915,11 +25032,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher agreed to **extend** the deadline by two days.",
+        "en": "The teacher agreed to extend the deadline by two days.",
         "target": "extend"
       },
       {
-        "en": "Reading widely helps you **extend** your vocabulary significantly.",
+        "en": "Reading widely helps you extend your vocabulary significantly.",
         "target": "extend"
       }
     ],
@@ -24954,11 +25071,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "All students, **without exception**, must attend the final exam.",
+        "en": "All students, without exception, must attend the final exam.",
         "target": "without exception"
       },
       {
-        "en": "The teacher made an **exception** and allowed her to submit the work late.",
+        "en": "The teacher made an exception and allowed her to submit the work late.",
         "target": "exception"
       }
     ],
@@ -24993,11 +25110,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The family gathered for a grand **feast** during the Lunar New Year.",
+        "en": "The family gathered for a grand feast during the Lunar New Year.",
         "target": "feast"
       },
       {
-        "en": "They **feasted on** grilled seafood by the seaside at sunset.",
+        "en": "They feasted on grilled seafood by the seaside at sunset.",
         "target": "feasted on"
       }
     ],
@@ -25032,11 +25149,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She prefers reading **fiction** because it sparks her imagination.",
+        "en": "She prefers reading fiction because it sparks her imagination.",
         "target": "fiction"
       },
       {
-        "en": "The story is a work of **fiction** — the events never actually happened.",
+        "en": "The story is a work of fiction — the events never actually happened.",
         "target": "fiction"
       }
     ],
@@ -25046,7 +25163,7 @@ const LEVEL_4_DATA = [
       "fantasy"
     ],
     "grammar_note": "fiction (n.); fictional (adj.); fictitious (adj.) = 虛構的; fiction ↔ non-fiction",
-    "chinese_sentence": "她偏愛閱讀小說，因為虛構故事能激發她的想象力，帶她進入不同的世界。",
+    "chinese_sentence": "她偏愛閱讀小說，因為虛構故事能激發她的想像力，帶她進入不同的世界。",
     "word_family": "fiction · fictional · fictitious"
   },
   {
@@ -25071,11 +25188,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **formation** of habits takes consistent practice over time.",
+        "en": "The formation of habits takes consistent practice over time.",
         "target": "formation"
       },
       {
-        "en": "The military jets flew in tight **formation** over the stadium.",
+        "en": "The military jets flew in tight formation over the stadium.",
         "target": "formation"
       }
     ],
@@ -25110,11 +25227,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A layer of **frost** covered the grass on the cold winter morning.",
+        "en": "A layer of frost covered the grass on the cold winter morning.",
         "target": "frost"
       },
       {
-        "en": "Farmers worried about **frost** damage to their crops overnight.",
+        "en": "Farmers worried about frost damage to their crops overnight.",
         "target": "frost"
       }
     ],
@@ -25149,11 +25266,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school promotes **gender** equality in sports and academic opportunities.",
+        "en": "The school promotes gender equality in sports and academic opportunities.",
         "target": "gender"
       },
       {
-        "en": "**Gender** bias in hiring remains a challenge in many industries.",
+        "en": "Gender bias in hiring remains a challenge in many industries.",
         "target": "Gender"
       }
     ],
@@ -25187,11 +25304,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The athletes achieved a **glorious** victory at the national championship.",
+        "en": "The athletes achieved a glorious victory at the national championship.",
         "target": "glorious"
       },
       {
-        "en": "It was a **glorious** autumn day with blue skies and cool air.",
+        "en": "It was a glorious autumn day with blue skies and cool air.",
         "target": "glorious"
       }
     ],
@@ -25226,11 +25343,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She drank **ginger** tea to soothe her upset stomach.",
+        "en": "She drank ginger tea to soothe her upset stomach.",
         "target": "ginger"
       },
       {
-        "en": "A little **ginger** can add a warm, spicy flavor to the dish.",
+        "en": "A little ginger can add a warm, spicy flavor to the dish.",
         "target": "ginger"
       }
     ],
@@ -25264,11 +25381,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The essay had several **grammatical** errors that the teacher corrected.",
+        "en": "The essay had several grammatical errors that the teacher corrected.",
         "target": "grammatical"
       },
       {
-        "en": "A **grammatically** correct sentence does not guarantee clarity of expression.",
+        "en": "A grammatically correct sentence does not guarantee clarity of expression.",
         "target": "grammatically"
       }
     ],
@@ -25303,7 +25420,7 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "There is a growing **gulf** between the rich and the poor in many countries.",
+        "en": "There is a growing gulf between the rich and the poor in many countries.",
         "target": "gulf"
       },
       {
@@ -25316,7 +25433,7 @@ const LEVEL_4_DATA = [
       "chasm",
       "divide"
     ],
-    "grammar_note": "gulf (n.); Gulf War = 波斯灣戰爭; a gulf between A and B = A與B之間的巨大差距",
+    "grammar_note": "gulf (n.); Gulf War = 波斯灣戰爭; a gulf between A and B = A與 B 之間的巨大差距",
     "chinese_sentence": "許多國家的貧富差距正在不斷擴大，形成難以跨越的社會鴻溝。",
     "word_family": ""
   },
@@ -25342,11 +25459,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Spreading **hatred** based on race or religion is illegal in many countries.",
+        "en": "Spreading hatred based on race or religion is illegal in many countries.",
         "target": "hatred"
       },
       {
-        "en": "Her **hatred** for dishonesty made her deeply uncomfortable with the situation.",
+        "en": "Her hatred for dishonesty made her deeply uncomfortable with the situation.",
         "target": "hatred"
       }
     ],
@@ -25381,11 +25498,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The classroom was a **hive of activity** during the group project.",
+        "en": "The classroom was a hive of activity during the group project.",
         "target": "hive of activity"
       },
       {
-        "en": "The bees returned to their **hive** at sunset.",
+        "en": "The bees returned to their hive at sunset.",
         "target": "hive"
       }
     ],
@@ -25420,11 +25537,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The government **imposed** strict restrictions on public gatherings.",
+        "en": "The government imposed strict restrictions on public gatherings.",
         "target": "imposed"
       },
       {
-        "en": "Parents should not **impose** their own dreams on their children.",
+        "en": "Parents should not impose their own dreams on their children.",
         "target": "impose"
       }
     ],
@@ -25459,11 +25576,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher used a diagram to **illustrate** how electricity flows in a circuit.",
+        "en": "The teacher used a diagram to illustrate how electricity flows in a circuit.",
         "target": "illustrate"
       },
       {
-        "en": "The book is beautifully **illustrated** with detailed watercolor paintings.",
+        "en": "The book is beautifully illustrated with detailed watercolor paintings.",
         "target": "illustrated"
       }
     ],
@@ -25498,11 +25615,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Many **immigrants** come to Taiwan seeking better economic opportunities.",
+        "en": "Many immigrants come to Taiwan seeking better economic opportunities.",
         "target": "immigrants"
       },
       {
-        "en": "She is a first-generation **immigrant** who worked hard to build a new life.",
+        "en": "She is a first-generation immigrant who worked hard to build a new life.",
         "target": "immigrant"
       }
     ],
@@ -25537,11 +25654,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **intense** summer heat made outdoor exercise difficult.",
+        "en": "The intense summer heat made outdoor exercise difficult.",
         "target": "intense"
       },
       {
-        "en": "She felt **intense** pressure from her family to get into a top university.",
+        "en": "She felt intense pressure from her family to get into a top university.",
         "target": "intense"
       }
     ],
@@ -25576,11 +25693,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The fire department conducted a **routine inspection** of the school building.",
+        "en": "The fire department conducted a routine inspection of the school building.",
         "target": "routine inspection"
       },
       {
-        "en": "**On closer inspection**, the essay contained several hidden errors.",
+        "en": "On closer inspection, the essay contained several hidden errors.",
         "target": "On closer inspection"
       }
     ],
@@ -25615,11 +25732,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **instinct** told her something was wrong, even before she saw the evidence.",
+        "en": "Her instinct told her something was wrong, even before she saw the evidence.",
         "target": "instinct"
       },
       {
-        "en": "Protecting their young is a natural **instinct** for most animals.",
+        "en": "Protecting their young is a natural instinct for most animals.",
         "target": "instinct"
       }
     ],
@@ -25654,11 +25771,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She has a **keen** interest in literature and reads every chance she gets.",
+        "en": "She has a keen interest in literature and reads every chance she gets.",
         "target": "keen"
       },
       {
-        "en": "He is **keen on** learning new languages in his spare time.",
+        "en": "He is keen on learning new languages in his spare time.",
         "target": "keen on"
       }
     ],
@@ -25693,11 +25810,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **knelt down** to help the child who had fallen on the ground.",
+        "en": "She knelt down to help the child who had fallen on the ground.",
         "target": "knelt down"
       },
       {
-        "en": "The athlete **kneeled** in gratitude after crossing the finish line first.",
+        "en": "The athlete kneeled in gratitude after crossing the finish line first.",
         "target": "kneeled"
       }
     ],
@@ -25707,7 +25824,7 @@ const LEVEL_4_DATA = [
       "crouch"
     ],
     "grammar_note": "kneel–knelt–knelt (BrE) / kneeled (AmE); kneel down = 跪下",
-    "chinese_sentence": "她蹲下身來幫助那個跌倒在地上的孩子，輕聲安慰他不要哭。",
+    "chinese_sentence": "她跪下來幫助那個跌倒在地上的孩子，輕聲安慰他不要哭。",
     "word_family": ""
   },
   {
@@ -25732,11 +25849,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **leaned against** the wall while waiting for the bus.",
+        "en": "She leaned against the wall while waiting for the bus.",
         "target": "leaned against"
       },
       {
-        "en": "He **leans toward** studying science rather than arts.",
+        "en": "He leans toward studying science rather than arts.",
         "target": "leans toward"
       }
     ],
@@ -25771,11 +25888,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **lifeguard** kept a close watch over swimmers at the beach.",
+        "en": "The lifeguard kept a close watch over swimmers at the beach.",
         "target": "lifeguard"
       },
       {
-        "en": "She trained for months to become a certified **lifeguard**.",
+        "en": "She trained for months to become a certified lifeguard.",
         "target": "lifeguard"
       }
     ],
@@ -25809,11 +25926,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They stayed in a **luxurious** five-star hotel during their honeymoon.",
+        "en": "They stayed in a luxurious five-star hotel during their honeymoon.",
         "target": "luxurious"
       },
       {
-        "en": "The car's interior is made with **luxurious** leather and wood finishes.",
+        "en": "The car's interior is made with luxurious leather and wood finishes.",
         "target": "luxurious"
       }
     ],
@@ -25848,11 +25965,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school took strict **measures** to prevent cheating during exams.",
+        "en": "The school took strict measures to prevent cheating during exams.",
         "target": "measures"
       },
       {
-        "en": "She used a ruler to **measure** the length of the table.",
+        "en": "She used a ruler to measure the length of the table.",
         "target": "measure"
       }
     ],
@@ -25887,11 +26004,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She spent the whole evening trying to **memorize** the vocabulary list.",
+        "en": "She spent the whole evening trying to memorize the vocabulary list.",
         "target": "memorize"
       },
       {
-        "en": "He **memorized** the entire periodic table in one weekend.",
+        "en": "He memorized the entire periodic table in one weekend.",
         "target": "memorized"
       }
     ],
@@ -25926,11 +26043,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her desk was so **messy** that she couldn't find her notes.",
+        "en": "Her desk was so messy that she couldn't find her notes.",
         "target": "messy"
       },
       {
-        "en": "The divorce was a **messy** legal battle that lasted two years.",
+        "en": "The divorce was a messy legal battle that lasted two years.",
         "target": "messy"
       }
     ],
@@ -25965,11 +26082,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The old watermill on the river is now a popular tourist attraction.",
-        "target": "mill"
+        "en": "The old water mill by the river once ground grain for the whole village.",
+        "target": "old water mill"
       },
       {
-        "en": "She doesn't want a **run-of-the-mill** career; she wants something extraordinary.",
+        "en": "She doesn't want a run-of-the-mill career; she wants something extraordinary.",
         "target": "run-of-the-mill"
       }
     ],
@@ -26004,11 +26121,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **Ministry of Education** announced changes to the national curriculum.",
+        "en": "The Ministry of Education announced changes to the national curriculum.",
         "target": "Ministry of Education"
       },
       {
-        "en": "She worked in the **ministry** for over 20 years before retiring.",
+        "en": "She worked in the ministry for over 20 years before retiring.",
         "target": "ministry"
       }
     ],
@@ -26043,11 +26160,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The children's shoes were completely **muddy** after playing in the garden.",
+        "en": "The children's shoes were completely muddy after playing in the garden.",
         "target": "muddy"
       },
       {
-        "en": "Adding more details only **muddied** the already confusing explanation.",
+        "en": "Adding more details only muddied the already confusing explanation.",
         "target": "muddied"
       }
     ],
@@ -26082,11 +26199,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school canteen serves **nutritious** meals to support students' health.",
+        "en": "The school canteen serves nutritious meals to support students' health.",
         "target": "nutritious"
       },
       {
-        "en": "A **nutritious** breakfast improves concentration and performance in the morning.",
+        "en": "A nutritious breakfast improves concentration and performance in the morning.",
         "target": "nutritious"
       }
     ],
@@ -26121,11 +26238,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She attends the **opera** every month and knows all the famous arias.",
+        "en": "She attends the opera every month and knows all the famous arias.",
         "target": "opera"
       },
       {
-        "en": "**Beijing opera** is a traditional Chinese art form combining music, drama, and acrobatics.",
+        "en": "Beijing opera is a traditional Chinese art form combining music, drama, and acrobatics.",
         "target": "Beijing opera"
       }
     ],
@@ -26159,11 +26276,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She had no **option** but to retake the exam to improve her grade.",
+        "en": "She had no option but to retake the exam to improve her grade.",
         "target": "option"
       },
       {
-        "en": "Take your time and consider all **options** before making a final decision.",
+        "en": "Take your time and consider all options before making a final decision.",
         "target": "options"
       }
     ],
@@ -26175,43 +26292,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "opt (v.); option (n.); optional (adj.) = 可選擇的; opt for = 選擇",
     "chinese_sentence": "她在做最終決定前仔細考慮了所有可行的選項，確保不會後悔。",
     "word_family": "opt · option · optional · optionally"
-  },
-  {
-    "word": "orphan",
-    "pos": "n./v.",
-    "chapter": "Space and Movement",
-    "kk": "/ˈɔrfən/",
-    "chinese": "孤兒；使成孤兒",
-    "collocations": [
-      {
-        "en": "war orphan",
-        "zh": "戰爭孤兒"
-      },
-      {
-        "en": "raise an orphan",
-        "zh": "撫養孤兒"
-      },
-      {
-        "en": "orphan care",
-        "zh": "孤兒照護"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The charity provides housing and education for **orphans** in need.",
-        "target": "orphans"
-      },
-      {
-        "en": "He was **orphaned** at age five when both his parents died in an accident.",
-        "target": "orphaned"
-      }
-    ],
-    "synonyms": [
-      "abandoned child"
-    ],
-    "grammar_note": "orphan (n./v.); orphanage (n.) = 孤兒院; orphaned (adj.) = 成為孤兒的",
-    "chinese_sentence": "那個慈善機構為需要幫助的孤兒提供住所、教育和心理輔導。",
-    "word_family": "orphan · orphanage · orphaned"
   },
   {
     "word": "percentage",
@@ -26235,11 +26315,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A high **percentage** of students passed the exam this year.",
+        "en": "A high percentage of students passed the exam this year.",
         "target": "percentage"
       },
       {
-        "en": "What **percentage** of your income do you save each month?",
+        "en": "What percentage of your income do you save each month?",
         "target": "percentage"
       }
     ],
@@ -26249,7 +26329,7 @@ const LEVEL_4_DATA = [
       "rate"
     ],
     "grammar_note": "percentage (n.); percent = 百分之…（用數字）; a percentage of = …的百分比",
-    "chinese_sentence": "今年有很高的比例的學生通過了期末考試，老師感到非常欣慰。",
+    "chinese_sentence": "今年通過期末考的學生比例很高，老師感到非常欣慰。",
     "word_family": "percent · percentage"
   },
   {
@@ -26274,11 +26354,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She couldn't resist **peeping** at the surprise gift before her birthday.",
+        "en": "She couldn't resist peeping at the surprise gift before her birthday.",
         "target": "peeping"
       },
       {
-        "en": "The sun **peeped** through the clouds just as they arrived at the picnic site.",
+        "en": "The sun peeped through the clouds just as they arrived at the picnic site.",
         "target": "peeped"
       }
     ],
@@ -26288,7 +26368,7 @@ const LEVEL_4_DATA = [
       "glance"
     ],
     "grammar_note": "peep (v./n.); peep at = 偷看; peep out = 露出頭來",
-    "chinese_sentence": "她忍不住在生日前偷偷看了一眼那個神秘的禮物盒，結果被媽媽發現了。",
+    "chinese_sentence": "她忍不住在生日前偷偷看了一眼那個神祕的禮物盒，結果被媽媽發現了。",
     "word_family": ""
   },
   {
@@ -26313,11 +26393,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Socrates was one of the greatest **philosophers** of ancient Greece.",
+        "en": "Socrates was one of the greatest philosophers of ancient Greece.",
         "target": "philosophers"
       },
       {
-        "en": "She wants to become a **philosopher** and contribute to ethical debates.",
+        "en": "She wants to become a philosopher and contribute to ethical debates.",
         "target": "philosopher"
       }
     ],
@@ -26352,11 +26432,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He **polished** his shoes until they shone before the job interview.",
+        "en": "He polished his shoes until they shone before the job interview.",
         "target": "polished"
       },
       {
-        "en": "She spent the last night **polishing** her presentation slides.",
+        "en": "She spent the last night polishing her presentation slides.",
         "target": "polishing"
       }
     ],
@@ -26391,11 +26471,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Scientists can now **predict** earthquakes several hours in advance.",
+        "en": "Meteorologists can predict a typhoon's path several days before it reaches Taiwan.",
         "target": "predict"
       },
       {
-        "en": "It is hard to **predict** how the economy will perform next year.",
+        "en": "It is hard to predict how the economy will perform next year.",
         "target": "predict"
       }
     ],
@@ -26405,7 +26485,7 @@ const LEVEL_4_DATA = [
       "anticipate"
     ],
     "grammar_note": "predict (v.); prediction (n.); predictable (adj.) = 可預測的; unpredictable = 不可預測的",
-    "chinese_sentence": "科學家目前能夠在地震發生前數小時進行初步預測，為疏散爭取時間。",
+    "chinese_sentence": "氣象學家能在颱風登陸前好幾天預測它的路徑，讓民眾有時間做好防颱準備。",
     "word_family": "predict · predictable · prediction"
   },
   {
@@ -26430,11 +26510,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Every student has the **potential** to improve with the right support.",
+        "en": "Every student has the potential to improve with the right support.",
         "target": "potential"
       },
       {
-        "en": "The doctor warned of **potential** side effects of the medication.",
+        "en": "The doctor warned of potential side effects of the medication.",
         "target": "potential"
       }
     ],
@@ -26446,45 +26526,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "potential (n./adj.); potentially (adv.); reach one's potential = 發揮潛力",
     "chinese_sentence": "每一位學生只要得到適當的支持和鼓勵，都有提升自我的無限潛力。",
     "word_family": "potential · potentially"
-  },
-  {
-    "word": "profession",
-    "pos": "n.",
-    "chapter": "Space and Movement",
-    "kk": "/prəfˈɛʃən/",
-    "chinese": "職業；專業；宣稱",
-    "collocations": [
-      {
-        "en": "by profession",
-        "zh": "以…為業"
-      },
-      {
-        "en": "enter a profession",
-        "zh": "進入某行業"
-      },
-      {
-        "en": "professional profession",
-        "zh": "專業職業"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She chose teaching as her **profession** because she loves working with children.",
-        "target": "profession"
-      },
-      {
-        "en": "By **profession**, he is a doctor, but he also writes novels in his spare time.",
-        "target": "profession"
-      }
-    ],
-    "synonyms": [
-      "career",
-      "occupation",
-      "vocation"
-    ],
-    "grammar_note": "professional (adj./n.); profession (n.); professionalism (n.) = 專業精神",
-    "chinese_sentence": "她選擇教學作為終身職業，因為她熱愛和孩子們在一起、看著他們成長。",
-    "word_family": "profession · professional · professionalism · professionally"
   },
   {
     "word": "promising",
@@ -26508,11 +26549,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is a **promising** young writer with a unique voice and vision.",
+        "en": "She is a promising young writer with a unique voice and vision.",
         "target": "promising"
       },
       {
-        "en": "The team had a **promising** start to the season but struggled later.",
+        "en": "The team had a promising start to the season but struggled later.",
         "target": "promising"
       }
     ],
@@ -26547,11 +26588,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **published** her first novel at the age of 25.",
+        "en": "She published her first novel at the age of 25.",
         "target": "published"
       },
       {
-        "en": "The school magazine is **published** monthly and distributed to all students.",
+        "en": "The school magazine is published monthly and distributed to all students.",
         "target": "published"
       }
     ],
@@ -26586,11 +26627,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Set **realistic** goals that challenge you but can actually be achieved.",
+        "en": "Set realistic goals that challenge you but can actually be achieved.",
         "target": "realistic"
       },
       {
-        "en": "The movie's special effects created a strikingly **realistic** battle scene.",
+        "en": "The movie's special effects created a strikingly realistic battle scene.",
         "target": "realistic"
       }
     ],
@@ -26625,11 +26666,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She could barely **recall** the details of her first day at school.",
+        "en": "She could barely recall the details of her first day at school.",
         "target": "recall"
       },
       {
-        "en": "The car company issued a **recall** after a safety defect was discovered.",
+        "en": "The car company issued a recall after a safety defect was discovered.",
         "target": "recall"
       }
     ],
@@ -26664,11 +26705,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**Course registration** for next semester begins on Monday.",
+        "en": "Course registration for next semester begins on Monday.",
         "target": "Course registration"
       },
       {
-        "en": "She completed her **registration** for the national debate competition.",
+        "en": "She completed her registration for the national debate competition.",
         "target": "registration"
       }
     ],
@@ -26703,11 +26744,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She comes from a **respectable** family with a long history of community service.",
+        "en": "She comes from a respectable family with a long history of community service.",
         "target": "respectable"
       },
       {
-        "en": "He achieved a **respectable** score of 88% on the national exam.",
+        "en": "He achieved a respectable score of 88% on the national exam.",
         "target": "respectable"
       }
     ],
@@ -26742,11 +26783,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **rescue** team worked through the night to find survivors.",
+        "en": "The rescue team worked through the night to find survivors.",
         "target": "rescue"
       },
       {
-        "en": "She came to her friend's **rescue** when he forgot his presentation notes.",
+        "en": "She came to her friend's rescue when he forgot his presentation notes.",
         "target": "rescue"
       }
     ],
@@ -26781,12 +26822,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The family had a joyful **reunion** during the Lunar New Year holiday.",
+        "en": "The family had a joyful reunion during the Lunar New Year holiday.",
         "target": "reunion"
       },
       {
-        "en": "She is looking forward to the ten-year **class reunion** next month.",
-        "target": "reunion"
+        "en": "She is looking forward to the ten-year class reunion next month.",
+        "target": "class reunion"
       }
     ],
     "synonyms": [
@@ -26820,11 +26861,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The poem uses a simple ABAB **rhyme** scheme throughout.",
+        "en": "The poem uses a simple ABAB rhyme scheme throughout.",
         "target": "rhyme"
       },
       {
-        "en": "Children love **nursery rhymes** because of their catchy rhythms.",
+        "en": "Children love nursery rhymes because of their catchy rhythms.",
         "target": "nursery rhymes"
       }
     ],
@@ -26859,11 +26900,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The country launched its first communication **satellite** last year.",
+        "en": "The country launched its first communication satellite last year.",
         "target": "satellite"
       },
       {
-        "en": "**Satellite** images showed the extent of the flood damage.",
+        "en": "Satellite images showed the extent of the flood damage.",
         "target": "Satellite"
       }
     ],
@@ -26898,11 +26939,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The typhoon caused **severe** flooding in the coastal areas.",
+        "en": "The typhoon caused severe flooding in the coastal areas.",
         "target": "severe"
       },
       {
-        "en": "She received a **severe** warning from the teacher for repeated tardiness.",
+        "en": "She received a severe warning from the teacher for repeated tardiness.",
         "target": "severe"
       }
     ],
@@ -26937,11 +26978,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "In English, 'child' is the **singular** form of 'children'.",
+        "en": "In English, 'child' is the singular form of 'children'.",
         "target": "singular"
       },
       {
-        "en": "Her performance at the competition was a **singular** achievement.",
+        "en": "Her performance at the competition was a singular achievement.",
         "target": "singular"
       }
     ],
@@ -26951,7 +26992,7 @@ const LEVEL_4_DATA = [
       "individual"
     ],
     "grammar_note": "singular (adj./n.) ↔ plural; singularly (adv.) = 奇特地/非常地",
-    "chinese_sentence": "在英語中，'child'是'children'的單數形式，這是最常見的不規則名詞之一。",
+    "chinese_sentence": "在英語中，「child」是「children」的單數形式，這是最常見的不規則名詞之一。",
     "word_family": "plural · pluralism · singular · singularly"
   },
   {
@@ -26976,11 +27017,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He was **stabbed** in the arm during the robbery.",
+        "en": "He was stabbed in the arm during the robbery.",
         "target": "stabbed"
       },
       {
-        "en": "She felt a sudden **stab** of guilt when she realized her mistake.",
+        "en": "She felt a sudden stab of guilt when she realized her mistake.",
         "target": "stab"
       }
     ],
@@ -27015,11 +27056,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Education is still seen as a key to achieving higher **social status**.",
+        "en": "Education is still seen as a key to achieving higher social status.",
         "target": "social status"
       },
       {
-        "en": "The form asked for her name, age, and **marital status**.",
+        "en": "The form asked for her name, age, and marital status.",
         "target": "marital status"
       }
     ],
@@ -27031,45 +27072,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "status (n.); status quo = 現狀; status symbol = 地位象徵; prestigious = 有聲望的",
     "chinese_sentence": "在許多社會中，教育程度仍被視為提升社會地位的重要途徑之一。",
     "word_family": "status"
-  },
-  {
-    "word": "sue",
-    "pos": "v.",
-    "chapter": "Space and Movement",
-    "kk": "/sˈu/",
-    "chinese": "起訴；提告；控告",
-    "collocations": [
-      {
-        "en": "sue for damages",
-        "zh": "索賠提告"
-      },
-      {
-        "en": "threaten to sue",
-        "zh": "威脅提告"
-      },
-      {
-        "en": "sue a company",
-        "zh": "控告公司"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The consumer decided to **sue** the company for selling a defective product.",
-        "target": "sue"
-      },
-      {
-        "en": "He threatened to **sue** the newspaper for publishing false information about him.",
-        "target": "sue"
-      }
-    ],
-    "synonyms": [
-      "litigate",
-      "take to court",
-      "prosecute"
-    ],
-    "grammar_note": "sue (v.); lawsuit (n.) = 訴訟; sue sb. for sth. = 因某事控告某人",
-    "chinese_sentence": "那名消費者決定控告公司，因為該公司販售了有嚴重瑕疵的商品。",
-    "word_family": "lawsuit · sue"
   },
   {
     "word": "systematic",
@@ -27093,11 +27095,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A **systematic** approach to studying vocabulary leads to better retention.",
+        "en": "A systematic approach to studying vocabulary leads to better retention.",
         "target": "systematic"
       },
       {
-        "en": "The researcher conducted a **systematic** review of all existing studies.",
+        "en": "The researcher conducted a systematic review of all existing studies.",
         "target": "systematic"
       }
     ],
@@ -27132,11 +27134,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **thoughtful** gift showed how well she knew her best friend.",
+        "en": "Her thoughtful gift showed how well she knew her best friend.",
         "target": "thoughtful"
       },
       {
-        "en": "He gave a **thoughtful** answer that impressed the entire panel.",
+        "en": "He gave a thoughtful answer that impressed the entire panel.",
         "target": "thoughtful"
       }
     ],
@@ -27171,11 +27173,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **transferred** to a new school in the middle of the semester.",
+        "en": "She transferred to a new school in the middle of the semester.",
         "target": "transferred"
       },
       {
-        "en": "Please **transfer** the money to my account by Friday.",
+        "en": "Please transfer the money to my account by Friday.",
         "target": "transfer"
       }
     ],
@@ -27210,11 +27212,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The summer heat was barely **tolerable** without air conditioning.",
+        "en": "The summer heat was barely tolerable without air conditioning.",
         "target": "tolerable"
       },
       {
-        "en": "Music made the long commute to school **tolerable**.",
+        "en": "Music made the long commute to school tolerable.",
         "target": "tolerable"
       }
     ],
@@ -27226,45 +27228,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "tolerate (v.); tolerable (adj.) ↔ intolerable; tolerably (adv.)",
     "chinese_sentence": "沒有冷氣，夏天的高溫幾乎難以忍受，學生們上課時都無法集中精神。",
     "word_family": "tolerable · tolerably · tolerance · tolerant · tolerate"
-  },
-  {
-    "word": "urge",
-    "pos": "n./v.",
-    "chapter": "Space and Movement",
-    "kk": "/ˈɝdʒ/",
-    "chinese": "強烈慾望；催促；力勸",
-    "collocations": [
-      {
-        "en": "urge sb. to do",
-        "zh": "力勸某人做"
-      },
-      {
-        "en": "feel an urge",
-        "zh": "感到強烈衝動"
-      },
-      {
-        "en": "resist the urge",
-        "zh": "抗拒衝動"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She **urged** her students to read widely beyond the textbook.",
-        "target": "urged"
-      },
-      {
-        "en": "He resisted the **urge** to check his phone during the three-hour exam.",
-        "target": "urge"
-      }
-    ],
-    "synonyms": [
-      "encourage",
-      "impulse",
-      "push"
-    ],
-    "grammar_note": "urge (v./n.); urge sb. to V = 力勸某人做; feel the urge to V = 有衝動做某事",
-    "chinese_sentence": "他在三小時的考試中努力抗拒想拿手機的衝動，最終成功保持了專注。",
-    "word_family": ""
   },
   {
     "word": "voluntary",
@@ -27288,11 +27251,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She does **voluntary** work at the local community center every weekend.",
+        "en": "She does voluntary work at the local community center every weekend.",
         "target": "voluntary"
       },
       {
-        "en": "Participation in the survey is completely **voluntary** and anonymous.",
+        "en": "Participation in the survey is completely voluntary and anonymous.",
         "target": "voluntary"
       }
     ],
@@ -27327,11 +27290,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He **winked** at her across the room to signal that everything was fine.",
+        "en": "He winked at her across the room to signal that everything was fine.",
         "target": "winked"
       },
       {
-        "en": "She didn't sleep a **wink** the night before the final exam.",
+        "en": "She didn't sleep a wink the night before the final exam.",
         "target": "wink"
       }
     ],
@@ -27343,6 +27306,357 @@ const LEVEL_4_DATA = [
     "grammar_note": "wink (v./n.); wink at = 向某人眨眼/默許; not sleep a wink = 完全沒睡",
     "chinese_sentence": "期末考前一晚，她緊張到完全沒有睡著，輾轉反側熬到了天亮。",
     "word_family": ""
+  },
+  {
+    "word": "merchant",
+    "pos": "n.",
+    "chapter": "Space and Movement",
+    "kk": "/mˈɝtʃənt/",
+    "chinese": "商人；貿易商",
+    "collocations": [
+      {
+        "en": "local merchant",
+        "zh": "本地商人"
+      },
+      {
+        "en": "merchant ship",
+        "zh": "商船"
+      },
+      {
+        "en": "merchant bank",
+        "zh": "商業銀行"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The merchant traveled the Silk Road to trade goods between Asia and Europe.",
+        "target": "merchant"
+      },
+      {
+        "en": "She buys fresh produce directly from local merchants at the morning market.",
+        "target": "merchants"
+      }
+    ],
+    "synonyms": [
+      "trader",
+      "dealer",
+      "vendor"
+    ],
+    "grammar_note": "merchant (n.); merchandise (n.) = 商品; merchant ship = 商船",
+    "chinese_sentence": "她每天早上直接向市場的本地商人購買新鮮蔬菜，確保食材品質最佳。",
+    "word_family": "merchandise · merchandiser · merchandising · merchant"
+  },
+  {
+    "word": "voyage",
+    "pos": "n./v.",
+    "chapter": "Space and Movement",
+    "kk": "/vˈɔɪədʒ/",
+    "chinese": "航行；航海旅行；旅程",
+    "collocations": [
+      {
+        "en": "maiden voyage",
+        "zh": "首航"
+      },
+      {
+        "en": "ocean voyage",
+        "zh": "遠洋航行"
+      },
+      {
+        "en": "voyage of discovery",
+        "zh": "探索之旅"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The ship set sail on a long voyage across the Pacific.",
+        "target": "voyage"
+      },
+      {
+        "en": "Reading a good book is like embarking on a voyage of discovery.",
+        "target": "voyage"
+      }
+    ],
+    "synonyms": [
+      "journey",
+      "cruise",
+      "expedition"
+    ],
+    "grammar_note": "voyage (n./v.); voyager (n.) = 旅行者/航行者; maiden voyage = 首次航行",
+    "chinese_sentence": "那艘船啟程展開橫越太平洋的漫長航行，船員們滿懷期待與忐忑。",
+    "word_family": "voyage · voyager"
+  },
+  {
+    "word": "preservation",
+    "pos": "n.",
+    "chapter": "Nature and Environment",
+    "kk": "/prˌɛzɚvˈeɪʃən/",
+    "chinese": "保存；保護；保育",
+    "collocations": [
+      {
+        "en": "preservation of nature",
+        "zh": "自然保育"
+      },
+      {
+        "en": "food preservation",
+        "zh": "食物保存"
+      },
+      {
+        "en": "preservation efforts",
+        "zh": "保護努力"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The organization is dedicated to the preservation of endangered species.",
+        "target": "preservation of"
+      },
+      {
+        "en": "Salting and pickling are traditional methods of food preservation.",
+        "target": "food preservation"
+      }
+    ],
+    "synonyms": [
+      "conservation",
+      "protection",
+      "maintenance"
+    ],
+    "grammar_note": "preserve (v.) → preservation (n.) → preservative (n./adj.) = 防腐劑",
+    "chinese_sentence": "這個組織致力於瀕危物種的保育工作，長期在全球各地進行保護行動。",
+    "word_family": "preservation · preservative · preserve"
+  },
+  {
+    "word": "preserve",
+    "pos": "v.",
+    "chapter": "Nature and Environment",
+    "kk": "/prəzˈɝv/",
+    "chinese": "保護；保存；維持",
+    "collocations": [
+      {
+        "en": "preserve the environment",
+        "zh": "保護環境"
+      },
+      {
+        "en": "preserve food",
+        "zh": "保存食物"
+      },
+      {
+        "en": "nature preserve",
+        "zh": "自然保護區"
+      }
+    ],
+    "examples": [
+      {
+        "en": "It is our responsibility to preserve the natural environment for future generations.",
+        "target": "preserve"
+      },
+      {
+        "en": "Salt was used historically to preserve meat during long journeys.",
+        "target": "preserve"
+      }
+    ],
+    "synonyms": [
+      "protect",
+      "maintain",
+      "conserve"
+    ],
+    "grammar_note": "preservation (n.); preservative (n.) = 防腐劑; preserve sth. from sth.",
+    "chinese_sentence": "保護環境、維持生物多樣性是我們對後代子孫最重要的責任之一。",
+    "word_family": "preservation · preservative · preserve"
+  },
+  {
+    "word": "endanger",
+    "pos": "v.",
+    "chapter": "Nature and Environment",
+    "kk": "/ɛndˈeɪndʒɚ/",
+    "chinese": "危及；使面臨危險",
+    "collocations": [
+      {
+        "en": "endanger lives",
+        "zh": "危及生命"
+      },
+      {
+        "en": "endangered species",
+        "zh": "瀕危物種"
+      },
+      {
+        "en": "endanger health",
+        "zh": "危害健康"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Illegal logging endangers the habitats of countless wildlife species.",
+        "target": "endangers"
+      },
+      {
+        "en": "The endangered giant panda is protected by international conservation laws.",
+        "target": "endangered"
+      }
+    ],
+    "synonyms": [
+      "threaten",
+      "jeopardize",
+      "imperil"
+    ],
+    "grammar_note": "endanger (v.); endangered (adj.) = 瀕危的; danger (n.); dangerous (adj.)",
+    "chinese_sentence": "非法砍伐嚴重破壞了野生動物的棲息地，使許多物種瀕臨絕種。",
+    "word_family": "danger · dangerous · endanger · endangered"
+  },
+  {
+    "word": "scenery",
+    "pos": "n.",
+    "chapter": "Nature and Environment",
+    "kk": "/sˈinɚi/",
+    "chinese": "風景；景色；舞台布景",
+    "collocations": [
+      {
+        "en": "breathtaking scenery",
+        "zh": "壯麗的景色"
+      },
+      {
+        "en": "mountain scenery",
+        "zh": "山地風景"
+      },
+      {
+        "en": "stage scenery",
+        "zh": "舞台布景"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The train ride offered breathtaking scenery along the coastline.",
+        "target": "breathtaking scenery"
+      },
+      {
+        "en": "The play's scenery was so realistic that it drew applause from the audience.",
+        "target": "scenery"
+      }
+    ],
+    "synonyms": [
+      "landscape",
+      "vista",
+      "backdrop"
+    ],
+    "grammar_note": "uncountable; scenic (adj.) = 風景優美的; scenery ≠ scene (單一場景)",
+    "chinese_sentence": "那趟沿海火車之旅提供了令人嘆為觀止的海岸線壯麗景色。",
+    "word_family": "scenery · scenic · scenically"
+  },
+  {
+    "word": "fertile",
+    "pos": "adj.",
+    "chapter": "Nature and Environment",
+    "kk": "/fˈɝtəl/",
+    "chinese": "肥沃的；多產的；富創意的",
+    "collocations": [
+      {
+        "en": "fertile soil",
+        "zh": "肥沃的土壤"
+      },
+      {
+        "en": "fertile imagination",
+        "zh": "豐富的想象力"
+      },
+      {
+        "en": "fertile land",
+        "zh": "肥沃的土地"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The Nile River delta has some of the most fertile farmland in Africa.",
+        "target": "fertile"
+      },
+      {
+        "en": "A curious mind is a fertile ground for new ideas.",
+        "target": "fertile"
+      }
+    ],
+    "synonyms": [
+      "productive",
+      "fruitful",
+      "rich"
+    ],
+    "grammar_note": "fertility (n.); fertilize (v.); fertilizer (n.) = 肥料; fertile ↔ barren (貧瘠的)",
+    "chinese_sentence": "尼羅河三角洲擁有非洲最肥沃的農業土地，養活了數以百萬計的人口。",
+    "word_family": "fertile · fertility · fertilize · fertilizer · infertile"
+  },
+  {
+    "word": "rainfall",
+    "pos": "n.",
+    "chapter": "Nature and Environment",
+    "kk": "/rˈeɪnfˌɔl/",
+    "chinese": "降雨量；降雨",
+    "collocations": [
+      {
+        "en": "annual rainfall",
+        "zh": "年降雨量"
+      },
+      {
+        "en": "heavy rainfall",
+        "zh": "大量降雨"
+      },
+      {
+        "en": "rainfall pattern",
+        "zh": "降雨型態"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The region experienced below-average rainfall this year, causing drought.",
+        "target": "rainfall"
+      },
+      {
+        "en": "High rainfall in the mountains can lead to flash floods downstream.",
+        "target": "rainfall"
+      }
+    ],
+    "synonyms": [
+      "precipitation",
+      "rain",
+      "downpour"
+    ],
+    "grammar_note": "rainfall (n.); uncountable 或 singular; rainfall = 測量用的降水量",
+    "chinese_sentence": "今年該地區降雨量遠低於平均值，農業生產受到嚴重的乾旱衝擊。",
+    "word_family": ""
+  },
+  {
+    "word": "mountainous",
+    "pos": "adj.",
+    "chapter": "Nature and Environment",
+    "kk": "/mˈaʊntənəs/",
+    "chinese": "多山的；山嶽般的；巨大的",
+    "collocations": [
+      {
+        "en": "mountainous region",
+        "zh": "山地地區"
+      },
+      {
+        "en": "mountainous terrain",
+        "zh": "多山的地形"
+      },
+      {
+        "en": "mountainous waves",
+        "zh": "巨浪"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Taiwan is a mountainous island with many peaks over 3,000 meters.",
+        "target": "mountainous"
+      },
+      {
+        "en": "The hikers faced mountainous challenges on their way to the summit.",
+        "target": "mountainous"
+      }
+    ],
+    "synonyms": [
+      "hilly",
+      "rugged",
+      "steep"
+    ],
+    "grammar_note": "mountain (n.); mountainous (adj.) = 多山的/龐大的; mountaineer (n.) = 登山者",
+    "chinese_sentence": "台灣是一個多山的島嶼，擁有超過兩百座海拔三千公尺以上的高山。",
+    "word_family": "mountain · mountaineer · mountainous"
   },
   {
     "word": "accountant",
@@ -27366,11 +27680,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She works as a **certified accountant** at a large financial firm.",
+        "en": "She works as a certified accountant at a large financial firm.",
         "target": "certified accountant"
       },
       {
-        "en": "The company's **accountant** prepared the annual financial report.",
+        "en": "The company's accountant prepared the annual financial report.",
         "target": "accountant"
       }
     ],
@@ -27382,45 +27696,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "accounting (n.); accountant (n.); accountancy (n.) = 會計學",
     "chinese_sentence": "她在一家大型金融公司擔任認證會計師，負責管理企業的財務帳目。",
     "word_family": "account · accountancy · accountant · accounting"
-  },
-  {
-    "word": "acknowledge(ment)",
-    "pos": "v./n.",
-    "chapter": "Nature and Environment",
-    "kk": "",
-    "chinese": "承認；感謝；確認收到",
-    "collocations": [
-      {
-        "en": "acknowledge a mistake",
-        "zh": "承認錯誤"
-      },
-      {
-        "en": "acknowledge receipt",
-        "zh": "確認收到"
-      },
-      {
-        "en": "acknowledgement section",
-        "zh": "致謝部分"
-      }
-    ],
-    "examples": [
-      {
-        "en": "He **acknowledged** that he had made an error in the report.",
-        "target": "acknowledged"
-      },
-      {
-        "en": "She didn't even **acknowledge** my email for three days.",
-        "target": "acknowledge"
-      }
-    ],
-    "synonyms": [
-      "admit",
-      "recognize",
-      "confirm"
-    ],
-    "grammar_note": "acknowledge (v.); acknowledgement (n.); acknowledge + N / that + clause",
-    "chinese_sentence": "他承認自己在報告中犯了一個錯誤，並立刻提出了修正方案。",
-    "word_family": "acknowledge · acknowledgement"
   },
   {
     "word": "adopt",
@@ -27487,11 +27762,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The children were **amused** by the clown's silly antics.",
+        "en": "The children were amused by the clown's silly antics.",
         "target": "amused"
       },
       {
-        "en": "To everyone's **amusement**, the teacher tripped over his own bag.",
+        "en": "To everyone's amusement, the teacher tripped over his own bag.",
         "target": "amusement"
       }
     ],
@@ -27526,11 +27801,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She had no **alternative** but to accept the late penalty.",
+        "en": "She had no alternative but to accept the late penalty.",
         "target": "alternative"
       },
       {
-        "en": "Solar power is a popular **alternative** to fossil fuels.",
+        "en": "Solar power is a popular alternative to fossil fuels.",
         "target": "alternative"
       }
     ],
@@ -27565,11 +27840,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The principal addressed the students at the morning **assembly**.",
+        "en": "The principal addressed the students at the morning assembly.",
         "target": "assembly"
       },
       {
-        "en": "The car manufacturer uses an **assembly** line to build vehicles efficiently.",
+        "en": "The car manufacturer uses an assembly line to build vehicles efficiently.",
         "target": "assembly"
       }
     ],
@@ -27604,11 +27879,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **assured** her parents that she would be home by 10 p.m.",
+        "en": "She assured her parents that she would be home by 10 p.m.",
         "target": "assured"
       },
       {
-        "en": "**Rest assured** that your application will be reviewed fairly.",
+        "en": "Rest assured that your application will be reviewed fairly.",
         "target": "Rest assured"
       }
     ],
@@ -27643,11 +27918,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She gave the teacher flowers **in appreciation of** all his help.",
+        "en": "She gave the teacher flowers in appreciation of all his help.",
         "target": "in appreciation of"
       },
       {
-        "en": "He has a deep **appreciation for** classical music.",
+        "en": "He has a deep appreciation for classical music.",
         "target": "appreciation for"
       }
     ],
@@ -27682,11 +27957,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The restaurant serves **authentic** Taiwanese cuisine using traditional recipes.",
+        "en": "The restaurant serves authentic Taiwanese cuisine using traditional recipes.",
         "target": "authentic"
       },
       {
-        "en": "The museum verified that the painting was **authentic** and not a forgery.",
+        "en": "The museum verified that the painting was authentic and not a forgery.",
         "target": "authentic"
       }
     ],
@@ -27721,11 +27996,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The small business went **bankrupt** after three years of poor sales.",
+        "en": "The small business went bankrupt after three years of poor sales.",
         "target": "bankrupt"
       },
       {
-        "en": "The company was forced to declare **bankruptcy** due to massive debt.",
+        "en": "The company was forced to declare bankruptcy due to massive debt.",
         "target": "bankruptcy"
       }
     ],
@@ -27743,7 +28018,7 @@ const LEVEL_4_DATA = [
     "pos": "n./v.",
     "chapter": "Nature and Environment",
     "kk": "/bˈɑnd/",
-    "chinese": "聯繫；債券；連結；粘合",
+    "chinese": "聯繫；債券；連結；黏合",
     "collocations": [
       {
         "en": "form a bond",
@@ -27760,11 +28035,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "There is a strong **bond** of friendship between the two classmates.",
+        "en": "There is a strong bond of friendship between the two classmates.",
         "target": "bond"
       },
       {
-        "en": "They **bonded** over their shared love of reading during the book club.",
+        "en": "They bonded over their shared love of reading during the book club.",
         "target": "bonded"
       }
     ],
@@ -27799,11 +28074,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She always wears the silver **bracelet** her grandmother gave her.",
+        "en": "She always wears the silver bracelet her grandmother gave her.",
         "target": "bracelet"
       },
       {
-        "en": "The charity sold **bracelets** to raise money for children in need.",
+        "en": "The charity sold bracelets to raise money for children in need.",
         "target": "bracelets"
       }
     ],
@@ -27838,11 +28113,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school launched an anti-bullying **campaign** last semester.",
+        "en": "The school launched an anti-bullying campaign last semester.",
         "target": "campaign"
       },
       {
-        "en": "She volunteered to help with the city's environmental **campaign**.",
+        "en": "She volunteered to help with the city's environmental campaign.",
         "target": "campaign"
       }
     ],
@@ -27877,11 +28152,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please sort the items into the correct **category** on the form.",
+        "en": "Please sort the items into the correct category on the form.",
         "target": "category"
       },
       {
-        "en": "This word falls into the **category** of formal vocabulary.",
+        "en": "This word falls into the category of formal vocabulary.",
         "target": "category"
       }
     ],
@@ -27916,11 +28191,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The library uses a **classification** system based on subject and author.",
+        "en": "The library uses a classification system based on subject and author.",
         "target": "classification"
       },
       {
-        "en": "The **classification** of species in biology helps us understand evolution.",
+        "en": "The classification of species in biology helps us understand evolution.",
         "target": "classification"
       }
     ],
@@ -27955,11 +28230,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Under the **circumstances**, she decided to postpone her trip.",
+        "en": "Under the circumstances, she decided to postpone her trip.",
         "target": "circumstances"
       },
       {
-        "en": "Success often depends not just on talent but on **circumstances**.",
+        "en": "Success often depends not just on talent but on circumstances.",
         "target": "circumstances"
       }
     ],
@@ -27969,7 +28244,7 @@ const LEVEL_4_DATA = [
       "context"
     ],
     "grammar_note": "circumstantial (adj.) = 環境的/情況的; under the circumstances = 在此情況下",
-    "chinese_sentence": "鑒於目前的情況，她決定暫時推遲原定的出國旅行計畫。",
+    "chinese_sentence": "鑑於目前的情況，她決定暫時延後原定的出國旅行計畫。",
     "word_family": "circumstance · circumstantial"
   },
   {
@@ -27994,11 +28269,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **commander** gave the order to advance at dawn.",
+        "en": "The commander gave the order to advance at dawn.",
         "target": "commander"
       },
       {
-        "en": "She rose to become the first female **commander** of the unit.",
+        "en": "She rose to become the first female commander of the unit.",
         "target": "commander"
       }
     ],
@@ -28024,7 +28299,7 @@ const LEVEL_4_DATA = [
       },
       {
         "en": "in confidence",
-        "zh": "秘密地"
+        "zh": "祕密地"
       },
       {
         "en": "self-confidence",
@@ -28033,11 +28308,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She spoke with great **confidence** during her oral presentation.",
+        "en": "She spoke with great confidence during her oral presentation.",
         "target": "confidence"
       },
       {
-        "en": "Regular practice helped her build **confidence** in public speaking.",
+        "en": "Regular practice helped her build confidence in public speaking.",
         "target": "confidence"
       }
     ],
@@ -28072,11 +28347,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The unclear instructions led to **confusion** among the students.",
+        "en": "The unclear instructions led to confusion among the students.",
         "target": "confusion"
       },
       {
-        "en": "There was **confusion** about the exam time after the announcement was changed.",
+        "en": "There was confusion about the exam time after the announcement was changed.",
         "target": "confusion"
       }
     ],
@@ -28111,11 +28386,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **concept** of infinity is difficult for young children to understand.",
+        "en": "The concept of infinity is difficult for young children to understand.",
         "target": "concept"
       },
       {
-        "en": "She used a **concept** map to organize ideas before writing her essay.",
+        "en": "She used a concept map to organize ideas before writing her essay.",
         "target": "concept"
       }
     ],
@@ -28150,11 +28425,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **continual** effort to improve led to steady progress over time.",
+        "en": "Her continual effort to improve led to steady progress over time.",
         "target": "continual"
       },
       {
-        "en": "The **continual** interruptions made it impossible to concentrate.",
+        "en": "The continual interruptions made it impossible to concentrate.",
         "target": "continual"
       }
     ],
@@ -28189,11 +28464,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Everyone is encouraged to **contribute** ideas during the brainstorming session.",
+        "en": "Everyone is encouraged to contribute ideas during the brainstorming session.",
         "target": "contribute"
       },
       {
-        "en": "Lack of sleep can **contribute to** poor concentration in class.",
+        "en": "Lack of sleep can contribute to poor concentration in class.",
         "target": "contribute to"
       }
     ],
@@ -28228,11 +28503,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The family rented a **cottage** by the lake for their summer vacation.",
+        "en": "The family rented a cottage by the lake for their summer vacation.",
         "target": "cottage"
       },
       {
-        "en": "She dreamed of living in a cozy **cottage** surrounded by flowers.",
+        "en": "She dreamed of living in a cozy cottage surrounded by flowers.",
         "target": "cottage"
       }
     ],
@@ -28267,11 +28542,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She developed effective strategies to **cope with** exam stress.",
+        "en": "She developed effective strategies to cope with exam stress.",
         "target": "cope with"
       },
       {
-        "en": "Not everyone **copes** well with change; some need more time to adjust.",
+        "en": "Not everyone copes well with change; some need more time to adjust.",
         "target": "copes"
       }
     ],
@@ -28306,11 +28581,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The smartphone is both a blessing and a **curse** — useful but addictive.",
+        "en": "The smartphone is both a blessing and a curse — useful but addictive.",
         "target": "curse"
       },
       {
-        "en": "She **cursed** under her breath when she spilled coffee on her notes.",
+        "en": "She cursed under her breath when she spilled coffee on her notes.",
         "target": "cursed"
       }
     ],
@@ -28345,12 +28620,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She forgot her lines and looked at the teacher for a **cue**.",
+        "en": "She forgot her lines and looked at the teacher for a cue.",
         "target": "cue"
       },
       {
-        "en": "**On cue**, the fire alarm went off just as the teacher started speaking.",
-        "target": "On cue"
+        "en": "As if on cue, the bus pulled up just as we reached the stop.",
+        "target": "As if on cue"
       }
     ],
     "synonyms": [
@@ -28384,11 +28659,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She sought help from a counselor after suffering from **depression** for months.",
+        "en": "She sought help from a counselor after suffering from depression for months.",
         "target": "depression"
       },
       {
-        "en": "The Great **Depression** of the 1930s caused widespread unemployment.",
+        "en": "The Great Depression of the 1930s caused widespread unemployment.",
         "target": "Depression"
       }
     ],
@@ -28423,11 +28698,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **demand** for English teachers in Asia has been growing rapidly.",
+        "en": "The demand for English teachers in Asia has been growing rapidly.",
         "target": "demand"
       },
       {
-        "en": "She **demanded** an explanation for the sudden change of plan.",
+        "en": "She demanded an explanation for the sudden change of plan.",
         "target": "demanded"
       }
     ],
@@ -28439,45 +28714,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "demand (n./v.); demanding (adj.) = 要求高的/費力的; demand for sth. = 對某物的需求",
     "chinese_sentence": "亞洲各國對英語教師的需求量持續快速增長，形成龐大的就業市場。",
     "word_family": "demand · demanding"
-  },
-  {
-    "word": "digest",
-    "pos": "n./v.",
-    "chapter": "Nature and Environment",
-    "kk": "/daɪdʒˈɛst/",
-    "chinese": "消化；理解；文摘",
-    "collocations": [
-      {
-        "en": "digest food",
-        "zh": "消化食物"
-      },
-      {
-        "en": "reader's digest",
-        "zh": "讀者文摘"
-      },
-      {
-        "en": "hard to digest",
-        "zh": "難以消化"
-      }
-    ],
-    "examples": [
-      {
-        "en": "It takes time to **digest** all the new vocabulary learned in class.",
-        "target": "digest"
-      },
-      {
-        "en": "The article was hard to **digest** due to its complex language.",
-        "target": "digest"
-      }
-    ],
-    "synonyms": [
-      "absorb",
-      "process",
-      "summary"
-    ],
-    "grammar_note": "digest (v./n.); digestion (n.) = 消化; digestive (adj.) = 消化的",
-    "chinese_sentence": "要消化課堂上學到的所有新詞彙需要時間，不能急於求成。",
-    "word_family": "digest · digestion · digestive"
   },
   {
     "word": "disturb",
@@ -28501,11 +28737,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please do not **disturb** the students during the exam.",
+        "en": "Please do not disturb the students during the exam.",
         "target": "disturb"
       },
       {
-        "en": "The loud music next door **disturbed** her concentration while studying.",
+        "en": "The loud music next door disturbed her concentration while studying.",
         "target": "disturbed"
       }
     ],
@@ -28515,7 +28751,7 @@ const LEVEL_4_DATA = [
       "bother"
     ],
     "grammar_note": "disturb (v.); disturbance (n.); disturbing (adj.) = 令人不安的; disturbed (adj.) = 受到打擾的",
-    "chinese_sentence": "鄰居的大聲音樂聲打擾了她的學習，讓她無法集中注意力。",
+    "chinese_sentence": "隔壁震耳的音樂聲打擾了她讀書，讓她無法集中注意力。",
     "word_family": "disturb · disturbance · disturbed · disturbing"
   },
   {
@@ -28540,11 +28776,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school provides special support for students with **learning disabilities**.",
+        "en": "The school provides special support for students with learning disabilities.",
         "target": "learning disabilities"
       },
       {
-        "en": "Despite his physical **disability**, he excelled in academics.",
+        "en": "Despite his physical disability, he excelled in academics.",
         "target": "disability"
       }
     ],
@@ -28579,11 +28815,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A few large companies **dominate** the global smartphone market.",
+        "en": "A few large companies dominate the global smartphone market.",
         "target": "dominate"
       },
       {
-        "en": "She **dominated** the debate with confident and well-researched arguments.",
+        "en": "She dominated the debate with confident and well-researched arguments.",
         "target": "dominated"
       }
     ],
@@ -28595,45 +28831,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "dominate (v.); dominant (adj.); domination (n.); dominated by = 被…所主導",
     "chinese_sentence": "少數幾家大型企業掌控了全球智慧型手機市場的大部分份額。",
     "word_family": "dominance · dominant · dominate · domination"
-  },
-  {
-    "word": "economics",
-    "pos": "n.",
-    "chapter": "Nature and Environment",
-    "kk": "/ˌɛkənˈɑmɪks/",
-    "chinese": "經濟學；經濟因素",
-    "collocations": [
-      {
-        "en": "study economics",
-        "zh": "學習經濟學"
-      },
-      {
-        "en": "home economics",
-        "zh": "家政學"
-      },
-      {
-        "en": "the economics of",
-        "zh": "…的經濟因素"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She chose to major in **economics** because she wants to work in finance.",
-        "target": "economics"
-      },
-      {
-        "en": "The **economics** of running a small business are more complicated than expected.",
-        "target": "economics"
-      }
-    ],
-    "synonyms": [
-      "finance",
-      "trade",
-      "commerce"
-    ],
-    "grammar_note": "economic (adj.) = 經濟的; economical (adj.) = 節儉的; economics (n.) = 經濟學（不可數）",
-    "chinese_sentence": "她選擇主修經濟學，希望畢業後能進入金融業工作，發揮所長。",
-    "word_family": "economic · economical · economics · economist · economize · economy"
   },
   {
     "word": "drift",
@@ -28657,11 +28854,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The boat began to **drift** downstream when the engine broke down.",
+        "en": "The boat began to drift downstream when the engine broke down.",
         "target": "drift"
       },
       {
-        "en": "They gradually **drifted apart** after graduating from different universities.",
+        "en": "They gradually drifted apart after graduating from different universities.",
         "target": "drifted apart"
       }
     ],
@@ -28696,11 +28893,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **endured** months of difficult training before the national competition.",
+        "en": "She endured months of difficult training before the national competition.",
         "target": "endured"
       },
       {
-        "en": "Their friendship has **endured** for over twenty years.",
+        "en": "Their friendship has endured for over twenty years.",
         "target": "endured"
       }
     ],
@@ -28735,11 +28932,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She asked the shop to **enlarge** the family photo to hang on the wall.",
+        "en": "She asked the shop to enlarge the family photo to hang on the wall.",
         "target": "enlarge"
       },
       {
-        "en": "The school plans to **enlarge** the library by adding a new reading section.",
+        "en": "The school plans to enlarge the library by adding a new reading section.",
         "target": "enlarge"
       }
     ],
@@ -28774,11 +28971,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher's **explanation** of the grammar rule made everything clear.",
+        "en": "The teacher's explanation of the grammar rule made everything clear.",
         "target": "explanation"
       },
       {
-        "en": "She gave a clear **explanation** of why she was absent from class.",
+        "en": "She gave a clear explanation of why she was absent from class.",
         "target": "explanation"
       }
     ],
@@ -28813,11 +29010,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The long hike **exhausted** the students, but they were happy they finished.",
+        "en": "The long hike exhausted the students, but they were happy they finished.",
         "target": "exhausted"
       },
       {
-        "en": "Car **exhaust** fumes contribute significantly to air pollution in cities.",
+        "en": "Car exhaust fumes contribute significantly to air pollution in cities.",
         "target": "exhaust"
       }
     ],
@@ -28852,11 +29049,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **facial expression** clearly showed how disappointed she was.",
+        "en": "Her facial expression clearly showed how disappointed she was.",
         "target": "facial expression"
       },
       {
-        "en": "**Facial recognition** technology is used in many modern security systems.",
+        "en": "Facial recognition technology is used in many modern security systems.",
         "target": "Facial recognition"
       }
     ],
@@ -28890,11 +29087,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **rose to fame** after her debut novel became a bestseller.",
+        "en": "She rose to fame after her debut novel became a bestseller.",
         "target": "rose to fame"
       },
       {
-        "en": "He pursued his dream of **fame** but eventually chose a quieter life.",
+        "en": "He pursued his dream of fame but eventually chose a quieter life.",
         "target": "fame"
       }
     ],
@@ -28929,11 +29126,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was **flattered** when the professor praised her essay in front of the class.",
+        "en": "She was flattered when the professor praised her essay in front of the class.",
         "target": "flattered"
       },
       {
-        "en": "Don't **flatter** me — just tell me honestly what you think.",
+        "en": "Don't flatter me — just tell me honestly what you think.",
         "target": "flatter"
       }
     ],
@@ -28968,11 +29165,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is **fluent** in both Mandarin and English.",
+        "en": "She is fluent in both Mandarin and English.",
         "target": "fluent"
       },
       {
-        "en": "After two years abroad, he became **fluent** in French.",
+        "en": "After two years abroad, he became fluent in French.",
         "target": "fluent"
       }
     ],
@@ -29007,11 +29204,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Reading widely lays the **foundation** for strong writing skills.",
+        "en": "Reading widely lays the foundation for strong writing skills.",
         "target": "foundation"
       },
       {
-        "en": "The school was built on the **foundation** of academic excellence and integrity.",
+        "en": "The school was built on the foundation of academic excellence and integrity.",
         "target": "foundation"
       }
     ],
@@ -29046,11 +29243,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Access to education is a **fundamental** right for all children.",
+        "en": "Access to education is a fundamental right for all children.",
         "target": "fundamental"
       },
       {
-        "en": "A **fundamental** change in attitude is needed for real improvement.",
+        "en": "A fundamental change in attitude is needed for real improvement.",
         "target": "fundamental"
       }
     ],
@@ -29085,11 +29282,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The exam was difficult; **furthermore**, the time limit was too short.",
+        "en": "The exam was difficult; furthermore, the time limit was too short.",
         "target": "furthermore"
       },
       {
-        "en": "She worked hard throughout the year; **furthermore**, she helped her classmates.",
+        "en": "She worked hard throughout the year; furthermore, she helped her classmates.",
         "target": "furthermore"
       }
     ],
@@ -29124,11 +29321,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She wore a beautiful white **gown** at her graduation ceremony.",
+        "en": "She wore a beautiful white gown at her graduation ceremony.",
         "target": "gown"
       },
       {
-        "en": "The bride's **wedding gown** was made of silk and handcrafted lace.",
+        "en": "The bride's wedding gown was made of silk and handcrafted lace.",
         "target": "wedding gown"
       }
     ],
@@ -29163,11 +29360,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Hard work does not **guarantee** success, but it makes it more likely.",
+        "en": "Hard work does not guarantee success, but it makes it more likely.",
         "target": "guarantee"
       },
       {
-        "en": "The product comes with a two-year **guarantee** against defects.",
+        "en": "The product comes with a two-year guarantee against defects.",
         "target": "guarantee"
       }
     ],
@@ -29202,11 +29399,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She grew up in **hardship** but never lost her ambition to succeed.",
+        "en": "She grew up in hardship but never lost her ambition to succeed.",
         "target": "hardship"
       },
       {
-        "en": "Financial **hardship** caused many students to drop out of school.",
+        "en": "Financial hardship caused many students to drop out of school.",
         "target": "hardship"
       }
     ],
@@ -29241,11 +29438,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "After years abroad, she finally returned to her **homeland**.",
+        "en": "After years abroad, she finally returned to her homeland.",
         "target": "homeland"
       },
       {
-        "en": "The refugees longed to return to their **homeland** in peace.",
+        "en": "The refugees longed to return to their homeland in peace.",
         "target": "homeland"
       }
     ],
@@ -29280,11 +29477,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A **helicopter** rescued the hikers who were stranded on the mountain.",
+        "en": "A helicopter rescued the hikers who were stranded on the mountain.",
         "target": "helicopter"
       },
       {
-        "en": "The medical **helicopter** arrived within minutes to transport the injured patient.",
+        "en": "The medical helicopter arrived within minutes to transport the injured patient.",
         "target": "helicopter"
       }
     ],
@@ -29318,11 +29515,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "'Break a leg' is an English **idiom** meaning 'good luck'.",
+        "en": "'Break a leg' is an English idiom meaning 'good luck'.",
         "target": "idiom"
       },
       {
-        "en": "Learning **idioms** helps students communicate more naturally in English.",
+        "en": "Learning idioms helps students communicate more naturally in English.",
         "target": "idioms"
       }
     ],
@@ -29332,7 +29529,7 @@ const LEVEL_4_DATA = [
       "saying"
     ],
     "grammar_note": "idiomatic (adj.); idiomatically (adv.); an idiom = 一個習語/慣用語",
-    "chinese_sentence": "'Break a leg' 是一句英語慣用語，意思是「祝你好運」，常在演出前使用。",
+    "chinese_sentence": "「Break a leg」是一句英語慣用語，意思是「祝你好運」，常在演出前使用。",
     "word_family": "idiom · idiomatic · idiomatically"
   },
   {
@@ -29400,11 +29597,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The textbook is filled with colorful **illustrations** that help explain concepts.",
+        "en": "The textbook is filled with colorful illustrations that help explain concepts.",
         "target": "illustrations"
       },
       {
-        "en": "**By way of illustration**, let me give you a real-life example.",
+        "en": "By way of illustration, let me give you a real-life example.",
         "target": "By way of illustration"
       }
     ],
@@ -29439,11 +29636,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her grandparents **immigrated** to Taiwan from southern China in the 1950s.",
+        "en": "Her grandparents immigrated to Taiwan from southern China in the 1950s.",
         "target": "immigrated"
       },
       {
-        "en": "Many families **immigrate** to new countries in search of better opportunities.",
+        "en": "Many families immigrate to new countries in search of better opportunities.",
         "target": "immigrate"
       }
     ],
@@ -29478,12 +29675,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The hospital has a special ward for **infants** and premature babies.",
+        "en": "The hospital has a special ward for infants and premature babies.",
         "target": "infants"
       },
       {
-        "en": "The program is still in its **infant** stages and has much to develop.",
-        "target": "infant"
+        "en": "The government offered tax breaks to help the country's infant industries compete with foreign companies.",
+        "target": "infant industries"
       }
     ],
     "synonyms": [
@@ -29517,11 +29714,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please don't **interfere** in other people's personal decisions.",
+        "en": "Please don't interfere in other people's personal decisions.",
         "target": "interfere"
       },
       {
-        "en": "Noise **interfered with** her ability to concentrate during the exam.",
+        "en": "Noise interfered with her ability to concentrate during the exam.",
         "target": "interfered with"
       }
     ],
@@ -29556,11 +29753,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **initial** reaction to the news was shock, then gradually relief.",
+        "en": "Her initial reaction to the news was shock, then gradually relief.",
         "target": "initial"
       },
       {
-        "en": "Please sign your **initials** at the bottom of each page.",
+        "en": "Please sign your initials at the bottom of each page.",
         "target": "initials"
       }
     ],
@@ -29595,11 +29792,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **invasion** of the country caused widespread suffering.",
-        "target": "invasion"
+        "en": "The Roman invasion of Britain in AD 43 brought roads, towns, and Latin to the island.",
+        "target": "Roman invasion of Britain"
       },
       {
-        "en": "She felt the photo taken without her permission was an **invasion of privacy**.",
+        "en": "She felt the photo taken without her permission was an invasion of privacy.",
         "target": "invasion of privacy"
       }
     ],
@@ -29634,11 +29831,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**According to legend**, the dragon guarded a treasure in the mountains.",
+        "en": "According to legend, the dragon guarded a treasure in the mountains.",
         "target": "According to legend"
       },
       {
-        "en": "She became a **legend** in the world of women's tennis.",
+        "en": "She became a legend in the world of women's tennis.",
         "target": "legend"
       }
     ],
@@ -29673,12 +29870,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Taipei 101 is one of Taiwan's most famous **landmarks**.",
+        "en": "Taipei 101 is one of Taiwan's most famous landmarks.",
         "target": "landmarks"
       },
       {
-        "en": "The new law was a **landmark** decision in the history of human rights.",
-        "target": "landmark"
+        "en": "The court's ruling was a landmark decision in the history of human rights.",
+        "target": "a landmark decision"
       }
     ],
     "synonyms": [
@@ -29687,7 +29884,7 @@ const LEVEL_4_DATA = [
       "turning point"
     ],
     "grammar_note": "landmark (n.); landmark decision = 具有歷史意義的決定; landmark event = 里程碑事件",
-    "chinese_sentence": "那項新法律是人權史上一個具有里程碑意義的重大判決。",
+    "chinese_sentence": "法院的這項裁決是人權史上具有里程碑意義的判決。",
     "word_family": ""
   },
   {
@@ -29712,11 +29909,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She felt **lousy** after studying all night and still not understanding the topic.",
+        "en": "She felt lousy after studying all night and still not understanding the topic.",
         "target": "lousy"
       },
       {
-        "en": "The weather was **lousy** — cold, rainy, and windy all day.",
+        "en": "The weather was lousy — cold, rainy, and windy all day.",
         "target": "lousy"
       }
     ],
@@ -29751,11 +29948,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "For her, having time to read for pleasure is a true **luxury**.",
+        "en": "For her, having time to read for pleasure is a true luxury.",
         "target": "luxury"
       },
       {
-        "en": "The hotel offers **luxury** suites with stunning ocean views.",
+        "en": "The hotel offers luxury suites with stunning ocean views.",
         "target": "luxury"
       }
     ],
@@ -29790,11 +29987,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **mechanic** diagnosed the problem with the car engine quickly.",
+        "en": "The mechanic diagnosed the problem with the car engine quickly.",
         "target": "mechanic"
       },
       {
-        "en": "She learned to become a **mechanic** through a technical vocational program.",
+        "en": "She learned to become a mechanic through a technical vocational program.",
         "target": "mechanic"
       }
     ],
@@ -29829,11 +30026,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **manufacturer** recalled the product due to safety concerns.",
+        "en": "The manufacturer recalled the product due to safety concerns.",
         "target": "manufacturer"
       },
       {
-        "en": "She works as a quality inspector at an electronics **manufacturer**.",
+        "en": "She works as a quality inspector at an electronics manufacturer.",
         "target": "manufacturer"
       }
     ],
@@ -29845,45 +30042,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "manufacture (v./n.); manufacturer (n.); manufacturing (n.) = 製造業",
     "chinese_sentence": "那家製造商因為產品安全疑慮而宣布召回數萬件商品，引發市場恐慌。",
     "word_family": "manufacture · manufacturer · manufacturing"
-  },
-  {
-    "word": "monitor",
-    "pos": "n./v.",
-    "chapter": "Nature and Environment",
-    "kk": "/mˈɑnətɚ/",
-    "chinese": "監視；監測；顯示器",
-    "collocations": [
-      {
-        "en": "monitor progress",
-        "zh": "監測進度"
-      },
-      {
-        "en": "computer monitor",
-        "zh": "電腦顯示器"
-      },
-      {
-        "en": "health monitor",
-        "zh": "健康監測儀"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The teacher **monitors** students' progress using regular quizzes.",
-        "target": "monitors"
-      },
-      {
-        "en": "She uses a fitness band to **monitor** her heart rate during exercise.",
-        "target": "monitor"
-      }
-    ],
-    "synonyms": [
-      "observe",
-      "track",
-      "screen"
-    ],
-    "grammar_note": "monitor (n./v.); monitoring (n.); monitor sth. = 持續觀察/監測某事",
-    "chinese_sentence": "老師透過定期的小測驗來持續監測學生的學習進度和知識掌握程度。",
-    "word_family": "monitor · monitoring"
   },
   {
     "word": "moreover",
@@ -29907,11 +30065,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The library has a wide selection of books; **moreover**, it stays open until 10 p.m.",
+        "en": "The library has a wide selection of books; moreover, it stays open until 10 p.m.",
         "target": "moreover"
       },
       {
-        "en": "She is talented; **moreover**, she works harder than anyone in the class.",
+        "en": "She is talented; moreover, she works harder than anyone in the class.",
         "target": "moreover"
       }
     ],
@@ -29946,11 +30104,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher's encouragement **motivated** her to work even harder.",
+        "en": "The teacher's encouragement motivated her to work even harder.",
         "target": "motivated"
       },
       {
-        "en": "She is **motivated by** a genuine desire to make a difference.",
+        "en": "She is motivated by a genuine desire to make a difference.",
         "target": "motivated by"
       }
     ],
@@ -29985,11 +30143,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The task was challenging; **nevertheless**, she completed it on time.",
+        "en": "The task was challenging; nevertheless, she completed it on time.",
         "target": "nevertheless"
       },
       {
-        "en": "He was nervous; **nevertheless**, he gave a confident speech.",
+        "en": "He was nervous; nevertheless, he gave a confident speech.",
         "target": "nevertheless"
       }
     ],
@@ -30024,11 +30182,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She took **offense** when the remark was made about her background.",
+        "en": "She took offense when the remark was made about her background.",
         "target": "offense"
       },
       {
-        "en": "Speeding is a traffic **offense** that can result in a heavy fine.",
+        "en": "Speeding is a traffic offense that can result in a heavy fine.",
         "target": "offense"
       }
     ],
@@ -30063,11 +30221,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She worked hard to **obtain** a scholarship for her studies.",
+        "en": "She worked hard to obtain a scholarship for her studies.",
         "target": "obtain"
       },
       {
-        "en": "Please **obtain** written permission before using the materials.",
+        "en": "Please obtain written permission before using the materials.",
         "target": "obtain"
       }
     ],
@@ -30102,11 +30260,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Plants produce **oxygen** through photosynthesis during the day.",
+        "en": "Plants produce oxygen through photosynthesis during the day.",
         "target": "oxygen"
       },
       {
-        "en": "The climbers carried extra **oxygen** tanks for the high-altitude ascent.",
+        "en": "The climbers carried extra oxygen tanks for the high-altitude ascent.",
         "target": "oxygen"
       }
     ],
@@ -30140,11 +30298,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "It's easy to **overlook** small grammar mistakes when reading too fast.",
+        "en": "It's easy to overlook small grammar mistakes when reading too fast.",
         "target": "overlook"
       },
       {
-        "en": "The hotel room **overlooks** a beautiful mountain range.",
+        "en": "The hotel room overlooks a beautiful mountain range.",
         "target": "overlooks"
       }
     ],
@@ -30179,11 +30337,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She always strives for **perfection** in her writing.",
+        "en": "She always strives for perfection in her writing.",
         "target": "perfection"
       },
       {
-        "en": "The dish was cooked to **perfection** — crispy outside, tender inside.",
+        "en": "The dish was cooked to perfection — crispy outside, tender inside.",
         "target": "perfection"
       }
     ],
@@ -30218,11 +30376,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She felt **peer pressure** to join the group even though she didn't want to.",
+        "en": "She felt peer pressure to join the group even though she didn't want to.",
         "target": "peer pressure"
       },
       {
-        "en": "The scientist's research underwent **peer review** before publication.",
+        "en": "The scientist's research underwent peer review before publication.",
         "target": "peer review"
       }
     ],
@@ -30257,11 +30415,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She took a **philosophical** approach to failure and saw it as a learning experience.",
+        "en": "She took a philosophical approach to failure and saw it as a learning experience.",
         "target": "philosophical"
       },
       {
-        "en": "The class had a **philosophical** debate about the meaning of justice.",
+        "en": "The class had a philosophical debate about the meaning of justice.",
         "target": "philosophical"
       }
     ],
@@ -30296,12 +30454,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "There are **plentiful** opportunities for students who are willing to work hard.",
+        "en": "There are plentiful opportunities for students who are willing to work hard.",
         "target": "plentiful"
       },
       {
-        "en": "The river was once **plentiful** with fish, but overfishing has depleted the stocks.",
-        "target": "plentiful"
+        "en": "Fish were once plentiful in the river, but overfishing has greatly reduced their numbers.",
+        "target": "once plentiful"
       }
     ],
     "synonyms": [
@@ -30335,11 +30493,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **prediction** about the exam questions turned out to be correct.",
+        "en": "Her prediction about the exam questions turned out to be correct.",
         "target": "prediction"
       },
       {
-        "en": "Making accurate **predictions** about the future is nearly impossible.",
+        "en": "Making accurate predictions about the future is nearly impossible.",
         "target": "predictions"
       }
     ],
@@ -30374,11 +30532,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Everyone has the **right to privacy** in their personal communications.",
+        "en": "Everyone has the right to privacy in their personal communications.",
         "target": "right to privacy"
       },
       {
-        "en": "The app's **privacy policy** explains how user data is collected and used.",
+        "en": "The app's privacy policy explains how user data is collected and used.",
         "target": "privacy policy"
       }
     ],
@@ -30413,11 +30571,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Education is a key driver of long-term economic **prosperity**.",
+        "en": "Education is a key driver of long-term economic prosperity.",
         "target": "prosperity"
       },
       {
-        "en": "She worked hard to bring **prosperity** to her family.",
+        "en": "She worked hard to bring prosperity to her family.",
         "target": "prosperity"
       }
     ],
@@ -30429,45 +30587,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "prosper (v.); prosperity (n.); prosperous (adj.); prosperous ≈ thriving ≈ flourishing",
     "chinese_sentence": "教育是推動長期經濟繁榮和社會進步最重要的驅動力之一。",
     "word_family": "prosper · prosperity · prosperous · prosperously"
-  },
-  {
-    "word": "psychological",
-    "pos": "adj.",
-    "chapter": "Nature and Environment",
-    "kk": "/sˌaɪkəlˈɑdʒɪkəl/",
-    "chinese": "心理的；心理學的",
-    "collocations": [
-      {
-        "en": "psychological impact",
-        "zh": "心理影響"
-      },
-      {
-        "en": "psychological support",
-        "zh": "心理支持"
-      },
-      {
-        "en": "psychological disorder",
-        "zh": "心理疾病"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Bullying can have serious **psychological** effects on its victims.",
-        "target": "psychological"
-      },
-      {
-        "en": "She sought **psychological** counseling to help manage her anxiety.",
-        "target": "psychological"
-      }
-    ],
-    "synonyms": [
-      "mental",
-      "emotional",
-      "behavioral"
-    ],
-    "grammar_note": "psychology (n.); psychologist (n.); psychological (adj.); psychologically (adv.)",
-    "chinese_sentence": "霸凌對受害者可能造成嚴重且長期的心理傷害，需要專業輔導介入。",
-    "word_family": "psychic · psychological · psychologically · psychologist · psychology · psychotherapist · psychotherapy"
   },
   {
     "word": "publisher",
@@ -30491,11 +30610,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She sent her manuscript to several **publishers** before it was accepted.",
+        "en": "She sent her manuscript to several publishers before it was accepted.",
         "target": "publishers"
       },
       {
-        "en": "The **publisher** released the book in both digital and print formats.",
+        "en": "The publisher released the book in both digital and print formats.",
         "target": "publisher"
       }
     ],
@@ -30530,11 +30649,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The government announced a **reduction** in income tax for low earners.",
+        "en": "The government announced a reduction in income tax for low earners.",
         "target": "reduction"
       },
       {
-        "en": "A **reduction** in screen time helped improve her sleep quality.",
+        "en": "A reduction in screen time helped improve her sleep quality.",
         "target": "reduction"
       }
     ],
@@ -30569,11 +30688,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She added a handful of **raisins** to the oatmeal for sweetness.",
+        "en": "She added a handful of raisins to the oatmeal for sweetness.",
         "target": "raisins"
       },
       {
-        "en": "**Raisin** bread is a popular breakfast option in many countries.",
+        "en": "Raisin bread is a popular breakfast option in many countries.",
         "target": "Raisin"
       }
     ],
@@ -30607,11 +30726,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The minister **resigned** following the scandal.",
+        "en": "The minister resigned following the scandal.",
         "target": "resigned"
       },
       {
-        "en": "She **resigned** herself to waiting another year to retake the exam.",
+        "en": "She resigned herself to waiting another year to retake the exam.",
         "target": "resigned"
       }
     ],
@@ -30646,11 +30765,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students are expected to be **respectful** toward all teachers and staff.",
+        "en": "Students are expected to be respectful toward all teachers and staff.",
         "target": "respectful"
       },
       {
-        "en": "She listened with a **respectful** silence as the elder spoke.",
+        "en": "She listened with a respectful silence as the elder spoke.",
         "target": "respectful"
       }
     ],
@@ -30685,11 +30804,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She spent three years conducting **research** on student motivation.",
+        "en": "She spent three years conducting research on student motivation.",
         "target": "research"
       },
       {
-        "en": "The **research** findings were published in a leading academic journal.",
+        "en": "The research findings were published in a leading academic journal.",
         "target": "research"
       }
     ],
@@ -30724,11 +30843,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She resisted the urge to **seek revenge** and chose forgiveness instead.",
+        "en": "She resisted the urge to seek revenge and chose forgiveness instead.",
         "target": "seek revenge"
       },
       {
-        "en": "He studied hard as his **revenge** on those who had doubted him.",
+        "en": "He studied hard as his revenge on those who had doubted him.",
         "target": "revenge"
       }
     ],
@@ -30763,11 +30882,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The old bicycle chain was **rusty** and needed replacement.",
+        "en": "The old bicycle chain was rusty and needed replacement.",
         "target": "rusty"
       },
       {
-        "en": "Her French is a bit **rusty** after not speaking it for three years.",
+        "en": "Her French is a bit rusty after not speaking it for three years.",
         "target": "rusty"
       }
     ],
@@ -30802,11 +30921,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **seized** the opportunity to speak with the professor after class.",
+        "en": "She seized the opportunity to speak with the professor after class.",
         "target": "seized"
       },
       {
-        "en": "The customs officers **seized** the illegal goods at the border.",
+        "en": "The customs officers seized the illegal goods at the border.",
         "target": "seized"
       }
     ],
@@ -30841,11 +30960,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They spent the afternoon **sightseeing** around the historic old town.",
+        "en": "They spent the afternoon sightseeing around the historic old town.",
         "target": "sightseeing"
       },
       {
-        "en": "A **sightseeing** tour of the city takes about three hours on a bus.",
+        "en": "A sightseeing tour of the city takes about three hours on a bus.",
         "target": "sightseeing"
       }
     ],
@@ -30880,11 +30999,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school's **slogan** is 'Learn with heart, grow with purpose.'",
+        "en": "The school's slogan is 'Learn with heart, grow with purpose.'",
         "target": "slogan"
       },
       {
-        "en": "A catchy **slogan** is essential for any successful marketing campaign.",
+        "en": "A catchy slogan is essential for any successful marketing campaign.",
         "target": "slogan"
       }
     ],
@@ -30919,11 +31038,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Meditation is a **spiritual** practice that helps many people find inner peace.",
+        "en": "Meditation is a spiritual practice that helps many people find inner peace.",
         "target": "spiritual"
       },
       {
-        "en": "She experienced **spiritual** growth through years of volunteering.",
+        "en": "She experienced spiritual growth through years of volunteering.",
         "target": "spiritual"
       }
     ],
@@ -30958,11 +31077,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her love of science **stems from** a childhood fascination with nature.",
+        "en": "Her love of science stems from a childhood fascination with nature.",
         "target": "stems from"
       },
       {
-        "en": "The government took action to **stem** the spread of misinformation.",
+        "en": "The government took action to stem the spread of misinformation.",
         "target": "stem"
       }
     ],
@@ -30997,11 +31116,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **surgeon** performed a six-hour operation successfully.",
+        "en": "The surgeon performed a six-hour operation successfully.",
         "target": "surgeon"
       },
       {
-        "en": "She aspires to become a **surgeon** and specialize in pediatric medicine.",
+        "en": "She aspires to become a surgeon and specialize in pediatric medicine.",
         "target": "surgeon"
       }
     ],
@@ -31036,11 +31155,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was **suspicious of** the too-good-to-be-true scholarship offer.",
+        "en": "She was suspicious of the too-good-to-be-true scholarship offer.",
         "target": "suspicious of"
       },
       {
-        "en": "The security guard noticed a **suspicious** package and reported it.",
+        "en": "The security guard noticed a suspicious package and reported it.",
         "target": "suspicious"
       }
     ],
@@ -31075,11 +31194,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Before telephones, people used the **telegraph** to send urgent messages.",
+        "en": "Before telephones, people used the telegraph to send urgent messages.",
         "target": "telegraph"
       },
       {
-        "en": "The invention of the **telegraph** revolutionized long-distance communication.",
+        "en": "The invention of the telegraph revolutionized long-distance communication.",
         "target": "telegraph"
       }
     ],
@@ -31114,11 +31233,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Technology has **transformed** the way people communicate globally.",
+        "en": "Technology has transformed the way people communicate globally.",
         "target": "transformed"
       },
       {
-        "en": "Regular exercise can **transform** a person's health and wellbeing.",
+        "en": "Regular exercise can transform a person's health and wellbeing.",
         "target": "transform"
       }
     ],
@@ -31153,11 +31272,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A good teacher shows **tolerance** and patience toward all students.",
+        "en": "A good teacher shows tolerance and patience toward all students.",
         "target": "tolerance"
       },
       {
-        "en": "The school has a **zero tolerance** policy for bullying.",
+        "en": "The school has a zero tolerance policy for bullying.",
         "target": "zero tolerance"
       }
     ],
@@ -31192,11 +31311,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She received an **urgent** call from her mother during the exam.",
+        "en": "She received an urgent call from her mother during the exam.",
         "target": "urgent"
       },
       {
-        "en": "There is an **urgent** need for more teachers in rural areas.",
+        "en": "There is an urgent need for more teachers in rural areas.",
         "target": "urgent"
       }
     ],
@@ -31231,11 +31350,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **volunteers** at the local animal shelter every Sunday morning.",
+        "en": "She volunteers at the local animal shelter every Sunday morning.",
         "target": "volunteers"
       },
       {
-        "en": "Several students **volunteered** to help organize the school fair.",
+        "en": "Several students volunteered to help organize the school fair.",
         "target": "volunteered"
       }
     ],
@@ -31270,11 +31389,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her sharp **wit** made her a popular speaker at school events.",
+        "en": "Her sharp wit made her a popular speaker at school events.",
         "target": "wit"
       },
       {
-        "en": "He was at his **wit's end** trying to solve the unsolvable math problem.",
+        "en": "He was at his wit's end trying to solve the unsolvable math problem.",
         "target": "wit's end"
       }
     ],
@@ -31286,6 +31405,162 @@ const LEVEL_4_DATA = [
     "grammar_note": "witty (adj.) = 機智幽默的; wittily (adv.); at one's wit's end = 走投無路/束手無策",
     "chinese_sentence": "她敏銳的機智和幽默感讓她在學校各項活動中成為最受歡迎的演講者。",
     "word_family": "wit · wittily · wittiness · witty"
+  },
+  {
+    "word": "landscape",
+    "pos": "n./v.",
+    "chapter": "Nature and Environment",
+    "kk": "/lˈændskˌeɪp/",
+    "chinese": "風景；地形；景觀設計",
+    "collocations": [
+      {
+        "en": "mountain landscape",
+        "zh": "山地景觀"
+      },
+      {
+        "en": "urban landscape",
+        "zh": "城市景觀"
+      },
+      {
+        "en": "landscape painting",
+        "zh": "風景畫"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The landscape of the eastern coast of Taiwan is stunningly beautiful.",
+        "target": "landscape"
+      },
+      {
+        "en": "She studied landscape architecture to design public spaces.",
+        "target": "landscape"
+      }
+    ],
+    "synonyms": [
+      "scenery",
+      "terrain",
+      "vista"
+    ],
+    "grammar_note": "landscape (n./v.); landscape architecture = 景觀建築學; seascape = 海景",
+    "chinese_sentence": "台灣東海岸的自然景觀令人嘆為觀止，吸引了大批攝影師和旅遊愛好者。",
+    "word_family": "landscape · portrait · portray · portrayal"
+  },
+  {
+    "word": "basin",
+    "pos": "n.",
+    "chapter": "Nature and Environment",
+    "kk": "/bˈeɪsən/",
+    "chinese": "盆地；洗臉盆；流域",
+    "collocations": [
+      {
+        "en": "river basin",
+        "zh": "河流流域"
+      },
+      {
+        "en": "wash basin",
+        "zh": "洗臉盆"
+      },
+      {
+        "en": "drainage basin",
+        "zh": "排水流域"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The Amazon River basin is the world's largest tropical rainforest region.",
+        "target": "basin"
+      },
+      {
+        "en": "She filled the basin with warm water to wash her face.",
+        "target": "basin"
+      }
+    ],
+    "synonyms": [
+      "bowl",
+      "valley",
+      "sink"
+    ],
+    "grammar_note": "basin (n.); river basin = 流域; wash basin = 洗臉盆; the Basin = 指某特定地理流域",
+    "chinese_sentence": "亞馬遜河流域是全世界面積最大的熱帶雨林地區，物種多樣性極高。",
+    "word_family": ""
+  },
+  {
+    "word": "physical",
+    "pos": "adj.",
+    "chapter": "Body and Health",
+    "kk": "/fˈɪzɪkəl/",
+    "chinese": "身體的；物理的；有形的",
+    "collocations": [
+      {
+        "en": "physical exercise",
+        "zh": "體能運動"
+      },
+      {
+        "en": "physical health",
+        "zh": "身體健康"
+      },
+      {
+        "en": "physical education (P.E.)",
+        "zh": "體育"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Regular physical exercise is essential for maintaining good health.",
+        "target": "physical exercise"
+      },
+      {
+        "en": "She completed a physical examination before starting her new job.",
+        "target": "physical examination"
+      }
+    ],
+    "synonyms": [
+      "bodily",
+      "material",
+      "tangible"
+    ],
+    "grammar_note": "physical (adj.) → physically (adv.)；physical education (P.E.) = 體育課",
+    "chinese_sentence": "定期的體能鍛鍊不僅有益於身體健康，對維持良好的心理狀態也大有幫助。",
+    "word_family": "physical · physically · physicist · physics"
+  },
+  {
+    "word": "monitor",
+    "pos": "n./v.",
+    "chapter": "Body and Health",
+    "kk": "/mˈɑnətɚ/",
+    "chinese": "監視；監測；顯示器",
+    "collocations": [
+      {
+        "en": "monitor progress",
+        "zh": "監測進度"
+      },
+      {
+        "en": "computer monitor",
+        "zh": "電腦顯示器"
+      },
+      {
+        "en": "health monitor",
+        "zh": "健康監測儀"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The teacher monitors students' progress using regular quizzes.",
+        "target": "monitors"
+      },
+      {
+        "en": "She uses a fitness band to monitor her heart rate during exercise.",
+        "target": "monitor"
+      }
+    ],
+    "synonyms": [
+      "observe",
+      "track",
+      "screen"
+    ],
+    "grammar_note": "monitor (n./v.); monitoring (n.); monitor sth. = 持續觀察/監測某事",
+    "chinese_sentence": "老師透過定期的小測驗來持續監測學生的學習進度和知識掌握程度。",
+    "word_family": "monitor · monitoring"
   },
   {
     "word": "accuracy",
@@ -31309,11 +31584,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **accuracy** of the weather forecast has improved significantly.",
+        "en": "The accuracy of the weather forecast has improved significantly.",
         "target": "accuracy"
       },
       {
-        "en": "She proofreads every essay to ensure **accuracy** in spelling and grammar.",
+        "en": "She proofreads every essay to ensure accuracy in spelling and grammar.",
         "target": "accuracy"
       }
     ],
@@ -31348,11 +31623,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is an **acquaintance**, not a close friend — they only meet at events.",
+        "en": "She is an acquaintance, not a close friend — they only meet at events.",
         "target": "acquaintance"
       },
       {
-        "en": "He has a broad **acquaintance** with classical literature.",
+        "en": "He has a broad acquaintance with classical literature.",
         "target": "acquaintance"
       }
     ],
@@ -31362,7 +31637,7 @@ const LEVEL_4_DATA = [
       "familiarity"
     ],
     "grammar_note": "acquaint (v.); acquaintance (n.); make sb.'s acquaintance = 結識某人",
-    "chinese_sentence": "她只是我的一個認識的人，不算是親近的朋友，只有在聚會場合才會見面。",
+    "chinese_sentence": "她只是我的點頭之交，不算是親近的朋友，只有在聚會場合才會見面。",
     "word_family": "acquaint · acquaintance"
   },
   {
@@ -31387,11 +31662,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **analysis** of the poem impressed the teacher with its depth.",
+        "en": "Her analysis of the poem impressed the teacher with its depth.",
         "target": "analysis"
       },
       {
-        "en": "The report included a detailed **analysis** of the survey results.",
+        "en": "The report included a detailed analysis of the survey results.",
         "target": "analysis"
       }
     ],
@@ -31426,11 +31701,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was **annoyed** when her phone rang in the middle of the exam.",
+        "en": "She was annoyed when her phone rang in the middle of the exam.",
         "target": "annoyed"
       },
       {
-        "en": "The constant interruptions **annoyed** the teacher.",
+        "en": "The constant interruptions annoyed the teacher.",
         "target": "annoyed"
       }
     ],
@@ -31465,11 +31740,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher **assigned** each student a different chapter to present.",
+        "en": "The teacher assigned each student a different chapter to present.",
         "target": "assigned"
       },
       {
-        "en": "She spent three hours completing the writing **assignment**.",
+        "en": "She spent three hours completing the writing assignment.",
         "target": "assignment"
       }
     ],
@@ -31504,11 +31779,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Over 500 **applicants** competed for just ten spots in the program.",
+        "en": "Over 500 applicants competed for just ten spots in the program.",
         "target": "applicants"
       },
       {
-        "en": "She was selected from among hundreds of **applicants**.",
+        "en": "She was selected from among hundreds of applicants.",
         "target": "applicants"
       }
     ],
@@ -31543,11 +31818,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please **attach** your resume and cover letter to the email.",
+        "en": "Please attach your resume and cover letter to the email.",
         "target": "attach"
       },
       {
-        "en": "She has a strong **attachment** to her childhood home.",
+        "en": "She has a strong attachment to her childhood home.",
         "target": "attachment"
       }
     ],
@@ -31582,11 +31857,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is an **authority on** ancient Chinese literature.",
+        "en": "She is an authority on ancient Chinese literature.",
         "target": "authority on"
       },
       {
-        "en": "The **authorities** launched an investigation into the incident.",
+        "en": "The authorities launched an investigation into the incident.",
         "target": "authorities"
       }
     ],
@@ -31621,11 +31896,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **blinked** rapidly when the dust got into her eyes.",
+        "en": "She blinked rapidly when the dust got into her eyes.",
         "target": "blinked"
       },
       {
-        "en": "**In the blink of an eye**, the opportunity was gone.",
+        "en": "In the blink of an eye, the opportunity was gone.",
         "target": "In the blink of an eye"
       }
     ],
@@ -31660,11 +31935,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **blade** of the knife was sharp enough to slice through the tomato.",
+        "en": "The blade of the knife was sharp enough to slice through the tomato.",
         "target": "blade"
       },
       {
-        "en": "A single **blade** of grass fell across the path.",
+        "en": "A single blade of grass fell across the path.",
         "target": "blade"
       }
     ],
@@ -31699,11 +31974,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She used a **broom** to sweep the fallen leaves off the porch.",
+        "en": "She used a broom to sweep the fallen leaves off the porch.",
         "target": "broom"
       },
       {
-        "en": "The janitor kept several **brooms** and mops in the storage closet.",
+        "en": "The janitor kept several brooms and mops in the storage closet.",
         "target": "brooms"
       }
     ],
@@ -31737,11 +32012,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Some people are **carriers** of a virus but show no symptoms themselves.",
+        "en": "Some people are carriers of a virus but show no symptoms themselves.",
         "target": "carriers"
       },
       {
-        "en": "The goods were transported by a major freight **carrier**.",
+        "en": "The goods were transported by a major freight carrier.",
         "target": "carrier"
       }
     ],
@@ -31776,11 +32051,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The senator waited in the **chamber** before the vote began.",
+        "en": "The senator waited in the chamber before the vote began.",
         "target": "chamber"
       },
       {
-        "en": "She plays viola in a **chamber** music ensemble.",
+        "en": "She plays viola in a chamber music ensemble.",
         "target": "chamber"
       }
     ],
@@ -31815,11 +32090,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Scientists **classify** living things into kingdoms, phyla, and other groups.",
+        "en": "Scientists classify living things into kingdoms, phyla, and other groups.",
         "target": "classify"
       },
       {
-        "en": "The document was **classified** as top secret and restricted from public access.",
+        "en": "The document was classified as top secret and restricted from public access.",
         "target": "classified"
       }
     ],
@@ -31854,11 +32129,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Dentists recommend that you **chew** each bite of food thoroughly.",
+        "en": "Dentists recommend that you chew each bite of food thoroughly.",
         "target": "chew"
       },
       {
-        "en": "She spent the weekend **chewing over** the difficult decision she had to make.",
+        "en": "She spent the weekend chewing over the difficult decision she had to make.",
         "target": "chewing over"
       }
     ],
@@ -31893,11 +32168,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The scholarship program is highly **competitive** — only 5% of applicants succeed.",
+        "en": "The scholarship program is highly competitive — only 5% of applicants succeed.",
         "target": "competitive"
       },
       {
-        "en": "She has a **competitive** personality and always pushes herself to win.",
+        "en": "She has a competitive personality and always pushes herself to win.",
         "target": "competitive"
       }
     ],
@@ -31932,11 +32207,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **composed** a beautiful piece of music for her graduation recital.",
+        "en": "She composed a beautiful piece of music for her graduation recital.",
         "target": "composed"
       },
       {
-        "en": "The committee is **composed of** ten elected members.",
+        "en": "The committee is composed of ten elected members.",
         "target": "composed of"
       }
     ],
@@ -31971,11 +32246,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school hired an education **consultant** to review the curriculum.",
+        "en": "The school hired an education consultant to review the curriculum.",
         "target": "consultant"
       },
       {
-        "en": "She works as a **management consultant** helping businesses improve efficiency.",
+        "en": "She works as a management consultant helping businesses improve efficiency.",
         "target": "management consultant"
       }
     ],
@@ -32010,12 +32285,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She could not lie to her friend with a clear **conscience**.",
+        "en": "She could not lie to her friend with a clear conscience.",
         "target": "conscience"
       },
       {
-        "en": "His **guilty conscience** kept him awake at night.",
-        "target": "conscience"
+        "en": "His guilty conscience kept him awake at night.",
+        "target": "guilty conscience"
       }
     ],
     "synonyms": [
@@ -32049,11 +32324,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **conductor** raised his baton and the orchestra began to play.",
+        "en": "The conductor raised his baton and the orchestra began to play.",
         "target": "conductor"
       },
       {
-        "en": "Copper is an excellent **conductor** of electricity.",
+        "en": "Copper is an excellent conductor of electricity.",
         "target": "conductor"
       }
     ],
@@ -32088,11 +32363,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **contribution** to the school debate team was invaluable.",
+        "en": "Her contribution to the school debate team was invaluable.",
         "target": "contribution"
       },
       {
-        "en": "Small **contributions** from many people can lead to big change.",
+        "en": "Small contributions from many people can lead to big change.",
         "target": "contributions"
       }
     ],
@@ -32127,11 +32402,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her warm smile **conveyed** genuine welcome to the new students.",
+        "en": "Her warm smile conveyed genuine welcome to the new students.",
         "target": "conveyed"
       },
       {
-        "en": "It's sometimes hard to **convey** complex emotions in writing.",
+        "en": "It's sometimes hard to convey complex emotions in writing.",
         "target": "convey"
       }
     ],
@@ -32166,11 +32441,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**Copper** is widely used in electrical wiring because of its conductivity.",
+        "en": "Copper is widely used in electrical wiring because of its conductivity.",
         "target": "Copper"
       },
       {
-        "en": "The old church had a **copper** roof that had turned green over the years.",
+        "en": "The old church had a copper roof that had turned green over the years.",
         "target": "copper"
       }
     ],
@@ -32204,11 +32479,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The road had a sharp **curve** that caught many drivers off guard.",
+        "en": "The road had a sharp curve that caught many drivers off guard.",
         "target": "curve"
       },
       {
-        "en": "The **learning curve** for programming can be steep at first.",
+        "en": "The learning curve for programming can be steep at first.",
         "target": "learning curve"
       }
     ],
@@ -32243,11 +32518,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The fox is often portrayed as a **cunning** animal in folklore.",
+        "en": "The fox is often portrayed as a cunning animal in folklore.",
         "target": "cunning"
       },
       {
-        "en": "She devised a **cunning** plan to finish the project before the deadline.",
+        "en": "She devised a cunning plan to finish the project before the deadline.",
         "target": "cunning"
       }
     ],
@@ -32282,11 +32557,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The team **devised** a creative solution to the problem.",
+        "en": "The team devised a creative solution to the problem.",
         "target": "devised"
       },
       {
-        "en": "She **devised** a study schedule that balanced work and rest effectively.",
+        "en": "She devised a study schedule that balanced work and rest effectively.",
         "target": "devised"
       }
     ],
@@ -32321,11 +32596,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was **desperate** for a passing grade and studied through the night.",
+        "en": "She was desperate for a passing grade and studied through the night.",
         "target": "desperate"
       },
       {
-        "en": "In a **desperate** attempt to finish on time, he skipped his lunch break.",
+        "en": "In a desperate attempt to finish on time, he skipped his lunch break.",
         "target": "desperate"
       }
     ],
@@ -32360,11 +32635,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is still financially **dependent on** her parents while studying abroad.",
+        "en": "She is still financially dependent on her parents while studying abroad.",
         "target": "dependent on"
       },
       {
-        "en": "Success is **dependent on** consistent effort over time.",
+        "en": "Success is dependent on consistent effort over time.",
         "target": "dependent on"
       }
     ],
@@ -32399,11 +32674,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school has a **diverse** student body from over 20 different countries.",
+        "en": "The school has a diverse student body from over 20 different countries.",
         "target": "diverse"
       },
       {
-        "en": "Her reading list was **diverse**, covering history, science, and literature.",
+        "en": "Her reading list was diverse, covering history, science, and literature.",
         "target": "diverse"
       }
     ],
@@ -32438,11 +32713,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The classroom was left in complete **disorder** after the fire drill.",
+        "en": "The classroom was left in complete disorder after the fire drill.",
         "target": "disorder"
       },
       {
-        "en": "She was diagnosed with an anxiety **disorder** and began therapy.",
+        "en": "She was diagnosed with an anxiety disorder and began therapy.",
         "target": "disorder"
       }
     ],
@@ -32477,11 +32752,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Can you **distinguish between** the two similar vocabulary words?",
+        "en": "Can you distinguish between the two similar vocabulary words?",
         "target": "distinguish between"
       },
       {
-        "en": "She **distinguished** herself through her outstanding research.",
+        "en": "She distinguished herself through her outstanding research.",
         "target": "distinguished"
       }
     ],
@@ -32516,11 +32791,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **economist** predicted a slowdown in growth next year.",
+        "en": "The economist predicted a slowdown in growth next year.",
         "target": "economist"
       },
       {
-        "en": "Several **economists** debated the cause of the recent inflation.",
+        "en": "Several economists debated the cause of the recent inflation.",
         "target": "economists"
       }
     ],
@@ -32554,11 +32829,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school held a fire **drill** to practice emergency evacuation.",
-        "target": "fire"
+        "en": "The school held a fire drill to practice emergency evacuation.",
+        "target": "fire drill"
       },
       {
-        "en": "She used an electric **drill** to hang the picture frame on the wall.",
+        "en": "She used an electric drill to hang the picture frame on the wall.",
         "target": "drill"
       }
     ],
@@ -32593,11 +32868,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school gym is **equipped with** modern sports **equipment**.",
+        "en": "The school gym is equipped with modern sports equipment.",
         "target": "equipped with"
       },
       {
-        "en": "Students should be **equipped with** critical thinking skills.",
+        "en": "Students should be equipped with critical thinking skills.",
         "target": "equipped with"
       }
     ],
@@ -32632,11 +32907,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She felt **enormous** pressure to succeed in the national exam.",
+        "en": "She felt enormous pressure to succeed in the national exam.",
         "target": "enormous"
       },
       {
-        "en": "The new shopping center is **enormous** — it covers an area of 50,000 square meters.",
+        "en": "The new shopping center is enormous — it covers an area of 50,000 square meters.",
         "target": "enormous"
       }
     ],
@@ -32671,11 +32946,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Taiwan is home to many **ethnic** groups, including indigenous peoples.",
+        "en": "Taiwan is home to many ethnic groups, including indigenous peoples.",
         "target": "ethnic"
       },
       {
-        "en": "The festival celebrates the **ethnic** diversity of the local community.",
+        "en": "The festival celebrates the ethnic diversity of the local community.",
         "target": "ethnic"
       }
     ],
@@ -32685,7 +32960,7 @@ const LEVEL_4_DATA = [
       "tribal"
     ],
     "grammar_note": "ethnicity (n.); ethnic (adj.); ethnically (adv.); ethnic group = 族群",
-    "chinese_sentence": "台灣擁有多個不同的族群，包括各個原住民族和不同省份的漢族移民。",
+    "chinese_sentence": "台灣是多元族群的社會，包括原住民族、閩南人、客家人以及新住民。",
     "word_family": "ethnic · ethnically · ethnicity"
   },
   {
@@ -32710,11 +32985,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The court needed more **evidence** before reaching a verdict.",
+        "en": "The court needed more evidence before reaching a verdict.",
         "target": "evidence"
       },
       {
-        "en": "There is strong **evidence** that regular exercise improves mental health.",
+        "en": "There is strong evidence that regular exercise improves mental health.",
         "target": "evidence"
       }
     ],
@@ -32749,11 +33024,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The university's **facilities** include a gym, library, and swimming pool.",
+        "en": "The university's facilities include a gym, library, and swimming pool.",
         "target": "facilities"
       },
       {
-        "en": "She has a great **facility** for learning languages.",
+        "en": "She has a great facility for learning languages.",
         "target": "facility"
       }
     ],
@@ -32788,11 +33063,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "They sat by the **fireplace** drinking hot cocoa on the cold winter night.",
+        "en": "They sat by the fireplace drinking hot cocoa on the cold winter night.",
         "target": "fireplace"
       },
       {
-        "en": "The old cottage had a large stone **fireplace** in the living room.",
+        "en": "The old cottage had a large stone fireplace in the living room.",
         "target": "fireplace"
       }
     ],
@@ -32826,11 +33101,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please **fasten** your seatbelt before the plane takes off.",
+        "en": "Please fasten your seatbelt before the plane takes off.",
         "target": "fasten"
       },
       {
-        "en": "She **fastened** the buttons of her coat before stepping out into the cold.",
+        "en": "She fastened the buttons of her coat before stepping out into the cold.",
         "target": "fastened"
       }
     ],
@@ -32865,11 +33140,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She memorized the **formula** for calculating the area of a circle.",
+        "en": "She memorized the formula for calculating the area of a circle.",
         "target": "formula"
       },
       {
-        "en": "The secret **formula** for the sauce has been passed down for generations.",
+        "en": "The secret formula for the sauce has been passed down for generations.",
         "target": "formula"
       }
     ],
@@ -32904,11 +33179,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **frowned** when she noticed the error in her essay.",
+        "en": "She frowned when she noticed the error in her essay.",
         "target": "frowned"
       },
       {
-        "en": "Talking during class is **frowned upon** by most teachers.",
+        "en": "Talking during class is frowned upon by most teachers.",
         "target": "frowned upon"
       }
     ],
@@ -32943,11 +33218,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Scientists have identified the **gene** responsible for the disease.",
+        "en": "Scientists have identified the gene responsible for the disease.",
         "target": "gene"
       },
       {
-        "en": "**Gene** therapy offers new hope for patients with inherited conditions.",
+        "en": "Gene therapy offers new hope for patients with inherited conditions.",
         "target": "Gene"
       }
     ],
@@ -32981,11 +33256,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Einstein is widely regarded as a scientific **genius** of the 20th century.",
+        "en": "Einstein is widely regarded as a scientific genius of the 20th century.",
         "target": "genius"
       },
       {
-        "en": "Her idea was a true stroke of **genius** that no one else had thought of.",
+        "en": "Her idea was a true stroke of genius that no one else had thought of.",
         "target": "genius"
       }
     ],
@@ -32997,45 +33272,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "genius (n.); plural: geniuses; a genius = 一個天才; a stroke of genius = 靈光一現的天才之舉",
     "chinese_sentence": "她那個靈光一閃的想法是真正的天才之舉，沒有人事先想到過這個解法。",
     "word_family": "genius"
-  },
-  {
-    "word": "grief",
-    "pos": "n.",
-    "chapter": "Body and Health",
-    "kk": "/ɡrˈif/",
-    "chinese": "悲傷；悲痛；悲歎",
-    "collocations": [
-      {
-        "en": "deep grief",
-        "zh": "深切的悲痛"
-      },
-      {
-        "en": "grief over loss",
-        "zh": "因失去而悲痛"
-      },
-      {
-        "en": "come to grief",
-        "zh": "遭遇不幸"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She was overcome with **grief** when she heard about her teacher's passing.",
-        "target": "grief"
-      },
-      {
-        "en": "Good **grief**! I can't believe I forgot the exam date.",
-        "target": "grief"
-      }
-    ],
-    "synonyms": [
-      "sorrow",
-      "anguish",
-      "sadness"
-    ],
-    "grammar_note": "grieve (v.); grief (n.); grieving (adj.) = 哀痛中的; come to grief = 遭遇失敗/不幸",
-    "chinese_sentence": "當她得知恩師去世的消息時，悲傷的情緒讓她無法抑制眼淚。",
-    "word_family": "grief · grieve · grieving"
   },
   {
     "word": "guardian",
@@ -33059,11 +33295,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her aunt became her **legal guardian** after her parents passed away.",
+        "en": "Her aunt became her legal guardian after her parents passed away.",
         "target": "legal guardian"
       },
       {
-        "en": "She thinks of her best friend as her **guardian** angel.",
+        "en": "She thinks of her best friend as her guardian angel.",
         "target": "guardian"
       }
     ],
@@ -33075,45 +33311,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "guard (v./n.); guardian (n.); guardianship (n.) = 監護權",
     "chinese_sentence": "父母過世後，她的姑姑成為她的法定監護人，含辛茹苦地撫養她長大。",
     "word_family": "guard · guardian · guardianship"
-  },
-  {
-    "word": "hardware",
-    "pos": "n.",
-    "chapter": "Body and Health",
-    "kk": "/hˈɑrdwˌɛr/",
-    "chinese": "硬體；五金；設備",
-    "collocations": [
-      {
-        "en": "computer hardware",
-        "zh": "電腦硬體"
-      },
-      {
-        "en": "hardware store",
-        "zh": "五金行"
-      },
-      {
-        "en": "hardware and software",
-        "zh": "硬體和軟體"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The school upgraded its computer **hardware** to improve performance.",
-        "target": "hardware"
-      },
-      {
-        "en": "He bought the tools from a **hardware** store near his house.",
-        "target": "hardware"
-      }
-    ],
-    "synonyms": [
-      "equipment",
-      "tools",
-      "devices"
-    ],
-    "grammar_note": "hardware (n.) ↔ software; hardware store = 五金行; uncountable noun",
-    "chinese_sentence": "學校更新了電腦硬體設備，大幅提升了網路速度和電腦運算效能。",
-    "word_family": ""
   },
   {
     "word": "herd",
@@ -33137,11 +33334,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "A **herd** of wild elephants crossed the river in the early morning.",
+        "en": "A herd of wild elephants crossed the river in the early morning.",
         "target": "herd"
       },
       {
-        "en": "She resists **herd mentality** and always forms her own opinions.",
+        "en": "She resists herd mentality and always forms her own opinions.",
         "target": "herd mentality"
       }
     ],
@@ -33176,11 +33373,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She went through the **immigration** checkpoint at the airport.",
+        "en": "She went through the immigration checkpoint at the airport.",
         "target": "immigration"
       },
       {
-        "en": "The country's **immigration** policy has been the subject of much debate.",
+        "en": "The country's immigration policy has been the subject of much debate.",
         "target": "immigration"
       }
     ],
@@ -33214,11 +33411,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She made an excellent **impression** at the job interview.",
+        "en": "She made an excellent impression at the job interview.",
         "target": "impression"
       },
       {
-        "en": "First **impressions** are important — they can be hard to change later.",
+        "en": "First impressions are important — they can be hard to change later.",
         "target": "impressions"
       }
     ],
@@ -33236,7 +33433,7 @@ const LEVEL_4_DATA = [
     "pos": "adj.",
     "chapter": "Body and Health",
     "kk": "/ɪmˈædʒənˌɛri/",
-    "chinese": "虛構的；想象中的；假想的",
+    "chinese": "虛構的；想像中的；假想的",
     "collocations": [
       {
         "en": "imaginary friend",
@@ -33253,11 +33450,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "As a child, she had an **imaginary** friend she talked to every night.",
+        "en": "As a child, she had an imaginary friend she talked to every night.",
         "target": "imaginary"
       },
       {
-        "en": "The story is set in a rich **imaginary** world full of magic and adventure.",
+        "en": "The story is set in a rich imaginary world full of magic and adventure.",
         "target": "imaginary"
       }
     ],
@@ -33292,11 +33489,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her performance on the mock exam was a good **indication** of readiness.",
+        "en": "Her performance on the mock exam was a good indication of readiness.",
         "target": "indication"
       },
       {
-        "en": "There is no **indication** that the situation will improve soon.",
+        "en": "There is no indication that the situation will improve soon.",
         "target": "indication"
       }
     ],
@@ -33331,11 +33528,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **intensity** of the training increased as the competition approached.",
+        "en": "The intensity of the training increased as the competition approached.",
         "target": "intensity"
       },
       {
-        "en": "She felt the **intensity** of her emotions when she heard the results.",
+        "en": "She felt the intensity of her emotions when she heard the results.",
         "target": "intensity"
       }
     ],
@@ -33370,11 +33567,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She became one of the most **influential** educators in the country.",
+        "en": "She became one of the most influential educators in the country.",
         "target": "influential"
       },
       {
-        "en": "Reading **influential** books can shape the way you see the world.",
+        "en": "Reading influential books can shape the way you see the world.",
         "target": "influential"
       }
     ],
@@ -33409,11 +33606,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She studied for three hours **without interruption** and finished the chapter.",
+        "en": "She studied for three hours without interruption and finished the chapter.",
         "target": "without interruption"
       },
       {
-        "en": "Frequent **interruptions** made it hard to follow the lecture.",
+        "en": "Frequent interruptions made it hard to follow the lecture.",
         "target": "interruptions"
       }
     ],
@@ -33425,45 +33622,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "interrupt (v.); interruption (n.); interruptive (adj.) = 打擾性的",
     "chinese_sentence": "她連續不中斷地讀了三個小時，終於在深夜完成了那個章節的複習。",
     "word_family": "interrupt · interruption · interruptive"
-  },
-  {
-    "word": "invention",
-    "pos": "n.",
-    "chapter": "Body and Health",
-    "kk": "/ɪnvˈɛnʃən/",
-    "chinese": "發明；發明物；捏造",
-    "collocations": [
-      {
-        "en": "brilliant invention",
-        "zh": "卓越的發明"
-      },
-      {
-        "en": "the invention of",
-        "zh": "…的發明"
-      },
-      {
-        "en": "invention of the wheel",
-        "zh": "車輪的發明"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **invention** of the printing press transformed the spread of knowledge.",
-        "target": "invention"
-      },
-      {
-        "en": "She believes that storytelling is humanity's greatest **invention**.",
-        "target": "invention"
-      }
-    ],
-    "synonyms": [
-      "creation",
-      "innovation",
-      "discovery"
-    ],
-    "grammar_note": "invent (v.); inventor (n.); invention (n.); inventive (adj.) = 有創意的",
-    "chinese_sentence": "印刷術的發明徹底改變了知識傳播的方式，推動了文藝復興和啟蒙運動。",
-    "word_family": "invent · invention · inventive · inventor"
   },
   {
     "word": "knob",
@@ -33487,11 +33645,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She turned the **knob** on the radio to find a station.",
+        "en": "She turned the knob on the radio to find a station.",
         "target": "knob"
       },
       {
-        "en": "The old door **knob** was loose and needed to be replaced.",
+        "en": "The old door knob was loose and needed to be replaced.",
         "target": "knob"
       }
     ],
@@ -33503,45 +33661,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "knob (n.); doorknob = 門把; knob of butter = 一小塊奶油",
     "chinese_sentence": "她轉動收音機上的旋鈕，尋找一個播放好音樂的電台。",
     "word_family": ""
-  },
-  {
-    "word": "landscape",
-    "pos": "n./v.",
-    "chapter": "Body and Health",
-    "kk": "/lˈændskˌeɪp/",
-    "chinese": "風景；地形；景觀設計",
-    "collocations": [
-      {
-        "en": "mountain landscape",
-        "zh": "山地景觀"
-      },
-      {
-        "en": "urban landscape",
-        "zh": "城市景觀"
-      },
-      {
-        "en": "landscape painting",
-        "zh": "風景畫"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **landscape** of the eastern coast of Taiwan is stunningly beautiful.",
-        "target": "landscape"
-      },
-      {
-        "en": "She studied **landscape** architecture to design public spaces.",
-        "target": "landscape"
-      }
-    ],
-    "synonyms": [
-      "scenery",
-      "terrain",
-      "vista"
-    ],
-    "grammar_note": "landscape (n./v.); landscape architecture = 景觀建築學; seascape = 海景",
-    "chinese_sentence": "台灣東海岸的自然景觀令人嘆為觀止，吸引了大批攝影師和旅遊愛好者。",
-    "word_family": "landscape · portrait · portray · portrayal"
   },
   {
     "word": "loan",
@@ -33565,12 +33684,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She took out a **student loan** to pay her university tuition fees.",
+        "en": "She took out a student loan to pay her university tuition fees.",
         "target": "student loan"
       },
       {
-        "en": "He lent her his notes as a **loan** until she could copy them.",
-        "target": "loan"
+        "en": "The museum has the painting on loan from a private collector until next spring.",
+        "target": "on loan"
       }
     ],
     "synonyms": [
@@ -33604,11 +33723,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She applied a bright red **lipstick** before heading to the graduation ceremony.",
+        "en": "She applied a bright red lipstick before heading to the graduation ceremony.",
         "target": "lipstick"
       },
       {
-        "en": "**Lipstick** has been used as a cosmetic for thousands of years.",
+        "en": "Lipstick has been used as a cosmetic for thousands of years.",
         "target": "Lipstick"
       }
     ],
@@ -33642,11 +33761,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The train was delayed due to a **mechanical** failure on the track.",
+        "en": "The train was delayed due to a mechanical failure on the track.",
         "target": "mechanical"
       },
       {
-        "en": "Her response seemed **mechanical** — she recited facts without any expression.",
+        "en": "Her response seemed mechanical — she recited facts without any expression.",
         "target": "mechanical"
       }
     ],
@@ -33681,11 +33800,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She completed her first **marathon** in just under four hours.",
+        "en": "She completed her first marathon in just under four hours.",
         "target": "marathon"
       },
       {
-        "en": "The negotiations turned into a **marathon** session lasting twelve hours.",
+        "en": "The negotiations turned into a marathon session lasting twelve hours.",
         "target": "marathon"
       }
     ],
@@ -33719,11 +33838,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The children were full of **mischief** during the unsupervised recess.",
+        "en": "The children were full of mischief during the unsupervised recess.",
         "target": "mischief"
       },
       {
-        "en": "Her eyes sparkled with **mischief** as she planned the surprise.",
+        "en": "Her eyes sparkled with mischief as she planned the surprise.",
         "target": "mischief"
       }
     ],
@@ -33758,11 +33877,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He became a **millionaire** by starting his own technology company.",
+        "en": "He became a millionaire by starting his own technology company.",
         "target": "millionaire"
       },
       {
-        "en": "She is a self-made **millionaire** who built her business from nothing.",
+        "en": "She is a self-made millionaire who built her business from nothing.",
         "target": "millionaire"
       }
     ],
@@ -33797,11 +33916,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **motivation** to study came from her desire to help others.",
+        "en": "Her motivation to study came from her desire to help others.",
         "target": "motivation"
       },
       {
-        "en": "Lack of **motivation** is one of the main reasons students underperform.",
+        "en": "Lack of motivation is one of the main reasons students underperform.",
         "target": "motivation"
       }
     ],
@@ -33836,11 +33955,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He is as **stubborn as a mule** and refuses to change his opinion.",
+        "en": "He is as stubborn as a mule and refuses to change his opinion.",
         "target": "stubborn as a mule"
       },
       {
-        "en": "In mountainous regions, **mules** are still used to carry heavy loads.",
+        "en": "In mountainous regions, mules are still used to carry heavy loads.",
         "target": "mules"
       }
     ],
@@ -33874,11 +33993,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher said the excuse was complete **nonsense** and gave a warning.",
+        "en": "The teacher said the excuse was complete nonsense and gave a warning.",
         "target": "nonsense"
       },
       {
-        "en": "Stop talking **nonsense** and focus on your studies.",
+        "en": "Stop talking nonsense and focus on your studies.",
         "target": "nonsense"
       }
     ],
@@ -33913,11 +34032,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**Nowadays**, most students rely on smartphones for daily communication.",
+        "en": "Nowadays, most students rely on smartphones for daily communication.",
         "target": "Nowadays"
       },
       {
-        "en": "**Nowadays**, it is unusual to write letters by hand.",
+        "en": "Nowadays, it is unusual to write letters by hand.",
         "target": "Nowadays"
       }
     ],
@@ -33952,11 +34071,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The satellite was launched into **orbit** around the Earth.",
+        "en": "The satellite was launched into orbit around the Earth.",
         "target": "orbit"
       },
       {
-        "en": "The Moon **orbits** the Earth approximately every 27 days.",
+        "en": "The Moon orbits the Earth approximately every 27 days.",
         "target": "orbits"
       }
     ],
@@ -33991,11 +34110,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school installed **solar panels** on its roof to reduce energy costs.",
+        "en": "The school installed solar panels on its roof to reduce energy costs.",
         "target": "solar panels"
       },
       {
-        "en": "An **expert panel** was assembled to review the education policy.",
+        "en": "An expert panel was assembled to review the education policy.",
         "target": "expert panel"
       }
     ],
@@ -34030,11 +34149,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The dog hurt its **paw** while running on the rocky path.",
+        "en": "The dog hurt its paw while running on the rocky path.",
         "target": "paw"
       },
       {
-        "en": "The cat **pawed** at the door, wanting to be let inside.",
+        "en": "The cat pawed at the door, wanting to be let inside.",
         "target": "pawed"
       }
     ],
@@ -34069,11 +34188,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The team scored from a **penalty** kick in the last minute of the game.",
+        "en": "The team scored from a penalty kick in the last minute of the game.",
         "target": "penalty"
       },
       {
-        "en": "There is a **penalty** for late submission of assignments.",
+        "en": "There is a penalty for late submission of assignments.",
         "target": "penalty"
       }
     ],
@@ -34085,45 +34204,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "penalize (v.); penalty (n.); penalty for sth. = 因某事而受到的懲罰",
     "chinese_sentence": "作業遲交將會受到扣分懲罰，請同學務必在截止日期前準時繳交。",
     "word_family": "penalize · penalty"
-  },
-  {
-    "word": "philosophy",
-    "pos": "n.",
-    "chapter": "Body and Health",
-    "kk": "/fəlˈɑsəfi/",
-    "chinese": "哲學；人生哲學；思想體系",
-    "collocations": [
-      {
-        "en": "philosophy of life",
-        "zh": "人生哲學"
-      },
-      {
-        "en": "study philosophy",
-        "zh": "學習哲學"
-      },
-      {
-        "en": "educational philosophy",
-        "zh": "教育哲學"
-      }
-    ],
-    "examples": [
-      {
-        "en": "Her **philosophy** in life is to always treat others with kindness.",
-        "target": "philosophy"
-      },
-      {
-        "en": "He studied **philosophy** at university and became a high school teacher.",
-        "target": "philosophy"
-      }
-    ],
-    "synonyms": [
-      "worldview",
-      "outlook",
-      "ideology"
-    ],
-    "grammar_note": "philosopher (n.); philosophical (adj.); philosophy (n.); one's philosophy = 某人的人生觀",
-    "chinese_sentence": "她的人生哲學是以善意對待每一個人，無論對方如何對待她。",
-    "word_family": "philosopher · philosophical · philosophically · philosophy"
   },
   {
     "word": "plot",
@@ -34147,11 +34227,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **plot** of the novel was so gripping that she couldn't put the book down.",
+        "en": "The plot of the novel was so gripping that she couldn't put the book down.",
         "target": "plot"
       },
       {
-        "en": "They **plotted** a route through the mountains for their hiking trip.",
+        "en": "They plotted a route through the mountains for their hiking trip.",
         "target": "plotted"
       }
     ],
@@ -34186,11 +34266,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **possesses** a rare combination of intelligence and creativity.",
+        "en": "She possesses a rare combination of intelligence and creativity.",
         "target": "possesses"
       },
       {
-        "en": "Police found that he had illegally **possessed** a firearm.",
+        "en": "Police found that he had illegally possessed a firearm.",
         "target": "possessed"
       }
     ],
@@ -34225,11 +34305,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She practiced her **presentation** ten times before the class.",
+        "en": "She practiced her presentation ten times before the class.",
         "target": "presentation"
       },
       {
-        "en": "His **presentation** skills improved greatly after joining the speech club.",
+        "en": "His presentation skills improved greatly after joining the speech club.",
         "target": "presentation"
       }
     ],
@@ -34264,11 +34344,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She always dresses in a **professional** manner for job interviews.",
+        "en": "She always dresses in a professional manner for job interviews.",
         "target": "professional"
       },
       {
-        "en": "Seeking **professional** advice before making major financial decisions is wise.",
+        "en": "Seeking professional advice before making major financial decisions is wise.",
         "target": "professional"
       }
     ],
@@ -34303,11 +34383,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She received a **promotion** after exceeding her targets for three consecutive years.",
+        "en": "She received a promotion after exceeding her targets for three consecutive years.",
         "target": "promotion"
       },
       {
-        "en": "The store is running a **promotion** this weekend — buy two, get one free.",
+        "en": "The store is running a promotion this weekend — buy two, get one free.",
         "target": "promotion"
       }
     ],
@@ -34342,11 +34422,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her grandmother made a beautiful **patchwork quilt** for her birthday.",
+        "en": "Her grandmother made a beautiful patchwork quilt for her birthday.",
         "target": "patchwork quilt"
       },
       {
-        "en": "She wrapped herself in a warm **quilt** while reading during the winter night.",
+        "en": "She wrapped herself in a warm quilt while reading during the winter night.",
         "target": "quilt"
       }
     ],
@@ -34381,11 +34461,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He **flew into a rage** when he found out the truth about the cheating.",
+        "en": "He flew into a rage when he found out the truth about the cheating.",
         "target": "flew into a rage"
       },
       {
-        "en": "**Road rage** is a dangerous behavior that leads to traffic accidents.",
+        "en": "Road rage is a dangerous behavior that leads to traffic accidents.",
         "target": "Road rage"
       }
     ],
@@ -34420,11 +34500,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The organization provides food and shelter for **refugees** from war zones.",
+        "en": "The organization provides food and shelter for refugees from war zones.",
         "target": "refugees"
       },
       {
-        "en": "She works as a volunteer translator helping **refugees** navigate the legal system.",
+        "en": "She works as a volunteer translator helping refugees navigate the legal system.",
         "target": "refugees"
       }
     ],
@@ -34459,11 +34539,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She submitted her **resignation** letter to the principal after the semester ended.",
+        "en": "She submitted her resignation letter to the principal after the semester ended.",
         "target": "resignation"
       },
       {
-        "en": "He accepted his failure with **resignation** and started planning next steps.",
+        "en": "He accepted his failure with resignation and started planning next steps.",
         "target": "resignation"
       }
     ],
@@ -34498,11 +34578,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Learning vocabulary requires **repetition** — you must review words multiple times.",
+        "en": "Learning vocabulary requires repetition — you must review words multiple times.",
         "target": "repetition"
       },
       {
-        "en": "The speech was weakened by too much **repetition** of the same ideas.",
+        "en": "The speech was weakened by too much repetition of the same ideas.",
         "target": "repetition"
       }
     ],
@@ -34537,11 +34617,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **researcher** spent five years studying the effects of sleep on memory.",
+        "en": "The researcher spent five years studying the effects of sleep on memory.",
         "target": "researcher"
       },
       {
-        "en": "She aspires to become a **researcher** in the field of educational psychology.",
+        "en": "She aspires to become a researcher in the field of educational psychology.",
         "target": "researcher"
       }
     ],
@@ -34576,11 +34656,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She spent the weekend **revising** her essay before submitting it.",
+        "en": "She spent the weekend revising her essay before submitting it.",
         "target": "revising"
       },
       {
-        "en": "He **revised** his opinion after hearing new evidence.",
+        "en": "He revised his opinion after hearing new evidence.",
         "target": "revised"
       }
     ],
@@ -34615,11 +34695,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She has a natural **rhythm** when she plays the drums.",
+        "en": "She has a natural rhythm when she plays the drums.",
         "target": "rhythm"
       },
       {
-        "en": "Exercise helps establish a healthy daily **rhythm** for sleep and waking.",
+        "en": "Exercise helps establish a healthy daily rhythm for sleep and waking.",
         "target": "rhythm"
       }
     ],
@@ -34631,45 +34711,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "rhythmic (adj.); rhythmically (adv.); rhythm (n.); rhythm and blues = 節奏藍調",
     "chinese_sentence": "規律的運動有助於建立健康的睡眠節律，讓人每天都精神飽滿。",
     "word_family": "rhythm · rhythmic · rhythmically"
-  },
-  {
-    "word": "satisfaction",
-    "pos": "n.",
-    "chapter": "Body and Health",
-    "kk": "/sˌætəsfˈækʃən/",
-    "chinese": "滿足感；滿意；滿足",
-    "collocations": [
-      {
-        "en": "customer satisfaction",
-        "zh": "顧客滿意度"
-      },
-      {
-        "en": "job satisfaction",
-        "zh": "工作滿足感"
-      },
-      {
-        "en": "sense of satisfaction",
-        "zh": "成就感"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She felt great **satisfaction** after completing the challenging research project.",
-        "target": "satisfaction"
-      },
-      {
-        "en": "**Job satisfaction** is just as important as salary in choosing a career.",
-        "target": "Job satisfaction"
-      }
-    ],
-    "synonyms": [
-      "fulfillment",
-      "contentment",
-      "pleasure"
-    ],
-    "grammar_note": "satisfy (v.); satisfaction (n.); satisfied (adj.); satisfying (adj.) = 令人滿足的",
-    "chinese_sentence": "完成那個極具挑戰性的研究計畫後，她感受到了前所未有的成就感和滿足感。",
-    "word_family": "satisfaction · satisfactory · satisfied · satisfy · satisfying"
   },
   {
     "word": "sew",
@@ -34693,11 +34734,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **sewed** the torn seam of her dress by hand before the ceremony.",
+        "en": "She sewed the torn seam of her dress by hand before the ceremony.",
         "target": "sewed"
       },
       {
-        "en": "Her mother taught her to **sew** when she was eight years old.",
+        "en": "Her mother taught her to sew when she was eight years old.",
         "target": "sew"
       }
     ],
@@ -34732,11 +34773,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The museum was built on the **site** of an ancient temple.",
+        "en": "The museum was built on the site of an ancient temple.",
         "target": "site"
       },
       {
-        "en": "Workers were busy on the construction **site** from early morning.",
+        "en": "Workers were busy on the construction site from early morning.",
         "target": "site"
       }
     ],
@@ -34771,11 +34812,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He used a **spade** to dig a hole for planting the new tree.",
+        "en": "He used a spade to dig a hole for planting the new tree.",
         "target": "spade"
       },
       {
-        "en": "She always calls a **spade a spade** — no sugarcoating.",
+        "en": "She always calls a spade a spade — no sugarcoating.",
         "target": "spade a spade"
       }
     ],
@@ -34810,11 +34851,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The navy's latest **submarine** can dive to depths of over 400 meters.",
+        "en": "The navy's latest submarine can dive to depths of over 400 meters.",
         "target": "submarine"
       },
       {
-        "en": "She ordered a **submarine** sandwich with turkey and vegetables.",
+        "en": "She ordered a submarine sandwich with turkey and vegetables.",
         "target": "submarine"
       }
     ],
@@ -34848,11 +34889,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **underwent surgery** to repair the ligament in her knee.",
+        "en": "She underwent surgery to repair the ligament in her knee.",
         "target": "underwent surgery"
       },
       {
-        "en": "After the accident, he needed **surgery** to remove bone fragments.",
+        "en": "After the accident, he needed surgery to remove bone fragments.",
         "target": "surgery"
       }
     ],
@@ -34887,11 +34928,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The bamboo trees **swayed** gently in the evening breeze.",
+        "en": "The bamboo trees swayed gently in the evening breeze.",
         "target": "swayed"
       },
       {
-        "en": "She was not **swayed by** popular opinion — she made up her own mind.",
+        "en": "She was not swayed by popular opinion — she made up her own mind.",
         "target": "swayed by"
       }
     ],
@@ -34926,11 +34967,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She used a **telescope** to observe the surface of the Moon.",
+        "en": "She used a telescope to observe the surface of the Moon.",
         "target": "telescope"
       },
       {
-        "en": "The space **telescope** has captured stunning images of distant galaxies.",
+        "en": "The space telescope has captured stunning images of distant galaxies.",
         "target": "telescope"
       }
     ],
@@ -34964,11 +35005,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She organized her study schedule using a detailed **timetable**.",
+        "en": "She organized her study schedule using a detailed timetable.",
         "target": "timetable"
       },
       {
-        "en": "The train **timetable** showed the departure and arrival times for every station.",
+        "en": "The train timetable showed the departure and arrival times for every station.",
         "target": "timetable"
       }
     ],
@@ -35003,11 +35044,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her hands **trembled** as she opened the exam results envelope.",
+        "en": "Her hands trembled as she opened the exam results envelope.",
         "target": "trembled"
       },
       {
-        "en": "His voice **trembled** with emotion when he delivered the graduation speech.",
+        "en": "His voice trembled with emotion when he delivered the graduation speech.",
         "target": "trembled"
       }
     ],
@@ -35042,11 +35083,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The dictionary includes example sentences to illustrate correct word **usage**.",
+        "en": "The dictionary includes example sentences to illustrate correct word usage.",
         "target": "usage"
       },
       {
-        "en": "Reducing energy **usage** helps lower electricity bills and protect the environment.",
+        "en": "Reducing energy usage helps lower electricity bills and protect the environment.",
         "target": "usage"
       }
     ],
@@ -35081,11 +35122,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **vast** majority of students passed the exam with flying colors.",
+        "en": "The vast majority of students passed the exam with flying colors.",
         "target": "vast"
       },
       {
-        "en": "She has a **vast** knowledge of world history and culture.",
+        "en": "She has a vast knowledge of world history and culture.",
         "target": "vast"
       }
     ],
@@ -35120,11 +35161,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "In the fairy tale, the **witch** turned the prince into a frog.",
+        "en": "In the fairy tale, the witch turned the prince into a frog.",
         "target": "witch"
       },
       {
-        "en": "Harry Potter is perhaps the world's most famous fictional **wizard**.",
+        "en": "Harry Potter is perhaps the world's most famous fictional wizard.",
         "target": "wizard"
       }
     ],
@@ -35136,6 +35177,240 @@ const LEVEL_4_DATA = [
     "grammar_note": "witch (n.) = 女巫; wizard (n.) = 男巫/巫師; witchcraft (n.) = 巫術; witch hunt = 政治清算",
     "chinese_sentence": "哈利波特可能是全世界最著名的虛構巫師，影響了一整個世代的讀者。",
     "word_family": ""
+  },
+  {
+    "word": "greasy",
+    "pos": "adj.",
+    "chapter": "Body and Health",
+    "kk": "/ɡrˈisi/",
+    "chinese": "油膩的；滑溜的；諂媚的",
+    "collocations": [
+      {
+        "en": "greasy food",
+        "zh": "油膩的食物"
+      },
+      {
+        "en": "greasy hands",
+        "zh": "沾滿油脂的手"
+      },
+      {
+        "en": "greasy surface",
+        "zh": "油滑的表面"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The mechanic's hands were greasy after fixing the engine.",
+        "target": "greasy"
+      },
+      {
+        "en": "She avoided greasy foods to maintain a healthy diet.",
+        "target": "greasy"
+      }
+    ],
+    "synonyms": [
+      "oily",
+      "slippery",
+      "fatty"
+    ],
+    "grammar_note": "grease (n./v.); greasy (adj.); greasily (adv.); greasy food = 油膩的食物",
+    "chinese_sentence": "她特意避免油膩的食物，以維持健康的飲食習慣和良好的皮膚狀態。",
+    "word_family": "grease · greasily · greasy"
+  },
+  {
+    "word": "regulate",
+    "pos": "v.",
+    "chapter": "Body and Health",
+    "kk": "/rˈɛɡjəlˌeɪt/",
+    "chinese": "規範；調節；管理",
+    "collocations": [
+      {
+        "en": "regulate temperature",
+        "zh": "調節溫度"
+      },
+      {
+        "en": "regulate the market",
+        "zh": "規範市場"
+      },
+      {
+        "en": "be regulated by",
+        "zh": "受…監管"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The government regulates food safety standards to protect consumers.",
+        "target": "regulates"
+      },
+      {
+        "en": "The body's temperature is regulated by the hypothalamus in the brain.",
+        "target": "regulated"
+      }
+    ],
+    "synonyms": [
+      "control",
+      "govern",
+      "adjust"
+    ],
+    "grammar_note": "regulate (v.); regulation (n.); regulatory (adj.); regulator (n.) = 監管機構",
+    "chinese_sentence": "政府嚴格規範食品的生產與銷售，以保護消費者的健康。",
+    "word_family": "regulate · regulation · regulator · regulatory"
+  },
+  {
+    "word": "device",
+    "pos": "n.",
+    "chapter": "Technology and Ideas",
+    "kk": "/dɪvˈaɪs/",
+    "chinese": "設備；裝置；手段",
+    "collocations": [
+      {
+        "en": "electronic device",
+        "zh": "電子設備"
+      },
+      {
+        "en": "mobile device",
+        "zh": "行動裝置"
+      },
+      {
+        "en": "literary device",
+        "zh": "文學手法"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Students are not permitted to use electronic devices during the exam.",
+        "target": "devices"
+      },
+      {
+        "en": "The story used flashbacks as a narrative device to reveal the mystery.",
+        "target": "device"
+      }
+    ],
+    "synonyms": [
+      "gadget",
+      "tool",
+      "instrument"
+    ],
+    "grammar_note": "device (n.) = 設備/手段; devise (v.) = 設計/想出; do not confuse",
+    "chinese_sentence": "考試期間，學生不得攜帶或使用任何電子設備，違者取消考試資格。",
+    "word_family": "device · devise · deviser"
+  },
+  {
+    "word": "abstract",
+    "pos": "adj.",
+    "chapter": "Technology and Ideas",
+    "kk": "/æbstrˈækt/",
+    "chinese": "抽象的；摘要；抽象畫",
+    "collocations": [
+      {
+        "en": "abstract concept",
+        "zh": "抽象概念"
+      },
+      {
+        "en": "abstract art",
+        "zh": "抽象藝術"
+      },
+      {
+        "en": "in the abstract",
+        "zh": "抽象地說"
+      }
+    ],
+    "examples": [
+      {
+        "en": "Freedom is an abstract concept that different people define differently.",
+        "target": "abstract"
+      },
+      {
+        "en": "She wrote an abstract summarizing the key points of her research paper.",
+        "target": "abstract"
+      }
+    ],
+    "synonyms": [
+      "theoretical",
+      "conceptual",
+      "summary"
+    ],
+    "grammar_note": "abstract (adj./n./v.); abstract ↔ concrete; abstract (n.) = 論文摘要",
+    "chinese_sentence": "自由是一個抽象的概念，不同的人對它有著截然不同的定義和詮釋。",
+    "word_family": "abstract · abstraction"
+  },
+  {
+    "word": "hardware",
+    "pos": "n.",
+    "chapter": "Technology and Ideas",
+    "kk": "/hˈɑrdwˌɛr/",
+    "chinese": "硬體；五金；設備",
+    "collocations": [
+      {
+        "en": "computer hardware",
+        "zh": "電腦硬體"
+      },
+      {
+        "en": "hardware store",
+        "zh": "五金行"
+      },
+      {
+        "en": "hardware and software",
+        "zh": "硬體和軟體"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The school upgraded its computer hardware to improve performance.",
+        "target": "hardware"
+      },
+      {
+        "en": "He bought the tools from a hardware store near his house.",
+        "target": "hardware"
+      }
+    ],
+    "synonyms": [
+      "equipment",
+      "tools",
+      "devices"
+    ],
+    "grammar_note": "hardware (n.) ↔ software; hardware store = 五金行; uncountable noun",
+    "chinese_sentence": "學校更新了電腦硬體設備，大幅提升了網路速度和電腦運算效能。",
+    "word_family": ""
+  },
+  {
+    "word": "invention",
+    "pos": "n.",
+    "chapter": "Technology and Ideas",
+    "kk": "/ɪnvˈɛnʃən/",
+    "chinese": "發明；發明物；捏造",
+    "collocations": [
+      {
+        "en": "brilliant invention",
+        "zh": "卓越的發明"
+      },
+      {
+        "en": "the invention of",
+        "zh": "…的發明"
+      },
+      {
+        "en": "invention of the wheel",
+        "zh": "車輪的發明"
+      }
+    ],
+    "examples": [
+      {
+        "en": "The invention of the printing press transformed the spread of knowledge.",
+        "target": "invention"
+      },
+      {
+        "en": "She believes that storytelling is humanity's greatest invention.",
+        "target": "invention"
+      }
+    ],
+    "synonyms": [
+      "creation",
+      "innovation",
+      "discovery"
+    ],
+    "grammar_note": "invent (v.); inventor (n.); invention (n.); inventive (adj.) = 有創意的",
+    "chinese_sentence": "印刷術的發明徹底改變了知識傳播的方式，推動了文藝復興和啟蒙運動。",
+    "word_family": "invent · invention · inventive · inventor"
   },
   {
     "word": "admirable",
@@ -35159,11 +35434,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her dedication to helping others is truly **admirable**.",
+        "en": "Her dedication to helping others is truly admirable.",
         "target": "admirable"
       },
       {
-        "en": "It is **admirable** that he continued to study despite all the difficulties.",
+        "en": "It is admirable that he continued to study despite all the difficulties.",
         "target": "admirable"
       }
     ],
@@ -35198,11 +35473,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She gradually **acquired** a taste for classical music through her music class.",
+        "en": "She gradually acquired a taste for classical music through her music class.",
         "target": "acquired"
       },
       {
-        "en": "Reading widely helps you **acquire** a broader vocabulary.",
+        "en": "Reading widely helps you acquire a broader vocabulary.",
         "target": "acquire"
       }
     ],
@@ -35237,11 +35512,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She booked the tour through a local **travel agency**.",
+        "en": "She booked the tour through a local travel agency.",
         "target": "travel agency"
       },
       {
-        "en": "The government **agency** released a report on air quality standards.",
+        "en": "The government agency released a report on air quality standards.",
         "target": "agency"
       }
     ],
@@ -35276,11 +35551,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school holds an **annual** sports day every October.",
+        "en": "The school holds an annual sports day every October.",
         "target": "annual"
       },
       {
-        "en": "Her **annual** salary increased by 10% after her performance review.",
+        "en": "Her annual salary increased by 10% after her performance review.",
         "target": "annual"
       }
     ],
@@ -35291,44 +35566,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "annually (adv.); annual (adj./n.); annual meeting = 年度會議; per annum = 每年",
     "chinese_sentence": "學校每年十月都舉辦年度運動會，這是師生最期待的活動之一。",
     "word_family": "annual · annually"
-  },
-  {
-    "word": "anywhere/anyplace",
-    "pos": "adv.",
-    "chapter": "Technology and Ideas",
-    "kk": "",
-    "chinese": "任何地方；任何場所",
-    "collocations": [
-      {
-        "en": "anywhere in the world",
-        "zh": "世界任何地方"
-      },
-      {
-        "en": "go anywhere",
-        "zh": "去任何地方"
-      },
-      {
-        "en": "not anywhere",
-        "zh": "沒有任何地方"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She can study **anywhere** — a café, library, or even on the bus.",
-        "target": "anywhere"
-      },
-      {
-        "en": "I haven't seen that book **anywhere** in the house.",
-        "target": "anywhere"
-      }
-    ],
-    "synonyms": [
-      "any location",
-      "wherever"
-    ],
-    "grammar_note": "anywhere (adv./n.); anywhere ≈ anyplace (AmE); not anywhere = nowhere",
-    "chinese_sentence": "她可以在任何地方讀書，無論是咖啡廳、圖書館還是搭公車的途中。",
-    "word_family": ""
   },
   {
     "word": "arise",
@@ -35395,11 +35632,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She has always been **athletic** — she excels at swimming, running, and volleyball.",
+        "en": "She has always been athletic — she excels at swimming, running, and volleyball.",
         "target": "athletic"
       },
       {
-        "en": "His **athletic** build helped him win the wrestling championship.",
+        "en": "His athletic build helped him win the wrestling championship.",
         "target": "athletic"
       }
     ],
@@ -35434,11 +35671,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He was **ashamed of** his behavior and apologized to everyone.",
+        "en": "He was ashamed of his behavior and apologized to everyone.",
         "target": "ashamed of"
       },
       {
-        "en": "She felt **ashamed** when she realized she had hurt her friend's feelings.",
+        "en": "She felt ashamed when she realized she had hurt her friend's feelings.",
         "target": "ashamed"
       }
     ],
@@ -35450,45 +35687,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "shame (n.); ashamed (adj.); be ashamed of/to V; shameful (adj.) = 令人羞恥的",
     "chinese_sentence": "他為自己的不當行為感到羞愧，主動向所有受到影響的人一一道歉。",
     "word_family": "ashamed · shame · shameful"
-  },
-  {
-    "word": "basin",
-    "pos": "n.",
-    "chapter": "Technology and Ideas",
-    "kk": "/bˈeɪsən/",
-    "chinese": "盆地；洗臉盆；流域",
-    "collocations": [
-      {
-        "en": "river basin",
-        "zh": "河流流域"
-      },
-      {
-        "en": "wash basin",
-        "zh": "洗臉盆"
-      },
-      {
-        "en": "drainage basin",
-        "zh": "排水流域"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The Amazon River **basin** is the world's largest tropical rainforest region.",
-        "target": "basin"
-      },
-      {
-        "en": "She filled the **basin** with warm water to wash her face.",
-        "target": "basin"
-      }
-    ],
-    "synonyms": [
-      "bowl",
-      "valley",
-      "sink"
-    ],
-    "grammar_note": "basin (n.); river basin = 流域; wash basin = 洗臉盆; the Basin = 指某特定地理流域",
-    "chinese_sentence": "亞馬遜河流域是全世界面積最大的熱帶雨林地區，物種多樣性極高。",
-    "word_family": ""
   },
   {
     "word": "bloom",
@@ -35512,11 +35710,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The cherry trees were **in full bloom** during the spring festival.",
+        "en": "The cherry trees were in full bloom during the spring festival.",
         "target": "in full bloom"
       },
       {
-        "en": "Her talent began to **bloom** after years of dedicated practice.",
+        "en": "Her talent began to bloom after years of dedicated practice.",
         "target": "bloom"
       }
     ],
@@ -35551,11 +35749,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **blended** the ingredients carefully to make a smooth sauce.",
+        "en": "She blended the ingredients carefully to make a smooth sauce.",
         "target": "blended"
       },
       {
-        "en": "The new student quickly **blended in** with his classmates.",
+        "en": "The new student quickly blended in with his classmates.",
         "target": "blended in"
       }
     ],
@@ -35590,11 +35788,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **brutal** winter weather forced the school to cancel outdoor activities.",
+        "en": "The brutal winter weather forced the school to cancel outdoor activities.",
         "target": "brutal"
       },
       {
-        "en": "She delivered a **brutal** but honest assessment of the essay.",
+        "en": "She delivered a brutal but honest assessment of the essay.",
         "target": "brutal"
       }
     ],
@@ -35629,11 +35827,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She is the most qualified **candidate** for the student council president.",
+        "en": "She is the most qualified candidate for the student council president.",
         "target": "candidate"
       },
       {
-        "en": "All **candidates** must submit their portfolios by Friday.",
+        "en": "All candidates must submit their portfolios by Friday.",
         "target": "candidates"
       }
     ],
@@ -35668,11 +35866,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school's debate team won the national **championship** for the third year running.",
+        "en": "The school's debate team won the national championship for the third year running.",
         "target": "championship"
       },
       {
-        "en": "She trained hard to defend her swimming **championship** title.",
+        "en": "She trained hard to defend her swimming championship title.",
         "target": "championship"
       }
     ],
@@ -35707,11 +35905,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The cat **clawed** at the furniture despite repeated warnings.",
+        "en": "The cat clawed at the furniture despite repeated warnings.",
         "target": "clawed"
       },
       {
-        "en": "She **clawed** her way to the top through years of hard work.",
+        "en": "She clawed her way to the top through years of hard work.",
         "target": "clawed"
       }
     ],
@@ -35746,11 +35944,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "**Effective communication** is essential in any team project.",
+        "en": "Effective communication is essential in any team project.",
         "target": "Effective communication"
       },
       {
-        "en": "The teacher encouraged open **communication** between students and parents.",
+        "en": "The teacher encouraged open communication between students and parents.",
         "target": "communication"
       }
     ],
@@ -35785,11 +35983,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She learned to **write code** in Python as part of the school's computer science program.",
+        "en": "She learned to write code in Python as part of the school's computer science program.",
         "target": "write code"
       },
       {
-        "en": "The school has a strict dress **code** for formal events.",
+        "en": "The school has a strict dress code for formal events.",
         "target": "code"
       }
     ],
@@ -35824,11 +36022,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Beethoven is one of the greatest **composers** in classical music history.",
+        "en": "Beethoven is one of the greatest composers in classical music history.",
         "target": "composers"
       },
       {
-        "en": "She aspires to become a **film composer** after studying music composition.",
+        "en": "She aspires to become a film composer after studying music composition.",
         "target": "film composer"
       }
     ],
@@ -35855,15 +36053,19 @@ const LEVEL_4_DATA = [
       {
         "en": "heartfelt congratulations",
         "zh": "誠摯的祝賀"
+      },
+      {
+        "en": "congratulations!",
+        "zh": "恭喜！"
       }
     ],
     "examples": [
       {
-        "en": "The teacher **congratulated** the student on winning the essay competition.",
+        "en": "The teacher congratulated the student on winning the essay competition.",
         "target": "congratulated"
       },
       {
-        "en": "**Congratulations** on your acceptance to the university!",
+        "en": "Congratulations on your acceptance to the university!",
         "target": "Congratulations"
       }
     ],
@@ -35941,11 +36143,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was **content with** her score and did not feel the need to retake the exam.",
+        "en": "She was content with her score and did not feel the need to retake the exam.",
         "target": "content with"
       },
       {
-        "en": "The **content** of the lecture was well-organized and easy to follow.",
+        "en": "The content of the lecture was well-organized and easy to follow.",
         "target": "content"
       }
     ],
@@ -35980,11 +36182,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The committee **consists of** ten members from various departments.",
+        "en": "The committee consists of ten members from various departments.",
         "target": "consists of"
       },
       {
-        "en": "True happiness **consists in** doing what you love with people you care about.",
+        "en": "True happiness consists in doing what you love with people you care about.",
         "target": "consists in"
       }
     ],
@@ -36019,11 +36221,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The test results **correspond to** our earlier predictions.",
+        "en": "The test results correspond to our earlier predictions.",
         "target": "correspond to"
       },
       {
-        "en": "She still **corresponds with** her pen pal in France by letter.",
+        "en": "She still corresponds with her pen pal in France by letter.",
         "target": "corresponds with"
       }
     ],
@@ -36058,11 +36260,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was elected to the **student council** in her junior year.",
+        "en": "She was elected to the student council in her junior year.",
         "target": "student council"
       },
       {
-        "en": "The **city council** approved the new park renovation project.",
+        "en": "The city council approved the new park renovation project.",
         "target": "city council"
       }
     ],
@@ -36097,11 +36299,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The cat **crept** silently toward the sleeping mouse.",
+        "en": "The cat crept silently toward the sleeping mouse.",
         "target": "crept"
       },
       {
-        "en": "A feeling of dread **crept over** her as she read the message.",
+        "en": "A feeling of dread crept over her as she read the message.",
         "target": "crept over"
       }
     ],
@@ -36136,11 +36338,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She put an extra **cushion** on her chair to sit more comfortably during the exam.",
+        "en": "She put an extra cushion on her chair to sit more comfortably during the exam.",
         "target": "cushion"
       },
       {
-        "en": "Having savings can **cushion** the impact of unexpected job loss.",
+        "en": "Having savings can cushion the impact of unexpected job loss.",
         "target": "cushion"
       }
     ],
@@ -36175,11 +36377,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The team **defeated** their rivals in the final round of the competition.",
+        "en": "The team defeated their rivals in the final round of the competition.",
         "target": "defeated"
       },
       {
-        "en": "She refused to admit **defeat** and tried again the following year.",
+        "en": "She refused to admit defeat and tried again the following year.",
         "target": "defeat"
       }
     ],
@@ -36214,11 +36416,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **devoted** herself to studying for three months before the exam.",
+        "en": "She devoted herself to studying for three months before the exam.",
         "target": "devoted"
       },
       {
-        "en": "He **devoted** most of his free time to volunteering at the local shelter.",
+        "en": "He devoted most of his free time to volunteering at the local shelter.",
         "target": "devoted"
       }
     ],
@@ -36253,11 +36455,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher **demonstrated** how to solve the equation step by step.",
+        "en": "The teacher demonstrated how to solve the equation step by step.",
         "target": "demonstrated"
       },
       {
-        "en": "Hundreds of students **demonstrated** against the school's new policy.",
+        "en": "Hundreds of students demonstrated against the school's new policy.",
         "target": "demonstrated"
       }
     ],
@@ -36292,11 +36494,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "We live in a **digital** age where information spreads instantly worldwide.",
+        "en": "We live in a digital age where information spreads instantly worldwide.",
         "target": "digital"
       },
       {
-        "en": "**Digital literacy** is considered an essential skill for students today.",
+        "en": "Digital literacy is considered an essential skill for students today.",
         "target": "Digital literacy"
       }
     ],
@@ -36331,11 +36533,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She received her high school **diploma** at the graduation ceremony.",
+        "en": "She received her high school diploma at the graduation ceremony.",
         "target": "diploma"
       },
       {
-        "en": "A **diploma** in nursing opened doors to many healthcare job opportunities.",
+        "en": "A diploma in nursing opened doors to many healthcare job opportunities.",
         "target": "diploma"
       }
     ],
@@ -36370,11 +36572,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students from rural areas are sometimes at a **disadvantage** in urban schools.",
+        "en": "Students from rural areas are sometimes at a disadvantage in urban schools.",
         "target": "disadvantage"
       },
       {
-        "en": "One **disadvantage** of studying online is the lack of face-to-face interaction.",
+        "en": "One disadvantage of studying online is the lack of face-to-face interaction.",
         "target": "disadvantage"
       }
     ],
@@ -36409,11 +36611,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school invited a **distinguished** scientist to deliver the keynote speech.",
+        "en": "The school invited a distinguished scientist to deliver the keynote speech.",
         "target": "distinguished"
       },
       {
-        "en": "She had a long and **distinguished** career in education.",
+        "en": "She had a long and distinguished career in education.",
         "target": "distinguished"
       }
     ],
@@ -36448,12 +36650,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **economy** grew at an impressive rate of 5% last year.",
+        "en": "The economy grew at an impressive rate of 5% last year.",
         "target": "economy"
       },
       {
-        "en": "She practices **economy** in her daily life to save for university.",
-        "target": "economy"
+        "en": "For reasons of economy, she takes the bus to school instead of a taxi.",
+        "target": "For reasons of economy"
       }
     ],
     "synonyms": [
@@ -36487,12 +36689,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She tied her hair back with an **elastic** band.",
+        "en": "She tied her hair back with an elastic band.",
         "target": "elastic"
       },
       {
-        "en": "The company's pricing strategy is more **elastic** than its competitors'.",
-        "target": "elastic"
+        "en": "This swimsuit is made of elastic material, so it stretches to fit your body comfortably.",
+        "target": "elastic material"
       }
     ],
     "synonyms": [
@@ -36526,11 +36728,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The new system was designed to **eliminate** errors in data entry.",
+        "en": "The new system was designed to eliminate errors in data entry.",
         "target": "eliminate"
       },
       {
-        "en": "She was **eliminated** in the quarterfinals of the debate competition.",
+        "en": "She was eliminated in the quarterfinals of the debate competition.",
         "target": "eliminated"
       }
     ],
@@ -36565,11 +36767,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please **ensure** that all windows are closed before leaving the classroom.",
+        "en": "Please ensure that all windows are closed before leaving the classroom.",
         "target": "ensure"
       },
       {
-        "en": "The teacher checks attendance daily to **ensure** no one is absent without reason.",
+        "en": "The teacher checks attendance daily to ensure no one is absent without reason.",
         "target": "ensure"
       }
     ],
@@ -36604,11 +36806,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Students are asked to **evaluate** their own essays before submitting them.",
+        "en": "Students are asked to evaluate their own essays before submitting them.",
         "target": "evaluate"
       },
       {
-        "en": "The teacher **evaluated** each student's project based on creativity and accuracy.",
+        "en": "The teacher evaluated each student's project based on creativity and accuracy.",
         "target": "evaluated"
       }
     ],
@@ -36643,11 +36845,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school hall was transformed into an **exhibit** of student artwork.",
+        "en": "The school hall was transformed into an exhibit of student artwork.",
         "target": "exhibit"
       },
       {
-        "en": "She **exhibited** remarkable composure during the stressful presentation.",
+        "en": "She exhibited remarkable composure during the stressful presentation.",
         "target": "exhibited"
       }
     ],
@@ -36682,11 +36884,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **fierce** competition among students pushed everyone to work harder.",
+        "en": "The fierce competition among students pushed everyone to work harder.",
         "target": "fierce"
       },
       {
-        "en": "She defended her argument with **fierce** determination.",
+        "en": "She defended her argument with fierce determination.",
         "target": "fierce"
       }
     ],
@@ -36721,11 +36923,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She always welcomes **feedback** because it helps her improve.",
+        "en": "She always welcomes feedback because it helps her improve.",
         "target": "feedback"
       },
       {
-        "en": "The teacher gave detailed **feedback** on every student's essay.",
+        "en": "The teacher gave detailed feedback on every student's essay.",
         "target": "feedback"
       }
     ],
@@ -36760,11 +36962,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She found a vintage lamp at the weekend **flea market** for just NT$200.",
+        "en": "She found a vintage lamp at the weekend flea market for just NT$200.",
         "target": "flea market"
       },
       {
-        "en": "The dog was scratching because of **flea** bites.",
+        "en": "The dog was scratching because of flea bites.",
         "target": "flea"
       }
     ],
@@ -36798,11 +37000,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **frequency** of her study sessions increased before the national exam.",
+        "en": "The frequency of her study sessions increased before the national exam.",
         "target": "frequency"
       },
       {
-        "en": "Words with high **frequency** should be the focus of vocabulary learning.",
+        "en": "Words with high frequency should be the focus of vocabulary learning.",
         "target": "frequency"
       }
     ],
@@ -36837,11 +37039,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The school was named after its **founder**, a dedicated educator.",
+        "en": "The school was named after its founder, a dedicated educator.",
         "target": "founder"
       },
       {
-        "en": "She is the **founder** of a non-profit organization that supports arts education.",
+        "en": "She is the founder of a non-profit organization that supports arts education.",
         "target": "founder"
       }
     ],
@@ -36876,11 +37078,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She caught a **glimpse** of the exam paper before it was covered.",
+        "en": "She caught a glimpse of the exam paper before it was covered.",
         "target": "glimpse"
       },
       {
-        "en": "The trip gave her a **glimpse** of what life in a foreign country was like.",
+        "en": "The trip gave her a glimpse of what life in a foreign country was like.",
         "target": "glimpse"
       }
     ],
@@ -36915,11 +37117,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her concern for her students was **genuine** and deeply appreciated.",
+        "en": "Her concern for her students was genuine and deeply appreciated.",
         "target": "genuine"
       },
       {
-        "en": "He made a **genuine** effort to improve after the teacher's feedback.",
+        "en": "He made a genuine effort to improve after the teacher's feedback.",
         "target": "genuine"
       }
     ],
@@ -36954,11 +37156,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She accepted the defeat **with grace** and congratulated the winner.",
+        "en": "She accepted the defeat with grace and congratulated the winner.",
         "target": "with grace"
       },
       {
-        "en": "The dancer moved across the stage with extraordinary **grace**.",
+        "en": "The dancer moved across the stage with extraordinary grace.",
         "target": "grace"
       }
     ],
@@ -36993,11 +37195,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **handwriting** is so neat that the teacher uses it as a model for the class.",
+        "en": "Her handwriting is so neat that the teacher uses it as a model for the class.",
         "target": "handwriting"
       },
       {
-        "en": "The doctor's **handwriting** on the prescription was nearly impossible to read.",
+        "en": "The doctor's handwriting on the prescription was nearly impossible to read.",
         "target": "handwriting"
       }
     ],
@@ -37009,45 +37211,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "handwriting (n.); handwritten (adj.) = 手寫的; handwrite (v.) = 用手寫",
     "chinese_sentence": "她的字跡工整美觀，老師常常拿來作為全班同學學習的示範範本。",
     "word_family": "handwrite · handwriting · handwritten"
-  },
-  {
-    "word": "greasy",
-    "pos": "adj.",
-    "chapter": "Technology and Ideas",
-    "kk": "/ɡrˈisi/",
-    "chinese": "油膩的；滑溜的；諂媚的",
-    "collocations": [
-      {
-        "en": "greasy food",
-        "zh": "油膩的食物"
-      },
-      {
-        "en": "greasy hands",
-        "zh": "沾滿油脂的手"
-      },
-      {
-        "en": "greasy surface",
-        "zh": "油滑的表面"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The mechanic's hands were **greasy** after fixing the engine.",
-        "target": "greasy"
-      },
-      {
-        "en": "She avoided **greasy** foods to maintain a healthy diet.",
-        "target": "greasy"
-      }
-    ],
-    "synonyms": [
-      "oily",
-      "slippery",
-      "fatty"
-    ],
-    "grammar_note": "grease (n./v.); greasy (adj.); greasily (adv.); greasy food = 油膩的食物",
-    "chinese_sentence": "她特意避免油膩的食物，以維持健康的飲食習慣和良好的皮膚狀態。",
-    "word_family": "grease · greasily · greasy"
   },
   {
     "word": "hawk",
@@ -37071,11 +37234,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher watched the students like a **hawk** during the exam.",
+        "en": "The teacher watched the students like a hawk during the exam.",
         "target": "hawk"
       },
       {
-        "en": "A **hawk** circled high above the field, searching for prey.",
+        "en": "A hawk circled high above the field, searching for prey.",
         "target": "hawk"
       }
     ],
@@ -37110,11 +37273,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Reading has had a profound **impact** on her writing ability.",
+        "en": "Reading has had a profound impact on her writing ability.",
         "target": "impact"
       },
       {
-        "en": "The new policy had a positive **impact** on student attendance rates.",
+        "en": "The new policy had a positive impact on student attendance rates.",
         "target": "impact"
       }
     ],
@@ -37149,11 +37312,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She chose a career in medicine to serve **humanity**.",
+        "en": "She chose a career in medicine to serve humanity.",
         "target": "humanity"
       },
       {
-        "en": "Studying the **humanities** helps students understand culture and history.",
+        "en": "Studying the humanities helps students understand culture and history.",
         "target": "humanities"
       }
     ],
@@ -37188,11 +37351,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **hurricane** caused widespread destruction along the coast.",
+        "en": "The hurricane caused widespread destruction along the coast.",
         "target": "hurricane"
       },
       {
-        "en": "Residents were advised to evacuate before the **hurricane** made landfall.",
+        "en": "Residents were advised to evacuate before the hurricane made landfall.",
         "target": "hurricane"
       }
     ],
@@ -37227,11 +37390,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was deeply hurt by the **insult** thrown at her in front of the class.",
+        "en": "She was deeply hurt by the insult thrown at her in front of the class.",
         "target": "insult"
       },
       {
-        "en": "Don't **insult** people's intelligence by giving them oversimplified explanations.",
+        "en": "Don't insult people's intelligence by giving them oversimplified explanations.",
         "target": "insult"
       }
     ],
@@ -37266,11 +37429,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She enrolled in an **intensive** English course to prepare for studying abroad.",
+        "en": "She enrolled in an intensive English course to prepare for studying abroad.",
         "target": "intensive"
       },
       {
-        "en": "The athletes underwent **intensive** training in the two weeks before the competition.",
+        "en": "The athletes underwent intensive training in the two weeks before the competition.",
         "target": "intensive"
       }
     ],
@@ -37305,11 +37468,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She draws **inspiration** from nature when writing her poems.",
+        "en": "She draws inspiration from nature when writing her poems.",
         "target": "inspiration"
       },
       {
-        "en": "Her teacher was a constant source of **inspiration** throughout her studies.",
+        "en": "Her teacher was a constant source of inspiration throughout her studies.",
         "target": "inspiration"
       }
     ],
@@ -37344,11 +37507,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The teacher **instructed** students to read the passage silently.",
+        "en": "The teacher instructed students to read the passage silently.",
         "target": "instructed"
       },
       {
-        "en": "She was **instructed** to report to the principal's office immediately.",
+        "en": "She was instructed to report to the principal's office immediately.",
         "target": "instructed"
       }
     ],
@@ -37383,7 +37546,7 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She boiled the **kettle** to make a cup of tea before studying.",
+        "en": "She boiled the kettle to make a cup of tea before studying.",
         "target": "kettle"
       },
       {
@@ -37421,11 +37584,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The company will **launch** its new smartphone model next month.",
+        "en": "The company will launch its new smartphone model next month.",
         "target": "launch"
       },
       {
-        "en": "The school **launched** an anti-drug awareness campaign for all students.",
+        "en": "The school launched an anti-drug awareness campaign for all students.",
         "target": "launched"
       }
     ],
@@ -37460,11 +37623,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He is a truly **learned** man who has read thousands of books.",
+        "en": "He is a truly learned man who has read thousands of books.",
         "target": "learned"
       },
       {
-        "en": "The article was published in a **learned** journal focused on linguistics.",
+        "en": "The article was published in a learned journal focused on linguistics.",
         "target": "learned"
       }
     ],
@@ -37499,11 +37662,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The seafood restaurant serves **lobster** prepared in six different styles.",
+        "en": "The seafood restaurant serves lobster prepared in six different styles.",
         "target": "lobster"
       },
       {
-        "en": "She ordered a **lobster** bisque at the fancy restaurant on her birthday.",
+        "en": "She ordered a lobster bisque at the fancy restaurant on her birthday.",
         "target": "lobster"
       }
     ],
@@ -37537,11 +37700,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The factory invested in new **machinery** to increase production speed.",
+        "en": "The factory invested in new machinery to increase production speed.",
         "target": "machinery"
       },
       {
-        "en": "She studied **machinery** in her technical school program.",
+        "en": "She studied machinery in her technical school program.",
         "target": "machinery"
       }
     ],
@@ -37576,11 +37739,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She applied light **makeup** before the school photo was taken.",
+        "en": "She applied light makeup before the school photo was taken.",
         "target": "makeup"
       },
       {
-        "en": "The **makeup** of the student council changed significantly after the election.",
+        "en": "The makeup of the student council changed significantly after the election.",
         "target": "makeup"
       }
     ],
@@ -37590,47 +37753,8 @@ const LEVEL_4_DATA = [
       "constitution"
     ],
     "grammar_note": "makeup (n.); make up (v. phrase) = 補做/和解/化妝; makeup artist = 化妝師",
-    "chinese_sentence": "學校拍大頭照前，她輕描淡寫地化了一點淡妝，讓自己看起來更有精神。",
+    "chinese_sentence": "拍學生證大頭照前，她化了一點淡妝，讓自己看起來更有精神。",
     "word_family": ""
-  },
-  {
-    "word": "merchant",
-    "pos": "n.",
-    "chapter": "Technology and Ideas",
-    "kk": "/mˈɝtʃənt/",
-    "chinese": "商人；貿易商",
-    "collocations": [
-      {
-        "en": "local merchant",
-        "zh": "本地商人"
-      },
-      {
-        "en": "merchant ship",
-        "zh": "商船"
-      },
-      {
-        "en": "merchant bank",
-        "zh": "商業銀行"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The **merchant** traveled the Silk Road to trade goods between Asia and Europe.",
-        "target": "merchant"
-      },
-      {
-        "en": "She buys fresh produce directly from local **merchants** at the morning market.",
-        "target": "merchants"
-      }
-    ],
-    "synonyms": [
-      "trader",
-      "dealer",
-      "vendor"
-    ],
-    "grammar_note": "merchant (n.); merchandise (n.) = 商品; merchant ship = 商船",
-    "chinese_sentence": "她每天早上直接向市場的本地商人購買新鮮蔬菜，確保食材品質最佳。",
-    "word_family": "merchandise · merchandiser · merchandising · merchant"
   },
   {
     "word": "miserable",
@@ -37654,11 +37778,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She felt **miserable** after failing the exam she had prepared so hard for.",
+        "en": "She felt miserable after failing the exam she had prepared so hard for.",
         "target": "miserable"
       },
       {
-        "en": "The cold, rainy weather made the outdoor event **miserable**.",
+        "en": "The cold, rainy weather made the outdoor event miserable.",
         "target": "miserable"
       }
     ],
@@ -37693,11 +37817,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The **miners** worked deep underground in dangerous conditions.",
+        "en": "The miners worked deep underground in dangerous conditions.",
         "target": "miners"
       },
       {
-        "en": "She comes from a family of **coal miners** in the mountain region.",
+        "en": "She comes from a family of coal miners in the mountain region.",
         "target": "coal miners"
       }
     ],
@@ -37731,11 +37855,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The two classmates had a **mutual** respect for each other's abilities.",
+        "en": "The two classmates had a mutual respect for each other's abilities.",
         "target": "mutual"
       },
       {
-        "en": "The agreement was signed for **mutual** benefit — both sides gained something.",
+        "en": "The agreement was signed for mutual benefit — both sides gained something.",
         "target": "mutual"
       }
     ],
@@ -37770,11 +37894,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The exam included both **multiple**-choice and short-answer questions.",
+        "en": "The exam included both multiple-choice and short-answer questions.",
         "target": "multiple"
       },
       {
-        "en": "She has attempted the exam **multiple** times and finally passed.",
+        "en": "She has attempted the exam multiple times and finally passed.",
         "target": "multiple"
       }
     ],
@@ -37809,12 +37933,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "His **offensive** remark upset nearly everyone in the class.",
+        "en": "His offensive remark upset nearly everyone in the class.",
         "target": "offensive"
       },
       {
-        "en": "The team went **on the offensive** in the second half and scored twice.",
-        "target": "offensive"
+        "en": "The team went on the offensive in the second half and scored twice.",
+        "target": "on the offensive"
       }
     ],
     "synonyms": [
@@ -37848,11 +37972,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She makes **occasional** spelling mistakes but her grammar is usually perfect.",
+        "en": "She makes occasional spelling mistakes but her grammar is usually perfect.",
         "target": "occasional"
       },
       {
-        "en": "An **occasional** snack is fine, but try to eat healthy most of the time.",
+        "en": "An occasional snack is fine, but try to eat healthy most of the time.",
         "target": "occasional"
       }
     ],
@@ -37887,11 +38011,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She plays the violin in the school **orchestra**.",
+        "en": "She plays the violin in the school orchestra.",
         "target": "orchestra"
       },
       {
-        "en": "The **orchestra** performed Beethoven's Ninth Symphony to a full house.",
+        "en": "The orchestra performed Beethoven's Ninth Symphony to a full house.",
         "target": "orchestra"
       }
     ],
@@ -37926,11 +38050,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "He became an **overnight** sensation after his video went viral.",
+        "en": "He became an overnight sensation after his video went viral.",
         "target": "overnight"
       },
       {
-        "en": "She stayed **overnight** at her friend's house to prepare for the exam together.",
+        "en": "She stayed overnight at her friend's house to prepare for the exam together.",
         "target": "overnight"
       }
     ],
@@ -37965,11 +38089,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She always wears the same **perfume** — a gift from her grandmother.",
+        "en": "She always wears the same perfume — a gift from her grandmother.",
         "target": "perfume"
       },
       {
-        "en": "The garden was filled with the sweet **perfume** of blooming roses.",
+        "en": "The garden was filled with the sweet perfume of blooming roses.",
         "target": "perfume"
       }
     ],
@@ -38004,11 +38128,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She used all her **powers of persuasion** to get her parents to agree.",
+        "en": "She used all her powers of persuasion to get her parents to agree.",
         "target": "powers of persuasion"
       },
       {
-        "en": "**Persuasion** is a key skill in debate and public speaking.",
+        "en": "Persuasion is a key skill in debate and public speaking.",
         "target": "Persuasion"
       }
     ],
@@ -38043,11 +38167,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She discovered a passion for **photography** after buying her first camera.",
+        "en": "She discovered a passion for photography after buying her first camera.",
         "target": "photography"
       },
       {
-        "en": "The school's **photography** club meets every Wednesday afternoon.",
+        "en": "The school's photography club meets every Wednesday afternoon.",
         "target": "photography"
       }
     ],
@@ -38081,11 +38205,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The new app gained **popularity** quickly among teenagers.",
+        "en": "The new app gained popularity quickly among teenagers.",
         "target": "popularity"
       },
       {
-        "en": "Her **popularity** in school comes from her kindness, not just her grades.",
+        "en": "Her popularity in school comes from her kindness, not just her grades.",
         "target": "popularity"
       }
     ],
@@ -38120,11 +38244,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She kept all her most valuable **possessions** in a locked drawer.",
+        "en": "She kept all her most valuable possessions in a locked drawer.",
         "target": "possessions"
       },
       {
-        "en": "The team finally took **possession** of the ball in the final minutes.",
+        "en": "The team finally took possession of the ball in the final minutes.",
         "target": "possession"
       }
     ],
@@ -38159,11 +38283,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "It was a great **privilege** to study under such a distinguished professor.",
+        "en": "It was a great privilege to study under such a distinguished professor.",
         "target": "privilege"
       },
       {
-        "en": "Not everyone has the **privilege** of receiving a good education.",
+        "en": "Not everyone has the privilege of receiving a good education.",
         "target": "privilege"
       }
     ],
@@ -38175,45 +38299,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "privileged (adj.) = 享有特權的; privilege (n./v.); it's a privilege to V = 能…是一種榮幸",
     "chinese_sentence": "並非每個人都有機會接受良好的教育，這是我們應該珍惜的莫大特權。",
     "word_family": "privilege · privileged"
-  },
-  {
-    "word": "prosperous",
-    "pos": "adj.",
-    "chapter": "Technology and Ideas",
-    "kk": "/prˈɑspɚəs/",
-    "chinese": "繁榮的；興旺的；富裕的",
-    "collocations": [
-      {
-        "en": "prosperous economy",
-        "zh": "繁榮的經濟"
-      },
-      {
-        "en": "prosperous community",
-        "zh": "興旺的社區"
-      },
-      {
-        "en": "prosperous career",
-        "zh": "成功的職業生涯"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She came from a **prosperous** family and had access to many opportunities.",
-        "target": "prosperous"
-      },
-      {
-        "en": "The city became increasingly **prosperous** after the tech industry moved in.",
-        "target": "prosperous"
-      }
-    ],
-    "synonyms": [
-      "thriving",
-      "successful",
-      "wealthy"
-    ],
-    "grammar_note": "prosper (v.); prosperity (n.); prosperous (adj.); prosperously (adv.)",
-    "chinese_sentence": "科技產業進駐後，這座城市的經濟迅速繁榮起來，居民的生活水準大幅提升。",
-    "word_family": "prosper · prosperity · prosperous · prosperously"
   },
   {
     "word": "psychologist",
@@ -38237,11 +38322,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She consulted a **psychologist** to help manage her exam anxiety.",
+        "en": "She consulted a psychologist to help manage her exam anxiety.",
         "target": "psychologist"
       },
       {
-        "en": "The school hired a **psychologist** to support students' mental health.",
+        "en": "The school hired a psychologist to support students' mental health.",
         "target": "psychologist"
       }
     ],
@@ -38276,11 +38361,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Her **proposal** for the school garden project was approved by the principal.",
+        "en": "Her proposal for the school garden project was approved by the principal.",
         "target": "proposal"
       },
       {
-        "en": "She was touched when he got down on one knee to make his **proposal**.",
+        "en": "She was touched when he got down on one knee to make his proposal.",
         "target": "proposal"
       }
     ],
@@ -38315,11 +38400,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Please **refer to** the glossary at the back for definitions.",
+        "en": "Please refer to the glossary at the back for definitions.",
         "target": "refer to"
       },
       {
-        "en": "She is often **referred to as** the most diligent student in the class.",
+        "en": "She is often referred to as the most diligent student in the class.",
         "target": "referred to as"
       }
     ],
@@ -38354,11 +38439,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The new student received a warm **reception** from her classmates.",
+        "en": "The new student received a warm reception from her classmates.",
         "target": "reception"
       },
       {
-        "en": "Please check in at the hotel **reception** upon arrival.",
+        "en": "Please check in at the hotel reception upon arrival.",
         "target": "reception"
       }
     ],
@@ -38370,45 +38455,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "receive (v.); reception (n.); receptionist (n.) = 接待員; reception desk = 接待台",
     "chinese_sentence": "那位新同學一進班就受到了全班同學熱情友善的歡迎，讓她感到如沐春風。",
     "word_family": "receive · receiver · reception · receptionist · recipient"
-  },
-  {
-    "word": "regulate",
-    "pos": "v.",
-    "chapter": "Technology and Ideas",
-    "kk": "/rˈɛɡjəlˌeɪt/",
-    "chinese": "規範；調節；管理",
-    "collocations": [
-      {
-        "en": "regulate temperature",
-        "zh": "調節溫度"
-      },
-      {
-        "en": "regulate the market",
-        "zh": "規範市場"
-      },
-      {
-        "en": "be regulated by",
-        "zh": "受…監管"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The government **regulates** food safety standards to protect consumers.",
-        "target": "regulates"
-      },
-      {
-        "en": "The body's temperature is **regulated** by the hypothalamus in the brain.",
-        "target": "regulated"
-      }
-    ],
-    "synonyms": [
-      "control",
-      "govern",
-      "adjust"
-    ],
-    "grammar_note": "regulate (v.); regulation (n.); regulatory (adj.); regulator (n.) = 監管機構",
-    "chinese_sentence": "政府制定並執行食品安全標準，以確保消費者購買到的食品符合衛生規範。",
-    "word_family": "regulate · regulation · regulator · regulatory"
   },
   {
     "word": "relaxation",
@@ -38432,11 +38478,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Listening to music is her favorite form of **relaxation** after school.",
+        "en": "Listening to music is her favorite form of relaxation after school.",
         "target": "relaxation"
       },
       {
-        "en": "The counselor taught students **relaxation** techniques to manage exam stress.",
+        "en": "The counselor taught students relaxation techniques to manage exam stress.",
         "target": "relaxation"
       }
     ],
@@ -38471,11 +38517,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She was **reluctant to** admit she had made a mistake.",
+        "en": "She was reluctant to admit she had made a mistake.",
         "target": "reluctant to"
       },
       {
-        "en": "He gave a **reluctant** nod, but it was clear he disagreed.",
+        "en": "He gave a reluctant nod, but it was clear he disagreed.",
         "target": "reluctant"
       }
     ],
@@ -38510,11 +38556,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "After **revision**, the essay was much clearer and more persuasive.",
+        "en": "After revision, the essay was much clearer and more persuasive.",
         "target": "revision"
       },
       {
-        "en": "She spent the weekend doing **revision** for her biology exam.",
+        "en": "She spent the weekend doing revision for her biology exam.",
         "target": "revision"
       }
     ],
@@ -38549,11 +38595,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She loves reading **romance** novels before going to sleep.",
+        "en": "She loves reading romance novels before going to sleep.",
         "target": "romance"
       },
       {
-        "en": "There is a special **romance** to watching the sunset over the ocean.",
+        "en": "There is a special romance to watching the sunset over the ocean.",
         "target": "romance"
       }
     ],
@@ -38588,11 +38634,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She had to **start from scratch** after her computer crashed and lost all her work.",
+        "en": "She had to start from scratch after her computer crashed and lost all her work.",
         "target": "start from scratch"
       },
       {
-        "en": "The article only **scratches the surface** of such a complex issue.",
+        "en": "The article only scratches the surface of such a complex issue.",
         "target": "scratches the surface"
       }
     ],
@@ -38627,11 +38673,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She practiced her **signature** many times to make it look professional.",
+        "en": "She practiced her signature many times to make it look professional.",
         "target": "signature"
       },
       {
-        "en": "The chef's **signature** dish is a unique fusion of Taiwanese and French cuisine.",
+        "en": "The chef's signature dish is a unique fusion of Taiwanese and French cuisine.",
         "target": "signature"
       }
     ],
@@ -38666,12 +38712,12 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She plugged the charger into the **socket** to charge her phone.",
+        "en": "She plugged the charger into the socket to charge her phone.",
         "target": "socket"
       },
       {
-        "en": "The nurse checked that the light was properly fitted into the **socket**.",
-        "target": "socket"
+        "en": "The electrician screwed a new light bulb into the empty socket above the desk.",
+        "target": "the empty socket"
       }
     ],
     "synonyms": [
@@ -38705,11 +38751,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The view from the mountaintop was absolutely **splendid**.",
+        "en": "The view from the mountaintop was absolutely splendid.",
         "target": "splendid"
       },
       {
-        "en": "What a **splendid** idea for the school project — the judges will be impressed!",
+        "en": "What a splendid idea for the school project — the judges will be impressed!",
         "target": "splendid"
       }
     ],
@@ -38744,11 +38790,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She turned on the **stereo** and filled the room with her favorite music.",
+        "en": "She turned on the stereo and filled the room with her favorite music.",
         "target": "stereo"
       },
       {
-        "en": "The concert was recorded in **stereo** for the best listening experience.",
+        "en": "The concert was recorded in stereo for the best listening experience.",
         "target": "stereo"
       }
     ],
@@ -38782,11 +38828,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The word 'understand' has three **syllables**: un-der-stand.",
+        "en": "The word 'understand' has three syllables: un-der-stand.",
         "target": "syllables"
       },
       {
-        "en": "In poetry, the number of **syllables** per line affects the rhythm.",
+        "en": "In poetry, the number of syllables per line affects the rhythm.",
         "target": "syllables"
       }
     ],
@@ -38794,7 +38840,7 @@ const LEVEL_4_DATA = [
       "phonetic unit"
     ],
     "grammar_note": "syllable (n.); syllabic (adj.); syllabification (n.) = 音節劃分; monosyllable = 單音節",
-    "chinese_sentence": "'understand' 這個詞有三個音節：un-der-stand，在英語發音中非常重要。",
+    "chinese_sentence": "「understand」這個詞有三個音節：un-der-stand，在英語發音中非常重要。",
     "word_family": "syllabic · syllabification · syllable"
   },
   {
@@ -38819,11 +38865,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She has a **tendency** to overthink problems, which causes unnecessary stress.",
+        "en": "She has a tendency to overthink problems, which causes unnecessary stress.",
         "target": "tendency"
       },
       {
-        "en": "There is a **tendency** for students to leave revision until the last minute.",
+        "en": "There is a tendency for students to leave revision until the last minute.",
         "target": "tendency"
       }
     ],
@@ -38858,11 +38904,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The central **theme** of the novel is the struggle between freedom and duty.",
+        "en": "The central theme of the novel is the struggle between freedom and duty.",
         "target": "theme"
       },
       {
-        "en": "The school party had a Hawaiian **theme** this year.",
+        "en": "The school party had a Hawaiian theme this year.",
         "target": "theme"
       }
     ],
@@ -38874,45 +38920,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "thematic (adj.); theme park = 主題樂園; theme song = 主題曲; theme of sth.",
     "chinese_sentence": "這部小說的核心主題是自由與責任之間的掙扎，引發讀者對人生的深刻省思。",
     "word_family": "thematic · theme"
-  },
-  {
-    "word": "timid",
-    "pos": "adj.",
-    "chapter": "Technology and Ideas",
-    "kk": "/tˈɪmɪd/",
-    "chinese": "膽小的；羞怯的；怕羞的",
-    "collocations": [
-      {
-        "en": "timid personality",
-        "zh": "膽怯的個性"
-      },
-      {
-        "en": "timid response",
-        "zh": "怯懦的回應"
-      },
-      {
-        "en": "feel timid",
-        "zh": "感到膽怯"
-      }
-    ],
-    "examples": [
-      {
-        "en": "She was too **timid** to raise her hand in class, even when she knew the answer.",
-        "target": "timid"
-      },
-      {
-        "en": "The **timid** kitten hid behind the sofa when strangers came to visit.",
-        "target": "timid"
-      }
-    ],
-    "synonyms": [
-      "shy",
-      "fearful",
-      "meek"
-    ],
-    "grammar_note": "timidly (adv.); timidity (n.); timid ≠ humble（timid 暗示過度謙縮）",
-    "chinese_sentence": "她太過羞怯，即使知道答案也不敢舉手，後來在老師的鼓勵下才慢慢改善。",
-    "word_family": "timid · timidity · timidly"
   },
   {
     "word": "tumble",
@@ -38936,11 +38943,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "The toddler **tumbled** on the grass and started crying.",
+        "en": "The toddler tumbled on the grass and started crying.",
         "target": "tumbled"
       },
       {
-        "en": "Stock prices **tumbled** sharply after the announcement.",
+        "en": "Stock prices tumbled sharply after the announcement.",
         "target": "tumbled"
       }
     ],
@@ -38975,11 +38982,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "Honesty is a **virtue** that is highly valued in all cultures.",
+        "en": "Honesty is a virtue that is highly valued in all cultures.",
         "target": "virtue"
       },
       {
-        "en": "**By virtue of** her hard work, she earned the scholarship.",
+        "en": "By virtue of her hard work, she earned the scholarship.",
         "target": "By virtue of"
       }
     ],
@@ -38991,45 +38998,6 @@ const LEVEL_4_DATA = [
     "grammar_note": "virtuous (adj.); virtue (n.); by virtue of = 憑藉/由於; virtue = 美德/優點",
     "chinese_sentence": "誠實是所有文化中普遍受到重視的美德，也是建立人與人之間信任的基礎。",
     "word_family": "virtue · virtuous"
-  },
-  {
-    "word": "voyage",
-    "pos": "n./v.",
-    "chapter": "Technology and Ideas",
-    "kk": "/vˈɔɪədʒ/",
-    "chinese": "航行；航海旅行；旅程",
-    "collocations": [
-      {
-        "en": "maiden voyage",
-        "zh": "首航"
-      },
-      {
-        "en": "ocean voyage",
-        "zh": "遠洋航行"
-      },
-      {
-        "en": "voyage of discovery",
-        "zh": "探索之旅"
-      }
-    ],
-    "examples": [
-      {
-        "en": "The ship set sail on a long **voyage** across the Pacific.",
-        "target": "voyage"
-      },
-      {
-        "en": "Reading a good book is like embarking on a **voyage** of discovery.",
-        "target": "voyage"
-      }
-    ],
-    "synonyms": [
-      "journey",
-      "cruise",
-      "expedition"
-    ],
-    "grammar_note": "voyage (n./v.); voyager (n.) = 旅行者/航行者; maiden voyage = 首次航行",
-    "chinese_sentence": "那艘船啟程展開橫越太平洋的漫長航行，船員們滿懷期待與忐忑。",
-    "word_family": "voyage · voyager"
   },
   {
     "word": "withdraw",
@@ -39053,11 +39021,11 @@ const LEVEL_4_DATA = [
     ],
     "examples": [
       {
-        "en": "She **withdrew** her application after receiving a better offer.",
+        "en": "She withdrew her application after receiving a better offer.",
         "target": "withdrew"
       },
       {
-        "en": "He went to the ATM to **withdraw** some cash for the field trip.",
+        "en": "He went to the ATM to withdraw some cash for the field trip.",
         "target": "withdraw"
       }
     ],
