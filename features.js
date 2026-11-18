@@ -479,6 +479,9 @@
             html += '<button type="button" class="fx-nav-btn fx-nav-next fx-nav-done" onclick="FX.chapterDone()"><span class="fx-nav-dir">本章最後一個 🎉</span><b>挑戰本章測驗</b><small>用題目檢查這一章記住了多少</small></button>';
         }
         html += '</div>';
+        html += '<div class="fx-nav-tools"><button type="button" class="fx-tool-btn" onclick="FX.quickQuiz()">🎯 考考我</button>' +
+            '<button type="button" class="fx-tool-btn fx-auto-btn" onclick="FX.startAuto()">🎧 連續播放（從這個字開始）</button></div>' +
+            '<div id="fx-quick-quiz"></div>';
         if (i >= 0) html += '<div class="fx-nav-pos">' + '本章第 ' + (i + 1) + ' / ' + list.length + ' 個字' + (typeof window.matchMedia === 'function' && !window.matchMedia('(max-width: 768px)').matches ? '　·　鍵盤 ← → 也可以切換' : '') + '</div>';
         nav.innerHTML = html;
     }
@@ -520,6 +523,9 @@
         // 1b. Roots / affixes chips (ROOTS from data_extras.js)
         renderRootsSection(word);
         renderWordNav(word);
+        renderKeyRibbon(word);
+        markSeen(word);
+        swipeHintOnce();
 
         // 2. Exam example sentence in meaning pane
         const old = $('fx-exam-section');
@@ -1593,6 +1599,7 @@
             '</div><p class="fx-small-muted">「已掌握」：在測驗／複習／快閃對戰／卡牌中，於 <b>3 個不同日子</b>答對，且<b>最近一次答對</b>；答錯一次就會先取消，直到再答對。「自評」只是你自己的感覺，以淺色顯示。</p></section>' +
             '<section class="fx-card"><h3 class="fx-card-title">📚 Level ' + currentLevel + ' 各章掌握度</h3><div class="me-table-wrap"><table class="me-table"><thead><tr><th>章節</th><th>進度（深色＝已掌握，淺色＝含自評）</th><th>已掌握</th><th>自評</th><th>徽章</th></tr></thead><tbody>' + chRows + '</tbody></table></div></section>' +
             '<section class="fx-card"><h3 class="fx-card-title">🎓 各級別總覽</h3><div class="me-table-wrap"><table class="me-table"><thead><tr><th>級別</th><th>已掌握</th><th>自評</th><th>XP</th></tr></thead><tbody>' + lvRows + '</tbody></table></div></section>' +
+            themeHTML() +
             '<section class="fx-card" id="me-offline"><h3 class="fx-card-title">📶 離線使用</h3>' + offlineHTML() + '</section>' +
             '</div>';
         refreshOfflineStatus();
@@ -1603,6 +1610,13 @@
     // ------------------------------------------------------------------
     function offlineSupported() { return 'serviceWorker' in navigator && 'caches' in window && /^https?:$/.test(location.protocol); }
     function absUrl(u) { return new URL(u, location.href).href; }
+    function themeHTML() {
+        if (!window.FXTheme) return '';
+        const cur = FXTheme.get();
+        const opt = (m, label) => '<button type="button" class="fx-chip' + (cur === m ? ' active' : '') + '" data-theme-set="' + m + '">' + label + '</button>';
+        return '<section class="fx-card" id="me-theme"><h3 class="fx-card-title">🎨 外觀</h3><div class="fx-row">' +
+            opt('auto', '🌓 跟隨手機') + opt('light', '☀️ 淺色') + opt('dark', '🌙 深色') + '</div></section>';
+    }
     function offlineHTML() {
         if (!offlineSupported()) return '<p class="fx-small-muted">離線功能需要以網址（http/https）開啟本網站；直接開啟檔案（file://）時無法使用。</p>';
         return '<p class="fx-small-muted">網站本身會自動存在這台裝置上；各級單字資料（每級約 1.7 MB）用過才會存。想在沒有網路時也能用全部四個級別，請按下面的按鈕一次下載。也可以用瀏覽器選單「加到主畫面」安裝成 App。</p>' +
@@ -1743,7 +1757,12 @@
         const rc = t.closest('[data-recall-code]');
         if (rc) { if (!rc.disabled) recallCheckin(parseInt(rc.getAttribute('data-recall-ch'), 10), rc.getAttribute('data-recall-code')); return; }
         const rt = t.closest('[data-root]');
-        if (rt) { Q.roots.q = rt.getAttribute('data-root'); Q.roots.all = true; Q.roots.type = 'all'; openPage('roots'); }
+        if (rt) { Q.roots.q = rt.getAttribute('data-root'); Q.roots.all = true; Q.roots.type = 'all'; openPage('roots'); return; }
+        const th = t.closest('[data-theme-set]');
+        if (th && window.FXTheme) {
+            FXTheme.set(th.getAttribute('data-theme-set'));
+            th.parentElement.querySelectorAll('.fx-chip').forEach(b => b.classList.toggle('active', b === th));
+        }
     });
 
     // ------------------------------------------------------------------
@@ -1757,7 +1776,7 @@
         $('landing-start-btn').style.display = 'inline-block';
         const ex = $('landing-extras');
         if (ex) ex.innerHTML = '<button type="button" class="fx-btn fx-btn-ghost fx-landing-back" onclick="goBackToWordList()">← 返回單字列表</button>' +
-            todayPlanHTML() +
+            todayPlanHTML() + keyWordsHTML() +
             '<div class="fx-row fx-landing-links"><button type="button" class="fx-btn fx-btn-ghost" onclick="FX.openPage(\'recall\')">📝 紙本回想表打卡</button>' +
             '<button type="button" class="fx-btn fx-btn-ghost" onclick="FX.openPage(\'roots\')">🌱 字根字首字尾</button>' +
             '<button type="button" class="fx-btn fx-btn-ghost" onclick="FX.openPage(\'me\')">👤 我的學習紀錄</button></div>' +
@@ -2123,6 +2142,8 @@
         },
         checkSentence: checkSentence,
         goWord: goWord, nextTab: goNextTab, chapterDone: chapterDone,
+        keyOnly: function (on) { setKeyOnly(on); }, resume: function () { resumeLast(); },
+        quickQuiz: function () { quickQuiz(); }, startAuto: function () { startAuto(); }, stopAuto: function () { stopAuto(); },
         // exposed for testing / debugging
         _internals: { findBlank: findBlank, headForms: headForms, pickDistractors: pickDistractors, compareSpeech: compareSpeech,
             renderShadowResult: renderShadowResult, parseFamily: parseFamily, buildRound: buildRound, dueWords: dueWords,
@@ -2130,6 +2151,319 @@
             parseHash: parseHash, todayPlan: todayPlan, pickNewWords: pickNewWords, freqWords: freqWords,
             rootsForWord: rootsForWord, cachedLevels: cachedLevels, hashJob: () => hashJob }
     };
+
+    // ------------------------------------------------------------------
+    // Key words: 🔥 必考 (★★★, ≥10 of 45 papers) and 🏆 本級 Top 100
+    // (same ranking as the printed appendix: papers desc, then count desc)
+    // ------------------------------------------------------------------
+    const KW_TOP = 100;
+    let kwCache = { lv: null, n: 0, rank: null };
+    function kwRankMap() {
+        const data = levelData();
+        if (kwCache.lv === currentLevel && kwCache.n === data.length && kwCache.rank) return kwCache.rank;
+        const ranked = data.filter(w => w.exam && w.exam.papers > 0)
+            .sort((a, b) => (b.exam.papers - a.exam.papers) || ((b.exam.count || 0) - (a.exam.count || 0)));
+        const m = new Map();
+        ranked.slice(0, KW_TOP).forEach((w, i) => m.set(wkey(w), i + 1));
+        kwCache = { lv: currentLevel, n: data.length, rank: m };
+        return m;
+    }
+    function keyInfo(w) {
+        if (!w) return { hot: false, rank: 0, papers: 0 };
+        const stars = (w.exam && w.exam.stars) || wordStars(w);
+        return { hot: stars >= 3, rank: kwRankMap().get(wkey(w)) || 0, papers: (w.exam && w.exam.papers) || 0 };
+    }
+    function isKeyWord(w) { const k = keyInfo(w); return k.hot || k.rank > 0; }
+    function kwBadgeHTML(w) {
+        const k = keyInfo(w);
+        if (k.hot) return '<span class="kw-badge kw-hot" title="歷屆 45 份試卷中出現 ' + k.papers + ' 份' + (k.rank ? '・本級第 ' + k.rank + ' 名' : '') + '">🔥必考' + (k.rank ? ' <i>#' + k.rank + '</i>' : '') + '</span>';
+        if (k.rank) return '<span class="kw-badge kw-top" title="本級歷屆考題高頻第 ' + k.rank + ' 名（出現 ' + k.papers + ' 份試卷）">🏆Top ' + k.rank + '</span>';
+        return '';
+    }
+    function renderKeyRibbon(word) {
+        let rb = $('fx-kw-ribbon');
+        const title = document.querySelector('#codex-detail-view .codex-word-title');
+        if (!title) return;
+        if (!rb) { rb = document.createElement('div'); rb.id = 'fx-kw-ribbon'; title.insertAdjacentElement('afterend', rb); }
+        const k = keyInfo(word);
+        if (k.hot) {
+            rb.className = 'kw-ribbon kw-ribbon-hot';
+            rb.innerHTML = '🔥 <b>歷屆必考關鍵字</b><span>出現在 ' + k.papers + ' / 45 份大考試卷' + (k.rank ? '・本級第 ' + k.rank + ' 名' : '') + '</span>';
+        } else if (k.rank) {
+            rb.className = 'kw-ribbon kw-ribbon-top';
+            rb.innerHTML = '🏆 <b>本級高頻 Top ' + k.rank + '</b><span>出現在 ' + k.papers + ' / 45 份大考試卷</span>';
+        } else { rb.className = 'kw-ribbon'; rb.innerHTML = ''; }
+    }
+    function keyWordsHTML() {
+        const ws = chapterWords().filter(isKeyWord)
+            .sort((a, b) => (keyInfo(a).rank || 999) - (keyInfo(b).rank || 999));
+        if (!ws.length) return '';
+        return '<section class="fx-card kw-card"><h3 class="fx-card-title">🔥 本章必考關鍵字 <span class="fx-small-muted">' + ws.length + ' 個・依歷屆試卷出現份數排序</span></h3>' +
+            '<p class="fx-small-muted">🔥必考＝45 份學測／指考試卷中出現 10 份以上；🏆Top＝本級最常考的前 100 名。先把這些字背熟！</p>' +
+            '<div class="kw-chips">' + ws.map(w => '<button type="button" class="kw-chip' + (keyInfo(w).hot ? ' hot' : '') + '"' + wordLinkAttrs(currentLevel, w.word) + '><b>' + esc(w.word) + '</b>' + kwBadgeHTML(w) + '</button>').join('') + '</div>' +
+            '<button type="button" class="fx-btn" onclick="FX.keyOnly(true); goBackToWordList();">只看必考字列表</button></section>';
+    }
+
+    // ------------------------------------------------------------------
+    // Seen words + resume where you left off (per level)
+    // ------------------------------------------------------------------
+    function seenKey() { return 'fx_seen_L' + currentLevel; }
+    function seenSet() { return new Set(lsGet(seenKey(), [])); }
+    function markSeen(word) {
+        const s = seenSet(), k = wkey(word);
+        if (!s.has(k)) { s.add(k); lsSet(seenKey(), Array.from(s)); }
+        const last = lsGet('fx_last_L' + currentLevel, {});
+        last[word.chapter] = word.word; last._chapter = word.chapter;
+        lsSet('fx_last_L' + currentLevel, last);
+        const row = document.getElementById('w-row-' + word.word.replace(/[^a-zA-Z]/g, ''));
+        if (row) row.classList.add('seen');
+        try { decorateRows(); } catch (e) { /* list not rendered yet */ }
+    }
+    let keyOnlyMode = false;
+    function decorateRows() {
+        const list = navList(), seen = seenSet();
+        const rows = document.querySelectorAll('#words-scroll-ul .word-row');
+        rows.forEach((li, i) => {
+            const w = list[i];
+            if (!w || li.id !== 'w-row-' + w.word.replace(/[^a-zA-Z]/g, '')) return;
+            const k = keyInfo(w);
+            li.classList.toggle('kw-hot-row', k.hot);
+            li.classList.toggle('kw-top-row', !k.hot && k.rank > 0);
+            li.classList.toggle('seen', seen.has(wkey(w)));
+            const head = li.querySelector('.word-row-header');
+            if (head && !head.querySelector('.kw-badge')) head.insertAdjacentHTML('beforeend', kwBadgeHTML(w));
+        });
+        // resume pill
+        let pill = $('fx-resume');
+        const sc = document.querySelector('#word-list-panel-element .search-container');
+        const lastWord = (lsGet('fx_last_L' + currentLevel, {}) || {})[currentChapter];
+        const target = lastWord && list.find(w => w.word === lastWord);
+        const nSeen = list.filter(w => seen.has(wkey(w))).length;
+        if (!sc) return;
+        if (!pill) { pill = document.createElement('div'); pill.id = 'fx-resume'; pill.className = 'fx-resume'; sc.appendChild(pill); }
+        let html = '<span class="fx-resume-count">已看過 ' + nSeen + ' / ' + list.length + '</span>';
+        if (target && !(currentWord && currentWord.word === target.word)) {
+            html += '<button type="button" class="fx-resume-btn" onclick="FX.resume()">▶ 從上次的 <b>' + esc(target.word) + '</b> 繼續</button>';
+        }
+        html += '<button type="button" class="fx-key-toggle' + (keyOnlyMode ? ' on' : '') + '" onclick="FX.keyOnly()" title="只顯示必考與本級 Top 100 的字">🔥 必考' + (keyOnlyMode ? ' ✓' : '') + '</button>';
+        pill.innerHTML = html;
+    }
+    function resumeLast() {
+        const lastWord = (lsGet('fx_last_L' + currentLevel, {}) || {})[currentChapter];
+        const w = navList().find(x => x.word === lastWord);
+        if (w) window.selectWord(w);
+    }
+    function setKeyOnly(on) {
+        keyOnlyMode = typeof on === 'boolean' ? on : !keyOnlyMode;
+        window.filterWords();
+    }
+    if (typeof window.renderWordRows === 'function') {
+        const origRender = window.renderWordRows;
+        window.renderWordRows = function () {
+            origRender.apply(this, arguments);
+            try { decorateRows(); } catch (e) { console.error('[features] rows', e); }
+        };
+    }
+    if (typeof window.filterWords === 'function') {
+        const origFilter = window.filterWords;
+        window.filterWords = function () {
+            if (!keyOnlyMode) return origFilter.apply(this, arguments);
+            // filter first, then render once
+            const origRender = window.renderWordRows;
+            window.renderWordRows = function () {};
+            try { origFilter.apply(this, arguments); } finally { window.renderWordRows = origRender; }
+            filteredWordsList = filteredWordsList.filter(isKeyWord);
+            window.renderWordRows();
+        };
+    }
+    // flashcards: show the key-word badge on the card front
+    function initCardBadge() {
+        const fw = $('fc-front-word');
+        if (!fw) return;
+        const upd = () => {
+            let b = $('fc-kw-badge');
+            if (!b) { b = document.createElement('div'); b.id = 'fc-kw-badge'; b.className = 'fc-kw-badge'; fw.insertAdjacentElement('beforebegin', b); }
+            const w = levelData().find(x => x.word === fw.textContent.trim());
+            b.innerHTML = w ? kwBadgeHTML(w) : '';
+        };
+        new MutationObserver(upd).observe(fw, { childList: true, characterData: true, subtree: true });
+    }
+
+    // ------------------------------------------------------------------
+    // 🎯 考考我: one quick question about the current word (counts for mastery)
+    // ------------------------------------------------------------------
+    let quickQ = null;
+    function quickQuiz() {
+        const w = currentWord;
+        const box = $('fx-quick-quiz');
+        if (!w || !box) return;
+        const exs = shuffle((w.examples || []).slice());
+        let q = null;
+        for (const ex of exs) {
+            const b = findBlank(w, ex);
+            if (!b) continue;
+            const opts = pickDistractors(w, b.token, 3);
+            if (opts.length < 3) continue;
+            q = { type: 'cloze', stem: esc(ex.en.slice(0, b.start)) + '<span class="qq-blank">_____</span>' + esc(ex.en.slice(b.end)),
+                  hint: ex.zh || '', answer: b.token, options: shuffle([b.token].concat(opts)) };
+            break;
+        }
+        if (!q) {   // fallback: pick the right Chinese meaning
+            const others = shuffle(levelData().filter(x => x !== w && x.chinese && x.chinese !== w.chinese)).slice(0, 3).map(x => x.chinese);
+            q = { type: 'meaning', stem: '「<b>' + esc(w.word) + '</b>」的意思是？', hint: '', answer: w.chinese, options: shuffle([w.chinese].concat(others)) };
+        }
+        quickQ = q;
+        box.innerHTML = '<div class="qq-card"><div class="qq-head">🎯 考考我' + (q.type === 'cloze' ? '：選出適合填入空格的字' : '') + '</div>' +
+            '<p class="qq-stem">' + q.stem + '</p>' + (q.hint ? '<button type="button" class="qq-hint-btn" onclick="const p=document.createElement(\'p\');p.className=\'qq-hint\';p.textContent=this.dataset.h;this.replaceWith(p)" data-h="' + esc(q.hint) + '">💡 看中文提示</button>' : '') +
+            '<div class="qq-opts">' + q.options.map((o, i) => '<button type="button" class="qq-opt" data-qq="' + i + '">' + esc(o) + '</button>').join('') + '</div>' +
+            '<div class="qq-fb" id="fx-qq-fb"></div></div>';
+        box.querySelectorAll('.qq-opt').forEach(b => b.addEventListener('click', () => answerQuick(parseInt(b.getAttribute('data-qq'), 10))));
+        box.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+    function answerQuick(i) {
+        const q = quickQ, w = currentWord, box = $('fx-quick-quiz');
+        if (!q || q.done || !box) return;
+        q.done = true;
+        const ok = q.options[i] === q.answer;
+        box.querySelectorAll('.qq-opt').forEach((b, j) => {
+            b.disabled = true;
+            if (q.options[j] === q.answer) b.classList.add('correct');
+            else if (j === i) b.classList.add('wrong');
+        });
+        beep(ok);
+        perf(w, ok);
+        srsUpdate(w, ok);
+        if (ok) addXP(5);
+        const ev = $('codex-mastery-evidence');
+        if (ev && typeof getWordEvidence === 'function') {
+            const e = getWordEvidence(w);
+            ev.className = 'mastery-evidence' + (e.mastered ? ' is-mastered' : '');
+            ev.innerText = e.mastered ? '✅ 已掌握 · 答對 ' + e.days + ' 天' : '📈 答對 ' + Math.min(e.days, e.need) + '/' + e.need + ' 天' + (e.last === 0 ? ' · 最近一次答錯' : '');
+        }
+        $('fx-qq-fb').innerHTML = (ok ? '✅ 答對了！+5 XP（不同日子答對 3 次就會「已掌握」）' : '❌ 正確答案是 <b>' + esc(q.answer) + '</b>，這個字已排進明天的複習。') +
+            ' <button type="button" class="qq-again" onclick="FX.quickQuiz()">再一題</button>';
+    }
+
+    // ------------------------------------------------------------------
+    // ▶ 連續播放: word → 中文 → example 1 → example 2 → next word …
+    // ------------------------------------------------------------------
+    let auto = { on: false, id: 0, timer: 0 };
+    function speechText(word) { return String(word).split('/')[0].replace(/\(.*?\)/g, '').trim(); }
+    function zhVoice() {
+        const vs = (window.speechSynthesis && speechSynthesis.getVoices()) || [];
+        return vs.find(v => /zh[-_]TW/i.test(v.lang)) || vs.find(v => /^zh/i.test(v.lang)) || null;
+    }
+    function sayQueue(items, id, done) {
+        if (!auto.on || auto.id !== id) return;
+        if (!items.length) { done(); return; }
+        const it = items[0];
+        const u = new SpeechSynthesisUtterance(it.text);
+        u.lang = it.lang; u.rate = it.rate;
+        if (it.voice) u.voice = it.voice;
+        let moved = false;
+        const next = () => { if (moved) return; moved = true; auto.timer = setTimeout(() => sayQueue(items.slice(1), id, done), it.pause || 350); };
+        u.onend = () => { auto.errs = 0; next(); };
+        u.onerror = e => {
+            if (!auto.on || auto.id !== id) return;
+            if (e && (e.error === 'interrupted' || e.error === 'canceled')) return;
+            auto.errs = (auto.errs || 0) + 1;
+            if (auto.errs >= 2) { stopAuto(); toast('🔇 這台裝置目前無法語音朗讀（請確認音量，或改用 Chrome／Safari）', 3500); return; }
+            next();
+        };
+        speechSynthesis.speak(u);
+    }
+    function autoPlayWord(id) {
+        const w = currentWord;
+        if (!auto.on || auto.id !== id || !w) return;
+        const items = [{ text: speechText(w.word), lang: 'en-US', rate: 0.8, pause: 300 }];
+        const zv = zhVoice();
+        if (zv && w.chinese) items.push({ text: w.chinese.replace(/[（(][^）)]*[）)]/g, ''), lang: zv.lang, voice: zv, rate: 1.0, pause: 400 });
+        (w.examples || []).slice(0, 2).forEach(ex => { if (ex && ex.en) items.push({ text: ex.en, lang: 'en-US', rate: 0.9, pause: 500 }); });
+        sayQueue(items, id, () => {
+            const list = navList(), i = navIndex(w);
+            if (i < 0 || i >= list.length - 1) { stopAuto(); toast('🎧 本章播放完畢'); return; }
+            auto.timer = setTimeout(() => {
+                if (!auto.on || auto.id !== id) return;
+                auto.navigating = true;
+                goWord(1);
+                auto.navigating = false;
+                autoPlayWord(id);
+            }, 900);
+        });
+    }
+    function startAuto() {
+        if (!hasTTS()) { toast('這個瀏覽器不支援語音朗讀'); return; }
+        stopAuto();
+        auto.on = true; auto.id++; auto.errs = 0;
+        document.body.classList.add('fx-autoplay');
+        let bar = $('fx-auto-bar');
+        if (!bar) {
+            bar = document.createElement('div'); bar.id = 'fx-auto-bar'; bar.className = 'fx-auto-bar';
+            bar.innerHTML = '<span>🎧 連續播放中</span><button type="button" onclick="FX.stopAuto()">■ 停止</button>';
+            document.body.appendChild(bar);
+        }
+        bar.style.display = 'flex';
+        speechSynthesis.cancel();
+        autoPlayWord(auto.id);
+    }
+    function stopAuto() {
+        if (!auto.on) return;
+        auto.on = false; auto.id++;
+        clearTimeout(auto.timer);
+        try { speechSynthesis.cancel(); } catch (e) { /* ignore */ }
+        document.body.classList.remove('fx-autoplay');
+        const bar = $('fx-auto-bar'); if (bar) bar.style.display = 'none';
+    }
+    // manual navigation / leaving the word page stops playback
+    document.addEventListener('click', e => {
+        if (!auto.on) return;
+        if (e.target.closest('#fx-auto-bar, .fx-auto-btn')) return;
+        if (e.target.closest('.word-row, .fx-nav-btn, .mtab, .mode-btn, .chapter-item, .mobile-back-btn, .header-level-btn, [data-open-word]')) stopAuto();
+    }, true);
+
+    // ------------------------------------------------------------------
+    // Swipe left/right on the word page = next/previous word (phones)
+    // ------------------------------------------------------------------
+    function initWordSwipe() {
+        const view = $('codex-detail-view');
+        if (!view) return;
+        let s = null;
+        const scrollsX = el => {
+            for (let n = el; n && n !== view; n = n.parentElement) {
+                if (n.scrollWidth > n.clientWidth + 2) { const ox = getComputedStyle(n).overflowX; if (ox === 'auto' || ox === 'scroll') return true; }
+            }
+            return false;
+        };
+        view.addEventListener('touchstart', e => {
+            if (e.touches.length !== 1) { s = null; return; }
+            const t = e.target;
+            if (t.closest('input, textarea, select, .codex-tabs-bar, .qq-card, audio') || scrollsX(t)) { s = null; return; }
+            s = { x: e.touches[0].clientX, y: e.touches[0].clientY, t: Date.now() };
+        }, { passive: true });
+        view.addEventListener('touchend', e => {
+            if (!s) return;
+            const c = e.changedTouches[0], dx = c.clientX - s.x, dy = c.clientY - s.y, dt = Date.now() - s.t;
+            s = null;
+            if (dt > 700 || Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 2) return;
+            const sel = window.getSelection && String(window.getSelection());
+            if (sel) return;
+            const step = dx < 0 ? 1 : -1;
+            const list = navList(), i = navIndex(currentWord);
+            if (!list[i + step]) { toast(step > 0 ? '已經是本章最後一個字' : '已經是本章第一個字', 1500); return; }
+            if (auto.on) stopAuto();
+            const cont = document.querySelector('#codex-detail-view .codex-container') || view;
+            goWord(step);
+            cont.classList.remove('fx-slide-l', 'fx-slide-r');
+            void cont.offsetWidth;
+            cont.classList.add(step > 0 ? 'fx-slide-l' : 'fx-slide-r');
+            if (!lsGet('fx_swipe_hint_word', false)) { lsSet('fx_swipe_hint_word', true); }
+        }, { passive: true });
+    }
+    function swipeHintOnce() {
+        if (!window.matchMedia('(max-width: 768px)').matches || lsGet('fx_swipe_hint_word', false)) return;
+        lsSet('fx_swipe_hint_word', true);
+        setTimeout(() => toast('👉 小技巧：在單字頁左右滑動，就能換上一個／下一個字', 3500), 600);
+    }
 
     // ------------------------------------------------------------------
     // Mobile chrome: hide header + tab bar while scrolling down, show on
@@ -2202,6 +2536,8 @@
     // ------------------------------------------------------------------
     function init() {
         initSwipe();
+        initWordSwipe();
+        initCardBadge();
         initMobileChrome();
         updateTabbar();
         initPWA();
