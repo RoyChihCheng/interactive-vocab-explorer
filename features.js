@@ -408,6 +408,12 @@
     // ------------------------------------------------------------------
     const METHOD_URL = 'https://github.com/RoyChihCheng/interactive-vocab-explorer/blob/main/METHODOLOGY.md';
     function enhanceCodex(word) {
+        // phones: the word page is one scroller — start each new word at the top
+        if (window.matchMedia('(max-width: 768px)').matches && enhanceCodex.lastWord !== word) {
+            const mp = $('main-display-panel-element');
+            if (mp) mp.scrollTop = 0;
+        }
+        enhanceCodex.lastWord = word;
         // 1. Exam stars in header
         const starEl = $('codex-exam-stars');
         if (starEl) {
@@ -2034,26 +2040,42 @@
         const mq = window.matchMedia('(max-width: 768px)');
         const body = document.body;
         const last = new WeakMap();
-        const header = document.querySelector('header');
         function setImmersive(on) {
-            if (on && header) body.style.setProperty('--fx-hdr-h', header.offsetHeight + 'px');
-            body.classList.toggle('fx-immersive', !!on);
+            on = !!on;
+            if (body.classList.contains('fx-immersive') !== on) body.classList.toggle('fx-immersive', on);
         }
-        document.addEventListener('scroll', e => {
-            if (!mq.matches) return;
-            const t = e.target === document ? document.scrollingElement : e.target;
-            if (!t || t.nodeType !== 1 || t.closest('.chapter-sidebar')) return;
+        // read scroll positions once per frame; never force layout inside the handler
+        let pendingEl = null, rafId = 0;
+        function onFrame() {
+            rafId = 0;
+            const t = pendingEl; pendingEl = null;
+            if (!t) return;
             const y = t.scrollTop, prev = last.has(t) ? last.get(t) : y;
             last.set(t, y);
             if (y < 24) setImmersive(false);
             else if (y - prev > 6) setImmersive(true);
             else if (prev - y > 6) setImmersive(false);
-        }, true);
+        }
+        document.addEventListener('scroll', e => {
+            if (!mq.matches) return;
+            const t = e.target === document ? document.scrollingElement : e.target;
+            if (!t || t.nodeType !== 1 || t.closest('.chapter-sidebar')) return;
+            pendingEl = t;
+            if (!rafId) rafId = requestAnimationFrame(onFrame);
+        }, { capture: true, passive: true });
         mq.addEventListener ? mq.addEventListener('change', () => setImmersive(false)) : mq.addListener(() => setImmersive(false));
         // any navigation (tab, mode, word, chapter) brings the chrome back
         window.addEventListener('hashchange', () => setImmersive(false));
         document.addEventListener('click', e => {
             if (e.target.closest('.mtab, .mode-btn, .chapter-item, .fx-overview-btn, .mobile-back-btn')) setImmersive(false);
+            // word page is one scroller on phones: a newly chosen tab starts at its top
+            const tab = mq.matches && e.target.closest('.codex-tab');
+            if (tab) {
+                const mp = $('main-display-panel-element'), bar = tab.closest('.codex-tabs-bar');
+                const prev = bar && bar.previousElementSibling;   // sticky offsetTop is unreliable: use the card above
+                const top = prev ? prev.offsetTop + prev.offsetHeight : 0;
+                if (mp && bar && mp.scrollTop > top) mp.scrollTop = top;
+            }
         }, true);
 
         const sb = $('chapter-sidebar');

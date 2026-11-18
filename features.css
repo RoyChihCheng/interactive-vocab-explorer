@@ -622,3 +622,41 @@ mark.fx-hw { background: rgba(14, 165, 233, 0.18); color: var(--primary); font-w
     .codex-tab { padding: 10px 12px !important; }
     body.fx-immersive .mobile-back-bar { display: none !important; }
 }
+
+/* ==========================================================================
+   Round 4: smooth scrolling on phones
+   - one scroll container per screen (no box-in-box scrolling on the word page)
+   - auto-hide only moves the tab bar with transform: no layout change mid-scroll
+   - no backdrop-filter blur on mobile (expensive to repaint while scrolling)
+   ========================================================================== */
+@media (max-width: 768px) {
+    header, .chapter-sidebar, .sidebar-toggle-btn, .word-list-panel, .landing-card, .mobile-tabbar {
+        -webkit-backdrop-filter: none !important; backdrop-filter: none !important;
+    }
+    header { background: #fff !important; transition: none !important; }
+    .mobile-tabbar { background: #fff !important; will-change: transform; }
+
+    /* header stays put; only the tab bar slides away (compositor-only) */
+    body.fx-immersive header { margin-top: 0 !important; opacity: 1 !important; pointer-events: auto !important; }
+    body.fx-immersive .search-container .pos-filters { display: flex !important; }
+    body.fx-immersive .search-container .fx-overview-btn { display: block !important; }
+    body.fx-immersive .mobile-back-bar { display: flex !important; }
+    /* the tab bar overlays content; scrollers reserve room for it instead of the body */
+    body, body.fx-immersive { padding-bottom: 0 !important; transition: none !important; }
+    #words-scroll-ul, #main-display-panel-element, .chapter-list, #quiz-view, .flashcard-arena {
+        padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px)) !important;
+    }
+
+    /* scrollers: momentum scrolling, no scroll chaining / accidental pull-to-refresh */
+    #words-scroll-ul, #main-display-panel-element, .chapter-sidebar, #quiz-view, .flashcard-arena {
+        -webkit-overflow-scrolling: touch; overscroll-behavior-y: contain;
+    }
+    .word-list-panel { overflow: hidden !important; }
+    #main-display-panel-element { overflow-x: hidden !important; overflow-y: auto !important; }
+
+    /* word page: the whole page scrolls as one; tabs stick to the top */
+    .codex-container { height: auto !important; overflow: visible !important; flex: none !important; }
+    .codex-tab-content-container { overflow: visible !important; flex: none !important; }
+    .codex-tabs-bar { position: sticky; top: 0; z-index: 20; background: #fff; }
+    .codex-pane { animation: none !important; }
+}
