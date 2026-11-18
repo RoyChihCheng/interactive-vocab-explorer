@@ -8,7 +8,12 @@
    functions of the main app (selectWord, selectChapter, switchMode, ...)
    instead of editing them, and stores everything in localStorage.
    Optional data fields are feature-detected: examples[i].zh / .sense,
-   chinese_sentence_en, exam, and the global CONFUSABLES (data_extras.js).
+   chinese_sentence_en, exam, and the globals CONFUSABLES / ROOTS /
+   RECALL_GROUPS (data_extras.js).
+   Round 2: lazy level loading (awaits window.APP_READY / selectLevel promises),
+   PWA service worker, performance-based mastery, roots chips + browser,
+   exam-priority daily plan, paper recall check-in, mobile bottom tab bar,
+   「我的」 stats page.
    Plain ES2017, no libraries.
    ========================================================================== */
 (function () {
@@ -64,6 +69,19 @@
         try { if (typeof CONFUSABLES !== 'undefined' && CONFUSABLES) return CONFUSABLES; } catch (e) { /* not loaded */ }
         return window.CONFUSABLES || null;
     }
+    function getRoots() {
+        try { if (typeof ROOTS !== 'undefined' && Array.isArray(ROOTS)) return ROOTS; } catch (e) { /* not loaded */ }
+        return Array.isArray(window.ROOTS) ? window.ROOTS : null;
+    }
+    function getRecallGroups() {
+        try { if (typeof RECALL_GROUPS !== 'undefined' && RECALL_GROUPS) return RECALL_GROUPS; } catch (e) { /* not loaded */ }
+        return window.RECALL_GROUPS || null;
+    }
+    // Performance record for mastery (index.html: recordWordResult)
+    function perf(w, ok) { try { return window.recordWordResult(w, ok); } catch (e) { console.error('[features] perf', e); return null; } }
+    function wordStars(w) { return w && w.exam ? starCount(w.exam.count || 0, w) : 0; }
+    // data-attribute driven word links (avoid quoting words into inline JS)
+    function wordLinkAttrs(lv, word) { return ' data-open-lv="' + esc(lv) + '" data-open-word="' + esc(word) + '"'; }
 
     // ------------------------------------------------------------------
     // Headword forms + locating the headword token inside an example
@@ -190,6 +208,7 @@
         const g = lsGet(gKey(), null) || {};
         g.xp = g.xp || 0; g.badges = g.badges || {}; g.srs = g.srs || {};
         g.collocBest = g.collocBest || {}; g.wfDone = g.wfDone || {}; g.sentDone = g.sentDone || {};
+        g.qstat = g.qstat || { n: 0, ok: 0 }; g.rstat = g.rstat || { n: 0, ok: 0 };
         return g;
     }
     function saveG(g) { lsSet(gKey(), g); renderHeader(); }
@@ -274,7 +293,10 @@
         el.innerHTML =
             '<button class="gami-chip gami-xp" id="gami-xp-chip" title="Level ' + currentLevel + ' 累積經驗值 (XP)" onclick="FX.openQuiz()">⚡ <b>' + g.xp + '</b> XP</button>' +
             '<span class="gami-chip gami-streak" title="連續學習天數（每天至少完成一次練習）">🔥 <b>' + currentStreak() + '</b> 天</span>' +
-            '<button class="gami-chip gami-due' + (due ? ' has-due' : '') + '" title="今日待複習單字" onclick="FX.openQuiz(\'review\')">📅 <span class="gami-label">待複習</span> <b>' + due + '</b></button>';
+            '<button class="gami-chip gami-due' + (due ? ' has-due' : '') + '" title="今日待複習單字" onclick="FX.openPage(\'review\')">📅 <span class="gami-label">待複習</span> <b>' + due + '</b></button>' +
+            '<button class="gami-chip gami-me" title="我的學習紀錄（XP、徽章、掌握度、離線下載）" onclick="FX.openPage(\'me\')">👤 <span class="gami-label">我的</span></button>';
+        const badge = $('mtab-due-badge');
+        if (badge) { badge.textContent = due ? (due > 99 ? '99+' : due) : ''; badge.style.display = due ? '' : 'none'; }
     }
 
     // ------------------------------------------------------------------
@@ -397,6 +419,9 @@
                 starEl.style.display = 'none';
             }
         }
+
+        // 1b. Roots / affixes chips (ROOTS from data_extras.js)
+        renderRootsSection(word);
 
         // 2. Exam example sentence in meaning pane
         const old = $('fx-exam-section');
@@ -679,8 +704,11 @@
     function renderHub() {
         stopTimers();
         Q.round = null;
+        Q.page = 'hub';
         const due = dueWords().length;
+        const freqN = freqWords().length;
         if (Q.scope === 'review' && !due) Q.scope = 'chapter';
+        if (Q.scope === 'freq' && !freqN) Q.scope = 'chapter';
         const chCount = chapterWords().length;
         const famCount = levelData().filter(w => usableFamily(w).length >= 2).length;
         const board = lsGet('rapid_board_level_' + currentLevel, []);
@@ -695,11 +723,13 @@
             '<div class="quiz-wrap">' +
             '<div class="quiz-hub-head"><div><div class="quiz-kicker">' + chapterLabel() + '</div><h2 class="quiz-title">⚡ 挑戰模式</h2></div>' +
             '<button class="fx-btn fx-btn-ghost" type="button" onclick="FX.toggleMute()">' + (isMuted() ? '🔇 音效關' : '🔊 音效開') + '</button></div>' +
+            todayPlanHTML() +
 
             '<section class="fx-card"><h3 class="fx-card-title">📝 單字挑戰（每輪 ' + ROUND_SIZE + ' 題）</h3>' +
             '<div class="fx-row"><span class="fx-row-label">範圍</span>' +
             '<button type="button" class="fx-chip ' + (Q.scope === 'chapter' ? 'active' : '') + '" onclick="FX.setScope(\'chapter\')">本章單字（' + chCount + '）</button>' +
-            '<button type="button" class="fx-chip ' + (Q.scope === 'review' ? 'active' : '') + '" ' + (due ? '' : 'disabled') + ' onclick="FX.setScope(\'review\')">📅 今日待複習（' + due + '）</button></div>' +
+            '<button type="button" class="fx-chip ' + (Q.scope === 'review' ? 'active' : '') + '" ' + (due ? '' : 'disabled') + ' onclick="FX.setScope(\'review\')">📅 今日待複習（' + due + '）</button>' +
+            '<button type="button" class="fx-chip ' + (Q.scope === 'freq' ? 'active' : '') + '" ' + (freqN ? '' : 'disabled') + ' title="本級 ★★★／★★ 考試高頻字中，尚未掌握的字" onclick="FX.setScope(\'freq\')">⭐ 高頻字優先（' + freqN + '）</button></div>' +
             '<div class="fx-row"><span class="fx-row-label">題型</span>' + typeChip('cloze') + typeChip('mc') + typeChip('listen') + '</div>' +
             '<button class="landing-btn" type="button" id="quiz-start-btn" onclick="FX.startRound()">開始挑戰</button>' +
             '<p class="fx-small-muted">答對 +10 XP（看提示後答對 +5）。答對的字依 D1→D3→D7→D14 排入複習；答錯會回到 D1（明天再複習）。' + (due ? '' : '今天沒有待複習的單字 🎉') + '</p></section>' +
@@ -708,6 +738,9 @@
             '<section class="fx-card fx-game"><h3 class="fx-card-title">🔗 搭配詞配對</h3><p class="fx-small-muted">本章隨機 ' + COLLOC_PAIRS + ' 組搭配詞，英中配對，計時挑戰。' + (best ? '<br>最佳紀錄：<b>' + best.toFixed(1) + ' 秒</b>' : '') + '</p><button class="fx-btn" type="button" onclick="FX.startColloc()">開始配對</button></section>' +
             '<section class="fx-card fx-game"><h3 class="fx-card-title">⏱️ 單字快閃對戰</h3><p class="fx-small-muted">' + RAPID_SECONDS + ' 秒內看中文選英文，答越多越好！' + (board.length ? '<br>個人最佳：<b>' + board[0].score + ' 題</b>' : '') + '</p><button class="fx-btn" type="button" onclick="FX.startRapid()">開始對戰</button></section>' +
             (famCount ? '<section class="fx-card fx-game"><h3 class="fx-card-title">🧩 字族分類</h3><p class="fx-small-muted">把衍生字拖進正確詞性籃（本級共 ' + famCount + ' 組可玩）。</p><button class="fx-btn" type="button" onclick="FX.startFamily()">來一組</button></section>' : '') +
+            '<section class="fx-card fx-game"><h3 class="fx-card-title">🃏 卡牌 Arena</h3><p class="fx-small-muted">翻卡複習本章單字；按「我記得」也算一次答對。</p><button class="fx-btn" type="button" onclick="switchMode(\'arena\')">翻卡練習</button></section>' +
+            '<section class="fx-card fx-game"><h3 class="fx-card-title">📝 紙本回想表打卡</h3><p class="fx-small-muted">寫完講義的回想練習（R01、R02…）後在這裡打卡，那組單字會排進複習。</p><button class="fx-btn" type="button" onclick="FX.openPage(\'recall\')">去打卡</button></section>' +
+            '<section class="fx-card fx-game"><h3 class="fx-card-title">🌱 字根字首字尾</h3><p class="fx-small-muted">用字根把單字串起來記，一次認識一整串字。</p><button class="fx-btn" type="button" onclick="FX.openPage(\'roots\')">瀏覽字根</button></section>' +
             '</div>' +
 
             '<section class="fx-card"><h3 class="fx-card-title">🗺️ 主題地圖</h3>' + themeMapHTML() + '</section>' +
@@ -718,6 +751,7 @@
 
     function themeMapHTML() {
         const mastered = new Set(getMasteredList());
+        const selfRated = new Set(getSelfRatedList());
         const srs = G().srs, t = today();
         const data = levelData();
         return '<div class="theme-map">' + CHAPTER_ORDER.map((ch, i) => {
@@ -725,11 +759,13 @@
             const n = ws.filter(w => mastered.has(wkey(w))).length;
             const pct = ws.length ? Math.round(n / ws.length * 100) : 0;
             const due = ws.filter(w => { const e = srs[wkey(w)]; return e && e.due && e.due <= t; }).length;
+            const self = ws.filter(w => selfRated.has(wkey(w))).length;
             return '<button type="button" class="tm-tile ' + (ch === currentChapter ? 'active' : '') + (pct >= 100 ? ' done' : '') + '" onclick="FX.gotoChapter(' + i + ')" title="' + esc(ch) + '">' +
                 '<span class="tm-top"><span class="tm-num">' + (i + 1) + '</span><span class="tm-badges">' + badgeIcons(ch) + '</span></span>' +
                 '<span class="tm-zh">' + esc(CHAPTER_INFO[ch].zh) + '</span>' +
                 '<span class="tm-bar"><i style="width:' + pct + '%"></i></span>' +
-                '<span class="tm-meta">' + pct + '% 掌握' + (due ? ' · 📅' + due : '') + '</span></button>';
+                '<span class="tm-meta">' + pct + '% 掌握' + (due ? ' · 📅' + due : '') + '</span>' +
+                (self ? '<span class="tm-self">自評 ' + self + '</span>' : '') + '</button>';
         }).join('') + '</div>';
     }
 
@@ -770,12 +806,20 @@
         }
         return q;
     }
+    // ★★★/★★ exam words of the level that are not yet (performance-)mastered
+    function freqWords() {
+        const mastered = new Set(getMasteredList());
+        return levelData().filter(w => wordStars(w) >= 2 && !mastered.has(wkey(w)));
+    }
     function buildRound(scope) {
-        const pool = scope === 'review' ? dueWords() : chapterWords();
+        const pool = scope === 'review' ? dueWords() : (scope === 'freq' ? freqWords() : chapterWords());
         let types = Object.keys(TYPE_LABELS).filter(t => Q.types[t] && (t !== 'listen' || hasTTS()));
         if (!types.length) types = ['mc'];
         const qs = [];
-        const words = shuffle(pool);
+        // high-frequency scope: ★★★ first (random within a star tier)
+        const words = scope === 'freq'
+            ? shuffle(pool).map((w, i) => ({ w: w, i: i, s: wordStars(w) })).sort((a, b) => b.s - a.s || a.i - b.i).map(x => x.w)
+            : shuffle(pool);
         for (let i = 0; i < words.length && qs.length < ROUND_SIZE; i++) {
             const tps = shuffle(types);
             for (let k = 0; k < tps.length; k++) {
@@ -826,7 +870,7 @@
         }
         quizRoot().innerHTML =
             '<div class="quiz-wrap quiz-play">' +
-            '<div class="quiz-play-head"><span>' + (r.scope === 'review' ? '📅 今日複習' : chapterLabel()) + '</span>' +
+            '<div class="quiz-play-head"><span>' + (r.scope === 'review' ? '📅 今日複習' : (r.scope === 'freq' ? '⭐ 高頻字優先 · Level ' + currentLevel : chapterLabel())) + '</span>' +
             '<span class="quiz-type-tag">' + TYPE_LABELS[q.type] + '</span>' +
             '<button type="button" class="fx-link" onclick="FX.quitRound()">離開</button></div>' +
             '<div class="quiz-progress"><div class="progress-bar-bg"><div class="progress-bar-fill" style="width:' + pct + '%"></div></div>' +
@@ -872,6 +916,8 @@
         const xp = ok ? (q.firstTry ? 10 : 5) : 0;
         r.xp += xp;
         srsUpdate(q.word, q.firstTry);
+        perf(q.word, q.firstTry);
+        const gs = G(); gs.qstat.n++; if (q.firstTry) gs.qstat.ok++; saveG(gs);
         if (xp) addXP(xp); else recordActivity();
         beep(ok);
         // visual states
@@ -978,6 +1024,8 @@
         const chosen = R.q.options[+btn.getAttribute('data-i')];
         const ok = chosen === R.q.word;
         R.answered++;
+        perf(R.q.word, ok);
+        const gs = G(); gs.rstat.n++; if (ok) gs.rstat.ok++; saveG(gs);
         if (ok) { R.score++; R.combo++; btn.classList.add('correct'); }
         else {
             R.combo = 0; btn.classList.add('wrong');
@@ -999,6 +1047,7 @@
         const top = board.slice(0, 5);
         lsSet(key, top);
         const rank = top.indexOf(entry);
+        lsSet('rapid_last_level_' + currentLevel, today());
         if (R.score) addXP(R.score * 2); else recordActivity();
         if (rank === 0 && R.score > 0) confetti();
         quizRoot().innerHTML =
@@ -1097,6 +1146,509 @@
     }
 
     // ------------------------------------------------------------------
+    // Pages inside the quiz view: hub | review | recall | roots | me
+    // ------------------------------------------------------------------
+    function enterQuizMode() {
+        closeSharePop();
+        stopTimers();
+        Q.round = null;
+        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+        $('mode-quiz').classList.add('active');
+        const app = document.querySelector('.app-container');
+        app.classList.add('arena-mode', 'quiz-mode');
+        app.classList.remove('mobile-show-details');
+        showQuizView();
+    }
+    function openPage(page, opts) {
+        enterQuizMode();
+        renderHeader();
+        Q.page = page || 'hub';
+        if (Q.page !== 'recall') setHash(hashForChapter());
+        renderCurrentPage(opts);
+    }
+    function renderCurrentPage(opts) {
+        opts = opts || {};
+        switch (Q.page) {
+            case 'review': renderReviewPage(); break;
+            case 'recall': renderRecallPage(opts.ch, opts.code); break;
+            case 'roots': renderRootsPage(); break;
+            case 'me': renderMePage(); break;
+            default: renderHub();
+        }
+        const qv = quizRoot(); if (qv && !opts.keepScroll) qv.scrollTop = 0;
+        updateTabbar();
+    }
+    function pageHead(kicker, title) {
+        return '<div class="quiz-hub-head"><div><div class="quiz-kicker">' + kicker + '</div><h2 class="quiz-title">' + title + '</h2></div>' +
+            '<button class="fx-btn fx-btn-ghost fx-desktop-only" type="button" onclick="FX.openPage(\'hub\')">⚡ 挑戰首頁</button></div>';
+    }
+
+    // ------------------------------------------------------------------
+    // 今日任務 (exam-priority daily plan)
+    // ------------------------------------------------------------------
+    const PLAN_NEW = 10;
+    function pickNewWords(n) {
+        const srs = G().srs, pd = getPerfData(), self = new Set(getSelfRatedList());
+        return levelData().map((w, i) => ({ w: w, i: i, s: wordStars(w) }))
+            .filter(x => { const k = wkey(x.w); return !srs[k] && !pd[k] && !self.has(k); })
+            .sort((a, b) => b.s - a.s || a.i - b.i)        // highest exam stars first, then book order
+            .slice(0, n).map(x => wkey(x.w));
+    }
+    // The 10 new words are fixed for the day so the list does not shift while learning.
+    function todayPlan() {
+        const data = levelData();
+        if (!data.length) return null;
+        const key = 'plan_level_' + currentLevel;
+        let p = lsGet(key, null);
+        if (!p || p.date !== today() || !Array.isArray(p.words)) {
+            p = { date: today(), words: pickNewWords(PLAN_NEW) };
+            lsSet(key, p);
+        }
+        const byKey = {};
+        data.forEach(w => { byKey[wkey(w)] = w; });
+        const srs = G().srs, pd = getPerfData();
+        p.items = p.words.map(k => byKey[k]).filter(Boolean);
+        p.seen = p.items.filter(w => srs[wkey(w)] || pd[wkey(w)]);
+        return p;
+    }
+    function todayPlanHTML() {
+        const p = todayPlan();
+        if (!p) return '';
+        const due = dueWords().length;
+        const rapidDone = lsGet('rapid_last_level_' + currentLevel, '') === today();
+        const learnDone = p.items.length > 0 && p.seen.length >= p.items.length;
+        const seenSet = new Set(p.seen.map(wkey));
+        const item = (done, ico, title, sub, btn) =>
+            '<div class="plan-item' + (done ? ' done' : '') + '"><span class="plan-ico">' + (done ? '✅' : ico) + '</span>' +
+            '<div class="plan-body"><b>' + title + '</b><span class="fx-small-muted">' + sub + '</span></div>' + btn + '</div>';
+        const words = p.items.map(w =>
+            '<button type="button" class="plan-word' + (seenSet.has(wkey(w)) ? ' seen' : '') + '"' + wordLinkAttrs(currentLevel, w.word) + ' title="' + esc(w.chinese) + '">' +
+            esc(w.word) + (wordStars(w) ? '<small>' + '★'.repeat(wordStars(w)) + '</small>' : '') + '</button>').join('');
+        return '<section class="fx-card fx-plan"><h3 class="fx-card-title">📋 今日任務 <span class="fx-small-muted">Level ' + currentLevel + ' · ' + today() + '</span></h3>' +
+            item(!due, '📅', '到期複習', due ? due + ' 個字今天該複習了（D1→D3→D7→D14）' : '今天沒有到期的複習 🎉',
+                '<button type="button" class="fx-btn" onclick="FX.planReview()"' + (due ? '' : ' disabled') + '>開始複習</button>') +
+            item(learnDone, '🆕', '學 ' + PLAN_NEW + ' 個新字（考試高頻優先）',
+                p.items.length ? '已學 ' + p.seen.length + ' / ' + p.items.length + ' · 依歷屆考題星等 ★★★ 優先，再依講義順序' : '本級單字你都學過了！',
+                '<button type="button" class="fx-btn" onclick="FX.planLearn()"' + (p.items.length ? '' : ' disabled') + '>' + (learnDone ? '再翻一次' : '開始學習') + '</button>') +
+            (p.items.length ? '<div class="plan-words">' + words + '</div>' : '') +
+            item(rapidDone, '⏱️', '快閃對戰一場', RAPID_SECONDS + ' 秒看中文選英文' + (rapidDone ? '（今天已完成）' : ''),
+                '<button type="button" class="fx-btn" onclick="FX.planRapid()">開始對戰</button>') +
+            '</section>';
+    }
+    // Flashcard deck of arbitrary words (today's new words)
+    let customDeck = null;
+    function startCustomArena(words, label) {
+        if (!words.length) return;
+        if (currentMode() !== 'arena') switchMode('arena');   // builds the chapter deck…
+        customDeck = { words: words.slice(), label: label };   // …which is replaced here
+        arenaDeck = words.slice();
+        arenaIndex = 0;
+        $('arena-chapter-label').textContent = label;
+        showArenaCard();
+        updateTabbar();
+    }
+    function planLearn() {
+        const p = todayPlan();
+        if (!p || !p.items.length) return;
+        const seen = new Set(p.seen.map(wkey));
+        const deck = p.items.filter(w => !seen.has(wkey(w))).concat(p.items.filter(w => seen.has(wkey(w))));
+        startCustomArena(deck, '📋 今日新字（' + p.items.length + ' 個，高頻優先）');
+    }
+    function planReview() {
+        if (!dueWords().length) return;
+        const fromReview = Q.page === 'review' && currentMode() === 'quiz';
+        enterQuizMode();
+        Q.page = fromReview ? 'review' : 'hub';   // keeps the 複習 tab highlighted on phones
+        Q.scope = 'review';
+        updateTabbar();
+        startRound();
+    }
+    function planRapid() {
+        enterQuizMode();
+        Q.page = 'hub';
+        updateTabbar();
+        startRapid();
+    }
+
+    // ------------------------------------------------------------------
+    // 紙本回想表打卡 (paper recall check-in) — RECALL_GROUPS from data_extras.js
+    // ------------------------------------------------------------------
+    function recallGroupsFor(ci) {
+        const all = getRecallGroups();
+        return all ? (all['L' + currentLevel + '-C' + pad2(ci + 1)] || []) : [];
+    }
+    function recallGroupWords(ci, gr) {
+        const ws = chapterWords(CHAPTER_ORDER[ci]);
+        const from = Math.max(1, parseInt(gr.from, 10) || 1), to = Math.min(ws.length, parseInt(gr.to, 10) || ws.length);
+        return ws.slice(from - 1, to);
+    }
+    function recallKey() { return 'recall_checkins_level_' + currentLevel; }
+    function recallId(ci, code) { return 'C' + pad2(ci + 1) + '-' + code; }
+    function recallListHTML(ci, highlight) {
+        if (!getRecallGroups()) return '<p class="fx-warn">尚未載入紙本回想表分組資料（data_extras.js 的 RECALL_GROUPS）。</p>';
+        const groups = recallGroupsFor(ci);
+        if (!groups.length) return '<p class="fx-small-muted">本章沒有回想練習分組。</p>';
+        const ck = lsGet(recallKey(), {});
+        const t = today();
+        return '<div class="rc-list">' + groups.map(gr => {
+            const code = String(gr.code || '');
+            const dates = ck[recallId(ci, code)] || [];
+            const doneToday = dates.indexOf(t) >= 0;
+            const ws = recallGroupWords(ci, gr);
+            const hl = highlight && code.toUpperCase() === String(highlight).toUpperCase();
+            return '<div class="rc-group' + (hl ? ' hl' : '') + (dates.length ? ' checked' : '') + '" id="rc-' + esc(code) + '">' +
+                '<div class="rc-head"><span class="rc-code">' + esc(code) + '</span><span class="rc-range">詞條 ' + esc(gr.from) + '–' + esc(gr.to) + '</span>' +
+                (dates.length ? '<span class="rc-status">✅ 已打卡 ' + dates.length + ' 次 · 最近 ' + esc(dates[dates.length - 1]) + '</span>' : '<span class="rc-status todo">尚未打卡</span>') + '</div>' +
+                '<div class="rc-words">' + ws.map(w => '<button type="button" class="rc-word"' + wordLinkAttrs(currentLevel, w.word) + ' title="' + esc(w.chinese) + '">' + esc(w.word) + '</button>').join('') + '</div>' +
+                '<button type="button" class="fx-btn rc-btn" data-recall-ch="' + ci + '" data-recall-code="' + esc(code) + '"' + (doneToday ? ' disabled' : '') + '>' +
+                (doneToday ? '✅ 今天已打卡' : '我完成了這組') + '</button></div>';
+        }).join('') + '</div>';
+    }
+    function chapterChips(activeIdx, extraCls) {
+        return '<div class="fx-row rc-chapters">' + CHAPTER_ORDER.map((ch, i) =>
+            '<button type="button" class="fx-chip ' + (extraCls || '') + (i === activeIdx ? ' active' : '') + '" onclick="FX.gotoChapter(' + i + ')" title="' + esc(CHAPTER_INFO[ch].zh) + '">Ch ' + (i + 1) + '</button>').join('') + '</div>';
+    }
+    function renderRecallPage(ci, code) {
+        Q.page = 'recall';
+        if (typeof ci !== 'number' || ci < 0) ci = chIndex();
+        quizRoot().innerHTML = '<div class="quiz-wrap">' +
+            pageHead('Level ' + currentLevel + ' · Chapter ' + (ci + 1) + ' · ' + esc(CHAPTER_INFO[CHAPTER_ORDER[ci]].zh), '📝 紙本回想表打卡') +
+            '<section class="fx-card"><p class="fx-small-muted">在紙本講義寫完一組「回想練習」後，按「我完成了這組」：這組的單字會排進明天（D1）的複習；已排程且到期的字則往下一階推進。可掃描講義上的 QR code 直接開到該組。</p>' +
+            chapterChips(ci) + recallListHTML(ci, code) + '</section></div>';
+        if (code) {
+            const el = document.getElementById('rc-' + String(code).toUpperCase()) || document.getElementById('rc-' + code);
+            if (el) setTimeout(() => el.scrollIntoView({ block: 'center', behavior: 'smooth' }), 60);
+        }
+        setHash('#L' + currentLevel + '/ch' + (ci + 1) + (code ? '/' + String(code).toUpperCase() : ''));
+    }
+    function recallCheckin(ci, code) {
+        const gr = recallGroupsFor(ci).find(x => String(x.code) === String(code));
+        if (!gr) return;
+        const ws = recallGroupWords(ci, gr), t = today();
+        const ck = lsGet(recallKey(), {}), id = recallId(ci, code);
+        const dates = ck[id] = ck[id] || [];
+        if (dates.indexOf(t) >= 0) { toast('今天已經打卡過這一組了'); return; }
+        const g = G();
+        let added = 0, advanced = 0, kept = 0;
+        ws.forEach(w => {
+            const k = wkey(w), e = g.srs[k];
+            if (!e || !e.due) { g.srs[k] = { stage: 1, due: addDays(INTERVALS[0]) }; added++; }
+            else if (e.due <= t) { e.stage = Math.min((e.stage || 0) + 1, INTERVALS.length); e.due = addDays(INTERVALS[e.stage - 1]); advanced++; }
+            else kept++;   // already scheduled for a later day — no early cramming
+        });
+        saveG(g);
+        dates.push(t);
+        lsSet(recallKey(), ck);
+        addXP(5);
+        beep(true);
+        toast('📝 ' + esc(code) + ' 打卡完成：新排入複習 ' + added + ' 字' + (advanced ? '、推進 ' + advanced + ' 字' : '') + (kept ? '、' + kept + ' 字已在排程中' : ''), 3200);
+        if (Q.page === 'recall') renderRecallPage(ci, code); else renderCurrentPage({ keepScroll: true });
+    }
+
+    // ------------------------------------------------------------------
+    // 複習 page (mobile tab): today's plan + due words + recall check-in
+    // ------------------------------------------------------------------
+    function renderReviewPage() {
+        Q.page = 'review';
+        const due = dueWords();
+        const ci = chIndex();
+        quizRoot().innerHTML = '<div class="quiz-wrap">' +
+            pageHead('Level ' + currentLevel, '📅 今日複習') +
+            todayPlanHTML() +
+            '<section class="fx-card"><h3 class="fx-card-title">📅 到期複習（' + due.length + '）</h3>' +
+            (due.length
+                ? '<div class="plan-words">' + due.slice(0, 40).map(w => '<button type="button" class="plan-word"' + wordLinkAttrs(currentLevel, w.word) + '>' + esc(w.word) + '</button>').join('') +
+                  (due.length > 40 ? '<span class="fx-small-muted">… 共 ' + due.length + ' 字</span>' : '') + '</div>' +
+                  '<button type="button" class="landing-btn" onclick="FX.planReview()">開始複習（每輪 ' + ROUND_SIZE + ' 題）</button>'
+                : '<p class="fx-small-muted">今天沒有到期的複習 🎉 答錯或新學的字會自動排進明天的複習。</p>') + '</section>' +
+            '<section class="fx-card"><h3 class="fx-card-title">📝 紙本回想表打卡 · Chapter ' + (ci + 1) + ' ' + esc(CHAPTER_INFO[currentChapter].zh) + '</h3>' +
+            chapterChips(ci) + recallListHTML(ci, null) + '</section></div>';
+    }
+
+    // ------------------------------------------------------------------
+    // 字根 / 字首 / 字尾 (ROOTS from data_extras.js)
+    // ------------------------------------------------------------------
+    let rootIdx = { src: null, map: null };
+    function rootIndex() {
+        const R = getRoots();
+        if (!R) return null;
+        if (rootIdx.src === R) return rootIdx.map;
+        const map = {};
+        R.forEach(r => (r.words || []).forEach(m => {
+            const k = String(m.w || '').toLowerCase();
+            if (k) (map[k] = map[k] || []).push({ r: r, lv: m.level });
+        }));
+        rootIdx = { src: R, map: map };
+        return map;
+    }
+    function rootsForWord(w, lv) {
+        const map = rootIndex();
+        if (!map) return [];
+        const hits = map[wkey(w)] || [];
+        const exact = hits.filter(h => h.lv == null || +h.lv === +lv);
+        const out = [];
+        (exact.length ? exact : hits).forEach(h => { if (out.indexOf(h.r) < 0) out.push(h.r); });
+        return out;
+    }
+    function rootMemberChip(m, lv) {
+        const other = +m.level !== +lv;
+        return '<button type="button" class="rt-word' + (other ? ' other' : '') + '"' + wordLinkAttrs(m.level || lv, m.w) + '>' + esc(m.w) +
+            (m.level ? '<small>L' + esc(m.level) + '</small>' : '') + '</button>';
+    }
+    function sortMembers(ms, lv) {
+        return ms.slice().sort((a, b) => ((+a.level === +lv) ? 0 : 1) - ((+b.level === +lv) ? 0 : 1) || (+a.level || 0) - (+b.level || 0));
+    }
+    function rootHeadHTML(r) {
+        return '<div class="rt-head"><span class="rt-root">' + esc(r.root) + '</span>' + (r.type ? '<span class="rt-type">' + esc(r.type) + '</span>' : '') +
+            '<span class="rt-mean">' + esc(r.meaning || '') + '</span></div>';
+    }
+    function renderRootsSection(word) {
+        const old = $('fx-roots-section');
+        if (old) old.remove();
+        const roots = rootsForWord(word, currentLevel);
+        if (!roots.length) return;
+        const self = wkey(word);
+        const sec = document.createElement('div');
+        sec.className = 'info-section';
+        sec.id = 'fx-roots-section';
+        sec.innerHTML = '<h4 class="info-section-title">🌱 同字根／字首字尾</h4><div class="rt-list">' + roots.map(r => {
+            const ms = sortMembers((r.words || []).filter(m => !(String(m.w).toLowerCase() === self && (m.level == null || +m.level === +currentLevel))), currentLevel);
+            const more = ms.length - 8;
+            return '<div class="rt-group">' + rootHeadHTML(r) + '<div class="rt-members">' + ms.slice(0, 8).map(m => rootMemberChip(m, currentLevel)).join('') +
+                (more > 0 ? '<button type="button" class="fx-link" data-root="' + esc(r.root) + '">+' + more + ' 個</button>' : '') +
+                (!ms.length ? '<span class="fx-small-muted">（暫無其他同字根單字）</span>' : '') + '</div></div>';
+        }).join('') + '</div>';
+        const syn = $('codex-synonyms-section');
+        if (syn && syn.parentNode) syn.parentNode.insertBefore(sec, syn.nextSibling);
+        else $('pane-meaning').appendChild(sec);
+    }
+    Q.roots = { q: '', all: false, type: 'all', limit: 80 };
+    function filteredRoots() {
+        const R = getRoots() || [], st = Q.roots, q = st.q.trim().toLowerCase(), lv = currentLevel;
+        return R.filter(r => {
+            if (st.type !== 'all' && r.type !== st.type) return false;
+            const ws = r.words || [];
+            if (!st.all && !ws.some(m => +m.level === lv)) return false;
+            if (!q) return true;
+            return String(r.root).toLowerCase().indexOf(q) >= 0 || String(r.meaning || '').indexOf(q) >= 0 ||
+                ws.some(m => String(m.w).toLowerCase().indexOf(q) === 0);
+        });
+    }
+    function rootsListHTML() {
+        const list = filteredRoots(), st = Q.roots, lv = currentLevel;
+        if (!list.length) return '<p class="fx-small-muted">沒有符合條件的字根。</p>';
+        return '<p class="fx-small-muted">共 ' + list.length + ' 組</p><div class="rt-list">' + list.slice(0, st.limit).map(r => {
+            const ms = sortMembers(r.words || [], lv);
+            const mine = ms.filter(m => +m.level === lv).length;
+            return '<div class="rt-group">' + rootHeadHTML(r) + '<span class="rt-count">' + (st.all ? ms.length + ' 字' : 'Level ' + lv + '：' + mine + ' 字 / 共 ' + ms.length) + '</span>' +
+                '<div class="rt-members">' + ms.map(m => rootMemberChip(m, lv)).join('') + '</div></div>';
+        }).join('') + '</div>' +
+            (list.length > st.limit ? '<button type="button" class="fx-btn fx-btn-ghost" onclick="FX.rootsMore()">顯示更多（還有 ' + (list.length - st.limit) + ' 組）</button>' : '');
+    }
+    function renderRootsPage() {
+        Q.page = 'roots';
+        const st = Q.roots, R = getRoots();
+        const types = ['all'].concat(Array.from(new Set((R || []).map(r => r.type).filter(Boolean))));
+        quizRoot().innerHTML = '<div class="quiz-wrap">' + pageHead('Level ' + currentLevel, '🌱 字根字首字尾') +
+            (R ? '<section class="fx-card"><div class="fx-row"><input type="search" class="rt-search" id="rt-search" placeholder="搜尋字根、意思或單字…" value="' + esc(st.q) + '" oninput="FX.rootsFilter(this.value)"></div>' +
+                '<div class="fx-row"><span class="fx-row-label">級別</span>' +
+                '<button type="button" class="fx-chip' + (!st.all ? ' active' : '') + '" onclick="FX.rootsSet(\'all\', false)">只看 Level ' + currentLevel + '</button>' +
+                '<button type="button" class="fx-chip' + (st.all ? ' active' : '') + '" onclick="FX.rootsSet(\'all\', true)">全部級別</button></div>' +
+                '<div class="fx-row"><span class="fx-row-label">類型</span>' + types.map(t =>
+                    '<button type="button" class="fx-chip' + (st.type === t ? ' active' : '') + '" onclick="FX.rootsSet(\'type\', \'' + esc(t) + '\')">' + (t === 'all' ? '全部' : esc(t)) + '</button>').join('') + '</div>' +
+                '<p class="fx-small-muted">點單字可直接跳到該字（其他級別會自動載入）。</p></section>' +
+                '<section class="fx-card" id="rt-results">' + rootsListHTML() + '</section>'
+                : '<section class="fx-card"><p class="fx-warn">尚未載入字根資料（data_extras.js 的 ROOTS）。</p></section>') + '</div>';
+    }
+
+    // ------------------------------------------------------------------
+    // 我的 (stats) page
+    // ------------------------------------------------------------------
+    const LEVEL_LIST = [3, 4, 5, 6];
+    const DATA_CACHE = 'vx-data-v1';   // must match sw.js
+    function pct(a, b) { return b ? Math.round(a / b * 100) : 0; }
+    function renderMePage() {
+        Q.page = 'me';
+        const g = G(), data = levelData();
+        const mastered = new Set(getMasteredList()), self = new Set(getSelfRatedList());
+        const tile = (ico, val, lbl) => '<div class="me-tile"><span class="me-ico">' + ico + '</span><b>' + val + '</b><span>' + lbl + '</span></div>';
+        const qa = g.qstat.n ? pct(g.qstat.ok, g.qstat.n) + '%' : '—', ra = g.rstat.n ? pct(g.rstat.ok, g.rstat.n) + '%' : '—';
+        const chRows = CHAPTER_ORDER.map((ch, i) => {
+            const ws = data.filter(w => w.chapter === ch);
+            const m = ws.filter(w => mastered.has(wkey(w))).length;
+            const s = ws.filter(w => self.has(wkey(w))).length;
+            const either = ws.filter(w => mastered.has(wkey(w)) || self.has(wkey(w))).length;
+            return '<tr><td><button type="button" class="fx-link" onclick="FX.gotoChapter(' + i + ')">Ch ' + (i + 1) + '</button> ' + esc(CHAPTER_INFO[ch].zh) + '</td>' +
+                '<td class="me-barcell"><span class="me-bar"><i class="self" style="width:' + pct(either, ws.length) + '%"></i><i style="width:' + pct(m, ws.length) + '%"></i></span></td>' +
+                '<td class="me-num"><b>' + m + '</b>/' + ws.length + '</td><td class="me-num me-self">' + s + '</td><td class="me-badges">' + (badgeIcons(ch) || '—') + '</td></tr>';
+        }).join('');
+        const lvRows = LEVEL_LIST.map(lv => {
+            const gg = lsGet('gami_level_' + lv, {}) || {};
+            return '<tr' + (lv === currentLevel ? ' class="cur"' : '') + '><td><button type="button" class="fx-link" onclick="selectLevel(' + lv + ')">Level ' + lv + '</button></td>' +
+                '<td class="me-num"><b>' + getMasteredList(lv).length + '</b></td><td class="me-num me-self">' + getSelfRatedList(lv).length + '</td><td class="me-num">' + (gg.xp || 0) + '</td></tr>';
+        }).join('');
+        quizRoot().innerHTML = '<div class="quiz-wrap">' + pageHead('Level ' + currentLevel + ' · 本機紀錄（不需帳號）', '👤 我的學習紀錄') +
+            '<section class="fx-card"><div class="me-tiles">' +
+            tile('⚡', g.xp, 'XP（Level ' + currentLevel + '）') + tile('🔥', currentStreak(), '連續學習天數') +
+            tile('✅', mastered.size + '<small>/' + data.length + '</small>', '已掌握（答題表現）') + tile('👍', self.size, '自評「我覺得會了」') +
+            tile('🎯', qa, '挑戰題一次答對率（' + g.qstat.n + ' 題）') + tile('⏱️', ra, '快閃對戰答對率（' + g.rstat.n + ' 題）') +
+            '</div><p class="fx-small-muted">「已掌握」：在測驗／複習／快閃對戰／卡牌中，於 <b>3 個不同日子</b>答對，且<b>最近一次答對</b>；答錯一次就會先取消，直到再答對。「自評」只是你自己的感覺，以淺色顯示。</p></section>' +
+            '<section class="fx-card"><h3 class="fx-card-title">📚 Level ' + currentLevel + ' 各章掌握度</h3><div class="me-table-wrap"><table class="me-table"><thead><tr><th>章節</th><th>進度（深色＝已掌握，淺色＝含自評）</th><th>已掌握</th><th>自評</th><th>徽章</th></tr></thead><tbody>' + chRows + '</tbody></table></div></section>' +
+            '<section class="fx-card"><h3 class="fx-card-title">🎓 各級別總覽</h3><div class="me-table-wrap"><table class="me-table"><thead><tr><th>級別</th><th>已掌握</th><th>自評</th><th>XP</th></tr></thead><tbody>' + lvRows + '</tbody></table></div></section>' +
+            '<section class="fx-card" id="me-offline"><h3 class="fx-card-title">📶 離線使用</h3>' + offlineHTML() + '</section>' +
+            '</div>';
+        refreshOfflineStatus();
+    }
+
+    // ------------------------------------------------------------------
+    // Offline: service worker registration, update prompt, 「下載全部離線使用」
+    // ------------------------------------------------------------------
+    function offlineSupported() { return 'serviceWorker' in navigator && 'caches' in window && /^https?:$/.test(location.protocol); }
+    function absUrl(u) { return new URL(u, location.href).href; }
+    function offlineHTML() {
+        if (!offlineSupported()) return '<p class="fx-small-muted">離線功能需要以網址（http/https）開啟本網站；直接開啟檔案（file://）時無法使用。</p>';
+        return '<p class="fx-small-muted">網站本身會自動存在這台裝置上；各級單字資料（每級約 1.7 MB）用過才會存。想在沒有網路時也能用全部四個級別，請按下面的按鈕一次下載。也可以用瀏覽器選單「加到主畫面」安裝成 App。</p>' +
+            '<div class="off-levels" id="off-levels"></div>' +
+            '<button type="button" class="fx-btn" id="off-dl-btn" onclick="FX.downloadAll()">⬇️ 下載全部離線使用</button>' +
+            '<div class="off-progress" id="off-progress" style="display:none;"><div class="progress-bar-bg"><div class="progress-bar-fill" id="off-fill"></div></div><span id="off-text"></span></div>';
+    }
+    function cachedLevels() {
+        if (!('caches' in window)) return Promise.resolve([]);
+        return Promise.all(LEVEL_LIST.map(lv => caches.match(absUrl('data_level_' + lv + '.js'), { ignoreSearch: true }).then(r => !!r).catch(() => false)))
+            .then(flags => LEVEL_LIST.filter((lv, i) => flags[i]));
+    }
+    function refreshOfflineStatus() {
+        const el = $('off-levels');
+        if (!el) return;
+        cachedLevels().then(have => {
+            const box = $('off-levels'); if (!box) return;
+            box.innerHTML = LEVEL_LIST.map(lv => '<span class="off-chip' + (have.indexOf(lv) >= 0 ? ' ok' : '') + '">' + (have.indexOf(lv) >= 0 ? '✅' : '☁️') + ' Level ' + lv + '</span>').join('');
+            const btn = $('off-dl-btn');
+            if (btn && have.length === LEVEL_LIST.length && !Q.dl) btn.textContent = '🔄 重新下載（更新）全部離線資料';
+        });
+    }
+    function downloadAll() {
+        if (Q.dl || !offlineSupported()) return;
+        Q.dl = true;
+        const btn = $('off-dl-btn'), box = $('off-progress');
+        if (btn) btn.disabled = true;
+        if (box) box.style.display = 'flex';
+        const N = LEVEL_LIST.length;
+        const setP = (frac, text) => {
+            const f = $('off-fill'), t = $('off-text');
+            if (f) f.style.width = Math.round(Math.min(1, frac) * 100) + '%';
+            if (t) t.textContent = text;
+        };
+        let totalBytes = 0;
+        const one = (lv, i) => {
+            const url = absUrl('data_level_' + lv + '.js');
+            setP(i / N, '下載中 Level ' + lv + '（' + (i + 1) + '/' + N + '）…');
+            return fetch(url, { cache: 'no-cache' }).then(res => {
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                const enc = res.headers.get('content-encoding');
+                const expected = (!enc && +res.headers.get('content-length')) || 1700000;
+                const type = res.headers.get('content-type') || 'text/javascript';
+                const chunks = [];
+                let got = 0;
+                const finish = blob => caches.open(DATA_CACHE).then(c => c.put(url, new Response(blob, { headers: { 'Content-Type': type } })));
+                if (!res.body || !res.body.getReader) return res.blob().then(b => { totalBytes += b.size; return finish(b); });
+                const rd = res.body.getReader();
+                const pump = () => rd.read().then(r => {
+                    if (r.done) { totalBytes += got; return finish(new Blob(chunks, { type: type })); }
+                    chunks.push(r.value); got += r.value.length;
+                    setP((i + Math.min(0.99, got / expected)) / N, '下載中 Level ' + lv + '（' + (i + 1) + '/' + N + '）… ' + (got / 1048576).toFixed(1) + ' MB');
+                    return pump();
+                });
+                return pump();
+            });
+        };
+        LEVEL_LIST.reduce((p, lv, i) => p.then(() => one(lv, i)), Promise.resolve()).then(() => {
+            setP(1, '✅ 完成！四個級別（' + (totalBytes / 1048576).toFixed(1) + ' MB）都已存到這台裝置，沒有網路也能使用。');
+            toast('📶 已下載全部離線資料');
+        }, err => {
+            setP(0, '⚠️ 下載失敗：' + (err && err.message ? err.message : err) + '（請確認網路後再試一次）');
+        }).then(() => {
+            Q.dl = false;
+            const b = $('off-dl-btn'); if (b) b.disabled = false;
+            refreshOfflineStatus();
+        });
+    }
+    function showUpdateBar(worker) {
+        if ($('fx-update-bar')) return;
+        const bar = document.createElement('div');
+        bar.id = 'fx-update-bar';
+        bar.className = 'fx-update-bar';
+        bar.innerHTML = '<button type="button">🔄 有新版本，點此更新</button><button type="button" class="fx-update-x" aria-label="稍後">✕</button>';
+        bar.firstChild.onclick = () => { Q.wantUpdate = true; bar.firstChild.textContent = '更新中…'; worker.postMessage({ type: 'SKIP_WAITING' }); };
+        bar.lastChild.onclick = () => bar.remove();
+        document.body.appendChild(bar);
+    }
+    function initPWA() {
+        if (!offlineSupported()) return;
+        const hadController = !!navigator.serviceWorker.controller;
+        let reloading = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+            // first install claims the page — nothing to reload; later: a new version took over
+            if (!hadController || reloading) return;
+            reloading = true;
+            location.reload();
+        });
+        navigator.serviceWorker.register('sw.js').then(reg => {
+            const offer = w => { if (w && navigator.serviceWorker.controller) showUpdateBar(w); };
+            if (reg.waiting) offer(reg.waiting);
+            reg.addEventListener('updatefound', () => {
+                const nw = reg.installing;
+                if (nw) nw.addEventListener('statechange', () => { if (nw.state === 'installed') offer(nw); });
+            });
+            document.addEventListener('visibilitychange', () => { if (!document.hidden && navigator.onLine) reg.update().catch(() => { /* offline */ }); });
+        }).catch(e => console.warn('[features] service worker not registered:', e && e.message));
+    }
+
+    // ------------------------------------------------------------------
+    // Mobile bottom tab bar
+    // ------------------------------------------------------------------
+    function activeTabName() {
+        const m = currentMode();
+        if (m === 'quiz') return Q.page === 'me' ? 'me' : ((Q.page === 'review' || Q.page === 'recall') ? 'review' : 'challenge');
+        return 'learn';
+    }
+    function updateTabbar() {
+        const t = activeTabName();
+        document.querySelectorAll('#mobile-tabbar .mtab').forEach(b => {
+            const on = b.getAttribute('data-tab') === t;
+            b.classList.toggle('active', on);
+            if (on) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
+        });
+    }
+    function tab(name) {
+        if (name === 'learn') {
+            if (currentMode() === 'codex') goBackToWordList(); else switchMode('codex');
+        } else if (name === 'review') openPage('review');
+        else if (name === 'me') openPage('me');
+        else openPage('hub');
+        updateTabbar();
+    }
+
+    // Jump to a word in any level through a deep link (loads that level's data first)
+    function navHash(h) {
+        if (location.hash === h) applyHash(); else location.hash = h;
+    }
+    function openWordAt(lv, name) {
+        lv = parseInt(lv, 10) || currentLevel;
+        navHash('#L' + lv + '/w/' + encodeURIComponent(name));
+    }
+    document.addEventListener('click', e => {
+        const t = e.target && e.target.closest ? e.target : null;
+        if (!t) return;
+        const w = t.closest('[data-open-word]');
+        if (w) { e.preventDefault(); openWordAt(w.getAttribute('data-open-lv'), w.getAttribute('data-open-word')); return; }
+        const rc = t.closest('[data-recall-code]');
+        if (rc) { if (!rc.disabled) recallCheckin(parseInt(rc.getAttribute('data-recall-ch'), 10), rc.getAttribute('data-recall-code')); return; }
+        const rt = t.closest('[data-root]');
+        if (rt) { Q.roots.q = rt.getAttribute('data-root'); Q.roots.all = true; Q.roots.type = 'all'; openPage('roots'); }
+    });
+
+    // ------------------------------------------------------------------
     // Landing view (chapter) extras: title, confusables, theme map
     // ------------------------------------------------------------------
     function updateLanding() {
@@ -1107,6 +1659,10 @@
         $('landing-start-btn').style.display = 'inline-block';
         const ex = $('landing-extras');
         if (ex) ex.innerHTML = '<button type="button" class="fx-btn fx-btn-ghost fx-landing-back" onclick="goBackToWordList()">← 返回單字列表</button>' +
+            todayPlanHTML() +
+            '<div class="fx-row fx-landing-links"><button type="button" class="fx-btn fx-btn-ghost" onclick="FX.openPage(\'recall\')">📝 紙本回想表打卡</button>' +
+            '<button type="button" class="fx-btn fx-btn-ghost" onclick="FX.openPage(\'roots\')">🌱 字根字首字尾</button>' +
+            '<button type="button" class="fx-btn fx-btn-ghost" onclick="FX.openPage(\'me\')">👤 我的學習紀錄</button></div>' +
             confusablesHTML() + '<section class="fx-card"><h3 class="fx-card-title">🗺️ 主題地圖</h3>' + themeMapHTML() + '</section>';
         // Entry point above the word list (the landing view is otherwise skipped on chapter select)
         let btn = $('fx-overview-btn');
@@ -1121,7 +1677,7 @@
         }
         const all = getConfusables();
         const groups = all ? (all['L' + currentLevel + '-C' + pad2(i + 1)] || []) : [];
-        btn.innerHTML = '🗺️ 本章總覽' + (groups.length ? '　·　<b>⚠️ 易混字 ' + groups.length + ' 組</b>' : '');
+        btn.innerHTML = '🗺️ 本章總覽 · 📋 今日任務' + (groups.length ? '　·　<b>⚠️ 易混字 ' + groups.length + ' 組</b>' : '');
     }
     function showChapterOverview() {
         updateLanding();
@@ -1136,7 +1692,8 @@
     }
 
     // ------------------------------------------------------------------
-    // Deep links: #L{level}/ch{n}  and  #L{level}/w/{word}
+    // Deep links: #L{level}/ch{n}, #L{level}/ch{n}/R{nn} (paper recall group)
+    //             and #L{level}/w/{word}. A different level is loaded first.
     // ------------------------------------------------------------------
     // Capture the deep link now: the main app's own DOMContentLoaded init runs
     // before ours and would otherwise overwrite the hash via the wrappers below.
@@ -1148,31 +1705,45 @@
     }
     function hashForWord(w) { return '#L' + currentLevel + '/w/' + encodeURIComponent(w.word); }
     function hashForChapter() { return '#L' + currentLevel + '/ch' + (chIndex() + 1); }
+    function parseHash(h) {
+        const m = String(h || '').match(/^#L([3-6])(?:\/(?:ch(\d{1,2})(?:\/(R\d{1,3}))?|w\/(.+)))?\/?$/i);
+        if (!m) return null;
+        return { lv: parseInt(m[1], 10), ch: m[2] ? parseInt(m[2], 10) : null, code: m[3] ? m[3].toUpperCase() : null, word: m[4] || null };
+    }
+    let hashJob = Promise.resolve();
+    // Returns true if the hash is a deep link; the work itself is queued (it may need to load a level).
     function applyHash() {
-        const m = location.hash.match(/^#L([3-6])(?:\/(?:ch(\d{1,2})|w\/(.+)))?\/?$/i);
-        if (!m) return false;
+        const h = parseHash(location.hash);
+        if (!h) return false;
+        hashJob = hashJob.then(() => runHash(h)).catch(e => console.error('[features] applyHash', e));
+        return true;
+    }
+    function runHash(h) {
         suppressHash = true;
-        try {
-            const lv = parseInt(m[1], 10);
-            if (lv !== currentLevel) selectLevel(lv);
-            if (m[3]) {
+        const ready = h.lv !== currentLevel ? selectLevel(h.lv) : Promise.resolve(true);
+        return Promise.resolve(ready).then(ok => {
+            if (ok === false || currentLevel !== h.lv) return;
+            if (h.word) {
                 let name;
-                try { name = decodeURIComponent(m[3]).toLowerCase(); } catch (e) { name = m[3].toLowerCase(); }
+                try { name = decodeURIComponent(h.word).toLowerCase(); } catch (e) { name = h.word.toLowerCase(); }
                 const w = levelData().find(x => x.word.toLowerCase() === name);
                 if (w) {
                     if (currentMode() !== 'codex') switchMode('codex');
                     if (currentChapter !== w.chapter) selectChapter(w.chapter);
                     selectWord(w);
-                }
-            } else if (m[2]) {
-                const ch = CHAPTER_ORDER[parseInt(m[2], 10) - 1];
-                if (ch) {
+                } else toast('「' + esc(name) + '」不在 Level ' + currentLevel + ' 的單字表中。');
+            } else if (h.ch) {
+                const ch = CHAPTER_ORDER[h.ch - 1];
+                if (!ch) return;
+                if (h.code) {
+                    if (currentChapter !== ch) selectChapter(ch);
+                    openPage('recall', { ch: h.ch - 1, code: h.code });
+                } else {
                     selectChapter(ch);
                     if (currentMode() === 'codex') showChapterOverview();
                 }
             }
-        } finally { suppressHash = false; }
-        return true;
+        }).then(() => { suppressHash = false; }, e => { suppressHash = false; throw e; });
     }
 
     // ------------------------------------------------------------------
@@ -1269,7 +1840,7 @@
         card.addEventListener('click', e => { if (suppressClick) { e.stopPropagation(); e.preventDefault(); } }, true);
         const hint = document.createElement('p');
         hint.className = 'fx-swipe-hint';
-        hint.textContent = '👈 左滑：仍需複習　　右滑：已掌握 👉';
+        hint.textContent = '👈 左滑：仍需複習　　右滑：我記得 👉';
         card.parentNode.insertBefore(hint, $('arena-controls-panel'));
     }
 
@@ -1281,10 +1852,12 @@
         selectChapter: window.selectChapter,
         selectLevel: window.selectLevel,
         switchMode: window.switchMode,
-        saveMasteredList: window.saveMasteredList,
         toggleCurrentWordMastery: window.toggleCurrentWordMastery,
         passFlashcard: window.passFlashcard,
-        failFlashcard: window.failFlashcard
+        failFlashcard: window.failFlashcard,
+        recordWordResult: window.recordWordResult,
+        initArenaDeck: window.initArenaDeck,
+        restartArenaDeck: window.restartArenaDeck
     };
 
     window.selectWord = function (w) {
@@ -1301,8 +1874,8 @@
             const app = document.querySelector('.app-container');
             app.classList.remove('mobile-show-details');
             showQuizView();
-            renderHub();
             setHash(hashForChapter());
+            renderCurrentPage();
         } else if (mode === 'arena') {
             // original jumps into the codex view; keep the arena visible and reload its deck
             $('landing-view-container').style.display = 'none';
@@ -1316,23 +1889,18 @@
         }
     };
 
+    // selectLevel now returns a Promise<boolean> (the level's data loads on demand)
     window.selectLevel = function () {
-        orig.selectLevel.apply(this, arguments);
-        checkBadges(true);
-        renderHeader();
+        return Promise.resolve(orig.selectLevel.apply(this, arguments)).then(ok => {
+            if (ok) { checkBadges(true); renderHeader(); updateTabbar(); }
+            return ok;
+        });
     };
 
     window.switchMode = function (mode) {
         closeSharePop();
         if (mode === 'quiz') {
-            stopTimers();
-            document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
-            $('mode-quiz').classList.add('active');
-            const app = document.querySelector('.app-container');
-            app.classList.add('arena-mode', 'quiz-mode');
-            showQuizView();
-            renderHub();
-            setHash(hashForChapter());
+            openPage('hub');
             return;
         }
         stopTimers();
@@ -1341,11 +1909,25 @@
         document.querySelector('.app-container').classList.remove('quiz-mode');
         orig.switchMode.apply(this, arguments);
         if (mode === 'codex' && currentWord) setHash(hashForWord(currentWord)); else setHash(hashForChapter());
+        updateTabbar();
     };
 
-    window.saveMasteredList = function () {
-        orig.saveMasteredList.apply(this, arguments);
-        checkBadges(false);
+    // Performance mastery: celebrate a word that just became 「已掌握」 and re-check badges
+    window.recordWordResult = function (w) {
+        const r = orig.recordWordResult.apply(this, arguments);
+        if (r && r.now && !r.was) {
+            toast('✅ 「' + esc(w.word) + '」已掌握！（' + 3 + ' 個不同日子答對）');
+            checkBadges(false);
+        }
+        return r;
+    };
+    window.initArenaDeck = function () {
+        customDeck = null;
+        return orig.initArenaDeck.apply(this, arguments);
+    };
+    window.restartArenaDeck = function () {
+        if (customDeck) startCustomArena(customDeck.words, customDeck.label);
+        else orig.restartArenaDeck.apply(this, arguments);
     };
     window.toggleCurrentWordMastery = function () {
         orig.toggleCurrentWordMastery.apply(this, arguments);
@@ -1385,8 +1967,22 @@
     window.FX = {
         openQuiz: function (scope) {
             if (scope === 'review' && dueWords().length) Q.scope = 'review';
-            if (currentMode() !== 'quiz') switchMode('quiz'); else renderHub();
+            openPage('hub');
         },
+        openPage: function (page, opts) { openPage(page, opts); },
+        tab: tab,
+        planLearn: planLearn,
+        planReview: planReview,
+        planRapid: planRapid,
+        recallCheckin: recallCheckin,
+        openWordAt: openWordAt,
+        downloadAll: downloadAll,
+        rootsFilter: function (v) {
+            Q.roots.q = v; Q.roots.limit = 80;
+            const box = $('rt-results'); if (box) box.innerHTML = rootsListHTML();
+        },
+        rootsSet: function (k, v) { Q.roots[k] = v; Q.roots.limit = 80; renderRootsPage(); },
+        rootsMore: function () { Q.roots.limit += 80; const box = $('rt-results'); if (box) box.innerHTML = rootsListHTML(); },
         renderHub: renderHub,
         setScope: function (s) { Q.scope = s; renderHub(); },
         toggleType: function (t) {
@@ -1422,7 +2018,9 @@
         // exposed for testing / debugging
         _internals: { findBlank: findBlank, headForms: headForms, pickDistractors: pickDistractors, compareSpeech: compareSpeech,
             renderShadowResult: renderShadowResult, parseFamily: parseFamily, buildRound: buildRound, dueWords: dueWords,
-            srsUpdate: srsUpdate, G: G, starCount: starCount, applyHash: applyHash, state: Q }
+            srsUpdate: srsUpdate, G: G, starCount: starCount, applyHash: applyHash, state: Q,
+            parseHash: parseHash, todayPlan: todayPlan, pickNewWords: pickNewWords, freqWords: freqWords,
+            rootsForWord: rootsForWord, cachedLevels: cachedLevels, hashJob: () => hashJob }
     };
 
     // ------------------------------------------------------------------
@@ -1430,17 +2028,22 @@
     // ------------------------------------------------------------------
     function init() {
         initSwipe();
-        checkBadges(true);
-        renderHeader();
-        updateLanding();
-        suppressHash = false;
-        if (INITIAL_HASH && location.hash !== INITIAL_HASH) {
-            try { history.replaceState(null, '', INITIAL_HASH); } catch (e) { /* ignore */ }
-        }
-        if (!applyHash()) {
-            if (currentWord && currentMode() === 'codex') setHash(hashForWord(currentWord)); else setHash(hashForChapter());
-        }
-        window.addEventListener('hashchange', applyHash);
+        updateTabbar();
+        initPWA();
+        // the main app's selectLevel() (lazy data load) must finish before deep links apply
+        Promise.resolve(window.APP_READY).then(() => {
+            checkBadges(true);
+            renderHeader();
+            updateLanding();
+            suppressHash = false;
+            if (INITIAL_HASH && location.hash !== INITIAL_HASH) {
+                try { history.replaceState(null, '', INITIAL_HASH); } catch (e) { /* ignore */ }
+            }
+            if (!applyHash()) {
+                if (currentWord && currentMode() === 'codex') setHash(hashForWord(currentWord)); else setHash(hashForChapter());
+            }
+            window.addEventListener('hashchange', applyHash);
+        }).catch(e => console.error('[features] init', e));
         // re-render streak/due counters when the tab regains focus on another day
         document.addEventListener('visibilitychange', () => { if (!document.hidden) renderHeader(); });
     }

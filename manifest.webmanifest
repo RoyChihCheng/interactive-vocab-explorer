@@ -1,0 +1,32 @@
+{
+  "name": "高中英文 6000 單字互動學習館",
+  "short_name": "6000單",
+  "description": "台灣高中英文 6000 單字（Level 3–6）互動學習：單字卡、測驗、複習排程、字根與紙本講義打卡。",
+  "lang": "zh-Hant-TW",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#1F4E78",
+  "background_color": "#f8fafc",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

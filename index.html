@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>台灣高中英文 6000 單字互動學習館 (Level 3 Prototype)</title>
+    <!-- PWA: installable + offline (sw.js is registered by features.js on http/https only) -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#1F4E78">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="6000單">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <!-- Google Fonts: Outfit & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1766,6 +1773,7 @@
                     <div class="progress-bar-bg">
                         <div class="progress-bar-fill" id="total-progress-bar-fill"></div>
                     </div>
+                    <div class="total-progress-sub" id="total-progress-sub" title="已掌握＝在測驗／複習／對戰／卡牌中，至少 3 個不同日子答對且最近一次答對；自評＝你按下「我覺得會了」的字">已掌握 0 字 · 自評 0</div>
                 </div>
             </div>
             <ul class="chapter-list" id="chapter-list-ul">
@@ -1855,16 +1863,17 @@
                                 <svg viewBox="0 0 24 24"><use href="#icon-sound"/></svg>
                             </button>
                         </div>
+                        <div class="mastery-evidence" id="codex-mastery-evidence" title="在測驗／複習／對戰／卡牌中，於 3 個不同日子答對、且最近一次答對，就會自動標為「已掌握」"></div>
                     </div>
                     <div class="codex-header-actions">
                         <button class="share-word-btn" id="codex-share-btn" title="分享這個單字" onclick="shareCurrentWord(event)">
                             <svg viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg>
                             <span>分享</span>
                         </button>
-                        <button class="mastery-card-toggle" id="codex-mastery-btn" onclick="toggleCurrentWordMastery()">
+                        <button class="mastery-card-toggle" id="codex-mastery-btn" onclick="toggleCurrentWordMastery()" title="自我評估（不影響「已掌握」：已掌握由答題表現決定）">
                             <!-- Star SVG -->
                             <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                            <span>標記為已掌握</span>
+                            <span>我覺得會了</span>
                         </button>
                     </div>
                 </div>
@@ -2018,7 +2027,7 @@
                     <button class="arena-btn arena-btn-pass" onclick="passFlashcard()">
                         <!-- Tick svg -->
                         <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                        已掌握！
+                        我記得！
                     </button>
                 </div>
 
@@ -2040,14 +2049,23 @@
 
     </div>
 
+    <!-- Level data loading indicator (data_level_N.js is loaded on demand) -->
+    <div class="level-loading" id="level-loading" role="status" aria-live="polite" style="display: none;"></div>
+
+    <!-- Mobile bottom tab bar (≤ 768px; wired up by features.js) -->
+    <nav class="mobile-tabbar" id="mobile-tabbar" aria-label="主要功能">
+        <button type="button" class="mtab" data-tab="learn" onclick="FX.tab('learn')"><span class="mtab-ico">📖</span><span class="mtab-lbl">學習</span></button>
+        <button type="button" class="mtab" data-tab="review" onclick="FX.tab('review')"><span class="mtab-ico">📅</span><span class="mtab-lbl">複習</span><span class="mtab-badge" id="mtab-due-badge"></span></button>
+        <button type="button" class="mtab" data-tab="challenge" onclick="FX.tab('challenge')"><span class="mtab-ico">⚡</span><span class="mtab-lbl">挑戰</span></button>
+        <button type="button" class="mtab" data-tab="me" onclick="FX.tab('me')"><span class="mtab-ico">👤</span><span class="mtab-lbl">我的</span></button>
+    </nav>
+
     <!-- ==========================================================================
        7. DATA AND APPLICATION LOGIC
        ========================================================================== -->
-    <script src="data_level_3.js"></script>
-    <script src="data_level_4.js"></script>
-    <script src="data_level_5.js"></script>
-    <script src="data_level_6.js"></script>
-    <!-- Optional extras (CONFUSABLES etc.); a missing file is tolerated -->
+    <!-- data_level_{3..6}.js are NOT loaded up front: loadLevelData(n) injects
+         only the active level's script on demand (see below). -->
+    <!-- Optional extras (CONFUSABLES, ROOTS, RECALL_GROUPS); a missing file is tolerated -->
     <script src="data_extras.js" onerror=""></script>
     <script>
         // Canonical Chapter Themes and Descriptions (to show on Landing and Banner)
@@ -2119,22 +2137,150 @@
         let arenaDeck = [];
         let arenaIndex = 0;
 
-        // Dynamic Dataset Accessor
-        function getActiveLevelData() {
-            if (currentLevel === 3) return LEVEL_3_DATA;
-            if (currentLevel === 4) return LEVEL_4_DATA;
-            if (currentLevel === 5) return LEVEL_5_DATA;
-            if (currentLevel === 6) return LEVEL_6_DATA;
-            return LEVEL_3_DATA;
+        // ==========================================================================
+        // LAZY LEVEL DATA LOADING
+        // data_level_N.js declares `const LEVEL_N_DATA = [...]` (a global lexical
+        // binding, not a window property), so it is read through typeof checks.
+        // ==========================================================================
+        const LEVELS = [3, 4, 5, 6];
+        const levelLoadPromises = {};
+        let levelLoadsPending = 0;
+
+        function levelDataIfLoaded(n) {
+            n = parseInt(n, 10);
+            if (n === 3 && typeof LEVEL_3_DATA !== 'undefined') return LEVEL_3_DATA;
+            if (n === 4 && typeof LEVEL_4_DATA !== 'undefined') return LEVEL_4_DATA;
+            if (n === 5 && typeof LEVEL_5_DATA !== 'undefined') return LEVEL_5_DATA;
+            if (n === 6 && typeof LEVEL_6_DATA !== 'undefined') return LEVEL_6_DATA;
+            return null;
         }
 
-        // LocalStorage helpers
-        function getMasteredList() {
-            return JSON.parse(localStorage.getItem(`mastered_level_${currentLevel}`) || '[]');
+        function setLevelLoading(html, isError) {
+            const el = document.getElementById('level-loading');
+            if (!el) return;
+            if (!html) { el.style.display = 'none'; el.innerHTML = ''; return; }
+            el.innerHTML = html;
+            el.classList.toggle('is-error', !!isError);
+            el.style.display = 'flex';
         }
-        function saveMasteredList(list) {
-            localStorage.setItem(`mastered_level_${currentLevel}`, JSON.stringify(list));
+
+        // Inject data_level_N.js once; resolves with the level's array (cached promise).
+        function loadLevelData(n) {
+            n = parseInt(n, 10);
+            const have = levelDataIfLoaded(n);
+            if (have) return Promise.resolve(have);
+            if (levelLoadPromises[n]) return levelLoadPromises[n];
+            levelLoadsPending++;
+            setLevelLoading('<span class="level-loading-spin"></span>正在載入 Level ' + n + ' 單字資料…');
+            const p = new Promise((resolve, reject) => {
+                const s = document.createElement('script');
+                s.src = 'data_level_' + n + '.js';
+                s.async = true;
+                s.onload = () => {
+                    const d = levelDataIfLoaded(n);
+                    if (d) resolve(d); else reject(new Error('data_level_' + n + '.js 沒有定義 LEVEL_' + n + '_DATA'));
+                };
+                s.onerror = () => { s.remove(); reject(new Error('無法下載 data_level_' + n + '.js')); };
+                document.head.appendChild(s);
+            });
+            levelLoadPromises[n] = p;
+            p.then(() => {
+                levelLoadsPending--;
+                if (!levelLoadsPending) setLevelLoading('');
+            }, () => {
+                levelLoadsPending--;
+                delete levelLoadPromises[n];   // allow a retry later
+                setLevelLoading('⚠️ 無法載入 Level ' + n + ' 單字資料（可能目前離線，且尚未下載離線版）。<button type="button" onclick="setLevelLoading(\'\')">關閉</button>', true);
+            });
+            return p;
+        }
+
+        // Dynamic Dataset Accessor (empty array until the active level has loaded)
+        function getActiveLevelData() {
+            return levelDataIfLoaded(currentLevel) || [];
+        }
+
+        // ==========================================================================
+        // MASTERY: decided by performance; the manual button is a self-rating
+        //   perf_level_N      { word: { days:[YYYY-MM-DD correct days], last:1|0, n, ok, t } }
+        //   selfrated_level_N [word, ...]   (migrated from the old mastered_level_N)
+        // A word is 「已掌握」 when it was answered correctly (quiz / review / battle /
+        // flashcard pass) on >= 3 different calendar days AND the latest attempt was correct.
+        // ==========================================================================
+        const MASTERY_DAYS = 3;
+        function localDateStr(d) {
+            d = d || new Date();
+            const p2 = x => (x < 10 ? '0' : '') + x;
+            return d.getFullYear() + '-' + p2(d.getMonth() + 1) + '-' + p2(d.getDate());
+        }
+        function readJSON(key, def) {
+            try { const v = localStorage.getItem(key); const o = v ? JSON.parse(v) : null; return o == null ? def : o; } catch (e) { return def; }
+        }
+        function writeJSON(key, val) {
+            try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) { /* quota / private mode */ }
+        }
+        // One-time migration: old manual 「已掌握」 list -> self-rated list (old key kept as a backup)
+        (function migrateMasteryV2() {
+            LEVELS.forEach(lv => {
+                const sk = 'selfrated_level_' + lv;
+                if (localStorage.getItem(sk) !== null) return;
+                const old = readJSON('mastered_level_' + lv, null);
+                if (Array.isArray(old) && old.length) writeJSON(sk, old);
+            });
+        })();
+
+        function getPerfData(lv) {
+            const d = readJSON('perf_level_' + (lv || currentLevel), {});
+            return (d && typeof d === 'object') ? d : {};
+        }
+        function isPerfMastered(rec) {
+            return !!rec && rec.last === 1 && Array.isArray(rec.days) && rec.days.length >= MASTERY_DAYS;
+        }
+        // Performance-mastered headwords (lowercase) of a level
+        function getMasteredList(lv) {
+            const d = getPerfData(lv);
+            return Object.keys(d).filter(k => isPerfMastered(d[k]));
+        }
+        function getSelfRatedList(lv) {
+            const l = readJSON('selfrated_level_' + (lv || currentLevel), []);
+            return Array.isArray(l) ? l : [];
+        }
+        function saveSelfRatedList(list) {
+            writeJSON('selfrated_level_' + currentLevel, list);
             updateAllProgressUI();
+        }
+        // Evidence for the codex: { days, need, mastered, last, n }
+        function getWordEvidence(word) {
+            const rec = getPerfData()[String(word.word).toLowerCase()];
+            return {
+                days: rec && Array.isArray(rec.days) ? rec.days.length : 0,
+                need: MASTERY_DAYS,
+                mastered: isPerfMastered(rec),
+                last: rec ? rec.last : null,
+                n: rec ? (rec.n || 0) : 0
+            };
+        }
+        // Record one graded attempt. Returns { was, now } (mastery before/after).
+        function recordWordResult(word, correct) {
+            if (!word || !word.word) return null;
+            const d = getPerfData(), k = String(word.word).toLowerCase();
+            const rec = d[k] || { days: [], last: null, n: 0, ok: 0 };
+            if (!Array.isArray(rec.days)) rec.days = [];
+            const was = isPerfMastered(rec);
+            rec.n = (rec.n || 0) + 1;
+            if (correct) {
+                rec.ok = (rec.ok || 0) + 1;
+                const t = localDateStr();
+                if (rec.days.indexOf(t) < 0) { rec.days.push(t); if (rec.days.length > 30) rec.days = rec.days.slice(-30); }
+                rec.last = 1;
+            } else {
+                rec.last = 0;   // a wrong answer removes auto-mastery until the next correct answer
+            }
+            rec.t = Date.now();
+            d[k] = rec;
+            writeJSON('perf_level_' + currentLevel, d);
+            updateAllProgressUI();
+            return { was: was, now: isPerfMastered(rec) };
         }
         function getPersonalNotes() {
             return JSON.parse(localStorage.getItem(`notes_level_${currentLevel}`) || '{}');
@@ -2147,9 +2293,12 @@
         // INITIALIZATION AND LEVEL SWITCHER
         // ==========================================================================
         window.addEventListener('DOMContentLoaded', () => {
-            // Restore level from localStorage if any, defaulting to 3
-            const storedLevel = parseInt(localStorage.getItem('current_level') || '3');
-            selectLevel(storedLevel);
+            // Level from a deep link (#L5/...) wins, else localStorage, defaulting to 3.
+            // Only this one level's data file is downloaded on first load.
+            const hashLv = (location.hash.match(/^#L([3-6])/i) || [])[1];
+            const storedLevel = parseInt(hashLv || localStorage.getItem('current_level') || '3', 10);
+            // features.js waits for this promise before applying deep links
+            window.APP_READY = selectLevel(storedLevel);
             
             // Restore sidebar collapse state (default to collapsed/true if never set)
             if (localStorage.getItem('sidebar_collapsed') !== 'false') {
@@ -2157,16 +2306,40 @@
             }
         });
 
-        function selectLevel(levelNum) {
-            currentLevel = levelNum;
-            localStorage.setItem('current_level', levelNum);
-
-            // Update Level Buttons UI
+        function markLevelButtons(levelNum) {
             document.querySelectorAll('.header-level-container .header-level-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
             const activeBtn = document.getElementById(`btn-lv-${levelNum}`);
             if (activeBtn) activeBtn.classList.add('active');
+            const labels = { 3: "Level 3 核心詞彙", 4: "Level 4 進階詞彙", 5: "Level 5 高階詞彙", 6: "Level 6 挑戰詞彙" };
+            const badge = document.getElementById('header-level-badge-el');
+            if (badge && labels[levelNum]) badge.innerText = labels[levelNum];
+        }
+
+        // Loads the level's data on demand, then switches. Returns a Promise<boolean>
+        // (false if the load failed or a newer selectLevel call superseded this one).
+        let levelSelectSeq = 0;
+        function selectLevel(levelNum) {
+            levelNum = parseInt(levelNum, 10);
+            if (LEVELS.indexOf(levelNum) < 0) levelNum = 3;
+            const seq = ++levelSelectSeq;
+            markLevelButtons(levelNum);
+            return loadLevelData(levelNum).then(() => {
+                if (seq !== levelSelectSeq) return false;
+                applyLevel(levelNum);
+                return true;
+            }, (err) => {
+                console.warn('[levels]', err && err.message);
+                if (seq === levelSelectSeq) markLevelButtons(currentLevel);
+                return false;
+            });
+        }
+
+        function applyLevel(levelNum) {
+            currentLevel = levelNum;
+            localStorage.setItem('current_level', levelNum);
+            markLevelButtons(levelNum);
 
             // Update level descriptive headers
             const levelLabels = {
@@ -2320,6 +2493,8 @@
             const totalPct = totalWordsCount > 0 ? Math.round((totalMasteredCount / totalWordsCount) * 100) : 0;
             document.getElementById('total-progress-percentage').innerText = totalPct + "%";
             document.getElementById('total-progress-bar-fill').style.width = totalPct + "%";
+            const sub = document.getElementById('total-progress-sub');
+            if (sub) sub.innerText = `已掌握 ${totalMasteredCount} 字 · 自評 ${getSelfRatedList().length}`;
         }
 
         // ==========================================================================
@@ -2364,10 +2539,12 @@
                 return;
             }
 
+            const selfRated = getSelfRatedList();
             filteredWordsList.forEach((w) => {
                 const li = document.createElement('li');
                 const isMastered = mastered.includes(w.word.toLowerCase());
-                li.className = `word-row ${isMastered ? 'mastered' : ''} ${currentWord && currentWord.word === w.word ? 'active' : ''}`;
+                const isSelf = !isMastered && selfRated.includes(w.word.toLowerCase());
+                li.className = `word-row ${isMastered ? 'mastered' : ''} ${isSelf ? 'self-rated' : ''} ${currentWord && currentWord.word === w.word ? 'active' : ''}`;
                 li.id = `w-row-${w.word.replace(/[^a-zA-Z]/g, '')}`;
                 li.onclick = () => selectWord(w);
 
@@ -2379,7 +2556,7 @@
                         </div>
                         <span class="word-row-zh">${w.chinese}</span>
                     </div>
-                    <div class="word-row-check" title="掌握狀態">
+                    <div class="word-row-check" title="${isMastered ? '已掌握（答題表現）' : (isSelf ? '自評：我覺得會了' : '尚未掌握')}">
                         <!-- Tick svg icon -->
                         <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
                     </div>
@@ -2415,15 +2592,25 @@
             document.getElementById('codex-pos-span').innerText = word.pos;
             document.getElementById('codex-kk-span').innerText = word.kk || 'n/a';
 
-            // Mastery status button
-            const mastered = getMasteredList();
+            // Self-rating button + performance evidence
+            const selfRated = getSelfRatedList();
             const mBtn = document.getElementById('codex-mastery-btn');
-            if (mastered.includes(word.word.toLowerCase())) {
-                mBtn.classList.add('mastered');
-                mBtn.querySelector('span').innerText = "已掌握！點擊取消";
+            if (selfRated.includes(word.word.toLowerCase())) {
+                mBtn.classList.add('self-rated');
+                mBtn.querySelector('span').innerText = "自評：會了 ✓（點擊取消）";
             } else {
-                mBtn.classList.remove('mastered');
-                mBtn.querySelector('span').innerText = "標記為已掌握";
+                mBtn.classList.remove('self-rated');
+                mBtn.querySelector('span').innerText = "我覺得會了";
+            }
+            mBtn.classList.remove('mastered');
+            const evEl = document.getElementById('codex-mastery-evidence');
+            if (evEl) {
+                const ev = getWordEvidence(word);
+                evEl.className = 'mastery-evidence' + (ev.mastered ? ' is-mastered' : '');
+                evEl.innerText = ev.mastered
+                    ? `✅ 已掌握 · 答對 ${ev.days} 天`
+                    : (ev.n === 0 ? `📈 尚未作答 · 答對 0/${ev.need} 天`
+                        : `📈 答對 ${Math.min(ev.days, ev.need)}/${ev.need} 天` + (ev.last === 0 ? ' · 最近一次答錯' : ''));
             }
 
             // Fill Pane 1 (Meanings & Collocations)
@@ -2655,18 +2842,19 @@
             }
         }
 
+        // 「我覺得會了」 self-rating (performance mastery is tracked separately)
         function toggleCurrentWordMastery() {
             if (!currentWord) return;
-            const mastered = getMasteredList();
+            const rated = getSelfRatedList();
             const wKey = currentWord.word.toLowerCase();
-            const idx = mastered.indexOf(wKey);
+            const idx = rated.indexOf(wKey);
 
             if (idx > -1) {
-                mastered.splice(idx, 1);
+                rated.splice(idx, 1);
             } else {
-                mastered.push(wKey);
+                rated.push(wKey);
             }
-            saveMasteredList(mastered);
+            saveSelfRatedList(rated);
 
             // Re-render
             renderWordRows();
@@ -2774,6 +2962,7 @@
 
         // Fail card: push back to end of deck
         function failFlashcard() {
+            if (arenaDeck[arenaIndex]) recordWordResult(arenaDeck[arenaIndex], false);
             const failedWord = arenaDeck.splice(arenaIndex, 1)[0];
             arenaDeck.push(failedWord);
             
@@ -2783,14 +2972,10 @@
             showArenaCard();
         }
 
-        // Pass card: master and remove
+        // Pass card: counts as a correct answer today (performance mastery) and removes it
         function passFlashcard() {
             const word = arenaDeck[arenaIndex];
-            const mastered = getMasteredList();
-            if (!mastered.includes(word.word.toLowerCase())) {
-                mastered.push(word.word.toLowerCase());
-                saveMasteredList(mastered);
-            }
+            if (word) recordWordResult(word, true);
 
             arenaIndex++;
             if (arenaIndex >= arenaDeck.length) {

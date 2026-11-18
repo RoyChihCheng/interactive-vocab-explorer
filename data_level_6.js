@@ -3,7 +3,7 @@ const LEVEL_6_DATA = [
     "word": "acclaim",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/əklˈeɪm/",
+    "kk": "/əˈklem/",
     "chinese": "喝彩；讚揚；使廣受好評",
     "collocations": [
       {
@@ -46,6 +46,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Despite these setbacks, her star began to rise when her design for Cincinnati’s new Center for Contemporary Art was selected and built, earning her worldwide acclaim.",
       "source": "106指考"
@@ -55,7 +58,7 @@ const LEVEL_6_DATA = [
     "word": "abound",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/əbˈaʊnd/",
+    "kk": "/əˈbaʊnd/",
     "chinese": "大量存在；充滿；到處都是",
     "collocations": [
       {
@@ -96,6 +99,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -105,7 +111,7 @@ const LEVEL_6_DATA = [
     "word": "acre",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/ˈeɪkɚ/",
+    "kk": "/ˈekɚ/",
     "chinese": "英畝（面積單位）",
     "collocations": [
       {
@@ -145,6 +151,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Completely wheelchair-accessible, the park features 25 acres of attractions including rides, playgrounds, a catch-and-release fishing lake, and picnic areas throughout the park.",
       "source": "110學測"
@@ -154,7 +163,7 @@ const LEVEL_6_DATA = [
     "word": "align",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/əlˈaɪn/",
+    "kk": "/əˈlaɪn/",
     "chinese": "對齊；使一致；與…結盟",
     "collocations": [
       {
@@ -197,6 +206,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -206,7 +218,7 @@ const LEVEL_6_DATA = [
     "word": "airtight",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/ˈɛrtˌaɪt/",
+    "kk": "/ˈɛrˌtaɪt/",
     "chinese": "密封的；無懈可擊的",
     "collocations": [
       {
@@ -249,6 +261,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The Eskimo house was an airtight igloo made of blocks of ice with a small tunnel-like entrance and a small chimney in the center for smoke from the fire.",
       "source": "91指考"
@@ -258,7 +273,7 @@ const LEVEL_6_DATA = [
     "word": "archive",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/ˈɑrkˌaɪv/",
+    "kk": "/ˈɑrˌkaɪv/",
     "chinese": "檔案；存檔；存入檔案庫",
     "collocations": [
       {
@@ -301,6 +316,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -310,7 +328,7 @@ const LEVEL_6_DATA = [
     "word": "apprentice",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/əprˈɛntəs/",
+    "kk": "/əˈprɛntəs/",
     "chinese": "學徒；見習生；實習",
     "collocations": [
       {
@@ -351,6 +369,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Born and raised in Boston, he began his career at age eighteen in his hometown, working as an apprentice at a printing company.",
       "source": "106學測"
@@ -360,7 +381,7 @@ const LEVEL_6_DATA = [
     "word": "bass",
     "pos": "n./adj.",
     "chapter": "People and Relationships",
-    "kk": "/bˈæs/",
+    "kk": "/ˈbæs/",
     "chinese": "低音；低音部；鱸魚；低音的",
     "collocations": [
       {
@@ -403,6 +424,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -412,7 +436,7 @@ const LEVEL_6_DATA = [
     "word": "blot",
     "pos": "v./n.",
     "chapter": "People and Relationships",
-    "kk": "/blˈɑt/",
+    "kk": "/ˈblɑt/",
     "chinese": "污跡；污點；塗掉；吸乾",
     "collocations": [
       {
@@ -455,6 +479,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -464,7 +491,7 @@ const LEVEL_6_DATA = [
     "word": "bribe",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/brˈaɪb/",
+    "kk": "/ˈbraɪb/",
     "chinese": "賄賂；賄賂行為；行賄",
     "collocations": [
       {
@@ -507,6 +534,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -516,7 +546,7 @@ const LEVEL_6_DATA = [
     "word": "brace",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/brˈeɪs/",
+    "kk": "/ˈbres/",
     "chinese": "支撐；使振作；牙套；一對",
     "collocations": [
       {
@@ -559,6 +589,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -568,7 +601,7 @@ const LEVEL_6_DATA = [
     "word": "caffeine",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/kæfˈin/",
+    "kk": "/kæˈfin/",
     "chinese": "咖啡因",
     "collocations": [
       {
@@ -607,6 +640,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The only reported negative effect of drinking green tea is a possible allergic reaction and insomnia due to the caffeine it contains.",
       "source": "97學測"
@@ -616,7 +652,7 @@ const LEVEL_6_DATA = [
     "word": "Celsius",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/sˈɛlsiəs/",
+    "kk": "/ˈsɛlsiəs/",
     "chinese": "攝氏度；攝氏",
     "collocations": [
       {
@@ -655,6 +691,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -664,7 +703,7 @@ const LEVEL_6_DATA = [
     "word": "chairperson/chair/chairman/chairwoman",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/tʃˈɛrwˌʊmən/",
+    "kk": "/ˈtʃɛrˌpɝsən/",
     "chinese": "女主席；女主持人",
     "collocations": [
       {
@@ -705,6 +744,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 9,
       "papers": 5,
+      "gsat_papers": 4,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 2,
       "example": "Open since 1996, the store features traditional-style home accessories, ranging from cabinets and chairs to picture frames and decorative mirrors.",
       "source": "115學測"
@@ -714,7 +756,7 @@ const LEVEL_6_DATA = [
     "word": "chimpanzee",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/tʃɪmpˈænzi/",
+    "kk": "/tʃɪmˈpænzi/",
     "chinese": "黑猩猩",
     "collocations": [
       {
@@ -754,6 +796,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Her chimpanzee study shows a clear link between humans and the rest of the animal kingdom.",
       "source": "103指考"
@@ -763,7 +808,7 @@ const LEVEL_6_DATA = [
     "word": "climax",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/klˈaɪmˌæks/",
+    "kk": "/ˈklaɪˌmæks/",
     "chinese": "高潮；頂點；達到高潮",
     "collocations": [
       {
@@ -804,6 +849,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -813,7 +861,7 @@ const LEVEL_6_DATA = [
     "word": "comprehensive",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/kˌɑmprihˈɛnsɪv/",
+    "kk": "/ˌkɑmpriˈhɛnsɪv/",
     "chinese": "全面的；綜合的；詳盡的",
     "collocations": [
       {
@@ -854,6 +902,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Japan and China have even less comprehensive data than America.",
       "source": "100指考"
@@ -863,7 +914,7 @@ const LEVEL_6_DATA = [
     "word": "contestant",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/kəntˈɛstənt/",
+    "kk": "/kənˈtɛstənt/",
     "chinese": "參賽者；競爭者",
     "collocations": [
       {
@@ -904,6 +955,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -913,7 +967,7 @@ const LEVEL_6_DATA = [
     "word": "correspondence",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/kˌɔrəspˈɑndəns/",
+    "kk": "/ˌkɔrəˈspɑndəns/",
     "chinese": "通信；信件；符合；對應",
     "collocations": [
       {
@@ -956,6 +1010,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "All we hear is the scratching of pencil on paper, the sound of pigeons, and the delivery of inter-office correspondence by paper airplane.",
       "source": "98學測"
@@ -965,7 +1022,7 @@ const LEVEL_6_DATA = [
     "word": "counterpart",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/kˈaʊntɚpˌɑrt/",
+    "kk": "/ˈkaʊntɚˌpɑrt/",
     "chinese": "對應的人或物；副本；對等者",
     "collocations": [
       {
@@ -1006,6 +1063,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Moreover, 84 percent of human genes associated with disease find a counterpart in zebrafish.",
       "source": "111學測"
@@ -1015,7 +1075,7 @@ const LEVEL_6_DATA = [
     "word": "cynical",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/sˈɪnɪkəl/",
+    "kk": "/ˈsɪnɪkəl/",
     "chinese": "憤世嫉俗的；懷疑的；冷嘲熱諷的",
     "collocations": [
       {
@@ -1056,6 +1116,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -1065,7 +1128,7 @@ const LEVEL_6_DATA = [
     "word": "default",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/dɪfˈɔlt/",
+    "kk": "/dɪˈfɔlt/",
     "chinese": "預設；違約；未出場；拖欠",
     "collocations": [
       {
@@ -1108,6 +1171,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1117,7 +1183,7 @@ const LEVEL_6_DATA = [
     "word": "differentiate",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/dˌɪfɚˈɛnʃiˌeɪt/",
+    "kk": "/ˌdɪfəˈrɛnʃiˌet/",
     "chinese": "區分；使有差異；區別對待",
     "collocations": [
       {
@@ -1160,6 +1226,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 0,
+      "ast_papers": 3,
+      "recent_papers": 0,
       "stars": 1,
       "example": "This helps differentiate dolphins’ vocal learning from that of birds, which tend to address one another in a more “aggressive context.”",
       "source": "104指考"
@@ -1169,7 +1238,7 @@ const LEVEL_6_DATA = [
     "word": "diversion",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/daɪvˈɝʒən/",
+    "kk": "/daɪˈvɝʒən/",
     "chinese": "轉移；繞道；消遣；改道",
     "collocations": [
       {
@@ -1212,6 +1281,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -1221,7 +1293,7 @@ const LEVEL_6_DATA = [
     "word": "disposal",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/dɪspˈoʊzəl/",
+    "kk": "/dɪˈspozəl/",
     "chinese": "處置；丟棄；安排；支配",
     "collocations": [
       {
@@ -1264,6 +1336,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1273,7 +1348,7 @@ const LEVEL_6_DATA = [
     "word": "discomfort",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/dɪskˈahmfɚt/",
+    "kk": "/dɪsˈkʌmfɚt/",
     "chinese": "不舒服；不適；使不舒服",
     "collocations": [
       {
@@ -1314,6 +1389,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 8,
       "papers": 6,
+      "gsat_papers": 4,
+      "ast_papers": 2,
+      "recent_papers": 4,
       "stars": 2,
       "example": "You may experience the discomfort from the motion of cars, boats, or amusement park rides.",
       "source": "114學測"
@@ -1323,7 +1401,7 @@ const LEVEL_6_DATA = [
     "word": "doze",
     "pos": "v./n.",
     "chapter": "People and Relationships",
-    "kk": "/dˈoʊz/",
+    "kk": "/ˈdoz/",
     "chinese": "打盹；小睡；瞌睡",
     "collocations": [
       {
@@ -1364,6 +1442,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1373,7 +1454,7 @@ const LEVEL_6_DATA = [
     "word": "dresser",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/drˈɛsɚ/",
+    "kk": "/ˈdrɛsɚ/",
     "chinese": "梳妝台；碗櫃；化妝師；穿衣有風格的人",
     "collocations": [
       {
@@ -1416,6 +1497,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1425,7 +1509,7 @@ const LEVEL_6_DATA = [
     "word": "enhance(ment)",
     "pos": "v./n.",
     "chapter": "People and Relationships",
-    "kk": "/ɛnhˈæns/",
+    "kk": "/ɛnˈhæns/",
     "chinese": "提升；增強；增進（提升行為）",
     "collocations": [
       {
@@ -1466,6 +1550,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 9,
       "papers": 6,
+      "gsat_papers": 4,
+      "ast_papers": 2,
+      "recent_papers": 5,
       "stars": 2,
       "example": "Neurologists also confirm that naps can enhance memory and learning.",
       "source": "115學測"
@@ -1475,7 +1562,7 @@ const LEVEL_6_DATA = [
     "word": "excess",
     "pos": "adj./n.",
     "chapter": "People and Relationships",
-    "kk": "/ˈɛksˌɛs/",
+    "kk": "/ˈɛkˌsɛs/",
     "chinese": "過多；過剩；超過；過度的",
     "collocations": [
       {
@@ -1518,6 +1605,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Many marine animals, including penguins and marine iguanas, have evolved ways to get rid of excess salt by using special salt-expelling glands around their tongue.",
       "source": "105學測"
@@ -1527,7 +1617,7 @@ const LEVEL_6_DATA = [
     "word": "eyelash/lash",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/ˈaɪlˌæʃ/",
+    "kk": "/ˈaɪˌlæʃ/",
     "chinese": "睫毛；鞭打；猛烈打擊",
     "collocations": [
       {
@@ -1570,6 +1660,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -1579,7 +1672,7 @@ const LEVEL_6_DATA = [
     "word": "faction",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/fˈækʃən/",
+    "kk": "/ˈfækʃən/",
     "chinese": "派系；小集團；內部分裂",
     "collocations": [
       {
@@ -1620,6 +1713,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1629,7 +1725,7 @@ const LEVEL_6_DATA = [
     "word": "feminine",
     "pos": "adj./n.",
     "chapter": "People and Relationships",
-    "kk": "/fˈɛmənən/",
+    "kk": "/ˈfɛmənən/",
     "chinese": "女性的；陰柔的；陰性的",
     "collocations": [
       {
@@ -1672,6 +1768,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1681,7 +1780,7 @@ const LEVEL_6_DATA = [
     "word": "fragrant",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/frˈeɪɡrənt/",
+    "kk": "/ˈfregrənt/",
     "chinese": "芬芳的；香氣宜人的",
     "collocations": [
       {
@@ -1722,6 +1821,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1731,7 +1833,7 @@ const LEVEL_6_DATA = [
     "word": "forthcoming",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/fˈɔrθkˈahmɪŋ/",
+    "kk": "/ˈfɔrθˈkʌmɪŋ/",
     "chinese": "即將到來的；樂於助人的；坦誠的",
     "collocations": [
       {
@@ -1774,6 +1876,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -1783,7 +1888,7 @@ const LEVEL_6_DATA = [
     "word": "gleam",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/ɡlˈim/",
+    "kk": "/ˈglim/",
     "chinese": "閃光；微光；閃爍",
     "collocations": [
       {
@@ -1826,6 +1931,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1835,7 +1943,7 @@ const LEVEL_6_DATA = [
     "word": "gallop",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/ɡˈæləp/",
+    "kk": "/ˈgæləp/",
     "chinese": "疾馳；奔馳；馬的疾馳",
     "collocations": [
       {
@@ -1878,6 +1986,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1887,7 +1998,7 @@ const LEVEL_6_DATA = [
     "word": "handicap",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/hˈændikˌæp/",
+    "kk": "/ˈhændiˌkæp/",
     "chinese": "殘障；阻礙；妨礙；讓分",
     "collocations": [
       {
@@ -1928,6 +2039,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -1937,7 +2051,7 @@ const LEVEL_6_DATA = [
     "word": "hacker",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/hˈækɚ/",
+    "kk": "/ˈhækɚ/",
     "chinese": "駭客；電腦入侵者",
     "collocations": [
       {
@@ -1978,6 +2092,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -1987,7 +2104,7 @@ const LEVEL_6_DATA = [
     "word": "headphone(s)",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/hˈɛdfˌoʊn/",
+    "kk": "/ˈhɛdˌfon/",
     "chinese": "耳機（頭戴式）",
     "collocations": [
       {
@@ -2028,6 +2145,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -2037,7 +2157,7 @@ const LEVEL_6_DATA = [
     "word": "hostel",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/hˈɑstəl/",
+    "kk": "/ˈhɑstəl/",
     "chinese": "青年旅舍；招待所",
     "collocations": [
       {
@@ -2078,6 +2198,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -2087,7 +2210,7 @@ const LEVEL_6_DATA = [
     "word": "humiliate",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/hjumˈɪliˌeɪt/",
+    "kk": "/hjuˈmɪliˌet/",
     "chinese": "羞辱；使丟臉；使難堪",
     "collocations": [
       {
@@ -2128,6 +2251,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "A small dose of such humor is charming, but routinely offering oneself up to be humiliated erodes one’s self-respect, and fosters depression and anxiety.",
       "source": "101指考"
@@ -2137,7 +2263,7 @@ const LEVEL_6_DATA = [
     "word": "injustice",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/ɪndʒˈahstɪs/",
+    "kk": "/ɪnˈdʒʌstɪs/",
     "chinese": "不公正；不公平；不公平的行為",
     "collocations": [
       {
@@ -2178,6 +2304,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -2187,7 +2316,7 @@ const LEVEL_6_DATA = [
     "word": "infer",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/ɪnfˈɝ/",
+    "kk": "/ɪnˈfɝ/",
     "chinese": "推斷；推論；暗示",
     "collocations": [
       {
@@ -2226,11 +2355,14 @@ const LEVEL_6_DATA = [
     "word_family": "infer (v.) · inference (n.)",
     "antonym": null,
     "exam": {
-      "count": 32,
-      "papers": 24,
-      "stars": 3,
-      "example": "Which of the following statements can be inferred about spiral staircases in the Medieval Ages?",
-      "source": "115學測"
+      "count": 0,
+      "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
+      "stars": 0,
+      "example": null,
+      "source": null
     }
   },
   {
@@ -2277,6 +2409,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -2286,7 +2421,7 @@ const LEVEL_6_DATA = [
     "word": "invaluable",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/ɪnvˈæljəbəl/",
+    "kk": "/ɪnˈvæljəbəl/",
     "chinese": "無價的；非常寶貴的",
     "collocations": [
       {
@@ -2327,6 +2462,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -2336,7 +2474,7 @@ const LEVEL_6_DATA = [
     "word": "kindle",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/kˈɪndəl/",
+    "kk": "/ˈkɪndəl/",
     "chinese": "點燃；激發；引起（興趣）",
     "collocations": [
       {
@@ -2377,18 +2515,21 @@ const LEVEL_6_DATA = [
     "word_family": "kindle (v.) · kindling",
     "antonym": null,
     "exam": {
-      "count": 3,
-      "papers": 1,
-      "stars": 1,
-      "example": "Amazon has seen sales of its Kindle e-readers in Africa increase tenfold in the past year.",
-      "source": "102指考"
+      "count": 0,
+      "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
+      "stars": 0,
+      "example": null,
+      "source": null
     }
   },
   {
     "word": "layman",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/lˈeɪmən/",
+    "kk": "/ˈlemən/",
     "chinese": "外行人；門外漢；非專業人士",
     "collocations": [
       {
@@ -2429,6 +2570,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -2438,7 +2582,7 @@ const LEVEL_6_DATA = [
     "word": "liberation",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/lˌɪbɚˈeɪʃən/",
+    "kk": "/ˌlɪbəˈreʃən/",
     "chinese": "解放；自由；釋放",
     "collocations": [
       {
@@ -2481,6 +2625,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "A different form of objection could be seen in the women’s hairstyles in the 1960s. Women’s liberation was expressed in a short-cut, straight and simple hairstyle which underlined equality with men without neglecting female attributes.",
       "source": "98指考"
@@ -2490,7 +2637,7 @@ const LEVEL_6_DATA = [
     "word": "lullaby",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/lˈahləbˌaɪ/",
+    "kk": "/ˈlʌləˌbaɪ/",
     "chinese": "搖籃曲；催眠曲",
     "collocations": [
       {
@@ -2530,6 +2677,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 19,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Four millennia ago, an ancient Babylonian wrote down what is possibly the first lullaby.",
       "source": "107學測"
@@ -2539,7 +2689,7 @@ const LEVEL_6_DATA = [
     "word": "lonesome",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/lˈoʊnsəm/",
+    "kk": "/ˈlonsəm/",
     "chinese": "孤獨的；寂寞的；荒涼的",
     "collocations": [
       {
@@ -2582,6 +2732,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -2591,7 +2744,7 @@ const LEVEL_6_DATA = [
     "word": "lottery",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/lˈɑtɚi/",
+    "kk": "/ˈlɑtɚi/",
     "chinese": "彩券；樂透；靠運氣的事",
     "collocations": [
       {
@@ -2634,6 +2787,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -2643,7 +2799,7 @@ const LEVEL_6_DATA = [
     "word": "meditate",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/mˈɛdətˌeɪt/",
+    "kk": "/ˈmɛdəˌtet/",
     "chinese": "冥想；沉思；靜心",
     "collocations": [
       {
@@ -2686,6 +2842,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -2695,7 +2854,7 @@ const LEVEL_6_DATA = [
     "word": "mermaid",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/mˈɝmˌeɪd/",
+    "kk": "/ˈmɝˌmed/",
     "chinese": "美人魚",
     "collocations": [
       {
@@ -2735,6 +2894,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -2744,7 +2906,7 @@ const LEVEL_6_DATA = [
     "word": "mustache",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/mˈahstˌæʃ/",
+    "kk": "/ˈmʌˌstæʃ/",
     "chinese": "鬍子（上脣）；小鬍子",
     "collocations": [
       {
@@ -2784,6 +2946,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -2793,7 +2958,7 @@ const LEVEL_6_DATA = [
     "word": "nationalism",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/nˈæʃənəlˌɪzəm/",
+    "kk": "/ˈnæʃənəˌlɪzəm/",
     "chinese": "民族主義；國家主義",
     "collocations": [
       {
@@ -2834,6 +2999,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -2843,7 +3011,7 @@ const LEVEL_6_DATA = [
     "word": "offspring",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/ˈɔfsprˌɪŋ/",
+    "kk": "/ˈɔfˌsprɪŋ/",
     "chinese": "後代；子女；產物",
     "collocations": [
       {
@@ -2884,6 +3052,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Do the mothers most skilled with tools have offspring who are also good at using tools?",
       "source": "103指考"
@@ -2893,7 +3064,7 @@ const LEVEL_6_DATA = [
     "word": "nucleus",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/nˈukliəs/",
+    "kk": "/ˈnukliəs/",
     "chinese": "核；細胞核；原子核；核心",
     "collocations": [
       {
@@ -2936,6 +3107,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -2945,7 +3119,7 @@ const LEVEL_6_DATA = [
     "word": "outlaw",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/ˈaʊtlˌɔ/",
+    "kk": "/ˈaʊtˌlɔ/",
     "chinese": "取締；宣布…為非法；罪犯；亡命之徒",
     "collocations": [
       {
@@ -2988,6 +3162,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "PCBs were once used in many industrial applications, but were outlawed in the United States in the 1970s after being linked to cancer.",
       "source": "109指考"
@@ -2997,7 +3174,7 @@ const LEVEL_6_DATA = [
     "word": "outset",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/ˈaʊtsˌɛt/",
+    "kk": "/ˈaʊtˌsɛt/",
     "chinese": "開始；開端；初期",
     "collocations": [
       {
@@ -3038,6 +3215,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3047,7 +3227,7 @@ const LEVEL_6_DATA = [
     "word": "originate",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/ɚˈɪdʒənˌeɪt/",
+    "kk": "/əˈrɪdʒəˌnet/",
     "chinese": "起源；發源；首創",
     "collocations": [
       {
@@ -3088,6 +3268,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 14,
       "papers": 12,
+      "gsat_papers": 6,
+      "ast_papers": 6,
+      "recent_papers": 8,
       "stars": 3,
       "example": "Early Egyptian maps showed south on top, most likely because the Nile, vital to Egyptian livelihood, originated in the south.",
       "source": "115學測"
@@ -3097,7 +3280,7 @@ const LEVEL_6_DATA = [
     "word": "overwork",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/ˌoʊvɚwˈɝk/",
+    "kk": "/ˈovɚˌwɝk/",
     "chinese": "過度工作；使過勞；過勞",
     "collocations": [
       {
@@ -3140,6 +3323,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3149,7 +3335,7 @@ const LEVEL_6_DATA = [
     "word": "permissible",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/pɚmˈɪsəbəl/",
+    "kk": "/pɚˈmɪsəbəl/",
     "chinese": "允許的；可允許的；被許可的",
     "collocations": [
       {
@@ -3190,6 +3376,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": null,
       "source": null
@@ -3199,7 +3388,7 @@ const LEVEL_6_DATA = [
     "word": "petroleum",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/pətrˈoʊliəm/",
+    "kk": "/pəˈtroliəm/",
     "chinese": "石油；石油製品",
     "collocations": [
       {
@@ -3240,6 +3429,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3249,7 +3441,7 @@ const LEVEL_6_DATA = [
     "word": "ponder",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/pˈɑndɚ/",
+    "kk": "/ˈpɑndɚ/",
     "chinese": "沉思；深思熟慮；考慮",
     "collocations": [
       {
@@ -3290,6 +3482,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3299,7 +3494,7 @@ const LEVEL_6_DATA = [
     "word": "preside",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/prɪzˈaɪd/",
+    "kk": "/prɪˈzaɪd/",
     "chinese": "主持；擔任主席；統轄",
     "collocations": [
       {
@@ -3340,6 +3535,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3349,7 +3547,7 @@ const LEVEL_6_DATA = [
     "word": "purity",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/pjˈʊrəti/",
+    "kk": "/ˈpjʊrəti/",
     "chinese": "純潔；純度；純粹",
     "collocations": [
       {
@@ -3392,6 +3590,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3401,7 +3602,7 @@ const LEVEL_6_DATA = [
     "word": "recreational",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/rˌɛkriˈeɪʃənəl/",
+    "kk": "/ˌrɛkriˈeʃənəl/",
     "chinese": "娛樂的；休閒的；消遣的",
     "collocations": [
       {
@@ -3442,6 +3643,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "He cannot afford any recreational activities.",
       "source": "96學測"
@@ -3451,7 +3655,7 @@ const LEVEL_6_DATA = [
     "word": "refine(ment)",
     "pos": "v./n.",
     "chapter": "People and Relationships",
-    "kk": "/rəfˈaɪn/",
+    "kk": "/rəˈfaɪn/",
     "chinese": "精煉；提升；改進（精煉行為）",
     "collocations": [
       {
@@ -3494,6 +3698,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "It is refined to remove its impurities and blended to improve flavor, and is recommended for all-purpose cooking.",
       "source": "109學測"
@@ -3503,7 +3710,7 @@ const LEVEL_6_DATA = [
     "word": "reminiscent",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/rˌɛmənˈɪsənt/",
+    "kk": "/ˌrɛməˈnɪsənt/",
     "chinese": "令人聯想到的；懷舊的",
     "collocations": [
       {
@@ -3544,6 +3751,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3553,7 +3763,7 @@ const LEVEL_6_DATA = [
     "word": "reproduce",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/rˌiprədˈus/",
+    "kk": "/ˌriprəˈdus/",
     "chinese": "繁殖；複製；重現",
     "collocations": [
       {
@@ -3596,6 +3806,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "When transmitted to a human, the parasite travels first to the liver and then on to the bloodstream, where it reproduces and destroys red blood cells.",
       "source": "103指考"
@@ -3605,7 +3818,7 @@ const LEVEL_6_DATA = [
     "word": "remainder",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/rɪmˈeɪndɚ/",
+    "kk": "/rɪˈmendɚ/",
     "chinese": "剩餘；餘數；剩下的部分",
     "collocations": [
       {
@@ -3646,6 +3859,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -3655,7 +3871,7 @@ const LEVEL_6_DATA = [
     "word": "revolt",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/rɪvˈoʊlt/",
+    "kk": "/rɪˈvolt/",
     "chinese": "反叛；起義；使反感",
     "collocations": [
       {
@@ -3698,6 +3914,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3707,7 +3926,7 @@ const LEVEL_6_DATA = [
     "word": "seduce",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/sɪdˈus/",
+    "kk": "/sɪˈdus/",
     "chinese": "誘惑；引誘；吸引",
     "collocations": [
       {
@@ -3750,6 +3969,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3759,7 +3981,7 @@ const LEVEL_6_DATA = [
     "word": "seagull/gull",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/sˈiɡˌahl/",
+    "kk": "/ˈsiˌgʌl/",
     "chinese": "海鷗",
     "collocations": [
       {
@@ -3799,6 +4021,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -3808,7 +4033,7 @@ const LEVEL_6_DATA = [
     "word": "shabby",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/ʃˈæbi/",
+    "kk": "/ˈʃæbi/",
     "chinese": "破舊的；寒酸的；不公平的",
     "collocations": [
       {
@@ -3851,6 +4076,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The only commercial diners for the masses were dusty, shabby roadside inns, where strangers crowded around mediocre buffets of lukewarm roasts and over-sauced beans.",
       "source": "110指考"
@@ -3860,7 +4088,7 @@ const LEVEL_6_DATA = [
     "word": "shrub",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/ʃrˈahb/",
+    "kk": "/ˈʃrʌb/",
     "chinese": "灌木；矮樹叢",
     "collocations": [
       {
@@ -3901,6 +4129,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Much of the forest land where tea is grown in Assam is flat and thus farmers must dig drainage trenches to prevent water from accumulating and hurting the shrubs.",
       "source": "112學測"
@@ -3910,7 +4141,7 @@ const LEVEL_6_DATA = [
     "word": "skim",
     "pos": "v./n.",
     "chapter": "People and Relationships",
-    "kk": "/skˈɪm/",
+    "kk": "/ˈskɪm/",
     "chinese": "略讀；掠過；撇去（浮沫）",
     "collocations": [
       {
@@ -3953,6 +4184,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -3962,7 +4196,7 @@ const LEVEL_6_DATA = [
     "word": "slaughter",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/slˈɔtɚ/",
+    "kk": "/ˈslɔtɚ/",
     "chinese": "屠宰；屠殺；大敗",
     "collocations": [
       {
@@ -4005,6 +4239,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -4014,7 +4251,7 @@ const LEVEL_6_DATA = [
     "word": "spiral",
     "pos": "adj./n./v.",
     "chapter": "People and Relationships",
-    "kk": "/spˈaɪrəl/",
+    "kk": "/ˈspaɪrəl/",
     "chinese": "螺旋形的；盤旋；螺旋狀物；急速上升/下降",
     "collocations": [
       {
@@ -4057,6 +4294,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 18,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The oldest spiral staircase still standing today is at Trajan’s Column in Rome.",
       "source": "115學測"
@@ -4066,7 +4306,7 @@ const LEVEL_6_DATA = [
     "word": "sportsmanship",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/spˈɔrtsmənʃˌɪp/",
+    "kk": "/ˈspɔrtsmənˌʃɪp/",
     "chinese": "運動家精神；公平競賽精神",
     "collocations": [
       {
@@ -4107,6 +4347,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -4116,7 +4359,7 @@ const LEVEL_6_DATA = [
     "word": "strait",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/strˈeɪt/",
+    "kk": "/ˈstret/",
     "chinese": "海峽；困境；嚴格的",
     "collocations": [
       {
@@ -4159,6 +4402,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Like pearls scattered in the East Sea, the Penghu archipelago is situated in the southwest of the Taiwan Strait.",
       "source": "94指考"
@@ -4168,7 +4414,7 @@ const LEVEL_6_DATA = [
     "word": "subscription",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/səbskrˈɪpʃən/",
+    "kk": "/səbˈskrɪpʃən/",
     "chinese": "訂閱；訂購；認購",
     "collocations": [
       {
@@ -4209,6 +4455,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The French government recently detailed plans of a project called “My Free Newspaper,” under which 18- to 24-year-olds will be offered a free, year-long subscription to a newspaper of their choice.",
       "source": "99指考"
@@ -4218,7 +4467,7 @@ const LEVEL_6_DATA = [
     "word": "surgical",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/sˈɝdʒɪkəl/",
+    "kk": "/ˈsɝdʒɪkəl/",
     "chinese": "外科的；手術的；精確的",
     "collocations": [
       {
@@ -4261,6 +4510,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -4270,7 +4522,7 @@ const LEVEL_6_DATA = [
     "word": "synthetic",
     "pos": "adj./n.",
     "chapter": "People and Relationships",
-    "kk": "/sɪnθˈɛtɪk/",
+    "kk": "/sɪnˈθɛtɪk/",
     "chinese": "合成的；人造的；綜合的",
     "collocations": [
       {
@@ -4313,6 +4565,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "After years of research and testing, he learned that synthetics worked best and eventually settled on heat-treated nylon, a strong and durable substance.",
       "source": "113學測"
@@ -4322,7 +4577,7 @@ const LEVEL_6_DATA = [
     "word": "supplement",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/sˈahpləmənt/",
+    "kk": "/ˈsʌpləmənt/",
     "chinese": "補充；增補；補充品",
     "collocations": [
       {
@@ -4365,6 +4620,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 5,
+      "gsat_papers": 1,
+      "ast_papers": 4,
+      "recent_papers": 4,
       "stars": 2,
       "example": "Cod skin, for example, is made into calcium supplement and energy drinks, and even as material for skin transplantation as in Oddsson’s case.",
       "source": "113學測"
@@ -4374,7 +4632,7 @@ const LEVEL_6_DATA = [
     "word": "teller",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/tˈɛlɚ/",
+    "kk": "/ˈtɛlɚ/",
     "chinese": "出納員；計票員；說故事的人",
     "collocations": [
       {
@@ -4417,6 +4675,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -4426,7 +4687,7 @@ const LEVEL_6_DATA = [
     "word": "tiresome",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/tˈaɪɚsəm/",
+    "kk": "/ˈtaɪɚsəm/",
     "chinese": "令人厭倦的；無聊的；煩人的",
     "collocations": [
       {
@@ -4467,6 +4728,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -4476,7 +4740,7 @@ const LEVEL_6_DATA = [
     "word": "twinkle",
     "pos": "n./v.",
     "chapter": "People and Relationships",
-    "kk": "/twˈɪŋkəl/",
+    "kk": "/ˈtwɪŋkəl/",
     "chinese": "閃爍；忽明忽暗；閃光",
     "collocations": [
       {
@@ -4517,6 +4781,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -4526,7 +4793,7 @@ const LEVEL_6_DATA = [
     "word": "upward",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/ˈahpwɚd/",
+    "kk": "/ˈʌpwɚd/",
     "chinese": "向上的；上升的；向上",
     "collocations": [
       {
@@ -4565,8 +4832,11 @@ const LEVEL_6_DATA = [
     "word_family": "upward (adj.) · upwardly",
     "antonym": "down, downward",
     "exam": {
-      "count": 3,
-      "papers": 3,
+      "count": 2,
+      "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Dimples also help to force the airflow downward, which pushes the ball upward.",
       "source": "110指考"
@@ -4619,6 +4889,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -4628,7 +4901,7 @@ const LEVEL_6_DATA = [
     "word": "vine",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/vˈaɪn/",
+    "kk": "/ˈvaɪn/",
     "chinese": "藤蔓；葡萄藤；攀緣植物",
     "collocations": [
       {
@@ -4671,6 +4944,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "They travel entirely along tree branches and vines, laying down trails of pheromone (a chemical substance) behind them so that other ants can follow.",
       "source": "113學測"
@@ -4680,7 +4956,7 @@ const LEVEL_6_DATA = [
     "word": "widow/widower",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/wˈɪdoʊ/",
+    "kk": "/ˈwɪdo/",
     "chinese": "寡婦／鰥夫",
     "collocations": [
       {
@@ -4721,6 +4997,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "It was customary in those days for a widow to dress in black for a short time after the death of her husband.",
       "source": "91指考"
@@ -4730,7 +5009,7 @@ const LEVEL_6_DATA = [
     "word": "woodpecker",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/wˈʊdpˌɛkɚ/",
+    "kk": "/ˈwʊdˌpɛkɚ/",
     "chinese": "啄木鳥",
     "collocations": [
       {
@@ -4770,6 +5049,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -4779,7 +5061,7 @@ const LEVEL_6_DATA = [
     "word": "joyous",
     "pos": "adj.",
     "chapter": "People and Relationships",
-    "kk": "/dʒˈɔɪəs/",
+    "kk": "/ˈdʒɔɪəs/",
     "chinese": "充滿喜悅的；歡天喜地的",
     "collocations": [
       {
@@ -4820,6 +5102,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -4829,7 +5114,7 @@ const LEVEL_6_DATA = [
     "word": "socialize",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/sˈoʊʃəlˌaɪz/",
+    "kk": "/ˈsoʃəˌlaɪz/",
     "chinese": "社交；與人交際；使社會化",
     "collocations": [
       {
@@ -4870,6 +5155,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -4919,6 +5207,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Thousands of miles away in Lebanon, Wissam plans to put on a play at an orphanage and bring potted plants to elderly people at a senior citizen center.",
       "source": "98指考"
@@ -4928,7 +5219,7 @@ const LEVEL_6_DATA = [
     "word": "rivalry",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/rˈaɪvəlri/",
+    "kk": "/ˈraɪvəlri/",
     "chinese": "競爭；對抗；競爭關係",
     "collocations": [
       {
@@ -4969,6 +5260,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -4978,7 +5272,7 @@ const LEVEL_6_DATA = [
     "word": "stepchild",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/stˈɛptʃˌaɪld/",
+    "kk": "/ˈstɛpˌtʃaɪld/",
     "chinese": "繼子；繼女",
     "collocations": [
       {
@@ -5017,6 +5311,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5026,7 +5323,7 @@ const LEVEL_6_DATA = [
     "word": "hospitality",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/hˌɑspətˈæləti/",
+    "kk": "/ˌhɑspəˈtæləti/",
     "chinese": "款待；好客；殷勤",
     "collocations": [
       {
@@ -5073,6 +5370,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5082,7 +5382,7 @@ const LEVEL_6_DATA = [
     "word": "heterosexual",
     "pos": "adj./n.",
     "chapter": "People and Relationships",
-    "kk": "/hˌɛtɚoʊsˈɛkʃəwəl/",
+    "kk": "/ˌhɛtəroˈsɛkʃuəl/",
     "chinese": "異性戀的；異性戀者",
     "collocations": [
       {
@@ -5127,6 +5427,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5136,7 +5439,7 @@ const LEVEL_6_DATA = [
     "word": "kin",
     "pos": "n./adj.",
     "chapter": "People and Relationships",
-    "kk": "/kˈɪn/",
+    "kk": "/ˈkɪn/",
     "chinese": "親屬；家族；同類",
     "collocations": [
       {
@@ -5181,6 +5484,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5190,7 +5496,7 @@ const LEVEL_6_DATA = [
     "word": "alienate",
     "pos": "v.",
     "chapter": "People and Relationships",
-    "kk": "/ˈeɪljənˌeɪt/",
+    "kk": "/ˈeljəˌnet/",
     "chinese": "使疏遠；使孤立；轉讓",
     "collocations": [
       {
@@ -5235,6 +5541,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5244,7 +5553,7 @@ const LEVEL_6_DATA = [
     "word": "sportsman/sportswoman",
     "pos": "n.",
     "chapter": "People and Relationships",
-    "kk": "/ˈsportsmən/",
+    "kk": "/ˈspɔrtsmən/",
     "chinese": "運動員；有運動家風度的人（n.）",
     "collocations": [
       {
@@ -5287,6 +5596,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5296,7 +5608,7 @@ const LEVEL_6_DATA = [
     "word": "vocational",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/voʊkˈeɪʃənəl/",
+    "kk": "/voˈkeʃənəl/",
     "chinese": "職業的；職業訓練的",
     "collocations": [
       {
@@ -5337,6 +5649,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5346,7 +5661,7 @@ const LEVEL_6_DATA = [
     "word": "adaptation",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/ˌædəptˈeɪʃən/",
+    "kk": "/ˌædəpˈteʃən/",
     "chinese": "改編；適應；調整",
     "collocations": [
       {
@@ -5389,6 +5704,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -5398,7 +5716,7 @@ const LEVEL_6_DATA = [
     "word": "accumulation",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/əkjˌumjəlˈeɪʃən/",
+    "kk": "/əˌkjumjəˈleʃən/",
     "chinese": "積累；積聚；堆積",
     "collocations": [
       {
@@ -5439,6 +5757,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -5448,7 +5769,7 @@ const LEVEL_6_DATA = [
     "word": "advisory",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/ædvˈaɪzɚi/",
+    "kk": "/ədˈvaɪzəri/",
     "chinese": "諮詢的；顧問的；建議性的",
     "collocations": [
       {
@@ -5491,6 +5812,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5500,7 +5824,7 @@ const LEVEL_6_DATA = [
     "word": "amid/amidst",
     "pos": "prep.",
     "chapter": "School and Learning",
-    "kk": "/əmˈɪd/",
+    "kk": "/əˈmɪd/",
     "chinese": "在…中間；在…之中；在…期間",
     "collocations": [
       {
@@ -5541,6 +5865,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5550,7 +5877,7 @@ const LEVEL_6_DATA = [
     "word": "allege",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/əlˈɛdʒ/",
+    "kk": "/əˈlɛdʒ/",
     "chinese": "聲稱；宣稱；斷言（未經證實）",
     "collocations": [
       {
@@ -5591,6 +5918,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5600,7 +5930,7 @@ const LEVEL_6_DATA = [
     "word": "aluminum",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/əlˈumənəm/",
+    "kk": "/əˈlumənəm/",
     "chinese": "鋁",
     "collocations": [
       {
@@ -5639,6 +5969,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Over the past century, hard hats have advanced considerably, evolving from canvas and leather to aluminum, fiberglass, and, eventually, to thermoplastic.",
       "source": "111學測"
@@ -5648,7 +5981,7 @@ const LEVEL_6_DATA = [
     "word": "arithmetic",
     "pos": "n./adj.",
     "chapter": "School and Learning",
-    "kk": "/ˌɛrɪθmˈɛtɪk/",
+    "kk": "/əˈrɪθməˌtɪk/",
     "chinese": "算術；算學",
     "collocations": [
       {
@@ -5689,6 +6022,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -5698,7 +6034,7 @@ const LEVEL_6_DATA = [
     "word": "attain(ment)",
     "pos": "v./n.",
     "chapter": "School and Learning",
-    "kk": "/ətˈeɪn/",
+    "kk": "/əˈten/",
     "chinese": "達到；實現；獲得（成就）",
     "collocations": [
       {
@@ -5741,6 +6077,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Packaging has, therefore, attained an important place in Japan’s economy.",
       "source": "95指考"
@@ -5750,7 +6089,7 @@ const LEVEL_6_DATA = [
     "word": "avert",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/əvˈɝt/",
+    "kk": "/əˈvɝt/",
     "chinese": "避免；防止；把（眼光）移開",
     "collocations": [
       {
@@ -5793,6 +6132,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -5802,7 +6144,7 @@ const LEVEL_6_DATA = [
     "word": "beep",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/bˈip/",
+    "kk": "/ˈbip/",
     "chinese": "嗶嗶聲；嗶嗶作響",
     "collocations": [
       {
@@ -5845,6 +6187,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Today, beeping alarm clocks and smartphones that play morning music are surely simpler and more convenient.",
       "source": "113學測"
@@ -5854,7 +6199,7 @@ const LEVEL_6_DATA = [
     "word": "bulky",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/bˈahlki/",
+    "kk": "/ˈbʌlki/",
     "chinese": "笨重的；龐大的；體積大的",
     "collocations": [
       {
@@ -5895,6 +6240,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -5904,7 +6252,7 @@ const LEVEL_6_DATA = [
     "word": "brook",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/brˈʊk/",
+    "kk": "/ˈbrʊk/",
     "chinese": "小溪；容忍（常用否定）",
     "collocations": [
       {
@@ -5947,6 +6295,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -5956,7 +6307,7 @@ const LEVEL_6_DATA = [
     "word": "cardboard",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/kˈɑrdbˌɔrd/",
+    "kk": "/ˈkɑrdˌbɔrd/",
     "chinese": "厚紙板；紙板的；膚淺的",
     "collocations": [
       {
@@ -5998,6 +6349,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6007,7 +6361,7 @@ const LEVEL_6_DATA = [
     "word": "cement",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/səmˈɛnt/",
+    "kk": "/səˈmɛnt/",
     "chinese": "水泥；膠合；鞏固；加強",
     "collocations": [
       {
@@ -6050,6 +6404,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6059,7 +6416,7 @@ const LEVEL_6_DATA = [
     "word": "capsule",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/kˈæpsəl/",
+    "kk": "/ˈkæpsəl/",
     "chinese": "膠囊；太空艙；時間膠囊",
     "collocations": [
       {
@@ -6102,6 +6459,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 11,
       "papers": 3,
+      "gsat_papers": 3,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "The first capsule hotel, the Capsule Inn Osaka, opened in 1979.",
       "source": "114學測"
@@ -6111,7 +6471,7 @@ const LEVEL_6_DATA = [
     "word": "clam",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/klˈæm/",
+    "kk": "/ˈklæm/",
     "chinese": "蛤蜊；保持沉默",
     "collocations": [
       {
@@ -6154,6 +6514,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6163,7 +6526,7 @@ const LEVEL_6_DATA = [
     "word": "chestnut",
     "pos": "n./adj.",
     "chapter": "School and Learning",
-    "kk": "/tʃˈɛsnˌaht/",
+    "kk": "/ˈtʃɛsˌnʌt/",
     "chinese": "栗子；栗色；老掉牙的故事",
     "collocations": [
       {
@@ -6206,6 +6569,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6215,7 +6581,7 @@ const LEVEL_6_DATA = [
     "word": "coastline",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/kˈoʊstlˌaɪn/",
+    "kk": "/ˈkostˌlaɪn/",
     "chinese": "海岸線；海岸",
     "collocations": [
       {
@@ -6256,6 +6622,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Located along the sparkling coastline of the Pacific Ocean, Wonder Village is a famous indigenous district in eastern Taiwan.",
       "source": "115學測"
@@ -6265,7 +6634,7 @@ const LEVEL_6_DATA = [
     "word": "cozy",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/kˈoʊzi/",
+    "kk": "/ˈkozi/",
     "chinese": "舒適的；溫馨的；親密的",
     "collocations": [
       {
@@ -6306,6 +6675,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6315,7 +6687,7 @@ const LEVEL_6_DATA = [
     "word": "credible",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/krˈɛdəbəl/",
+    "kk": "/ˈkrɛdəbəl/",
     "chinese": "可信的；可靠的；有說服力的",
     "collocations": [
       {
@@ -6356,6 +6728,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -6365,7 +6740,7 @@ const LEVEL_6_DATA = [
     "word": "decisive",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/dɪsˈaɪsɪv/",
+    "kk": "/dɪˈsaɪsɪv/",
     "chinese": "決定性的；果斷的；明確的",
     "collocations": [
       {
@@ -6408,6 +6783,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "“There is nothing in this world that does not have a decisive moment,” he said.",
       "source": "104學測"
@@ -6417,7 +6795,7 @@ const LEVEL_6_DATA = [
     "word": "curb",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/kˈɝb/",
+    "kk": "/ˈkɝb/",
     "chinese": "抑制；遏止；路緣石",
     "collocations": [
       {
@@ -6458,6 +6836,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6467,7 +6848,7 @@ const LEVEL_6_DATA = [
     "word": "dictate",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/dɪktˈeɪt/",
+    "kk": "/dɪkˈtet/",
     "chinese": "口授；命令；支配；規定",
     "collocations": [
       {
@@ -6510,6 +6891,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6519,7 +6903,7 @@ const LEVEL_6_DATA = [
     "word": "detain",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/dɪtˈeɪn/",
+    "kk": "/dɪˈten/",
     "chinese": "拘留；扣押；留住",
     "collocations": [
       {
@@ -6560,6 +6944,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6569,7 +6956,7 @@ const LEVEL_6_DATA = [
     "word": "disgrace",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/dɪsɡrˈeɪs/",
+    "kk": "/dɪsˈgres/",
     "chinese": "恥辱；使丟臉；失去寵信",
     "collocations": [
       {
@@ -6612,6 +6999,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Fond of saying that “the man who dies rich dies disgraced,” Carnegie then turned his attention to giving away his fortune.",
       "source": "96指考"
@@ -6621,7 +7011,7 @@ const LEVEL_6_DATA = [
     "word": "dispose",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/dɪspˈoʊz/",
+    "kk": "/dɪˈspoz/",
     "chinese": "處置；丟棄；使傾向於",
     "collocations": [
       {
@@ -6662,6 +7052,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -6671,7 +7064,7 @@ const LEVEL_6_DATA = [
     "word": "distraction",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/dɪstrˈækʃən/",
+    "kk": "/dɪˈstrækʃən/",
     "chinese": "分心；干擾；消遣",
     "collocations": [
       {
@@ -6714,6 +7107,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "A dark space with little distraction is ideal for napping.",
       "source": "115學測"
@@ -6723,7 +7119,7 @@ const LEVEL_6_DATA = [
     "word": "duration",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/dˈʊrˈeɪʃən/",
+    "kk": "/dʊˈreʃən/",
     "chinese": "持續時間；期間",
     "collocations": [
       {
@@ -6764,6 +7160,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The males sniff it for longer duration and come back to the same spot more frequently, a clear sign that they are gathering information about mating opportunities from the poop.",
       "source": "115學測"
@@ -6773,7 +7172,7 @@ const LEVEL_6_DATA = [
     "word": "dressing",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/drˈɛsɪŋ/",
+    "kk": "/ˈdrɛsɪŋ/",
     "chinese": "調料；敷料；穿衣；塗料",
     "collocations": [
       {
@@ -6816,6 +7215,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6825,7 +7227,7 @@ const LEVEL_6_DATA = [
     "word": "enlighten(ment)",
     "pos": "v./n.",
     "chapter": "School and Learning",
-    "kk": "/ɛnlˈaɪtən/",
+    "kk": "/ɛnˈlaɪtən/",
     "chinese": "啟發；啟蒙；啟示（啟蒙過程）",
     "collocations": [
       {
@@ -6868,6 +7270,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -6877,7 +7282,7 @@ const LEVEL_6_DATA = [
     "word": "evacuate",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/ɪvˈækjəˌeɪt/",
+    "kk": "/ɪˈvækjəˌet/",
     "chinese": "疏散；撤離；撤出",
     "collocations": [
       {
@@ -6918,6 +7323,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -6927,7 +7335,7 @@ const LEVEL_6_DATA = [
     "word": "examiner",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/ɪɡzˈæmənɚ/",
+    "kk": "/ɪgˈzæmənɚ/",
     "chinese": "審查官；考官；考試委員",
     "collocations": [
       {
@@ -6968,6 +7376,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -6977,7 +7388,7 @@ const LEVEL_6_DATA = [
     "word": "Fahrenheit",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/fˈɛrənhˌaɪt/",
+    "kk": "/ˈfɛrənˌhaɪt/",
     "chinese": "華氏（溫度單位）",
     "collocations": [
       {
@@ -7016,6 +7427,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Temperatures inside this structure easily reached 70 to 80 degrees Fahrenheit although outside temperatures frequently dropped well below zero.",
       "source": "91指考"
@@ -7025,7 +7439,7 @@ const LEVEL_6_DATA = [
     "word": "fishery",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/fˈɪʃɚi/",
+    "kk": "/ˈfɪʃɚi/",
     "chinese": "漁業；漁場；漁業管理",
     "collocations": [
       {
@@ -7067,6 +7481,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7076,7 +7493,7 @@ const LEVEL_6_DATA = [
     "word": "frantic",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/frˈæntɪk/",
+    "kk": "/ˈfræntɪk/",
     "chinese": "狂亂的；緊張的；瘋狂的",
     "collocations": [
       {
@@ -7117,6 +7534,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -7126,7 +7546,7 @@ const LEVEL_6_DATA = [
     "word": "fortify",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/fˈɔrtɪfˌaɪ/",
+    "kk": "/ˈfɔrtɪˌfaɪ/",
     "chinese": "強化；加固；增強（體力/信心）",
     "collocations": [
       {
@@ -7169,6 +7589,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 2,
       "stars": 1,
       "example": null,
       "source": null
@@ -7178,7 +7601,7 @@ const LEVEL_6_DATA = [
     "word": "glide",
     "pos": "v./n.",
     "chapter": "School and Learning",
-    "kk": "/ɡlˈaɪd/",
+    "kk": "/ˈglaɪd/",
     "chinese": "滑翔；滑行；悄悄移動",
     "collocations": [
       {
@@ -7221,6 +7644,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 3,
+      "gsat_papers": 3,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -7230,7 +7656,7 @@ const LEVEL_6_DATA = [
     "word": "goodwill",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/ɡˈʊdwˈɪl/",
+    "kk": "/ˈgʊdˈwɪl/",
     "chinese": "善意；好感；商譽",
     "collocations": [
       {
@@ -7271,6 +7697,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7280,7 +7709,7 @@ const LEVEL_6_DATA = [
     "word": "handicraft",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/hˈændikrˌæft/",
+    "kk": "/ˈhændiˌkræft/",
     "chinese": "手工藝；手工製品",
     "collocations": [
       {
@@ -7323,6 +7752,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7332,7 +7764,7 @@ const LEVEL_6_DATA = [
     "word": "hail",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/hˈeɪl/",
+    "kk": "/ˈhel/",
     "chinese": "冰雹；喝采；歡呼；呼喚",
     "collocations": [
       {
@@ -7375,6 +7807,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 5,
+      "gsat_papers": 0,
+      "ast_papers": 5,
+      "recent_papers": 3,
       "stars": 2,
       "example": "Tempeh (or tempe), a traditional soy product from Indonesia, is hailed as the country’s “gift to the world,” like kimchi from Korea or miso from Japan.",
       "source": "108指考"
@@ -7384,7 +7819,7 @@ const LEVEL_6_DATA = [
     "word": "healthful",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/hˈɛlθfəl/",
+    "kk": "/ˈhɛlθfəl/",
     "chinese": "有益健康的；有益的",
     "collocations": [
       {
@@ -7425,6 +7860,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Given this powerful effect, parents who are trying to lose weight should be careful of how their dieting habits can influence a child’s perceptions about food and healthful eating.",
       "source": "98學測"
@@ -7434,7 +7872,7 @@ const LEVEL_6_DATA = [
     "word": "hypocrite",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/hˈɪpəkrˌɪt/",
+    "kk": "/ˈhɪpəˌkrɪt/",
     "chinese": "偽君子；偽善者",
     "collocations": [
       {
@@ -7475,6 +7913,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7484,7 +7925,7 @@ const LEVEL_6_DATA = [
     "word": "hunch",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/hˈahntʃ/",
+    "kk": "/ˈhʌntʃ/",
     "chinese": "預感；直覺；弓身",
     "collocations": [
       {
@@ -7527,6 +7968,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7536,7 +7980,7 @@ const LEVEL_6_DATA = [
     "word": "indignant",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/ɪndˈɪɡnənt/",
+    "kk": "/ɪnˈdɪgnənt/",
     "chinese": "憤慨的；義憤填膺的",
     "collocations": [
       {
@@ -7577,6 +8021,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7586,7 +8033,7 @@ const LEVEL_6_DATA = [
     "word": "insistence",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/ɪnsˈɪstəns/",
+    "kk": "/ɪnˈsɪstəns/",
     "chinese": "堅持；一再要求；堅決主張",
     "collocations": [
       {
@@ -7627,6 +8074,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7636,7 +8086,7 @@ const LEVEL_6_DATA = [
     "word": "intimidate",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/ɪntˈɪmɪdˌeɪt/",
+    "kk": "/ɪnˈtɪmɪˌdet/",
     "chinese": "恐嚇；威脅；使膽怯",
     "collocations": [
       {
@@ -7679,6 +8129,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 3,
+      "gsat_papers": 0,
+      "ast_papers": 3,
+      "recent_papers": 1,
       "stars": 1,
       "example": "This performance before each match, which is intended to heighten their morale and intimidate opponents, is a sight to behold.",
       "source": "109指考"
@@ -7688,7 +8141,7 @@ const LEVEL_6_DATA = [
     "word": "invariably",
     "pos": "adv.",
     "chapter": "School and Learning",
-    "kk": "/ɪnvˈɛriəbli/",
+    "kk": "/ɪnˈvɛriəbli/",
     "chinese": "始終；不變地；一貫地",
     "collocations": [
       {
@@ -7729,6 +8182,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -7778,6 +8234,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7787,7 +8246,7 @@ const LEVEL_6_DATA = [
     "word": "lesbian",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/lˈɛzbiən/",
+    "kk": "/ˈlɛzbiən/",
     "chinese": "女同性戀者；女同性戀的",
     "collocations": [
       {
@@ -7829,6 +8288,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7838,7 +8300,7 @@ const LEVEL_6_DATA = [
     "word": "lieutenant",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/lutˈɛnənt/",
+    "kk": "/luˈtɛnənt/",
     "chinese": "中尉；副官；副手",
     "collocations": [
       {
@@ -7879,6 +8341,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7888,7 +8353,7 @@ const LEVEL_6_DATA = [
     "word": "lofty",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/lˈɔfti/",
+    "kk": "/ˈlɔfti/",
     "chinese": "崇高的；高聳的；傲慢的",
     "collocations": [
       {
@@ -7931,6 +8396,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -7940,7 +8408,7 @@ const LEVEL_6_DATA = [
     "word": "maiden",
     "pos": "adj./n.",
     "chapter": "School and Learning",
-    "kk": "/mˈeɪdən/",
+    "kk": "/ˈmedən/",
     "chinese": "少女；首次的；未用過的",
     "collocations": [
       {
@@ -7981,6 +8449,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "It may be the mother’s maiden name, for instance.",
       "source": "103學測"
@@ -7990,7 +8461,7 @@ const LEVEL_6_DATA = [
     "word": "meditation",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/mˌɛdətˈeɪʃən/",
+    "kk": "/ˌmɛdəˈteʃən/",
     "chinese": "冥想；沉思；靜修",
     "collocations": [
       {
@@ -8031,6 +8502,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -8040,7 +8514,7 @@ const LEVEL_6_DATA = [
     "word": "momentum",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/moʊmˈɛntəm/",
+    "kk": "/moˈmɛntəm/",
     "chinese": "動力；勢頭；動量",
     "collocations": [
       {
@@ -8081,6 +8555,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -8090,7 +8567,7 @@ const LEVEL_6_DATA = [
     "word": "mistress",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/mˈɪstrəs/",
+    "kk": "/ˈmɪstrəs/",
     "chinese": "女主人；情婦；女主；（學科的）女老師",
     "collocations": [
       {
@@ -8131,6 +8608,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -8140,7 +8620,7 @@ const LEVEL_6_DATA = [
     "word": "mute",
     "pos": "adj./v./n.",
     "chapter": "School and Learning",
-    "kk": "/mjˈut/",
+    "kk": "/ˈmjut/",
     "chinese": "靜音；沉默的；使靜音",
     "collocations": [
       {
@@ -8183,6 +8663,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -8192,7 +8675,7 @@ const LEVEL_6_DATA = [
     "word": "nickel",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/nˈɪkəl/",
+    "kk": "/ˈnɪkəl/",
     "chinese": "鎳；五分硬幣",
     "collocations": [
       {
@@ -8235,6 +8718,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Lithium-ion batteries have nearly twice the energy density of traditional nickel cadmium batteries.",
       "source": "104指考"
@@ -8244,7 +8730,7 @@ const LEVEL_6_DATA = [
     "word": "nostril",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/nˈɑstrɪl/",
+    "kk": "/ˈnɑstrɪl/",
     "chinese": "鼻孔",
     "collocations": [
       {
@@ -8283,6 +8769,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -8292,7 +8781,7 @@ const LEVEL_6_DATA = [
     "word": "nude",
     "pos": "adj./n.",
     "chapter": "School and Learning",
-    "kk": "/nˈud/",
+    "kk": "/ˈnud/",
     "chinese": "裸體的；裸色；裸體藝術",
     "collocations": [
       {
@@ -8333,6 +8822,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -8342,7 +8834,7 @@ const LEVEL_6_DATA = [
     "word": "outlook",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/ˈaʊtlˌʊk/",
+    "kk": "/ˈaʊtˌlʊk/",
     "chinese": "前景；展望；觀點；視野",
     "collocations": [
       {
@@ -8385,6 +8877,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -8394,7 +8889,7 @@ const LEVEL_6_DATA = [
     "word": "packet",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/pˈækət/",
+    "kk": "/ˈpækət/",
     "chinese": "小包；數據包；一批",
     "collocations": [
       {
@@ -8437,6 +8932,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -8446,7 +8944,7 @@ const LEVEL_6_DATA = [
     "word": "paradox",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/pˈɛrədˌɑks/",
+    "kk": "/ˈpɛrəˌdɑks/",
     "chinese": "矛盾；悖論；似非而是的說法",
     "collocations": [
       {
@@ -8487,6 +8985,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Called the diamond-water paradox, this is a classic problem posed to students of economics.",
       "source": "100學測"
@@ -8496,7 +8997,7 @@ const LEVEL_6_DATA = [
     "word": "persevere",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/pɚsəvˈɪr/",
+    "kk": "/pɚsəˈvɪr/",
     "chinese": "堅持不懈；毅然繼續",
     "collocations": [
       {
@@ -8537,6 +9038,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -8546,7 +9050,7 @@ const LEVEL_6_DATA = [
     "word": "pharmacist",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/fˈɑrməsɪst/",
+    "kk": "/ˈfɑrməsɪst/",
     "chinese": "藥劑師；藥師",
     "collocations": [
       {
@@ -8586,6 +9090,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Keele University in the United Kingdom has developed a “virtual patient,” created by a computer, to help train the pharmacists of the future.",
       "source": "98指考"
@@ -8595,7 +9102,7 @@ const LEVEL_6_DATA = [
     "word": "pony",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/pˈoʊni/",
+    "kk": "/ˈponi/",
     "chinese": "小型馬；矮種馬",
     "collocations": [
       {
@@ -8635,6 +9142,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -8644,7 +9154,7 @@ const LEVEL_6_DATA = [
     "word": "preview",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/prˈivjˌu/",
+    "kk": "/ˈpriˌvju/",
     "chinese": "預覽；試映；預先察看",
     "collocations": [
       {
@@ -8685,6 +9195,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -8694,7 +9207,7 @@ const LEVEL_6_DATA = [
     "word": "probe",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/prˈoʊb/",
+    "kk": "/ˈprob/",
     "chinese": "探測器；調查；探測",
     "collocations": [
       {
@@ -8737,6 +9250,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "“This find suggests that big cats have a deeper evolutionary origin than previously suspected,” said Jack Tseng, a paleontologist of the University of Southern California who led the probe.",
       "source": "105指考"
@@ -8746,7 +9262,7 @@ const LEVEL_6_DATA = [
     "word": "prototype",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/prˈoʊtətˌaɪp/",
+    "kk": "/ˈprotəˌtaɪp/",
     "chinese": "原型；雛形；典型",
     "collocations": [
       {
@@ -8789,6 +9305,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Bol’s prototype gave birth to Little Free Library (LFL), a nonprofit organization that seeks to place small, accessible book exchange boxes in neighborhoods around the world.",
       "source": "106指考"
@@ -8798,7 +9317,7 @@ const LEVEL_6_DATA = [
     "word": "propel",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/prəpˈɛl/",
+    "kk": "/prəˈpɛl/",
     "chinese": "推進；驅使；推動",
     "collocations": [
       {
@@ -8841,6 +9360,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The running machine, also called Draisine or hobby horse, was in effect a very primitive bicycle: it had no chains and was propelled by riders pushing off the ground with their feet.",
       "source": "107指考"
@@ -8850,7 +9372,7 @@ const LEVEL_6_DATA = [
     "word": "radioactive",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/rˌeɪdioʊˈæktɪv/",
+    "kk": "/ˌredioˈæktɪv/",
     "chinese": "放射性的；有輻射的",
     "collocations": [
       {
@@ -8890,6 +9412,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -8899,7 +9424,7 @@ const LEVEL_6_DATA = [
     "word": "reflective",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/rɪflˈɛktɪv/",
+    "kk": "/rɪˈflɛktɪv/",
     "chinese": "反思的；反光的；沉思的",
     "collocations": [
       {
@@ -8942,6 +9467,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -8951,7 +9479,7 @@ const LEVEL_6_DATA = [
     "word": "restoration",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/rˌɛstɚˈeɪʃən/",
+    "kk": "/ˌrɛstəˈreʃən/",
     "chinese": "修復；恢復；復辟",
     "collocations": [
       {
@@ -8994,6 +9522,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -9003,7 +9534,7 @@ const LEVEL_6_DATA = [
     "word": "retrieve",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/rɪtrˈiv/",
+    "kk": "/rɪˈtriv/",
     "chinese": "取回；找回；挽回",
     "collocations": [
       {
@@ -9044,6 +9575,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "However, this is not the only explanation why coffee beans retrieved from civet droppings have a special flavor all their own.",
       "source": "99指考"
@@ -9053,7 +9587,7 @@ const LEVEL_6_DATA = [
     "word": "revolve",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/rivˈɑlv/",
+    "kk": "/riˈvɑlv/",
     "chinese": "旋轉；環繞；以…為中心",
     "collocations": [
       {
@@ -9096,6 +9630,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "One benefit of horror movies revolves around the concept of so-called “safe fear.”",
       "source": "114學測"
@@ -9105,7 +9642,7 @@ const LEVEL_6_DATA = [
     "word": "sanitation",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/sˌænətˈeɪʃən/",
+    "kk": "/ˌsænəˈteʃən/",
     "chinese": "公共衛生；衛生設施；排污",
     "collocations": [
       {
@@ -9146,6 +9683,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Since its establishment, the Consumer Protection Committee has taken measures that emphasize product safety and sanitation.",
       "source": "109指考"
@@ -9155,7 +9695,7 @@ const LEVEL_6_DATA = [
     "word": "serene",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/sɚˈin/",
+    "kk": "/səˈrin/",
     "chinese": "寧靜的；平和的；清澄的",
     "collocations": [
       {
@@ -9198,6 +9738,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -9207,7 +9750,7 @@ const LEVEL_6_DATA = [
     "word": "shortcoming",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/ʃˈɔrtkˌahmɪŋ/",
+    "kk": "/ˈʃɔrtˌkʌmɪŋ/",
     "chinese": "缺點；不足；短處",
     "collocations": [
       {
@@ -9248,6 +9791,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -9257,7 +9803,7 @@ const LEVEL_6_DATA = [
     "word": "socialism",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/sˈoʊʃəlˌɪzəm/",
+    "kk": "/ˈsoʃəˌlɪzəm/",
     "chinese": "社會主義",
     "collocations": [
       {
@@ -9298,6 +9844,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -9307,7 +9856,7 @@ const LEVEL_6_DATA = [
     "word": "solemn",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/sˈɑləm/",
+    "kk": "/ˈsɑləm/",
     "chinese": "莊嚴的；嚴肅的；正式的",
     "collocations": [
       {
@@ -9350,6 +9899,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -9359,7 +9911,7 @@ const LEVEL_6_DATA = [
     "word": "sneeze",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/snˈiz/",
+    "kk": "/ˈsniz/",
     "chinese": "打噴嚏；噴嚏",
     "collocations": [
       {
@@ -9400,6 +9952,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Plant diseases can also spread through tiny water drops that jump off leaves— a plant’s version of a sneeze.",
       "source": "109學測"
@@ -9409,7 +9964,7 @@ const LEVEL_6_DATA = [
     "word": "stagger",
     "pos": "v./n.",
     "chapter": "School and Learning",
-    "kk": "/stˈæɡɚ/",
+    "kk": "/ˈstægɚ/",
     "chinese": "蹣跚；使驚訝；交錯安排",
     "collocations": [
       {
@@ -9452,6 +10007,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -9461,7 +10019,7 @@ const LEVEL_6_DATA = [
     "word": "spectacle",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/spˈɛktəkəl/",
+    "kk": "/ˈspɛktəkəl/",
     "chinese": "壯觀景象；奇觀；眼鏡",
     "collocations": [
       {
@@ -9504,6 +10062,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "But many others enjoy a good fear spectacle, and line up to see the latest scary movie.",
       "source": "114學測"
@@ -9513,7 +10074,7 @@ const LEVEL_6_DATA = [
     "word": "stutter",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/stˈahtɚ/",
+    "kk": "/ˈstʌtɚ/",
     "chinese": "口吃；結巴；顫動",
     "collocations": [
       {
@@ -9556,6 +10117,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -9565,7 +10129,7 @@ const LEVEL_6_DATA = [
     "word": "stray",
     "pos": "adj./v./n.",
     "chapter": "School and Learning",
-    "kk": "/strˈeɪ/",
+    "kk": "/ˈstre/",
     "chinese": "流浪的；偏離；走失",
     "collocations": [
       {
@@ -9608,6 +10172,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -9617,7 +10184,7 @@ const LEVEL_6_DATA = [
     "word": "surname",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/sˈɝnˌeɪm/",
+    "kk": "/ˈsɝˌnem/",
     "chinese": "姓氏；姓",
     "collocations": [
       {
@@ -9657,6 +10224,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -9666,7 +10236,7 @@ const LEVEL_6_DATA = [
     "word": "syrup",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/sˈɝəp/",
+    "kk": "/ˈsɝəp/",
     "chinese": "糖漿；果漿",
     "collocations": [
       {
@@ -9707,6 +10277,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -9716,7 +10289,7 @@ const LEVEL_6_DATA = [
     "word": "tan",
     "pos": "n./adj./v.",
     "chapter": "School and Learning",
-    "kk": "/tˈæn/",
+    "kk": "/ˈtæn/",
     "chinese": "曬黑；棕褐色；鞣製（皮革）",
     "collocations": [
       {
@@ -9759,6 +10332,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -9768,7 +10344,7 @@ const LEVEL_6_DATA = [
     "word": "tempo",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/tˈɛmpˌoʊ/",
+    "kk": "/ˈtɛmˌpo/",
     "chinese": "節奏；速度；速率",
     "collocations": [
       {
@@ -9811,6 +10387,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -9820,7 +10399,7 @@ const LEVEL_6_DATA = [
     "word": "treasury",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/trˈɛʒɚi/",
+    "kk": "/ˈtrɛʒɚi/",
     "chinese": "國庫；財政部；寶庫",
     "collocations": [
       {
@@ -9863,6 +10442,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "This soon filled the state treasury with huge revenues, but it also encouraged vodka consumption.",
       "source": "114學測"
@@ -9872,7 +10454,7 @@ const LEVEL_6_DATA = [
     "word": "unveil",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/ənvˈeɪl/",
+    "kk": "/ənˈvel/",
     "chinese": "揭幕；公開；揭示",
     "collocations": [
       {
@@ -9915,6 +10497,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "In 1991 he unveiled the World Wide Web.",
       "source": "94指考"
@@ -9924,7 +10509,7 @@ const LEVEL_6_DATA = [
     "word": "upward/upwards",
     "pos": "adv.",
     "chapter": "School and Learning",
-    "kk": "/ˈahpwɚd/",
+    "kk": "/ˈʌpwɚd/",
     "chinese": "向上地；上升地",
     "collocations": [
       {
@@ -9963,9 +10548,12 @@ const LEVEL_6_DATA = [
     "word_family": "",
     "antonym": "down, downward",
     "exam": {
-      "count": 4,
-      "papers": 4,
-      "stars": 2,
+      "count": 3,
+      "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 2,
+      "stars": 1,
       "example": "Dimples also help to force the airflow downward, which pushes the ball upward.",
       "source": "110指考"
     }
@@ -9974,7 +10562,7 @@ const LEVEL_6_DATA = [
     "word": "utter",
     "pos": "adj./v.",
     "chapter": "School and Learning",
-    "kk": "/ˈahtɚ/",
+    "kk": "/ˈʌtɚ/",
     "chinese": "說出；發出；完全的；徹底的",
     "collocations": [
       {
@@ -10017,6 +10605,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "If it’s a match, “I love you,” she utters.",
       "source": "93指考"
@@ -10026,7 +10617,7 @@ const LEVEL_6_DATA = [
     "word": "victor",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/vˈɪktɚ/",
+    "kk": "/ˈvɪktɚ/",
     "chinese": "勝利者；征服者",
     "collocations": [
       {
@@ -10067,6 +10658,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -10076,7 +10670,7 @@ const LEVEL_6_DATA = [
     "word": "vineyard",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/vˈɪnjɚd/",
+    "kk": "/ˈvɪnjɚd/",
     "chinese": "葡萄園",
     "collocations": [
       {
@@ -10116,6 +10710,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Before the adoption of Christianity in Russia (10th century), there were no vineyards and therefore no wine.",
       "source": "114學測"
@@ -10125,7 +10722,7 @@ const LEVEL_6_DATA = [
     "word": "warrant",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/wˈɔrənt/",
+    "kk": "/ˈwɔrənt/",
     "chinese": "授權；搜查令；保證；值得",
     "collocations": [
       {
@@ -10168,6 +10765,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -10177,7 +10777,7 @@ const LEVEL_6_DATA = [
     "word": "yoga",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/jˈoʊɡə/",
+    "kk": "/ˈjogə/",
     "chinese": "瑜伽",
     "collocations": [
       {
@@ -10217,6 +10817,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "A five-part essay entitled “Angry Birds Yoga—How to Eliminate the Green Pigs in Your Life” was written by Giridhari Dasar in Brazil, utilizing the characters and gameplay mechanics to interpret various concepts of yoga philosophy.",
       "source": "101指考"
@@ -10226,7 +10829,7 @@ const LEVEL_6_DATA = [
     "word": "dictation",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/dɪktˈeɪʃən/",
+    "kk": "/dɪkˈteʃən/",
     "chinese": "聽寫；口述；命令",
     "collocations": [
       {
@@ -10268,6 +10871,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -10277,7 +10883,7 @@ const LEVEL_6_DATA = [
     "word": "intonation",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/ɪntənˈeɪʃən/",
+    "kk": "/ɪntəˈneʃən/",
     "chinese": "語調；音調",
     "collocations": [
       {
@@ -10318,6 +10924,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -10367,6 +10976,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -10376,7 +10988,7 @@ const LEVEL_6_DATA = [
     "word": "sociology",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/sˌoʊsiˈɑlədʒi/",
+    "kk": "/ˌsosiˈɑlədʒi/",
     "chinese": "社會學",
     "collocations": [
       {
@@ -10416,6 +11028,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -10425,7 +11040,7 @@ const LEVEL_6_DATA = [
     "word": "janitor",
     "pos": "n.",
     "chapter": "School and Learning",
-    "kk": "/dʒˈænətɚ/",
+    "kk": "/ˈdʒænətɚ/",
     "chinese": "工友；門衛；清潔工",
     "collocations": [
       {
@@ -10470,6 +11085,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -10479,7 +11097,7 @@ const LEVEL_6_DATA = [
     "word": "ironic",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/aɪrˈɑnɪk/",
+    "kk": "/aɪˈrɑnɪk/",
     "chinese": "諷刺的；具有諷刺意味的",
     "collocations": [
       {
@@ -10524,6 +11142,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -10533,7 +11154,7 @@ const LEVEL_6_DATA = [
     "word": "cram",
     "pos": "v.",
     "chapter": "School and Learning",
-    "kk": "/krˈæm/",
+    "kk": "/ˈkræm/",
     "chinese": "填塞；死記硬背；臨時抱佛腳",
     "collocations": [
       {
@@ -10580,6 +11201,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -10589,7 +11213,7 @@ const LEVEL_6_DATA = [
     "word": "literate",
     "pos": "adj./n.",
     "chapter": "School and Learning",
-    "kk": "/lˈɪtɚət/",
+    "kk": "/ˈlɪtɚət/",
     "chinese": "有讀寫能力的；受過教育的",
     "collocations": [
       {
@@ -10636,6 +11260,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -10645,7 +11272,7 @@ const LEVEL_6_DATA = [
     "word": "comparative",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/kəmpˈɛrətɪv/",
+    "kk": "/kəmˈpɛrətɪv/",
     "chinese": "比較的；相對的；比較級",
     "collocations": [
       {
@@ -10692,6 +11319,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "A country is said to have a comparative advantage over another when it can produce a commodity more cheaply.",
       "source": "105學測"
@@ -10701,7 +11331,7 @@ const LEVEL_6_DATA = [
     "word": "excerpt",
     "pos": "n./v.",
     "chapter": "School and Learning",
-    "kk": "/ˈɛksɚpt/",
+    "kk": "/ˈɛkˌsɝpt/",
     "chinese": "摘錄；節錄；摘要",
     "collocations": [
       {
@@ -10746,6 +11376,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Below is an excerpt from an interview with Zeke Emanuel, a health-policy expert, on his famous brothers.",
       "source": "103學測"
@@ -10755,7 +11388,7 @@ const LEVEL_6_DATA = [
     "word": "infectious",
     "pos": "adj.",
     "chapter": "School and Learning",
-    "kk": "/ɪnfˈɛkʃəs/",
+    "kk": "/ɪnˈfɛkʃəs/",
     "chinese": "傳染性的；有感染力的",
     "collocations": [
       {
@@ -10802,6 +11435,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -10811,7 +11447,7 @@ const LEVEL_6_DATA = [
     "word": "abbreviate",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/əbrˈiviˌeɪt/",
+    "kk": "/əˈbriviˌet/",
     "chinese": "縮寫；縮短",
     "collocations": [
       {
@@ -10854,6 +11490,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Doctor of Philosophy, usually abbreviated as PhD or Ph.D., is an advanced academic degree awarded by universities.",
       "source": "100指考"
@@ -10903,6 +11542,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -10912,7 +11554,7 @@ const LEVEL_6_DATA = [
     "word": "accessory",
     "pos": "n./adj.",
     "chapter": "Work and Economy",
-    "kk": "/æksˈɛsɚi/",
+    "kk": "/ækˈsɛsɚi/",
     "chinese": "配件；附件；從犯；附屬的",
     "collocations": [
       {
@@ -10955,6 +11597,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 4,
+      "gsat_papers": 3,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 2,
       "example": "Open since 1996, the store features traditional-style home accessories, ranging from cabinets and chairs to picture frames and decorative mirrors.",
       "source": "115學測"
@@ -10964,7 +11609,7 @@ const LEVEL_6_DATA = [
     "word": "amplify",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/ˈæmpləfˌaɪ/",
+    "kk": "/ˈæmpləˌfaɪ/",
     "chinese": "放大；擴大；詳述",
     "collocations": [
       {
@@ -11005,6 +11650,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -11014,7 +11662,7 @@ const LEVEL_6_DATA = [
     "word": "airway",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/ˈɛrwˌeɪ/",
+    "kk": "/ˈɛrˌwe/",
     "chinese": "航空公司；氣道；飛行航線",
     "collocations": [
       {
@@ -11057,6 +11705,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -11106,6 +11757,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -11115,7 +11769,7 @@ const LEVEL_6_DATA = [
     "word": "approximate",
     "pos": "adj./v.",
     "chapter": "Work and Economy",
-    "kk": "/əprˈɑksəmət/",
+    "kk": "/əˈprɑksəmət/",
     "chinese": "近似的；大約的；接近",
     "collocations": [
       {
@@ -11156,6 +11810,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -11165,7 +11822,7 @@ const LEVEL_6_DATA = [
     "word": "aviation",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/ˌeɪviˈeɪʃən/",
+    "kk": "/ˌeviˈeʃən/",
     "chinese": "航空；飛行；航空業",
     "collocations": [
       {
@@ -11206,6 +11863,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Such claims have zero merit, says Arnold Barnett, a former chair of the Federal Aviation Administration's technical team.",
       "source": "92指考"
@@ -11215,7 +11875,7 @@ const LEVEL_6_DATA = [
     "word": "bilateral",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/baɪlˈætɚəl/",
+    "kk": "/baɪˈlætɚəl/",
     "chinese": "雙邊的；雙方的",
     "collocations": [
       {
@@ -11256,6 +11916,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -11265,7 +11928,7 @@ const LEVEL_6_DATA = [
     "word": "boulevard",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/bˈʊləvˌɑrd/",
+    "kk": "/ˈbʊləˌvɑrd/",
     "chinese": "林蔭大道；寬闊街道",
     "collocations": [
       {
@@ -11306,6 +11969,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -11315,7 +11981,7 @@ const LEVEL_6_DATA = [
     "word": "broth",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/brˈɔθ/",
+    "kk": "/ˈbrɔθ/",
     "chinese": "肉湯；清湯；高湯",
     "collocations": [
       {
@@ -11356,6 +12022,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "But sometime in the 1760s, the merchant class of Paris developed a taste for healthy clear broths which were considered restorative; hence the term “restaurant.”",
       "source": "110指考"
@@ -11365,7 +12034,7 @@ const LEVEL_6_DATA = [
     "word": "cavity",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/kˈævəti/",
+    "kk": "/ˈkævəti/",
     "chinese": "洞；空腔；蛀牙；孔洞",
     "collocations": [
       {
@@ -11408,6 +12077,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Turtle ants often live in the cavities of dead branches in American forests.",
       "source": "113學測"
@@ -11417,7 +12089,7 @@ const LEVEL_6_DATA = [
     "word": "census",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/sˈɛnsəs/",
+    "kk": "/ˈsɛnsəs/",
     "chinese": "人口普查；統計調查",
     "collocations": [
       {
@@ -11458,6 +12130,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -11467,7 +12142,7 @@ const LEVEL_6_DATA = [
     "word": "cater",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/kˈeɪtɚ/",
+    "kk": "/ˈketɚ/",
     "chinese": "承辦餐飲；迎合；滿足需求",
     "collocations": [
       {
@@ -11510,6 +12185,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -11519,7 +12197,7 @@ const LEVEL_6_DATA = [
     "word": "chirp",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/tʃˈɝp/",
+    "kk": "/ˈtʃɝp/",
     "chinese": "（鳥或蟲）鳴叫聲；啁啾",
     "collocations": [
       {
@@ -11560,6 +12238,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -11569,7 +12250,7 @@ const LEVEL_6_DATA = [
     "word": "clockwise",
     "pos": "adv./adj.",
     "chapter": "Work and Economy",
-    "kk": "/klˈɑkwˌaɪz/",
+    "kk": "/ˈklɑkˌwaɪz/",
     "chinese": "順時針方向（的）",
     "collocations": [
       {
@@ -11608,6 +12289,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Also, the stairs were designed to turn clockwise upwards.",
       "source": "115學測"
@@ -11617,7 +12301,7 @@ const LEVEL_6_DATA = [
     "word": "comet",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/kˈɑmət/",
+    "kk": "/ˈkɑmət/",
     "chinese": "彗星",
     "collocations": [
       {
@@ -11657,6 +12341,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Most people would think that aside from comets and stars there is little else out there.",
       "source": "102學測"
@@ -11666,7 +12353,7 @@ const LEVEL_6_DATA = [
     "word": "computerize",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/kəmpjˈutɚˌaɪz/",
+    "kk": "/kəmˈpjutəˌraɪz/",
     "chinese": "電腦化；使電腦化",
     "collocations": [
       {
@@ -11706,6 +12393,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -11715,7 +12405,7 @@ const LEVEL_6_DATA = [
     "word": "condense",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/kəndˈɛns/",
+    "kk": "/kənˈdɛns/",
     "chinese": "濃縮；使凝結；精簡",
     "collocations": [
       {
@@ -11758,6 +12448,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -11767,7 +12460,7 @@ const LEVEL_6_DATA = [
     "word": "coupon",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/kˈupˌɔn/",
+    "kk": "/ˈkuˌpɑn/",
     "chinese": "折價券；優惠券；息票",
     "collocations": [
       {
@@ -11808,6 +12501,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -11817,7 +12513,7 @@ const LEVEL_6_DATA = [
     "word": "crutch",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/krˈahtʃ/",
+    "kk": "/ˈkrʌtʃ/",
     "chinese": "柺杖；依靠；支撐物",
     "collocations": [
       {
@@ -11860,6 +12556,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -11869,7 +12568,7 @@ const LEVEL_6_DATA = [
     "word": "defect",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/dˈifɛkt/",
+    "kk": "/ˈdifɛkt/",
     "chinese": "缺陷；缺點；叛逃",
     "collocations": [
       {
@@ -11912,6 +12611,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 7,
       "papers": 4,
+      "gsat_papers": 1,
+      "ast_papers": 3,
+      "recent_papers": 2,
       "stars": 2,
       "example": "Today, newborns are routinely screened for certain enzyme defects such as PKU (phenylketonuria) and galactosemia, an error in the handling of the sugar galactose.",
       "source": "106指考"
@@ -11921,7 +12623,7 @@ const LEVEL_6_DATA = [
     "word": "detention",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/dɪtˈɛnʃən/",
+    "kk": "/dɪˈtɛnʃən/",
     "chinese": "拘留；留校；羈押",
     "collocations": [
       {
@@ -11964,6 +12666,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -11973,7 +12678,7 @@ const LEVEL_6_DATA = [
     "word": "divert",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/daɪvˈɝt/",
+    "kk": "/daɪˈvɝt/",
     "chinese": "轉移；使改道；娛樂",
     "collocations": [
       {
@@ -12016,6 +12721,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -12025,7 +12733,7 @@ const LEVEL_6_DATA = [
     "word": "disastrous",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/dɪzˈæstrəs/",
+    "kk": "/dɪˈzæstrəs/",
     "chinese": "災難性的；極壞的；慘敗的",
     "collocations": [
       {
@@ -12066,6 +12774,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The loss of snows on the 5,892m peak, which have been there for about 11,700 years, could have disastrous effects on Tanzania.",
       "source": "103學測"
@@ -12075,7 +12786,7 @@ const LEVEL_6_DATA = [
     "word": "doom",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/dˈum/",
+    "kk": "/ˈdum/",
     "chinese": "厄運；毀滅；注定",
     "collocations": [
       {
@@ -12118,6 +12829,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -12168,6 +12882,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Over the years, only the edible soft inner flesh has been used.",
       "source": "110學測"
@@ -12177,7 +12894,7 @@ const LEVEL_6_DATA = [
     "word": "encyclopedia",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/ɪnsˌaɪkləpˈidiə/",
+    "kk": "/ɪnˌsaɪkləˈpidiə/",
     "chinese": "百科全書",
     "collocations": [
       {
@@ -12217,6 +12934,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -12226,7 +12946,7 @@ const LEVEL_6_DATA = [
     "word": "emigrant",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/ˈɛməɡrənt/",
+    "kk": "/ˈɛməgrənt/",
     "chinese": "移民（移出者）；移居國外者",
     "collocations": [
       {
@@ -12267,6 +12987,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -12276,7 +12999,7 @@ const LEVEL_6_DATA = [
     "word": "exclusion",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/ɪksklˈuʒən/",
+    "kk": "/ɪkˈskluʒən/",
     "chinese": "排除；排斥；驅逐",
     "collocations": [
       {
@@ -12317,6 +13040,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "You focus intently on the subject at hand, to the near exclusion of any other thought.",
       "source": "108指考"
@@ -12326,7 +13052,7 @@ const LEVEL_6_DATA = [
     "word": "expenditure",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/ɪkspˈɛndətʃɚ/",
+    "kk": "/ɪkˈspɛndətʃɚ/",
     "chinese": "支出；費用；開銷",
     "collocations": [
       {
@@ -12367,6 +13093,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -12376,7 +13105,7 @@ const LEVEL_6_DATA = [
     "word": "fin",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/fˈɪn/",
+    "kk": "/ˈfɪn/",
     "chinese": "魚鰭；（飛機的）尾翼；散熱片",
     "collocations": [
       {
@@ -12417,6 +13146,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -12426,7 +13158,7 @@ const LEVEL_6_DATA = [
     "word": "fertility",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/fɚtˈɪləti/",
+    "kk": "/fɚˈtɪləti/",
     "chinese": "生育力；肥沃；豐饒",
     "collocations": [
       {
@@ -12469,6 +13201,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "In a man it was the expression of his strength, in a woman of her fertility.",
       "source": "98指考"
@@ -12478,7 +13213,7 @@ const LEVEL_6_DATA = [
     "word": "freak",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/frˈik/",
+    "kk": "/ˈfrik/",
     "chinese": "怪人；反常現象；狂熱者；使驚慌",
     "collocations": [
       {
@@ -12521,6 +13256,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Magic, however, was not well accepted before the 1800s. Magicians were thought of as freaks and were only allowed to perform in a circus.",
       "source": "92學測"
@@ -12530,7 +13268,7 @@ const LEVEL_6_DATA = [
     "word": "foe",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/fˈoʊ/",
+    "kk": "/ˈfo/",
     "chinese": "敵人；對手",
     "collocations": [
       {
@@ -12571,6 +13309,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -12580,7 +13321,7 @@ const LEVEL_6_DATA = [
     "word": "glitter",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/ɡlˈɪtɚ/",
+    "kk": "/ˈglɪtɚ/",
     "chinese": "閃閃發光；亮光；浮華",
     "collocations": [
       {
@@ -12621,6 +13362,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -12630,7 +13374,7 @@ const LEVEL_6_DATA = [
     "word": "gangster",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/ɡˈæŋstɚ/",
+    "kk": "/ˈgæŋstɚ/",
     "chinese": "匪徒；幫派份子",
     "collocations": [
       {
@@ -12671,6 +13415,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -12680,7 +13427,7 @@ const LEVEL_6_DATA = [
     "word": "grumble",
     "pos": "v./n.",
     "chapter": "Work and Economy",
-    "kk": "/ɡrˈahmbəl/",
+    "kk": "/ˈgrʌmbəl/",
     "chinese": "抱怨；嘮叨；隆隆聲",
     "collocations": [
       {
@@ -12721,6 +13468,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -12730,7 +13480,7 @@ const LEVEL_6_DATA = [
     "word": "hemisphere",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/hˈɛmɪsfˌɪr/",
+    "kk": "/ˈhɛmɪˌsfɪr/",
     "chinese": "半球；大腦半球",
     "collocations": [
       {
@@ -12772,6 +13522,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 11,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "The glass hemispheres were color coded with paint to identify the notes.",
       "source": "110學測"
@@ -12781,7 +13534,7 @@ const LEVEL_6_DATA = [
     "word": "hijack",
     "pos": "v./n.",
     "chapter": "Work and Economy",
-    "kk": "/hˈaɪdʒˌæk/",
+    "kk": "/ˈhaɪˌdʒæk/",
     "chinese": "劫持；劫機；強奪",
     "collocations": [
       {
@@ -12824,6 +13577,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -12874,6 +13630,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -12883,7 +13642,7 @@ const LEVEL_6_DATA = [
     "word": "illuminate",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/ɪlˈumɪnɪt/",
+    "kk": "/ɪˈluməˌnet/",
     "chinese": "照亮；闡明；裝飾彩燈",
     "collocations": [
       {
@@ -12926,6 +13685,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Today, Li-Fi has developed into a wireless technology that allows data to be sent at high speeds, working with light-emitting diodes (LEDs), an increasingly popular way to illuminate public areas and homes.",
       "source": "107指考"
@@ -12935,7 +13697,7 @@ const LEVEL_6_DATA = [
     "word": "inflict",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/ɪnflˈɪkt/",
+    "kk": "/ɪnˈflɪkt/",
     "chinese": "造成（傷害）；使遭受；施加",
     "collocations": [
       {
@@ -12976,6 +13738,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -12985,7 +13750,7 @@ const LEVEL_6_DATA = [
     "word": "junction",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/dʒˈahŋkʃən/",
+    "kk": "/ˈdʒʌŋkʃən/",
     "chinese": "交叉口；匯合處；連接點",
     "collocations": [
       {
@@ -13028,6 +13793,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -13037,7 +13805,7 @@ const LEVEL_6_DATA = [
     "word": "inventory",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/ˌɪnvəntˈɔri/",
+    "kk": "/ˈɪnvənˌtɔri/",
     "chinese": "庫存；存貨清單；盤點",
     "collocations": [
       {
@@ -13078,6 +13846,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -13087,7 +13858,7 @@ const LEVEL_6_DATA = [
     "word": "layout",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/lˈeɪˌaʊt/",
+    "kk": "/ˈleˌaʊt/",
     "chinese": "佈局；排版；版面設計",
     "collocations": [
       {
@@ -13130,6 +13901,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The layouts are dynamic, oriented toward our travel path.",
       "source": "115學測"
@@ -13139,7 +13913,7 @@ const LEVEL_6_DATA = [
     "word": "loudspeaker",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/lˈaʊdspˌikɚ/",
+    "kk": "/ˈlaʊdˌspikɚ/",
     "chinese": "擴音器；喇叭",
     "collocations": [
       {
@@ -13180,6 +13954,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -13189,7 +13966,7 @@ const LEVEL_6_DATA = [
     "word": "limp",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/lˈɪmp/",
+    "kk": "/ˈlɪmp/",
     "chinese": "跛行；無力的；疲軟的",
     "collocations": [
       {
@@ -13232,6 +14009,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -13241,7 +14021,7 @@ const LEVEL_6_DATA = [
     "word": "longitude",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/lˈɑndʒətˌud/",
+    "kk": "/ˈlɑndʒəˌtud/",
     "chinese": "經度；經線",
     "collocations": [
       {
@@ -13280,6 +14060,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -13289,7 +14072,7 @@ const LEVEL_6_DATA = [
     "word": "lotus",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/lˈoʊtəs/",
+    "kk": "/ˈlotəs/",
     "chinese": "蓮花；荷花",
     "collocations": [
       {
@@ -13328,6 +14111,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -13337,7 +14123,7 @@ const LEVEL_6_DATA = [
     "word": "mastery",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/mˈæstɚi/",
+    "kk": "/ˈmæstɚi/",
     "chinese": "精通；控制；掌握",
     "collocations": [
       {
@@ -13378,6 +14164,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -13387,7 +14176,7 @@ const LEVEL_6_DATA = [
     "word": "monarch",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/mˈɑnˌɑrk/",
+    "kk": "/ˈmɑˌnɑrk/",
     "chinese": "君主；帝王；最高統治者",
     "collocations": [
       {
@@ -13428,6 +14217,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Queen Victoria was monarch of Great Britain from 1837 until her death in 1901.",
       "source": "91指考"
@@ -13437,7 +14229,7 @@ const LEVEL_6_DATA = [
     "word": "morale",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/mɚˈæl/",
+    "kk": "/məˈræl/",
     "chinese": "士氣；精神狀態",
     "collocations": [
       {
@@ -13478,6 +14270,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "This performance before each match, which is intended to heighten their morale and intimidate opponents, is a sight to behold.",
       "source": "109指考"
@@ -13487,7 +14282,7 @@ const LEVEL_6_DATA = [
     "word": "motto",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/mˈɑtoʊ/",
+    "kk": "/ˈmɑto/",
     "chinese": "格言；座右銘；口號",
     "collocations": [
       {
@@ -13528,6 +14323,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "For the first time since the 1930s, there are words carved into the edge of each coin, including the year in which the coin was issued and traditional mottos.",
       "source": "99指考"
@@ -13537,7 +14335,7 @@ const LEVEL_6_DATA = [
     "word": "navigate",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/nˈævəɡˌeɪt/",
+    "kk": "/ˈnævəˌget/",
     "chinese": "導航；航行；找到方向",
     "collocations": [
       {
@@ -13580,6 +14378,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 5,
+      "gsat_papers": 4,
+      "ast_papers": 1,
+      "recent_papers": 3,
       "stars": 2,
       "example": "Since the elephants need to use tea plantations as landmarks when navigating forests, they almost inevitably have to move through the farms.",
       "source": "112學測"
@@ -13589,7 +14390,7 @@ const LEVEL_6_DATA = [
     "word": "notable",
     "pos": "adj./n.",
     "chapter": "Work and Economy",
-    "kk": "/nˈoʊtəbəl/",
+    "kk": "/ˈnotəbəl/",
     "chinese": "值得注意的；著名的；顯著的",
     "collocations": [
       {
@@ -13630,6 +14431,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -13639,7 +14443,7 @@ const LEVEL_6_DATA = [
     "word": "occurrence",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/əkˈɝəns/",
+    "kk": "/əˈkɝəns/",
     "chinese": "發生；事件；出現",
     "collocations": [
       {
@@ -13682,6 +14486,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -13731,6 +14538,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -13740,7 +14550,7 @@ const LEVEL_6_DATA = [
     "word": "paddle",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/pˈædəl/",
+    "kk": "/ˈpædəl/",
     "chinese": "槳；划水；輕拍",
     "collocations": [
       {
@@ -13783,6 +14593,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -13833,8 +14646,11 @@ const LEVEL_6_DATA = [
     "word_family": "ornament (n.) · ornamental · ornamentation (n.)",
     "antonym": null,
     "exam": {
-      "count": 2,
-      "papers": 2,
+      "count": 1,
+      "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -13844,7 +14660,7 @@ const LEVEL_6_DATA = [
     "word": "patriot",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/pˈeɪtriət/",
+    "kk": "/ˈpetriət/",
     "chinese": "愛國者；愛國主義者",
     "collocations": [
       {
@@ -13884,6 +14700,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -13893,7 +14712,7 @@ const LEVEL_6_DATA = [
     "word": "pebble",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/pˈɛbəl/",
+    "kk": "/ˈpɛbəl/",
     "chinese": "卵石；小圓石",
     "collocations": [
       {
@@ -13934,6 +14753,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -13943,7 +14765,7 @@ const LEVEL_6_DATA = [
     "word": "pharmacy",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/fˈɑrməsi/",
+    "kk": "/ˈfɑrməsi/",
     "chinese": "藥局；藥房；藥學",
     "collocations": [
       {
@@ -13986,6 +14808,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -13995,7 +14820,7 @@ const LEVEL_6_DATA = [
     "word": "predecessor",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/prˈɛdəsˌɛsɚ/",
+    "kk": "/ˈprɛdəˌsɛsɚ/",
     "chinese": "前任；前輩；前身",
     "collocations": [
       {
@@ -14038,6 +14863,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -14047,7 +14875,7 @@ const LEVEL_6_DATA = [
     "word": "prestige",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/prɛstˈiʒ/",
+    "kk": "/prɛˈstiʒ/",
     "chinese": "威望；聲望；地位",
     "collocations": [
       {
@@ -14088,6 +14916,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -14097,7 +14928,7 @@ const LEVEL_6_DATA = [
     "word": "proverb",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/prˈɑvɚb/",
+    "kk": "/ˈprɑvɚb/",
     "chinese": "諺語；格言；俗語",
     "collocations": [
       {
@@ -14138,6 +14969,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "An old proverb says, “Truth is stranger than fiction.”",
       "source": "91指考"
@@ -14147,7 +14981,7 @@ const LEVEL_6_DATA = [
     "word": "radish",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/rˈædɪʃ/",
+    "kk": "/ˈrædɪʃ/",
     "chinese": "小蘿蔔；蘿蔔",
     "collocations": [
       {
@@ -14186,6 +15020,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Kids don’t usually like radishes, but if kids cut them up and put them in the salad, they will love the dish.",
       "source": "98學測"
@@ -14195,7 +15032,7 @@ const LEVEL_6_DATA = [
     "word": "refresh(ment)",
     "pos": "v./n.",
     "chapter": "Work and Economy",
-    "kk": "/rɪfrˈɛʃ/",
+    "kk": "/rɪˈfrɛʃ/",
     "chinese": "使精神煥發；更新；茶點（行為）",
     "collocations": [
       {
@@ -14238,6 +15075,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 9,
       "papers": 8,
+      "gsat_papers": 4,
+      "ast_papers": 4,
+      "recent_papers": 2,
       "stars": 2,
       "example": "In fact, you are giving your brain and your body some time to recharge and turn up refreshed.",
       "source": "115學測"
@@ -14247,7 +15087,7 @@ const LEVEL_6_DATA = [
     "word": "resistant",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/rɪzˈɪstənt/",
+    "kk": "/rɪˈzɪstənt/",
     "chinese": "抵抗的；有抵抗力的；耐…的",
     "collocations": [
       {
@@ -14288,6 +15128,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 4,
+      "gsat_papers": 2,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 2,
       "example": "Moreover, bugs that do come in contact with the mist may be resistant to the pesticide.",
       "source": "108學測"
@@ -14297,7 +15140,7 @@ const LEVEL_6_DATA = [
     "word": "reptile",
     "pos": "n./adj.",
     "chapter": "Work and Economy",
-    "kk": "/rˈɛptaɪl/",
+    "kk": "/ˈrɛptaɪl/",
     "chinese": "爬行動物；爬蟲類（的）",
     "collocations": [
       {
@@ -14338,6 +15181,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -14347,7 +15193,7 @@ const LEVEL_6_DATA = [
     "word": "royalty",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/rˈɔɪəlti/",
+    "kk": "/ˈrɔɪəlti/",
     "chinese": "皇室；版稅；王族成員",
     "collocations": [
       {
@@ -14390,6 +15236,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Disadvantages include heavy start-up costs as well as ongoing royalty costs on the part of the franchisee.",
       "source": "105指考"
@@ -14399,7 +15248,7 @@ const LEVEL_6_DATA = [
     "word": "robust",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/roʊbˈahst/",
+    "kk": "/roˈbʌst/",
     "chinese": "強健的；健壯的；強勁的",
     "collocations": [
       {
@@ -14442,6 +15291,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -14451,7 +15303,7 @@ const LEVEL_6_DATA = [
     "word": "scorn",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/skˈɔrn/",
+    "kk": "/ˈskɔrn/",
     "chinese": "輕蔑；藐視；嘲笑",
     "collocations": [
       {
@@ -14494,6 +15346,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "However, the peacock receives only scorn from the rest of the world.",
       "source": "104學測"
@@ -14503,7 +15358,7 @@ const LEVEL_6_DATA = [
     "word": "scenic",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/sˈinɪk/",
+    "kk": "/ˈsinɪk/",
     "chinese": "風景優美的；景色迷人的",
     "collocations": [
       {
@@ -14544,6 +15399,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "It is one of the most scenic roads in North America.",
       "source": "97學測"
@@ -14553,7 +15411,7 @@ const LEVEL_6_DATA = [
     "word": "shortsighted",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/ʃˈɔrtsˈaɪtɪd/",
+    "kk": "/ˈʃɔrtˈsaɪtɪd/",
     "chinese": "近視的；目光短淺的",
     "collocations": [
       {
@@ -14596,6 +15454,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -14605,7 +15466,7 @@ const LEVEL_6_DATA = [
     "word": "socialist",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/sˈoʊʃələst/",
+    "kk": "/ˈsoʃələst/",
     "chinese": "社會主義者；社會主義的",
     "collocations": [
       {
@@ -14648,6 +15509,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -14657,7 +15521,7 @@ const LEVEL_6_DATA = [
     "word": "snore",
     "pos": "v./n.",
     "chapter": "Work and Economy",
-    "kk": "/snˈɔr/",
+    "kk": "/ˈsnɔr/",
     "chinese": "打鼾；鼾聲",
     "collocations": [
       {
@@ -14697,6 +15561,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -14706,7 +15573,7 @@ const LEVEL_6_DATA = [
     "word": "span",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/spˈæn/",
+    "kk": "/ˈspæn/",
     "chinese": "跨度；時期；橫跨；包含",
     "collocations": [
       {
@@ -14747,8 +15614,11 @@ const LEVEL_6_DATA = [
     "word_family": "",
     "antonym": null,
     "exam": {
-      "count": 9,
+      "count": 8,
       "papers": 6,
+      "gsat_papers": 4,
+      "ast_papers": 2,
+      "recent_papers": 3,
       "stars": 2,
       "example": "The ice sheets, which once spanned 20 square kilometers, are thinning over five times as quickly compared to a few years ago.",
       "source": "110學測"
@@ -14758,7 +15628,7 @@ const LEVEL_6_DATA = [
     "word": "stylish",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/stˈaɪlɪʃ/",
+    "kk": "/ˈstaɪlɪʃ/",
     "chinese": "時髦的；有品味的；流行的",
     "collocations": [
       {
@@ -14799,6 +15669,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -14808,7 +15681,7 @@ const LEVEL_6_DATA = [
     "word": "subsidize",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/sˈahbsɪdˌaɪz/",
+    "kk": "/ˈsʌbsɪˌdaɪz/",
     "chinese": "補助；資助；給予補貼",
     "collocations": [
       {
@@ -14849,6 +15722,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -14858,7 +15734,7 @@ const LEVEL_6_DATA = [
     "word": "surpass",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/sɚpˈæs/",
+    "kk": "/sɚˈpæs/",
     "chinese": "超越；超過；勝過",
     "collocations": [
       {
@@ -14899,6 +15775,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 0,
+      "ast_papers": 3,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Imagination is being surpassed by the instant picture.",
       "source": "100指考"
@@ -14908,7 +15787,7 @@ const LEVEL_6_DATA = [
     "word": "superficial",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/sˌupɚfˈɪʃəl/",
+    "kk": "/ˌsupɚˈfɪʃəl/",
     "chinese": "表面的；膚淺的；表面性的",
     "collocations": [
       {
@@ -14951,6 +15830,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -14960,7 +15842,7 @@ const LEVEL_6_DATA = [
     "word": "tenant",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/tˈɛnənt/",
+    "kk": "/ˈtɛnənt/",
     "chinese": "房客；租戶；承租人",
     "collocations": [
       {
@@ -15001,6 +15883,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -15010,7 +15895,7 @@ const LEVEL_6_DATA = [
     "word": "trademark",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/trˈeɪdmˌɑrk/",
+    "kk": "/ˈtredˌmɑrk/",
     "chinese": "商標；標誌；特徵",
     "collocations": [
       {
@@ -15053,6 +15938,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -15062,7 +15950,7 @@ const LEVEL_6_DATA = [
     "word": "token",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/tˈoʊkən/",
+    "kk": "/ˈtokən/",
     "chinese": "代幣；象徵；表示；名義上的",
     "collocations": [
       {
@@ -15105,6 +15993,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -15114,7 +16005,7 @@ const LEVEL_6_DATA = [
     "word": "tropic",
     "pos": "n./adj.",
     "chapter": "Work and Economy",
-    "kk": "/trˈɑpɪk/",
+    "kk": "/ˈtrɑpɪk/",
     "chinese": "熱帶；回歸線；熱帶的",
     "collocations": [
       {
@@ -15156,6 +16047,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -15206,6 +16100,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "In the ads, they warn people about serious pollution problems and the urgency of protecting the environment.",
       "source": "101指考"
@@ -15215,7 +16112,7 @@ const LEVEL_6_DATA = [
     "word": "veterinarian/vet",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/vˌɛtrənˈɛriən/",
+    "kk": "/ˌvɛtrəˈnɛriən/",
     "chinese": "獸醫",
     "collocations": [
       {
@@ -15255,6 +16152,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -15264,7 +16164,7 @@ const LEVEL_6_DATA = [
     "word": "vanilla",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/vənˈɪlə/",
+    "kk": "/vəˈnɪlə/",
     "chinese": "香草；香草精；平淡無奇的",
     "collocations": [
       {
@@ -15307,6 +16207,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 7,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 2,
       "stars": 1,
       "example": "For want of dedicated odor terminology, English speakers are often forced to use odor-sources such as “flowery” and “vanilla” and metaphors like “sweet” and “oriental” in their descriptions of smell.",
       "source": "108指考"
@@ -15316,7 +16219,7 @@ const LEVEL_6_DATA = [
     "word": "veil",
     "pos": "n./v.",
     "chapter": "Work and Economy",
-    "kk": "/vˈeɪl/",
+    "kk": "/ˈvel/",
     "chinese": "面紗；遮蓋物；掩蓋",
     "collocations": [
       {
@@ -15359,6 +16262,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Michael Jackson provoked new concerns for his children’s welfare after he took them to the zoo covered in strange, bright-colored veils “to protect them from kidnappers.”",
       "source": "92指考"
@@ -15368,7 +16274,7 @@ const LEVEL_6_DATA = [
     "word": "warranty",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/wˈɔrənti/",
+    "kk": "/ˈwɔrənti/",
     "chinese": "保固；保證書；擔保",
     "collocations": [
       {
@@ -15409,6 +16315,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -15418,7 +16327,7 @@ const LEVEL_6_DATA = [
     "word": "yogurt",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/jˈoʊɡɚt/",
+    "kk": "/ˈjogɚt/",
     "chinese": "優格；酸奶",
     "collocations": [
       {
@@ -15458,6 +16367,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -15467,7 +16379,7 @@ const LEVEL_6_DATA = [
     "word": "workforce",
     "pos": "n.",
     "chapter": "Work and Economy",
-    "kk": "/wˈɝkfˌɔrs/",
+    "kk": "/ˈwɝkˌfɔrs/",
     "chinese": "勞動力；員工隊伍；全體員工",
     "collocations": [
       {
@@ -15508,6 +16420,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Now that women make up 46 percent of the U.S. workforce, girls can find role models in every occupational field—from politics to molecular biology to professional athletics, to name just a few.",
       "source": "98指考"
@@ -15517,7 +16432,7 @@ const LEVEL_6_DATA = [
     "word": "wholesale",
     "pos": "adj./adv./n./v.",
     "chapter": "Work and Economy",
-    "kk": "/hˈoʊlsˌeɪl/",
+    "kk": "/ˈholˌsel/",
     "chinese": "批發的；大規模的；批發",
     "collocations": [
       {
@@ -15564,6 +16479,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -15573,7 +16491,7 @@ const LEVEL_6_DATA = [
     "word": "deduct",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/dɪdˈahkt/",
+    "kk": "/dɪˈdʌkt/",
     "chinese": "扣除；減去；推斷",
     "collocations": [
       {
@@ -15618,6 +16536,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -15627,7 +16548,7 @@ const LEVEL_6_DATA = [
     "word": "lucrative",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/lˈukrətɪv/",
+    "kk": "/ˈlukrətɪv/",
     "chinese": "有利可圖的；賺錢的",
     "collocations": [
       {
@@ -15672,6 +16593,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -15681,7 +16605,7 @@ const LEVEL_6_DATA = [
     "word": "diversify",
     "pos": "v.",
     "chapter": "Work and Economy",
-    "kk": "/daɪvˈɝsəfˌaɪ/",
+    "kk": "/daɪˈvɝsəˌfaɪ/",
     "chinese": "多樣化；使多元化；拓展",
     "collocations": [
       {
@@ -15728,6 +16652,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -15737,7 +16664,7 @@ const LEVEL_6_DATA = [
     "word": "offshore",
     "pos": "adj.",
     "chapter": "Work and Economy",
-    "kk": "/ˈɔfʃˈɔr/",
+    "kk": "/ˈɔfˈʃɔr/",
     "chinese": "近海的；離岸的；海外的",
     "collocations": [
       {
@@ -15784,6 +16711,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -15837,6 +16767,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -15846,7 +16779,7 @@ const LEVEL_6_DATA = [
     "word": "coalition",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/kˌoʊəlˈɪʃən/",
+    "kk": "/ˌkoəˈlɪʃən/",
     "chinese": "聯合；聯盟；聯合政府",
     "collocations": [
       {
@@ -15889,6 +16822,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -15898,7 +16834,7 @@ const LEVEL_6_DATA = [
     "word": "rehabilitate",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/rˌihəbˈɪlətˌeɪt/",
+    "kk": "/ˌrihəˈbɪləˌtet/",
     "chinese": "康復治療；恢復聲譽；改造",
     "collocations": [
       {
@@ -15941,6 +16877,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -15950,7 +16889,7 @@ const LEVEL_6_DATA = [
     "word": "crackdown",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/krˈækdˌaʊn/",
+    "kk": "/ˈkrækˌdaʊn/",
     "chinese": "打壓；鎮壓；嚴厲取締",
     "collocations": [
       {
@@ -15991,6 +16930,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16000,7 +16942,7 @@ const LEVEL_6_DATA = [
     "word": "publicize",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/pˈahblɪsˌaɪz/",
+    "kk": "/ˈpʌblɪˌsaɪz/",
     "chinese": "宣傳；公開；廣為宣傳",
     "collocations": [
       {
@@ -16041,6 +16983,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16050,7 +16995,7 @@ const LEVEL_6_DATA = [
     "word": "addiction",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ədˈɪkʃən/",
+    "kk": "/əˈdɪkʃən/",
     "chinese": "成癮；癮；沉迷",
     "collocations": [
       {
@@ -16095,6 +17040,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "At home, smart light could also provide parents with solutions to their children’s Internet addiction: Just turn off the lights and you’ve turned off their access.",
       "source": "107指考"
@@ -16104,7 +17052,7 @@ const LEVEL_6_DATA = [
     "word": "accusation",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ˌækjəzˈeɪʃən/",
+    "kk": "/ˌækjəˈzeʃən/",
     "chinese": "指控；指責；控告",
     "collocations": [
       {
@@ -16145,6 +17093,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16154,7 +17105,7 @@ const LEVEL_6_DATA = [
     "word": "aesthetic",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/ɛsθˈɛtɪk/",
+    "kk": "/ɛsˈθɛtɪk/",
     "chinese": "審美的；美的；美學",
     "collocations": [
       {
@@ -16195,6 +17146,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "She consistently pushes the boundaries of architecture and urban design in the pursuit of a visionary aesthetic that expresses her ideals.",
       "source": "106指考"
@@ -16204,7 +17158,7 @@ const LEVEL_6_DATA = [
     "word": "analogy",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ənˈælədʒi/",
+    "kk": "/əˈnælədʒi/",
     "chinese": "類比；比喻；相似之處",
     "collocations": [
       {
@@ -16245,6 +17199,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Angry Birds has even inspired works of philosophical analogy.",
       "source": "101指考"
@@ -16297,6 +17254,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 19,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The result is that most anthems are either hymns or marches, played on European instruments.",
       "source": "106指考"
@@ -16306,7 +17266,7 @@ const LEVEL_6_DATA = [
     "word": "astray",
     "pos": "adv./adj.",
     "chapter": "Society and Communication",
-    "kk": "/əstrˈeɪ/",
+    "kk": "/əˈstre/",
     "chinese": "迷路；步入歧途；偏離正路",
     "collocations": [
       {
@@ -16349,6 +17309,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16358,7 +17321,7 @@ const LEVEL_6_DATA = [
     "word": "attendant",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ətˈɛndənt/",
+    "kk": "/əˈtɛndənt/",
     "chinese": "服務員；隨從；伴隨的",
     "collocations": [
       {
@@ -16401,6 +17364,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -16410,7 +17376,7 @@ const LEVEL_6_DATA = [
     "word": "batter",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/bˈætɚ/",
+    "kk": "/ˈbætɚ/",
     "chinese": "打擊手；麵糊；猛打",
     "collocations": [
       {
@@ -16453,6 +17419,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16462,7 +17431,7 @@ const LEVEL_6_DATA = [
     "word": "blunt",
     "pos": "adj./v.",
     "chapter": "Society and Communication",
-    "kk": "/blˈahnt/",
+    "kk": "/ˈblʌnt/",
     "chinese": "直率的；鈍的；使遲鈍",
     "collocations": [
       {
@@ -16505,6 +17474,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16514,7 +17486,7 @@ const LEVEL_6_DATA = [
     "word": "brink",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/brˈɪŋk/",
+    "kk": "/ˈbrɪŋk/",
     "chinese": "邊緣；瀕臨的狀態",
     "collocations": [
       {
@@ -16555,6 +17527,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16564,7 +17539,7 @@ const LEVEL_6_DATA = [
     "word": "brotherhood",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/brˈahðɚhˌʊd/",
+    "kk": "/ˈbrʌðɚˌhʊd/",
     "chinese": "兄弟情誼；兄弟關係；兄弟會",
     "collocations": [
       {
@@ -16605,6 +17580,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16614,7 +17592,7 @@ const LEVEL_6_DATA = [
     "word": "cardinal",
     "pos": "n./adj.",
     "chapter": "Society and Communication",
-    "kk": "/kˈɑrdənəl/",
+    "kk": "/ˈkɑrdənəl/",
     "chinese": "主要的；基本的；紅衣主教；紅雀",
     "collocations": [
       {
@@ -16657,6 +17635,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16666,7 +17647,7 @@ const LEVEL_6_DATA = [
     "word": "carton",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/kˈɑrtən/",
+    "kk": "/ˈkɑrtən/",
     "chinese": "紙箱；硬紙盒；一盒",
     "collocations": [
       {
@@ -16709,6 +17690,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16718,7 +17702,7 @@ const LEVEL_6_DATA = [
     "word": "caption",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/kˈæpʃən/",
+    "kk": "/ˈkæpʃən/",
     "chinese": "標題；說明文字；字幕",
     "collocations": [
       {
@@ -16761,6 +17745,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16770,7 +17757,7 @@ const LEVEL_6_DATA = [
     "word": "clasp",
     "pos": "v./n.",
     "chapter": "Society and Communication",
-    "kk": "/klˈæsp/",
+    "kk": "/ˈklæsp/",
     "chinese": "扣子；緊握；緊抱",
     "collocations": [
       {
@@ -16811,6 +17798,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16820,7 +17810,7 @@ const LEVEL_6_DATA = [
     "word": "clone",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/klˈoʊn/",
+    "kk": "/ˈklon/",
     "chinese": "複製；複製品；複製人",
     "collocations": [
       {
@@ -16863,6 +17853,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Cloning is the genetic process of producing copies of an individual.",
       "source": "91學測"
@@ -16872,7 +17865,7 @@ const LEVEL_6_DATA = [
     "word": "compile",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/kəmpˈaɪl/",
+    "kk": "/kəmˈpaɪl/",
     "chinese": "編制；編集；彙編",
     "collocations": [
       {
@@ -16913,6 +17906,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The list-based convention, on the other hand, is based on the list of typhoon names compiled in advance by a committee, and is more widely used.",
       "source": "101學測"
@@ -16922,7 +17918,7 @@ const LEVEL_6_DATA = [
     "word": "comrade",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/kˈɑmrˌæd/",
+    "kk": "/ˈkɑmˌræd/",
     "chinese": "同志；戰友；夥伴",
     "collocations": [
       {
@@ -16965,6 +17961,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -16974,7 +17973,7 @@ const LEVEL_6_DATA = [
     "word": "continuity",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/kˌɑntənˈuəti/",
+    "kk": "/ˌkɑntəˈnuəti/",
     "chinese": "連貫性；延續；持續",
     "collocations": [
       {
@@ -17015,6 +18014,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17024,7 +18026,7 @@ const LEVEL_6_DATA = [
     "word": "convene",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/kənvˈin/",
+    "kk": "/kənˈvin/",
     "chinese": "召集；集會；開會",
     "collocations": [
       {
@@ -17067,6 +18069,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17076,7 +18081,7 @@ const LEVEL_6_DATA = [
     "word": "coral",
     "pos": "n./adj.",
     "chapter": "Society and Communication",
-    "kk": "/kˈɔrəl/",
+    "kk": "/ˈkɔrəl/",
     "chinese": "珊瑚；珊瑚色；珊瑚的",
     "collocations": [
       {
@@ -17116,6 +18121,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 10,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Angelfish, often found in the warm seas and coral reefs, are among the most brightly colored fish of the ocean.",
       "source": "108學測"
@@ -17125,7 +18133,7 @@ const LEVEL_6_DATA = [
     "word": "cub",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/kˈahb/",
+    "kk": "/ˈkʌb/",
     "chinese": "幼獸；幼小的（熊、獅等）",
     "collocations": [
       {
@@ -17166,6 +18174,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "In October 1926, two wolf cubs were trapped near a bison carcass.",
       "source": "95指考"
@@ -17175,7 +18186,7 @@ const LEVEL_6_DATA = [
     "word": "curfew",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/kˈɝfju/",
+    "kk": "/ˈkɝfju/",
     "chinese": "宵禁；宵禁時間",
     "collocations": [
       {
@@ -17218,6 +18229,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17227,7 +18241,7 @@ const LEVEL_6_DATA = [
     "word": "despise",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/dɪspˈaɪz/",
+    "kk": "/dɪˈspaɪz/",
     "chinese": "鄙視；蔑視；不屑",
     "collocations": [
       {
@@ -17268,6 +18282,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17277,7 +18294,7 @@ const LEVEL_6_DATA = [
     "word": "deter",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/dɪtˈɝ/",
+    "kk": "/dɪˈtɝ/",
     "chinese": "阻止；威懾；制止",
     "collocations": [
       {
@@ -17320,6 +18337,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Barnett argues that bag-matching would deter bombers far more than electronic-detection systems.",
       "source": "92指考"
@@ -17329,7 +18349,7 @@ const LEVEL_6_DATA = [
     "word": "dividend",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/dˈɪvɪdˌɛnd/",
+    "kk": "/ˈdɪvɪˌdɛnd/",
     "chinese": "股息；紅利；好處",
     "collocations": [
       {
@@ -17372,6 +18392,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17381,7 +18404,7 @@ const LEVEL_6_DATA = [
     "word": "disbelief",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/dˌɪsbɪlˈif/",
+    "kk": "/ˌdɪsbɪˈlif/",
     "chinese": "不相信；懷疑；困惑",
     "collocations": [
       {
@@ -17422,6 +18445,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -17431,7 +18457,7 @@ const LEVEL_6_DATA = [
     "word": "distress",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/dɪstrˈɛs/",
+    "kk": "/dɪˈstrɛs/",
     "chinese": "痛苦；困境；使痛苦",
     "collocations": [
       {
@@ -17478,6 +18504,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -17487,7 +18516,7 @@ const LEVEL_6_DATA = [
     "word": "dusk",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/dˈahsk/",
+    "kk": "/ˈdʌsk/",
     "chinese": "黃昏；傍晚；暮色",
     "collocations": [
       {
@@ -17528,6 +18557,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17537,7 +18569,7 @@ const LEVEL_6_DATA = [
     "word": "electrician",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ɪlɛktrˈɪʃən/",
+    "kk": "/ɪlɛkˈtrɪʃən/",
     "chinese": "電工；電器技師",
     "collocations": [
       {
@@ -17577,6 +18609,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17586,7 +18621,7 @@ const LEVEL_6_DATA = [
     "word": "evergreen",
     "pos": "adj./n.",
     "chapter": "Society and Communication",
-    "kk": "/ˈɛvɚɡrˌin/",
+    "kk": "/ˈɛvɚˌgrin/",
     "chinese": "常綠的；常青的；長青",
     "collocations": [
       {
@@ -17629,6 +18664,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17638,7 +18676,7 @@ const LEVEL_6_DATA = [
     "word": "eyelid",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ˈaɪlˌɪd/",
+    "kk": "/ˈaɪˌlɪd/",
     "chinese": "眼瞼；眼皮",
     "collocations": [
       {
@@ -17678,6 +18716,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "You begin to notice a bit of pain on your eyelid each time you blink.",
       "source": "106學測"
@@ -17687,7 +18728,7 @@ const LEVEL_6_DATA = [
     "word": "feasible",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/fˈizəbəl/",
+    "kk": "/ˈfizəbəl/",
     "chinese": "可行的；切實可行的；合理的",
     "collocations": [
       {
@@ -17728,6 +18769,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17737,7 +18781,7 @@ const LEVEL_6_DATA = [
     "word": "fertilizer",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/fˈɝtəlˌaɪzɚ/",
+    "kk": "/ˈfɝtəˌlaɪzɚ/",
     "chinese": "肥料；化肥",
     "collocations": [
       {
@@ -17778,6 +18822,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Kareem let his forest grow naturally, without using fertilizers or insecticides.",
       "source": "105學測"
@@ -17787,7 +18834,7 @@ const LEVEL_6_DATA = [
     "word": "flourish",
     "pos": "v./n.",
     "chapter": "Society and Communication",
-    "kk": "/flˈɝɪʃ/",
+    "kk": "/ˈflɝɪʃ/",
     "chinese": "繁榮；茁壯；揮動；蓬勃發展",
     "collocations": [
       {
@@ -17830,6 +18877,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Here was the perfect opportunity to show his knowledge of modern medicine and to get his practice off to a flourishing start.",
       "source": "94指考"
@@ -17839,7 +18889,7 @@ const LEVEL_6_DATA = [
     "word": "folklore",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/fˈoʊklˌɔr/",
+    "kk": "/ˈfokˌlɔr/",
     "chinese": "民間傳說；民俗；民間智慧",
     "collocations": [
       {
@@ -17880,6 +18930,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "According to popular folklore, many animals are smarter than they appear.",
       "source": "98學測"
@@ -17889,7 +18942,7 @@ const LEVEL_6_DATA = [
     "word": "gloom",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/ɡlˈum/",
+    "kk": "/ˈglum/",
     "chinese": "陰暗；憂鬱；昏暗",
     "collocations": [
       {
@@ -17930,6 +18983,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17939,7 +18995,7 @@ const LEVEL_6_DATA = [
     "word": "grapefruit",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ɡrˈeɪpfrˌut/",
+    "kk": "/ˈgrepˌfrut/",
     "chinese": "葡萄柚",
     "collocations": [
       {
@@ -17978,6 +19034,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -17987,7 +19046,7 @@ const LEVEL_6_DATA = [
     "word": "haunt",
     "pos": "v./n.",
     "chapter": "Society and Communication",
-    "kk": "/hˈɔnt/",
+    "kk": "/ˈhɔnt/",
     "chinese": "纏繞；常出沒；幽靈出沒之處",
     "collocations": [
       {
@@ -18030,6 +19089,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "My childhood memory of a polar bear pacing back and forth in a very small space in a zoo keeps haunting me.",
       "source": "114學測"
@@ -18039,7 +19101,7 @@ const LEVEL_6_DATA = [
     "word": "hearty",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/hˈɑrti/",
+    "kk": "/ˈhɑrti/",
     "chinese": "熱情的；健康的；豐盛的",
     "collocations": [
       {
@@ -18082,6 +19144,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -18091,7 +19156,7 @@ const LEVEL_6_DATA = [
     "word": "imperative",
     "pos": "adj./n.",
     "chapter": "Society and Communication",
-    "kk": "/ɪmpˈɛrətɪv/",
+    "kk": "/ɪmˈpɛrətɪv/",
     "chinese": "必要的；緊迫的；祈使語氣；命令",
     "collocations": [
       {
@@ -18134,6 +19199,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -18143,7 +19211,7 @@ const LEVEL_6_DATA = [
     "word": "incline",
     "pos": "v./n.",
     "chapter": "Society and Communication",
-    "kk": "/ɪnklˈaɪn/",
+    "kk": "/ɪnˈklaɪn/",
     "chinese": "傾斜；使傾向；斜坡",
     "collocations": [
       {
@@ -18186,6 +19254,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "People say they have been more inclined to pick up a book when walking by a Little Free Library, out of curiosity and because it’s convenient.",
       "source": "106指考"
@@ -18195,7 +19266,7 @@ const LEVEL_6_DATA = [
     "word": "intake",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ˈɪntˌeɪk/",
+    "kk": "/ˈɪnˌtek/",
     "chinese": "攝取（量）；吸入；進入",
     "collocations": [
       {
@@ -18238,6 +19309,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -18247,7 +19321,7 @@ const LEVEL_6_DATA = [
     "word": "inhabit",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/ɪnhˈæbət/",
+    "kk": "/ɪnˈhæbət/",
     "chinese": "居住；棲息；佔據",
     "collocations": [
       {
@@ -18288,6 +19362,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 3,
+      "gsat_papers": 0,
+      "ast_papers": 3,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Unlike the Maniq and the Jahai, many English speakers inhabit the post-industrial west and do not rely on smells to survive in their environment.",
       "source": "108指考"
@@ -18297,7 +19374,7 @@ const LEVEL_6_DATA = [
     "word": "jade",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/dʒˈeɪd/",
+    "kk": "/ˈdʒed/",
     "chinese": "玉；翡翠；碧綠色",
     "collocations": [
       {
@@ -18336,9 +19413,12 @@ const LEVEL_6_DATA = [
     "word_family": "jade (n.) · jadeite · nephrite",
     "antonym": null,
     "exam": {
-      "count": 1,
-      "papers": 1,
-      "stars": 1,
+      "count": 0,
+      "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
+      "stars": 0,
       "example": null,
       "source": null
     }
@@ -18347,7 +19427,7 @@ const LEVEL_6_DATA = [
     "word": "jingle",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/dʒˈɪŋɡəl/",
+    "kk": "/ˈdʒɪŋgəl/",
     "chinese": "叮噹聲；廣告歌；叮噹作響",
     "collocations": [
       {
@@ -18390,6 +19470,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Often those songs have a simple, upbeat melody and catchy, repetitive lyrics, such as popular commercial jingles and slightly annoying radio hits.",
       "source": "108學測"
@@ -18442,6 +19525,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "They use a range of terms to describe it—stuck-song syndrome, sticky music, cognitive itch, or most commonly “earworm.”",
       "source": "108學測"
@@ -18451,7 +19537,7 @@ const LEVEL_6_DATA = [
     "word": "lessen",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/lˈɛsən/",
+    "kk": "/ˈlɛsən/",
     "chinese": "減少；減輕；降低",
     "collocations": [
       {
@@ -18492,6 +19578,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -18501,7 +19590,7 @@ const LEVEL_6_DATA = [
     "word": "lifelong",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/lˈaɪflˈɔŋ/",
+    "kk": "/ˈlaɪfˈlɔŋ/",
     "chinese": "終生的；一生的",
     "collocations": [
       {
@@ -18542,6 +19631,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -18551,7 +19643,7 @@ const LEVEL_6_DATA = [
     "word": "lunar",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/lˈunɚ/",
+    "kk": "/ˈlunɚ/",
     "chinese": "月亮的；農曆的",
     "collocations": [
       {
@@ -18591,11 +19683,14 @@ const LEVEL_6_DATA = [
     "word_family": "",
     "antonym": null,
     "exam": {
-      "count": 1,
-      "papers": 1,
-      "stars": 1,
-      "example": "The unique landforms of the Goreme valley have created its lunar-like landscape, also known as a moonscape.",
-      "source": "104指考"
+      "count": 0,
+      "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
+      "stars": 0,
+      "example": null,
+      "source": null
     }
   },
   {
@@ -18641,6 +19736,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -18650,7 +19748,7 @@ const LEVEL_6_DATA = [
     "word": "mainland",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/mˈeɪnlˌænd/",
+    "kk": "/ˈmenˌlænd/",
     "chinese": "大陸；本土",
     "collocations": [
       {
@@ -18691,6 +19789,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 3,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Traders from Asia had already visited the islands 900 years before the arrival of its first permanent settlers from the African mainland (around 1000 AD).",
       "source": "112學測"
@@ -18700,7 +19801,7 @@ const LEVEL_6_DATA = [
     "word": "melancholy",
     "pos": "n./adj.",
     "chapter": "Society and Communication",
-    "kk": "/mˈɛlənkˌɑli/",
+    "kk": "/ˈmɛlənˌkɑli/",
     "chinese": "憂鬱；悲哀；憂鬱的",
     "collocations": [
       {
@@ -18741,6 +19842,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -18750,7 +19854,7 @@ const LEVEL_6_DATA = [
     "word": "miraculous",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/mɚˈækjələs/",
+    "kk": "/məˈrækjələs/",
     "chinese": "奇蹟般的；不可思議的",
     "collocations": [
       {
@@ -18791,6 +19895,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The pineapple, a delicious tropical fruit, has been valued for centuries not only for its distinct and unique taste, but also for its miraculous health and medical benefits.",
       "source": "108學測"
@@ -18800,7 +19907,7 @@ const LEVEL_6_DATA = [
     "word": "mimic",
     "pos": "v./n.",
     "chapter": "Society and Communication",
-    "kk": "/mˈɪmɪk/",
+    "kk": "/ˈmɪmɪk/",
     "chinese": "模仿；學樣；善於模仿的人",
     "collocations": [
       {
@@ -18841,6 +19948,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "It seems that dolphins can call those they know by mimicking their distinct whistles.",
       "source": "104指考"
@@ -18850,7 +19960,7 @@ const LEVEL_6_DATA = [
     "word": "mound",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/mˈaʊnd/",
+    "kk": "/ˈmaʊnd/",
     "chinese": "土堆；小丘；一堆",
     "collocations": [
       {
@@ -18893,6 +20003,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Red imported fire ants build mounds in any type of soil.",
       "source": "94學測"
@@ -18902,7 +20015,7 @@ const LEVEL_6_DATA = [
     "word": "navigation",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/nˈævəɡˈeɪʃən/",
+    "kk": "/ˌnævəˈgeʃən/",
     "chinese": "導航；航行；瀏覽",
     "collocations": [
       {
@@ -18945,6 +20058,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -18954,7 +20070,7 @@ const LEVEL_6_DATA = [
     "word": "oblige",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/əblˈaɪdʒ/",
+    "kk": "/əˈblaɪdʒ/",
     "chinese": "強迫；使承擔義務；幫助",
     "collocations": [
       {
@@ -18997,6 +20113,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19006,7 +20125,7 @@ const LEVEL_6_DATA = [
     "word": "octopus",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ˈɑktəpˌʊs/",
+    "kk": "/ˈɑktəˌpʊs/",
     "chinese": "章魚",
     "collocations": [
       {
@@ -19046,6 +20165,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19055,7 +20177,7 @@ const LEVEL_6_DATA = [
     "word": "outnumber",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/aʊtnˈahmbɚ/",
+    "kk": "/aʊtˈnʌmbɚ/",
     "chinese": "數量上超過；在數量上勝過",
     "collocations": [
       {
@@ -19096,6 +20218,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 2,
       "stars": 1,
       "example": "There, time almost stands still, and horse-drawn carts outnumber motor vehicles.",
       "source": "99學測"
@@ -19105,7 +20230,7 @@ const LEVEL_6_DATA = [
     "word": "outskirts",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ˈaʊtskˌɝts/",
+    "kk": "/ˈaʊtˌskɝts/",
     "chinese": "郊區；外圍；邊緣地帶",
     "collocations": [
       {
@@ -19146,6 +20271,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -19155,7 +20283,7 @@ const LEVEL_6_DATA = [
     "word": "overhear",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/ˈoʊvɚhˈir/",
+    "kk": "/ˌovɚˈhɪr/",
     "chinese": "無意中聽到；偷聽到",
     "collocations": [
       {
@@ -19196,6 +20324,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19205,7 +20336,7 @@ const LEVEL_6_DATA = [
     "word": "patriotic",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/pˌeɪtriˈɑtɪk/",
+    "kk": "/ˌpetriˈɑtɪk/",
     "chinese": "愛國的；熱愛祖國的",
     "collocations": [
       {
@@ -19246,6 +20377,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19255,7 +20389,7 @@ const LEVEL_6_DATA = [
     "word": "persistence",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/pɚsˈɪstəns/",
+    "kk": "/pɚˈsɪstəns/",
     "chinese": "堅持；持續；固執",
     "collocations": [
       {
@@ -19296,6 +20430,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19305,7 +20442,7 @@ const LEVEL_6_DATA = [
     "word": "pneumonia",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/numˈoʊnjə/",
+    "kk": "/nuˈmonjə/",
     "chinese": "肺炎",
     "collocations": [
       {
@@ -19345,6 +20482,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -19354,7 +20494,7 @@ const LEVEL_6_DATA = [
     "word": "pimple",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/pˈɪmpəl/",
+    "kk": "/ˈpɪmpəl/",
     "chinese": "粉刺；青春痘；丘疹",
     "collocations": [
       {
@@ -19395,6 +20535,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Make sure you don’t squeeze or pop a stye like you would a pimple.",
       "source": "106學測"
@@ -19404,7 +20547,7 @@ const LEVEL_6_DATA = [
     "word": "priceless",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/prˈaɪsləs/",
+    "kk": "/ˈpraɪsləs/",
     "chinese": "無價的；非常寶貴的",
     "collocations": [
       {
@@ -19445,6 +20588,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The pyramid housed the pharaoh’s body together with priceless treasure, which would accompany him into the next world.",
       "source": "100學測"
@@ -19454,7 +20600,7 @@ const LEVEL_6_DATA = [
     "word": "procession",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/prəsˈɛʃən/",
+    "kk": "/prəˈsɛʃən/",
     "chinese": "行列；遊行；一行人",
     "collocations": [
       {
@@ -19495,6 +20641,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -19504,7 +20653,7 @@ const LEVEL_6_DATA = [
     "word": "prohibition",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/prˌoʊəbˈɪʃən/",
+    "kk": "/ˌproəˈbɪʃən/",
     "chinese": "禁令；禁止；禁酒令",
     "collocations": [
       {
@@ -19547,6 +20696,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19556,7 +20708,7 @@ const LEVEL_6_DATA = [
     "word": "puff",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/pˈahf/",
+    "kk": "/ˈpʌf/",
     "chinese": "一口（氣）；喘氣；吸一口（菸）",
     "collocations": [
       {
@@ -19599,6 +20751,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19608,7 +20763,7 @@ const LEVEL_6_DATA = [
     "word": "radius",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/rˈeɪdiəs/",
+    "kk": "/ˈrediəs/",
     "chinese": "半徑；範圍",
     "collocations": [
       {
@@ -19651,6 +20806,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -19660,7 +20818,7 @@ const LEVEL_6_DATA = [
     "word": "refreshment(s)",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/rəfrˈɛʃmənt/",
+    "kk": "/rəˈfrɛʃmənt/",
     "chinese": "茶點；點心；恢復精神",
     "collocations": [
       {
@@ -19701,6 +20859,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19710,7 +20871,7 @@ const LEVEL_6_DATA = [
     "word": "rehearse",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/rihˈɝs/",
+    "kk": "/riˈhɝs/",
     "chinese": "排練；預演；重複",
     "collocations": [
       {
@@ -19751,6 +20912,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Secondly, as people are drawn into the story, they tend to take the perspective of the characters and rehearse the plot unconsciously.",
       "source": "114學測"
@@ -19760,7 +20924,7 @@ const LEVEL_6_DATA = [
     "word": "restrain",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/ristrˈeɪn/",
+    "kk": "/riˈstren/",
     "chinese": "抑制；限制；約束",
     "collocations": [
       {
@@ -19803,6 +20967,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19812,7 +20979,7 @@ const LEVEL_6_DATA = [
     "word": "revelation",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/rˌɛvəlˈeɪʃən/",
+    "kk": "/ˌrɛvəˈleʃən/",
     "chinese": "揭示；揭露；啟示",
     "collocations": [
       {
@@ -19855,6 +21022,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19864,7 +21034,7 @@ const LEVEL_6_DATA = [
     "word": "ruthless",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/rˈuθləs/",
+    "kk": "/ˈruθləs/",
     "chinese": "冷酷的；無情的；殘忍的",
     "collocations": [
       {
@@ -19905,6 +21075,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -19914,7 +21087,7 @@ const LEVEL_6_DATA = [
     "word": "selective",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/səlˈɛktɪv/",
+    "kk": "/səˈlɛktɪv/",
     "chinese": "有選擇性的；精挑細選的",
     "collocations": [
       {
@@ -19957,6 +21130,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "In particular, the tractor beam is highly selective in the particles it can attract, so it can pick up particles that have specific properties, such as size or composition, in a mixture.",
       "source": "102指考"
@@ -19966,7 +21142,7 @@ const LEVEL_6_DATA = [
     "word": "sergeant",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/sˈɑrdʒənt/",
+    "kk": "/ˈsɑrdʒənt/",
     "chinese": "中士；巡佐",
     "collocations": [
       {
@@ -20008,6 +21184,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -20017,7 +21196,7 @@ const LEVEL_6_DATA = [
     "word": "simplicity",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/sɪmplˈɪsəti/",
+    "kk": "/sɪmˈplɪsəti/",
     "chinese": "簡單；樸素；單純",
     "collocations": [
       {
@@ -20058,6 +21237,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -20067,7 +21249,7 @@ const LEVEL_6_DATA = [
     "word": "solidarity",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/sˌɑlədˈɛrəti/",
+    "kk": "/ˌsɑləˈdɛrəti/",
     "chinese": "團結；一致；團結精神",
     "collocations": [
       {
@@ -20108,6 +21290,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -20117,7 +21302,7 @@ const LEVEL_6_DATA = [
     "word": "slay",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/slˈeɪ/",
+    "kk": "/ˈsle/",
     "chinese": "殺死；屠殺；（俚）使絕倒",
     "collocations": [
       {
@@ -20160,6 +21345,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -20169,7 +21357,7 @@ const LEVEL_6_DATA = [
     "word": "splendor",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/splˈɛndɚ/",
+    "kk": "/ˈsplɛndɚ/",
     "chinese": "輝煌；壯麗；燦爛",
     "collocations": [
       {
@@ -20212,6 +21400,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "His vivid paintings brought the splendor of the extraordinary landscapes before the eyes of American people, thus setting the stage for the regions to be widely recognized and officially established as national parks.",
       "source": "113學測"
@@ -20221,7 +21412,7 @@ const LEVEL_6_DATA = [
     "word": "spotlight",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/spˈɑtlˌaɪt/",
+    "kk": "/ˈspɑtˌlaɪt/",
     "chinese": "聚光燈；注目；使受到關注",
     "collocations": [
       {
@@ -20264,6 +21455,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -20273,7 +21467,7 @@ const LEVEL_6_DATA = [
     "word": "strangle",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/strˈæŋɡəl/",
+    "kk": "/ˈstræŋgəl/",
     "chinese": "勒死；扼殺；遏制",
     "collocations": [
       {
@@ -20316,6 +21510,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -20325,7 +21522,7 @@ const LEVEL_6_DATA = [
     "word": "symbolize",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/sˈɪmbəlˌaɪz/",
+    "kk": "/ˈsɪmbəˌlaɪz/",
     "chinese": "象徵；代表",
     "collocations": [
       {
@@ -20366,6 +21563,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Girls’ names such as Faith, Patience, and Sophie (wisdom) are chosen because they symbolize Christian qualities.",
       "source": "103學測"
@@ -20375,7 +21575,7 @@ const LEVEL_6_DATA = [
     "word": "suspense",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/səspˈɛns/",
+    "kk": "/səˈspɛns/",
     "chinese": "懸念；緊張不安；懸疑",
     "collocations": [
       {
@@ -20418,6 +21618,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -20468,6 +21671,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -20477,7 +21683,7 @@ const LEVEL_6_DATA = [
     "word": "transcript",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/trˈænskrˌɪpt/",
+    "kk": "/ˈtrænˌskrɪpt/",
     "chinese": "成績單；文字稿；副本",
     "collocations": [
       {
@@ -20520,6 +21726,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -20529,7 +21738,7 @@ const LEVEL_6_DATA = [
     "word": "trek",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/trˈɛk/",
+    "kk": "/ˈtrɛk/",
     "chinese": "長途跋涉；徒步旅行",
     "collocations": [
       {
@@ -20568,8 +21777,11 @@ const LEVEL_6_DATA = [
     "word_family": "trek · trekking",
     "antonym": null,
     "exam": {
-      "count": 5,
-      "papers": 2,
+      "count": 2,
+      "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Hikers looking for something a little different on their treks created a global hunting game, hiding “caches”—packs filled with goodies like CDs, photographs, and journals—in obscure places throughout the world.",
       "source": "93指考"
@@ -20579,7 +21791,7 @@ const LEVEL_6_DATA = [
     "word": "unanimous",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/junˈænəməs/",
+    "kk": "/juˈnænəməs/",
     "chinese": "全體一致的；一致同意的",
     "collocations": [
       {
@@ -20620,6 +21832,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -20629,7 +21844,7 @@ const LEVEL_6_DATA = [
     "word": "underpass",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ˈahndɚpˌæs/",
+    "kk": "/ˈʌndɚˌpæs/",
     "chinese": "地下通道；立體交叉",
     "collocations": [
       {
@@ -20670,6 +21885,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -20679,7 +21897,7 @@ const LEVEL_6_DATA = [
     "word": "vaccine",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/vˌæksˈin/",
+    "kk": "/ˌvækˈsin/",
     "chinese": "疫苗",
     "collocations": [
       {
@@ -20720,6 +21938,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "There are currently no effective or approved malaria vaccines.",
       "source": "103指考"
@@ -20729,7 +21950,7 @@ const LEVEL_6_DATA = [
     "word": "vanity",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/vˈænəti/",
+    "kk": "/ˈvænəti/",
     "chinese": "虛榮；自負；梳妝台",
     "collocations": [
       {
@@ -20770,6 +21991,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -20779,7 +22003,7 @@ const LEVEL_6_DATA = [
     "word": "wag",
     "pos": "v./n.",
     "chapter": "Society and Communication",
-    "kk": "/wˈæɡ/",
+    "kk": "/ˈwæg/",
     "chinese": "搖擺；搖尾巴；幽默風趣的人",
     "collocations": [
       {
@@ -20822,6 +22046,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -20831,7 +22058,7 @@ const LEVEL_6_DATA = [
     "word": "wharf",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/wˈɔrf/",
+    "kk": "/ˈwɔrf/",
     "chinese": "碼頭；泊船處",
     "collocations": [
       {
@@ -20872,6 +22099,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -20881,7 +22111,7 @@ const LEVEL_6_DATA = [
     "word": "martial",
     "pos": "adj.",
     "chapter": "Society and Communication",
-    "kk": "/mˈɑrʃəl/",
+    "kk": "/ˈmɑrʃəl/",
     "chinese": "軍事的；好戰的；武術的",
     "collocations": [
       {
@@ -20924,6 +22154,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Others, notably Spain and France, chose marches (songs with a strong, regular rhythm often performed by military bands)—which expressed a martial rather than monarchic spirit.",
       "source": "106指考"
@@ -20933,7 +22166,7 @@ const LEVEL_6_DATA = [
     "word": "outrage",
     "pos": "n./v.",
     "chapter": "Society and Communication",
-    "kk": "/ˈaʊtrˌeɪdʒ/",
+    "kk": "/ˈaʊtˌredʒ/",
     "chinese": "義憤；暴行；激怒",
     "collocations": [
       {
@@ -20974,6 +22207,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The rare appearance came just 24 hours after the singer provoked outrage by dangling his youngest child, baby Prince Michael II, from the fourth-floor balcony of a hotel window.",
       "source": "92指考"
@@ -20983,7 +22219,7 @@ const LEVEL_6_DATA = [
     "word": "spokesperson/spokesman/spokeswoman",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/spˈoʊkswˌʊmən/",
+    "kk": "/ˈspoksˌpɝsən/",
     "chinese": "女發言人",
     "collocations": [
       {
@@ -21023,6 +22259,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -21032,7 +22271,7 @@ const LEVEL_6_DATA = [
     "word": "editorial",
     "pos": "adj./n.",
     "chapter": "Society and Communication",
-    "kk": "/ˌɛdətˈɔriəl/",
+    "kk": "/ˌɛdəˈtɔriəl/",
     "chinese": "編輯的；社論；編輯部的",
     "collocations": [
       {
@@ -21078,6 +22317,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -21087,7 +22329,7 @@ const LEVEL_6_DATA = [
     "word": "oppression",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/əprˈɛʃən/",
+    "kk": "/əˈprɛʃən/",
     "chinese": "壓迫；壓制；沉重感",
     "collocations": [
       {
@@ -21132,6 +22374,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -21141,7 +22386,7 @@ const LEVEL_6_DATA = [
     "word": "aboriginal",
     "pos": "adj./n.",
     "chapter": "Society and Communication",
-    "kk": "/ˌæbɚˈɪdʒənəl/",
+    "kk": "/ˌæbəˈrɪdʒənəl/",
     "chinese": "原住民的；土著的；原始的",
     "collocations": [
       {
@@ -21186,6 +22431,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 3,
       "stars": 1,
       "example": "Aboriginal carvers continue to carve totems as symbols of their cultural pride and clan kinship.",
       "source": "108學測"
@@ -21195,7 +22443,7 @@ const LEVEL_6_DATA = [
     "word": "civilize",
     "pos": "v.",
     "chapter": "Society and Communication",
-    "kk": "/sˈɪvəlˌaɪz/",
+    "kk": "/ˈsɪvəˌlaɪz/",
     "chinese": "使文明化；使開化；使有教養",
     "collocations": [
       {
@@ -21240,6 +22488,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "France gave birth to restaurants, but it was no civilized affair.",
       "source": "110指考"
@@ -21249,7 +22500,7 @@ const LEVEL_6_DATA = [
     "word": "gay",
     "pos": "adj./n.",
     "chapter": "Society and Communication",
-    "kk": "/ɡˈeɪ/",
+    "kk": "/ˈge/",
     "chinese": "同性戀的；快樂的；鮮豔的",
     "collocations": [
       {
@@ -21294,6 +22545,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -21303,7 +22557,7 @@ const LEVEL_6_DATA = [
     "word": "indifference",
     "pos": "n.",
     "chapter": "Society and Communication",
-    "kk": "/ɪndˈɪfɚəns/",
+    "kk": "/ɪnˈdɪfɚəns/",
     "chinese": "漠不關心；無所謂；冷淡",
     "collocations": [
       {
@@ -21348,6 +22602,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -21357,7 +22614,7 @@ const LEVEL_6_DATA = [
     "word": "moody",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/mˈudi/",
+    "kk": "/ˈmudi/",
     "chinese": "情緒化的；喜怒無常的；陰沉的",
     "collocations": [
       {
@@ -21400,6 +22657,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -21409,7 +22669,7 @@ const LEVEL_6_DATA = [
     "word": "stimulation",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/stˌɪmjəlˈeɪʃən/",
+    "kk": "/ˌstɪmjəˈleʃən/",
     "chinese": "刺激；激勵；促進",
     "collocations": [
       {
@@ -21450,6 +22710,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -21459,7 +22722,7 @@ const LEVEL_6_DATA = [
     "word": "abide",
     "pos": "v.",
     "chapter": "Mind and Emotion",
-    "kk": "/əbˈaɪd/",
+    "kk": "/əˈbaɪd/",
     "chinese": "忍受；遵守；持久",
     "collocations": [
       {
@@ -21502,6 +22765,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -21511,7 +22777,7 @@ const LEVEL_6_DATA = [
     "word": "accustom",
     "pos": "v.",
     "chapter": "Mind and Emotion",
-    "kk": "/əkˈahstəm/",
+    "kk": "/əˈkʌstəm/",
     "chinese": "使習慣；使適應",
     "collocations": [
       {
@@ -21552,6 +22818,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -21561,7 +22830,7 @@ const LEVEL_6_DATA = [
     "word": "ambiguity",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/ˌæmbɪɡjˈuəti/",
+    "kk": "/ˌæmbɪˈgjuəti/",
     "chinese": "模糊性；歧義；不明確",
     "collocations": [
       {
@@ -21604,6 +22873,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -21613,7 +22885,7 @@ const LEVEL_6_DATA = [
     "word": "alligator",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/ˈæləɡˌeɪtɚ/",
+    "kk": "/ˈæləˌgetɚ/",
     "chinese": "短吻鱷；美洲鱷",
     "collocations": [
       {
@@ -21653,6 +22925,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -21704,6 +22979,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Serendipity was at work when Alexander Fleming discovered penicillin, the antibiotic miracle.",
       "source": "109指考"
@@ -21713,7 +22991,7 @@ const LEVEL_6_DATA = [
     "word": "applaud",
     "pos": "v.",
     "chapter": "Mind and Emotion",
-    "kk": "/əplˈɔd/",
+    "kk": "/əˈplɔd/",
     "chinese": "鼓掌；讚揚；稱讚",
     "collocations": [
       {
@@ -21756,6 +23034,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -21765,7 +23046,7 @@ const LEVEL_6_DATA = [
     "word": "barbarian",
     "pos": "adj./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/bɑrbˈɛriən/",
+    "kk": "/bɑrˈbɛriən/",
     "chinese": "野蠻人；蠻族；粗野的",
     "collocations": [
       {
@@ -21806,6 +23087,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -21815,7 +23099,7 @@ const LEVEL_6_DATA = [
     "word": "awesome",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/ˈɑsəm/",
+    "kk": "/ˈɔsəm/",
     "chinese": "令人敬畏的；極好的；驚人的",
     "collocations": [
       {
@@ -21858,6 +23142,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -21867,7 +23154,7 @@ const LEVEL_6_DATA = [
     "word": "beforehand",
     "pos": "adv.",
     "chapter": "Mind and Emotion",
-    "kk": "/bɪfˈɔrhˌænd/",
+    "kk": "/bɪˈfɔrˌhænd/",
     "chinese": "事先；預先；提前",
     "collocations": [
       {
@@ -21908,6 +23195,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 7,
       "papers": 6,
+      "gsat_papers": 5,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 2,
       "example": "Those who take pride in being decisive often try their best to consider all the factors beforehand.",
       "source": "103學測"
@@ -21917,7 +23207,7 @@ const LEVEL_6_DATA = [
     "word": "bureaucrat",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/bjˈʊrəkrˌæt/",
+    "kk": "/ˈbjʊrəˌkræt/",
     "chinese": "官僚；官僚主義者",
     "collocations": [
       {
@@ -21958,6 +23248,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -22008,6 +23301,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Remember when Madonna hit the charts with her bra in full view while singing about \"virginity\"?",
       "source": "92學測"
@@ -22017,7 +23313,7 @@ const LEVEL_6_DATA = [
     "word": "ceramic",
     "pos": "adj./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/sɚˈæmɪk/",
+    "kk": "/səˈræmɪk/",
     "chinese": "陶瓷的；陶器",
     "collocations": [
       {
@@ -22060,6 +23356,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -22069,7 +23368,7 @@ const LEVEL_6_DATA = [
     "word": "caterpillar",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/kˈætəpˌɪlɚ/",
+    "kk": "/ˈkætəˌpɪlɚ/",
     "chinese": "毛毛蟲；幼蟲",
     "collocations": [
       {
@@ -22110,6 +23409,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -22119,7 +23421,7 @@ const LEVEL_6_DATA = [
     "word": "charitable",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/tʃˈærətəbəl/",
+    "kk": "/ˈtʃærətəbəl/",
     "chinese": "慈善的；仁慈的；寬厚的",
     "collocations": [
       {
@@ -22162,6 +23464,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "As the need for monetary support and other aid has increased, many charitable organizations have experienced a significant drop in donations.",
       "source": "98指考"
@@ -22171,7 +23476,7 @@ const LEVEL_6_DATA = [
     "word": "closure",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/klˈoʊʒɚ/",
+    "kk": "/ˈkloʒɚ/",
     "chinese": "關閉；終結；完結感",
     "collocations": [
       {
@@ -22214,6 +23519,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "He first tried cotton, but it proved too soft and could not withstand repeated openings and closures.",
       "source": "113學測"
@@ -22223,7 +23531,7 @@ const LEVEL_6_DATA = [
     "word": "complement",
     "pos": "v./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/kˈɑmpləmənt/",
+    "kk": "/ˈkɑmpləˌmɛnt/",
     "chinese": "補充；相輔相成；補語",
     "collocations": [
       {
@@ -22266,6 +23574,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -22275,7 +23586,7 @@ const LEVEL_6_DATA = [
     "word": "congressman/congresswoman",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/kˈɑŋɡrəswˌʊmən/",
+    "kk": "/ˈkɑŋgrəsmən/",
     "chinese": "女眾議員",
     "collocations": [
       {
@@ -22316,6 +23627,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -22325,7 +23639,7 @@ const LEVEL_6_DATA = [
     "word": "confederation",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/kənfˌɛdɚˈeɪʃən/",
+    "kk": "/kənˌfɛdəˈreʃən/",
     "chinese": "聯邦；邦聯；聯盟",
     "collocations": [
       {
@@ -22368,6 +23682,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -22377,7 +23694,7 @@ const LEVEL_6_DATA = [
     "word": "cracker",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/krˈækɚ/",
+    "kk": "/ˈkrækɚ/",
     "chinese": "薄脆餅乾；鞭炮；駭客",
     "collocations": [
       {
@@ -22420,6 +23737,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "For the same reason, raisins and crackers are not the best choice.",
       "source": "96學測"
@@ -22429,7 +23749,7 @@ const LEVEL_6_DATA = [
     "word": "courtyard",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/kˈɔrtjˌɑrd/",
+    "kk": "/ˈkɔrtˌjɑrd/",
     "chinese": "庭院；院子",
     "collocations": [
       {
@@ -22470,6 +23790,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "For individuals who need to escape the cold for a brief period, there are outdoor hot tubs in the hotel courtyard.",
       "source": "102指考"
@@ -22479,7 +23802,7 @@ const LEVEL_6_DATA = [
     "word": "cucumber",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/kjˈukəmbɚ/",
+    "kk": "/ˈkjukəmbɚ/",
     "chinese": "黃瓜；小黃瓜",
     "collocations": [
       {
@@ -22519,6 +23842,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "At approximately the same time, the Earl of Sandwich popularized a new way of eating bread—in thin slices, with something (e.g., jam or cucumbers) between them.",
       "source": "106學測"
@@ -22528,7 +23854,7 @@ const LEVEL_6_DATA = [
     "word": "dazzle",
     "pos": "v./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/dˈæzəl/",
+    "kk": "/ˈdæzəl/",
     "chinese": "使眼花繚亂；使驚嘆；炫目",
     "collocations": [
       {
@@ -22571,6 +23897,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The northern lights, known as the aurora borealis, is one of nature’s most dazzling spectacles.",
       "source": "96指考"
@@ -22580,7 +23909,7 @@ const LEVEL_6_DATA = [
     "word": "dictator",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/dɪktˈeɪtɚ/",
+    "kk": "/ˈdɪkˌtetɚ/",
     "chinese": "獨裁者；暴君",
     "collocations": [
       {
@@ -22621,6 +23950,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -22630,7 +23962,7 @@ const LEVEL_6_DATA = [
     "word": "detergent",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/dɪtˈɝdʒənt/",
+    "kk": "/dɪˈtɝdʒənt/",
     "chinese": "清潔劑；洗滌劑",
     "collocations": [
       {
@@ -22671,6 +24003,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -22680,7 +24015,7 @@ const LEVEL_6_DATA = [
     "word": "directive",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/dɚˈɛktɪv/",
+    "kk": "/dəˈrɛktɪv/",
     "chinese": "指令；指示；命令性的",
     "collocations": [
       {
@@ -22721,6 +24056,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -22730,7 +24068,7 @@ const LEVEL_6_DATA = [
     "word": "dissent",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/dɪsˈɛnt/",
+    "kk": "/dɪˈsɛnt/",
     "chinese": "異議；不同意見；持不同意見",
     "collocations": [
       {
@@ -22773,6 +24111,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -22782,7 +24123,7 @@ const LEVEL_6_DATA = [
     "word": "dormitory/dorm",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/dˈɔrmətˌɔri/",
+    "kk": "/ˈdɔrməˌtɔri/",
     "chinese": "宿舍；學生宿舍",
     "collocations": [
       {
@@ -22823,6 +24164,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -22832,7 +24176,7 @@ const LEVEL_6_DATA = [
     "word": "drastic",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/drˈæstɪk/",
+    "kk": "/ˈdræstɪk/",
     "chinese": "激烈的；猛烈的；極端的",
     "collocations": [
       {
@@ -22873,6 +24217,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 2,
       "stars": 1,
       "example": null,
       "source": null
@@ -22882,7 +24229,7 @@ const LEVEL_6_DATA = [
     "word": "endeavor",
     "pos": "n./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/ɪndˈɛvɚ/",
+    "kk": "/ɪnˈdɛvɚ/",
     "chinese": "努力；嘗試；事業",
     "collocations": [
       {
@@ -22925,6 +24272,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "He succeeded in his endeavor and transformed the martial art into Brazil’s national sport.",
       "source": "106學測"
@@ -22934,7 +24284,7 @@ const LEVEL_6_DATA = [
     "word": "escort",
     "pos": "n./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/ɛskˈɔrt/",
+    "kk": "/ˈɛskɔrt/",
     "chinese": "護衛；陪同；護送",
     "collocations": [
       {
@@ -22977,6 +24327,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "When he refused to jeopardize the safety of his passengers, Sunny Airlines’ security escorted him out of the airport, and threatened to arrest his crew if they did not cooperate.",
       "source": "101指考"
@@ -22986,7 +24339,7 @@ const LEVEL_6_DATA = [
     "word": "exempt",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/ɪɡzˈɛmpt/",
+    "kk": "/ɪgˈzɛmpt/",
     "chinese": "豁免的；免除；使免除",
     "collocations": [
       {
@@ -23029,6 +24382,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -23038,7 +24394,7 @@ const LEVEL_6_DATA = [
     "word": "eyesight",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/ˈaɪsˌaɪt/",
+    "kk": "/ˈaɪˌsaɪt/",
     "chinese": "視力；視覺",
     "collocations": [
       {
@@ -23079,6 +24435,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -23088,7 +24447,7 @@ const LEVEL_6_DATA = [
     "word": "finite",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/fˈaɪnˌaɪt/",
+    "kk": "/ˈfaɪˌnaɪt/",
     "chinese": "有限的；有限制的",
     "collocations": [
       {
@@ -23129,6 +24488,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -23138,7 +24500,7 @@ const LEVEL_6_DATA = [
     "word": "flake",
     "pos": "n./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/flˈeɪk/",
+    "kk": "/ˈflek/",
     "chinese": "片；薄片；脫落；不可靠的人",
     "collocations": [
       {
@@ -23181,6 +24543,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -23190,7 +24555,7 @@ const LEVEL_6_DATA = [
     "word": "freeway",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/frˈiwˌeɪ/",
+    "kk": "/ˈfriˌwe/",
     "chinese": "高速公路；快速道路",
     "collocations": [
       {
@@ -23231,6 +24596,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Google, which already uses prototypes of such cars to ferry its staff along Californian freeways, once put a blind man in a prototype and filmed him being driven off to buy takeaway hamburgers.",
       "source": "103學測"
@@ -23240,7 +24608,7 @@ const LEVEL_6_DATA = [
     "word": "fowl",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/fˈaʊl/",
+    "kk": "/ˈfaʊl/",
     "chinese": "家禽；禽鳥",
     "collocations": [
       {
@@ -23281,6 +24649,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -23290,7 +24661,7 @@ const LEVEL_6_DATA = [
     "word": "fury",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/fjˈʊri/",
+    "kk": "/ˈfjʊri/",
     "chinese": "狂怒；盛怒；猛烈",
     "collocations": [
       {
@@ -23333,6 +24704,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -23342,7 +24716,7 @@ const LEVEL_6_DATA = [
     "word": "gospel",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/ɡˈɑspəl/",
+    "kk": "/ˈgɑspəl/",
     "chinese": "福音；福音書；真理",
     "collocations": [
       {
@@ -23385,6 +24759,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -23394,7 +24771,7 @@ const LEVEL_6_DATA = [
     "word": "harass(ment)",
     "pos": "v./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/hɚˈæs/",
+    "kk": "/həˈræs/",
     "chinese": "騷擾；使困擾（騷擾行為）",
     "collocations": [
       {
@@ -23435,6 +24812,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "But when it was welcomed back after several years, it was subjected to harassment and constant interference from the political activists.",
       "source": "94指考"
@@ -23444,7 +24824,7 @@ const LEVEL_6_DATA = [
     "word": "homosexual",
     "pos": "adj./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/hˌoʊmoʊsˈɛkʃəwəl/",
+    "kk": "/ˌhomoˈsɛkʃəwəl/",
     "chinese": "同性戀的；同性戀者",
     "collocations": [
       {
@@ -23486,6 +24866,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -23495,7 +24878,7 @@ const LEVEL_6_DATA = [
     "word": "hospitable",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/hˈɑspˈɪtəbəl/",
+    "kk": "/ˈhɑspɪtəbəl/",
     "chinese": "好客的；殷勤款待的；有利於…的",
     "collocations": [
       {
@@ -23536,6 +24919,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Why was the summer of 2012 so hospitable to the West Nile virus and the mosquitoes that carry it?",
       "source": "107學測"
@@ -23545,7 +24931,7 @@ const LEVEL_6_DATA = [
     "word": "imperial",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/ɪmpˈɪriəl/",
+    "kk": "/ɪmˈpɪriəl/",
     "chinese": "帝國的；皇帝的；至高無上的",
     "collocations": [
       {
@@ -23588,6 +24974,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "More significantly, perhaps, they serve as reminders of the last Russian imperial family.",
       "source": "104指考"
@@ -23597,7 +24986,7 @@ const LEVEL_6_DATA = [
     "word": "inclusive",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/ɪnklˈusɪv/",
+    "kk": "/ɪnˈklusɪv/",
     "chinese": "包容的；廣泛的；包括在內的",
     "collocations": [
       {
@@ -23640,6 +25029,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -23649,7 +25041,7 @@ const LEVEL_6_DATA = [
     "word": "intellect",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/ˈɪntəlˌɛkt/",
+    "kk": "/ˈɪntəˌlɛkt/",
     "chinese": "智力；理智；知識份子",
     "collocations": [
       {
@@ -23690,6 +25082,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Dognition’s test measures a dog’s intellect in several aspects—from empathy to memory to reasoning skills.",
       "source": "106學測"
@@ -23699,7 +25094,7 @@ const LEVEL_6_DATA = [
     "word": "inhabitant",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/ɪnhˈæbətənt/",
+    "kk": "/ɪnˈhæbətənt/",
     "chinese": "居民；居住者；棲息者",
     "collocations": [
       {
@@ -23740,6 +25135,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -23749,7 +25147,7 @@ const LEVEL_6_DATA = [
     "word": "jockey",
     "pos": "n./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/dʒˈɑki/",
+    "kk": "/ˈdʒɑki/",
     "chinese": "騎師；馬術師；設法操控",
     "collocations": [
       {
@@ -23792,6 +25190,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -23801,7 +25202,7 @@ const LEVEL_6_DATA = [
     "word": "latitude",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/lˈætətˌud/",
+    "kk": "/ˈlætəˌtud/",
     "chinese": "緯度；行動自由；寬容",
     "collocations": [
       {
@@ -23844,6 +25245,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -23853,7 +25257,7 @@ const LEVEL_6_DATA = [
     "word": "lethal",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/lˈiθəl/",
+    "kk": "/ˈliθəl/",
     "chinese": "致命的；致死的",
     "collocations": [
       {
@@ -23894,6 +25298,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -23903,7 +25310,7 @@ const LEVEL_6_DATA = [
     "word": "livestock",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/lˈaɪvstˌɑk/",
+    "kk": "/ˈlaɪvˌstɑk/",
     "chinese": "牲畜；家畜",
     "collocations": [
       {
@@ -23944,6 +25351,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Worst of all, their stings can be fatal to livestock and humans.",
       "source": "94學測"
@@ -23953,7 +25363,7 @@ const LEVEL_6_DATA = [
     "word": "liner",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/lˈaɪnɚ/",
+    "kk": "/ˈlaɪnɚ/",
     "chinese": "班輪；郵輪；眼線筆",
     "collocations": [
       {
@@ -23996,6 +25406,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -24005,7 +25418,7 @@ const LEVEL_6_DATA = [
     "word": "liter",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/lˈitɚ/",
+    "kk": "/ˈlitɚ/",
     "chinese": "公升（容量單位）",
     "collocations": [
       {
@@ -24044,6 +25457,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -24053,7 +25469,7 @@ const LEVEL_6_DATA = [
     "word": "majestic",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/mədʒˈɛstɪk/",
+    "kk": "/məˈdʒɛstɪk/",
     "chinese": "雄偉的；壯觀的；莊嚴的",
     "collocations": [
       {
@@ -24094,6 +25510,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -24103,7 +25522,7 @@ const LEVEL_6_DATA = [
     "word": "manuscript",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/mˈænjəskrˌɪpt/",
+    "kk": "/ˈmænjəˌskrɪpt/",
     "chinese": "手稿；原稿；手寫的",
     "collocations": [
       {
@@ -24144,6 +25563,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -24153,7 +25575,7 @@ const LEVEL_6_DATA = [
     "word": "monetary",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/mˈɑnətˌɛri/",
+    "kk": "/ˈmɑnəˌtɛri/",
     "chinese": "貨幣的；金融的",
     "collocations": [
       {
@@ -24194,6 +25616,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Hence, diamonds carry a higher monetary value than water, even though we find more use for water.",
       "source": "100學測"
@@ -24203,7 +25628,7 @@ const LEVEL_6_DATA = [
     "word": "mortal",
     "pos": "adj./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/mˈɔrtəl/",
+    "kk": "/ˈmɔrtəl/",
     "chinese": "凡人的；致命的；凡人",
     "collocations": [
       {
@@ -24246,6 +25671,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "But, since our space journey started we have left so much trash there that scientists are now concerned that if we don’t clean it up, we may all be in mortal danger.",
       "source": "102學測"
@@ -24255,7 +25683,7 @@ const LEVEL_6_DATA = [
     "word": "nag",
     "pos": "v./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/nˈæɡ/",
+    "kk": "/ˈnæg/",
     "chinese": "嘮叨；催促；馬",
     "collocations": [
       {
@@ -24298,6 +25726,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -24307,7 +25738,7 @@ const LEVEL_6_DATA = [
     "word": "muse",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/mjˈuz/",
+    "kk": "/ˈmjuz/",
     "chinese": "沉思；繆思；靈感之源",
     "collocations": [
       {
@@ -24350,6 +25781,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -24359,7 +25793,7 @@ const LEVEL_6_DATA = [
     "word": "notorious",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/noʊtˈɔriəs/",
+    "kk": "/noˈtɔriəs/",
     "chinese": "惡名昭彰的；臭名遠播的",
     "collocations": [
       {
@@ -24400,6 +25834,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Stroud is one of the most notorious criminals in American history.",
       "source": "109指考"
@@ -24409,7 +25846,7 @@ const LEVEL_6_DATA = [
     "word": "oppress",
     "pos": "v.",
     "chapter": "Mind and Emotion",
-    "kk": "/əprˈɛs/",
+    "kk": "/əˈprɛs/",
     "chinese": "壓迫；使苦惱；沉重地壓制",
     "collocations": [
       {
@@ -24452,6 +25889,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -24461,7 +25901,7 @@ const LEVEL_6_DATA = [
     "word": "ozone",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/ˈoʊzˌoʊn/",
+    "kk": "/ˈoˌzon/",
     "chinese": "臭氧；新鮮空氣",
     "collocations": [
       {
@@ -24501,6 +25941,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -24553,6 +25996,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The first is its geometry, which consists of an outer frame and a central part from which threads radiate outward.",
       "source": "100指考"
@@ -24562,7 +26008,7 @@ const LEVEL_6_DATA = [
     "word": "paralyze",
     "pos": "v.",
     "chapter": "Mind and Emotion",
-    "kk": "/pˈɛrəlˌaɪz/",
+    "kk": "/ˈpɛrəˌlaɪz/",
     "chinese": "使癱瘓；使麻痺；使癱瘓無法動彈",
     "collocations": [
       {
@@ -24605,6 +26051,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The scientific triumph of his career, in fact, has been paralyzing his life, silently troubling his conscience.",
       "source": "91指考"
@@ -24614,7 +26063,7 @@ const LEVEL_6_DATA = [
     "word": "persistent",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/pɚsˈɪstənt/",
+    "kk": "/pɚˈsɪstənt/",
     "chinese": "堅持不懈的；持續的；頑固的",
     "collocations": [
       {
@@ -24657,6 +26106,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The types of compounds found were all considered “persistent organic pollutants” (POPs), meaning they stick around in the environment for a very long time.",
       "source": "109指考"
@@ -24666,7 +26118,7 @@ const LEVEL_6_DATA = [
     "word": "plague",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/plˈeɪɡ/",
+    "kk": "/ˈpleg/",
     "chinese": "瘟疫；困擾；大量湧現",
     "collocations": [
       {
@@ -24709,6 +26161,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -24718,7 +26173,7 @@ const LEVEL_6_DATA = [
     "word": "plow",
     "pos": "n./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/plˈaʊ/",
+    "kk": "/ˈplaʊ/",
     "chinese": "犁；耕地；費力前進",
     "collocations": [
       {
@@ -24761,6 +26216,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -24770,7 +26228,7 @@ const LEVEL_6_DATA = [
     "word": "prehistoric",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/prˌihɪstˈɔrɪk/",
+    "kk": "/ˌprihɪˈstɔrɪk/",
     "chinese": "史前的；有歷史記載前的",
     "collocations": [
       {
@@ -24811,6 +26269,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -24820,7 +26281,7 @@ const LEVEL_6_DATA = [
     "word": "preach",
     "pos": "v.",
     "chapter": "Mind and Emotion",
-    "kk": "/prˈitʃ/",
+    "kk": "/ˈpritʃ/",
     "chinese": "佈道；說教；宣講",
     "collocations": [
       {
@@ -24863,6 +26324,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -24872,7 +26336,7 @@ const LEVEL_6_DATA = [
     "word": "provincial",
     "pos": "adj./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/prəvˈɪnʃəl/",
+    "kk": "/prəˈvɪnʃəl/",
     "chinese": "省的；地方的；眼光狹窄的",
     "collocations": [
       {
@@ -24915,6 +26379,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "In the face of this tragedy, food and other supplies from around the world landed in the provincial capital of Kerman on Sunday.",
       "source": "94學測"
@@ -24924,7 +26391,7 @@ const LEVEL_6_DATA = [
     "word": "prose",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/prˈoʊz/",
+    "kk": "/ˈproz/",
     "chinese": "散文；散文體",
     "collocations": [
       {
@@ -24965,6 +26432,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "She was raised in an African American family filled with songs and stories of Southern myths, which later shaped her prose.",
       "source": "103學測"
@@ -24974,7 +26444,7 @@ const LEVEL_6_DATA = [
     "word": "realization",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/rˈiləzˈeɪʃən/",
+    "kk": "/ˌriələˈzeʃən/",
     "chinese": "認識到；了解；實現",
     "collocations": [
       {
@@ -25017,6 +26487,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "I asked how she dealt with the realization that she’d never walk again, and she confessed that initially she didn’t want to face it.",
       "source": "101學測"
@@ -25026,7 +26499,7 @@ const LEVEL_6_DATA = [
     "word": "rap",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/rˈæp/",
+    "kk": "/ˈræp/",
     "chinese": "說唱音樂；敲擊；責備",
     "collocations": [
       {
@@ -25069,6 +26542,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Sales of rap music and videos each exceed that amount.",
       "source": "92學測"
@@ -25078,7 +26554,7 @@ const LEVEL_6_DATA = [
     "word": "renowned",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/rɪnˈaʊnd/",
+    "kk": "/rɪˈnaʊnd/",
     "chinese": "著名的；享有盛名的",
     "collocations": [
       {
@@ -25119,6 +26595,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 2,
+      "ast_papers": 2,
+      "recent_papers": 3,
       "stars": 2,
       "example": "Thanks to the All Blacks, two of the haka have become widely renowned: Ka Mate and Kapa o Pango.",
       "source": "109指考"
@@ -25128,7 +26607,7 @@ const LEVEL_6_DATA = [
     "word": "reliance",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/rɪlˈaɪəns/",
+    "kk": "/rɪˈlaɪəns/",
     "chinese": "依賴；依靠；信任",
     "collocations": [
       {
@@ -25169,6 +26648,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -25178,7 +26660,7 @@ const LEVEL_6_DATA = [
     "word": "rotate",
     "pos": "v.",
     "chapter": "Mind and Emotion",
-    "kk": "/rˈoʊtˌeɪt/",
+    "kk": "/ˈroˌtet/",
     "chinese": "旋轉；輪替；輪流",
     "collocations": [
       {
@@ -25221,6 +26703,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 3,
       "stars": 1,
       "example": "He linked all of this to a device shaped like a spinning wheel, with a foot control that turned the rod, making the glass hemispheres rotate.",
       "source": "110學測"
@@ -25230,7 +26715,7 @@ const LEVEL_6_DATA = [
     "word": "scrape",
     "pos": "v./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/skrˈeɪp/",
+    "kk": "/ˈskrep/",
     "chinese": "刮；擦；勉強度過",
     "collocations": [
       {
@@ -25273,6 +26758,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -25282,7 +26770,7 @@ const LEVEL_6_DATA = [
     "word": "serial",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/sˈɪriəl/",
+    "kk": "/ˈsɪriəl/",
     "chinese": "連續的；系列的；連環",
     "collocations": [
       {
@@ -25325,6 +26813,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Typically featuring zombies and serial killers, horror movies are too frightening to be fun for some people.",
       "source": "114學測"
@@ -25334,7 +26825,7 @@ const LEVEL_6_DATA = [
     "word": "simplify",
     "pos": "v.",
     "chapter": "Mind and Emotion",
-    "kk": "/sˈɪmpləfˌaɪ/",
+    "kk": "/ˈsɪmpləˌfaɪ/",
     "chinese": "簡化；使簡單",
     "collocations": [
       {
@@ -25375,6 +26866,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -25384,7 +26878,7 @@ const LEVEL_6_DATA = [
     "word": "sloppy",
     "pos": "adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/slˈɑpi/",
+    "kk": "/ˈslɑpi/",
     "chinese": "馬虎的；邋遢的；情感過度的",
     "collocations": [
       {
@@ -25425,6 +26919,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -25434,7 +26931,7 @@ const LEVEL_6_DATA = [
     "word": "solitary",
     "pos": "adj./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/sˈɑlətˌɛri/",
+    "kk": "/ˈsɑləˌtɛri/",
     "chinese": "獨居的；孤獨的；單獨的",
     "collocations": [
       {
@@ -25477,6 +26974,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 0,
+      "ast_papers": 3,
+      "recent_papers": 3,
       "stars": 1,
       "example": "By analyzing sentence structure, word choice, and other linguistic patterns, Fitzgerald narrowed down the range of possible authors and finally linked the letter to the writings of Ted Kaczynski, a solitary former mathematician.",
       "source": "106指考"
@@ -25486,7 +26986,7 @@ const LEVEL_6_DATA = [
     "word": "soothe",
     "pos": "v.",
     "chapter": "Mind and Emotion",
-    "kk": "/sˈuð/",
+    "kk": "/ˈsuð/",
     "chinese": "安撫；使平靜；緩解",
     "collocations": [
       {
@@ -25529,6 +27029,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "What does the author use to support the idea that lullabies can have a soothing effect?",
       "source": "107學測"
@@ -25538,7 +27041,7 @@ const LEVEL_6_DATA = [
     "word": "sparrow",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/spˈɛroʊ/",
+    "kk": "/ˈspɛro/",
     "chinese": "麻雀；雀鳥",
     "collocations": [
       {
@@ -25579,6 +27082,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -25588,7 +27094,7 @@ const LEVEL_6_DATA = [
     "word": "stroll",
     "pos": "n./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/strˈoʊl/",
+    "kk": "/ˈstrol/",
     "chinese": "散步；閒逛；漫步",
     "collocations": [
       {
@@ -25629,6 +27135,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -25638,7 +27147,7 @@ const LEVEL_6_DATA = [
     "word": "subjective",
     "pos": "adj./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/səbdʒˈɛktɪv/",
+    "kk": "/səbˈdʒɛktɪv/",
     "chinese": "主觀的；個人的",
     "collocations": [
       {
@@ -25679,6 +27188,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -25688,7 +27200,7 @@ const LEVEL_6_DATA = [
     "word": "stride",
     "pos": "n./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/strˈaɪd/",
+    "kk": "/ˈstraɪd/",
     "chinese": "大步走；大步；跨越",
     "collocations": [
       {
@@ -25731,6 +27243,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "After being introduced, he strode confidently to the lectern and announced his topic: “Recent Advances in Medicine.”",
       "source": "94指考"
@@ -25740,7 +27255,7 @@ const LEVEL_6_DATA = [
     "word": "symmetry",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/sˈɪmətri/",
+    "kk": "/ˈsɪmətri/",
     "chinese": "對稱；對稱性；均衡",
     "collocations": [
       {
@@ -25781,6 +27296,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -25790,7 +27308,7 @@ const LEVEL_6_DATA = [
     "word": "superintendent",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/sˌupɚəntˈɛndənt/",
+    "kk": "/ˌsupɚənˈtɛndənt/",
     "chinese": "監督人；管理員；警察局長",
     "collocations": [
       {
@@ -25833,6 +27351,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -25842,7 +27363,7 @@ const LEVEL_6_DATA = [
     "word": "thermometer",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/θɚmˈɑmətɚ/",
+    "kk": "/θɚˈmɑmətɚ/",
     "chinese": "溫度計；體溫計",
     "collocations": [
       {
@@ -25884,6 +27405,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "In kitchens you will find measures for volume (measuring cups), mass (scales and weights), and temperature (cooking thermometers).",
       "source": "95指考"
@@ -25893,7 +27417,7 @@ const LEVEL_6_DATA = [
     "word": "tilt",
     "pos": "n./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/tˈɪlt/",
+    "kk": "/ˈtɪlt/",
     "chinese": "傾斜；傾倒；傾向",
     "collocations": [
       {
@@ -25934,6 +27458,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -25943,7 +27470,7 @@ const LEVEL_6_DATA = [
     "word": "unification",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/jˌunəfəkˈeɪʃən/",
+    "kk": "/ˌjunəfəˈkeʃən/",
     "chinese": "統一；統合；一體化",
     "collocations": [
       {
@@ -25986,6 +27513,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -25995,7 +27525,7 @@ const LEVEL_6_DATA = [
     "word": "trout",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/trˈaʊt/",
+    "kk": "/ˈtraʊt/",
     "chinese": "鱒魚",
     "collocations": [
       {
@@ -26035,6 +27565,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -26044,7 +27577,7 @@ const LEVEL_6_DATA = [
     "word": "tuck",
     "pos": "v./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/tˈahk/",
+    "kk": "/ˈtʌk/",
     "chinese": "塞入；折疊；小食",
     "collocations": [
       {
@@ -26087,6 +27620,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Fortune cookies, commonly served after meals at Chinese restaurants in the U.S., are characterized by a fortune, which is written on a small piece of paper tucked inside the cookie.",
       "source": "107學測"
@@ -26096,7 +27632,7 @@ const LEVEL_6_DATA = [
     "word": "veto",
     "pos": "n./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/vˈitoʊ/",
+    "kk": "/ˈvito/",
     "chinese": "否決權；否決；禁止",
     "collocations": [
       {
@@ -26139,6 +27675,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -26148,7 +27687,7 @@ const LEVEL_6_DATA = [
     "word": "vapor",
     "pos": "n.",
     "chapter": "Mind and Emotion",
-    "kk": "/vˈeɪpɚ/",
+    "kk": "/ˈvepɚ/",
     "chinese": "蒸氣；水蒸氣；氣體",
     "collocations": [
       {
@@ -26191,6 +27730,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -26200,7 +27742,7 @@ const LEVEL_6_DATA = [
     "word": "velvet",
     "pos": "n./adj.",
     "chapter": "Mind and Emotion",
-    "kk": "/vˈɛlvət/",
+    "kk": "/ˈvɛlvət/",
     "chinese": "絲絨；天鵝絨；柔軟光滑的",
     "collocations": [
       {
@@ -26243,6 +27785,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Named “Velcro,” from the French words velours (velvet) and crochet (hook), the new product received a patent from the Swiss government in 1955.",
       "source": "113學測"
@@ -26252,7 +27797,7 @@ const LEVEL_6_DATA = [
     "word": "waterproof",
     "pos": "adj./v.",
     "chapter": "Mind and Emotion",
-    "kk": "/wˈɔtɚprˌuf/",
+    "kk": "/ˈwɔtɚˌpruf/",
     "chinese": "防水的；防水材料；使防水",
     "collocations": [
       {
@@ -26292,6 +27837,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The wheelchair guests can transfer out of their chairs into unique, waterproof chairs and enjoy the splash park without risking damage to their personal wheelchairs.",
       "source": "110學測"
@@ -26301,7 +27849,7 @@ const LEVEL_6_DATA = [
     "word": "zoom",
     "pos": "v./n.",
     "chapter": "Mind and Emotion",
-    "kk": "/zˈum/",
+    "kk": "/ˈzum/",
     "chinese": "快速移動；變焦；激增",
     "collocations": [
       {
@@ -26344,6 +27892,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -26353,7 +27904,7 @@ const LEVEL_6_DATA = [
     "word": "statesman",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/stˈeɪtsmən/",
+    "kk": "/ˈstetsmən/",
     "chinese": "政治家；國務活動家",
     "collocations": [
       {
@@ -26394,6 +27945,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -26403,7 +27957,7 @@ const LEVEL_6_DATA = [
     "word": "accordance",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/əkˈɔrdəns/",
+    "kk": "/əˈkɔrdəns/",
     "chinese": "一致；符合；遵照",
     "collocations": [
       {
@@ -26444,6 +27998,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -26453,7 +28010,7 @@ const LEVEL_6_DATA = [
     "word": "adolescence",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/ˌædəlˈɛsəns/",
+    "kk": "/ˌædəˈlɛsəns/",
     "chinese": "青少年時期；青春期",
     "collocations": [
       {
@@ -26494,6 +28051,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The NFW developed the project more than a decade ago to address the self-esteem problems that many girls experience when they enter adolescence.",
       "source": "98指考"
@@ -26503,7 +28063,7 @@ const LEVEL_6_DATA = [
     "word": "analytical",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/ˌænəlˈɪtɪkəl/",
+    "kk": "/ˌænəˈlɪtɪkəl/",
     "chinese": "分析的；善於分析的",
     "collocations": [
       {
@@ -26544,6 +28104,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -26553,7 +28116,7 @@ const LEVEL_6_DATA = [
     "word": "anticipation",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/æntˌɪsəpˈeɪʃən/",
+    "kk": "/ænˌtɪsəˈpeʃən/",
     "chinese": "預期；期待；預測",
     "collocations": [
       {
@@ -26596,6 +28159,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -26605,7 +28171,7 @@ const LEVEL_6_DATA = [
     "word": "astronaut",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/ˈæstrənˌɑt/",
+    "kk": "/ˈæstrəˌnɑt/",
     "chinese": "太空人；宇航員",
     "collocations": [
       {
@@ -26646,6 +28212,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 19,
       "papers": 5,
+      "gsat_papers": 5,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 2,
       "example": "In the early 1960s, the product received a huge boost in popularity when NASA began using it in a lot of equipment that went into space along with astronauts.",
       "source": "113學測"
@@ -26655,7 +28224,7 @@ const LEVEL_6_DATA = [
     "word": "bachelor",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/bˈætʃəlɚ/",
+    "kk": "/ˈbætʃəlɚ/",
     "chinese": "學士；單身漢",
     "collocations": [
       {
@@ -26698,6 +28267,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "For most of history, even a bachelor’s degree at a university was the privilege of a rich few, and many academic staff did not hold doctorates.",
       "source": "100指考"
@@ -26707,7 +28279,7 @@ const LEVEL_6_DATA = [
     "word": "awhile",
     "pos": "adv.",
     "chapter": "Time and Change",
-    "kk": "/əwˈaɪl/",
+    "kk": "/əˈwaɪl/",
     "chinese": "一會兒；片刻",
     "collocations": [
       {
@@ -26748,6 +28320,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -26757,7 +28332,7 @@ const LEVEL_6_DATA = [
     "word": "bodily",
     "pos": "adj./adv.",
     "chapter": "Time and Change",
-    "kk": "/bˈɑdəli/",
+    "kk": "/ˈbɑdəli/",
     "chinese": "身體的；肉體的；整個地",
     "collocations": [
       {
@@ -26800,6 +28375,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The mind and body work together to produce stress, which is a bodily response to a stimulus, a response that disturbs the body’s normal physiological balance.",
       "source": "95學測"
@@ -26809,7 +28387,7 @@ const LEVEL_6_DATA = [
     "word": "broaden",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/brˈɔdən/",
+    "kk": "/ˈbrɔdən/",
     "chinese": "拓寬；擴大；加寬",
     "collocations": [
       {
@@ -26850,6 +28428,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -26859,7 +28440,7 @@ const LEVEL_6_DATA = [
     "word": "breadth",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/brˈɛdθ/",
+    "kk": "/ˈbrɛdθ/",
     "chinese": "寬度；廣度；廣博",
     "collocations": [
       {
@@ -26900,6 +28481,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The exhibition offers viewers an opportunity to experience and appreciate the breadth of his remarkable artistic achievement.",
       "source": "106學測"
@@ -26909,7 +28493,7 @@ const LEVEL_6_DATA = [
     "word": "carefree",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/kˈɛrfrˌi/",
+    "kk": "/ˈkɛrˌfri/",
     "chinese": "無憂無慮的；輕鬆自在的",
     "collocations": [
       {
@@ -26950,6 +28534,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -26959,7 +28546,7 @@ const LEVEL_6_DATA = [
     "word": "cashier",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/kæʃˈɪr/",
+    "kk": "/kæˈʃɪr/",
     "chinese": "收銀員；出納；解除職務",
     "collocations": [
       {
@@ -27000,6 +28587,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27009,7 +28599,7 @@ const LEVEL_6_DATA = [
     "word": "champagne",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/ʃæmpˈeɪn/",
+    "kk": "/ʃæmˈpen/",
     "chinese": "香檳；香檳酒",
     "collocations": [
       {
@@ -27049,6 +28639,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "He granted “freedom of pleasure” to all citizens, as he reasoned that people who were focused on champagne and fine food probably would not conspire against him.",
       "source": "110指考"
@@ -27058,7 +28651,7 @@ const LEVEL_6_DATA = [
     "word": "cholesterol",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/kəlˈɛstɚˌɔl/",
+    "kk": "/kəˈlɛstəˌrɔl/",
     "chinese": "膽固醇",
     "collocations": [
       {
@@ -27098,6 +28691,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The differences could not be explained by any of the usual risk factors for heart disease, such as smoking, high blood pressure, or cholesterol counts.",
       "source": "103指考"
@@ -27107,7 +28703,7 @@ const LEVEL_6_DATA = [
     "word": "communicative",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/kəmjˈunəkətɪv/",
+    "kk": "/kəˈmjunəkətɪv/",
     "chinese": "愛溝通的；有溝通能力的；傳達信息的",
     "collocations": [
       {
@@ -27150,6 +28746,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27159,7 +28758,7 @@ const LEVEL_6_DATA = [
     "word": "complexion",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/kəmpˈɛkʃən/",
+    "kk": "/kəmˈplɛkʃən/",
     "chinese": "膚色；臉色；局面",
     "collocations": [
       {
@@ -27202,6 +28801,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27211,7 +28813,7 @@ const LEVEL_6_DATA = [
     "word": "conquest",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/kˈɑŋkwɛst/",
+    "kk": "/ˈkɑŋkwɛst/",
     "chinese": "征服；攻克；佔領",
     "collocations": [
       {
@@ -27254,6 +28856,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27263,7 +28868,7 @@ const LEVEL_6_DATA = [
     "word": "consolation",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/kˌɑnsəlˈeɪʃən/",
+    "kk": "/ˌkɑnsəˈleʃən/",
     "chinese": "安慰；慰藉；安慰物",
     "collocations": [
       {
@@ -27304,6 +28909,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27313,7 +28921,7 @@ const LEVEL_6_DATA = [
     "word": "cosmetic",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/kɑzmˈɛtɪk/",
+    "kk": "/kɑzˈmɛtɪk/",
     "chinese": "化妝品；表面的；美容的",
     "collocations": [
       {
@@ -27356,6 +28964,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27365,7 +28976,7 @@ const LEVEL_6_DATA = [
     "word": "deafen",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/dˈɛfən/",
+    "kk": "/ˈdɛfən/",
     "chinese": "使耳聾；使聽不見",
     "collocations": [
       {
@@ -27406,6 +29017,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27415,7 +29029,7 @@ const LEVEL_6_DATA = [
     "word": "dedication",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/dˌɛdəkˈeɪʃən/",
+    "kk": "/ˌdɛdəˈkeʃən/",
     "chinese": "奉獻；致力；題獻詞",
     "collocations": [
       {
@@ -27458,6 +29072,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27467,7 +29084,7 @@ const LEVEL_6_DATA = [
     "word": "defiance",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/dɪfˈaɪəns/",
+    "kk": "/dɪˈfaɪəns/",
     "chinese": "違抗；反抗；蔑視",
     "collocations": [
       {
@@ -27508,6 +29125,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27517,7 +29137,7 @@ const LEVEL_6_DATA = [
     "word": "dictatorship",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/dɪktˈeɪtɚʃˌɪp/",
+    "kk": "/dɪkˈtetɚˌʃɪp/",
     "chinese": "獨裁政治；獨裁制度",
     "collocations": [
       {
@@ -27558,6 +29178,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27567,7 +29190,7 @@ const LEVEL_6_DATA = [
     "word": "deplete",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/dɪplˈit/",
+    "kk": "/dɪˈplit/",
     "chinese": "耗盡；使減少；耗竭",
     "collocations": [
       {
@@ -27608,6 +29231,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27617,7 +29243,7 @@ const LEVEL_6_DATA = [
     "word": "dismay",
     "pos": "n./v.",
     "chapter": "Time and Change",
-    "kk": "/dɪsmˈeɪ/",
+    "kk": "/dɪsˈme/",
     "chinese": "沮喪；驚愕；使沮喪",
     "collocations": [
       {
@@ -27658,6 +29284,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27667,7 +29296,7 @@ const LEVEL_6_DATA = [
     "word": "discard",
     "pos": "v./n.",
     "chapter": "Time and Change",
-    "kk": "/dɪskˈɑrd/",
+    "kk": "/dɪsˈkɑrd/",
     "chinese": "丟棄；拋棄；放棄",
     "collocations": [
       {
@@ -27708,6 +29337,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 4,
+      "gsat_papers": 2,
+      "ast_papers": 2,
+      "recent_papers": 4,
       "stars": 2,
       "example": "But even more serious is their environmental impact: Millions of plastic discards end up in landfills or the ocean, releasing chemicals and at the same time taking centuries to decompose.",
       "source": "109學測"
@@ -27717,7 +29349,7 @@ const LEVEL_6_DATA = [
     "word": "eccentric",
     "pos": "adj./n.",
     "chapter": "Time and Change",
-    "kk": "/ɪksˈɛntrɪk/",
+    "kk": "/ɪkˈsɛntrɪk/",
     "chinese": "古怪的；行為不尋常的；怪人",
     "collocations": [
       {
@@ -27758,6 +29390,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 11,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Type ABs are artistic but mysterious and unpredictable, and type Bs are cheerful but eccentric, individualistic, and selfish.",
       "source": "105學測"
@@ -27767,7 +29402,7 @@ const LEVEL_6_DATA = [
     "word": "draught",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/drˈæft/",
+    "kk": "/ˈdræft/",
     "chinese": "通風；穿堂風；（桶裝）生啤酒；一口（飲料）",
     "collocations": [
       {
@@ -27810,6 +29445,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27819,7 +29457,7 @@ const LEVEL_6_DATA = [
     "word": "endowment",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/ɛndˈaʊmənt/",
+    "kk": "/ɛnˈdaʊmənt/",
     "chinese": "捐贈基金；天賦；稟賦",
     "collocations": [
       {
@@ -27862,6 +29500,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27871,7 +29512,7 @@ const LEVEL_6_DATA = [
     "word": "emigration",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/ˌɛməɡrˈeɪʃən/",
+    "kk": "/ˌɛməˈgreʃən/",
     "chinese": "移民（移出）；外移",
     "collocations": [
       {
@@ -27912,6 +29553,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27921,7 +29565,7 @@ const LEVEL_6_DATA = [
     "word": "exert",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/ɪɡzˈɝt/",
+    "kk": "/ɪgˈzɝt/",
     "chinese": "施加；發揮；盡力",
     "collocations": [
       {
@@ -27964,6 +29608,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -27973,7 +29620,7 @@ const LEVEL_6_DATA = [
     "word": "excel",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/ɪksˈɛl/",
+    "kk": "/ɪkˈsɛl/",
     "chinese": "擅長；出色；超越",
     "collocations": [
       {
@@ -28014,6 +29661,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "A man of multiple talents, Homer excelled equally in the arts of illustration, oil painting, and watercolor.",
       "source": "106學測"
@@ -28023,7 +29673,7 @@ const LEVEL_6_DATA = [
     "word": "falter",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/fˈɔltɚ/",
+    "kk": "/ˈfɔltɚ/",
     "chinese": "猶豫；蹣跚；說話結巴",
     "collocations": [
       {
@@ -28066,6 +29716,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28075,7 +29728,7 @@ const LEVEL_6_DATA = [
     "word": "fascination",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/fˌæsənˈeɪʃən/",
+    "kk": "/ˌfæsəˈneʃən/",
     "chinese": "著迷；魅力；令人著迷的事物",
     "collocations": [
       {
@@ -28116,6 +29769,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "I: Your brothers are a national source of fascination.",
       "source": "103學測"
@@ -28125,7 +29781,7 @@ const LEVEL_6_DATA = [
     "word": "formidable",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/fˈɔrmədəbəl/",
+    "kk": "/ˈfɔrmədəbəl/",
     "chinese": "令人生畏的；強大的；難以應付的",
     "collocations": [
       {
@@ -28168,6 +29824,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28177,7 +29836,7 @@ const LEVEL_6_DATA = [
     "word": "glamorous",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/ɡlˈæmɚəs/",
+    "kk": "/ˈglæmɚəs/",
     "chinese": "迷人的；魅力四射的；光鮮亮麗的",
     "collocations": [
       {
@@ -28220,6 +29879,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -28229,7 +29891,7 @@ const LEVEL_6_DATA = [
     "word": "fuse",
     "pos": "n./v.",
     "chapter": "Time and Change",
-    "kk": "/fjˈuz/",
+    "kk": "/ˈfjuz/",
     "chinese": "保險絲；引信；融合；導火線",
     "collocations": [
       {
@@ -28272,6 +29934,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28281,7 +29946,7 @@ const LEVEL_6_DATA = [
     "word": "garment",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/ɡˈɑrmənt/",
+    "kk": "/ˈgɑrmənt/",
     "chinese": "衣服；服裝",
     "collocations": [
       {
@@ -28322,6 +29987,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Garment color also plays a role, though in a different way.",
       "source": "100學測"
@@ -28331,7 +29999,7 @@ const LEVEL_6_DATA = [
     "word": "harden",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/hˈɑrdən/",
+    "kk": "/ˈhɑrdən/",
     "chinese": "使硬化；使堅強；使冷漠",
     "collocations": [
       {
@@ -28374,6 +30042,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28383,7 +30054,7 @@ const LEVEL_6_DATA = [
     "word": "heroic",
     "pos": "adj./n.",
     "chapter": "Time and Change",
-    "kk": "/hɪrˈoʊɪk/",
+    "kk": "/hɪˈroɪk/",
     "chinese": "英雄的；英勇的；宏大的",
     "collocations": [
       {
@@ -28424,6 +30095,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28433,7 +30107,7 @@ const LEVEL_6_DATA = [
     "word": "hedge",
     "pos": "n./v.",
     "chapter": "Time and Change",
-    "kk": "/hˈɛdʒ/",
+    "kk": "/ˈhɛdʒ/",
     "chinese": "樹籬；對沖；迴避；保護",
     "collocations": [
       {
@@ -28476,6 +30150,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28485,7 +30162,7 @@ const LEVEL_6_DATA = [
     "word": "iceberg",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/ˈaɪsbɚɡ/",
+    "kk": "/ˈaɪsˌbɝg/",
     "chinese": "冰山",
     "collocations": [
       {
@@ -28525,6 +30202,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28534,7 +30214,7 @@ const LEVEL_6_DATA = [
     "word": "hurdle",
     "pos": "n./v.",
     "chapter": "Time and Change",
-    "kk": "/hˈɝdəl/",
+    "kk": "/ˈhɝdəl/",
     "chinese": "障礙；跨欄；克服",
     "collocations": [
       {
@@ -28577,6 +30257,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Despite the economic and environmental hurdles, desalination is becoming increasingly attractive as human beings are using up fresh water from other sources.",
       "source": "107學測"
@@ -28586,7 +30269,7 @@ const LEVEL_6_DATA = [
     "word": "induce",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/ɪndˈus/",
+    "kk": "/ɪnˈdus/",
     "chinese": "誘導；引起；勸誘",
     "collocations": [
       {
@@ -28625,8 +30308,11 @@ const LEVEL_6_DATA = [
     "word_family": "induce (v.) · induced · induction (n.)",
     "antonym": null,
     "exam": {
-      "count": 4,
-      "papers": 3,
+      "count": 2,
+      "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 2,
       "stars": 1,
       "example": null,
       "source": null
@@ -28636,7 +30322,7 @@ const LEVEL_6_DATA = [
     "word": "interpreter",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/ɪntˈɝprətɚ/",
+    "kk": "/ɪnˈtɝprətɚ/",
     "chinese": "口譯員；解讀者；詮釋者",
     "collocations": [
       {
@@ -28676,6 +30362,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "These interpreters often portray a character that would have lived and worked during that time period.",
       "source": "105指考"
@@ -28685,7 +30374,7 @@ const LEVEL_6_DATA = [
     "word": "intrigue",
     "pos": "n./v.",
     "chapter": "Time and Change",
-    "kk": "/ɪntrˈiɡ/",
+    "kk": "/ɪnˈtrig/",
     "chinese": "陰謀；使興趣盎然；迷住",
     "collocations": [
       {
@@ -28728,6 +30417,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The ancient Greek word for curls and locks is related to intriguing and tempting someone.",
       "source": "98指考"
@@ -28737,7 +30429,7 @@ const LEVEL_6_DATA = [
     "word": "jolly",
     "pos": "adj./adv./v./n.",
     "chapter": "Time and Change",
-    "kk": "/dʒˈɑli/",
+    "kk": "/ˈdʒɑli/",
     "chinese": "歡快的；快活的；相當",
     "collocations": [
       {
@@ -28778,6 +30470,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28787,7 +30482,7 @@ const LEVEL_6_DATA = [
     "word": "legislator",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/lˈɛdʒəslˌeɪtɚ/",
+    "kk": "/ˈlɛdʒəˌsletɚ/",
     "chinese": "立法者；立法委員",
     "collocations": [
       {
@@ -28828,6 +30523,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -28837,7 +30535,7 @@ const LEVEL_6_DATA = [
     "word": "landlady",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/lˈændlˌeɪdi/",
+    "kk": "/ˈlændˌledi/",
     "chinese": "女房東；女旅館老闆",
     "collocations": [
       {
@@ -28877,6 +30575,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28886,7 +30587,7 @@ const LEVEL_6_DATA = [
     "word": "lizard",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/lˈɪzɚd/",
+    "kk": "/ˈlɪzɚd/",
     "chinese": "蜥蜴",
     "collocations": [
       {
@@ -28927,6 +30628,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Most of them are, however, limited to the sort a lizard is capable of, like regrowing a lost tail.",
       "source": "106指考"
@@ -28936,7 +30640,7 @@ const LEVEL_6_DATA = [
     "word": "logo",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/lˈoʊɡoʊ/",
+    "kk": "/ˈlogo/",
     "chinese": "標誌；商標；標識",
     "collocations": [
       {
@@ -28977,6 +30681,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -28986,7 +30693,7 @@ const LEVEL_6_DATA = [
     "word": "literacy",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/lˈɪtɚəsi/",
+    "kk": "/ˈlɪtɚəsi/",
     "chinese": "識字能力；讀寫能力；文化素養",
     "collocations": [
       {
@@ -29029,6 +30736,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 3,
+      "gsat_papers": 0,
+      "ast_papers": 3,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The graphic novel can be used to develop a sense of visual literacy, in much the same way that students are introduced to art appreciation.",
       "source": "100指考"
@@ -29038,7 +30748,7 @@ const LEVEL_6_DATA = [
     "word": "mentality",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/mɛntˈæləti/",
+    "kk": "/mɛnˈtæləti/",
     "chinese": "心態；思維方式；精神狀態",
     "collocations": [
       {
@@ -29079,6 +30789,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -29088,7 +30801,7 @@ const LEVEL_6_DATA = [
     "word": "miscellaneous",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/mˌɪsəlˈeɪniəs/",
+    "kk": "/ˌmɪsəˈleniəs/",
     "chinese": "各式各樣的；雜項的；雜七雜八的",
     "collocations": [
       {
@@ -29129,6 +30842,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -29138,7 +30854,7 @@ const LEVEL_6_DATA = [
     "word": "mobilize",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/mˈoʊbəlˌaɪz/",
+    "kk": "/ˈmobəˌlaɪz/",
     "chinese": "動員；調動；使活躍",
     "collocations": [
       {
@@ -29179,6 +30895,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -29188,7 +30907,7 @@ const LEVEL_6_DATA = [
     "word": "mourn",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/mˈɔrn/",
+    "kk": "/ˈmɔrn/",
     "chinese": "哀悼；悲嘆；服喪",
     "collocations": [
       {
@@ -29229,6 +30948,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Concert reviews from the period mourned the fact that the armonica sounded wonderful—only when it could be heard.",
       "source": "110學測"
@@ -29238,7 +30960,7 @@ const LEVEL_6_DATA = [
     "word": "nearsighted",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/nˈirsˌaɪtɪd/",
+    "kk": "/ˈnɪrˈsaɪtɪd/",
     "chinese": "近視的；目光短淺的",
     "collocations": [
       {
@@ -29280,6 +31002,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -29289,7 +31014,7 @@ const LEVEL_6_DATA = [
     "word": "nourish(ment)",
     "pos": "v./n.",
     "chapter": "Time and Change",
-    "kk": "/nˈɝɪʃ/",
+    "kk": "/ˈnɝɪʃ/",
     "chinese": "滋養；哺育；培育（滋養行為）",
     "collocations": [
       {
@@ -29330,6 +31055,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "These sprouts grow slowly, nourished by the root system of the “mother” tree.",
       "source": "100學測"
@@ -29339,7 +31067,7 @@ const LEVEL_6_DATA = [
     "word": "nurture",
     "pos": "v./n.",
     "chapter": "Time and Change",
-    "kk": "/nˈɝtʃɚ/",
+    "kk": "/ˈnɝtʃɚ/",
     "chinese": "培育；養育；滋養",
     "collocations": [
       {
@@ -29382,6 +31110,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "The best birds to catch are the ones with naturally nurtured hunting skills, aged one or two years.",
       "source": "110指考"
@@ -29434,6 +31165,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The first is its geometry, which consists of an outer frame and a central part from which threads radiate outward.",
       "source": "100指考"
@@ -29443,7 +31177,7 @@ const LEVEL_6_DATA = [
     "word": "overlap",
     "pos": "n./v.",
     "chapter": "Time and Change",
-    "kk": "/ˈoʊvɚlˌæp/",
+    "kk": "/ˈovɚˌlæp/",
     "chinese": "重疊；交叉；部分相同",
     "collocations": [
       {
@@ -29486,6 +31220,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The overlapping layers in front are called “aprons.”",
       "source": "101學測"
@@ -29495,7 +31232,7 @@ const LEVEL_6_DATA = [
     "word": "perch",
     "pos": "n./v.",
     "chapter": "Time and Change",
-    "kk": "/pˈɝtʃ/",
+    "kk": "/ˈpɝtʃ/",
     "chinese": "棲息；佔據高位；棲木；鱸魚",
     "collocations": [
       {
@@ -29538,6 +31275,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -29547,7 +31287,7 @@ const LEVEL_6_DATA = [
     "word": "peek",
     "pos": "n./v.",
     "chapter": "Time and Change",
-    "kk": "/pˈik/",
+    "kk": "/ˈpik/",
     "chinese": "偷看；窺視；一瞥",
     "collocations": [
       {
@@ -29590,6 +31330,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -29599,7 +31342,7 @@ const LEVEL_6_DATA = [
     "word": "polar",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/pˈoʊlɚ/",
+    "kk": "/ˈpolɚ/",
     "chinese": "極地的；兩極的；截然相反的",
     "collocations": [
       {
@@ -29642,6 +31385,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 5,
+      "gsat_papers": 2,
+      "ast_papers": 3,
+      "recent_papers": 2,
       "stars": 2,
       "example": "In March 2022, the Endurance—the lost vessel of the famed polar explorer Ernest Shackleton—was found in Antarctica, 107 years after it sank.",
       "source": "115學測"
@@ -29651,7 +31397,7 @@ const LEVEL_6_DATA = [
     "word": "populate",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/pˈɑpjəlˌeɪt/",
+    "kk": "/ˈpɑpjəˌlet/",
     "chinese": "居住於；使有人居住；填充",
     "collocations": [
       {
@@ -29694,6 +31440,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 2,
+      "ast_papers": 2,
+      "recent_papers": 4,
       "stars": 2,
       "example": "This restaurant got its name from the pineapple farms that once populated the area.",
       "source": "115學測"
@@ -29703,7 +31452,7 @@ const LEVEL_6_DATA = [
     "word": "premiere",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/prɛmˈɪr/",
+    "kk": "/prɛˈmɪr/",
     "chinese": "首演；首映；首次亮相",
     "collocations": [
       {
@@ -29746,6 +31495,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -29755,7 +31507,7 @@ const LEVEL_6_DATA = [
     "word": "precede",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/prɪsˈid/",
+    "kk": "/prɪˈsid/",
     "chinese": "在…之前；先於",
     "collocations": [
       {
@@ -29796,6 +31548,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -29805,7 +31560,7 @@ const LEVEL_6_DATA = [
     "word": "provisional",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/prəvˈɪʒənəl/",
+    "kk": "/prəˈvɪʒənəl/",
     "chinese": "臨時的；暫定的；暫行的",
     "collocations": [
       {
@@ -29846,6 +31601,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -29855,7 +31613,7 @@ const LEVEL_6_DATA = [
     "word": "prosecute",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/prˈɑsəkjˌut/",
+    "kk": "/ˈprɑsəˌkjut/",
     "chinese": "起訴；檢控；從事",
     "collocations": [
       {
@@ -29896,6 +31654,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -29905,7 +31666,7 @@ const LEVEL_6_DATA = [
     "word": "redundancy",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/rɪdˈahndənsi/",
+    "kk": "/rɪˈdʌndənsi/",
     "chinese": "冗餘；多餘；裁員",
     "collocations": [
       {
@@ -29948,6 +31709,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -29957,7 +31721,7 @@ const LEVEL_6_DATA = [
     "word": "refute",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/rɪfjˈut/",
+    "kk": "/rɪˈfjut/",
     "chinese": "駁斥；反駁；否定",
     "collocations": [
       {
@@ -29998,6 +31762,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30007,7 +31774,7 @@ const LEVEL_6_DATA = [
     "word": "reign",
     "pos": "n./v.",
     "chapter": "Time and Change",
-    "kk": "/rˈeɪn/",
+    "kk": "/ˈren/",
     "chinese": "統治；在位；盛行",
     "collocations": [
       {
@@ -30050,6 +31817,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -30059,7 +31829,7 @@ const LEVEL_6_DATA = [
     "word": "restraint",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/rɪstrˈeɪnt/",
+    "kk": "/rɪˈstrent/",
     "chinese": "克制；限制；約束",
     "collocations": [
       {
@@ -30100,6 +31870,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30109,7 +31882,7 @@ const LEVEL_6_DATA = [
     "word": "rubbish",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/rˈahbɪʃ/",
+    "kk": "/ˈrʌbɪʃ/",
     "chinese": "垃圾；廢話；無稽之談",
     "collocations": [
       {
@@ -30152,6 +31925,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -30161,7 +31937,7 @@ const LEVEL_6_DATA = [
     "word": "rigorous",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/rˈɪɡɚəs/",
+    "kk": "/ˈrɪgɚəs/",
     "chinese": "嚴格的；嚴謹的；嚴苛的",
     "collocations": [
       {
@@ -30202,6 +31978,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30211,7 +31990,7 @@ const LEVEL_6_DATA = [
     "word": "savage",
     "pos": "adj./n./v.",
     "chapter": "Time and Change",
-    "kk": "/sˈævədʒ/",
+    "kk": "/ˈsævədʒ/",
     "chinese": "野蠻的；殘暴的；猛烈的；野人",
     "collocations": [
       {
@@ -30254,6 +32033,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30263,7 +32045,7 @@ const LEVEL_6_DATA = [
     "word": "sermon",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/sˈɝmən/",
+    "kk": "/ˈsɝmən/",
     "chinese": "佈道；講道；說教",
     "collocations": [
       {
@@ -30306,6 +32088,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30315,7 +32100,7 @@ const LEVEL_6_DATA = [
     "word": "simultaneous",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/sˌaɪməltˈeɪniəs/",
+    "kk": "/ˌsaɪməlˈteniəs/",
     "chinese": "同時的；同時發生的",
     "collocations": [
       {
@@ -30356,6 +32141,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30365,7 +32153,7 @@ const LEVEL_6_DATA = [
     "word": "solitude",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/sˈɑlətˌud/",
+    "kk": "/ˈsɑləˌtud/",
     "chinese": "孤獨；獨處；與世隔絕",
     "collocations": [
       {
@@ -30406,6 +32194,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30415,7 +32206,7 @@ const LEVEL_6_DATA = [
     "word": "sociable",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/sˈoʊʃəbəl/",
+    "kk": "/ˈsoʃəbəl/",
     "chinese": "善於交際的；合群的",
     "collocations": [
       {
@@ -30456,6 +32247,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -30465,7 +32259,7 @@ const LEVEL_6_DATA = [
     "word": "succession",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/səksˈɛʃən/",
+    "kk": "/səkˈsɛʃən/",
     "chinese": "繼承；連續；接班",
     "collocations": [
       {
@@ -30508,6 +32302,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30517,7 +32314,7 @@ const LEVEL_6_DATA = [
     "word": "suitcase",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/sˈutkˌeɪs/",
+    "kk": "/ˈsutˌkes/",
     "chinese": "手提箱；旅行箱",
     "collocations": [
       {
@@ -30558,6 +32355,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -30567,7 +32367,7 @@ const LEVEL_6_DATA = [
     "word": "suspension",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/səspˈɛnʃən/",
+    "kk": "/səˈspɛnʃən/",
     "chinese": "暫停；停職；懸掛；懸浮",
     "collocations": [
       {
@@ -30610,6 +32410,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The Hard Boiled Hat was thus born, using steamed canvas and leather, covered with black paint, and featuring a suspension system to reduce impact.",
       "source": "111學測"
@@ -30619,7 +32422,7 @@ const LEVEL_6_DATA = [
     "word": "tentative",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/tˈɛntətɪv/",
+    "kk": "/ˈtɛntətɪv/",
     "chinese": "暫定的；試探性的；猶豫的",
     "collocations": [
       {
@@ -30662,6 +32465,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -30671,7 +32477,7 @@ const LEVEL_6_DATA = [
     "word": "tornado",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/tɔrnˈeɪdˌoʊ/",
+    "kk": "/tɔrˈneˌdo/",
     "chinese": "龍捲風",
     "collocations": [
       {
@@ -30712,6 +32518,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -30721,7 +32530,7 @@ const LEVEL_6_DATA = [
     "word": "turmoil",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/tˈɝmˌɔɪl/",
+    "kk": "/ˈtɝˌmɔɪl/",
     "chinese": "混亂；動盪；騷動",
     "collocations": [
       {
@@ -30764,6 +32573,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30773,7 +32585,7 @@ const LEVEL_6_DATA = [
     "word": "unconditional",
     "pos": "adj.",
     "chapter": "Time and Change",
-    "kk": "/ˌahnkəndˈɪʃənəl/",
+    "kk": "/ˌʌnkənˈdɪʃənəl/",
     "chinese": "無條件的；絕對的",
     "collocations": [
       {
@@ -30814,6 +32626,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30823,7 +32638,7 @@ const LEVEL_6_DATA = [
     "word": "underway",
     "pos": "adv.",
     "chapter": "Time and Change",
-    "kk": "/ˌahndɚwˈeɪ/",
+    "kk": "/ˌʌndɚˈwe/",
     "chinese": "進行中的；已開始的",
     "collocations": [
       {
@@ -30864,6 +32679,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30873,7 +32691,7 @@ const LEVEL_6_DATA = [
     "word": "vitality",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/vaɪtˈæləti/",
+    "kk": "/vaɪˈtæləti/",
     "chinese": "活力；生命力；生機",
     "collocations": [
       {
@@ -30914,6 +32732,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "To this day hair has kept its importance as a symbol of power, youth, vitality and health.",
       "source": "98指考"
@@ -30923,7 +32744,7 @@ const LEVEL_6_DATA = [
     "word": "vigor",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/vˈɪɡɚ/",
+    "kk": "/ˈvɪgɚ/",
     "chinese": "活力；精力；強勁",
     "collocations": [
       {
@@ -30966,6 +32787,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -30975,7 +32799,7 @@ const LEVEL_6_DATA = [
     "word": "walnut",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/wˈɔlnˌaht/",
+    "kk": "/ˈwɔlˌnʌt/",
     "chinese": "核桃；胡桃木",
     "collocations": [
       {
@@ -31017,6 +32841,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -31026,7 +32853,7 @@ const LEVEL_6_DATA = [
     "word": "weary",
     "pos": "adj./v.",
     "chapter": "Time and Change",
-    "kk": "/wˈɪri/",
+    "kk": "/ˈwɪri/",
     "chinese": "疲倦的；厭倦的；令人疲倦的",
     "collocations": [
       {
@@ -31069,6 +32896,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": null,
       "source": null
@@ -31078,7 +32908,7 @@ const LEVEL_6_DATA = [
     "word": "wrestle",
     "pos": "v./n.",
     "chapter": "Time and Change",
-    "kk": "/rˈɛsəl/",
+    "kk": "/ˈrɛsəl/",
     "chinese": "摔跤；搏鬥；努力對付",
     "collocations": [
       {
@@ -31121,6 +32951,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -31130,7 +32963,7 @@ const LEVEL_6_DATA = [
     "word": "glacier",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/ɡlˈeɪʃɚ/",
+    "kk": "/ˈgleʃɚ/",
     "chinese": "冰河；冰川",
     "collocations": [
       {
@@ -31172,9 +33005,12 @@ const LEVEL_6_DATA = [
     "word_family": "glacial · glaciation (n.) · glacier (n.)",
     "antonym": null,
     "exam": {
-      "count": 19,
-      "papers": 4,
-      "stars": 2,
+      "count": 16,
+      "papers": 3,
+      "gsat_papers": 3,
+      "ast_papers": 0,
+      "recent_papers": 1,
+      "stars": 1,
       "example": "And this is certainly a serious warning about the depressing fate of other glaciers around the world.",
       "source": "110學測"
     }
@@ -31183,7 +33019,7 @@ const LEVEL_6_DATA = [
     "word": "industrialize",
     "pos": "v.",
     "chapter": "Time and Change",
-    "kk": "/ɪndˈahstriəlˌaɪz/",
+    "kk": "/ɪnˈdʌstriəˌlaɪz/",
     "chinese": "工業化；使工業化",
     "collocations": [
       {
@@ -31228,6 +33064,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "In recent years, a craze for height has hit hard in industrializing Asian countries like Taiwan, Hong Kong and China, which boast seven of the world’s 10 tallest buildings.",
       "source": "94指考"
@@ -31237,7 +33076,7 @@ const LEVEL_6_DATA = [
     "word": "modernization",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/mˌɑdɚnəzˈeɪʃən/",
+    "kk": "/ˌmɑdɚnəˈzeʃən/",
     "chinese": "現代化；現代化過程",
     "collocations": [
       {
@@ -31282,6 +33121,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "In spite of modernization and the increasing role of women in all walks of life, the practice of the dowry in India is still widespread.",
       "source": "98指考"
@@ -31291,7 +33133,7 @@ const LEVEL_6_DATA = [
     "word": "dwelling",
     "pos": "n.",
     "chapter": "Time and Change",
-    "kk": "/dwˈɛlɪŋ/",
+    "kk": "/ˈdwɛlɪŋ/",
     "chinese": "住所；住處；居所",
     "collocations": [
       {
@@ -31334,18 +33176,21 @@ const LEVEL_6_DATA = [
     "word_family": "city-dweller · dwell (v.) · dweller · dwelling (n.)",
     "antonym": null,
     "exam": {
-      "count": 2,
-      "papers": 2,
+      "count": 1,
+      "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
-      "example": "Palm civets are tree-dwelling, raccoon-like little animals, native to Southeast Asia and the Indonesian islands.",
-      "source": "99指考"
+      "example": "Public dwellings lined its ground level; a marketplace and two mosques also fit comfortably inside.",
+      "source": "94學測"
     }
   },
   {
     "word": "pilgrim",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/pˈɪlɡrəm/",
+    "kk": "/ˈpɪlgrəm/",
     "chinese": "朝聖者；香客；早期移民",
     "collocations": [
       {
@@ -31388,6 +33233,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -31397,7 +33245,7 @@ const LEVEL_6_DATA = [
     "word": "smuggle",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/smˈahɡəl/",
+    "kk": "/ˈsmʌgəl/",
     "chinese": "走私；偷運",
     "collocations": [
       {
@@ -31438,6 +33286,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Diamonds mined in some rebel-held areas, such as Liberia, are being smuggled into neighboring countries and exported as conflict-free diamonds.",
       "source": "96指考"
@@ -31447,7 +33298,7 @@ const LEVEL_6_DATA = [
     "word": "emigrate",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/ˈɛməɡrˌeɪt/",
+    "kk": "/ˈɛməˌgret/",
     "chinese": "移居國外；移民（移出）",
     "collocations": [
       {
@@ -31488,6 +33339,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "He emigrated to America in 1830 to escape political discrimination.",
       "source": "103指考"
@@ -31497,7 +33351,7 @@ const LEVEL_6_DATA = [
     "word": "stationary",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/stˈeɪʃənˌɛri/",
+    "kk": "/ˈsteʃəˌnɛri/",
     "chinese": "靜止的；不動的；固定的",
     "collocations": [
       {
@@ -31538,6 +33392,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": null,
       "source": null
@@ -31547,7 +33404,7 @@ const LEVEL_6_DATA = [
     "word": "accordingly",
     "pos": "adv.",
     "chapter": "Space and Movement",
-    "kk": "/əkˈɔrdɪŋli/",
+    "kk": "/əˈkɔrdɪŋli/",
     "chinese": "因此；相應地",
     "collocations": [
       {
@@ -31592,6 +33449,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 6,
+      "gsat_papers": 3,
+      "ast_papers": 3,
+      "recent_papers": 2,
       "stars": 2,
       "example": "But as higher education expanded after the Second World War, the number of PhDs increased accordingly.",
       "source": "100指考"
@@ -31601,7 +33461,7 @@ const LEVEL_6_DATA = [
     "word": "abstraction",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/æbstrˈækʃən/",
+    "kk": "/æbˈstrækʃən/",
     "chinese": "抽象；抽象概念",
     "collocations": [
       {
@@ -31646,6 +33506,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -31655,7 +33518,7 @@ const LEVEL_6_DATA = [
     "word": "affectionate",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/əfˈɛkʃənət/",
+    "kk": "/əˈfɛkʃənət/",
     "chinese": "溫柔的；深情的",
     "collocations": [
       {
@@ -31700,6 +33563,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -31757,6 +33623,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The task of bringing the ship into the harbor and anchoring it is taken up by a different captain.",
       "source": "109學測"
@@ -31766,7 +33635,7 @@ const LEVEL_6_DATA = [
     "word": "aspire",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/əspˈaɪr/",
+    "kk": "/əˈspaɪr/",
     "chinese": "渴望；有志於",
     "collocations": [
       {
@@ -31811,6 +33680,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -31820,7 +33692,7 @@ const LEVEL_6_DATA = [
     "word": "astronomer",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/əstrˈɑnəmɚ/",
+    "kk": "/əˈstrɑnəmɚ/",
     "chinese": "天文學家",
     "collocations": [
       {
@@ -31865,6 +33737,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -31874,7 +33749,7 @@ const LEVEL_6_DATA = [
     "word": "backbone",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/bˈækbˌoʊn/",
+    "kk": "/ˈbækˌbon/",
     "chinese": "脊骨；支柱；骨氣",
     "collocations": [
       {
@@ -31921,6 +33796,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -31930,7 +33808,7 @@ const LEVEL_6_DATA = [
     "word": "banquet",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/bˈæŋkwət/",
+    "kk": "/ˈbæŋkwət/",
     "chinese": "宴會；盛宴",
     "collocations": [
       {
@@ -31975,6 +33853,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The small size allows the customer to order a great variety of dishes, creating a banquet of different tastes and flavors.",
       "source": "115學測"
@@ -31984,7 +33865,7 @@ const LEVEL_6_DATA = [
     "word": "booklet",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/bˈʊklɪt/",
+    "kk": "/ˈbʊklɪt/",
     "chinese": "小冊子；手冊",
     "collocations": [
       {
@@ -32029,6 +33910,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -32038,7 +33922,7 @@ const LEVEL_6_DATA = [
     "word": "brochure",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/broʊʃˈʊr/",
+    "kk": "/broˈʃʊr/",
     "chinese": "說明書；宣傳冊",
     "collocations": [
       {
@@ -32083,6 +33967,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -32092,7 +33979,7 @@ const LEVEL_6_DATA = [
     "word": "breakdown",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/brˈeɪkdˌaʊn/",
+    "kk": "/ˈbrekˌdaʊn/",
     "chinese": "故障；崩潰；分析",
     "collocations": [
       {
@@ -32139,6 +34026,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -32148,7 +34038,7 @@ const LEVEL_6_DATA = [
     "word": "calligraphy",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/kəlˈɪɡrəfi/",
+    "kk": "/kəˈlɪgrəfi/",
     "chinese": "書法；美術字",
     "collocations": [
       {
@@ -32193,6 +34083,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -32202,7 +34095,7 @@ const LEVEL_6_DATA = [
     "word": "certify",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/sˈɝtəfˌaɪ/",
+    "kk": "/ˈsɝtəˌfaɪ/",
     "chinese": "證明；認證；頒發證書",
     "collocations": [
       {
@@ -32247,6 +34140,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Until now, only smaller tea brands have been certified, but awareness is growing.",
       "source": "112學測"
@@ -32256,7 +34152,7 @@ const LEVEL_6_DATA = [
     "word": "captive",
     "pos": "adj./n.",
     "chapter": "Space and Movement",
-    "kk": "/kˈæptɪv/",
+    "kk": "/ˈkæptɪv/",
     "chinese": "被俘虜的；囚犯；受限的",
     "collocations": [
       {
@@ -32301,18 +34197,21 @@ const LEVEL_6_DATA = [
     "word_family": "captive (adj.) · captivity (n.) · capture",
     "antonym": null,
     "exam": {
-      "count": 3,
-      "papers": 3,
+      "count": 2,
+      "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
-      "example": "In fact, it is nearly impossible to release captive-bred animals.",
-      "source": "114學測"
+      "example": null,
+      "source": null
     }
   },
   {
     "word": "collision",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/kəlˈɪʒən/",
+    "kk": "/kəˈlɪʒən/",
     "chinese": "碰撞；衝突；撞車",
     "collocations": [
       {
@@ -32357,6 +34256,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Researchers in Japan have installed on a train a speaker that barks like a dog and snorts like a deer in order to prevent collisions with animals on the tracks.",
       "source": "109學測"
@@ -32366,7 +34268,7 @@ const LEVEL_6_DATA = [
     "word": "commonplace",
     "pos": "adj./n.",
     "chapter": "Space and Movement",
-    "kk": "/kˈɑmənplˌeɪs/",
+    "kk": "/ˈkɑmənˌples/",
     "chinese": "普通的；司空見慣的；陳腐話",
     "collocations": [
       {
@@ -32411,6 +34313,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Today, this No. 1 invention has become so commonplace that it is almost taken for granted.",
       "source": "94指考"
@@ -32420,7 +34325,7 @@ const LEVEL_6_DATA = [
     "word": "conscientious",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/kˌɑnʃiˈɛnʃəs/",
+    "kk": "/ˌkɑnʃiˈɛnʃəs/",
     "chinese": "認真的；盡責的；謹慎的",
     "collocations": [
       {
@@ -32465,6 +34370,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -32474,7 +34382,7 @@ const LEVEL_6_DATA = [
     "word": "console",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/kˈɑnsoʊl/",
+    "kk": "/ˈkɑnsol/",
     "chinese": "安慰；遊戲機；控制台",
     "collocations": [
       {
@@ -32521,6 +34429,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -32530,7 +34441,7 @@ const LEVEL_6_DATA = [
     "word": "cosmetics",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/kɑzmˈɛtɪks/",
+    "kk": "/kɑzˈmɛtɪks/",
     "chinese": "化妝品；美容品",
     "collocations": [
       {
@@ -32575,6 +34486,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -32584,7 +34498,7 @@ const LEVEL_6_DATA = [
     "word": "curry",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/kˈahri/",
+    "kk": "/ˈkʌri/",
     "chinese": "咖哩",
     "collocations": [
       {
@@ -32628,6 +34542,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "It can be served as a main course (usually in curries) or a side dish to be eaten with rice, as a deep-fried snack, or even blended into smoothies and healthy juices.",
       "source": "108指考"
@@ -32637,7 +34554,7 @@ const LEVEL_6_DATA = [
     "word": "cultivate",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/kˈahltəvˌeɪt/",
+    "kk": "/ˈkʌltəˌvet/",
     "chinese": "培養；耕種；栽培",
     "collocations": [
       {
@@ -32684,6 +34601,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -32693,7 +34613,7 @@ const LEVEL_6_DATA = [
     "word": "deprive",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/dɪprˈaɪv/",
+    "kk": "/dɪˈpraɪv/",
     "chinese": "剝奪；使缺乏",
     "collocations": [
       {
@@ -32738,6 +34658,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "It begins by depriving the bird of food to make it easier to tame.",
       "source": "110指考"
@@ -32747,7 +34670,7 @@ const LEVEL_6_DATA = [
     "word": "destined",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/dˈɛstɪnd/",
+    "kk": "/ˈdɛstɪnd/",
     "chinese": "命中注定的；注定要...的",
     "collocations": [
       {
@@ -32792,6 +34715,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "We are assured that we are destined to live happily ever after.",
       "source": "94學測"
@@ -32801,7 +34727,7 @@ const LEVEL_6_DATA = [
     "word": "discreet",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/dɪskrˈit/",
+    "kk": "/dɪˈskrit/",
     "chinese": "謹慎的；低調的；考慮周到的",
     "collocations": [
       {
@@ -32846,6 +34772,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -32855,7 +34784,7 @@ const LEVEL_6_DATA = [
     "word": "disable",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/dɪsˈeɪbəl/",
+    "kk": "/dɪsˈebəl/",
     "chinese": "使殘廢；使失能；停用",
     "collocations": [
       {
@@ -32902,6 +34831,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 3,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 2,
       "example": "Morgan’s Wonderland, located in San Antonio, Texas, is a theme park geared mainly toward mentally or physically disabled children.",
       "source": "110學測"
@@ -32911,7 +34843,7 @@ const LEVEL_6_DATA = [
     "word": "discharge",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/dɪstʃˈɑrdʒ/",
+    "kk": "/ˈdɪsˌtʃɑrdʒ/",
     "chinese": "排放；解雇；出院；射擊",
     "collocations": [
       {
@@ -32958,6 +34890,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "After the bacteria are destroyed, the chlorine is eliminated from the water, and the treated clean water is discharged into a river or the ocean.",
       "source": "109指考"
@@ -32967,7 +34902,7 @@ const LEVEL_6_DATA = [
     "word": "downward",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/dˈaʊnwɚd/",
+    "kk": "/ˈdaʊnwɚd/",
     "chinese": "向下的；下降的",
     "collocations": [
       {
@@ -33012,6 +34947,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "As rivers were believed to flow downward, “up” was therefore south.",
       "source": "115學測"
@@ -33021,7 +34959,7 @@ const LEVEL_6_DATA = [
     "word": "endurance",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/ˈɛndɚəns/",
+    "kk": "/ɪnˈdʊrəns/",
     "chinese": "忍耐力；耐力；持久力",
     "collocations": [
       {
@@ -33066,6 +35004,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 7,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "They respected the animals’ endurance and hunting ability, and warriors prayed to hunt like them.",
       "source": "95指考"
@@ -33075,7 +35016,7 @@ const LEVEL_6_DATA = [
     "word": "enrich(ment)",
     "pos": "v./n.",
     "chapter": "Space and Movement",
-    "kk": "/ɛnrˈɪtʃ/",
+    "kk": "/ɛnˈrɪtʃ/",
     "chinese": "豐富；充實；使富裕",
     "collocations": [
       {
@@ -33120,6 +35061,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 3,
+      "ast_papers": 1,
+      "recent_papers": 4,
       "stars": 2,
       "example": "This new understanding can enrich the relationship between dogs and their owners.",
       "source": "106學測"
@@ -33129,7 +35073,7 @@ const LEVEL_6_DATA = [
     "word": "evoke",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/ɪvˈoʊk/",
+    "kk": "/ɪˈvok/",
     "chinese": "喚起；引起；召喚",
     "collocations": [
       {
@@ -33174,6 +35118,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "When asked what color is evoked by a letter or number, synesthetic people would persistently give the same answer even if tested months or years apart.",
       "source": "112學測"
@@ -33183,7 +35130,7 @@ const LEVEL_6_DATA = [
     "word": "fable",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/fˈeɪbəl/",
+    "kk": "/ˈfebəl/",
     "chinese": "寓言；神話；虛構故事",
     "collocations": [
       {
@@ -33228,6 +35175,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Aesop, the Greek writer of fables, was sitting by the roadside one day when a traveler asked him what sort of people lived in Athens.",
       "source": "103學測"
@@ -33237,7 +35187,7 @@ const LEVEL_6_DATA = [
     "word": "firecracker",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/fˈaɪɚkrˌækɚ/",
+    "kk": "/ˈfaɪɚˌkrækɚ/",
     "chinese": "鞭炮；爆竹",
     "collocations": [
       {
@@ -33282,6 +35232,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -33291,7 +35244,7 @@ const LEVEL_6_DATA = [
     "word": "fiancé/fiance",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/fiˈɑnsˌeɪ/",
+    "kk": "/fiˈɑnˌse/",
     "chinese": "未婚夫",
     "collocations": [
       {
@@ -33336,6 +35289,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -33345,7 +35301,7 @@ const LEVEL_6_DATA = [
     "word": "flunk",
     "pos": "v./n.",
     "chapter": "Space and Movement",
-    "kk": "/flˈahŋk/",
+    "kk": "/ˈflʌŋk/",
     "chinese": "考試不及格；當掉",
     "collocations": [
       {
@@ -33389,6 +35345,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -33398,7 +35357,7 @@ const LEVEL_6_DATA = [
     "word": "glamour",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/ɡlˈæmɚ/",
+    "kk": "/ˈglæmɚ/",
     "chinese": "魅力；迷人；光彩",
     "collocations": [
       {
@@ -33443,6 +35402,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -33452,7 +35414,7 @@ const LEVEL_6_DATA = [
     "word": "fuss",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/fˈahs/",
+    "kk": "/ˈfʌs/",
     "chinese": "大驚小怪；忙亂；麻煩",
     "collocations": [
       {
@@ -33500,6 +35462,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -33509,7 +35474,7 @@ const LEVEL_6_DATA = [
     "word": "graze",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/ɡrˈeɪz/",
+    "kk": "/ˈgrez/",
     "chinese": "放牧；吃草；擦傷",
     "collocations": [
       {
@@ -33556,6 +35521,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 3,
+      "gsat_papers": 3,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -33565,7 +35533,7 @@ const LEVEL_6_DATA = [
     "word": "heroin",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/hˈɛroʊən/",
+    "kk": "/ˈhɛroən/",
     "chinese": "海洛因",
     "collocations": [
       {
@@ -33610,6 +35578,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -33619,7 +35590,7 @@ const LEVEL_6_DATA = [
     "word": "implicit",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/ɪmplˈɪsət/",
+    "kk": "/ɪmˈplɪsət/",
     "chinese": "隱含的；含蓄的；絕對的",
     "collocations": [
       {
@@ -33666,6 +35637,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -33675,7 +35649,7 @@ const LEVEL_6_DATA = [
     "word": "incur",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/ɪnkˈɝ/",
+    "kk": "/ɪnˈkɝ/",
     "chinese": "招致；遭受；引起",
     "collocations": [
       {
@@ -33720,6 +35694,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -33729,7 +35706,7 @@ const LEVEL_6_DATA = [
     "word": "instinctive",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/ɪnstˈɪŋktɪv/",
+    "kk": "/ɪnˈstɪŋktɪv/",
     "chinese": "本能的；直覺的",
     "collocations": [
       {
@@ -33774,6 +35751,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -33783,7 +35763,7 @@ const LEVEL_6_DATA = [
     "word": "knowledgeable",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/nˈɑlədʒəbəl/",
+    "kk": "/ˈnɑlədʒəbəl/",
     "chinese": "博學的；有見識的",
     "collocations": [
       {
@@ -33828,6 +35808,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -33837,7 +35820,7 @@ const LEVEL_6_DATA = [
     "word": "liable",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/lˈaɪəbəl/",
+    "kk": "/ˈlaɪəbəl/",
     "chinese": "有責任的；可能的；易受...的",
     "collocations": [
       {
@@ -33882,6 +35865,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -33891,7 +35877,7 @@ const LEVEL_6_DATA = [
     "word": "lighten",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/lˈaɪtən/",
+    "kk": "/ˈlaɪtən/",
     "chinese": "減輕；使明亮；使輕鬆",
     "collocations": [
       {
@@ -33938,6 +35924,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 4,
+      "gsat_papers": 3,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 2,
       "example": "People who use bonding humor tell jokes and generally lighten the mood.",
       "source": "101指考"
@@ -33947,7 +35936,7 @@ const LEVEL_6_DATA = [
     "word": "lure",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/lˈʊr/",
+    "kk": "/ˈlʊr/",
     "chinese": "引誘；誘餌；魅力",
     "collocations": [
       {
@@ -33994,6 +35983,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "When they are hungry, some female fireflies lure the males of other species to them.",
       "source": "93學測"
@@ -34003,7 +35995,7 @@ const LEVEL_6_DATA = [
     "word": "literal",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/lˈɪtɚəl/",
+    "kk": "/ˈlɪtɚəl/",
     "chinese": "字面的；直譯的；確實的",
     "collocations": [
       {
@@ -34048,6 +36040,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -34057,7 +36052,7 @@ const LEVEL_6_DATA = [
     "word": "majesty",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/mˈædʒəsti/",
+    "kk": "/ˈmædʒəsti/",
     "chinese": "威嚴；壯麗；陛下",
     "collocations": [
       {
@@ -34104,6 +36099,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34113,7 +36111,7 @@ const LEVEL_6_DATA = [
     "word": "maple",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/mˈeɪpəl/",
+    "kk": "/ˈmepəl/",
     "chinese": "楓樹；楓",
     "collocations": [
       {
@@ -34156,6 +36154,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34165,7 +36166,7 @@ const LEVEL_6_DATA = [
     "word": "mischievous",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/mˈɪstʃəvəs/",
+    "kk": "/ˈmɪstʃəvəs/",
     "chinese": "頑皮的；惡作劇的；有害的",
     "collocations": [
       {
@@ -34210,6 +36211,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -34219,7 +36223,7 @@ const LEVEL_6_DATA = [
     "word": "mingle",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/mˈɪŋɡəl/",
+    "kk": "/ˈmɪŋgəl/",
     "chinese": "混合；交際；交流",
     "collocations": [
       {
@@ -34266,6 +36270,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -34275,7 +36282,7 @@ const LEVEL_6_DATA = [
     "word": "mournful",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/mˈɔrnfəl/",
+    "kk": "/ˈmɔrnfəl/",
     "chinese": "悲傷的；哀怨的；令人悲痛的",
     "collocations": [
       {
@@ -34320,6 +36327,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34329,7 +36339,7 @@ const LEVEL_6_DATA = [
     "word": "oasis",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/oʊˈeɪsɪs/",
+    "kk": "/oˈesɪs/",
     "chinese": "綠洲；慰藉之地；避風港",
     "collocations": [
       {
@@ -34376,6 +36386,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34385,7 +36398,7 @@ const LEVEL_6_DATA = [
     "word": "obsess",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/əbsˈɛs/",
+    "kk": "/əbˈsɛs/",
     "chinese": "使著迷；使困擾；縈繞",
     "collocations": [
       {
@@ -34430,6 +36443,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -34439,7 +36455,7 @@ const LEVEL_6_DATA = [
     "word": "odor",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/ˈoʊdɚ/",
+    "kk": "/ˈodɚ/",
     "chinese": "氣味；臭味；味道",
     "collocations": [
       {
@@ -34482,8 +36498,11 @@ const LEVEL_6_DATA = [
     "word_family": "malodorous (adj.) · odor (n.) · odorless (adj.)",
     "antonym": null,
     "exam": {
-      "count": 9,
+      "count": 8,
       "papers": 4,
+      "gsat_papers": 0,
+      "ast_papers": 4,
+      "recent_papers": 2,
       "stars": 2,
       "example": "According to findings of a recent study, English speakers are capable of discriminating more than a trillion different odors.",
       "source": "108指考"
@@ -34493,7 +36512,7 @@ const LEVEL_6_DATA = [
     "word": "ordeal",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/ɔrdˈil/",
+    "kk": "/ɔrˈdil/",
     "chinese": "嚴酷的考驗；折磨；磨難",
     "collocations": [
       {
@@ -34538,6 +36557,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34547,7 +36569,7 @@ const LEVEL_6_DATA = [
     "word": "organizer",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/ˈɔrɡənˌaɪzɚ/",
+    "kk": "/ˈɔrgəˌnaɪzɚ/",
     "chinese": "組織者；主辦者；籌辦人",
     "collocations": [
       {
@@ -34592,6 +36614,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -34601,7 +36626,7 @@ const LEVEL_6_DATA = [
     "word": "orthodox",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/ˈɔrθədˌɑks/",
+    "kk": "/ˈɔrθəˌdɑks/",
     "chinese": "正統的；傳統的；東正教的",
     "collocations": [
       {
@@ -34648,6 +36673,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34657,7 +36685,7 @@ const LEVEL_6_DATA = [
     "word": "parliament",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/pˈɑrləmənt/",
+    "kk": "/ˈpɑrləmənt/",
     "chinese": "議會；國會",
     "collocations": [
       {
@@ -34702,6 +36730,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The earliest reference to these documents is found in a 15th-century Act of Parliament, while the term “passport” came into use about a century later.",
       "source": "110學測"
@@ -34711,7 +36742,7 @@ const LEVEL_6_DATA = [
     "word": "pending",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/pˈɛndɪŋ/",
+    "kk": "/ˈpɛndɪŋ/",
     "chinese": "待決的；即將發生的；懸而未決的",
     "collocations": [
       {
@@ -34756,6 +36787,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34809,6 +36843,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -34818,7 +36855,7 @@ const LEVEL_6_DATA = [
     "word": "pinch",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/pˈɪntʃ/",
+    "kk": "/ˈpɪntʃ/",
     "chinese": "捏；夾；少量；緊縮",
     "collocations": [
       {
@@ -34865,6 +36902,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34874,7 +36914,7 @@ const LEVEL_6_DATA = [
     "word": "posture",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/pˈɑstʃɚ/",
+    "kk": "/ˈpɑstʃɚ/",
     "chinese": "姿勢；態度；立場",
     "collocations": [
       {
@@ -34920,6 +36960,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34929,7 +36972,7 @@ const LEVEL_6_DATA = [
     "word": "punctual",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/pˈahŋktʃuəl/",
+    "kk": "/ˈpʌŋktʃuəl/",
     "chinese": "準時的；守時的",
     "collocations": [
       {
@@ -34974,6 +37017,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -34983,7 +37029,7 @@ const LEVEL_6_DATA = [
     "word": "quake",
     "pos": "v./n.",
     "chapter": "Space and Movement",
-    "kk": "/kwˈeɪk/",
+    "kk": "/ˈkwek/",
     "chinese": "地震；顫抖；震動",
     "collocations": [
       {
@@ -35030,6 +37076,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "At least 25,000 people died in the quake—nearly a third of the city's population.",
       "source": "94學測"
@@ -35039,7 +37088,7 @@ const LEVEL_6_DATA = [
     "word": "ratify",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/rˈætəfˌaɪ/",
+    "kk": "/ˈrætəˌfaɪ/",
     "chinese": "批准；認可；使正式生效",
     "collocations": [
       {
@@ -35084,6 +37133,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -35093,7 +37145,7 @@ const LEVEL_6_DATA = [
     "word": "reef",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/rˈif/",
+    "kk": "/ˈrif/",
     "chinese": "礁石；珊瑚礁",
     "collocations": [
       {
@@ -35138,6 +37190,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 9,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Angelfish, often found in the warm seas and coral reefs, are among the most brightly colored fish of the ocean.",
       "source": "108學測"
@@ -35147,7 +37202,7 @@ const LEVEL_6_DATA = [
     "word": "rash",
     "pos": "n./adj.",
     "chapter": "Space and Movement",
-    "kk": "/rˈæʃ/",
+    "kk": "/ˈræʃ/",
     "chinese": "皮疹；輕率的；魯莽的",
     "collocations": [
       {
@@ -35194,6 +37249,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Many people who are troubled by skin rashes caused by bug bites use “foggers,” or “bug bombs,” to get rid of the annoying crawlers in their homes.",
       "source": "108學測"
@@ -35203,7 +37261,7 @@ const LEVEL_6_DATA = [
     "word": "rejoice",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/rɪdʒˈɔɪs/",
+    "kk": "/rɪˈdʒɔɪs/",
     "chinese": "歡欣；高興；喜悅",
     "collocations": [
       {
@@ -35248,6 +37306,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Neighborhood beer lovers rejoiced when After Work moved in last summer.",
       "source": "115學測"
@@ -35257,7 +37318,7 @@ const LEVEL_6_DATA = [
     "word": "reliant",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/rɪlˈaɪənt/",
+    "kk": "/rɪˈlaɪənt/",
     "chinese": "依賴的；依靠的",
     "collocations": [
       {
@@ -35302,6 +37363,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -35311,7 +37375,7 @@ const LEVEL_6_DATA = [
     "word": "roam",
     "pos": "v./n.",
     "chapter": "Space and Movement",
-    "kk": "/rˈoʊm/",
+    "kk": "/ˈrom/",
     "chinese": "漫遊；遊蕩；流浪",
     "collocations": [
       {
@@ -35358,6 +37422,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "When you enjoy your morning cup of tea, you are probably not aware that those tea leaves can mean injury, or even death, for Asian elephants roaming Indian tea gardens.",
       "source": "112學測"
@@ -35367,7 +37434,7 @@ const LEVEL_6_DATA = [
     "word": "rotation",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/roʊtˈeɪʃən/",
+    "kk": "/roˈteʃən/",
     "chinese": "旋轉；輪換；輪作",
     "collocations": [
       {
@@ -35414,6 +37481,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -35423,7 +37493,7 @@ const LEVEL_6_DATA = [
     "word": "screwdriver",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/skrˈudrˌaɪvɚ/",
+    "kk": "/ˈskruˌdraɪvɚ/",
     "chinese": "螺絲起子",
     "collocations": [
       {
@@ -35466,6 +37536,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "It was a simple knife with one big blade, a can opener, and a screwdriver.",
       "source": "102學測"
@@ -35475,7 +37548,7 @@ const LEVEL_6_DATA = [
     "word": "shuffle",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/ʃˈahfəl/",
+    "kk": "/ˈʃʌfəl/",
     "chinese": "洗牌；拖著腳走；重新排列",
     "collocations": [
       {
@@ -35522,6 +37595,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "As Deborah shuffled sideways to block the player, her knee went out and she collapsed on the court in burning pain.",
       "source": "100學測"
@@ -35531,7 +37607,7 @@ const LEVEL_6_DATA = [
     "word": "sharpen",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/ʃˈɑrpən/",
+    "kk": "/ˈʃɑrpən/",
     "chinese": "削尖；使敏銳；加強",
     "collocations": [
       {
@@ -35578,6 +37654,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Small amounts of stress hormones may even sharpen our memory.",
       "source": "110指考"
@@ -35587,7 +37666,7 @@ const LEVEL_6_DATA = [
     "word": "slum",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/slˈahm/",
+    "kk": "/ˈslʌm/",
     "chinese": "貧民窟；(v.)到差地方體驗",
     "collocations": [
       {
@@ -35632,6 +37711,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "But it took her only about one minute to work out how to use one when such devices arrived at Amaf School in Kawangware, a slum in the Kenyan capital.",
       "source": "102指考"
@@ -35641,7 +37723,7 @@ const LEVEL_6_DATA = [
     "word": "slang",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/slˈæŋ/",
+    "kk": "/ˈslæŋ/",
     "chinese": "俚語；俗語",
     "collocations": [
       {
@@ -35686,6 +37768,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Textese (also known as chatspeak, texting language, or txt talk) is a term for the abbreviations and slang most commonly used among young people today.",
       "source": "99指考"
@@ -35695,7 +37780,7 @@ const LEVEL_6_DATA = [
     "word": "sorrowful",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/sˈɑroʊfəl/",
+    "kk": "/ˈsɑrofəl/",
     "chinese": "悲痛的；充滿悲傷的",
     "collocations": [
       {
@@ -35740,6 +37825,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -35749,7 +37837,7 @@ const LEVEL_6_DATA = [
     "word": "staple",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/stˈeɪpəl/",
+    "kk": "/ˈstepəl/",
     "chinese": "主食；必需品；釘書針；釘合",
     "collocations": [
       {
@@ -35796,6 +37884,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -35805,7 +37896,7 @@ const LEVEL_6_DATA = [
     "word": "stationery",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/stˈeɪʃənˌɛri/",
+    "kk": "/ˈsteʃəˌnɛri/",
     "chinese": "文具；信紙；信封",
     "collocations": [
       {
@@ -35852,6 +37943,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -35861,7 +37955,7 @@ const LEVEL_6_DATA = [
     "word": "stepfather",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/stˈɛpfˌɑðɚ/",
+    "kk": "/ˈstɛpˌfɑðɚ/",
     "chinese": "繼父",
     "collocations": [
       {
@@ -35906,6 +38000,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -35915,7 +38012,7 @@ const LEVEL_6_DATA = [
     "word": "successive",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/səksˈɛsɪv/",
+    "kk": "/səkˈsɛsɪv/",
     "chinese": "連續的；接連的；相繼的",
     "collocations": [
       {
@@ -35962,6 +38059,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -35971,7 +38071,7 @@ const LEVEL_6_DATA = [
     "word": "sympathize",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/sˈɪmpəθˌaɪz/",
+    "kk": "/ˈsɪmpəˌθaɪz/",
     "chinese": "同情；體諒；贊同",
     "collocations": [
       {
@@ -36018,6 +38118,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -36027,7 +38130,7 @@ const LEVEL_6_DATA = [
     "word": "superiority",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/sˌupɪriˈɔrɪti/",
+    "kk": "/ˌsupɪriˈɔrɪti/",
     "chinese": "優越性；卓越；高人一等",
     "collocations": [
       {
@@ -36074,6 +38177,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -36083,7 +38189,7 @@ const LEVEL_6_DATA = [
     "word": "terrace",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/tˈɛrəs/",
+    "kk": "/ˈtɛrəs/",
     "chinese": "露台；梯田；陽台",
     "collocations": [
       {
@@ -36130,6 +38236,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -36139,7 +38248,7 @@ const LEVEL_6_DATA = [
     "word": "torrent",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/tˈɔrənt/",
+    "kk": "/ˈtɔrənt/",
     "chinese": "急流；傾盆大雨；洶湧",
     "collocations": [
       {
@@ -36186,6 +38295,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -36195,7 +38307,7 @@ const LEVEL_6_DATA = [
     "word": "unify",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/jˈunəfˌaɪ/",
+    "kk": "/ˈjunəˌfaɪ/",
     "chinese": "統一；使一致；使聯合",
     "collocations": [
       {
@@ -36242,6 +38354,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -36251,7 +38366,7 @@ const LEVEL_6_DATA = [
     "word": "upright",
     "pos": "adv./adj./n.",
     "chapter": "Space and Movement",
-    "kk": "/əprˈaɪt/",
+    "kk": "/ˈʌpˌraɪt/",
     "chinese": "直立的；正直的；挺立",
     "collocations": [
       {
@@ -36299,6 +38414,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -36308,7 +38426,7 @@ const LEVEL_6_DATA = [
     "word": "usher",
     "pos": "v./n.",
     "chapter": "Space and Movement",
-    "kk": "/ˈahʃɚ/",
+    "kk": "/ˈʌʃɚ/",
     "chinese": "引導；帶領；帶位員",
     "collocations": [
       {
@@ -36355,6 +38473,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Looting and riots erupted throughout Paris, ushering in the French Revolution.",
       "source": "110指考"
@@ -36364,7 +38485,7 @@ const LEVEL_6_DATA = [
     "word": "vibrate",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/vˈaɪbreɪt/",
+    "kk": "/ˈvaɪbret/",
     "chinese": "振動；震動；使激動",
     "collocations": [
       {
@@ -36409,6 +38530,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -36418,7 +38542,7 @@ const LEVEL_6_DATA = [
     "word": "vigorous",
     "pos": "adj.",
     "chapter": "Space and Movement",
-    "kk": "/vˈɪɡɚəs/",
+    "kk": "/ˈvɪgɚəs/",
     "chinese": "精力充沛的；有力的；強健的",
     "collocations": [
       {
@@ -36465,6 +38589,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 2,
+      "ast_papers": 2,
+      "recent_papers": 3,
       "stars": 2,
       "example": null,
       "source": null
@@ -36474,7 +38601,7 @@ const LEVEL_6_DATA = [
     "word": "whiskey/whisky",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/wˈɪski/",
+    "kk": "/ˈwɪski/",
     "chinese": "威士忌",
     "collocations": [
       {
@@ -36519,6 +38646,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -36528,7 +38658,7 @@ const LEVEL_6_DATA = [
     "word": "wrinkle",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/rˈɪŋkəl/",
+    "kk": "/ˈrɪŋkəl/",
     "chinese": "皺紋；皺折；使起皺",
     "collocations": [
       {
@@ -36575,6 +38705,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "“I used to carry a fresh suit to work with me so I could change if my clothes got wrinkled.”",
       "source": "91學測"
@@ -36584,7 +38717,7 @@ const LEVEL_6_DATA = [
     "word": "compass",
     "pos": "n./v.",
     "chapter": "Space and Movement",
-    "kk": "/kˈahmpəs/",
+    "kk": "/ˈkʌmpəs/",
     "chinese": "羅盤；指南針；圓規；範疇",
     "collocations": [
       {
@@ -36630,6 +38763,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -36639,7 +38775,7 @@ const LEVEL_6_DATA = [
     "word": "expire",
     "pos": "v.",
     "chapter": "Space and Movement",
-    "kk": "/ɪkspˈaɪr/",
+    "kk": "/ɪkˈspaɪr/",
     "chinese": "到期；失效；呼氣；去世",
     "collocations": [
       {
@@ -36684,6 +38820,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -36693,7 +38832,7 @@ const LEVEL_6_DATA = [
     "word": "petrol",
     "pos": "n.",
     "chapter": "Space and Movement",
-    "kk": "/pˈɛtroʊl/",
+    "kk": "/ˈpɛtrəl/",
     "chinese": "汽油（英式）",
     "collocations": [
       {
@@ -36738,6 +38877,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -36790,6 +38932,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 1,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The top stone is the hardest part of each formation and protects the softer rock underneath from erosion.",
       "source": "104指考"
@@ -36839,6 +38984,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 1,
       "example": "As rivers were believed to flow downward, “up” was therefore south.",
       "source": "115學測"
@@ -36848,7 +38996,7 @@ const LEVEL_6_DATA = [
     "word": "conserve",
     "pos": "v./n.",
     "chapter": "Nature and Environment",
-    "kk": "/kənsˈɝv/",
+    "kk": "/kənˈsɝv/",
     "chinese": "保護；節約；保存",
     "collocations": [
       {
@@ -36891,6 +39039,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -36900,7 +39051,7 @@ const LEVEL_6_DATA = [
     "word": "overflow",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/ˈoʊvɚflˌoʊ/",
+    "kk": "/ˈovɚˌflo/",
     "chinese": "溢出；泛濫；過多",
     "collocations": [
       {
@@ -36943,6 +39094,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -36952,7 +39106,7 @@ const LEVEL_6_DATA = [
     "word": "inland",
     "pos": "adj./adv./n.",
     "chapter": "Nature and Environment",
-    "kk": "/ˈɪnlˌænd/",
+    "kk": "/ˈɪnˌlænd/",
     "chinese": "內陸的；在內地；內地",
     "collocations": [
       {
@@ -36995,6 +39149,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "On the whole, documents were not required for travel to seaports, which were considered open trading points, but documents were required to travel inland from seaports.",
       "source": "110學測"
@@ -37004,7 +39161,7 @@ const LEVEL_6_DATA = [
     "word": "gorilla",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/ɡɚˈɪlə/",
+    "kk": "/gəˈrɪlə/",
     "chinese": "大猩猩",
     "collocations": [
       {
@@ -37042,8 +39199,11 @@ const LEVEL_6_DATA = [
     "word_family": "",
     "antonym": null,
     "exam": {
-      "count": 2,
-      "papers": 2,
+      "count": 1,
+      "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -37053,7 +39213,7 @@ const LEVEL_6_DATA = [
     "word": "accountable",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/əkˈaʊntəbəl/",
+    "kk": "/əˈkaʊntəbəl/",
     "chinese": "有責任的；應負責任的",
     "collocations": [
       {
@@ -37098,6 +39258,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -37152,6 +39315,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37161,7 +39327,7 @@ const LEVEL_6_DATA = [
     "word": "affiliate",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/əfˈɪliˌeɪt/",
+    "kk": "/əˈfɪliət/",
     "chinese": "附屬機構；會員；使附屬",
     "collocations": [
       {
@@ -37208,6 +39374,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37217,7 +39386,7 @@ const LEVEL_6_DATA = [
     "word": "animate",
     "pos": "v./adj.",
     "chapter": "Nature and Environment",
-    "kk": "/ˈænəmət/",
+    "kk": "/ˈænəˌmet/",
     "chinese": "使有活力；有生命的；動畫的",
     "collocations": [
       {
@@ -37264,6 +39433,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37317,6 +39489,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37326,7 +39501,7 @@ const LEVEL_6_DATA = [
     "word": "astronomy",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/əstrˈɑnəmi/",
+    "kk": "/əˈstrɑnəmi/",
     "chinese": "天文學",
     "collocations": [
       {
@@ -37370,6 +39545,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Do you know the difference between the terms meteoroid, meteor, and meteorite in astronomy?",
       "source": "110指考"
@@ -37424,6 +39602,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37433,7 +39614,7 @@ const LEVEL_6_DATA = [
     "word": "beautify",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/bjˈutɪfˌaɪ/",
+    "kk": "/ˈbjutɪˌfaɪ/",
     "chinese": "美化；使美麗",
     "collocations": [
       {
@@ -37478,6 +39659,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37487,7 +39671,7 @@ const LEVEL_6_DATA = [
     "word": "blaze",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/blˈeɪz/",
+    "kk": "/ˈblez/",
     "chinese": "火焰；熊熊燃燒；閃耀",
     "collocations": [
       {
@@ -37534,6 +39718,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37543,7 +39730,7 @@ const LEVEL_6_DATA = [
     "word": "boxing",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/bˈɑksɪŋ/",
+    "kk": "/ˈbɑksɪŋ/",
     "chinese": "拳擊；拳擊運動",
     "collocations": [
       {
@@ -37587,6 +39774,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37596,7 +39786,7 @@ const LEVEL_6_DATA = [
     "word": "bypass",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/bˈaɪpˌæs/",
+    "kk": "/ˈbaɪˌpæs/",
     "chinese": "繞道；繞過；規避",
     "collocations": [
       {
@@ -37643,6 +39833,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37652,7 +39845,7 @@ const LEVEL_6_DATA = [
     "word": "caretaker",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/kˈɛrtˌeɪkɚ/",
+    "kk": "/ˈkɛrˌtekɚ/",
     "chinese": "看門人；管理員；照料者",
     "collocations": [
       {
@@ -37699,6 +39892,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": null,
       "source": null
@@ -37708,7 +39904,7 @@ const LEVEL_6_DATA = [
     "word": "casualty",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/kˈæʒəwəlti/",
+    "kk": "/ˈkæʒəwəlti/",
     "chinese": "傷亡者；受難者；事故",
     "collocations": [
       {
@@ -37753,6 +39949,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -37762,7 +39961,7 @@ const LEVEL_6_DATA = [
     "word": "chili",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/tʃˈɪli/",
+    "kk": "/ˈtʃɪli/",
     "chinese": "辣椒；辣椒醬",
     "collocations": [
       {
@@ -37809,6 +40008,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37818,7 +40020,7 @@ const LEVEL_6_DATA = [
     "word": "clearance",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/klˈɪrəns/",
+    "kk": "/ˈklɪrəns/",
     "chinese": "許可；清除；淨空；結關",
     "collocations": [
       {
@@ -37865,6 +40067,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37874,7 +40079,7 @@ const LEVEL_6_DATA = [
     "word": "colloquial",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/kəlˈoʊkwiəl/",
+    "kk": "/kəˈlokwiəl/",
     "chinese": "口語的；會話的；非正式的",
     "collocations": [
       {
@@ -37919,6 +40124,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37928,7 +40136,7 @@ const LEVEL_6_DATA = [
     "word": "commonwealth",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/kˈɑmənwˌɛlθ/",
+    "kk": "/ˈkɑmənˌwɛlθ/",
     "chinese": "聯邦；國協；共同體",
     "collocations": [
       {
@@ -37973,6 +40181,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -37982,7 +40193,7 @@ const LEVEL_6_DATA = [
     "word": "concession",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/kənsˈɛʃən/",
+    "kk": "/kənˈsɛʃən/",
     "chinese": "讓步；特許；優惠",
     "collocations": [
       {
@@ -38029,6 +40240,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38038,7 +40252,7 @@ const LEVEL_6_DATA = [
     "word": "contradict",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/kˌɑntrədˈɪkt/",
+    "kk": "/ˌkɑntrəˈdɪkt/",
     "chinese": "反駁；與...矛盾；否認",
     "collocations": [
       {
@@ -38083,6 +40297,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -38092,7 +40309,7 @@ const LEVEL_6_DATA = [
     "word": "crocodile",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/krˈɑkədˌaɪl/",
+    "kk": "/ˈkrɑkəˌdaɪl/",
     "chinese": "鱷魚",
     "collocations": [
       {
@@ -38136,6 +40353,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38145,7 +40365,7 @@ const LEVEL_6_DATA = [
     "word": "devour",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/dɪvˈaʊɚ/",
+    "kk": "/dɪˈvaʊɚ/",
     "chinese": "狼吞虎嚥；貪婪地讀；吞噬",
     "collocations": [
       {
@@ -38192,6 +40412,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38201,7 +40424,7 @@ const LEVEL_6_DATA = [
     "word": "diesel",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/dˈisəl/",
+    "kk": "/ˈdisəl/",
     "chinese": "柴油；柴油引擎",
     "collocations": [
       {
@@ -38247,6 +40470,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38256,7 +40482,7 @@ const LEVEL_6_DATA = [
     "word": "disturbance",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/dɪstˈɝbəns/",
+    "kk": "/dɪˈstɝbəns/",
     "chinese": "騷亂；干擾；擾動",
     "collocations": [
       {
@@ -38303,6 +40529,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 7,
       "papers": 5,
+      "gsat_papers": 1,
+      "ast_papers": 4,
+      "recent_papers": 3,
       "stars": 2,
       "example": "Over the years, people have been curious about the way they deal with disturbances arising from the environment, and the operations underlying their responses as a group.",
       "source": "113學測"
@@ -38312,7 +40541,7 @@ const LEVEL_6_DATA = [
     "word": "dispensable",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/dɪspˈɛnsəbəl/",
+    "kk": "/dɪˈspɛnsəbəl/",
     "chinese": "可有可無的；非必要的",
     "collocations": [
       {
@@ -38357,6 +40586,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -38366,7 +40598,7 @@ const LEVEL_6_DATA = [
     "word": "disciple",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/dɪsˈaɪpəl/",
+    "kk": "/dɪˈsaɪpəl/",
     "chinese": "門徒；信徒；弟子",
     "collocations": [
       {
@@ -38411,6 +40643,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The disciple said he would do whatever his guru asked him to do.",
       "source": "97學測"
@@ -38420,7 +40655,7 @@ const LEVEL_6_DATA = [
     "word": "dual",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/dˈuəl/",
+    "kk": "/ˈduəl/",
     "chinese": "雙重的；二元的",
     "collocations": [
       {
@@ -38465,6 +40700,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38474,7 +40712,7 @@ const LEVEL_6_DATA = [
     "word": "dwarf",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/dwˈɔrf/",
+    "kk": "/ˈdwɔrf/",
     "chinese": "矮人；使顯得矮小；矮星",
     "collocations": [
       {
@@ -38521,6 +40759,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -38530,7 +40771,7 @@ const LEVEL_6_DATA = [
     "word": "equalize",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/ˈikwəlˌaɪz/",
+    "kk": "/ˈikwəˌlaɪz/",
     "chinese": "使平等；使均等；扳平",
     "collocations": [
       {
@@ -38577,6 +40818,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38586,7 +40830,7 @@ const LEVEL_6_DATA = [
     "word": "enroll(ment)",
     "pos": "v./n.",
     "chapter": "Nature and Environment",
-    "kk": "/ɛnrˈoʊl/",
+    "kk": "/ɛnˈrol/",
     "chinese": "登記；入學；招募",
     "collocations": [
       {
@@ -38633,6 +40877,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "While some say free online courses are a great way to increase the enrollment of minority students, others have said they will leave many students behind.",
       "source": "103學測"
@@ -38642,7 +40889,7 @@ const LEVEL_6_DATA = [
     "word": "extract",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/ɪkstrˈækt/",
+    "kk": "/ˈɛkstrækt/",
     "chinese": "提取；摘錄；抽出；精華",
     "collocations": [
       {
@@ -38689,6 +40936,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38698,7 +40948,7 @@ const LEVEL_6_DATA = [
     "word": "expiration",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/ˌɛkspɚˈeɪʃən/",
+    "kk": "/ˌɛkspəˈreʃən/",
     "chinese": "到期；終止；呼氣",
     "collocations": [
       {
@@ -38743,6 +40993,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38752,7 +41005,7 @@ const LEVEL_6_DATA = [
     "word": "feeble",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/fˈibəl/",
+    "kk": "/ˈfibəl/",
     "chinese": "虛弱的；無力的；薄弱的",
     "collocations": [
       {
@@ -38799,6 +41052,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38808,7 +41064,7 @@ const LEVEL_6_DATA = [
     "word": "flaw",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/flˈɔ/",
+    "kk": "/ˈflɔ/",
     "chinese": "缺點；瑕疵；缺陷",
     "collocations": [
       {
@@ -38855,6 +41111,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -38864,7 +41123,7 @@ const LEVEL_6_DATA = [
     "word": "formulate",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/fˈɔrmjəlˌeɪt/",
+    "kk": "/ˈfɔrmjəˌlet/",
     "chinese": "制訂；表達；系統地闡述",
     "collocations": [
       {
@@ -38911,6 +41170,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -38920,7 +41182,7 @@ const LEVEL_6_DATA = [
     "word": "fume",
     "pos": "v./n.",
     "chapter": "Nature and Environment",
-    "kk": "/fjˈum/",
+    "kk": "/ˈfjum/",
     "chinese": "冒煙；怒氣；煙霧",
     "collocations": [
       {
@@ -38967,6 +41229,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -38976,7 +41241,7 @@ const LEVEL_6_DATA = [
     "word": "goalkeeper",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/ɡˈoʊlkˌipɚ/",
+    "kk": "/ˈgolˌkipɚ/",
     "chinese": "守門員",
     "collocations": [
       {
@@ -39021,6 +41286,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -39030,7 +41298,7 @@ const LEVEL_6_DATA = [
     "word": "groan",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/ɡrˈoʊn/",
+    "kk": "/ˈgron/",
     "chinese": "呻吟；嘆息；發出抱怨聲",
     "collocations": [
       {
@@ -39077,6 +41345,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The modern worker rolls out of bed, groans, and turns off an alarm clock before reluctantly getting up for the day’s work.",
       "source": "113學測"
@@ -39086,7 +41357,7 @@ const LEVEL_6_DATA = [
     "word": "grease",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/ɡrˈis/",
+    "kk": "/ˈgris/",
     "chinese": "油脂；潤滑油；塗油",
     "collocations": [
       {
@@ -39133,6 +41404,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Here, human waste, called sludge, settles to the bottom while oils and grease float to the top, where they are collected.",
       "source": "109指考"
@@ -39142,7 +41416,7 @@ const LEVEL_6_DATA = [
     "word": "hospitalize",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/hˈɔspˌɪtəlˌaɪz/",
+    "kk": "/ˈhɑspɪtəˌlaɪz/",
     "chinese": "使住院治療；送醫",
     "collocations": [
       {
@@ -39186,6 +41460,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Even when tests came back negative, more were ordered, and she was hospitalized as a precaution when she developed a cold.",
       "source": "104學測"
@@ -39195,7 +41472,7 @@ const LEVEL_6_DATA = [
     "word": "hover",
     "pos": "v./n.",
     "chapter": "Nature and Environment",
-    "kk": "/hˈahvɚ/",
+    "kk": "/ˈhʌvɚ/",
     "chinese": "盤旋；徘徊；懸停",
     "collocations": [
       {
@@ -39242,6 +41519,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Some truffle merchants dig for their prizes themselves when they see truffle flies hovering around the base of a tree.",
       "source": "100指考"
@@ -39251,7 +41531,7 @@ const LEVEL_6_DATA = [
     "word": "hybrid",
     "pos": "adj./n.",
     "chapter": "Nature and Environment",
-    "kk": "/hˈaɪbrəd/",
+    "kk": "/ˈhaɪbrəd/",
     "chinese": "混合的；雜種；混合動力車",
     "collocations": [
       {
@@ -39298,6 +41578,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -39307,7 +41590,7 @@ const LEVEL_6_DATA = [
     "word": "innumerable",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/ɪnˈumɚəbəl/",
+    "kk": "/ɪˈnumɚəbəl/",
     "chinese": "無數的；數不清的",
     "collocations": [
       {
@@ -39352,6 +41635,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -39361,7 +41647,7 @@ const LEVEL_6_DATA = [
     "word": "intersection",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/ˌɪntɚsˈɛkʃən/",
+    "kk": "/ˌɪntɚˈsɛkʃən/",
     "chinese": "十字路口；交叉點；交集",
     "collocations": [
       {
@@ -39408,6 +41694,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "While waiting to cross the street at busy intersections, have you ever wondered who invented the traffic light?",
       "source": "114學測"
@@ -39417,7 +41706,7 @@ const LEVEL_6_DATA = [
     "word": "intrude",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/ɪntrˈud/",
+    "kk": "/ɪnˈtrud/",
     "chinese": "侵入；打擾；干涉",
     "collocations": [
       {
@@ -39464,6 +41753,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Sometimes a tune intrudes on our thoughts and then plays, and replays, in a never-ending loop.",
       "source": "108學測"
@@ -39473,7 +41765,7 @@ const LEVEL_6_DATA = [
     "word": "lavish",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/lˈævɪʃ/",
+    "kk": "/ˈlævɪʃ/",
     "chinese": "豪華的；過於慷慨的；大量給予",
     "collocations": [
       {
@@ -39519,6 +41811,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Whether simple or lavish, proms have always been more or less traumatic events for adolescents who worry about self-image and fitting in with their peers.",
       "source": "99學測"
@@ -39528,7 +41823,7 @@ const LEVEL_6_DATA = [
     "word": "landslide",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/lˈændslˌaɪd/",
+    "kk": "/ˈlændˌslaɪd/",
     "chinese": "山崩；地滑；壓倒性勝利",
     "collocations": [
       {
@@ -39574,6 +41869,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -39583,7 +41881,7 @@ const LEVEL_6_DATA = [
     "word": "linger",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/lˈɪŋɡɚ/",
+    "kk": "/ˈlɪŋgɚ/",
     "chinese": "徘徊；逗留；持續",
     "collocations": [
       {
@@ -39630,6 +41928,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Furthermore, elephants are known to resist leaving their sick or dying behind, and a herd may linger at a trench with a trapped baby for hours, reluctant to move on until all hope is lost.",
       "source": "112學測"
@@ -39639,7 +41940,7 @@ const LEVEL_6_DATA = [
     "word": "marvel",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/mˈɑrvəl/",
+    "kk": "/ˈmɑrvəl/",
     "chinese": "奇蹟；驚嘆；感到驚奇",
     "collocations": [
       {
@@ -39686,6 +41987,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Even today, visitors to the park marvel at how such a road could have been built.",
       "source": "97學測"
@@ -39695,7 +41999,7 @@ const LEVEL_6_DATA = [
     "word": "mar",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/mˈɑr/",
+    "kk": "/ˈmɑr/",
     "chinese": "損毀；破壞；玷污",
     "collocations": [
       {
@@ -39740,18 +42044,21 @@ const LEVEL_6_DATA = [
     "word_family": "mar (v.) · marred",
     "antonym": null,
     "exam": {
-      "count": 4,
-      "papers": 2,
-      "stars": 1,
-      "example": "Gravity has been at the top of the science agenda since the start of Mars missions.",
-      "source": "112學測"
+      "count": 0,
+      "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
+      "stars": 0,
+      "example": null,
+      "source": null
     }
   },
   {
     "word": "monotony",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/mənˈɑtəni/",
+    "kk": "/məˈnɑtəni/",
     "chinese": "單調；一成不變；乏味",
     "collocations": [
       {
@@ -39796,6 +42103,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -39805,7 +42115,7 @@ const LEVEL_6_DATA = [
     "word": "mow",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/mˈoʊ/",
+    "kk": "/ˈmo/",
     "chinese": "割草；收割",
     "collocations": [
       {
@@ -39852,6 +42162,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -39861,7 +42174,7 @@ const LEVEL_6_DATA = [
     "word": "oath",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/ˈoʊθ/",
+    "kk": "/ˈoθ/",
     "chinese": "誓言；誓詞；咒語",
     "collocations": [
       {
@@ -39906,6 +42219,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -39960,6 +42276,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -39969,7 +42288,7 @@ const LEVEL_6_DATA = [
     "word": "outrageous",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/aʊtrˈeɪdʒəs/",
+    "kk": "/aʊtˈredʒəs/",
     "chinese": "極端的；令人憤慨的；駭人聽聞的",
     "collocations": [
       {
@@ -40016,6 +42335,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -40069,9 +42391,12 @@ const LEVEL_6_DATA = [
     "word_family": "orient · oriental · orientation (n.) · oriented",
     "antonym": null,
     "exam": {
-      "count": 10,
-      "papers": 4,
-      "stars": 2,
+      "count": 8,
+      "papers": 3,
+      "gsat_papers": 2,
+      "ast_papers": 1,
+      "recent_papers": 1,
+      "stars": 1,
       "example": "In ancient India, for example, maps were most likely oriented to the east.",
       "source": "115學測"
     }
@@ -40126,6 +42451,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "A giant weta can grow to over three inches long and weigh as much as 1.5 ounces.",
       "source": "99學測"
@@ -40135,7 +42463,7 @@ const LEVEL_6_DATA = [
     "word": "peril",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/pˈɛrəl/",
+    "kk": "/ˈpɛrəl/",
     "chinese": "危險；危難；冒險",
     "collocations": [
       {
@@ -40180,6 +42508,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -40189,7 +42520,7 @@ const LEVEL_6_DATA = [
     "word": "pastime",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/pˈæstˌaɪm/",
+    "kk": "/ˈpæsˌtaɪm/",
     "chinese": "消遣；娛樂；嗜好",
     "collocations": [
       {
@@ -40234,6 +42565,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -40243,7 +42577,7 @@ const LEVEL_6_DATA = [
     "word": "plantation",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/plˌæntˈeɪʃən/",
+    "kk": "/ˌplænˈteʃən/",
     "chinese": "種植園；農場；造林地",
     "collocations": [
       {
@@ -40288,6 +42622,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Since the elephants need to use tea plantations as landmarks when navigating forests, they almost inevitably have to move through the farms.",
       "source": "112學測"
@@ -40297,7 +42634,7 @@ const LEVEL_6_DATA = [
     "word": "precedent",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/prˈɛsɪdənt/",
+    "kk": "/ˈprɛsɪdənt/",
     "chinese": "先例；前例；慣例",
     "collocations": [
       {
@@ -40342,6 +42679,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -40351,7 +42691,7 @@ const LEVEL_6_DATA = [
     "word": "potent",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/pˈoʊtənt/",
+    "kk": "/ˈpotənt/",
     "chinese": "有效的；有力的；有影響力的",
     "collocations": [
       {
@@ -40398,6 +42738,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "“The combination of bag-matching and explosives detection could be far more potent than either measure on its own,” Barnett wrote in a Dec. 17 letter to TSA chief.",
       "source": "92指考"
@@ -40407,7 +42750,7 @@ const LEVEL_6_DATA = [
     "word": "prospective",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/prəspˈɛktɪv/",
+    "kk": "/prəˈspɛktɪv/",
     "chinese": "預期的；未來的；有前途的",
     "collocations": [
       {
@@ -40452,6 +42795,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -40461,7 +42807,7 @@ const LEVEL_6_DATA = [
     "word": "psychiatry",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/saɪkˈaɪətri/",
+    "kk": "/saɪˈkaɪətri/",
     "chinese": "精神病學；精神醫學",
     "collocations": [
       {
@@ -40505,6 +42851,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -40514,7 +42863,7 @@ const LEVEL_6_DATA = [
     "word": "reconcile",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/rˈɛkənsˌaɪl/",
+    "kk": "/ˈrɛkənˌsaɪl/",
     "chinese": "使和解；調和；使適應",
     "collocations": [
       {
@@ -40561,6 +42910,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -40570,7 +42922,7 @@ const LEVEL_6_DATA = [
     "word": "referee",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/rˌɛfɚˈi/",
+    "kk": "/ˌrɛfəˈri/",
     "chinese": "裁判員；仲裁人；介紹人",
     "collocations": [
       {
@@ -40617,6 +42969,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -40626,7 +42981,7 @@ const LEVEL_6_DATA = [
     "word": "reckless",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/rˈɛkləs/",
+    "kk": "/ˈrɛkləs/",
     "chinese": "魯莽的；輕率的；不計後果的",
     "collocations": [
       {
@@ -40671,6 +43026,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The young will not have to pay crippling motor insurance, because their reckless hands and feet will no longer touch the wheel or the accelerator.",
       "source": "103學測"
@@ -40680,7 +43038,7 @@ const LEVEL_6_DATA = [
     "word": "respective",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/rɪspˈɛktɪv/",
+    "kk": "/rɪˈspɛktɪv/",
     "chinese": "各自的；分別的",
     "collocations": [
       {
@@ -40725,6 +43083,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": "American television hosts Conan O’Brien, Jon Stewart, and Daniel Tosh have referenced the game in comedy sketches on their respective series, Conan, The Daily Show, and Tosh.0.",
       "source": "101指考"
@@ -40734,7 +43095,7 @@ const LEVEL_6_DATA = [
     "word": "relic",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/rˈɛlɪk/",
+    "kk": "/ˈrɛlɪk/",
     "chinese": "遺物；遺跡；文物",
     "collocations": [
       {
@@ -40781,6 +43142,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -40790,7 +43154,7 @@ const LEVEL_6_DATA = [
     "word": "rugged",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/rˈahɡəd/",
+    "kk": "/ˈrʌgəd/",
     "chinese": "崎嶇的；堅固的；粗獷的",
     "collocations": [
       {
@@ -40837,6 +43201,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -40846,7 +43213,7 @@ const LEVEL_6_DATA = [
     "word": "ripple",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/rˈɪpəl/",
+    "kk": "/ˈrɪpəl/",
     "chinese": "漣漪；波動；起漣漪",
     "collocations": [
       {
@@ -40891,18 +43258,21 @@ const LEVEL_6_DATA = [
     "word_family": "",
     "antonym": null,
     "exam": {
-      "count": 2,
-      "papers": 2,
+      "count": 1,
+      "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
-      "example": "With soaring rock formations, uniquely-rippled landscapes, and mysterious underground cities, the Goreme National Park is an incredible tourist attraction in central Turkey.",
-      "source": "104指考"
+      "example": null,
+      "source": null
     }
   },
   {
     "word": "scroll",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/skrˈoʊl/",
+    "kk": "/ˈskrol/",
     "chinese": "捲軸；滾動；捲動螢幕",
     "collocations": [
       {
@@ -40949,6 +43319,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -40958,7 +43331,7 @@ const LEVEL_6_DATA = [
     "word": "shutter",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/ʃˈahtɚ/",
+    "kk": "/ˈʃʌtɚ/",
     "chinese": "百葉窗；快門；關閉（商店）",
     "collocations": [
       {
@@ -41005,6 +43378,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41014,7 +43390,7 @@ const LEVEL_6_DATA = [
     "word": "shred",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/ʃrˈɛd/",
+    "kk": "/ˈʃrɛd/",
     "chinese": "碎片；一點點；切碎",
     "collocations": [
       {
@@ -41061,6 +43437,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41070,7 +43449,7 @@ const LEVEL_6_DATA = [
     "word": "slump",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/slˈahmp/",
+    "kk": "/ˈslʌmp/",
     "chinese": "急降；蕭條；猛然倒下",
     "collocations": [
       {
@@ -41117,6 +43496,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41126,7 +43508,7 @@ const LEVEL_6_DATA = [
     "word": "sneaker(s)",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/snˈikɚ/",
+    "kk": "/ˈsnikɚ/",
     "chinese": "運動鞋；球鞋",
     "collocations": [
       {
@@ -41171,6 +43553,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41180,7 +43565,7 @@ const LEVEL_6_DATA = [
     "word": "spur",
     "pos": "v./n.",
     "chapter": "Nature and Environment",
-    "kk": "/spˈɝ/",
+    "kk": "/ˈspɝ/",
     "chinese": "刺激；鼓勵；馬刺",
     "collocations": [
       {
@@ -41227,6 +43612,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41236,7 +43624,7 @@ const LEVEL_6_DATA = [
     "word": "spontaneous",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/spɑntˈeɪniəs/",
+    "kk": "/spɑnˈteniəs/",
     "chinese": "自發的；自然的；即興的",
     "collocations": [
       {
@@ -41283,6 +43671,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "His humane, spontaneous photographs helped establish photojournalism as an art form.",
       "source": "104學測"
@@ -41292,7 +43683,7 @@ const LEVEL_6_DATA = [
     "word": "stature",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/stˈætʃɚ/",
+    "kk": "/ˈstætʃɚ/",
     "chinese": "身材；聲望；地位",
     "collocations": [
       {
@@ -41339,6 +43730,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41348,7 +43742,7 @@ const LEVEL_6_DATA = [
     "word": "stepmother",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/stˈɛpmˌahðɚ/",
+    "kk": "/ˈstɛpˌmʌðɚ/",
     "chinese": "繼母",
     "collocations": [
       {
@@ -41392,6 +43786,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41401,7 +43798,7 @@ const LEVEL_6_DATA = [
     "word": "suppress",
     "pos": "v./n.",
     "chapter": "Nature and Environment",
-    "kk": "/səprˈɛs/",
+    "kk": "/səˈprɛs/",
     "chinese": "壓制；鎮壓；抑制",
     "collocations": [
       {
@@ -41448,6 +43845,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "They found that lowering GABA levels in zebrafish can trigger retina regeneration, while a high level of GABA concentration will suppress the regeneration process.",
       "source": "111學測"
@@ -41457,7 +43857,7 @@ const LEVEL_6_DATA = [
     "word": "symphony",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/sˈɪmfəni/",
+    "kk": "/ˈsɪmfəni/",
     "chinese": "交響樂；和諧",
     "collocations": [
       {
@@ -41502,6 +43902,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The building is a symphony of triangles, ovals, arcs, circles, and squares.",
       "source": "93指考"
@@ -41511,7 +43914,7 @@ const LEVEL_6_DATA = [
     "word": "superstitious",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/sˌupɚstˈɪʃəs/",
+    "kk": "/ˌsupɚˈstɪʃəs/",
     "chinese": "迷信的；信奉迷信的",
     "collocations": [
       {
@@ -41556,6 +43959,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41565,7 +43971,7 @@ const LEVEL_6_DATA = [
     "word": "tedious",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/tˈidiəs/",
+    "kk": "/ˈtidiəs/",
     "chinese": "乏味的；冗長的；無聊的",
     "collocations": [
       {
@@ -41610,6 +44016,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -41619,7 +44028,7 @@ const LEVEL_6_DATA = [
     "word": "tiptoe",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/tˈɪptˌoʊ/",
+    "kk": "/ˈtɪpˌto/",
     "chinese": "腳尖；踮著腳走；輕手輕腳",
     "collocations": [
       {
@@ -41666,6 +44075,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41675,7 +44087,7 @@ const LEVEL_6_DATA = [
     "word": "trifle",
     "pos": "n./v.",
     "chapter": "Nature and Environment",
-    "kk": "/trˈaɪfəl/",
+    "kk": "/ˈtraɪfəl/",
     "chinese": "小事；瑣事；玩弄；少量",
     "collocations": [
       {
@@ -41722,6 +44134,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41731,7 +44146,7 @@ const LEVEL_6_DATA = [
     "word": "uprising",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/əprˈaɪzɪŋ/",
+    "kk": "/ˈʌpˌraɪzɪŋ/",
     "chinese": "起義；暴動；叛亂",
     "collocations": [
       {
@@ -41778,6 +44193,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41787,7 +44205,7 @@ const LEVEL_6_DATA = [
     "word": "violinist",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/vaɪəlˈɪnəst/",
+    "kk": "/vaɪəˈlɪnəst/",
     "chinese": "小提琴家；小提琴手",
     "collocations": [
       {
@@ -41831,6 +44249,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41840,7 +44261,7 @@ const LEVEL_6_DATA = [
     "word": "vibration",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/vaɪbrˈeɪʃən/",
+    "kk": "/vaɪˈbreʃən/",
     "chinese": "振動；震動；氣氛",
     "collocations": [
       {
@@ -41887,6 +44308,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -41896,7 +44320,7 @@ const LEVEL_6_DATA = [
     "word": "villa",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/vˈɪlə/",
+    "kk": "/ˈvɪlə/",
     "chinese": "別墅；鄉間大宅",
     "collocations": [
       {
@@ -41941,6 +44365,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Members can access thousands of listings for apartments, villas, suburban homes and farms around the world.",
       "source": "99學測"
@@ -41950,7 +44377,7 @@ const LEVEL_6_DATA = [
     "word": "wholesome",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/hˈoʊlsəm/",
+    "kk": "/ˈholsəm/",
     "chinese": "有益健康的；健全的；純樸的",
     "collocations": [
       {
@@ -41995,6 +44422,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Zoos are a tradition, and a visit to a zoo is a wholesome family activity.",
       "source": "114學測"
@@ -42004,7 +44434,7 @@ const LEVEL_6_DATA = [
     "word": "withhold",
     "pos": "v.",
     "chapter": "Nature and Environment",
-    "kk": "/wɪθhˈoʊld/",
+    "kk": "/wɪθˈhold/",
     "chinese": "扣留；隱瞞；克制",
     "collocations": [
       {
@@ -42051,6 +44481,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -42060,7 +44493,7 @@ const LEVEL_6_DATA = [
     "word": "lush",
     "pos": "adj.",
     "chapter": "Nature and Environment",
-    "kk": "/lˈahʃ/",
+    "kk": "/ˈlʌʃ/",
     "chinese": "茂盛的；豐盛的；奢華的",
     "collocations": [
       {
@@ -42105,6 +44538,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -42114,7 +44550,7 @@ const LEVEL_6_DATA = [
     "word": "catastrophe",
     "pos": "n.",
     "chapter": "Nature and Environment",
-    "kk": "/kətˈæstrəfi/",
+    "kk": "/kəˈtæstrəfi/",
     "chinese": "大災難；大禍；慘敗",
     "collocations": [
       {
@@ -42159,6 +44595,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "In order to protect the diversity of crops from catastrophe, the Svalbard Global Seed Vault, a seed bank, was built beneath a mountain on an Arctic island halfway between Norway and the North Pole.",
       "source": "107指考"
@@ -42168,7 +44607,7 @@ const LEVEL_6_DATA = [
     "word": "diabetes",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/dˌaɪəbˈitiz/",
+    "kk": "/ˌdaɪəˈbitiz/",
     "chinese": "糖尿病",
     "collocations": [
       {
@@ -42207,6 +44646,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "If all of your nails are showing white spots, the leukonychia could be related to another more serious condition such as anemia, cardiac disease, diabetes, or kidney disease.",
       "source": "107指考"
@@ -42216,7 +44658,7 @@ const LEVEL_6_DATA = [
     "word": "preventive",
     "pos": "adj./n.",
     "chapter": "Body and Health",
-    "kk": "/prɪvˈɛntɪv/",
+    "kk": "/prɪˈvɛntɪv/",
     "chinese": "預防的；防止的；預防措施",
     "collocations": [
       {
@@ -42257,6 +44699,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 1,
+      "ast_papers": 3,
+      "recent_papers": 2,
       "stars": 2,
       "example": null,
       "source": null
@@ -42266,7 +44711,7 @@ const LEVEL_6_DATA = [
     "word": "psychotherapy",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/sˌaɪkoʊθˈɛrəpi/",
+    "kk": "/ˌsaɪkoˈθɛrəpi/",
     "chinese": "心理治療；精神治療",
     "collocations": [
       {
@@ -42307,6 +44752,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -42316,7 +44764,7 @@ const LEVEL_6_DATA = [
     "word": "longevity",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/lɔndʒˈɛvəti/",
+    "kk": "/lɔnˈdʒɛvəti/",
     "chinese": "長壽；長久；持久性",
     "collocations": [
       {
@@ -42359,6 +44807,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "They are also known for their longevity, typically 500 to 1000 years, but sometimes more than 2000 years.",
       "source": "100學測"
@@ -42368,7 +44819,7 @@ const LEVEL_6_DATA = [
     "word": "checkup",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/tʃˈɛkˌahp/",
+    "kk": "/ˈtʃɛkˌʌp/",
     "chinese": "健康檢查；全面檢查",
     "collocations": [
       {
@@ -42413,6 +44864,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -42422,7 +44876,7 @@ const LEVEL_6_DATA = [
     "word": "abundance",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/əbˈahndəns/",
+    "kk": "/əˈbʌndəns/",
     "chinese": "豐富；大量；充裕",
     "collocations": [
       {
@@ -42467,6 +44921,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -42476,7 +44933,7 @@ const LEVEL_6_DATA = [
     "word": "annoyance",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/ənˈɔɪəns/",
+    "kk": "/əˈnɔɪəns/",
     "chinese": "煩惱；惱怒；令人厭煩的事",
     "collocations": [
       {
@@ -42523,6 +44980,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Depending on your pet’s mood, the picture will capture an interested, curious expression or possibly a look of annoyance, especially if you’ve awakened it from a nap.",
       "source": "101學測"
@@ -42532,7 +44992,7 @@ const LEVEL_6_DATA = [
     "word": "assassinate",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/əsˈæsənˌeɪt/",
+    "kk": "/əˈsæsəˌnet/",
     "chinese": "暗殺；行刺",
     "collocations": [
       {
@@ -42577,6 +45037,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -42631,6 +45094,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The Maniq, a group of hunter-gatherers in southern Thailand, can describe smells using at least fifteen different terms, which express only smells and are not applicable across other sensory domains.",
       "source": "108指考"
@@ -42640,7 +45106,7 @@ const LEVEL_6_DATA = [
     "word": "auditorium",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/ˌɔdətˈɔriəm/",
+    "kk": "/ˌɔdəˈtɔriəm/",
     "chinese": "禮堂；大會堂；觀眾席",
     "collocations": [
       {
@@ -42685,6 +45151,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -42694,7 +45163,7 @@ const LEVEL_6_DATA = [
     "word": "blond/blonde",
     "pos": "n./adj.",
     "chapter": "Body and Health",
-    "kk": "/blˈɑnd/",
+    "kk": "/ˈblɑnd/",
     "chinese": "金髮的；金髮者",
     "collocations": [
       {
@@ -42739,6 +45208,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Cindy looks like an average doll, with long, blond hair, baby-blue eyes, and a button nose.",
       "source": "93指考"
@@ -42748,7 +45220,7 @@ const LEVEL_6_DATA = [
     "word": "bleach",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/blˈitʃ/",
+    "kk": "/ˈblitʃ/",
     "chinese": "漂白；漂白劑；使變白",
     "collocations": [
       {
@@ -42792,6 +45264,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "This process, known as “coral bleaching,” has happened more and more frequently in recent years.",
       "source": "102學測"
@@ -42801,7 +45276,7 @@ const LEVEL_6_DATA = [
     "word": "broil",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/brˈɔɪl/",
+    "kk": "/ˈbrɔɪl/",
     "chinese": "用直火烤；炙烤；使暴曬",
     "collocations": [
       {
@@ -42848,6 +45323,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -42857,7 +45335,7 @@ const LEVEL_6_DATA = [
     "word": "breakup",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/brˈeɪkˌahp/",
+    "kk": "/ˈbrekˌʌp/",
     "chinese": "分手；解散；崩潰",
     "collocations": [
       {
@@ -42904,6 +45382,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -42913,7 +45394,7 @@ const LEVEL_6_DATA = [
     "word": "celery",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/sˈɛlɚi/",
+    "kk": "/ˈsɛlɚi/",
     "chinese": "芹菜",
     "collocations": [
       {
@@ -42956,6 +45437,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -42965,7 +45449,7 @@ const LEVEL_6_DATA = [
     "word": "cape",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/kˈeɪp/",
+    "kk": "/ˈkep/",
     "chinese": "海角；岬；披肩",
     "collocations": [
       {
@@ -43012,6 +45496,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -43021,7 +45508,7 @@ const LEVEL_6_DATA = [
     "word": "cigar",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/sɪɡˈɑr/",
+    "kk": "/sɪˈgɑr/",
     "chinese": "雪茄",
     "collocations": [
       {
@@ -43065,6 +45552,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -43074,7 +45564,7 @@ const LEVEL_6_DATA = [
     "word": "consonant",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/kˈɑnsənənt/",
+    "kk": "/ˈkɑnsənənt/",
     "chinese": "子音；輔音；和諧一致的",
     "collocations": [
       {
@@ -43118,6 +45608,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -43127,7 +45620,7 @@ const LEVEL_6_DATA = [
     "word": "concise",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/kənsˈaɪs/",
+    "kk": "/kənˈsaɪs/",
     "chinese": "簡潔的；扼要的；精練的",
     "collocations": [
       {
@@ -43172,6 +45665,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -43181,7 +45677,7 @@ const LEVEL_6_DATA = [
     "word": "corpse",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/kˈɔrps/",
+    "kk": "/ˈkɔrps/",
     "chinese": "屍體；死屍",
     "collocations": [
       {
@@ -43226,6 +45722,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -43235,7 +45734,7 @@ const LEVEL_6_DATA = [
     "word": "cramp",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/krˈæmp/",
+    "kk": "/ˈkræmp/",
     "chinese": "痙攣；抽筋；限制",
     "collocations": [
       {
@@ -43282,6 +45781,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -43291,7 +45793,7 @@ const LEVEL_6_DATA = [
     "word": "crossing",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/krˈɔsɪŋ/",
+    "kk": "/ˈkrɔsɪŋ/",
     "chinese": "路口；穿越；十字路口",
     "collocations": [
       {
@@ -43338,6 +45840,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "On August 4, 1914, Sir Ernest Shackleton, along with a skilled crew of 27, set sail on the Endurance toward the South Pole, hoping to make the first land crossing over Antarctica.",
       "source": "115學測"
@@ -43347,7 +45852,7 @@ const LEVEL_6_DATA = [
     "word": "deem",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/dˈim/",
+    "kk": "/ˈdim/",
     "chinese": "認為；視為；判斷",
     "collocations": [
       {
@@ -43392,6 +45897,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Deemed a public hazard, the project was immediately dropped, and traffic lights were banned until their return in 1929 back to the British streets.",
       "source": "114學測"
@@ -43401,7 +45909,7 @@ const LEVEL_6_DATA = [
     "word": "definitive",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/dɪfˈɪnɪtɪv/",
+    "kk": "/dɪˈfɪnɪtɪv/",
     "chinese": "確定的；最終的；權威的",
     "collocations": [
       {
@@ -43448,6 +45956,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -43457,7 +45968,7 @@ const LEVEL_6_DATA = [
     "word": "dental",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/dˈɛntəl/",
+    "kk": "/ˈdɛntəl/",
     "chinese": "牙齒的；牙科的",
     "collocations": [
       {
@@ -43501,6 +46012,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The absence of smiles stemmed partly from the attempt to hide their decayed teeth caused by poor dental hygiene.",
       "source": "115學測"
@@ -43510,7 +46024,7 @@ const LEVEL_6_DATA = [
     "word": "dispense",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/dɪspˈɛns/",
+    "kk": "/dɪˈspɛns/",
     "chinese": "分配；施予；免除；配藥",
     "collocations": [
       {
@@ -43557,6 +46071,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -43566,7 +46083,7 @@ const LEVEL_6_DATA = [
     "word": "disciplinary",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/dˈɪsəplənˌɛri/",
+    "kk": "/ˈdɪsəpləˌnɛri/",
     "chinese": "紀律的；懲戒的；訓練的",
     "collocations": [
       {
@@ -43611,6 +46128,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -43620,7 +46140,7 @@ const LEVEL_6_DATA = [
     "word": "eclipse",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/ɪklˈɪps/",
+    "kk": "/ɪˈklɪps/",
     "chinese": "日蝕；月蝕；使黯然失色",
     "collocations": [
       {
@@ -43666,6 +46186,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -43675,7 +46198,7 @@ const LEVEL_6_DATA = [
     "word": "dwell",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/dwˈɛl/",
+    "kk": "/ˈdwɛl/",
     "chinese": "居住；詳述；沉浸於",
     "collocations": [
       {
@@ -43722,6 +46245,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -43731,7 +46257,7 @@ const LEVEL_6_DATA = [
     "word": "elevate",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/ˈɛləvˌeɪt/",
+    "kk": "/ˈɛləˌvet/",
     "chinese": "提升；舉起；使崇高",
     "collocations": [
       {
@@ -43778,6 +46304,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -43787,7 +46316,7 @@ const LEVEL_6_DATA = [
     "word": "esteem",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/əstˈim/",
+    "kk": "/əˈstim/",
     "chinese": "尊重；崇敬；高度評價",
     "collocations": [
       {
@@ -43832,18 +46361,21 @@ const LEVEL_6_DATA = [
     "word_family": "esteem · esteemed · self-esteem",
     "antonym": "disesteem, disrespect",
     "exam": {
-      "count": 5,
-      "papers": 3,
+      "count": 1,
+      "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
-      "example": "It can forge better relationships and help you cope with life, but sometimes it can also damage self-esteem and antagonize others.",
-      "source": "101指考"
+      "example": null,
+      "source": null
     }
   },
   {
     "word": "extracurricular",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/ˌɛkstrəkɚˈɪkjəlɚ/",
+    "kk": "/ˌɛkstrəkəˈrɪkjəlɚ/",
     "chinese": "課外的；課程以外的",
     "collocations": [
       {
@@ -43888,6 +46420,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -43897,7 +46432,7 @@ const LEVEL_6_DATA = [
     "word": "familiarity",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/fəmˌɪljˈɛrəti/",
+    "kk": "/fəˌmɪlˈjɛrəti/",
     "chinese": "熟悉；親密；隨便",
     "collocations": [
       {
@@ -43942,6 +46477,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "He quoted extensively from an article in the Lancet about genetic research, feeling sure his audience would be impressed by his familiarity with this prestigious British medical journal.",
       "source": "94指考"
@@ -43951,7 +46489,7 @@ const LEVEL_6_DATA = [
     "word": "fracture",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/frˈæktʃɚ/",
+    "kk": "/ˈfræktʃɚ/",
     "chinese": "骨折；破裂；使斷裂",
     "collocations": [
       {
@@ -43998,6 +46536,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44007,7 +46548,7 @@ const LEVEL_6_DATA = [
     "word": "forsake",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/fɔrsˈeɪk/",
+    "kk": "/fɔrˈsek/",
     "chinese": "拋棄；放棄；離棄",
     "collocations": [
       {
@@ -44054,6 +46595,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44063,7 +46607,7 @@ const LEVEL_6_DATA = [
     "word": "gauge",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/ɡˈeɪdʒ/",
+    "kk": "/ˈgedʒ/",
     "chinese": "測量；估計；計量器",
     "collocations": [
       {
@@ -44110,6 +46654,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44119,7 +46666,7 @@ const LEVEL_6_DATA = [
     "word": "geographical",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/dʒˌiəɡrˈæfɪkəl/",
+    "kk": "/ˌdʒiəˈgræfɪkəl/",
     "chinese": "地理的；地理學的",
     "collocations": [
       {
@@ -44164,6 +46711,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "An area code is a section of a telephone number which generally represents the geographical area that the phone receiving the call is based in.",
       "source": "102學測"
@@ -44173,7 +46723,7 @@ const LEVEL_6_DATA = [
     "word": "hamper",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/hˈæmpɚ/",
+    "kk": "/ˈhæmpɚ/",
     "chinese": "阻礙；妨礙；大籃子",
     "collocations": [
       {
@@ -44218,6 +46768,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44227,7 +46780,7 @@ const LEVEL_6_DATA = [
     "word": "harmonica",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/hɑrmˈɑnɪkə/",
+    "kk": "/hɑrˈmɑnɪkə/",
     "chinese": "口琴",
     "collocations": [
       {
@@ -44271,6 +46824,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44280,7 +46836,7 @@ const LEVEL_6_DATA = [
     "word": "hierarchy",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/hˈaɪɚˌɑrki/",
+    "kk": "/ˈhaɪəˌrɑrki/",
     "chinese": "階層制度；等級制度；官僚體系",
     "collocations": [
       {
@@ -44327,6 +46883,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44336,7 +46895,7 @@ const LEVEL_6_DATA = [
     "word": "heighten",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/hˈaɪtən/",
+    "kk": "/ˈhaɪtən/",
     "chinese": "增強；提高；加深",
     "collocations": [
       {
@@ -44383,6 +46942,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "This performance before each match, which is intended to heighten their morale and intimidate opponents, is a sight to behold.",
       "source": "109指考"
@@ -44392,7 +46954,7 @@ const LEVEL_6_DATA = [
     "word": "imposing",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/ɪmpˈoʊzɪŋ/",
+    "kk": "/ɪmˈpozɪŋ/",
     "chinese": "宏偉的；令人印象深刻的；氣勢磅礡的",
     "collocations": [
       {
@@ -44439,6 +47001,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44448,7 +47013,7 @@ const LEVEL_6_DATA = [
     "word": "hygiene",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/hˈaɪdʒˌin/",
+    "kk": "/ˈhaɪˌdʒin/",
     "chinese": "衛生；健康習慣；衛生學",
     "collocations": [
       {
@@ -44493,6 +47058,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 3,
+      "ast_papers": 0,
+      "recent_papers": 3,
       "stars": 1,
       "example": "The absence of smiles stemmed partly from the attempt to hide their decayed teeth caused by poor dental hygiene.",
       "source": "115學測"
@@ -44502,7 +47070,7 @@ const LEVEL_6_DATA = [
     "word": "inquire",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/ɪnkwˈaɪr/",
+    "kk": "/ɪnˈkwaɪr/",
     "chinese": "詢問；查詢；調查",
     "collocations": [
       {
@@ -44549,6 +47117,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -44558,7 +47129,7 @@ const LEVEL_6_DATA = [
     "word": "intervene",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/ˌɪntɚvˈin/",
+    "kk": "/ˌɪntɚˈvin/",
     "chinese": "介入；干預；調停",
     "collocations": [
       {
@@ -44605,6 +47176,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44614,7 +47188,7 @@ const LEVEL_6_DATA = [
     "word": "jasmine",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/dʒˈæzmən/",
+    "kk": "/ˈdʒæzmən/",
     "chinese": "茉莉花；茉莉",
     "collocations": [
       {
@@ -44657,6 +47231,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44713,6 +47290,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44722,7 +47302,7 @@ const LEVEL_6_DATA = [
     "word": "lengthy",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/lˈɛŋθi/",
+    "kk": "/ˈlɛŋθi/",
     "chinese": "冗長的；漫長的；過長的",
     "collocations": [
       {
@@ -44767,6 +47347,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -44776,7 +47359,7 @@ const LEVEL_6_DATA = [
     "word": "lease",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/lˈis/",
+    "kk": "/ˈlis/",
     "chinese": "租約；租賃；出租",
     "collocations": [
       {
@@ -44823,6 +47406,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44832,7 +47418,7 @@ const LEVEL_6_DATA = [
     "word": "locker",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/lˈɑkɚ/",
+    "kk": "/ˈlɑkɚ/",
     "chinese": "置物櫃；寄物櫃",
     "collocations": [
       {
@@ -44877,6 +47463,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -44886,7 +47475,7 @@ const LEVEL_6_DATA = [
     "word": "magnify",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/mˈæɡnəfˌaɪ/",
+    "kk": "/ˈmægnəˌfaɪ/",
     "chinese": "放大；誇大；增強",
     "collocations": [
       {
@@ -44933,6 +47522,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -44942,7 +47534,7 @@ const LEVEL_6_DATA = [
     "word": "mediate",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/mˈidiˌeɪt/",
+    "kk": "/ˈmidiˌet/",
     "chinese": "調解；斡旋；居間協調",
     "collocations": [
       {
@@ -44987,6 +47579,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -44996,7 +47591,7 @@ const LEVEL_6_DATA = [
     "word": "merchandise",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/mˈɝtʃəndˌaɪz/",
+    "kk": "/ˈmɝtʃənˌdaɪz/",
     "chinese": "商品；貨物；買賣",
     "collocations": [
       {
@@ -45041,6 +47636,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Profits from resulting music sales, concerts, and merchandise are split three ways: investors get to divide 40%; another 40% goes to MMC; the artist pockets 20%.",
       "source": "102指考"
@@ -45050,7 +47648,7 @@ const LEVEL_6_DATA = [
     "word": "monstrous",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/mˈɑnstrəs/",
+    "kk": "/ˈmɑnstrəs/",
     "chinese": "龐大的；可怕的；怪物似的",
     "collocations": [
       {
@@ -45097,6 +47695,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -45106,7 +47707,7 @@ const LEVEL_6_DATA = [
     "word": "modernize",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/mˈɑdɚnˌaɪz/",
+    "kk": "/ˈmɑdɚˌnaɪz/",
     "chinese": "使現代化；革新",
     "collocations": [
       {
@@ -45151,6 +47752,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -45160,7 +47764,7 @@ const LEVEL_6_DATA = [
     "word": "narrate",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/nˈɛrˌeɪt/",
+    "kk": "/ˈnɛˌret/",
     "chinese": "敘述；講述；旁白",
     "collocations": [
       {
@@ -45207,6 +47811,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "He is the one in charge of the whole show, manipulating the main puppets, singing, and narrating.",
       "source": "101指考"
@@ -45216,7 +47823,7 @@ const LEVEL_6_DATA = [
     "word": "novice",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/nˈɑvəs/",
+    "kk": "/ˈnɑvəs/",
     "chinese": "新手；初學者；見習者",
     "collocations": [
       {
@@ -45261,6 +47868,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -45270,7 +47880,7 @@ const LEVEL_6_DATA = [
     "word": "outgoing",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/ˈaʊtɡˌoʊɪŋ/",
+    "kk": "/ˈaʊtˌgoɪŋ/",
     "chinese": "外向的；開朗的；即將離任的",
     "collocations": [
       {
@@ -45317,6 +47927,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 3,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 2,
       "example": "The same strategy for docking a vessel during an incoming tide may not work during an outgoing tide.",
       "source": "109學測"
@@ -45326,7 +47939,7 @@ const LEVEL_6_DATA = [
     "word": "outright",
     "pos": "adj./adv.",
     "chapter": "Body and Health",
-    "kk": "/ˈaʊtrˈaɪt/",
+    "kk": "/ˈaʊtˈraɪt/",
     "chinese": "完全的；直接的；公開地",
     "collocations": [
       {
@@ -45373,6 +47986,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -45426,6 +48042,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "For want of dedicated odor terminology, English speakers are often forced to use odor-sources such as “flowery” and “vanilla” and metaphors like “sweet” and “oriental” in their descriptions of smell.",
       "source": "108指考"
@@ -45435,7 +48054,7 @@ const LEVEL_6_DATA = [
     "word": "outbreak",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/ˈaʊtbrˌeɪk/",
+    "kk": "/ˈaʊtˌbrek/",
     "chinese": "爆發；突發；暴動",
     "collocations": [
       {
@@ -45482,6 +48101,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 8,
       "papers": 5,
+      "gsat_papers": 2,
+      "ast_papers": 3,
+      "recent_papers": 1,
       "stars": 2,
       "example": "That is what made the major outbreaks of West Nile in the U.S. in the summer of 2012 so scary.",
       "source": "107學測"
@@ -45491,7 +48113,7 @@ const LEVEL_6_DATA = [
     "word": "peacock",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/pˈikˌɑk/",
+    "kk": "/ˈpiˌkɑk/",
     "chinese": "孔雀；愛炫耀的人",
     "collocations": [
       {
@@ -45536,6 +48158,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": "However, the peacock receives only scorn from the rest of the world.",
       "source": "104學測"
@@ -45545,7 +48170,7 @@ const LEVEL_6_DATA = [
     "word": "peninsula",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/pənˈɪnsələ/",
+    "kk": "/pəˈnɪnsələ/",
     "chinese": "半島",
     "collocations": [
       {
@@ -45588,6 +48213,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -45597,7 +48225,7 @@ const LEVEL_6_DATA = [
     "word": "pickpocket",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/pˈɪkpˌɑkət/",
+    "kk": "/ˈpɪkˌpɑkət/",
     "chinese": "扒手；扒竊",
     "collocations": [
       {
@@ -45641,6 +48269,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -45650,7 +48281,7 @@ const LEVEL_6_DATA = [
     "word": "porter",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/pˈɔrtɚ/",
+    "kk": "/ˈpɔrtɚ/",
     "chinese": "搬運工；行李員；門衛",
     "collocations": [
       {
@@ -45697,6 +48328,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -45706,7 +48340,7 @@ const LEVEL_6_DATA = [
     "word": "poultry",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/pˈoʊltri/",
+    "kk": "/ˈpoltri/",
     "chinese": "家禽；禽肉",
     "collocations": [
       {
@@ -45753,6 +48387,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -45762,7 +48399,7 @@ const LEVEL_6_DATA = [
     "word": "proficiency",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/prəfˈɪʃənsi/",
+    "kk": "/prəˈfɪʃənsi/",
     "chinese": "精通；熟練；熟練程度",
     "collocations": [
       {
@@ -45807,6 +48444,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Marine pilotage is a job that requires a high degree of proficiency as well as quick and independent thinking.",
       "source": "109學測"
@@ -45816,7 +48456,7 @@ const LEVEL_6_DATA = [
     "word": "qualification",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/kwˌɑləfəkˈeɪʃən/",
+    "kk": "/ˌkwɑləfəˈkeʃən/",
     "chinese": "資格；資格條件；限定",
     "collocations": [
       {
@@ -45863,6 +48503,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -45872,7 +48515,7 @@ const LEVEL_6_DATA = [
     "word": "radiant",
     "pos": "adj./n.",
     "chapter": "Body and Health",
-    "kk": "/rˈeɪdiənt/",
+    "kk": "/ˈrediənt/",
     "chinese": "光芒四射的；容光煥發的；輻射的",
     "collocations": [
       {
@@ -45919,6 +48562,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "After many years’ research, Dr. Cizmar’s team discovered a technique that allows for the radiant force of light to be reversed and to use the negative force to draw out certain particles.",
       "source": "102指考"
@@ -45928,7 +48574,7 @@ const LEVEL_6_DATA = [
     "word": "reap",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/rˈip/",
+    "kk": "/ˈrip/",
     "chinese": "收割；獲得；收穫",
     "collocations": [
       {
@@ -45975,6 +48621,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Understanding how to perfect your nap is vital for reaping its benefits.",
       "source": "115學測"
@@ -45984,7 +48633,7 @@ const LEVEL_6_DATA = [
     "word": "reckon",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/rˈɛkən/",
+    "kk": "/ˈrɛkən/",
     "chinese": "認為；計算；估計",
     "collocations": [
       {
@@ -46031,6 +48680,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46040,7 +48692,7 @@ const LEVEL_6_DATA = [
     "word": "relay",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/rˈilˌeɪ/",
+    "kk": "/ˈriˌle/",
     "chinese": "轉播；接力賽；傳遞",
     "collocations": [
       {
@@ -46087,6 +48739,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46096,7 +48751,7 @@ const LEVEL_6_DATA = [
     "word": "resent(ment)",
     "pos": "v./n.",
     "chapter": "Body and Health",
-    "kk": "/rɪzˈɛnt/",
+    "kk": "/rɪˈzɛnt/",
     "chinese": "憎恨；憤恨；不滿",
     "collocations": [
       {
@@ -46143,6 +48798,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -46152,7 +48810,7 @@ const LEVEL_6_DATA = [
     "word": "revival",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/rɪvˈaɪvəl/",
+    "kk": "/rɪˈvaɪvəl/",
     "chinese": "復甦；復興；再生",
     "collocations": [
       {
@@ -46199,6 +48857,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46208,7 +48869,7 @@ const LEVEL_6_DATA = [
     "word": "salute",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/səlˈut/",
+    "kk": "/səˈlut/",
     "chinese": "敬禮；致敬；行禮",
     "collocations": [
       {
@@ -46255,6 +48916,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46264,7 +48928,7 @@ const LEVEL_6_DATA = [
     "word": "scrutiny",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/skrˈutəni/",
+    "kk": "/ˈskrutəni/",
     "chinese": "仔細檢查；嚴密審視；監督",
     "collocations": [
       {
@@ -46309,6 +48973,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46318,7 +48985,7 @@ const LEVEL_6_DATA = [
     "word": "serving",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/sˈɝvɪŋ/",
+    "kk": "/ˈsɝvɪŋ/",
     "chinese": "一份（食物）；服務；現役",
     "collocations": [
       {
@@ -46362,6 +49029,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 3,
+      "ast_papers": 1,
+      "recent_papers": 2,
       "stars": 2,
       "example": "The Hebrew Bible states that Nehemiah, an official serving King Artaxerxes of ancient Persia, asked permission to travel to Judah.",
       "source": "110學測"
@@ -46371,7 +49041,7 @@ const LEVEL_6_DATA = [
     "word": "shaver",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/ʃˈeɪvɚ/",
+    "kk": "/ˈʃevɚ/",
     "chinese": "電動刮鬍刀；剃毛器",
     "collocations": [
       {
@@ -46416,6 +49086,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46425,7 +49098,7 @@ const LEVEL_6_DATA = [
     "word": "skeptical",
     "pos": "adj.",
     "chapter": "Body and Health",
-    "kk": "/skˈɛptəkəl/",
+    "kk": "/ˈskɛptəkəl/",
     "chinese": "懷疑的；持懷疑態度的",
     "collocations": [
       {
@@ -46470,6 +49143,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 0,
+      "ast_papers": 3,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -46479,7 +49155,7 @@ const LEVEL_6_DATA = [
     "word": "slash",
     "pos": "v./n.",
     "chapter": "Body and Health",
-    "kk": "/slˈæʃ/",
+    "kk": "/ˈslæʃ/",
     "chinese": "猛砍；大幅削減；斜線",
     "collocations": [
       {
@@ -46524,6 +49200,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46533,7 +49212,7 @@ const LEVEL_6_DATA = [
     "word": "sovereign",
     "pos": "adj./n.",
     "chapter": "Body and Health",
-    "kk": "/sˈɑvrən/",
+    "kk": "/ˈsɑvrən/",
     "chinese": "君主；最高統治者；主權的",
     "collocations": [
       {
@@ -46580,6 +49259,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46589,7 +49271,7 @@ const LEVEL_6_DATA = [
     "word": "starvation",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/stɑrvˈeɪʃən/",
+    "kk": "/stɑrˈveʃən/",
     "chinese": "飢餓；饑荒；極度渴望",
     "collocations": [
       {
@@ -46634,6 +49316,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46643,7 +49328,7 @@ const LEVEL_6_DATA = [
     "word": "statute",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/stˈætʃut/",
+    "kk": "/ˈstætʃut/",
     "chinese": "法規；成文法；法令",
     "collocations": [
       {
@@ -46688,6 +49373,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46697,7 +49385,7 @@ const LEVEL_6_DATA = [
     "word": "subordinate",
     "pos": "adj./n./v.",
     "chapter": "Body and Health",
-    "kk": "/səbˈɔrdənˌeɪt/",
+    "kk": "/səˈbɔrdənət/",
     "chinese": "下屬的；次要的；使服從",
     "collocations": [
       {
@@ -46744,6 +49432,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46753,7 +49444,7 @@ const LEVEL_6_DATA = [
     "word": "surge",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/sˈɝdʒ/",
+    "kk": "/ˈsɝdʒ/",
     "chinese": "急增；湧現；汹湧",
     "collocations": [
       {
@@ -46800,6 +49491,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46809,7 +49503,7 @@ const LEVEL_6_DATA = [
     "word": "summon",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/sˈahmən/",
+    "kk": "/ˈsʌmən/",
     "chinese": "召喚；傳喚；鼓起（勇氣）",
     "collocations": [
       {
@@ -46856,6 +49550,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -46865,7 +49562,7 @@ const LEVEL_6_DATA = [
     "word": "swamp",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/swˈɑmp/",
+    "kk": "/ˈswɑmp/",
     "chinese": "沼澤；使不知所措；淹沒",
     "collocations": [
       {
@@ -46912,6 +49609,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -46921,7 +49621,7 @@ const LEVEL_6_DATA = [
     "word": "textile",
     "pos": "n./adj.",
     "chapter": "Body and Health",
-    "kk": "/tˈɛkstˌaɪl/",
+    "kk": "/ˈtɛkˌstaɪl/",
     "chinese": "紡織品；布料；紡織的",
     "collocations": [
       {
@@ -46968,6 +49668,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Cartier-Bresson’s family was wealthy—his father made a fortune as a textile manufacturer—but Cartier-Bresson later joked that due to his parents’ frugal ways, it often seemed as though his family was poor.",
       "source": "104學測"
@@ -46977,7 +49680,7 @@ const LEVEL_6_DATA = [
     "word": "transmit",
     "pos": "v.",
     "chapter": "Body and Health",
-    "kk": "/trænzmˈɪt/",
+    "kk": "/trænzˈmɪt/",
     "chinese": "傳送；傳播；傳遞",
     "collocations": [
       {
@@ -47024,6 +49727,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 4,
+      "gsat_papers": 1,
+      "ast_papers": 3,
+      "recent_papers": 3,
       "stars": 2,
       "example": "When transmitted to a human, the parasite travels first to the liver and then on to the bloodstream, where it reproduces and destroys red blood cells.",
       "source": "103指考"
@@ -47033,7 +49739,7 @@ const LEVEL_6_DATA = [
     "word": "twilight",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/twˈaɪlˌaɪt/",
+    "kk": "/ˈtwaɪˌlaɪt/",
     "chinese": "黃昏；暮色；黎明前；衰退期",
     "collocations": [
       {
@@ -47080,6 +49786,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47089,7 +49798,7 @@ const LEVEL_6_DATA = [
     "word": "underestimate",
     "pos": "v./n.",
     "chapter": "Body and Health",
-    "kk": "/ˈahndɚˈɛstəmˌeɪt/",
+    "kk": "/ˌʌndɚˈɛstəˌmet/",
     "chinese": "低估；輕視",
     "collocations": [
       {
@@ -47134,6 +49843,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47143,7 +49855,7 @@ const LEVEL_6_DATA = [
     "word": "virgin",
     "pos": "n./adj.",
     "chapter": "Body and Health",
-    "kk": "/vˈɝdʒɪn/",
+    "kk": "/ˈvɝdʒɪn/",
     "chinese": "處女；未曾使用過的；原始的",
     "collocations": [
       {
@@ -47189,6 +49901,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Extra virgin oil, the finest grade, is made from the first pressing of the olives and has a very low acidity rate (under 1%).",
       "source": "109學測"
@@ -47198,7 +49913,7 @@ const LEVEL_6_DATA = [
     "word": "vice",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/vˈaɪs/",
+    "kk": "/ˈvaɪs/",
     "chinese": "惡習；缺點；副職；老虎鉗",
     "collocations": [
       {
@@ -47245,6 +49960,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -47254,7 +49972,7 @@ const LEVEL_6_DATA = [
     "word": "villain",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/vˈɪlən/",
+    "kk": "/ˈvɪlən/",
     "chinese": "惡棍；壞人；反派角色",
     "collocations": [
       {
@@ -47299,6 +50017,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -47308,7 +50029,7 @@ const LEVEL_6_DATA = [
     "word": "ward",
     "pos": "n./v.",
     "chapter": "Body and Health",
-    "kk": "/wˈɔrd/",
+    "kk": "/ˈwɔrd/",
     "chinese": "病房；病區；監護；防禦",
     "collocations": [
       {
@@ -47355,6 +50076,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47364,7 +50088,7 @@ const LEVEL_6_DATA = [
     "word": "woe",
     "pos": "n.",
     "chapter": "Body and Health",
-    "kk": "/wˈoʊ/",
+    "kk": "/ˈwo/",
     "chinese": "悲哀；苦難；禍患",
     "collocations": [
       {
@@ -47411,6 +50135,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47420,7 +50147,7 @@ const LEVEL_6_DATA = [
     "word": "compute",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/kəmpjˈut/",
+    "kk": "/kəmˈpjut/",
     "chinese": "計算；估算",
     "collocations": [
       {
@@ -47461,6 +50188,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47470,7 +50200,7 @@ const LEVEL_6_DATA = [
     "word": "calculator",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/kˈælkjəlˌeɪtɚ/",
+    "kk": "/ˈkælkjəˌletɚ/",
     "chinese": "計算機；計算器",
     "collocations": [
       {
@@ -47510,6 +50240,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47519,7 +50252,7 @@ const LEVEL_6_DATA = [
     "word": "accumulate",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/əkjˈumjəlˌeɪt/",
+    "kk": "/əˈkjumjəˌlet/",
     "chinese": "積累；積聚；堆積",
     "collocations": [
       {
@@ -47566,6 +50299,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 1,
+      "ast_papers": 3,
+      "recent_papers": 3,
       "stars": 2,
       "example": "Much of the forest land where tea is grown in Assam is flat and thus farmers must dig drainage trenches to prevent water from accumulating and hurting the shrubs.",
       "source": "112學測"
@@ -47575,7 +50311,7 @@ const LEVEL_6_DATA = [
     "word": "academy",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/əkˈædəmi/",
+    "kk": "/əˈkædəmi/",
     "chinese": "學院；學術機構；學會",
     "collocations": [
       {
@@ -47622,6 +50358,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47631,7 +50370,7 @@ const LEVEL_6_DATA = [
     "word": "affirm",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/əfˈɝm/",
+    "kk": "/əˈfɝm/",
     "chinese": "確認；肯定；聲明",
     "collocations": [
       {
@@ -47678,6 +50417,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47687,7 +50429,7 @@ const LEVEL_6_DATA = [
     "word": "altitude",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/ˈæltətˌud/",
+    "kk": "/ˈæltəˌtud/",
     "chinese": "高度；海拔；高空",
     "collocations": [
       {
@@ -47732,11 +50474,14 @@ const LEVEL_6_DATA = [
     "word_family": "altitude (n.) · high-altitude",
     "antonym": null,
     "exam": {
-      "count": 2,
-      "papers": 2,
+      "count": 1,
+      "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
-      "example": "The town sits on the side of a volcano nearly 10,000 feet above sea level, making daily life a kind of high-altitude training.",
-      "source": "99學測"
+      "example": null,
+      "source": null
     }
   },
   {
@@ -47786,6 +50531,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47795,7 +50543,7 @@ const LEVEL_6_DATA = [
     "word": "ascend",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/əsˈɛnd/",
+    "kk": "/əˈsɛnd/",
     "chinese": "上升；攀登；登位",
     "collocations": [
       {
@@ -47842,6 +50590,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "To begin with, these staircases were quite narrow, so attackers would have to ascend one at a time, making it impossible to launch a mass attack.",
       "source": "115學測"
@@ -47851,7 +50602,7 @@ const LEVEL_6_DATA = [
     "word": "badge",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/bˈædʒ/",
+    "kk": "/ˈbædʒ/",
     "chinese": "徽章；識別證；標誌",
     "collocations": [
       {
@@ -47898,6 +50649,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -47907,7 +50661,7 @@ const LEVEL_6_DATA = [
     "word": "beverage",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/bˈɛvɚɪdʒ/",
+    "kk": "/ˈbɛvɚɪdʒ/",
     "chinese": "飲料；飲品",
     "collocations": [
       {
@@ -47952,6 +50706,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 4,
+      "gsat_papers": 4,
+      "ast_papers": 0,
+      "recent_papers": 3,
       "stars": 2,
       "example": "The consumption of alcoholic beverages was unusual in ancient Russia.",
       "source": "114學測"
@@ -47961,7 +50718,7 @@ const LEVEL_6_DATA = [
     "word": "bosom",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/bˈʊzəm/",
+    "kk": "/ˈbʊzəm/",
     "chinese": "胸部；胸懷；親密的",
     "collocations": [
       {
@@ -48008,6 +50765,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48017,7 +50777,7 @@ const LEVEL_6_DATA = [
     "word": "boycott",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/bˈɔɪkˌɑt/",
+    "kk": "/ˈbɔɪˌkɑt/",
     "chinese": "抵制；聯合拒絕",
     "collocations": [
       {
@@ -48062,6 +50822,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48071,7 +50834,7 @@ const LEVEL_6_DATA = [
     "word": "captivity",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/kæptˈɪvəti/",
+    "kk": "/kæpˈtɪvəti/",
     "chinese": "囚禁；俘虜狀態；圈養",
     "collocations": [
       {
@@ -48118,6 +50881,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "A zoo is a place where animals in captivity are put on display for humans to see.",
       "source": "114學測"
@@ -48127,7 +50893,7 @@ const LEVEL_6_DATA = [
     "word": "cellular",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/sˈɛljəlɚ/",
+    "kk": "/ˈsɛljəlɚ/",
     "chinese": "細胞的；行動的；蜂巢式的",
     "collocations": [
       {
@@ -48173,6 +50939,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48182,7 +50951,7 @@ const LEVEL_6_DATA = [
     "word": "chant",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/tʃˈænt/",
+    "kk": "/ˈtʃænt/",
     "chinese": "反覆呼喊；聖歌；吟唱",
     "collocations": [
       {
@@ -48229,6 +50998,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "The dance is accompanied by a chant that expresses emotions or tells ancient stories.",
       "source": "109指考"
@@ -48238,7 +51010,7 @@ const LEVEL_6_DATA = [
     "word": "chemist",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/kˈɛmɪst/",
+    "kk": "/ˈkɛmɪst/",
     "chinese": "化學家；藥劑師；藥房",
     "collocations": [
       {
@@ -48283,6 +51055,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48292,7 +51067,7 @@ const LEVEL_6_DATA = [
     "word": "conspiracy",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/kənspˈɪrəsi/",
+    "kk": "/kənˈspɪrəsi/",
     "chinese": "陰謀；共謀；陰謀集團",
     "collocations": [
       {
@@ -48339,6 +51114,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48348,7 +51126,7 @@ const LEVEL_6_DATA = [
     "word": "contention",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/kəntˈɛnʃən/",
+    "kk": "/kənˈtɛnʃən/",
     "chinese": "爭論；爭奪；主張",
     "collocations": [
       {
@@ -48395,6 +51173,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48404,7 +51185,7 @@ const LEVEL_6_DATA = [
     "word": "cowardly",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/kˈaʊɚdli/",
+    "kk": "/ˈkaʊɚdli/",
     "chinese": "懦弱的；膽怯的；懦夫行為",
     "collocations": [
       {
@@ -48449,6 +51230,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48458,7 +51242,7 @@ const LEVEL_6_DATA = [
     "word": "crater",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/krˈeɪtɚ/",
+    "kk": "/ˈkretɚ/",
     "chinese": "火山口；隕石坑；彈坑",
     "collocations": [
       {
@@ -48505,6 +51289,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -48514,7 +51301,7 @@ const LEVEL_6_DATA = [
     "word": "customary",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/kˈahstəmˌɛri/",
+    "kk": "/ˈkʌstəˌmɛri/",
     "chinese": "習慣的；慣例的；通常的",
     "collocations": [
       {
@@ -48559,6 +51346,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "It was customary in those days for a widow to dress in black for a short time after the death of her husband.",
       "source": "91指考"
@@ -48568,7 +51358,7 @@ const LEVEL_6_DATA = [
     "word": "cumulative",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/kjˈumjələtɪv/",
+    "kk": "/ˈkjumjələtɪv/",
     "chinese": "累積的；漸增的",
     "collocations": [
       {
@@ -48613,6 +51403,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -48622,7 +51415,7 @@ const LEVEL_6_DATA = [
     "word": "descent",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/dɪsˈɛnt/",
+    "kk": "/dɪˈsɛnt/",
     "chinese": "下降；下坡；血統；起源",
     "collocations": [
       {
@@ -48669,6 +51462,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48678,7 +51474,7 @@ const LEVEL_6_DATA = [
     "word": "detach",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/dɪtˈætʃ/",
+    "kk": "/dɪˈtætʃ/",
     "chinese": "拆下；分離；使超然",
     "collocations": [
       {
@@ -48725,6 +51521,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48734,7 +51533,7 @@ const LEVEL_6_DATA = [
     "word": "diplomacy",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/dɪplˈoʊməsi/",
+    "kk": "/dɪˈploməsi/",
     "chinese": "外交；外交手段；圓滑",
     "collocations": [
       {
@@ -48781,6 +51580,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48790,7 +51592,7 @@ const LEVEL_6_DATA = [
     "word": "disposable",
     "pos": "adj./n.",
     "chapter": "Technology and Ideas",
-    "kk": "/dɪspˈoʊzəbəl/",
+    "kk": "/dɪˈspozəbəl/",
     "chinese": "一次性的；可隨意處置的；可支配的",
     "collocations": [
       {
@@ -48836,6 +51638,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48845,7 +51650,7 @@ const LEVEL_6_DATA = [
     "word": "disclosure",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/dɪsklˈoʊʒɚ/",
+    "kk": "/dɪˈskloʒɚ/",
     "chinese": "揭露；披露；公開",
     "collocations": [
       {
@@ -48892,6 +51697,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48901,7 +51709,7 @@ const LEVEL_6_DATA = [
     "word": "dubious",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/dˈubiəs/",
+    "kk": "/ˈdubiəs/",
     "chinese": "可疑的；令人懷疑的；不確定的",
     "collocations": [
       {
@@ -48948,6 +51756,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -48957,7 +51768,7 @@ const LEVEL_6_DATA = [
     "word": "equate",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/ɪkwˈeɪt/",
+    "kk": "/ɪˈkwet/",
     "chinese": "使等同；等同於；視為相等",
     "collocations": [
       {
@@ -49002,6 +51813,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -49011,7 +51825,7 @@ const LEVEL_6_DATA = [
     "word": "eternity",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/ɪtˈɝnəti/",
+    "kk": "/ɪˈtɝnəti/",
     "chinese": "永恆；永久；無限期",
     "collocations": [
       {
@@ -49058,6 +51872,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -49067,7 +51884,7 @@ const LEVEL_6_DATA = [
     "word": "examinee",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/ɪɡˌzæmɪˈni/",
+    "kk": "/ɪgˌzæməˈni/",
     "chinese": "應試者；考生",
     "collocations": [
       {
@@ -49112,6 +51929,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -49121,7 +51941,7 @@ const LEVEL_6_DATA = [
     "word": "fireproof",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/fˈaɪɚprˌuf/",
+    "kk": "/ˈfaɪɚˌpruf/",
     "chinese": "防火的；耐火的",
     "collocations": [
       {
@@ -49166,6 +51986,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -49175,7 +51998,7 @@ const LEVEL_6_DATA = [
     "word": "fragrance",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/frˈeɪɡrəns/",
+    "kk": "/ˈfregrəns/",
     "chinese": "香氣；芬芳；香水",
     "collocations": [
       {
@@ -49222,6 +52045,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 5,
       "papers": 4,
+      "gsat_papers": 3,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 2,
       "example": "The fragrances at this scent shop are largely customized to meet the individual shopper’s taste.",
       "source": "115學測"
@@ -49231,7 +52057,7 @@ const LEVEL_6_DATA = [
     "word": "friction",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/frˈɪkʃən/",
+    "kk": "/ˈfrɪkʃən/",
     "chinese": "摩擦；衝突；不和",
     "collocations": [
       {
@@ -49278,6 +52104,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -49333,6 +52162,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The first is its geometry, which consists of an outer frame and a central part from which threads radiate outward.",
       "source": "100指考"
@@ -49342,7 +52174,7 @@ const LEVEL_6_DATA = [
     "word": "growl",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/ɡrˈaʊl/",
+    "kk": "/ˈgraʊl/",
     "chinese": "低吼；咆哮；抱怨聲",
     "collocations": [
       {
@@ -49389,6 +52221,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -49398,7 +52233,7 @@ const LEVEL_6_DATA = [
     "word": "harness",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/hˈɑrnəs/",
+    "kk": "/ˈhɑrnəs/",
     "chinese": "馬具；安全帶；利用；駕馭",
     "collocations": [
       {
@@ -49445,6 +52280,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 0,
+      "ast_papers": 3,
+      "recent_papers": 2,
       "stars": 1,
       "example": "However, more needs to be learned about hypnosis in order to harness its potential effects.",
       "source": "108指考"
@@ -49454,7 +52292,7 @@ const LEVEL_6_DATA = [
     "word": "honorary",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/ˈɑnɚˌɛri/",
+    "kk": "/ˈɑnəˌrɛri/",
     "chinese": "名譽的；榮譽的；義務擔任的",
     "collocations": [
       {
@@ -49501,6 +52339,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -49510,7 +52351,7 @@ const LEVEL_6_DATA = [
     "word": "hoarse",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/hˈɔrs/",
+    "kk": "/ˈhɔrs/",
     "chinese": "沙啞的；嘶啞的",
     "collocations": [
       {
@@ -49555,6 +52396,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -49564,7 +52408,7 @@ const LEVEL_6_DATA = [
     "word": "imprison(ment)",
     "pos": "v./n.",
     "chapter": "Technology and Ideas",
-    "kk": "/ɪmprˈɪzən/",
+    "kk": "/ɪmˈprɪzən/",
     "chinese": "監禁；入獄；囚禁",
     "collocations": [
       {
@@ -49609,6 +52453,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -49665,6 +52512,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -49674,7 +52524,7 @@ const LEVEL_6_DATA = [
     "word": "intruder",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/ɪntrˈudɚ/",
+    "kk": "/ɪnˈtrudɚ/",
     "chinese": "入侵者；闖入者；不速之客",
     "collocations": [
       {
@@ -49719,6 +52569,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -49728,7 +52581,7 @@ const LEVEL_6_DATA = [
     "word": "irritate",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/ˈɪrɪtˌeɪt/",
+    "kk": "/ˈɪrɪˌtet/",
     "chinese": "激怒；使惱怒；刺激（皮膚等）",
     "collocations": [
       {
@@ -49775,6 +52628,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 4,
+      "gsat_papers": 0,
+      "ast_papers": 4,
+      "recent_papers": 1,
       "stars": 2,
       "example": "Have you been irritated by someone standing too close in line, talking too loud or making eye contact for too long?",
       "source": "105指考"
@@ -49784,7 +52640,7 @@ const LEVEL_6_DATA = [
     "word": "lad",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/lˈæd/",
+    "kk": "/ˈlæd/",
     "chinese": "少年；男孩；小伙子",
     "collocations": [
       {
@@ -49829,6 +52685,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -49838,7 +52697,7 @@ const LEVEL_6_DATA = [
     "word": "liberate",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/lˈɪbɚˌeɪt/",
+    "kk": "/ˈlɪbəˌret/",
     "chinese": "解放；使自由；釋放",
     "collocations": [
       {
@@ -49885,6 +52744,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -49894,7 +52756,7 @@ const LEVEL_6_DATA = [
     "word": "lodge",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/lˈɑdʒ/",
+    "kk": "/ˈlɑdʒ/",
     "chinese": "寄宿；小屋；投（訴狀）；提出",
     "collocations": [
       {
@@ -49941,6 +52803,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -49950,7 +52815,7 @@ const LEVEL_6_DATA = [
     "word": "lining",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/lˈaɪnɪŋ/",
+    "kk": "/ˈlaɪnɪŋ/",
     "chinese": "內襯；裡層；（雲的）銀邊",
     "collocations": [
       {
@@ -49996,6 +52861,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50005,7 +52873,7 @@ const LEVEL_6_DATA = [
     "word": "lotion",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/lˈoʊʃən/",
+    "kk": "/ˈloʃən/",
     "chinese": "乳液；護膚液；洗液",
     "collocations": [
       {
@@ -50050,6 +52918,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -50059,7 +52930,7 @@ const LEVEL_6_DATA = [
     "word": "medieval",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/mɪdˈivəl/",
+    "kk": "/mɪˈdivəl/",
     "chinese": "中世紀的；古老的",
     "collocations": [
       {
@@ -50102,8 +52973,11 @@ const LEVEL_6_DATA = [
     "word_family": "medieval (adj.) · medievalist",
     "antonym": null,
     "exam": {
-      "count": 10,
-      "papers": 6,
+      "count": 9,
+      "papers": 5,
+      "gsat_papers": 3,
+      "ast_papers": 2,
+      "recent_papers": 5,
       "stars": 2,
       "example": "Being associated with medieval castles and kings, spiral staircases gradually won popularity in European architecture, with new materials emerging to cope with customers’ needs.",
       "source": "115學測"
@@ -50113,7 +52987,7 @@ const LEVEL_6_DATA = [
     "word": "marginal",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/mˈɑrdʒənəl/",
+    "kk": "/ˈmɑrdʒənəl/",
     "chinese": "邊緣的；微小的；微不足道的",
     "collocations": [
       {
@@ -50158,6 +53032,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 2,
       "stars": 1,
       "example": "Such diversity is held instead by some of the world’s most marginal farmers.",
       "source": "107指考"
@@ -50167,7 +53044,7 @@ const LEVEL_6_DATA = [
     "word": "migrant",
     "pos": "n./adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/mˈaɪɡrənt/",
+    "kk": "/ˈmaɪgrənt/",
     "chinese": "移民；移居者；候鳥",
     "collocations": [
       {
@@ -50214,6 +53091,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50223,7 +53103,7 @@ const LEVEL_6_DATA = [
     "word": "motherhood",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/mˈahðɚhˌʊd/",
+    "kk": "/ˈmʌðɚˌhʊd/",
     "chinese": "母親身分；母性；母親的職責",
     "collocations": [
       {
@@ -50269,6 +53149,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50278,7 +53161,7 @@ const LEVEL_6_DATA = [
     "word": "narrator",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/nˈɛreɪtɚ/",
+    "kk": "/ˈnɛretɚ/",
     "chinese": "敘述者；旁白者；講故事者",
     "collocations": [
       {
@@ -50325,6 +53208,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50334,7 +53220,7 @@ const LEVEL_6_DATA = [
     "word": "oatmeal",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/ˈoʊtmˌil/",
+    "kk": "/ˈotˌmil/",
     "chinese": "燕麥片；燕麥粥",
     "collocations": [
       {
@@ -50378,6 +53264,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50434,6 +53323,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50490,6 +53382,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50545,6 +53440,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50554,7 +53452,7 @@ const LEVEL_6_DATA = [
     "word": "overdo",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/ˈoʊvɚdˈu/",
+    "kk": "/ˌovɚˈdu/",
     "chinese": "過度；做得過分；煮得過熟",
     "collocations": [
       {
@@ -50601,6 +53499,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -50610,7 +53511,7 @@ const LEVEL_6_DATA = [
     "word": "paperback",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/pˈeɪpɚbˌæk/",
+    "kk": "/ˈpepɚˌbæk/",
     "chinese": "平裝本；平裝書",
     "collocations": [
       {
@@ -50654,6 +53555,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50663,7 +53567,7 @@ const LEVEL_6_DATA = [
     "word": "perish",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/pˈɛrɪʃ/",
+    "kk": "/ˈpɛrɪʃ/",
     "chinese": "死亡；消滅；腐壞",
     "collocations": [
       {
@@ -50710,6 +53614,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -50719,7 +53626,7 @@ const LEVEL_6_DATA = [
     "word": "playwright",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/plˈeɪrˌaɪt/",
+    "kk": "/ˈpleˌraɪt/",
     "chinese": "劇作家；編劇",
     "collocations": [
       {
@@ -50763,6 +53670,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 3,
+      "gsat_papers": 0,
+      "ast_papers": 3,
+      "recent_papers": 0,
       "stars": 1,
       "example": "His talents are revealed in a variety of disciplines: He is not only a novelist, poet and playwright, but also a renowned painter and sculptor.",
       "source": "99指考"
@@ -50772,7 +53682,7 @@ const LEVEL_6_DATA = [
     "word": "precision",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/prisˈɪʒən/",
+    "kk": "/priˈsɪʒən/",
     "chinese": "精確；精密；精準",
     "collocations": [
       {
@@ -50819,6 +53729,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -50828,7 +53741,7 @@ const LEVEL_6_DATA = [
     "word": "privatize",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/prˈɪvətˌaɪz/",
+    "kk": "/ˈprɪvəˌtaɪz/",
     "chinese": "私有化；將國有轉為私營",
     "collocations": [
       {
@@ -50872,6 +53785,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50881,7 +53797,7 @@ const LEVEL_6_DATA = [
     "word": "purify",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/pjˈʊrəfˌaɪ/",
+    "kk": "/ˈpjʊrəˌfaɪ/",
     "chinese": "淨化；提純；使純潔",
     "collocations": [
       {
@@ -50928,6 +53844,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": null,
       "source": null
@@ -50937,7 +53856,7 @@ const LEVEL_6_DATA = [
     "word": "psychic",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/sˈaɪkɪk/",
+    "kk": "/ˈsaɪkɪk/",
     "chinese": "通靈的；心靈感應的；心理的",
     "collocations": [
       {
@@ -50982,6 +53901,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -50991,7 +53913,7 @@ const LEVEL_6_DATA = [
     "word": "radiate",
     "pos": "v./adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/rˈeɪdiət/",
+    "kk": "/ˈrediˌet/",
     "chinese": "輻射；散發；發出（光等）",
     "collocations": [
       {
@@ -51038,6 +53960,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 0,
+      "ast_papers": 2,
+      "recent_papers": 0,
       "stars": 1,
       "example": "The first is its geometry, which consists of an outer frame and a central part from which threads radiate outward.",
       "source": "100指考"
@@ -51047,7 +53972,7 @@ const LEVEL_6_DATA = [
     "word": "referendum",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/rˌɛfɚˈɛndəm/",
+    "kk": "/ˌrɛfəˈrɛndəm/",
     "chinese": "公民投票；公投",
     "collocations": [
       {
@@ -51092,6 +54017,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -51101,7 +54029,7 @@ const LEVEL_6_DATA = [
     "word": "reside",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/rɪzˈaɪd/",
+    "kk": "/rɪˈzaɪd/",
     "chinese": "居住；定居；在於",
     "collocations": [
       {
@@ -51148,6 +54076,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "In 1790, President George Washington declared that the federal government would reside in a district “not exceeding ten miles square … on the river Potomac.”",
       "source": "107學測"
@@ -51157,7 +54088,7 @@ const LEVEL_6_DATA = [
     "word": "relentless",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/rɪlˈɛntlɪs/",
+    "kk": "/rɪˈlɛntlɪs/",
     "chinese": "無情的；不停的；堅持不懈的",
     "collocations": [
       {
@@ -51204,6 +54135,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Above all, there is the relentless pressure of the clock.",
       "source": "102指考"
@@ -51213,7 +54147,7 @@ const LEVEL_6_DATA = [
     "word": "retort",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/rˈitˌɔrt/",
+    "kk": "/rɪˈtɔrt/",
     "chinese": "反駁；頂嘴；反唇相譏",
     "collocations": [
       {
@@ -51260,6 +54194,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -51269,7 +54206,7 @@ const LEVEL_6_DATA = [
     "word": "revive",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/rɪvˈaɪv/",
+    "kk": "/rɪˈvaɪv/",
     "chinese": "使復甦；使恢復；重新流行",
     "collocations": [
       {
@@ -51316,6 +54253,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 1,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -51325,7 +54265,7 @@ const LEVEL_6_DATA = [
     "word": "salvage",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/sˈælvədʒ/",
+    "kk": "/ˈsælvədʒ/",
     "chinese": "搶救；打撈；挽救",
     "collocations": [
       {
@@ -51372,6 +54312,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -51381,7 +54324,7 @@ const LEVEL_6_DATA = [
     "word": "sculptor",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/skˈahlptɚ/",
+    "kk": "/ˈskʌlptɚ/",
     "chinese": "雕塑家；雕刻家",
     "collocations": [
       {
@@ -51426,6 +54369,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 4,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "His talents are revealed in a variety of disciplines: He is not only a novelist, poet and playwright, but also a renowned painter and sculptor.",
       "source": "99指考"
@@ -51435,7 +54381,7 @@ const LEVEL_6_DATA = [
     "word": "setback",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/sˈɛtbˌæk/",
+    "kk": "/ˈsɛtˌbæk/",
     "chinese": "挫折；阻礙；失敗",
     "collocations": [
       {
@@ -51480,6 +54426,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "Despite these setbacks, her star began to rise when her design for Cincinnati’s new Center for Contemporary Art was selected and built, earning her worldwide acclaim.",
       "source": "106指考"
@@ -51489,7 +54438,7 @@ const LEVEL_6_DATA = [
     "word": "shriek",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/ʃrˈik/",
+    "kk": "/ˈʃrik/",
     "chinese": "尖叫；尖銳叫聲；尖聲笑",
     "collocations": [
       {
@@ -51536,6 +54485,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -51545,7 +54497,7 @@ const LEVEL_6_DATA = [
     "word": "sly",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/slˈaɪ/",
+    "kk": "/ˈslaɪ/",
     "chinese": "狡猾的；詭詐的；暗中的",
     "collocations": [
       {
@@ -51592,6 +54544,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -51601,7 +54556,7 @@ const LEVEL_6_DATA = [
     "word": "sneaky",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/snˈiki/",
+    "kk": "/ˈsniki/",
     "chinese": "鬼鬼祟祟的；不光明正大的",
     "collocations": [
       {
@@ -51648,6 +54603,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -51657,7 +54615,7 @@ const LEVEL_6_DATA = [
     "word": "stabilize",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/stˈeɪbəlˌaɪz/",
+    "kk": "/ˈstebəˌlaɪz/",
     "chinese": "穩定；使穩定；鞏固",
     "collocations": [
       {
@@ -51702,6 +54660,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 1,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Under the new doctor’s care, the regular testing stopped and Mrs. Power’s condition stabilized.",
       "source": "104學測"
@@ -51711,7 +54672,7 @@ const LEVEL_6_DATA = [
     "word": "stun",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/stˈahn/",
+    "kk": "/ˈstʌn/",
     "chinese": "使昏迷；使震驚；使目瞪口呆",
     "collocations": [
       {
@@ -51756,6 +54717,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 2,
       "stars": 1,
       "example": "For two weeks he filled his sketchbook with the landscape’s most stunning sights.",
       "source": "113學測"
@@ -51765,7 +54729,7 @@ const LEVEL_6_DATA = [
     "word": "subscribe",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/səbskrˈaɪb/",
+    "kk": "/səbˈskraɪb/",
     "chinese": "訂閱；認購；同意",
     "collocations": [
       {
@@ -51812,6 +54776,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -51821,7 +54788,7 @@ const LEVEL_6_DATA = [
     "word": "suffocate",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/sˈahfəkˌeɪt/",
+    "kk": "/ˈsʌfəˌket/",
     "chinese": "窒息；悶死；壓抑",
     "collocations": [
       {
@@ -51868,6 +54835,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -51877,7 +54847,7 @@ const LEVEL_6_DATA = [
     "word": "synonym",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/sˈɪnənˌɪm/",
+    "kk": "/ˈsɪnəˌnɪm/",
     "chinese": "同義詞；近義詞",
     "collocations": [
       {
@@ -51921,6 +54891,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Today, the term “Fabergé eggs” has become a synonym of luxury and the eggs are regarded as masterpieces of the jeweler’s art.",
       "source": "104指考"
@@ -51930,7 +54903,7 @@ const LEVEL_6_DATA = [
     "word": "swarm",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/swˈɔrm/",
+    "kk": "/ˈswɔrm/",
     "chinese": "大群；蜂群；蜂擁",
     "collocations": [
       {
@@ -51977,6 +54950,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 3,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -51986,7 +54962,7 @@ const LEVEL_6_DATA = [
     "word": "telecommunications",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/tˌɛləkəmjˌunəkˈeɪʃənz/",
+    "kk": "/ˌtɛləkəˌmjunəˈkeʃənz/",
     "chinese": "電信；遠端通訊",
     "collocations": [
       {
@@ -52031,6 +55007,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "Six Sigma was developed in 1986 by Motorola, an American telecommunications company.",
       "source": "104指考"
@@ -52040,7 +55019,7 @@ const LEVEL_6_DATA = [
     "word": "transplant",
     "pos": "n./v.",
     "chapter": "Technology and Ideas",
-    "kk": "/trænsplˈænt/",
+    "kk": "/ˈtrænsˌplænt/",
     "chinese": "移植；器官移植；遷移",
     "collocations": [
       {
@@ -52087,6 +55066,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 8,
       "papers": 2,
+      "gsat_papers": 2,
+      "ast_papers": 0,
+      "recent_papers": 1,
       "stars": 1,
       "example": "But Oddsson’s life was saved by a creative invention: transplanting codfish skins onto human bodies.",
       "source": "113學測"
@@ -52096,7 +55078,7 @@ const LEVEL_6_DATA = [
     "word": "trillion",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/trˈɪljən/",
+    "kk": "/ˈtrɪljən/",
     "chinese": "兆；萬億",
     "collocations": [
       {
@@ -52137,8 +55119,11 @@ const LEVEL_6_DATA = [
     "word_family": "",
     "antonym": null,
     "exam": {
-      "count": 2,
-      "papers": 2,
+      "count": 1,
+      "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 1,
       "stars": 1,
       "example": "According to findings of a recent study, English speakers are capable of discriminating more than a trillion different odors.",
       "source": "108指考"
@@ -52148,7 +55133,7 @@ const LEVEL_6_DATA = [
     "word": "trustee",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/trˌahstˈi/",
+    "kk": "/ˌtrʌsˈti/",
     "chinese": "受託人；信託人；理事",
     "collocations": [
       {
@@ -52195,6 +55180,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -52204,7 +55192,7 @@ const LEVEL_6_DATA = [
     "word": "versatile",
     "pos": "adj.",
     "chapter": "Technology and Ideas",
-    "kk": "/vˈɝsətəl/",
+    "kk": "/ˈvɝsətəl/",
     "chinese": "多才多藝的；多用途的；靈活的",
     "collocations": [
       {
@@ -52251,6 +55239,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": "As the junior managing director of the Lego Group, he spent years trying to improve the “locking” ability of the bricks and made the bricks more versatile.",
       "source": "97指考"
@@ -52260,7 +55251,7 @@ const LEVEL_6_DATA = [
     "word": "vocation",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/voʊkˈeɪʃən/",
+    "kk": "/voˈkeʃən/",
     "chinese": "職業；天職；使命感",
     "collocations": [
       {
@@ -52307,6 +55298,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -52316,7 +55310,7 @@ const LEVEL_6_DATA = [
     "word": "vowel",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/vˈaʊəl/",
+    "kk": "/ˈvaʊəl/",
     "chinese": "母音；元音",
     "collocations": [
       {
@@ -52359,6 +55353,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 2,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -52368,7 +55365,7 @@ const LEVEL_6_DATA = [
     "word": "wardrobe",
     "pos": "n.",
     "chapter": "Technology and Ideas",
-    "kk": "/wˈɔrdrˌoʊb/",
+    "kk": "/ˈwɔrˌdrob/",
     "chinese": "衣櫃；全套衣物；服裝部門",
     "collocations": [
       {
@@ -52415,6 +55412,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 1,
       "papers": 1,
+      "gsat_papers": 0,
+      "ast_papers": 1,
+      "recent_papers": 0,
       "stars": 1,
       "example": null,
       "source": null
@@ -52424,7 +55424,7 @@ const LEVEL_6_DATA = [
     "word": "yearn",
     "pos": "v.",
     "chapter": "Technology and Ideas",
-    "kk": "/jˈɝn/",
+    "kk": "/ˈjɝn/",
     "chinese": "渴望；嚮往；思念",
     "collocations": [
       {
@@ -52469,6 +55469,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 0,
       "papers": 0,
+      "gsat_papers": 0,
+      "ast_papers": 0,
+      "recent_papers": 0,
       "stars": 0,
       "example": null,
       "source": null
@@ -52517,6 +55520,9 @@ const LEVEL_6_DATA = [
     "exam": {
       "count": 6,
       "papers": 4,
+      "gsat_papers": 2,
+      "ast_papers": 2,
+      "recent_papers": 1,
       "stars": 2,
       "example": "They are also used on ships and spacecraft for their greater structural integrity.",
       "source": "111學測"
