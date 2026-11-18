@@ -660,3 +660,29 @@ mark.fx-hw { background: rgba(14, 165, 233, 0.18); color: var(--primary); font-w
     .codex-tabs-bar { position: sticky; top: 0; z-index: 20; background: #fff; }
     .codex-pane { animation: none !important; }
 }
+
+/* ==========================================================================
+   Word page bottom navigation (繼續看下一個分頁 / 上一個 / 下一個 / 本章測驗)
+   ========================================================================== */
+.fx-word-nav { margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border-color); display: flex; flex-direction: column; gap: 12px; }
+.fx-nav-tab {
+    align-self: stretch; min-height: 44px; border-radius: var(--radius-md); border: 1px solid var(--border-color);
+    background: #f8fafc; color: var(--primary); font-weight: 700; font-size: 14.5px; cursor: pointer; font-family: var(--font-body);
+}
+.fx-nav-tab:hover { background: var(--secondary); }
+.fx-nav-row { display: grid; grid-template-columns: 1fr 1.6fr; gap: 10px; }
+.fx-nav-btn {
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 2px; min-height: 64px; min-width: 0;
+    padding: 10px 14px; border-radius: var(--radius-md); border: 1px solid var(--border-color); background: #fff; cursor: pointer;
+    text-align: left; font-family: var(--font-body); -webkit-tap-highlight-color: transparent;
+}
+.fx-nav-btn b { font-family: var(--font-display); font-size: 17px; color: var(--text-main); max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fx-nav-btn small { font-size: 12.5px; color: var(--text-muted); max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fx-nav-dir { font-size: 12px; font-weight: 700; color: var(--text-muted); }
+.fx-nav-next { background: var(--primary); border-color: var(--primary); align-items: flex-end; text-align: right; }
+.fx-nav-next b, .fx-nav-next .fx-nav-dir, .fx-nav-next small { color: #fff; }
+.fx-nav-next small, .fx-nav-next .fx-nav-dir { opacity: 0.85; }
+.fx-nav-done { background: linear-gradient(135deg, #f59e0b, #ea580c); border-color: #ea580c; }
+.fx-nav-ghost { visibility: hidden; }
+.fx-nav-btn:active { transform: scale(0.98); }
+.fx-nav-pos { text-align: center; font-size: 12px; color: var(--text-muted); font-weight: 600; }

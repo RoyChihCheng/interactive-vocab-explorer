@@ -407,6 +407,94 @@
     // Codex enhancements (run after the original selectWord)
     // ------------------------------------------------------------------
     const METHOD_URL = 'https://github.com/RoyChihCheng/interactive-vocab-explorer/blob/main/METHODOLOGY.md';
+
+    // ------------------------------------------------------------------
+    // Bottom-of-page navigation: next tab → next / previous word → next step
+    // (students finish a word without going back to the list)
+    // ------------------------------------------------------------------
+    const TAB_ORDER = [['meaning', '定義與搭配詞'], ['examples', '情境與例句'], ['family', '衍生字家族']];
+    function navList() {
+        try { if (Array.isArray(filteredWordsList) && filteredWordsList.length) return filteredWordsList; } catch (e) { /* not ready */ }
+        return [];
+    }
+    function navIndex(word) {
+        const list = navList();
+        return word ? list.findIndex(w => w.word === word.word) : -1;
+    }
+    function scrollWordTop() {
+        const mp = $('main-display-panel-element'), cc = document.querySelector('.codex-tab-content-container');
+        if (window.matchMedia('(max-width: 768px)').matches) { if (mp) mp.scrollTop = 0; }
+        else if (cc) cc.scrollTop = 0;
+    }
+    function goWord(step) {
+        const list = navList(), i = navIndex(currentWord);
+        const next = list[i + step];
+        if (!next) return;
+        if (typeof switchTab === 'function') switchTab('meaning');
+        window.selectWord(next);
+        scrollWordTop();
+    }
+    function goNextTab() {
+        const cur = (typeof activeTab !== 'undefined' && activeTab) || 'meaning';
+        const k = TAB_ORDER.findIndex(t => t[0] === cur);
+        if (k < 0 || k >= TAB_ORDER.length - 1) return;
+        switchTab(TAB_ORDER[k + 1][0]);
+        // bring the top of the new tab into view
+        const mp = $('main-display-panel-element'), bar = document.querySelector('.codex-tabs-bar');
+        if (window.matchMedia('(max-width: 768px)').matches) {
+            const prev = bar && bar.previousElementSibling;
+            const top = prev ? prev.offsetTop + prev.offsetHeight : 0;
+            if (mp && mp.scrollTop > top) mp.scrollTop = top;
+        } else {
+            const cc = document.querySelector('.codex-tab-content-container'); if (cc) cc.scrollTop = 0;
+        }
+    }
+    function renderWordNav(word) {
+        const host = document.querySelector('#codex-detail-view .codex-tab-content-container');
+        if (!host || !word) return;
+        let nav = $('fx-word-nav');
+        if (!nav) {
+            nav = document.createElement('nav');
+            nav.id = 'fx-word-nav';
+            nav.className = 'fx-word-nav';
+            nav.setAttribute('aria-label', '單字導覽');
+        }
+        host.appendChild(nav);   // always the last thing in the content area
+        const list = navList(), i = navIndex(word);
+        const prev = i > 0 ? list[i - 1] : null, next = i >= 0 && i < list.length - 1 ? list[i + 1] : null;
+        const cur = (typeof activeTab !== 'undefined' && activeTab) || 'meaning';
+        const k = TAB_ORDER.findIndex(t => t[0] === cur);
+        const nextTab = k >= 0 && k < TAB_ORDER.length - 1 ? TAB_ORDER[k + 1] : null;
+        let html = '';
+        if (nextTab) {
+            html += '<button type="button" class="fx-nav-tab" onclick="FX.nextTab()">繼續看「' + nextTab[1] + '」 <span aria-hidden="true">↓</span></button>';
+        }
+        html += '<div class="fx-nav-row">';
+        html += prev
+            ? '<button type="button" class="fx-nav-btn fx-nav-prev" onclick="FX.goWord(-1)"><span class="fx-nav-dir">‹ 上一個</span><b>' + esc(prev.word) + '</b></button>'
+            : '<span class="fx-nav-btn fx-nav-ghost"></span>';
+        if (next) {
+            html += '<button type="button" class="fx-nav-btn fx-nav-next" onclick="FX.goWord(1)"><span class="fx-nav-dir">下一個 ›</span><b>' + esc(next.word) + '</b><small>' + esc(next.chinese || '') + '</small></button>';
+        } else {
+            html += '<button type="button" class="fx-nav-btn fx-nav-next fx-nav-done" onclick="FX.chapterDone()"><span class="fx-nav-dir">本章最後一個 🎉</span><b>挑戰本章測驗</b><small>用題目檢查這一章記住了多少</small></button>';
+        }
+        html += '</div>';
+        if (i >= 0) html += '<div class="fx-nav-pos">' + '本章第 ' + (i + 1) + ' / ' + list.length + ' 個字' + (typeof window.matchMedia === 'function' && !window.matchMedia('(max-width: 768px)').matches ? '　·　鍵盤 ← → 也可以切換' : '') + '</div>';
+        nav.innerHTML = html;
+    }
+    function chapterDone() {
+        if (window.FX && typeof FX.openQuiz === 'function') FX.openQuiz(); else showChapterOverview();
+    }
+    // keyboard ←/→ on desktop (ignored while typing)
+    document.addEventListener('keydown', e => {
+        if (e.altKey || e.ctrlKey || e.metaKey) return;
+        if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+        const t = e.target;
+        if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+        const cv = $('codex-detail-view');
+        if (!cv || cv.style.display === 'none' || currentMode() !== 'codex') return;
+        goWord(e.key === 'ArrowRight' ? 1 : -1);
+    });
     function enhanceCodex(word) {
         // phones: the word page is one scroller — start each new word at the top
         if (window.matchMedia('(max-width: 768px)').matches && enhanceCodex.lastWord !== word) {
@@ -431,6 +519,7 @@
 
         // 1b. Roots / affixes chips (ROOTS from data_extras.js)
         renderRootsSection(word);
+        renderWordNav(word);
 
         // 2. Exam example sentence in meaning pane
         const old = $('fx-exam-section');
@@ -1906,6 +1995,15 @@
         });
     };
 
+    // tab switches refresh the 「繼續看…」 button at the bottom of the word page
+    if (typeof window.switchTab === 'function') {
+        const origSwitchTab = window.switchTab;
+        window.switchTab = function (tabId) {
+            origSwitchTab.apply(this, arguments);
+            try { if (currentWord) renderWordNav(currentWord); } catch (e) { console.error('[features] word nav', e); }
+        };
+    }
+
     window.switchMode = function (mode) {
         closeSharePop();
         if (mode === 'quiz') {
@@ -2024,6 +2122,7 @@
             selectWord(w);
         },
         checkSentence: checkSentence,
+        goWord: goWord, nextTab: goNextTab, chapterDone: chapterDone,
         // exposed for testing / debugging
         _internals: { findBlank: findBlank, headForms: headForms, pickDistractors: pickDistractors, compareSpeech: compareSpeech,
             renderShadowResult: renderShadowResult, parseFamily: parseFamily, buildRound: buildRound, dueWords: dueWords,
