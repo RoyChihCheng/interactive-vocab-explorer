@@ -1671,6 +1671,8 @@
             }
         }
     </style>
+    <!-- Interactive features (quiz, gamification, games, sharing) -->
+    <link rel="stylesheet" href="features.css">
 </head>
 <body>
 
@@ -1737,7 +1739,14 @@
                 <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; fill: currentColor;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
                 卡牌 Arena
             </button>
+            <button class="mode-btn" id="mode-quiz" onclick="switchMode('quiz')">
+                <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; fill: currentColor;"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></svg>
+                挑戰 Quiz
+            </button>
         </div>
+
+        <!-- XP / streak / review-queue chips (filled by features.js) -->
+        <div class="gami-header" id="gami-header"></div>
     </header>
 
     <!-- ==========================================================================
@@ -1820,6 +1829,8 @@
                     <p class="landing-subtitle" id="landing-chapter-desc">點擊左側主題章節即可解鎖專屬的單字，查看完整的例句、搭配詞以及衍生字型，並利用內置的語音朗讀和卡牌競技場功能來加深記憶！</p>
                     <button class="landing-btn" id="landing-start-btn" style="display: none;" onclick="startChapterExploring()">開始主題探索</button>
                 </div>
+                <!-- Confusables (易混字) + theme map for the chapter (filled by features.js) -->
+                <div id="landing-extras" class="landing-extras"></div>
             </div>
 
             <div id="codex-detail-view" class="codex-container" style="display: none;">
@@ -1836,6 +1847,7 @@
                         <div class="codex-word-title">
                             <span class="codex-word-text" id="codex-word-span">additional</span>
                             <span class="codex-word-pos-tag" id="codex-pos-span">adj.</span>
+                            <span class="exam-stars" id="codex-exam-stars" style="display: none;"></span>
                         </div>
                         <div class="codex-word-kk">
                             <span id="codex-kk-span">/əˈdɪʃənəl/</span>
@@ -1844,11 +1856,17 @@
                             </button>
                         </div>
                     </div>
-                    <button class="mastery-card-toggle" id="codex-mastery-btn" onclick="toggleCurrentWordMastery()">
-                        <!-- Star SVG -->
-                        <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                        <span>標記為已掌握</span>
-                    </button>
+                    <div class="codex-header-actions">
+                        <button class="share-word-btn" id="codex-share-btn" title="分享這個單字" onclick="shareCurrentWord(event)">
+                            <svg viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg>
+                            <span>分享</span>
+                        </button>
+                        <button class="mastery-card-toggle" id="codex-mastery-btn" onclick="toggleCurrentWordMastery()">
+                            <!-- Star SVG -->
+                            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <span>標記為已掌握</span>
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Card Nav Tabs -->
@@ -2013,6 +2031,11 @@
                 </div>
             </div>
 
+            <!-- ==========================================================================
+               ⚡ QUIZ / CHALLENGE MODE (rendered by features.js)
+               ========================================================================== -->
+            <div id="quiz-view" class="quiz-view" style="display: none;"></div>
+
         </div>
 
     </div>
@@ -2024,6 +2047,8 @@
     <script src="data_level_4.js"></script>
     <script src="data_level_5.js"></script>
     <script src="data_level_6.js"></script>
+    <!-- Optional extras (CONFUSABLES etc.); a missing file is tolerated -->
+    <script src="data_extras.js" onerror=""></script>
     <script>
         // Canonical Chapter Themes and Descriptions (to show on Landing and Banner)
         const CHAPTER_INFO = {
@@ -2458,12 +2483,12 @@
                     }
 
                     // Build example block with sentence speech sound play button
-                    let translation = "";
-                    if (idx === 0 && word.chinese_sentence) {
-                        translation = word.chinese_sentence;
-                    }
+                    // (examples[i].zh is the real translation of this example; it may be absent)
+                    const translation = ex.zh ? String(ex.zh) : "";
+                    const senseLabel = ex.sense ? `<span class="example-sense-label">${ex.sense}</span>` : "";
 
                     card.innerHTML = `
+                        ${senseLabel}
                         <div class="example-en-container">
                             <p class="example-en" id="ex-sentence-text-${idx}">${sentenceHtml}</p>
                             <button class="example-audio-btn" title="朗讀整句例句" onclick="speakSentence('${ex.en.replace(/'/g, "\\'")}')">
@@ -2793,5 +2818,6 @@
             }
         }
     </script>
+    <script src="features.js"></script>
 </body>
 </html>
