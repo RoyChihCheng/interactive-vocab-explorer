@@ -406,6 +406,7 @@
     // ------------------------------------------------------------------
     // Codex enhancements (run after the original selectWord)
     // ------------------------------------------------------------------
+    const METHOD_URL = 'https://github.com/RoyChihCheng/interactive-vocab-explorer/blob/main/METHODOLOGY.md';
     function enhanceCodex(word) {
         // 1. Exam stars in header
         const starEl = $('codex-exam-stars');
@@ -414,7 +415,9 @@
                 const n = word.exam.count;
                 starEl.style.display = 'inline-flex';
                 starEl.textContent = starsText(starCount(n, word));
-                starEl.title = '歷屆學測／指考試卷出現 ' + (word.exam.papers || 0) + ' 份（共 45 份）';
+                starEl.title = '歷屆學測／指考試卷出現 ' + (word.exam.papers || 0) + ' 份（共 45 份）· 點一下看計算方法';
+                starEl.style.cursor = 'pointer';
+                starEl.onclick = () => window.open(METHOD_URL, '_blank', 'noopener');
             } else {
                 starEl.style.display = 'none';
             }
@@ -435,7 +438,7 @@
                 '<h4 class="info-section-title">📜 歷屆考題例句 (Past Exam)</h4>' +
                 '<div class="fx-exam-card"><p class="example-en">' + highlightedSentence(word, ex) + '</p>' +
                 (word.exam.source ? '<span class="fx-exam-source">— ' + esc(word.exam.source) + '</span>' : '') +
-                '<span class="fx-exam-count">歷屆考題出現 ' + esc(word.exam.count) + ' 次</span></div>';
+                '<span class="fx-exam-count">出現在 ' + esc(word.exam.papers || 0) + ' 份試卷（學測 ' + esc(word.exam.gsat_papers || 0) + '・指考 ' + esc(word.exam.ast_papers || 0) + '）· 共 ' + esc(word.exam.count) + ' 次 · <a href="' + METHOD_URL + '" target="_blank" rel="noopener">★ 怎麼算？</a></span></div>';
             $('pane-meaning').appendChild(sec);
         }
 
@@ -2024,10 +2027,61 @@
     };
 
     // ------------------------------------------------------------------
+    // Mobile chrome: hide header + tab bar while scrolling down, show on
+    // scroll up; dim + tap-to-close backdrop for the chapter drawer
+    // ------------------------------------------------------------------
+    function initMobileChrome() {
+        const mq = window.matchMedia('(max-width: 768px)');
+        const body = document.body;
+        const last = new WeakMap();
+        const header = document.querySelector('header');
+        function setImmersive(on) {
+            if (on && header) body.style.setProperty('--fx-hdr-h', header.offsetHeight + 'px');
+            body.classList.toggle('fx-immersive', !!on);
+        }
+        document.addEventListener('scroll', e => {
+            if (!mq.matches) return;
+            const t = e.target === document ? document.scrollingElement : e.target;
+            if (!t || t.nodeType !== 1 || t.closest('.chapter-sidebar')) return;
+            const y = t.scrollTop, prev = last.has(t) ? last.get(t) : y;
+            last.set(t, y);
+            if (y < 24) setImmersive(false);
+            else if (y - prev > 6) setImmersive(true);
+            else if (prev - y > 6) setImmersive(false);
+        }, true);
+        mq.addEventListener ? mq.addEventListener('change', () => setImmersive(false)) : mq.addListener(() => setImmersive(false));
+        // any navigation (tab, mode, word, chapter) brings the chrome back
+        window.addEventListener('hashchange', () => setImmersive(false));
+        document.addEventListener('click', e => {
+            if (e.target.closest('.mtab, .mode-btn, .chapter-item, .fx-overview-btn, .mobile-back-btn')) setImmersive(false);
+        }, true);
+
+        const sb = $('chapter-sidebar');
+        if (sb) {
+            const sync = () => {
+                const open = mq.matches && !sb.classList.contains('collapsed');
+                body.classList.toggle('fx-drawer-open', open);
+                if (open) setImmersive(false);
+            };
+            new MutationObserver(sync).observe(sb, { attributes: true, attributeFilter: ['class'] });
+            mq.addEventListener ? mq.addEventListener('change', sync) : mq.addListener(sync);
+            sync();
+            const app = document.querySelector('.app-container');
+            if (app) app.addEventListener('click', e => {
+                if (!body.classList.contains('fx-drawer-open')) return;
+                if (e.target.closest('#chapter-sidebar, #sidebar-toggle-btn')) return;
+                e.preventDefault(); e.stopPropagation();
+                if (typeof toggleSidebar === 'function') toggleSidebar();
+            }, true);
+        }
+    }
+
+    // ------------------------------------------------------------------
     // Init (runs after the main app's DOMContentLoaded handler)
     // ------------------------------------------------------------------
     function init() {
         initSwipe();
+        initMobileChrome();
         updateTabbar();
         initPWA();
         // the main app's selectLevel() (lazy data load) must finish before deep links apply

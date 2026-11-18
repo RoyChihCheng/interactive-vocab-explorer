@@ -9,7 +9,7 @@
    visit; the new worker precaches the new shell, the page then shows
    「有新版本，點此更新」 and reloads once after the user taps it.
    ========================================================================== */
-const VERSION = 'b-b0a511dda1';
+const VERSION = 'b-a660ce5af1';
 const SHELL_CACHE = 'vx-shell-' + VERSION;
 const DATA_CACHE = 'vx-data-v1';        // keep in sync with features.js (DATA_CACHE)
 const FONT_CACHE = 'vx-fonts-v1';

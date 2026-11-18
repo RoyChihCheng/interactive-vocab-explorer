@@ -541,3 +541,84 @@ mark.fx-hw { background: rgba(14, 165, 233, 0.18); color: var(--primary); font-w
     .me-tiles { grid-template-columns: 1fr 1fr; }
     .me-table th:nth-child(5), .me-table td.me-badges { display: none; }
 }
+
+/* ==========================================================================
+   Round 3: compact mobile chrome — one-row header, chapter button,
+   slimmer tab bar, header/tab bar auto-hide while scrolling down
+   ========================================================================== */
+.m-chapters-btn, .h1-short { display: none; }
+
+@media (max-width: 768px) {
+    /* one-row header (~52px instead of ~380px) */
+    header {
+        flex-wrap: nowrap !important; justify-content: flex-start !important; gap: 8px !important;
+        padding: 6px 10px !important; padding-top: calc(6px + env(safe-area-inset-top, 0px)) !important;
+        transition: margin-top 0.25s ease, opacity 0.2s ease; position: relative; z-index: 2300 !important;
+    }
+    .m-chapters-btn {
+        display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+        width: 40px; height: 40px; border-radius: 10px; border: 1px solid var(--border-color);
+        background: #fff; color: var(--primary); cursor: pointer; -webkit-tap-highlight-color: transparent;
+    }
+    .m-chapters-btn svg { width: 20px; height: 20px; fill: currentColor; }
+    .header-logo { width: auto !important; flex: 1 1 auto; min-width: 0; justify-content: flex-start !important; margin: 0 !important; gap: 6px !important; }
+    .header-logo > svg { display: none; }
+    .header-logo h1 { font-size: 17px !important; white-space: nowrap; }
+    .h1-full, .header-level-badge { display: none !important; }
+    .h1-short { display: inline; }
+    /* XP / due chips live in 我的 and on the 複習 tab badge; keep only the streak */
+    .gami-header { width: auto !important; flex: 0 0 auto; gap: 0 !important; }
+    .gami-header .gami-chip:not(.gami-streak) { display: none !important; }
+    .gami-header .gami-streak { min-height: 32px; padding: 2px 8px; font-size: 12px; }
+    /* level switcher: compact segmented control 3 | 4 | 5 | 6 */
+    .header-level-container { flex: 0 0 auto; padding: 3px !important; gap: 2px !important; margin: 0 !important; }
+    .header-level-btn { min-height: 34px !important; min-width: 34px; padding: 4px 9px !important; font-size: 14px !important; }
+    .header-level-btn span:not(.num) { display: none; }
+
+    /* the floating edge tab covered the word list; the ☰ button replaces it */
+    .chapter-sidebar.collapsed + .sidebar-toggle-btn { display: none !important; }
+    .chapter-sidebar { z-index: 2400 !important; }
+    .sidebar-toggle-btn { z-index: 2450 !important; }
+    body.fx-drawer-open .app-container::after {
+        content: ''; position: absolute; inset: 0; background: rgba(15, 23, 42, 0.28); z-index: 2350;
+    }
+
+    /* search + filters: tighter */
+    .search-container { padding: 8px 10px !important; gap: 6px !important; }
+    .search-box input { font-size: 16px; padding: 8px 12px 8px 34px; } /* 16px stops iOS zoom-on-focus */
+    .pos-filters { flex-wrap: nowrap; padding-bottom: 0; scrollbar-width: none; }
+    .pos-filters::-webkit-scrollbar { display: none; }
+    .pos-chip { min-height: 34px !important; padding: 4px 14px; font-size: 13px; }
+    .fx-overview-btn { min-height: 38px; padding: 6px 10px !important; font-size: 13px !important; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .words-scroll { padding: 4px 6px !important; gap: 0 !important; }
+    .word-row { min-height: 52px !important; padding: 8px 12px !important; }
+    .word-row-name { font-size: 17px; }
+    .word-row-zh { font-size: 13px; }
+
+    /* slimmer bottom tabs */
+    body { padding-bottom: calc(52px + env(safe-area-inset-bottom, 0px)); transition: padding-bottom 0.25s ease; }
+    .mobile-tabbar { height: calc(52px + env(safe-area-inset-bottom, 0px)); transition: transform 0.25s ease; }
+    .mtab { min-height: 50px; font-size: 11px; gap: 1px; }
+    .mtab-ico { font-size: 19px; }
+    .mtab-badge { top: 3px; }
+
+    /* auto-hide while scrolling down (body.fx-immersive set by features.js) */
+    body.fx-immersive header { margin-top: calc(-1 * var(--fx-hdr-h, 56px)); opacity: 0; pointer-events: none; }
+    body.fx-immersive .search-container .pos-filters,
+    body.fx-immersive .search-container .fx-overview-btn { display: none !important; }
+    body.fx-immersive .mobile-tabbar { transform: translateY(110%); }
+    body.fx-immersive { padding-bottom: env(safe-area-inset-bottom, 0px); }
+    .level-loading, .fx-update-bar { bottom: calc(64px + env(safe-area-inset-bottom, 0px)); }
+}
+@media (max-width: 768px) {
+    /* word page: drop the chapter banner (chapter is in the ☰ drawer) and slim the back bar */
+    .app-container.mobile-show-details #collapsible-chapter-banner-container { display: none !important; }
+    .mobile-back-bar { padding: 4px 10px !important; }
+    .mobile-back-btn { min-height: 40px; }
+    .codex-header-card { padding: 12px 16px !important; gap: 8px !important; }
+    .codex-word-text { font-size: 30px !important; }
+    .codex-header-actions { gap: 8px; }
+    .codex-header-actions .share-word-btn, .codex-header-actions .mastery-card-toggle { min-height: 40px; padding-top: 6px !important; padding-bottom: 6px !important; }
+    .codex-tab { padding: 10px 12px !important; }
+    body.fx-immersive .mobile-back-bar { display: none !important; }
+}
